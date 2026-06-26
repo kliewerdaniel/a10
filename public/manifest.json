@@ -1,0 +1,21 @@
+{
+  "name": "Sovereign AI — Build Intelligence You Own",
+  "short_name": "Sovereign AI",
+  "description": "The complete guide to building local-first AI systems. Run LLMs on your hardware, keep your data private, and eliminate cloud dependence.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#06060B",
+  "theme_color": "#6366F1",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

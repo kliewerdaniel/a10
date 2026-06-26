@@ -1,26 +1,222 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-cream: #EFE9D9;
+  --color-cream-2: #E4DCC4;
+  --color-green: #1F8A4C;
+  --color-green-dark: #136636;
+  --color-pink: #F06CA8;
+  --color-pink-dark: #D14E8B;
+  --color-orange: #E85A1F;
+  --color-yellow: #F5C518;
+  --color-ink: #0F0F0F;
+  --color-ink-2: #2A2A2A;
+  --color-ink-3: #555555;
+  --color-background: #EFE9D9;
+  --color-foreground: #0F0F0F;
+  --color-surface: #E4DCC4;
+  --color-surface-light: #D8CEAA;
+  --color-muted: #555555;
+  --color-border: #0F0F0F;
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-mono: var(--font-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-body), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
+
+::selection {
+  background: rgba(240, 108, 168, 0.35);
+  color: #0F0F0F;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #EFE9D9; }
+::-webkit-scrollbar-thumb { background: #0F0F0F; border-radius: 2px; }
+
+/* ========== TYPOGRAPHY ========== */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display), 'Arial Black', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+.font-display { font-family: var(--font-display), 'Arial Black', sans-serif; }
+
+.mono {
+  font-family: var(--font-mono), monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.75rem;
+}
+
+/* ========== POINTILLISM PATTERNS ========== */
+
+.dot-pattern {
+  background-image: radial-gradient(circle, rgba(15,15,15,0.06) 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+.dot-pattern-dense {
+  background-image: radial-gradient(circle, rgba(15,15,15,0.04) 1px, transparent 1px);
+  background-size: 8px 8px;
+}
+
+/* Colored dot patterns */
+.dot-green {
+  background-image: radial-gradient(circle, rgba(31, 138, 76, 0.12) 1.5px, transparent 1.5px);
+  background-size: 12px 12px;
+}
+
+.dot-pink {
+  background-image: radial-gradient(circle, rgba(240, 108, 168, 0.12) 1.5px, transparent 1.5px);
+  background-size: 12px 12px;
+}
+
+.dot-orange {
+  background-image: radial-gradient(circle, rgba(232, 90, 31, 0.1) 1.5px, transparent 1.5px);
+  background-size: 12px 12px;
+}
+
+.dot-yellow {
+  background-image: radial-gradient(circle, rgba(245, 197, 24, 0.1) 1.5px, transparent 1.5px);
+  background-size: 12px 12px;
+}
+
+/* Multi-color pointillism layer */
+.pointillism-layer {
+  background:
+    radial-gradient(circle, rgba(31, 138, 76, 0.06) 1px, transparent 1px) 0 0 / 20px 20px,
+    radial-gradient(circle, rgba(240, 108, 168, 0.05) 1px, transparent 1px) 4px 4px / 20px 20px,
+    radial-gradient(circle, rgba(232, 90, 31, 0.04) 1px, transparent 1px) 8px 2px / 20px 20px,
+    radial-gradient(circle, rgba(245, 197, 24, 0.03) 1px, transparent 1px) 2px 8px / 20px 20px;
+}
+
+/* Glazing layers */
+.glaze-green {
+  background: linear-gradient(135deg, rgba(31, 138, 76, 0.06) 0%, transparent 50%, rgba(31, 138, 76, 0.03) 100%);
+}
+
+.glaze-pink {
+  background: linear-gradient(135deg, rgba(240, 108, 168, 0.06) 0%, transparent 50%, rgba(240, 108, 168, 0.03) 100%);
+}
+
+.glaze-orange {
+  background: linear-gradient(135deg, rgba(232, 90, 31, 0.05) 0%, transparent 50%, rgba(232, 90, 31, 0.02) 100%);
+}
+
+/* Combined glaze */
+.glaze-all {
+  background:
+    linear-gradient(160deg, rgba(31, 138, 76, 0.04) 0%, transparent 40%),
+    linear-gradient(200deg, rgba(240, 108, 168, 0.04) 0%, transparent 40%),
+    linear-gradient(240deg, rgba(232, 90, 31, 0.03) 0%, transparent 40%);
+}
+
+/* ========== COMPONENT STYLES ========== */
+
+/* Card with bold black border — Creative Mode style */
+.card-creative {
+  position: relative;
+  background: #EFE9D9;
+  border: 4px solid #0F0F0F;
+  border-radius: 0;
+  overflow: hidden;
+  box-shadow: 8px 8px 0 #0F0F0F;
+  transition: all 0.2s ease;
+}
+
+.card-creative:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 10px 10px 0 #0F0F0F;
+}
+
+/* Legacy card-pointillist — now uses Creative Mode style */
+.card-pointillist {
+  position: relative;
+  background: #EFE9D9;
+  border: 4px solid #0F0F0F;
+  border-radius: 0;
+  overflow: hidden;
+  box-shadow: 8px 8px 0 #0F0F0F;
+  transition: all 0.2s ease;
+}
+
+.card-pointillist:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 10px 10px 0 #0F0F0F;
+}
+
+/* Glass navbar */
+.glass {
+  background: rgba(239, 233, 217, 0.92);
+  backdrop-filter: blur(16px);
+  border-bottom: 4px solid #0F0F0F;
+}
+
+/* ========== BLOG CONTENT ========== */
+
+.blog-content { font-size: 1.05rem; line-height: 1.85; }
+.blog-content h1 { font-size: 2.25rem; font-weight: 400; margin-top: 2.5rem; margin-bottom: 1.25rem; }
+.blog-content h2 { font-size: 1.75rem; font-weight: 400; margin-top: 2.25rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 4px solid #0F0F0F; }
+.blog-content h3 { font-size: 1.375rem; font-weight: 400; margin-top: 1.75rem; margin-bottom: 0.75rem; }
+.blog-content p { margin-bottom: 1.25rem; color: #2A2A2A; }
+.blog-content a { color: #1F8A4C; text-decoration: underline; text-underline-offset: 3px; font-weight: 700; }
+.blog-content a:hover { color: #E85A1F; }
+.blog-content ul { list-style-type: disc; padding-left: 1.5rem; margin-bottom: 1.25rem; }
+.blog-content ol { list-style-type: decimal; padding-left: 1.5rem; margin-bottom: 1.25rem; }
+.blog-content li { margin-bottom: 0.5rem; color: #2A2A2A; }
+.blog-content li::marker { color: #E85A1F; }
+.blog-content blockquote { border-left: 6px solid #E85A1F; padding: 1rem 1.25rem; margin: 1.75rem 0; background: rgba(232, 90, 31, 0.06); font-style: italic; color: #555; }
+.blog-content code { background: #E4DCC4; padding: 0.15rem 0.45rem; font-family: var(--font-mono), monospace; font-size: 0.875rem; color: #E85A1F; border: 2px solid #0F0F0F; }
+.blog-content pre { margin: 1.5rem 0; }
+.blog-content pre code { background: none; padding: 0; color: #EFE9D9; border: none; }
+.blog-content img { border: 4px solid #0F0F0F; margin: 1.75rem 0; max-width: 100%; box-shadow: 8px 8px 0 #0F0F0F; }
+.blog-content hr { border: none; height: 4px; background: #0F0F0F; margin: 2.5rem 0; }
+.blog-content table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.95rem; }
+.blog-content th { background: #0F0F0F; color: #EFE9D9; font-family: var(--font-mono), monospace; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.1em; padding: 0.75rem 1rem; text-align: left; border: 2px solid #0F0F0F; }
+.blog-content td { padding: 0.75rem 1rem; border: 2px solid #0F0F0F; background: #EFE9D9; }
+.blog-content tr:hover td { background: #E4DCC4; }
+.blog-content strong { color: #0F0F0F; }
+.blog-content em { color: #555; }
+
+/* Smooth scroll anchor offset for fixed navbar */
+.blog-content [id] { scroll-margin-top: 6rem; }
+
+/* Focus visible styles for accessibility */
+:focus-visible { outline: 4px solid #1F8A4C; outline-offset: 2px; }
+button:focus-visible { outline: 4px solid #1F8A4C; outline-offset: 2px; }
+
+/* ========== ACCENT BADGES ========== */
+
+.accent-green { color: #1F8A4C; }
+.accent-pink { color: #F06CA8; }
+.accent-orange { color: #E85A1F; }
+.accent-yellow { color: #F5C518; }
+
+/* ========== ANIMATIONS ========== */
+
+@keyframes float-dot {
+  0%, 100% { transform: translateY(0) rotate(0deg); opacity: 0.6; }
+  50% { transform: translateY(-20px) rotate(180deg); opacity: 1; }
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.5); }
+}
+
+.animate-float { animation: float-dot 6s ease-in-out infinite; }
+.animate-pulse-dot { animation: pulse-dot 2s ease-in-out infinite; }
