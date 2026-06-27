@@ -90,7 +90,7 @@ export function Navbar() {
         </div>
 
         {isOpen && (
-          <div className="md:hidden mt-4 pb-4 border-t-4 border-ink">
+          <div className="md:hidden mt-4 pb-4 border-t-4 border-ink bg-cream">
             <div className="flex flex-col gap-1 pt-4">
               {navLinks.map((link) => (
                 <Link
