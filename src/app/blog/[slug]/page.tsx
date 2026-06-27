@@ -6,6 +6,7 @@ import { Badge } from '@/components/ui/Card';
 import { ReadingProgress } from '@/components/ui/ReadingProgress';
 import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 import { CodeBlock } from '@/components/ui/CodeBlock';
 
 interface Props {
@@ -87,6 +88,7 @@ export default async function BlogPostPage({ params }: Props) {
 
         <div className="blog-content">
           <ReactMarkdown
+            rehypePlugins={[rehypeRaw]}
             components={{
               code({ className, children, ...props }) {
                 const match = /language-(\w+)/.exec(className || '');
