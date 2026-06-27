@@ -92,8 +92,7 @@ export default function ProjectsPage() {
               href="https://github.com/kliewerdaniel?tab=repositories"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-cream text-ink font-bold border-4 border-ink hover:bg-surface transition-colors"
-              style={{ boxShadow: '4px 4px 0 #0F0F0F' }}
+              className="inline-flex items-center gap-2 px-6 py-3 bg-cream text-ink font-bold border-4 border-ink hover:bg-surface transition-colors shadow-brutalist-sm"
             >
               View All 222 Repositories on GitHub ↗
             </a>

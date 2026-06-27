@@ -6,7 +6,7 @@ const BOOK_URL = 'https://www.amazon.com/dp/B0H6RB7D9J';
 export function BookCTA({ variant = 'banner' }: { variant?: 'banner' | 'inline' }) {
   if (variant === 'inline') {
     return (
-      <div className="my-8 p-5 border-4 border-ink bg-cream relative overflow-hidden" style={{ boxShadow: '6px 6px 0 #0F0F0F' }}>
+      <div className="my-8 p-5 border-4 border-ink bg-cream relative overflow-hidden shadow-brutalist">
         <div className="absolute inset-0 dot-green opacity-30 pointer-events-none" />
         <div className="flex flex-col sm:flex-row items-center gap-4 relative z-10">
           <div className="flex-shrink-0 w-14 h-20 border-4 border-ink bg-white overflow-hidden relative">
@@ -28,8 +28,7 @@ export function BookCTA({ variant = 'banner' }: { variant?: 'banner' | 'inline' 
             href={BOOK_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-shrink-0 inline-flex items-center gap-2 px-5 py-2.5 bg-green text-cream font-bold border-4 border-ink hover:bg-green-dark transition-all text-sm"
-            style={{ boxShadow: '4px 4px 0 #0F0F0F' }}
+            className="flex-shrink-0 inline-flex items-center gap-2 px-5 py-2.5 bg-green text-cream font-bold border-4 border-ink hover:bg-green-dark transition-all text-sm shadow-brutalist-sm"
           >
             Get the Book — $88
           </a>
@@ -39,7 +38,7 @@ export function BookCTA({ variant = 'banner' }: { variant?: 'banner' | 'inline' 
   }
 
   return (
-    <div className="my-8 sm:my-12 p-5 sm:p-8 md:p-10 border-4 border-ink bg-cream relative overflow-hidden" style={{ boxShadow: '12px 12px 0 #0F0F0F' }}>
+    <div className="my-8 sm:my-12 p-5 sm:p-8 md:p-10 border-4 border-ink bg-cream relative overflow-hidden shadow-brutalist-xl">
       <div className="absolute inset-0 pointillism-layer opacity-60 pointer-events-none" />
       <div className="absolute inset-0 glaze-all pointer-events-none" />
 
@@ -67,15 +66,13 @@ export function BookCTA({ variant = 'banner' }: { variant?: 'banner' | 'inline' 
               href={BOOK_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2.5 px-8 py-4 bg-green text-cream font-display border-4 border-ink hover:bg-green-dark transition-all text-base"
-              style={{ boxShadow: '6px 6px 0 #0F0F0F' }}
+              className="inline-flex items-center justify-center gap-2.5 px-8 py-4 bg-green text-cream font-display border-4 border-ink hover:bg-green-dark transition-all text-base shadow-brutalist"
             >
               Buy on Amazon — $88
             </a>
             <Link
               href="/book"
-              className="inline-flex items-center justify-center gap-2 px-6 py-4 bg-cream text-ink font-bold border-4 border-ink hover:bg-surface transition-all"
-              style={{ boxShadow: '6px 6px 0 #0F0F0F' }}
+              className="inline-flex items-center justify-center gap-2 px-6 py-4 bg-cream text-ink font-bold border-4 border-ink hover:bg-surface transition-all shadow-brutalist"
             >
               See Inside
             </Link>

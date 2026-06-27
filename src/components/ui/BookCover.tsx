@@ -9,8 +9,7 @@ export function BookCover({ size = 'lg' }: { size?: 'sm' | 'md' | 'lg' }) {
   return (
     <a href={BOOK_URL} target="_blank" rel="noopener noreferrer" className="block group">
       <div
-        className={`${dims} border-4 border-ink bg-white overflow-hidden relative transition-transform duration-300 group-hover:scale-105`}
-        style={{ boxShadow: '12px 12px 0 #0F0F0F' }}
+        className={`${dims} border-4 border-ink bg-white overflow-hidden relative transition-transform duration-300 group-hover:scale-105 shadow-brutalist-xl`}
       >
         <Image
           src="/SovereignAI_300dpi.png"

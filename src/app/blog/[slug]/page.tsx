@@ -81,7 +81,7 @@ export default async function BlogPostPage({ params }: Props) {
         <BookCTA variant="inline" />
 
         {post.image && (
-          <div className="my-8 border-4 border-ink overflow-hidden" style={{ boxShadow: '8px 8px 0 #0F0F0F' }}>
+          <div className="my-8 border-4 border-ink overflow-hidden shadow-brutalist-lg">
             <img src={post.image} alt={post.title} className="w-full h-auto" />
           </div>
         )}

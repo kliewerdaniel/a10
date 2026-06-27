@@ -61,8 +61,7 @@ export default function ContactPage() {
             </div>
             <button
               type="submit"
-              className="w-full px-6 py-3.5 bg-green text-cream font-bold border-4 border-ink hover:bg-green-dark transition-colors cursor-pointer"
-              style={{ boxShadow: '4px 4px 0 #0F0F0F' }}
+              className="w-full px-6 py-3.5 bg-green text-cream font-bold border-4 border-ink hover:bg-green-dark transition-colors cursor-pointer shadow-brutalist-sm"
             >
               Send Message
             </button>

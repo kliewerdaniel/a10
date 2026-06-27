@@ -18,7 +18,7 @@ export function CodeBlock({ code, language }: CodeBlockProps) {
   };
 
   return (
-    <div className="my-6 border-4 border-ink relative group" style={{ boxShadow: '6px 6px 0 #0F0F0F' }}>
+    <div className="my-6 border-4 border-ink relative group shadow-brutalist">
       {/* Header bar */}
       <div className="flex items-center justify-between px-4 py-2 bg-ink border-b-4 border-ink">
         <span className="mono text-[10px] text-cream/60">{language}</span>

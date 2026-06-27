@@ -27,7 +27,7 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-10">
             <div className="flex-shrink-0 relative">
-              <div className="w-36 h-36 border-4 border-ink overflow-hidden relative" style={{ boxShadow: '8px 8px 0 #0F0F0F' }}>
+              <div className="w-36 h-36 border-4 border-ink overflow-hidden relative shadow-brutalist-lg">
                 <Image
                   src="/images/profile.jpeg"
                   alt="Daniel Kliewer"

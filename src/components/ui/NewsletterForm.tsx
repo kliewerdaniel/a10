@@ -10,8 +10,7 @@ export function NewsletterForm() {
       />
       <button
         type="submit"
-        className="px-6 py-3 bg-green text-cream font-bold border-4 border-ink hover:bg-green-dark transition-colors cursor-pointer"
-        style={{ boxShadow: '4px 4px 0 #0F0F0F' }}
+        className="px-6 py-3 bg-green text-cream font-bold border-4 border-ink hover:bg-green-dark transition-colors cursor-pointer shadow-brutalist-sm"
       >
         Subscribe
       </button>

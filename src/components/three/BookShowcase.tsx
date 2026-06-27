@@ -77,7 +77,7 @@ function BookModel() {
 
 const bookFallback = (
   <div className="w-full h-[400px] md:h-[500px] flex items-center justify-center">
-    <div className="w-48 h-64 bg-surface border-4 border-ink flex items-center justify-center" style={{ boxShadow: '12px 12px 0 #0F0F0F' }}>
+    <div className="w-48 h-64 bg-surface border-4 border-ink flex items-center justify-center shadow-brutalist-xl">
       <div className="grid grid-cols-5 gap-1">
         {Array.from({ length: 25 }).map((_, i) => {
           const colors = ['bg-green', 'bg-pink', 'bg-orange', 'bg-yellow'];

@@ -81,7 +81,7 @@ export default function BookPage() {
           </div>
           <div className="space-y-3">
             {chapters.map((ch) => (
-              <div key={ch.num} className="flex gap-4 p-5 border-4 border-ink bg-cream transition-all group" style={{ boxShadow: '6px 6px 0 #0F0F0F' }}>
+              <div key={ch.num} className="flex gap-4 p-5 border-4 border-ink bg-cream transition-all group shadow-brutalist">
                 <div className="flex-shrink-0 w-11 h-11 bg-pink border-4 border-ink flex items-center justify-center group-hover:bg-pink-dark transition-colors">
                   <span className="text-cream font-bold text-sm">{ch.num}</span>
                 </div>

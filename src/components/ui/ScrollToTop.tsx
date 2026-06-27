@@ -17,7 +17,7 @@ export function ScrollToTop() {
     <button
       onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       className="fixed bottom-6 right-6 z-50 w-12 h-12 bg-ink text-cream border-4 border-ink flex items-center justify-center hover:bg-ink-2 transition-colors cursor-pointer"
-      style={{ boxShadow: '4px 4px 0 #EFE9D9' }}
+      style={{ boxShadow: '4px 4px 0 var(--color-base)' }}
       aria-label="Scroll to top"
     >
       <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
