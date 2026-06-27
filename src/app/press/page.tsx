@@ -219,7 +219,7 @@ export default function PressPage() {
           <h2 className="font-display text-3xl mb-8">Previous Talks & Interviews</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <Card><h3 className="font-display text-ink mb-2">Videos</h3><p className="text-ink-3 font-bold text-sm">Coming soon.</p></Card>
-            <Card><h3 className="font-display text-ink mb-2">Podcasts</h3><p className="text-ink-3 font-bold text-sm">Coming soon.</p></Card>
+            <Card><h3 className="font-display text-ink mb-2">Podcasts</h3><p className="text-ink-3 font-bold text-sm mb-3">Interview about Sovereign AI</p><a href="/interviewSovereignAI.mp3" download className="mono text-sm accent-green hover:text-green-dark font-bold transition-colors">Download Interview ↓</a></Card>
             <Card><h3 className="font-display text-ink mb-2">Conference Talks</h3><p className="text-ink-3 font-bold text-sm">Coming soon.</p></Card>
             <Card><h3 className="font-display text-ink mb-2">Blog Articles</h3><p className="text-ink-3 font-bold text-sm">Coming soon.</p></Card>
             <Card><h3 className="font-display text-ink mb-2">GitHub Projects</h3><p className="text-ink-3 font-bold text-sm">222+ repositories on GitHub.</p></Card>
