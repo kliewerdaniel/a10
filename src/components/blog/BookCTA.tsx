@@ -39,11 +39,11 @@ export function BookCTA({ variant = 'banner' }: { variant?: 'banner' | 'inline' 
   }
 
   return (
-    <div className="my-12 p-8 md:p-10 border-4 border-ink bg-cream relative overflow-hidden" style={{ boxShadow: '12px 12px 0 #0F0F0F' }}>
+    <div className="my-8 sm:my-12 p-5 sm:p-8 md:p-10 border-4 border-ink bg-cream relative overflow-hidden" style={{ boxShadow: '12px 12px 0 #0F0F0F' }}>
       <div className="absolute inset-0 pointillism-layer opacity-60 pointer-events-none" />
       <div className="absolute inset-0 glaze-all pointer-events-none" />
 
-      <div className="flex flex-col md:flex-row items-center gap-8 relative z-10">
+      <div className="flex flex-col md:flex-row items-center gap-6 sm:gap-8 relative z-10">
         <div className="flex-shrink-0 w-44 h-60 border-4 border-ink bg-white overflow-hidden relative">
           <Image
             src="/SovereignAI_300dpi.png"

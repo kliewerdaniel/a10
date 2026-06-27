@@ -14,7 +14,7 @@ export interface BlogPost {
   tags: string[];
   image: string;
   bookReference: boolean;
-  wikiReferences: string[];
+
   readingTime: string;
   content: string;
 }
@@ -39,7 +39,7 @@ export function getAllBlogPosts(): BlogPost[] {
       tags: data.tags || [],
       image: data.image || '/images/placeholder.png',
       bookReference: data.book_reference || false,
-      wikiReferences: data.wiki_references || [],
+
       readingTime: stats.text.replace('min read', 'min'),
       content,
     };
@@ -68,7 +68,6 @@ export function getBlogPost(slug: string): BlogPost | null {
     tags: data.tags || [],
     image: data.image || '/images/placeholder.png',
     bookReference: data.book_reference || false,
-    wikiReferences: data.wiki_references || [],
     readingTime: stats.text.replace('min read', 'min'),
     content,
   };

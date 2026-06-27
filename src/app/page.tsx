@@ -42,37 +42,37 @@ export default function Home() {
       {/* Hero */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <HeroBackground />
-        <div className="relative z-10 max-w-5xl mx-auto px-4 text-center">
-          <div className="mb-8">
-            <span className="mono inline-flex items-center gap-2.5 px-5 py-2.5 bg-cream border-4 border-ink text-ink text-sm backdrop-blur-sm" style={{ boxShadow: '4px 4px 0 #0F0F0F' }}>
+        <div className="relative z-10 max-w-5xl mx-auto px-5 text-center">
+          <div className="mb-6 sm:mb-8">
+            <span className="mono inline-flex items-center gap-2 px-3 sm:px-5 py-2 sm:py-2.5 bg-cream border-4 border-ink text-ink text-xs sm:text-sm backdrop-blur-sm" style={{ boxShadow: '4px 4px 0 #0F0F0F' }}>
               <span className="w-2 h-2 rounded-full bg-green animate-pulse" />
               Available Now on Amazon
             </span>
           </div>
 
-          <h1 className="font-display text-6xl md:text-[5.5rem] mb-6 tracking-tighter leading-[0.85]">
+          <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-[5.5rem] mb-4 sm:mb-6 tracking-tighter leading-[0.85]">
             <span className="text-ink">Stop Renting</span>
             <br />
             <span className="accent-green">Intelligence.</span>
           </h1>
 
-          <p className="text-xl md:text-2xl text-ink-3 mb-4 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-base sm:text-xl md:text-2xl text-ink-3 mb-3 sm:mb-4 max-w-3xl mx-auto leading-relaxed">
             Build AI that runs on <span className="text-ink font-bold">your hardware</span>,
             keeps <span className="text-ink font-bold">your data</span> private, and
             answers only to <span className="text-ink font-bold">you</span>.
           </p>
-          <p className="text-base text-ink-3/60 mb-10">
+          <p className="text-sm sm:text-base text-ink-3/60 mb-8 sm:mb-10">
             The practical guide by <Link href="/about" className="accent-green font-bold transition-colors hover:text-green-dark">Daniel Kliewer</Link>
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <BookButton size="lg" />
             <Button href="/book" variant="secondary" size="lg">
               See What&apos;s Inside
             </Button>
           </div>
 
-          <div className="mt-16 flex flex-col sm:flex-row items-center justify-center gap-8 text-sm text-ink-3 font-bold">
+          <div className="mt-10 sm:mt-16 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 text-xs sm:text-sm text-ink-3 font-bold">
             <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-green" />72 Pages</div>
             <div className="w-1 h-1 rounded-full bg-ink hidden sm:block" />
             <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-pink" />11 Chapters</div>
@@ -81,7 +81,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
+        <div className="absolute bottom-6 sm:bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
           <div className="w-6 h-10 border-4 border-ink bg-cream flex justify-center pt-2">
             <div className="w-1 h-2.5 rounded-full bg-ink animate-pulse" />
           </div>
@@ -89,21 +89,21 @@ export default function Home() {
       </section>
 
       {/* Problem */}
-      <section className="py-24 px-4 relative">
+      <section className="py-16 sm:py-24 px-5 relative">
         <div className="absolute inset-0 dot-pattern opacity-20 pointer-events-none" />
         <div className="max-w-6xl mx-auto relative">
-          <div className="text-center mb-16">
-            <span className="mono text-green text-xs mb-4 block">The Problem</span>
-            <h2 className="font-display text-4xl md:text-5xl mb-5">You Don&apos;t Own Your AI</h2>
-            <p className="text-ink-3 max-w-2xl mx-auto text-lg">
+          <div className="text-center mb-10 sm:mb-16">
+            <span className="mono text-green text-xs mb-3 sm:mb-4 block">The Problem</span>
+            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl mb-4 sm:mb-5">You Don&apos;t Own Your AI</h2>
+            <p className="text-ink-3 max-w-2xl mx-auto text-base sm:text-lg">
               Every prompt you send to the cloud is a transfer of control. Here&apos;s what that costs you.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
             {problems.map((p) => (
               <Card key={p.title}>
-                <div className={`text-2xl mb-4 ${p.color}`}>{p.icon}</div>
-                <h3 className="font-display text-lg mb-2 text-ink">{p.title}</h3>
+                <div className={`text-2xl mb-3 sm:mb-4 ${p.color}`}>{p.icon}</div>
+                <h3 className="font-display text-base sm:text-lg mb-2 text-ink">{p.title}</h3>
                 <p className="text-sm text-ink-3 leading-relaxed">{p.text}</p>
               </Card>
             ))}
@@ -112,21 +112,21 @@ export default function Home() {
       </section>
 
       {/* Solution */}
-      <section className="py-24 px-4 bg-surface relative">
+      <section className="py-16 sm:py-24 px-5 bg-surface relative">
         <div className="absolute inset-0 pointillism-layer opacity-30 pointer-events-none" />
         <div className="max-w-6xl mx-auto relative">
-          <div className="text-center mb-16">
-            <span className="mono text-pink text-xs mb-4 block">The Solution</span>
-            <h2 className="font-display text-4xl md:text-5xl mb-5">Build Intelligence You Own</h2>
-            <p className="text-ink-3 max-w-2xl mx-auto text-lg">
+          <div className="text-center mb-10 sm:mb-16">
+            <span className="mono text-pink text-xs mb-3 sm:mb-4 block">The Solution</span>
+            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl mb-4 sm:mb-5">Build Intelligence You Own</h2>
+            <p className="text-ink-3 max-w-2xl mx-auto text-base sm:text-lg">
               Sovereign AI teaches you the complete local stack — from running models to deploying systems. No cloud.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
             {solutions.map((s) => (
               <Card key={s.title}>
-                <div className={`text-2xl mb-4 ${s.color}`}>{s.icon}</div>
-                <h3 className="font-display text-lg mb-2 text-ink">{s.title}</h3>
+                <div className={`text-2xl mb-3 sm:mb-4 ${s.color}`}>{s.icon}</div>
+                <h3 className="font-display text-base sm:text-lg mb-2 text-ink">{s.title}</h3>
                 <p className="text-sm text-ink-3 leading-relaxed">{s.desc}</p>
               </Card>
             ))}
@@ -135,25 +135,25 @@ export default function Home() {
       </section>
 
       {/* Book CTA */}
-      <section className="py-24 px-4 relative">
+      <section className="py-16 sm:py-24 px-5 relative">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-14">
-            <span className="mono text-orange text-xs mb-4 block">The Book</span>
-            <h2 className="font-display text-4xl md:text-5xl">Everything You Need</h2>
+          <div className="text-center mb-10 sm:mb-14">
+            <span className="mono text-orange text-xs mb-3 sm:mb-4 block">The Book</span>
+            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl">Everything You Need</h2>
           </div>
           <BookCTA />
         </div>
       </section>
 
       {/* What's Inside */}
-      <section className="py-24 px-4 bg-surface relative">
+      <section className="py-16 sm:py-24 px-5 bg-surface relative">
         <div className="absolute inset-0 dot-pattern-dense opacity-15 pointer-events-none" />
         <div className="max-w-6xl mx-auto relative">
-          <div className="text-center mb-14">
-            <span className="mono text-green text-xs mb-4 block">Inside</span>
-            <h2 className="font-display text-4xl md:text-5xl">What You&apos;ll Learn</h2>
+          <div className="text-center mb-10 sm:mb-14">
+            <span className="mono text-green text-xs mb-3 sm:mb-4 block">Inside</span>
+            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl">What You&apos;ll Learn</h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
             {[
               { t: 'Local LLMs', d: 'Ollama, llama.cpp, quantized models' },
               { t: 'RAG Pipelines', d: 'ChromaDB, local embeddings' },
@@ -165,7 +165,7 @@ export default function Home() {
               { t: 'RLHF & Eval', d: 'Fine-tuning and measurement' },
               { t: 'Security', d: 'Production privacy practices' },
             ].map((item) => (
-              <div key={item.t} className="flex items-start gap-3 p-4 border-4 border-ink bg-cream">
+              <div key={item.t} className="flex items-start gap-3 p-3 sm:p-4 border-4 border-ink bg-cream">
                 <span className="w-2 h-2 rounded-full bg-pink mt-1.5 flex-shrink-0" />
                 <div>
                   <h4 className="font-display text-ink text-sm">{item.t}</h4>
@@ -178,42 +178,42 @@ export default function Home() {
       </section>
 
       {/* Projects */}
-      <section className="py-24 px-4 relative">
+      <section className="py-16 sm:py-24 px-5 relative">
         <div className="max-w-6xl mx-auto">
-          <div className="flex items-end justify-between mb-10">
+          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8 sm:mb-10">
             <div>
-              <span className="mono text-orange text-xs mb-4 block">Open Source</span>
-              <h2 className="font-display text-4xl">Projects</h2>
+              <span className="mono text-orange text-xs mb-3 sm:mb-4 block">Open Source</span>
+              <h2 className="font-display text-3xl sm:text-4xl">Projects</h2>
             </div>
             <Button href="https://github.com/kliewerdaniel" external variant="secondary" size="sm">All 222 Repos →</Button>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {featuredProjects.map((p) => <ProjectCard key={p.name} {...p} />)}
           </div>
         </div>
       </section>
 
       {/* Blog */}
-      <section className="py-24 px-4 bg-surface relative">
+      <section className="py-16 sm:py-24 px-5 bg-surface relative">
         <div className="absolute inset-0 pointillism-layer opacity-20 pointer-events-none" />
         <div className="max-w-6xl mx-auto relative">
-          <div className="flex items-end justify-between mb-10">
+          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8 sm:mb-10">
             <div>
-              <span className="mono text-pink text-xs mb-4 block">Blog</span>
-              <h2 className="font-display text-4xl">Deep Dives</h2>
+              <span className="mono text-pink text-xs mb-3 sm:mb-4 block">Blog</span>
+              <h2 className="font-display text-3xl sm:text-4xl">Deep Dives</h2>
             </div>
             <Button href="/blog" variant="secondary" size="sm">All Posts →</Button>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
             {latestPosts.map((post) => (
-              <Link key={post.slug} href={`/blog/${post.slug}`} className="group block card-pointillist p-6 transition-all duration-200">
-                <div className="flex items-center gap-3 mb-4 text-sm text-ink-3 font-bold">
+              <Link key={post.slug} href={`/blog/${post.slug}`} className="group block card-pointillist p-5 sm:p-6 transition-all duration-200">
+                <div className="flex items-center gap-3 mb-3 sm:mb-4 text-sm text-ink-3 font-bold">
                   <time>{new Date(post.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</time>
                 </div>
-                <h3 className="font-display text-xl mb-3 group-hover:text-pink transition-colors leading-snug">{post.title}</h3>
-                <p className="text-sm text-ink-3 mb-4 line-clamp-2 leading-relaxed">{post.description}</p>
+                <h3 className="font-display text-lg sm:text-xl mb-2 sm:mb-3 group-hover:text-pink transition-colors leading-snug">{post.title}</h3>
+                <p className="text-sm text-ink-3 mb-3 sm:mb-4 line-clamp-2 leading-relaxed">{post.description}</p>
                 <div className="flex flex-wrap gap-1.5">
-                  {post.tags.map((t) => <span key={t} className="mono px-2.5 py-0.5 text-xs bg-cream border-2 border-ink text-ink font-bold">{t}</span>)}
+                  {post.tags.map((t) => <span key={t} className="mono px-2 py-0.5 text-xs bg-cream border-2 border-ink text-ink font-bold">{t}</span>)}
                 </div>
               </Link>
             ))}
@@ -222,17 +222,16 @@ export default function Home() {
       </section>
 
       {/* CTA */}
-      <section className="py-24 px-4 relative overflow-hidden">
+      <section className="py-16 sm:py-24 px-5 relative overflow-hidden">
         <div className="absolute inset-0 glaze-all pointer-events-none" />
         <div className="max-w-2xl mx-auto text-center relative">
-          <span className="mono text-green text-xs mb-4 block">Ready?</span>
-          <h2 className="font-display text-4xl mb-5">Your AI. Your Rules.</h2>
-          <p className="text-ink-3 mb-10 text-lg">Get the book. Clone a project. Build today.</p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+          <span className="mono text-green text-xs mb-3 sm:mb-4 block">Ready?</span>
+          <h2 className="font-display text-3xl sm:text-4xl mb-4 sm:mb-5">Your AI. Your Rules.</h2>
+          <p className="text-ink-3 mb-8 sm:mb-10 text-base sm:text-lg">Get the book. Clone a project. Build today.</p>
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <BookButton size="lg" />
             <Button href="/blog" variant="secondary" size="lg">Start with a Tutorial</Button>
           </div>
-
         </div>
       </section>
     </>

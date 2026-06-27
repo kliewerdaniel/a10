@@ -114,23 +114,6 @@ export default async function BlogPostPage({ params }: Props) {
 
         <BookCTA />
 
-        {post.wikiReferences.length > 0 && (
-          <div className="mt-8 p-6 border-4 border-ink bg-cream">
-            <h3 className="font-display mb-3">Related Wiki Entries</h3>
-            <div className="flex flex-wrap gap-2">
-              {post.wikiReferences.map((ref) => (
-                <Link
-                  key={ref}
-                  href={`/wiki/${ref}`}
-                  className="mono px-3 py-1.5 bg-surface border-2 border-ink text-sm accent-green hover:bg-surface transition-colors"
-                >
-                  {ref.replace(/-/g, ' ')}
-                </Link>
-              ))}
-            </div>
-          </div>
-        )}
-
         <div className="mt-10 text-center">
           <Link href="/blog" className="accent-green hover:text-green-dark font-bold transition-colors">
             ← Back to all posts

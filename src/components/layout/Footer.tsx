@@ -47,7 +47,7 @@ export function Footer() {
           <div>
             <h3 className="font-display text-ink mb-5 text-xs">Navigate</h3>
             <ul className="space-y-3">
-              {[{ href: '/', label: 'Home' }, { href: '/book', label: 'The Book' }, { href: '/blog', label: 'Blog' }, { href: '/wiki', label: 'Wiki' }].map((l) => (
+              {[{ href: '/', label: 'Home' }, { href: '/book', label: 'The Book' }, { href: '/blog', label: 'Blog' }].map((l) => (
                 <li key={l.href}><Link href={l.href} className="text-sm text-ink-3 hover:text-ink transition-colors font-bold">{l.label}</Link></li>
               ))}
             </ul>

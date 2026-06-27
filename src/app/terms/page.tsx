@@ -16,7 +16,7 @@ export default function TermsPage() {
           <div>
             <h2 className="font-display text-xl mb-3">Site Content</h2>
             <p>
-              The content on this site — blog posts, wiki entries, and project descriptions — is
+              The content on this site — blog posts, project descriptions, and code examples — is
               provided for informational purposes. Everything I write reflects my own experience
               and opinions. Your results will vary.
             </p>
