@@ -3,6 +3,7 @@ import { Archivo_Black, Space_Grotesk, JetBrains_Mono } from "next/font/google";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { ClientExtras } from "@/components/layout/ClientExtras";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const archivoBlack = Archivo_Black({
@@ -71,6 +72,7 @@ export default function RootLayout({
         </main>
         <Footer />
         <ClientExtras />
+        <Analytics />
       </body>
     </html>
   );
