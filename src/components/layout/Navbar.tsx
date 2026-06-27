@@ -8,6 +8,7 @@ const navLinks = [
   { href: '/book', label: 'Book' },
   { href: '/blog', label: 'Blog' },
   { href: '/projects', label: 'Projects' },
+  { href: '/press', label: 'Press' },
 ];
 
 const BOOK_URL = 'https://www.amazon.com/dp/B0H6RB7D9J';

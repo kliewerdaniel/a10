@@ -56,7 +56,7 @@ export function Footer() {
           <div>
             <h3 className="font-display text-ink mb-5 text-xs">Resources</h3>
             <ul className="space-y-3">
-              {[{ href: '/projects', label: 'GitHub Projects' }, { href: '/about', label: 'About Daniel' }].map((l) => (
+              {[{ href: '/projects', label: 'GitHub Projects' }, { href: '/about', label: 'About Daniel' }, { href: '/press', label: 'Press & Media' }].map((l) => (
                 <li key={l.href}><Link href={l.href} className="text-sm text-ink-3 hover:text-ink transition-colors font-bold">{l.label}</Link></li>
               ))}
             </ul>

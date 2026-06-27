@@ -45,6 +45,7 @@ export default function AboutPage() {
                 <a href="https://github.com/kliewerdaniel" target="_blank" rel="noopener noreferrer" className="text-sm accent-pink hover:text-pink-dark font-bold transition-colors">GitHub ↗</a>
                 <a href="https://www.linkedin.com/in/daniel-kliewer-42691944/" target="_blank" rel="noopener noreferrer" className="text-sm accent-green hover:text-green-dark font-bold transition-colors">LinkedIn ↗</a>
                 <a href="https://x.com/kliewer_daniel" target="_blank" rel="noopener noreferrer" className="text-sm accent-orange hover:text-orange font-bold transition-colors">X ↗</a>
+                <a href="mailto:danielkliewer@gmail.com" className="text-sm accent-green hover:text-green-dark font-bold transition-colors">Email ↗</a>
               </div>
             </div>
           </div>
