@@ -27,7 +27,7 @@ wiki_references: ["docker", "embeddings", "knowledge-graphs", "llama3", "local-i
 ---
 ![Image](/images/ComfyUI_00199_.png)
 
-[Github Link](https://github.com/kliewerdaniel/learn)
+
 
 **1️⃣ Introduction**
 

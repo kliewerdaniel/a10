@@ -27,7 +27,7 @@ wiki_references: ["docker", "embeddings", "knowledge-graphs", "llama3", "local-i
 ---
 ![Image](/images/ComfyUI_00198_.png)
 
-
+[Github Link](https://github.com/kliewerdaniel/learn)
 
 # Building a Personalized AI Learning System with Local LLMs
 
