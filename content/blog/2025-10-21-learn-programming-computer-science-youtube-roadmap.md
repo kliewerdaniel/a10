@@ -38,6 +38,7 @@ twitter:title: 'Learn Programming for Free: Complete YouTube Roadmap to Master C
 wiki_references: ["docker", "kubernetes", "python", "transformers"]
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2r0AEGca_0I?si=XxV7O8loBtlzubIu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Learn Programming for Free: Complete YouTube Roadmap to Master Computer Science (2025)
 
