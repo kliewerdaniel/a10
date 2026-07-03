@@ -166,7 +166,7 @@ prompt → model → tool call → result
 
 We start seeing:
 
-```
+```python
 agent → compiles execution graph → optimizes inference paths → rewrites runtime behavior → executes
 ```
 
