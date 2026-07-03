@@ -5,29 +5,29 @@ import { BookCTA } from '@/components/blog/BookCTA';
 
 export const metadata: Metadata = {
   title: 'Press & Media',
-  description: 'Press kit, interview materials, bios, and speaking information for Daniel Kliewer — author of Sovereign AI.',
+  description: 'Press kit, interview topics, bios, and speaking information for Daniel Kliewer — investigating architectures for computational sovereignty.',
 };
 
 const interviewTopics = [
-  'What "Sovereign AI" actually means',
-  'Why local AI matters',
-  'Open-source vs proprietary AI',
-  'Running LLMs on consumer hardware',
-  'Building practical RAG systems',
-  'AI memory architectures',
-  'Knowledge graphs and semantic search',
-  'Agentic AI beyond chatbots',
-  'Designing resilient AI systems',
-  'The future of AI ownership',
-  'Building AI products as a solo developer',
-  'Open-source AI ecosystems',
-  'Lessons learned writing Sovereign AI',
+  'The architectural meaning of computational sovereignty',
+  'Why local inference changes the design space for AI systems',
+  'Open-source models and proprietary infrastructure',
+  'Running LLMs on consumer hardware — what is actually possible',
+  'RAG architectures for production systems',
+  'Memory architectures for persistent intelligence',
+  'Knowledge graphs and graph-based reasoning',
+  'Agentic AI: architectures beyond chatbots',
+  'Designing resilient, inspectable AI systems',
+  'The future of AI ownership and control',
+  'Solo development in the AI ecosystem',
+  'Open-source AI ecosystems and their evolution',
+  'Writing Sovereign AI: synthesizing a research program into a book',
 ];
 
 const questionsAboutTheBook = [
-  'What inspired you to write Sovereign AI?',
+  'What question does Sovereign AI investigate?',
   'Who is this book for?',
-  'What misconceptions about AI do you hope to challenge?',
+  'What misconceptions about AI architecture do you hope to challenge?',
   'What surprised you most while writing the book?',
 ];
 
@@ -81,7 +81,7 @@ export default function PressPage() {
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="font-display text-4xl sm:text-5xl md:text-6xl mb-4">Press & Media</h1>
           <p className="text-ink-3 text-lg font-bold max-w-2xl mx-auto">
-            Everything you need for podcasts, conferences, interviews, articles, and speaking engagements.
+            Resources for podcasts, conferences, interviews, and speaking engagements covering computational sovereignty and local-first AI architectures.
           </p>
         </div>
       </section>
@@ -93,13 +93,13 @@ export default function PressPage() {
           <h2 className="font-display text-3xl mb-8">About Daniel Kliewer</h2>
           <div className="space-y-5 text-ink-3 leading-relaxed text-lg font-bold">
             <p>
-              Daniel Kliewer is a software engineer, AI researcher, writer, and open-source developer focused on building AI systems that users truly own. His work explores local-first AI, Retrieval-Augmented Generation (RAG), AI agents, knowledge graphs, long-term memory systems, and open-source large language models.
+              Daniel Kliewer investigates architectures for intelligence that remains under its user&apos;s control. His work examines local-first AI, cognitive memory systems, graph-based reasoning, autonomous agents, and the engineering principles that make sovereign intelligence possible.
             </p>
             <p>
-              Drawing from years of hands-on software development and experimentation with modern AI infrastructure, Daniel advocates for an architectural approach that emphasizes ownership, transparency, and resilience over dependence on proprietary services. His projects examine how developers can build intelligent systems that continue to function regardless of changes in commercial APIs or cloud platforms.
+              Rather than treating AI as a service to consume, his work treats it as a system to construct — one where every layer, from inference runtime to memory architecture, is owned and understood by its operator. Each project tests a specific architectural hypothesis.
             </p>
             <p>
-              He is the author of <strong className="text-ink">Sovereign AI</strong>, a book exploring the philosophy and engineering principles behind building AI that remains under the user&apos;s control.
+              He is the author of <strong className="text-ink">Sovereign AI</strong>, a book that traces this architectural reasoning from first principles to production deployment across eleven chapters.
             </p>
           </div>
         </div>
@@ -110,7 +110,7 @@ export default function PressPage() {
         <div className="max-w-4xl mx-auto">
           <h2 className="font-display text-3xl mb-8">About Sovereign AI</h2>
           <p className="text-ink-3 text-lg font-bold mb-8 max-w-3xl">
-            Sovereign AI explores how developers can move beyond simply using AI APIs to building intelligent systems they own and understand.
+            Sovereign AI examines the architecture of intelligence that you own. From first principles — why local inference matters structurally — through production deployment patterns for autonomous agents, memory systems, and secure, sovereign infrastructure.
           </p>
           <div className="flex flex-wrap gap-3">
             {topics.map((topic) => (
@@ -232,7 +232,7 @@ export default function PressPage() {
         <div className="absolute inset-0 pointillism-layer opacity-20 pointer-events-none" />
         <div className="max-w-4xl mx-auto relative">
           <h2 className="font-display text-3xl mb-4">Speaking</h2>
-          <p className="text-ink-3 text-lg font-bold mb-8">Daniel is available for a range of speaking formats. Topics can be tailored for technical, business, or general audiences.</p>
+          <p className="text-ink-3 text-lg font-bold mb-8">Daniel speaks on computational sovereignty, local-first AI architectures, cognitive memory systems, and the engineering of autonomous intelligence. Topics can be tailored for technical, business, or general audiences.</p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             {availability.map((item) => (
               <div key={item.type} className="flex items-center gap-3 p-4 border-4 border-ink bg-cream">
@@ -282,28 +282,28 @@ export default function PressPage() {
             <div>
               <h3 className="font-display text-xl mb-3 accent-green">Short Bio (50 Words)</h3>
               <p className="text-ink-3 font-bold leading-relaxed">
-                Daniel Kliewer is a software engineer, AI researcher, and author of Sovereign AI. His work focuses on local AI, Retrieval-Augmented Generation (RAG), AI agents, knowledge graphs, and open-source AI systems designed around ownership rather than dependence.
+                Daniel Kliewer investigates architectures for computational sovereignty. His work examines local-first AI, cognitive memory, graph-based reasoning, and autonomous agents. He is the author of Sovereign AI, a book tracing the architecture of intelligence you own.
               </p>
             </div>
             <div>
               <h3 className="font-display text-xl mb-3 accent-pink">Medium Bio (100 Words)</h3>
               <p className="text-ink-3 font-bold leading-relaxed">
-                Daniel Kliewer is a software engineer, AI researcher, and author specializing in local-first artificial intelligence. His work explores open-source LLMs, Retrieval-Augmented Generation (RAG), knowledge graphs, AI agents, and long-term memory architectures. Through his writing and software projects, he advocates for building AI systems that users own, understand, and control. His book, Sovereign AI, examines the technologies and architectural principles that enable developers to create resilient, privacy-conscious AI applications independent of proprietary cloud services.
+                Daniel Kliewer investigates architectures for intelligence that remains under its user&apos;s control. His work spans cognitive memory systems, graph-based reasoning, local inference, and autonomous agent architectures. He approaches AI as a system to construct rather than a service to consume — each layer owned and understood by its operator. His book, Sovereign AI, traces this architectural reasoning from first principles to production deployment. He documents his investigations through open-source code, technical writing, and public research.
               </p>
             </div>
             <div>
               <h3 className="font-display text-xl mb-3 accent-orange">Long Bio (250 Words)</h3>
               <p className="text-ink-3 font-bold leading-relaxed">
-                Daniel Kliewer is a software engineer, AI researcher, open-source contributor, and author focused on the emerging field of sovereign artificial intelligence. His work centers on the belief that the future of AI should be defined not only by increasingly capable models but also by the ability of individuals and organizations to own, understand, and control the intelligent systems they build.
+                Daniel Kliewer investigates architectures for computational sovereignty — the design and engineering of intelligence infrastructure that answers to its user rather than a third party. His work examines how cognitive memory systems, graph-based reasoning, local inference, and modular agent architectures compose into intelligence that persists independently of cloud infrastructure.
               </p>
               <p className="text-ink-3 font-bold leading-relaxed mt-4">
-                His research and development span local large language models, Retrieval-Augmented Generation (RAG), knowledge graphs, semantic search, AI agents, long-term memory systems, and local-first architectures. By combining these technologies, he explores practical approaches to creating AI systems that remain resilient in the face of changing APIs, evolving cloud services, and rapidly shifting commercial ecosystems.
+                Rather than treating AI as an API to call, his work treats it as a system to construct, where every architectural layer is owned and inspectable. The central investigation: what changes when intelligence infrastructure belongs entirely to the person using it? The answers are architectural — explicit memory replacing context windows, graph reasoning replacing flat retrieval, modular cognition replacing monolithic models, and local-first computing replacing cloud dependence as the default position.
               </p>
               <p className="text-ink-3 font-bold leading-relaxed mt-4">
-                As the author of Sovereign AI, Daniel presents a technical and philosophical framework for designing AI infrastructure around ownership, transparency, and sustainability. His work encourages developers to think beyond prompt engineering and consider the broader architecture that supports intelligent software over the long term.
+                Each project tests a specific hypothesis. Sovereign Memory Bank explores whether agents can maintain self-evolving, persistent knowledge. Dynamic Persona MoE RAG examines whether routed specialist models outperform monolithic reasoning. These are not products. They are answers to specific architectural questions.
               </p>
               <p className="text-ink-3 font-bold leading-relaxed mt-4">
-                In addition to writing, Daniel develops open-source software, publishes technical articles, and shares practical insights into building modern AI systems. His mission is to help developers move from simply consuming AI services to creating intelligent systems they truly own.
+                As the author of Sovereign AI, Daniel presents the synthesis of this architectural investigation — eleven chapters that trace the logic from first principles through production deployment. He documents his work publicly: the code on GitHub, the reasoning in the blog, the synthesis in the book. The work is ongoing. The questions remain open.
               </p>
             </div>
           </div>

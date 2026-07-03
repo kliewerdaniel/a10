@@ -4,7 +4,7 @@ import { BlogSearch } from '@/components/blog/BlogSearch';
 
 export const metadata: Metadata = {
   title: 'Blog',
-  description: 'Deep dives into local-first AI, sovereignty, and building intelligent systems by Daniel Kliewer.',
+  description: 'Architectural investigations into local-first AI, cognitive memory, graph reasoning, and computational sovereignty.',
 };
 
 export default function BlogPage() {
@@ -26,8 +26,7 @@ export default function BlogPage() {
         <div className="text-center mb-12">
           <h1 className="font-display text-4xl md:text-5xl mb-4">Blog</h1>
           <p className="text-ink-3 max-w-2xl mx-auto font-bold">
-            Deep dives into local-first AI, data sovereignty, and building intelligent systems.
-            Every post references concepts from <em>Sovereign AI</em>.
+            Detailed examinations of specific architectural questions. Memory systems, agent architectures, retrieval pipelines, and the engineering of sovereign intelligence.
           </p>
         </div>
 

@@ -4,48 +4,48 @@ import { BookCTA } from '@/components/blog/BookCTA';
 
 export const metadata: Metadata = {
   title: 'Projects',
-  description: 'Open-source projects and tools by Daniel Kliewer — AI agents, knowledge graphs, RAG systems, and more.',
+  description: 'Open-source research through code — each project tests a specific architectural hypothesis about local-first intelligence.',
 };
 
 const projects = [
   {
     name: 'workflow',
-    description: 'Structured AI-Assisted Development Workflow Guide. A comprehensive methodology for integrating AI into software development processes.',
+    description: 'A methodology for structuring AI-assisted development. Explores how systems thinking guides human-AI collaboration in software engineering.',
     stars: 45,
     language: 'Markdown',
     url: 'https://github.com/kliewerdaniel/workflow',
   },
   {
     name: 'autoblog01',
-    description: 'Professional Next.js blogging platform with advanced AI-driven content generation. Leverages RSS feed analysis and Retrieval-Augmented Generation (RAG) to create high-quality, SEO-optimized blog content.',
+    description: 'Investigates whether local LLMs can drive a complete content generation pipeline. RSS ingestion, RAG-based writing, and automated publishing on local hardware.',
     stars: 22,
     language: 'Python',
     url: 'https://github.com/kliewerdaniel/autoblog01',
   },
   {
     name: 'chrome-ai-filename-generator',
-    description: 'Chrome extension that uses AI to generate meaningful filenames from page content. Solves the problem of cryptic default filenames.',
+    description: 'Studies the interaction between local inference and everyday user workflows. A concrete experiment in unobtrusive on-device AI utility.',
     stars: 6,
     language: 'JavaScript',
     url: 'https://github.com/kliewerdaniel/chrome-ai-filename-generator',
   },
   {
     name: 'RedDiss',
-    description: 'Entry for Loco Local LocalLLaMa Hackathon. Exploring local LLM capabilities for practical applications.',
+    description: 'Explores the practical limits of local LLMs for content analysis. Built during the Loco Local LocalLLaMa Hackathon.',
     stars: 2,
     language: 'Python',
     url: 'https://github.com/kliewerdaniel/RedDiss',
   },
   {
     name: 'ConCreat',
-    description: 'Modern web application for creating and managing multimedia content, featuring AI-powered text-to-speech capabilities using Chatterbox.',
+    description: 'Examines local text-to-speech pipelines as a component in multimedia content creation. What does fully offline content generation look like?',
     stars: 1,
     language: 'TypeScript',
     url: 'https://github.com/kliewerdaniel/ConCreat',
   },
   {
     name: 'sovereignBank',
-    description: 'Autonomous cognitive memory system for agent reasoning and knowledge synthesis. Transforms markdown documents into a continuously evolving seven-layer memory architecture.',
+    description: 'Investigates whether agents can maintain persistent, self-evolving memory. A seven-layer cognitive architecture for autonomous knowledge synthesis — no cloud required.',
     stars: 0,
     language: 'Python',
     url: 'https://github.com/kliewerdaniel/sovereignBank',
@@ -53,7 +53,7 @@ const projects = [
   },
   {
     name: 'SynthInt',
-    description: 'Dynamic Persona Mixture-of-Experts RAG system. Builds sovereign synthetic intelligence with local-first architecture and data sovereignty.',
+    description: 'Explores mixture-of-experts routing through dynamically selected personas. Can locally-hosted, specialized models compose into synthetic intelligence?',
     stars: 0,
     language: 'Python',
     url: 'https://github.com/kliewerdaniel/SynthInt',
@@ -61,7 +61,7 @@ const projects = [
   },
   {
     name: 'basicbot',
-    description: 'Sophisticated Research Assistant powered by GraphRAG technology for analyzing documents and research data.',
+    description: 'Examines GraphRAG as a retrieval architecture for document analysis. Compares graph-based reasoning against flat vector search.',
     stars: 0,
     language: 'Python',
     url: 'https://github.com/kliewerdaniel/basicbot',
@@ -76,8 +76,8 @@ export default function ProjectsPage() {
           <div className="text-center mb-12">
             <h1 className="font-display text-4xl md:text-5xl mb-4">Projects</h1>
             <p className="text-ink-3 max-w-2xl mx-auto font-bold">
-              Open-source tools, experiments, and systems built by Daniel Kliewer.
-              Many of these projects are featured in the blog and <em>Sovereign AI</em>.
+              Each repository tests a specific architectural hypothesis. The code is the implementation,<br />
+              the blog essays document the reasoning, and <em>Sovereign AI</em> provides the framework.
             </p>
           </div>
 
@@ -94,7 +94,7 @@ export default function ProjectsPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 bg-cream text-ink font-bold border-4 border-ink hover:bg-surface transition-colors shadow-brutalist-sm"
             >
-              View All 222 Repositories on GitHub ↗
+              All Repositories on GitHub ↗
             </a>
           </div>
         </div>

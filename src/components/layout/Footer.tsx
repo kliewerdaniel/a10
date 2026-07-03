@@ -25,15 +25,15 @@ export function Footer() {
                 </div>
               </div>
               <div className="flex flex-col">
-                <span className="font-display text-base leading-tight text-ink">
-                  SOVEREIGN <span className="accent-green">AI</span>
-                </span>
-                <span className="mono text-[9px] text-ink-3 leading-none">Your Rules. Your AI.</span>
+<span className="font-display text-base leading-tight text-ink">
+                    SOVEREIGN <span className="accent-green">AI</span>
+                  </span>
+                  <span className="mono text-[9px] text-ink-3 leading-none">Architectures for Sovereignty</span>
               </div>
             </Link>
-            <p className="text-sm text-ink-3 mb-5 leading-relaxed">
-              The complete guide to building AI systems you actually own.
-            </p>
+<p className="text-sm text-ink-3 mb-5 leading-relaxed">
+  Documenting architectures for intelligence you own.
+</p>
             <a
               href={BOOK_URL}
               target="_blank"

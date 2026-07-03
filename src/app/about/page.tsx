@@ -5,19 +5,19 @@ import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import Image from 'next/image';
 
-const skills = [
-  { category: 'AI / ML', items: ['Ollama', 'llama.cpp', 'RAG', 'Knowledge Graphs', 'AI Agents', 'MCP', 'RLHF', 'ChromaDB', 'Sentence Transformers'] },
-  { category: 'Languages', items: ['Python', 'TypeScript', 'JavaScript', 'Rust', 'SQL'] },
-  { category: 'Frameworks', items: ['Next.js', 'Django', 'React', 'FastAPI', 'Three.js'] },
-  { category: 'Tools', items: ['Docker', 'Git', 'VS Code', 'Linux', 'PostgreSQL', 'Redis'] },
+const principles = [
+  { title: 'Computational Sovereignty', desc: 'Intelligence infrastructure answers to its user, not a third party. This constrains every architectural decision.' },
+  { title: 'Explicit Memory & Graph Reasoning', desc: 'Agents remember deliberately. Vector stores, knowledge graphs, and structured recall form the substrate of persistent cognition.' },
+  { title: 'Modular Cognition & Inspectability', desc: 'Intelligence is not monolithic. Specialized models route dynamically, and every decision traces to its source.' },
+  { title: 'Local-First & Recursive Improvement', desc: 'The default position is local. Systems examine their own outputs and refine iteratively — architectures improve as they run.' },
 ];
 
 const timeline = [
-  { year: '2026', title: 'Published Sovereign AI', desc: 'Released the book through Amazon KDP. 72 pages covering the full local-first AI stack — from Ollama to production deployment.' },
-  { year: '2025', title: 'Built Sovereign Memory Bank', desc: 'Open-sourced a seven-layer cognitive memory system for autonomous agent reasoning. Python, local embeddings, knowledge graphs.' },
-  { year: '2025', title: 'Dynamic Persona MoE RAG', desc: 'Developed a mixture-of-experts RAG system that routes queries to specialized personas. All local, no API calls.' },
-  { year: '2025', title: 'Chrome AI Filename Generator', desc: 'Chrome extension that renames downloads using local LLM inference. Published to Chrome Web Store.' },
-  { year: '2024', title: 'Started Building in Public', desc: 'Began open-sourcing AI projects on GitHub. Content generation systems, research assistants, graph-based retrieval.' },
+  { year: '2026', title: 'Framework Synthesis', desc: 'Sovereign AI synthesizes years of architectural investigation into a coherent framework — from first principles through production deployment.' },
+  { year: '2025', title: 'Cognitive Memory Architecture', desc: 'Sovereign Memory Bank discovered that persistent agent memory requires a multi-layered architecture: raw documents to synthesized abstractions.' },
+  { year: '2025', title: 'Compositional Intelligence', desc: 'Dynamic Persona MoE RAG demonstrated that routing between specialized local models produces more coherent reasoning than any single model.' },
+  { year: '2025', title: 'Everyday Inference', desc: 'Chrome AI Filename Generator tested whether local inference integrates into practical user workflows. Proved on-device AI can be unobtrusive.' },
+  { year: '2024', title: 'Open Investigation Begins', desc: 'Started publishing research in public. The blog and GitHub became the laboratory for systematic architectural exploration.' },
 ];
 
 export default function AboutPage() {
@@ -39,7 +39,7 @@ export default function AboutPage() {
             </div>
             <div className="text-center md:text-left">
               <h1 className="font-display text-4xl md:text-5xl mb-3">Daniel Kliewer</h1>
-              <p className="text-xl accent-green mb-2 font-bold">Author & AI Engineer</p>
+              <p className="text-xl accent-green mb-2 font-bold">Investigating Architectures for Intelligence</p>
               <p className="text-ink-3 mb-4 font-bold">Austin, TX</p>
               <div className="flex gap-4 justify-center md:justify-start">
                 <a href="https://github.com/kliewerdaniel" target="_blank" rel="noopener noreferrer" className="text-sm accent-pink hover:text-pink-dark font-bold transition-colors">GitHub ↗</a>
@@ -55,26 +55,19 @@ export default function AboutPage() {
       <section className="py-20 px-4 bg-surface relative">
         <div className="absolute inset-0 pointillism-layer opacity-20 pointer-events-none" />
         <div className="max-w-4xl mx-auto relative">
-          <h2 className="font-display text-3xl mb-8">What I Do</h2>
+          <h2 className="font-display text-3xl mb-8">The Investigation</h2>
           <div className="space-y-5 text-ink-3 leading-relaxed text-lg font-bold">
             <p>
-              I build AI systems that run locally — no cloud APIs, no subscription fees, no data leaving my machine.
-              That means Ollama for inference, ChromaDB for vector storage, knowledge graphs for structured reasoning,
-              and agents that operate entirely offline.
+              My work investigates a central question: what happens when intelligence infrastructure belongs entirely to the person using it? The answers are architectural — explicit memory replacing implicit context, graph reasoning replacing flat retrieval, modular cognition replacing monolithic models, and local-first computing replacing cloud dependence as the default.
             </p>
             <p>
-              Most of what I build ends up on GitHub. I&apos;ve published over 200 repositories covering everything from
-              RAG pipelines and persona-based systems to Chrome extensions and content generation tools.
-              Every project is working code, not demos.
+              This question shapes every project. Cognitive memory systems that evolve their own knowledge graphs. Mixture-of-experts routing through specialized local models. RAG pipelines designed for inspectability rather than benchmark scores. Each project tests a specific architectural hypothesis.
             </p>
             <p>
-              <strong className="text-ink">Sovereign AI</strong> is the book I wrote because I couldn&apos;t find one that
-              covered the full local stack. It walks through 11 chapters of practical implementation —
-              running models, building pipelines, deploying agents, securing systems. No hand-waving.
+              <strong className="text-ink">Sovereign AI</strong> synthesizes these investigations into a coherent framework. Eleven chapters trace the architectural logic from first principles — why local inference matters structurally, how knowledge graphs change the retrieval problem, what agent architectures require for persistence — through production deployment patterns.
             </p>
             <p>
-              By day I work with AI systems. By night I write about them and open-source the results.
-              If you&apos;re building something local-first, I&apos;m probably interested.
+              I document the work publicly: the code on GitHub, the reasoning in the blog, the synthesis in the book. If you are investigating similar questions, the work is open.
             </p>
           </div>
         </div>
@@ -82,14 +75,12 @@ export default function AboutPage() {
 
       <section className="py-20 px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="font-display text-3xl mb-8">Technical Stack</h2>
+          <h2 className="font-display text-3xl mb-8">Design Principles</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {skills.map((s) => (
-              <Card key={s.category}>
-                <h3 className="font-display text-ink mb-3">{s.category}</h3>
-                <div className="flex flex-wrap gap-2">
-                  {s.items.map((i) => <span key={i} className="mono px-3 py-1.5 bg-surface border-2 border-ink text-sm text-ink-3">{i}</span>)}
-                </div>
+            {principles.map((s) => (
+              <Card key={s.title}>
+                <h3 className="font-display text-ink mb-3">{s.title}</h3>
+                <p className="text-sm text-ink-3 font-bold leading-relaxed">{s.desc}</p>
               </Card>
             ))}
           </div>
@@ -118,10 +109,10 @@ export default function AboutPage() {
       <section className="py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="font-display text-3xl mb-4">Open Source</h2>
-          <p className="text-ink-3 mb-8 text-lg font-bold">200+ repositories. Working code for every concept in the book.</p>
+          <p className="text-ink-3 mb-8 text-lg font-bold">Hundreds of repositories. Each one tests a specific architectural question.</p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button href="https://github.com/kliewerdaniel" external variant="secondary" size="lg">GitHub ↗</Button>
-            <Button href="/projects" variant="secondary" size="lg">View Projects</Button>
+            <Button href="/projects" variant="secondary" size="lg">Project Index</Button>
           </div>
         </div>
       </section>

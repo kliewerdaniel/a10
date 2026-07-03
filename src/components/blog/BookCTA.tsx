@@ -21,7 +21,7 @@ export function BookCTA({ variant = 'banner' }: { variant?: 'banner' | 'inline' 
           <div className="text-center sm:text-left flex-1">
             <p className="mono text-xs accent-green font-bold mb-1">From the Book</p>
             <p className="text-ink font-bold text-sm">
-              This is from <strong>Sovereign AI: Building Local-First Intelligent Systems</strong>.
+              This is from <strong>Sovereign AI: An Architectural Investigation into Local-First Intelligence</strong>.
             </p>
           </div>
           <a
@@ -46,7 +46,7 @@ export function BookCTA({ variant = 'banner' }: { variant?: 'banner' | 'inline' 
         <div className="flex-shrink-0 w-44 h-60 border-4 border-ink bg-white overflow-hidden relative">
           <Image
             src="/SovereignAI_300dpi.png"
-            alt="Sovereign AI book cover"
+            alt="Sovereign AI: An Architectural Investigation into Local-First Intelligence by Daniel Kliewer"
             fill
             className="object-cover"
             sizes="176px"
@@ -55,11 +55,11 @@ export function BookCTA({ variant = 'banner' }: { variant?: 'banner' | 'inline' 
 
         <div className="text-center md:text-left flex-1">
           <h3 className="text-2xl md:text-3xl font-display text-ink mb-3 leading-tight">
-            Sovereign AI: Building Local-First Intelligent Systems
+            Sovereign AI: An Architectural Investigation into Local-First Intelligence
           </h3>
           <p className="text-ink-3 mb-1 font-bold">by Daniel Kliewer · Paperback · 72 pages</p>
           <p className="text-ink-3 mb-6 leading-relaxed">
-            The hands-on guide to building AI that runs on your hardware, keeps your data private, and eliminates cloud dependence. Working code included.
+            An examination of the architecture of intelligence that you own — from first principles through production deployment.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
             <a

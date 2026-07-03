@@ -8,32 +8,32 @@ import Link from 'next/link';
 const BOOK_URL = 'https://www.amazon.com/dp/B0H6RB7D9J';
 
 const problems = [
-  { icon: '●', color: 'accent-pink', title: 'You Don\'t Own It', text: 'Every API call goes through someone else\'s server. They control pricing, access, and uptime.' },
-  { icon: '●', color: 'accent-green', title: 'Your Data Isn\'t Yours', text: 'Prompts, documents, intellectual property — all flowing through servers you don\'t control.' },
-  { icon: '●', color: 'accent-orange', title: 'Rent Forever', text: 'Monthly fees that scale with usage. You build on someone else\'s foundation. Try selling that.' },
-  { icon: '●', color: 'accent-yellow', title: 'No Escape', text: 'Switch providers? Rewrite everything. Your workflows become prisoners of proprietary APIs.' },
+  { icon: '●', color: 'accent-pink', title: 'Infrastructure Dependence', text: 'Every inference depends on infrastructure you do not control. This is an architectural constraint, not a feature limitation.' },
+  { icon: '●', color: 'accent-green', title: 'Data Boundaries', text: 'Querying remote models means transmitting data outside your authority. This shapes what you can build and where.' },
+  { icon: '●', color: 'accent-orange', title: 'Recurring Access', text: 'Per-token pricing makes long-running or autonomous systems economically fragile. Usage is metered by someone else\'s meter.' },
+  { icon: '●', color: 'accent-yellow', title: 'Protocol Coupling', text: 'Provider-specific APIs tie your system to a single access path. Changing infrastructure requires rewriting the interface layer.' },
 ];
 
 const solutions = [
-  { icon: '●', color: 'accent-pink', title: 'Run Locally', desc: 'Ollama, llama.cpp, quantized models. Your hardware. Your inference.' },
-  { icon: '●', color: 'accent-green', title: 'Build Intelligence', desc: 'RAG pipelines, knowledge graphs, autonomous agents — all running on your machine.' },
-  { icon: '●', color: 'accent-orange', title: 'Stay Private', desc: 'No data leaves your network. No third-party servers. No surprises.' },
-  { icon: '●', color: 'accent-yellow', title: 'No Limits', desc: 'No rate limits. No usage caps. No monthly fees. Just intelligence.' },
+  { icon: '●', color: 'accent-pink', title: 'Local Inference', desc: 'Models run on your hardware. Ollama, llama.cpp, and quantized architectures provide the runtime.' },
+  { icon: '●', color: 'accent-green', title: 'Composable Systems', desc: 'RAG pipelines, knowledge graphs, and autonomous agents combine into architectures, not point solutions.' },
+  { icon: '●', color: 'accent-orange', title: 'Data Authority', desc: 'Processing stays within your network. This is a structural property of the architecture.' },
+  { icon: '●', color: 'accent-yellow', title: 'Unmetered Operation', desc: 'No rate limits or usage caps — there is no external gate. The only constraint is your hardware.' },
 ];
 
 const featuredProjects = [
-  { name: 'workflow', description: 'Structured AI-Assisted Development Workflow — the methodology behind building sovereign systems at scale.', stars: 45, language: 'Markdown', url: 'https://github.com/kliewerdaniel/workflow' },
-  { name: 'autoblog01', description: 'AI-powered blogging platform with RAG-driven content generation. Next.js + local LLMs.', stars: 22, language: 'Python', url: 'https://github.com/kliewerdaniel/autoblog01' },
-  { name: 'sovereignBank', description: 'Cognitive memory system for agents. Seven-layer architecture for autonomous knowledge.', stars: 0, language: 'Python', url: 'https://github.com/kliewerdaniel/sovereignBank', blogSlug: '2026-06-14-sovereign-memory-bank-a-deep-dive-into-autonomous-cognitive-memory-for-agent-systems' },
-  { name: 'SynthInt', description: 'Dynamic Persona MoE RAG — sovereign synthetic intelligence. Data stays on your machine.', stars: 0, language: 'Python', url: 'https://github.com/kliewerdaniel/SynthInt' },
-  { name: 'chrome-ai-filename-generator', description: 'Chrome extension that renames files intelligently using local AI. No cloud needed.', stars: 6, language: 'JavaScript', url: 'https://github.com/kliewerdaniel/chrome-ai-filename-generator' },
-  { name: 'ConCreat', description: 'Multimedia content creation with AI text-to-speech. All local processing.', stars: 1, language: 'TypeScript', url: 'https://github.com/kliewerdaniel/ConCreat' },
+  { name: 'workflow', description: 'A structured methodology for integrating AI into software development. Explores how systems thinking can guide AI-assisted engineering.', stars: 45, language: 'Markdown', url: 'https://github.com/kliewerdaniel/workflow' },
+  { name: 'autoblog01', description: 'Investigates RAG-driven content generation as an architectural pattern. Can local LLMs drive the full content pipeline end to end?', stars: 22, language: 'Python', url: 'https://github.com/kliewerdaniel/autoblog01' },
+  { name: 'sovereignBank', description: 'Explores whether autonomous agents can maintain persistent, evolving memory without cloud infrastructure. A seven-layer cognitive architecture.', stars: 0, language: 'Python', url: 'https://github.com/kliewerdaniel/sovereignBank', blogSlug: '2026-06-14-sovereign-memory-bank-a-deep-dive-into-autonomous-cognitive-memory-for-agent-systems' },
+  { name: 'SynthInt', description: 'Examines mixture-of-experts routing through dynamic personas. Can synthetic intelligence emerge from locally-hosted specialized models?', stars: 0, language: 'Python', url: 'https://github.com/kliewerdaniel/SynthInt' },
+  { name: 'chrome-ai-filename-generator', description: 'Studies the interface between local inference and everyday workflows. A concrete experiment in on-device AI utility.', stars: 6, language: 'JavaScript', url: 'https://github.com/kliewerdaniel/chrome-ai-filename-generator' },
+  { name: 'ConCreat', description: 'Investigates local text-to-speech pipelines for multimedia content. What are the boundaries of fully offline content generation?', stars: 1, language: 'TypeScript', url: 'https://github.com/kliewerdaniel/ConCreat' },
 ];
 
 const latestPosts = [
-  { slug: '2026-06-14-sovereign-memory-bank-a-deep-dive-into-autonomous-cognitive-memory-for-agent-systems', title: 'Sovereign Memory Bank', date: '06-14-2026', description: 'How I built an autonomous cognitive memory system that transforms documents into evolving knowledge — no cloud required.', tags: ['memory', 'ai-agents'] },
-  { slug: '2026-03-28-sovereignty-manifesto', title: 'The Sovereignty Manifesto', date: '03-28-2026', description: 'Why data sovereignty is a fundamental right and why the future of AI is local.', tags: ['sovereignty', 'privacy'] },
-  { slug: '2026-03-10-breaking-free-from-chatgpt', title: 'Your First Local AI', date: '03-10-2026', description: 'Stop paying per token. Run your own AI assistant on your laptop with Ollama.', tags: ['local-llm', 'ollama'] },
+  { slug: '2026-06-14-sovereign-memory-bank-a-deep-dive-into-autonomous-cognitive-memory-for-agent-systems', title: 'Sovereign Memory Bank', date: '06-14-2026', description: 'An autonomous cognitive memory system that transforms documents into evolving knowledge graphs — no cloud required.', tags: ['memory', 'ai-agents'] },
+  { slug: '2026-03-28-sovereignty-manifesto', title: 'The Sovereignty Manifesto', date: '03-28-2026', description: 'Why computational sovereignty is a prerequisite for meaningful AI ownership and why local-first is an architectural necessity.', tags: ['sovereignty', 'privacy'] },
+  { slug: '2026-03-10-breaking-free-from-chatgpt', title: 'Your First Local AI', date: '03-10-2026', description: 'Running your own AI on your laptop with Ollama. A practical entry point into local-first intelligence.', tags: ['local-llm', 'ollama'] },
 ];
 
 export default function Home() {
@@ -51,24 +51,24 @@ export default function Home() {
           </div>
 
           <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-[5.5rem] mb-4 sm:mb-6 tracking-tighter leading-[0.85]">
-            <span className="text-ink">Stop Renting</span>
+            <span className="text-ink">Architectures for</span>
             <br />
-            <span className="accent-green">Intelligence.</span>
+            <span className="accent-green">Intelligence You Own</span>
           </h1>
 
           <p className="text-base sm:text-xl md:text-2xl text-ink-3 mb-3 sm:mb-4 max-w-3xl mx-auto leading-relaxed">
-            Build AI that runs on <span className="text-ink font-bold">your hardware</span>,
-            keeps <span className="text-ink font-bold">your data</span> private, and
-            answers only to <span className="text-ink font-bold">you</span>.
+            Investigating local-first AI systems, cognitive memory architectures,
+            <br />
+            graph-based reasoning, and computational sovereignty.
           </p>
           <p className="text-sm sm:text-base text-ink-3/60 mb-8 sm:mb-10">
-            The practical guide by <Link href="/about" className="accent-green font-bold transition-colors hover:text-green-dark">Daniel Kliewer</Link>
+            An ongoing investigation by <Link href="/about" className="accent-green font-bold transition-colors hover:text-green-dark">Daniel Kliewer</Link>
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <BookButton size="lg" />
             <Button href="/book" variant="secondary" size="lg">
-              See What&apos;s Inside
+              The Architectural Investigation
             </Button>
           </div>
 
@@ -93,10 +93,10 @@ export default function Home() {
         <div className="absolute inset-0 dot-pattern opacity-20 pointer-events-none" />
         <div className="max-w-6xl mx-auto relative">
           <div className="text-center mb-10 sm:mb-16">
-            <span className="mono text-green text-xs mb-3 sm:mb-4 block">The Problem</span>
-            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl mb-4 sm:mb-5">You Don&apos;t Own Your AI</h2>
+            <span className="mono text-green text-xs mb-3 sm:mb-4 block">The Architectural Constraint</span>
+            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl mb-4 sm:mb-5">Dependence Is a Design Decision</h2>
             <p className="text-ink-3 max-w-2xl mx-auto text-base sm:text-lg">
-              Every prompt you send to the cloud is a transfer of control. Here&apos;s what that costs you.
+              Most AI today is built on infrastructure someone else controls. These are the structural implications.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
@@ -116,10 +116,10 @@ export default function Home() {
         <div className="absolute inset-0 pointillism-layer opacity-30 pointer-events-none" />
         <div className="max-w-6xl mx-auto relative">
           <div className="text-center mb-10 sm:mb-16">
-            <span className="mono text-pink text-xs mb-3 sm:mb-4 block">The Solution</span>
-            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl mb-4 sm:mb-5">Build Intelligence You Own</h2>
+            <span className="mono text-pink text-xs mb-3 sm:mb-4 block">A Different Foundation</span>
+            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl mb-4 sm:mb-5">Architectures for Sovereignty</h2>
             <p className="text-ink-3 max-w-2xl mx-auto text-base sm:text-lg">
-              Sovereign AI teaches you the complete local stack — from running models to deploying systems. No cloud.
+              Rebuilding the stack so every layer — from inference to memory — is owned and understood by its operator.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
@@ -150,20 +150,20 @@ export default function Home() {
         <div className="absolute inset-0 dot-pattern-dense opacity-15 pointer-events-none" />
         <div className="max-w-6xl mx-auto relative">
           <div className="text-center mb-10 sm:mb-14">
-            <span className="mono text-green text-xs mb-3 sm:mb-4 block">Inside</span>
-            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl">What You&apos;ll Learn</h2>
+            <span className="mono text-green text-xs mb-3 sm:mb-4 block">Scope of Investigation</span>
+            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl">Architectural Layers</h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
             {[
-              { t: 'Local LLMs', d: 'Ollama, llama.cpp, quantized models' },
-              { t: 'RAG Pipelines', d: 'ChromaDB, local embeddings' },
-              { t: 'Knowledge Graphs', d: 'Graph-based AI reasoning' },
-              { t: 'AI Agents', d: 'Autonomous offline agents' },
-              { t: 'MCP Servers', d: 'Tool integration protocol' },
-              { t: 'Full-Stack AI', d: 'Django + Next.js apps' },
-              { t: 'Persona Systems', d: 'Dynamic expert selection' },
-              { t: 'RLHF & Eval', d: 'Fine-tuning and measurement' },
-              { t: 'Security', d: 'Production privacy practices' },
+              { t: 'Foundation Models', d: 'Understanding and running local LLMs' },
+              { t: 'Retrieval Architectures', d: 'RAG pipelines with local embeddings' },
+              { t: 'Structured Knowledge', d: 'Graph-based reasoning systems' },
+              { t: 'Agent Systems', d: 'Autonomous, offline agent architectures' },
+              { t: 'Tool Integration', d: 'Connecting AI via standardized protocols' },
+              { t: 'Full-Stack AI', d: 'Complete application architectures' },
+              { t: 'Persona Routing', d: 'Dynamic expert selection across models' },
+              { t: 'Evaluation', d: 'Measuring and improving system behavior' },
+              { t: 'Production Security', d: 'Privacy-preserving deployment architectures' },
             ].map((item) => (
               <div key={item.t} className="flex items-start gap-3 p-3 sm:p-4 border-4 border-ink bg-cream">
                 <span className="w-2 h-2 rounded-full bg-pink mt-1.5 flex-shrink-0" />
@@ -183,9 +183,9 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8 sm:mb-10">
             <div>
               <span className="mono text-orange text-xs mb-3 sm:mb-4 block">Open Source</span>
-              <h2 className="font-display text-3xl sm:text-4xl">Projects</h2>
+              <h2 className="font-display text-3xl sm:text-4xl">Research Through Code</h2>
             </div>
-            <Button href="https://github.com/kliewerdaniel" external variant="secondary" size="sm">All 222 Repos →</Button>
+            <Button href="https://github.com/kliewerdaniel" external variant="secondary" size="sm">All Repositories →</Button>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {featuredProjects.map((p) => <ProjectCard key={p.name} {...p} />)}
@@ -199,10 +199,10 @@ export default function Home() {
         <div className="max-w-6xl mx-auto relative">
           <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8 sm:mb-10">
             <div>
-              <span className="mono text-pink text-xs mb-3 sm:mb-4 block">Blog</span>
-              <h2 className="font-display text-3xl sm:text-4xl">Deep Dives</h2>
+              <span className="mono text-pink text-xs mb-3 sm:mb-4 block">Technical Essays</span>
+              <h2 className="font-display text-3xl sm:text-4xl">Architectural Investigations</h2>
             </div>
-            <Button href="/blog" variant="secondary" size="sm">All Posts →</Button>
+            <Button href="/blog" variant="secondary" size="sm">All Essays →</Button>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
             {latestPosts.map((post) => (
@@ -225,12 +225,12 @@ export default function Home() {
       <section className="py-16 sm:py-24 px-5 relative overflow-hidden">
         <div className="absolute inset-0 glaze-all pointer-events-none" />
         <div className="max-w-2xl mx-auto text-center relative">
-          <span className="mono text-green text-xs mb-3 sm:mb-4 block">Ready?</span>
-          <h2 className="font-display text-3xl sm:text-4xl mb-4 sm:mb-5">Your AI. Your Rules.</h2>
-          <p className="text-ink-3 mb-8 sm:mb-10 text-base sm:text-lg">Get the book. Clone a project. Build today.</p>
+          <span className="mono text-green text-xs mb-3 sm:mb-4 block">The Work Is Open</span>
+          <h2 className="font-display text-3xl sm:text-4xl mb-4 sm:mb-5">The Architecture Is Yours</h2>
+          <p className="text-ink-3 mb-8 sm:mb-10 text-base sm:text-lg">The book documents the architecture. The code implements it. What you build from them is your own.</p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <BookButton size="lg" />
-            <Button href="/blog" variant="secondary" size="lg">Start with a Tutorial</Button>
+            <Button href="/blog" variant="secondary" size="lg">Read the Technical Essays</Button>
           </div>
         </div>
       </section>

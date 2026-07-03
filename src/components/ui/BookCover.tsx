@@ -13,7 +13,7 @@ export function BookCover({ size = 'lg' }: { size?: 'sm' | 'md' | 'lg' }) {
       >
         <Image
           src="/SovereignAI_300dpi.png"
-          alt="Sovereign AI: Building Local-First Intelligent Systems by Daniel Kliewer"
+          alt="Sovereign AI: An Architectural Investigation into Local-First Intelligence by Daniel Kliewer"
           fill
           className="object-cover"
           sizes="224px"

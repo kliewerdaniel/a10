@@ -59,7 +59,7 @@ export function Navbar() {
               <span className="font-display text-base leading-tight tracking-tight text-ink">
                 SOVEREIGN <span className="accent-green">AI</span>
               </span>
-              <span className="mono text-[9px] text-ink-3 leading-none">Your Rules. Your AI.</span>
+              <span className="mono text-[9px] text-ink-3 leading-none">Architectures for Sovereignty</span>
             </div>
           </Link>
 
