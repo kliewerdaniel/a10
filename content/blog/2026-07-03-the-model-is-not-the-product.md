@@ -306,13 +306,13 @@ Autoresearch-style systems framed through constrained optimization treat agent l
 
 Instead of:
 
-```
+```python
 generate → critique → refine → repeat
 ```
 
 We get:
 
-```
+```python
 explore hypothesis space → evaluate against constraints → allocate compute dynamically → converge under budgeted uncertainty
 ```
 
