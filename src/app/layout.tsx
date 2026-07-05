@@ -61,6 +61,7 @@ export default function RootLayout({
   return (
     <html lang="en" data-scroll-behavior="smooth" className={`${archivoBlack.variable} ${spaceGrotesk.variable} ${jetbrainsMono.variable} h-full antialiased`} suppressHydrationWarning>
       <head>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5368889366103187" crossOrigin="anonymous"></script>
         <script dangerouslySetInnerHTML={{ __html: `
           (function() {
             var t = localStorage.getItem('theme');
