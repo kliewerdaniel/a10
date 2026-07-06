@@ -461,12 +461,29 @@ Local AI is a component of sovereign AI.
 ## References
 
 ### Related Posts
-- [Sovereign AI Architecture](/blog/2026-07-05-sovereign-ai-architecture-synthesis)
-- [Getting Started with Sovereign AI](/blog/getting-started-sovereign-ai)
-- [The Sovereign Intelligence Stack](/blog/2026-07-04-sovereign-intelligence-stack)
-- [The Model Is Not the Product](/blog/2026-07-03-the-model-is-not-the-product)
-- [The Loop Is the Product](/blog/2026-07-03-the-sovereign-intelligence-observatory)
-- [Building Autonomous Sovereign AI](/blog/2026-07-02-building-autonomous-sovereign-ai)
+
+- [Sovereign AI Architecture](/blog/2026-07-05-sovereign-ai-architecture-synthesis) — Comprehensive synthesis
+- [Getting Started with Sovereign AI](/blog/getting-started-sovereign-ai) — Beginner on-ramp
+- [The Sovereign Intelligence Stack](/blog/2026-07-04-sovereign-intelligence-stack) — Architecture implementation
+- [The Model Is Not the Product](/blog/2026-07-03-the-model-is-not-the-product) — Research validation
+- [The Loop Is the Product](/blog/2026-07-03-the-sovereign-intelligence-observatory) — Intelligence Observatory deep dive
+- [Building Autonomous Sovereign AI](/blog/2026-07-02-building-autonomous-sovereign-ai) — Autonomous evaluation
+- [Retrieval Architecture](/blog/retrieval-architecture-synthesis) — Retrieval guide
+
+### External Resources
+
+- [Ollama Documentation](https://ollama.com/documentation) — Local LLMs
+- [Ollama GitHub](https://github.com/ollama/ollama) — Local LLMs
+- [Context Engineering Book](https://context-engineering.com) — Context engineering
+- [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) — Prompt engineering
+
+### Related Repositories
+
+- [sovereign-intelligence-stack](https://github.com/kliewerdaniel/sovereign-intelligence-stack) — Working code
+- [Sovereign Memory Bank](https://github.com/kliewerdaniel/sovereign-memory-bank) — Memory system
+- [Dynamic Persona MoE RAG](https://github.com/kliewerdaniel/dynamic-persona-moe-rag) — Retrieval system
+- [Objective05](https://github.com/kliewerdaniel/objective05) — Persistent infrastructure
+- [SovereignSpec](https://github.com/kliewerdaniel/sovereignspec) — Spec-driven development
 - [Context Engineering](/blog/2026-07-02-context-engineering-the-real-full-stack-development-paradigm)
 - [Agent Recipes](/blog/2026-07-02-building-autonomous-sovereign-ai-with-autoresearch-loops-and-fine-tuned-expert-models)
 

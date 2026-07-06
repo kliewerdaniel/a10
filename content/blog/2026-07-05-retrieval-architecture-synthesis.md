@@ -536,7 +536,28 @@ Capture every retrieval. You'll learn what works and what doesn't.
 ## References
 
 ### Related Posts
-- [Sovereign AI Architecture](/blog/2026-07-05-sovereign-ai-architecture-synthesis)
+
+- [Sovereign AI Architecture](/blog/2026-07-05-sovereign-ai-architecture-synthesis) — Comprehensive synthesis
+- [Getting Started with Sovereign AI](/blog/getting-started-sovereign-ai) — Beginner on-ramp
+- [The Sovereign Intelligence Stack](/blog/2026-07-04-sovereign-intelligence-stack) — Architecture implementation
+- [The Model Is Not the Product](/blog/2026-07-03-the-model-is-not-the-product) — Research validation
+- [The Loop Is the Product](/blog/2026-07-03-the-sovereign-intelligence-observatory) — Intelligence Observatory deep dive
+- [Building Autonomous Sovereign AI](/blog/2026-07-02-building-autonomous-sovereign-ai) — Autonomous evaluation
+- [Local AI Architecture](/blog/local-ai-architecture-synthesis) — Local AI guide
+
+### GitHub Repositories
+
+- [Sovereign Memory Bank](https://github.com/kliewerdaniel/sovereign-memory-bank) — 7-layer autonomous cognitive memory
+- [Dynamic Persona MoE RAG](https://github.com/kliewerdaniel/dynamic-persona-moe-rag) — Persona-driven mixture-of-experts
+- [Objective05](https://github.com/kliewerdaniel/objective05) — Persistent intelligence infrastructure in Rust
+- [SovereignSpec](https://github.com/kliewerdaniel/sovereignspec) — Spec-driven development with GraphRAG
+
+### External References
+
+- [Microsoft GraphRAG](https://github.com/microsoft/graphrag) — Knowledge graph retrieval
+- [GraphRAG Documentation](https://microsoft.github.io/graphrag/) — GraphRAG
+- [Context Engineering](https://github.com/coleam00/context-engineering-intro) (13.5K stars) — Systematic replacement for vibe coding
+- [Agent Harnesses](https://github.com/ecc-ai/enterprise-code-compiler) (225K + 244K stars) — Operating system layer for agents
 - [Getting Started with Sovereign AI](/blog/2026-07-05-getting-started-sovereign-ai)
 - [The Sovereign Intelligence Stack](/blog/2026-07-04-sovereign-intelligence-stack)
 - [The Model Is Not the Product](/blog/2026-07-03-the-model-is-not-the-product)

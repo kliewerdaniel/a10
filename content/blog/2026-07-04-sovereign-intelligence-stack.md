@@ -591,6 +591,20 @@ The foundation is solid. The rest is engineering.
 - [Claude Mem](https://github.com/anthropics/claude-memory) (85K stars)
 - [Context Engineering](https://github.com/coleam00/context-engineering-intro) (13.5K stars)
 
+### Related Posts
+
+- [Sovereign AI Architecture](/blog/2026-07-05-sovereign-ai-architecture-synthesis) — Comprehensive synthesis of four years of work
+- [Getting Started with Sovereign AI](/blog/2026-07-05-getting-started-sovereign-ai) — Beginner on-ramp
+- [Local AI Architecture](/blog/2026-07-05-local-ai-architecture-synthesis) — Local-first implementation guide
+- [Retrieval Architecture](/blog/2026-07-05-retrieval-architecture-synthesis) — Memory and retrieval systems
+
+### Related Repositories
+
+- [Sovereign Memory Bank](https://github.com/kliewerdaniel/sovereign-memory-bank) — 7-layer autonomous cognitive memory
+- [Dynamic Persona MoE RAG](https://github.com/kliewerdaniel/dynamic-persona-moe-rag) — Persona-driven mixture-of-experts
+- [Objective05](https://github.com/kliewerdaniel/objective05) — Persistent intelligence infrastructure in Rust
+- [SovereignSpec](https://github.com/kliewerdaniel/sovereignspec) — Spec-driven development engine
+
 ---
 
 *Building sovereign AI infrastructure that compounds. Intelligence is accumulated decisions, not models.*

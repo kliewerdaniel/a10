@@ -682,20 +682,34 @@ The stack is implemented in [sovereign-intelligence-stack](https://github.com/kl
 - [Context Engineering](/blog/2026-07-02-context-engineering-the-real-full-stack-development-paradigm)
 - [GraphRAG](/blog/2025-11-15-building-evaluating-local-research-assistant-graphrag-vero-eval)
 
+### Related Posts
+
+- [The Sovereign Intelligence Stack](/blog/2026-07-04-sovereign-intelligence-stack) — 5-layer architecture with working code
+- [The Model Is Not the Product](/blog/2026-07-03-the-model-is-not-the-product) — Research validation: three converging threads
+- [The Loop Is the Product](/blog/2026-07-03-the-sovereign-intelligence-observatory) — Intelligence Observatory deep dive
+- [Building Autonomous Sovereign AI](/blog/2026-07-02-building-autonomous-sovereign-ai-with-autoresearch-loops-and-fine-tuned-expert-models) — Autoresearch loops and expert fine-tuning
+- [Getting Started with Sovereign AI](/blog/2026-07-05-getting-started-sovereign-ai) — Beginner on-ramp
+- [Local AI Architecture: Building Intelligence You Own](/blog/2026-07-05-local-ai-architecture-synthesis) — Local-first implementation guide
+- [Retrieval Architecture: Building Intelligent Memory Systems](/blog/2026-07-05-retrieval-architecture-synthesis) — Memory and retrieval systems synthesis
+
 ### Related Repositories
-- [sovereign-intelligence-stack](https://github.com/kliewerdaniel/sovereign-intelligence-stack)
-- [Sovereign Memory Bank](https://github.com/kliewerdaniel/sovereign-memory-bank)
-- [Dynamic Persona MoE RAG](https://github.com/kliewerdaniel/dynamic-persona-moe-rag)
-- [Objective05](https://github.com/kliewerdaniel/objective05)
-- [SovereignSpec](https://github.com/kliewerdaniel/sovereignspec)
+
+- [sovereign-intelligence-stack](https://github.com/kliewerdaniel/sovereign-intelligence-stack) — Working code: 70 Python files, 7,757 lines
+- [Sovereign Memory Bank](https://github.com/kliewerdaniel/sovereign-memory-bank) — 7-layer autonomous cognitive memory
+- [Dynamic Persona MoE RAG](https://github.com/kliewerdaniel/dynamic-persona-moe-rag) — Persona-driven mixture-of-experts
+- [Objective05](https://github.com/kliewerdaniel/objective05) — Persistent intelligence infrastructure in Rust
+- [SovereignSpec](https://github.com/kliewerdaniel/sovereignspec) — Spec-driven development engine
 
 ### Research Papers
-- [Residual Context Diffusion Language Models](https://arxiv.org/abs/2601.22954) (Hu et al., 2026)
-- [SGLang](https://github.com/sgl-project/sglang) (LMSYS, UC Berkeley)
-- [Constrained Optimization for Agent Loops](https://arxiv.org/abs/2305.xxxxx)
 
-### Books
-- [Sovereign AI: An Architectural Investigation into Local-First Intelligence](https://www.amazon.com/Sovereign-AI-Architectural-Investigation-Local-First/dp/xxx) — $88
+- [Residual Context Diffusion Language Models](https://arxiv.org/abs/2601.22954) (Hu et al., 2026) — Apple research on intermediate uncertainty
+- [SGLang](https://github.com/sgl-project/sglang) (LMSYS, UC Berkeley) — Agentic execution graphs
+- [Context Engineering](https://github.com/coleam00/context-engineering-intro) (13.5K stars) — Systematic replacement for vibe coding
+- [Agent Harnesses](https://github.com/ecc-ai/enterprise-code-compiler) (ECC 225K + Superpowers 244K stars) — Operating system layer for agents
+- [Persistent Memory](https://github.com/anthropics/claude-memory) (Claude Mem, 85K stars) — Stateful agent collaboration
+- [Multi-Agent Orchestration](https://github.com/crewAIInc/crewAI) (CrewAI, 55K stars) — Collaborative intelligence
+- [Spec-Driven Development](https://github.com/) — Structured specifications (117K stars ecosystem)
+- [GraphRAG](https://github.com/microsoft/graphrag) (Microsoft, 70K+ stars) — Knowledge graph retrieval
 
 ---
 

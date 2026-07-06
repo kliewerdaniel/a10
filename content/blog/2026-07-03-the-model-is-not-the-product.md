@@ -666,11 +666,28 @@ And that's where everything starts to converge.
 - [SOVEREIGN: The Unified Architecture](https://www.danielkliewer.com/blog/sovereign-synthesis) — 7-layer convergent architecture
 - [Context Engineering: The Blind Spots and the Real Full-Stack Development Paradigm](https://www.danielkliewer.com/blog/context-engineering-the-blind-spots-and-the-real-full-stack-development-paradigm) — Agent harnesses and persistent memory
 
-### Related Repos
+### Related Posts
 
-- [objective05](https://github.com/kliewerdaniel/objective05) — Rust persistent intelligence system
-- [sovereignBank](https://github.com/kliewerdaniel/sovereignBank) — Autonomous cognitive memory
-- [dynamic_persona_moe_rag](https://github.com/kliewerdaniel/dynamic_persona_moe_rag) — Persona-driven MoE RAG
-- [sovereignSpec](https://github.com/kliewerdaniel/sovereignSpec) — Spec-driven development engine
-- [SynthInt](https://github.com/kliewerdaniel/SynthInt) — Synthetic intelligence framework
-- [cogGraph](https://github.com/kliewerdaniel/cogGraph) — Cognitive graph AI application
+- [The Sovereign Intelligence Stack](/blog/2026-07-04-sovereign-intelligence-stack) — Architecture implementation with working code
+- [The Loop Is the Product](/blog/2026-07-03-the-sovereign-intelligence-observatory) — Intelligence Observatory deep dive
+- [Building Autonomous Sovereign AI](/blog/2026-07-02-building-autonomous-sovereign-ai-with-autoresearch-loops-and-fine-tuned-expert-models) — Autoresearch loops and expert fine-tuning
+- [Getting Started with Sovereign AI](/blog/2026-07-05-getting-started-sovereign-ai) — Beginner on-ramp
+- [Local AI Architecture](/blog/2026-07-05-local-ai-architecture-synthesis) — Local-first implementation guide
+- [Retrieval Architecture](/blog/2026-07-05-retrieval-architecture-synthesis) — Memory and retrieval systems
+
+### Related Repositories
+
+- [sovereign-intelligence-stack](https://github.com/kliewerdaniel/sovereign-intelligence-stack) — 70 Python files, 7,757 lines
+- [sovereign-memory-bank](https://github.com/kliewerdaniel/sovereign-memory-bank) — Autonomous cognitive memory
+- [dynamic-persona-moe-rag](https://github.com/kliewerdaniel/dynamic-persona-moe-rag) — Persona-driven MoE
+- [objective05](https://github.com/kliewerdaniel/objective05) — Rust persistent intelligence infrastructure
+- [sovereignspec](https://github.com/kliewerdaniel/sovereignspec) — Spec-driven development
+
+### Additional Research
+
+- [LMSYS/SGLang](https://github.com/sgl-project/sglang) — Agentic execution graphs
+- [Bridgewater AIA Labs](https://www.bridgewater.com/) — Autonomous evaluation
+- [Thinking Machines Lab](https://www.thinkmachineslab.com/) — Compounding intelligence
+- [Apple Research](https://machinelearning.apple.com/) — Residual Context Diffusion team
+- [Autonomous Agent Research](https://arxiv.org/search/?query=autonomous+agents&searchtype=all) — arXiv search
+- [Compounding Intelligence Research](https://arxiv.org/search/?query=compounding+intelligence&searchtype=all) — arXiv search

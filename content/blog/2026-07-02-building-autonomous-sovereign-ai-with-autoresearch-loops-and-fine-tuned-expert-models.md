@@ -647,3 +647,34 @@ It is distributed across:
 * and loop structure itself
 
 The model is just the execution substrate. The loop is where intelligence actually accumulates.
+
+---
+
+## Related Resources
+
+### Related Posts
+
+- [The Sovereign Intelligence Stack](/blog/2026-07-04-sovereign-intelligence-stack) — 5-layer architecture with working code
+- [The Loop Is the Product](/blog/2026-07-03-the-sovereign-intelligence-observatory) — Intelligence Observatory deep dive
+- [The Model Is Not the Product](/blog/2026-07-03-the-model-is-not-the-product) — Research validation
+- [Getting Started with Sovereign AI](/blog/2026-07-05-getting-started-sovereign-ai) — Beginner on-ramp
+- [Local AI Architecture](/blog/2026-07-05-local-ai-architecture-synthesis) — Local-first implementation guide
+- [Retrieval Architecture](/blog/2026-07-05-retrieval-architecture-synthesis) — Memory and retrieval systems
+
+### Related Repositories
+
+- [sovereign-intelligence-stack](https://github.com/kliewerdaniel/sovereign-intelligence-stack) — 70 Python files, 7,757 lines
+- [Sovereign Memory Bank](https://github.com/kliewerdaniel/sovereign-memory-bank) — 7-layer autonomous cognitive memory
+- [Dynamic Persona MoE RAG](https://github.com/kliewerdaniel/dynamic-persona-moe-rag) — Persona-driven mixture-of-experts
+- [Objective05](https://github.com/kliewerdaniel/objective05) — Persistent intelligence infrastructure in Rust
+- [SovereignSpec](https://github.com/kliewerdaniel/sovereignspec) — Spec-driven development engine
+
+### Additional Research
+
+- [Autoresearch: The feedback loop behind self-improving agents](https://www.latent.space/p/autoresearch-introspection) — Latent.Space
+- [Learning to replicate expert judgment in financial tasks](https://thinkingmachines.ai/news/learning-to-replicate-expert-judgment-in-financial-tasks) — Thinking Machines Lab
+- [Autonomous Agent Research](https://arxiv.org/search/?query=autonomous+agents&searchtype=all) — arXiv search
+- [Expert Fine-Tuning Research](https://arxiv.org/search/?query=expert+fine+tuning&searchtype=all) — arXiv search
+- [Autoresearch Loops Research](https://arxiv.org/search/?query=autoresearch&searchtype=all) — arXiv search
+- [Bridgewater AIA Labs](https://www.bridgewater.com/) — Autonomous evaluation
+- [Thinking Machines Lab](https://www.thinkmachineslab.com/) — Compounding intelligence

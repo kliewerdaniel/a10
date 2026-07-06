@@ -276,7 +276,33 @@ CrewAI is a multi-agent framework. The Sovereign Intelligence Stack is a compoun
 ## References
 
 ### Related Posts
-- [Sovereign AI Architecture](/blog/2026-07-05-sovereign-ai-architecture-synthesis)
+
+- [Sovereign AI Architecture](/blog/2026-07-05-sovereign-ai-architecture-synthesis) — Comprehensive synthesis of four years of work
+- [The Sovereign Intelligence Stack](/blog/2026-07-04-sovereign-intelligence-stack) — Architecture deep dive
+- [The Model Is Not the Product](/blog/2026-07-03-the-model-is-not-the-product) — Research validation
+- [The Loop Is the Product](/blog/2026-07-03-the-sovereign-intelligence-observatory) — Companion post
+- [Building Autonomous Sovereign AI](/blog/2026-07-02-building-autonomous-sovereign-ai-with-autoresearch-loops-and-fine-tuned-expert-models) — Autonomous evaluation
+- [Local AI Architecture](/blog/2026-07-05-local-ai-architecture-synthesis) — Local AI guide
+- [Retrieval Architecture](/blog/2026-07-05-retrieval-architecture-synthesis) — Retrieval guide
+
+### Related Repositories
+
+- [sovereign-intelligence-stack](https://github.com/kliewerdaniel/sovereign-intelligence-stack) — Working code
+- [Sovereign Memory Bank](https://github.com/kliewerdaniel/sovereign-memory-bank) — Memory system
+- [Dynamic Persona MoE RAG](https://github.com/kliewerdaniel/dynamic-persona-moe-rag) — Retrieval system
+- [Objective05](https://github.com/kliewerdaniel/objective05) — Persistent infrastructure
+- [SovereignSpec](https://github.com/kliewerdaniel/sovereignspec) — Spec-driven development
+
+### Research Papers
+
+- [Residual Context Diffusion Language Models](https://arxiv.org/abs/2601.22954) (Hu et al., 2026) — Apple research
+- [SGLang](https://github.com/sgl-project/sglang) (LMSYS, UC Berkeley) — Agentic execution graphs
+- [Context Engineering](https://github.com/coleam00/context-engineering-intro) (13.5K stars) — Systematic replacement for vibe coding
+- [Agent Harnesses](https://github.com/ecc-ai/enterprise-code-compiler) (ECC 225K + Superpowers 244K stars) — Operating system layer for agents
+- [Persistent Memory](https://github.com/anthropics/claude-memory) (Claude Mem, 85K stars) — Stateful agent collaboration
+- [Multi-Agent Orchestration](https://github.com/crewAIInc/crewAI) (CrewAI, 55K stars) — Collaborative intelligence
+- [Spec-Driven Development](https://github.com/) — Structured specifications (117K stars ecosystem)
+- [GraphRAG](https://github.com/microsoft/graphrag) (Microsoft, 70K+ stars) — Knowledge graph retrieval
 - [The Sovereign Intelligence Stack](/blog/2026-07-04-sovereign-intelligence-stack)
 - [The Model Is Not the Product](/blog/2026-07-03-the-model-is-not-the-product)
 - [The Loop Is the Product](/blog/2026-07-03-the-sovereign-intelligence-observatory)
