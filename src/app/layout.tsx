@@ -61,6 +61,15 @@ export default function RootLayout({
   return (
     <html lang="en" data-scroll-behavior="smooth" className={`${archivoBlack.variable} ${spaceGrotesk.variable} ${jetbrainsMono.variable} h-full antialiased`} suppressHydrationWarning>
       <head>
+       
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-02N9FT7XP5"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-02N9FT7XP5');
+        </script>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5368889366103187" crossOrigin="anonymous"></script>
         <script dangerouslySetInnerHTML={{ __html: `
           (function() {
