@@ -16,13 +16,12 @@ const BOOK_URL = 'https://www.amazon.com/dp/B0H6RB7D9J';
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [theme, setTheme] = useState<'light' | 'dark'>('light');
-
-  useEffect(() => {
+  const [theme, setTheme] = useState<'light' | 'dark'>(() => {
+    if (typeof window === 'undefined') return 'light';
     const stored = localStorage.getItem('theme');
     const preferred = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-    setTheme(stored as 'light' | 'dark' || preferred);
-  }, []);
+    return (stored as 'light' | 'dark') || preferred;
+  });
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 30);

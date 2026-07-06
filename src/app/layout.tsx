@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Archivo_Black, Space_Grotesk, JetBrains_Mono } from "next/font/google";
+import Script from "next/script";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { ClientExtras } from "@/components/layout/ClientExtras";
@@ -61,26 +62,23 @@ export default function RootLayout({
   return (
     <html lang="en" data-scroll-behavior="smooth" className={`${archivoBlack.variable} ${spaceGrotesk.variable} ${jetbrainsMono.variable} h-full antialiased`} suppressHydrationWarning>
       <head>
-       
-        <script dangerouslySetInnerHTML={{ __html: `
-          var _iub = _iub || [];
-          _iub.csConfiguration = {"siteId":4597774,"cookiePolicyId":43314476,"lang":"en","storage":{"useSiteId":true}};
-        `}} />
-        <script type="text/javascript" src="https://cs.iubenda.com/autoblocking/4597774.js"></script>
-          <script type="text/javascript" src="//cdn.iubenda.com/cs/gpp/stub.js"></script>
-          <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charSet="UTF-8" async></script>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-02N9FT7XP5"></script>
-
-        
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5368889366103187" crossOrigin="anonymous"></script>
-        <script dangerouslySetInnerHTML={{ __html: `
-          (function() {
+        <Script id="iubenda-config" strategy="beforeInteractive">
+          {`var _iub = _iub || [];
+          _iub.csConfiguration = {"siteId":4597774,"cookiePolicyId":43314476,"lang":"en","storage":{"useSiteId":true}};`}
+        </Script>
+        <Script src="https://cs.iubenda.com/autoblocking/4597774.js" strategy="beforeInteractive" />
+        <Script src="//cdn.iubenda.com/cs/gpp/stub.js" strategy="beforeInteractive" />
+        <Script src="//cdn.iubenda.com/cs/iubenda_cs.js" strategy="beforeInteractive" />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-02N9FT7XP5" strategy="afterInteractive" />
+        <Script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5368889366103187" crossOrigin="anonymous" strategy="afterInteractive" />
+        <Script id="theme-detection" strategy="beforeInteractive">
+          {`(function() {
             var t = localStorage.getItem('theme');
             if (t === 'dark') {
               document.documentElement.classList.add('dark');
             }
-          })();
-        `}} />
+          })();`}
+        </Script>
         <link rel="icon" href="/logo.png" type="image/png" sizes="any" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />

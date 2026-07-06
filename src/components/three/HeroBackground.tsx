@@ -18,7 +18,8 @@ function PointillistField() {
   const count = 400;
   const dummy = useMemo(() => new THREE.Object3D(), []);
 
-  const particles = useMemo(() => {
+  const particlesRef = useRef<{ items: Array<{ x: number; y: number; z: number; speed: number; offset: number; scale: number }>; colorArray: Float32Array } | null>(null);
+  if (particlesRef.current === null) {
     const colorArray = new Float32Array(count * 3);
     const colorChoices = [COLORS.green, COLORS.pink, COLORS.orange, COLORS.yellow, COLORS.cream, COLORS.cream];
 
@@ -38,8 +39,9 @@ function PointillistField() {
       };
     });
 
-    return { items, colorArray };
-  }, []);
+    particlesRef.current = { items, colorArray };
+  }
+  const particles = particlesRef.current;
 
   useFrame((state) => {
     if (!meshRef.current) return;

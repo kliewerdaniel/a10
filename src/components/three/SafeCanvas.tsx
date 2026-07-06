@@ -1,6 +1,6 @@
 'use client';
 
-import { Component, type ReactNode, useState, useEffect } from 'react';
+import { Component, type ReactNode, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
 
 interface ErrorBoundaryState {
@@ -35,17 +35,14 @@ export class ThreeErrorBoundary extends Component<ErrorBoundaryProps, ErrorBound
 }
 
 export function SafeCanvas({ fallback, children, ...props }: { fallback?: ReactNode } & React.ComponentProps<typeof Canvas>) {
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
+  const [mounted] = useState(() => {
     try {
       const canvas = document.createElement('canvas');
-      const ok = !!(window.WebGLRenderingContext && (canvas.getContext('webgl') || canvas.getContext('experimental-webgl')));
-      setMounted(ok);
+      return !!(window.WebGLRenderingContext && (canvas.getContext('webgl') || canvas.getContext('experimental-webgl')));
     } catch {
-      setMounted(false);
+      return false;
     }
-  }, []);
+  });
 
   if (!mounted) {
     return <>{fallback}</>;
