@@ -15,17 +15,15 @@ og:title: 'Building This Blog: A Technical Deep Dive'
 og:type: article
 og:url: https://danielkliewer.com/blog/building-this-blog
 tags:
-- next-js
-- web-development
-- ai
-- mcp
-- typescript
-- blog-engine
-- jamstack
-- ollama
-- rag
-- knowledge-graph
-title: 'Building This Blog: A Technical Deep Dive into My Next.js AI-Powered Publishing
+  - ai-agents
+  - architecture
+  - knowledge-graph
+  - local-ai
+  - next-js
+  - ollama
+  - rag
+  - sovereign-ai
+  - typescripttitle: 'Building This Blog: A Technical Deep Dive into My Next.js AI-Powered Publishing
   Platform'
 twitter:card: summary_large_image
 twitter:description: How I built an AI-powered blog with Next.js, MCP, semantic search,

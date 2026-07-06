@@ -32,21 +32,15 @@ og:type: article
 og:url: https://yourdomain.com/blog/vscode-complete-blogging-guide
 readtime: ' min'
 tags:
-- vscode
-- blogging
-- technical writing
-- ai
-- free tools
-- seo
-- local ai
-- cline
-- mcp
-- markdown
-- static sites
-- github pages
-- jekyll
-- hugo
-title: 'The Complete Guide to VSCode for Free Technical Blogging: From Setup to Publication'
+  - architecture
+  - knowledge-graph
+  - local-ai
+  - ollama
+  - python
+  - rag
+  - sovereign-ai
+  - tutorial
+  - typescripttitle: 'The Complete Guide to VSCode for Free Technical Blogging: From Setup to Publication'
 twitter:card: summary_large_image
 twitter:description: Master VSCode for technical blogging with AI, MCP, SEO optimization,
   and automated deployment. 3,500+ word comprehensive guide.
