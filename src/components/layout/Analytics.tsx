@@ -4,7 +4,7 @@ import Script from 'next/script';
 
 export function Analytics() {
   // Add your Google Analytics ID or Plausible domain here
-  const GA_MEASUREMENT_ID = 'G-XXXXXXXXXX'; // Replace with your ID
+  const GA_MEASUREMENT_ID = 'G-02N9FT7XP5'; // Replace with your ID
   const PLAUSIBLE_DOMAIN = ''; // Or add your Plausible domain
 
   return (
