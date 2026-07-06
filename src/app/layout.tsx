@@ -62,13 +62,13 @@ export default function RootLayout({
     <html lang="en" data-scroll-behavior="smooth" className={`${archivoBlack.variable} ${spaceGrotesk.variable} ${jetbrainsMono.variable} h-full antialiased`} suppressHydrationWarning>
       <head>
        
-        <script type="text/javascript">
+        <script dangerouslySetInnerHTML={{ __html: `
           var _iub = _iub || [];
           _iub.csConfiguration = {"siteId":4597774,"cookiePolicyId":43314476,"lang":"en","storage":{"useSiteId":true}};
-          </script>
-          <script type="text/javascript" src="https://cs.iubenda.com/autoblocking/4597774.js"></script>
+        `}} />
+        <script type="text/javascript" src="https://cs.iubenda.com/autoblocking/4597774.js"></script>
           <script type="text/javascript" src="//cdn.iubenda.com/cs/gpp/stub.js"></script>
-          <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+          <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charSet="UTF-8" async></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-02N9FT7XP5"></script>
 
         
