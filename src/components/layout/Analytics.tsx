@@ -10,7 +10,7 @@ export function Analytics() {
   return (
     <>
       {/* Google Analytics */}
-      {GA_MEASUREMENT_ID && GA_MEASUREMENT_ID !== 'G-XXXXXXXXXX' && (
+      {GA_MEASUREMENT_ID && GA_MEASUREMENT_ID !== 'G-02N9FT7XP5' && (
         <>
           <Script
             src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
