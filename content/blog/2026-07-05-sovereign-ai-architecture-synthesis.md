@@ -33,7 +33,7 @@ draft: false
 **Published:** July 5, 2026  
 **Reading Time:** 25 minutes  
 **Prerequisites:** None (beginner to advanced)  
-**Related Posts:** [The Sovereign Intelligence Stack](/blog/2026-07-04-sovereign-intelligence-stack), [The Model Is Not the Product](/blog/2026-07-03-the-model-is-not-the-product), [The Loop Is the Product](/blog/2026-07-03-the-sovereign-intelligence-observatory), [Building Autonomous Sovereign AI](/blog/2026-07-02-building-autonomous-sovereign-ai)  
+**Related Posts:** [The Sovereign Intelligence Stack](/blog/2026-07-04-sovereign-intelligence-stack), [The Model Is Not the Product](/blog/2026-07-03-the-model-is-not-the-product), [The Loop Is the Product](/blog/2026-07-03-the-sovereign-intelligence-observatory), [Building Autonomous Sovereign AI](/blog/2026-07-02-building-autonomous-sovereign-ai), [Performance Benchmarks](/blog/2026-07-05-sovereign-ai-benchmarks-performance-results)  **Related Repositories:**
 **Related Repositories:** [sovereign-intelligence-stack](https://github.com/kliewerdaniel/sovereign-intelligence-stack), [Sovereign Memory Bank](https://github.com/kliewerdaniel/sovereign-memory-bank), [Dynamic Persona MoE RAG](https://github.com/kliewerdaniel/dynamic-persona-moe-rag), [Objective05](https://github.com/kliewerdaniel/objective05), [SovereignSpec](https://github.com/kliewerdaniel/sovereignspec)
 
 ---
