@@ -23,7 +23,7 @@ tags:
   - ollama
   - rag
   - sovereign-ai
-typescripttitle: 'Building This Blog: A Technical Deep Dive into My Next.js AI-Powered Publishing
+title: 'Building This Blog: A Technical Deep Dive into My Next.js AI-Powered Publishing
   Platform'
 twitter:card: summary_large_image
 twitter:description: How I built an AI-powered blog with Next.js, MCP, semantic search,
