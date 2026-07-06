@@ -81,8 +81,9 @@ export function Footer() {
         <div className="mt-14 pt-8 border-t-4 border-ink flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-sm text-ink-3 font-bold">© {new Date().getFullYear()} Daniel Kliewer.</p>
           <div className="flex gap-6 text-sm text-ink-3 font-bold">
-            <Link href="/privacy" className="hover:text-ink transition-colors">Privacy</Link>
-            <Link href="/terms" className="hover:text-ink transition-colors">Terms</Link>
+            <a href="https://www.iubenda.com/privacy-policy/43314476" target="_blank" rel="noopener noreferrer" className="hover:text-ink transition-colors">Privacy Policy</a>
+            <a href="https://www.iubenda.com/privacy-policy/43314476/cookie-policy" target="_blank" rel="noopener noreferrer" className="hover:text-ink transition-colors">Cookie Policy</a>
+            <a href="https://www.iubenda.com/terms-and-conditions/43314476" target="_blank" rel="noopener noreferrer" className="hover:text-ink transition-colors">Terms & Conditions</a>
           </div>
         </div>
       </div>
