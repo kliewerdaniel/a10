@@ -40,7 +40,7 @@ tags:
   - rag
   - sovereign-ai
   - tutorial
-  - typescripttitle: 'The Complete Guide to VSCode for Free Technical Blogging: From Setup to Publication'
+title: 'The Complete Guide to VSCode for Free Technical Blogging: From Setup to Publication'
 twitter:card: summary_large_image
 twitter:description: Master VSCode for technical blogging with AI, MCP, SEO optimization,
   and automated deployment. 3,500+ word comprehensive guide.
