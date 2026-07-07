@@ -49,13 +49,13 @@ export default function Home() {
 
           <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-[5rem] mb-8 tracking-tighter leading-[0.9] hero-fade-in hero-delay-2">
             <span className="text-ink">Building</span>{' '}
-            <span className="accent-green">Local-First AI Systems</span>
+            <span className="accent-green">Sovereign</span>
             <br />
-            <span className="text-ink">for Human Intelligence</span>
+            <span className="text-ink">AI Systems</span>
           </h1>
 
           <p className="text-base sm:text-lg md:text-xl text-ink-3 mb-12 max-w-2xl mx-auto leading-relaxed hero-fade-in hero-delay-3">
-            I research and build sovereign AI architectures, agent orchestration systems, retrieval-augmented generation pipelines, and practical tools that run on your own hardware.
+            Local-first AI architectures that keep reasoning, memory, and data under your control instead of someone else’s cloud.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-14 hero-fade-in hero-delay-4">
