@@ -75,12 +75,6 @@ export default function Home() {
             ))}
           </div>
         </div>
-
-        <div className="absolute bottom-8 sm:bottom-12 left-1/2 -translate-x-1/2 hero-fade-in hero-delay-5">
-          <div className="w-5 h-8 border-2 border-ink/30 flex justify-center pt-1.5">
-            <div className="w-0.5 h-2 rounded-full bg-ink/40 animate-pulse" />
-          </div>
-        </div>
       </section>
 
       {/* Architecture Overview */}
