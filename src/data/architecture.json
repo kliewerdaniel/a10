@@ -78,7 +78,7 @@
       "projects": ["AMIS", "Learn", "BookForge", "catholic-kb", "cathkb", "concreat", "autoblog01", "chrome-ai-filename-generator", "redDis"]
     }
   ],
-  "title": "The Sovereign Intelligence Stack",
+  "title": "Sovereign Intelligence Stack",
   "subtitle": "One evolving architecture. Seven layers. Eighty repositories testing one hypothesis.",
   "narrative": "Intelligence can be locally owned. This architecture demonstrates that hypothesis through implementation."
 }

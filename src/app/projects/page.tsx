@@ -22,7 +22,7 @@ export default function ProjectsPage() {
     <main className="min-h-screen">
       <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto text-center">
-          <span className="mono text-orange text-xs mb-4 block">Sovereign Intelligence Stack</span>
+          <span className="mono text-orange text-xs mb-4 block">Projects</span>
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl mb-6 tracking-tight">
             {architecture.title}
           </h1>
