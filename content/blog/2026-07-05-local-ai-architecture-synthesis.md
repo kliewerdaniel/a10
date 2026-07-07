@@ -2,13 +2,13 @@
 author: Daniel Kliewer
 canonical_url: /blog/local-ai-architecture-synthesis
 date: 07-05-2026
-description: "A comprehensive synthesis of 35 posts on local AI into a single, coherent architecture. Ties together Ollama, local LLMs, context engineering, and the Sovereign Intelligence Stack into one system for building intelligence you own."
+description: "Your practical guide to running AI on your own hardware. Ollama setup, model selection, hardware requirements from $2K to $50K, and wiring local inference into a sovereign pipeline."
 image: /images/ComfyUI_00207_.png
 layout: post
-title: 'Local AI Architecture: Building Intelligence You Own'
-og:description: "A comprehensive synthesis of 35 posts on local AI into a single, coherent architecture. Ties together Ollama, local LLMs, context engineering, and the Sovereign Intelligence Stack into one system for building intelligence you own."
+title: 'Local AI Architecture: Running Models on Your Own Hardware'
+og:description: "Your practical guide to running AI on your own hardware. Ollama setup, model selection, hardware requirements from $2K to $50K, and wiring local inference into a sovereign pipeline."
 og:image: /images/ComfyUI_00207_.png
-og:title: 'Local AI Architecture: Building Intelligence You Own'
+og:title: 'Local AI Architecture: Running Models on Your Own Hardware'
 og:type: article
 og:url: /blog/local-ai-architecture-synthesis
 tags:
@@ -23,27 +23,29 @@ tags:
 draft: false
 ---
 
-# Local AI Architecture: Building Intelligence You Own
+# Local AI Architecture: Running Models on Your Own Hardware
 
-> Intelligence is not the model. Intelligence is the accumulated decisions that shaped the model. And the model should be yours.
+> The hardware is the contract. The model is the commodity. The loop is the only thing that compounds.
 
 **By Daniel Kliewer**  
 **Published:** July 5, 2026  
 **Reading Time:** 20 minutes  
 **Prerequisites:** None (beginner to advanced)  
-**Related Posts:** [Sovereign AI Architecture](/blog/2026-07-05-sovereign-ai-architecture-synthesis), [Getting Started with Sovereign AI](/blog/getting-started-sovereign-ai), [The Sovereign Intelligence Stack](/blog/2026-07-04-sovereign-intelligence-stack)
+**This post focuses on local inference infrastructure — Ollama, hardware selection, and running models on your own machine. For the full sovereign AI architecture (5-layer stack, compounding intelligence, research validation), see the [Sovereign AI Architecture pillar](/blog/2026-07-05-sovereign-ai-architecture-synthesis).**
 
 ---
 
 ## Executive Summary
 
-This post synthesizes 35 posts on local AI into a single, coherent architecture. It ties together Ollama, local LLMs, context engineering, and the Sovereign Intelligence Stack into one system for building intelligence you own.
+This post is your practical guide to running AI on your own hardware. It covers Ollama setup, model selection, hardware requirements, and how to wire local inference into a sovereign pipeline.
 
 **What you'll learn:**
 - Why local AI matters (sovereignty, privacy, cost, performance)
-- The complete local AI stack (Ollama → Context Engineering → Sovereign Intelligence Stack)
-- How to build a local AI system that compounds intelligence
-- Where to find more advanced resources
+- How to install Ollama and run your first local model
+- Hardware requirements from $2K consumer rigs to $50K workstations
+- How local inference connects to context engineering and the Sovereign Intelligence Stack
+
+**Want the full architecture?** See the [Sovereign AI Architecture pillar](/blog/2026-07-05-sovereign-ai-architecture-synthesis) for the complete 5-layer stack, compounding intelligence design, and research validation.
 
 ---
 
@@ -438,11 +440,14 @@ Local AI is a component of sovereign AI.
 
 ## What's Next?
 
+### Start Here
+
+1. **Read the [Sovereign AI Architecture pillar](/blog/2026-07-05-sovereign-ai-architecture-synthesis)** — The complete 5-layer stack, design principles, and research validation
+
 ### For Beginners
 
 1. **Read the [Getting Started with Sovereign AI](/blog/getting-started-sovereign-ai) post** — On-ramp to sovereign AI
-2. **Read the [Sovereign AI Architecture](/blog/2026-07-05-sovereign-ai-architecture-synthesis) post** — Comprehensive synthesis
-3. **Try the [Ollama quickstart](https://ollama.com/quickstart)** — First local inference
+2. **Try the [Ollama quickstart](https://ollama.com/quickstart)** — First local inference
 
 ### For Intermediate Readers
 
@@ -462,7 +467,7 @@ Local AI is a component of sovereign AI.
 
 ### Related Posts
 
-- [Sovereign AI Architecture](/blog/2026-07-05-sovereign-ai-architecture-synthesis) — Comprehensive synthesis
+- [Sovereign AI Architecture](/blog/2026-07-05-sovereign-ai-architecture-synthesis) — Full 5-layer architecture, compounding intelligence, research validation (the pillar)
 - [Getting Started with Sovereign AI](/blog/getting-started-sovereign-ai) — Beginner on-ramp
 - [The Sovereign Intelligence Stack](/blog/2026-07-04-sovereign-intelligence-stack) — Architecture implementation
 - [The Model Is Not the Product](/blog/2026-07-03-the-model-is-not-the-product) — Research validation

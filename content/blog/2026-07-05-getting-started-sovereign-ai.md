@@ -2,13 +2,13 @@
 author: Daniel Kliewer
 canonical_url: /blog/getting-started-sovereign-ai
 date: 07-05-2026
-description: "Your on-ramp to sovereign AI. Learn what sovereign AI is, how recipe compilation works, how signal routing and autonomous evaluation function, and how to get started with the Sovereign Intelligence Stack."
+description: "Beginner on-ramp to sovereign AI. Defines key terms — recipe compilation, signal routing, autonomous evaluation — and walks you through your first recipe capture in five steps."
 image: /images/ComfyUI_00201_.png
 layout: post
-title: 'Getting Started with Sovereign AI'
-og:description: "Your on-ramp to sovereign AI. Learn what sovereign AI is, how recipe compilation works, how signal routing and autonomous evaluation function, and how to get started with the Sovereign Intelligence Stack."
+title: 'Getting Started with Sovereign AI: Your First Recipe'
+og:description: "Beginner on-ramp to sovereign AI. Defines key terms — recipe compilation, signal routing, autonomous evaluation — and walks you through your first recipe capture in five steps."
 og:image: /images/ComfyUI_00201_.png
-og:title: 'Getting Started with Sovereign AI'
+og:title: 'Getting Started with Sovereign AI: Your First Recipe'
 og:type: article
 og:url: /blog/getting-started-sovereign-ai
 tags:
@@ -22,21 +22,21 @@ tags:
 draft: false
 ---
 
-# Getting Started with Sovereign AI
+# Getting Started with Sovereign AI: Your First Recipe
 
-> Intelligence is not the model. Intelligence is the accumulated decisions that shaped the model.
+> Start small. Capture one recipe. Then watch the loop compound.
 
 **By Daniel Kliewer**  
 **Published:** July 5, 2026  
 **Reading Time:** 15 minutes  
 **Prerequisites:** None (beginner to advanced)  
-**Related Posts:** [Sovereign AI Architecture](/blog/2026-07-05-sovereign-ai-architecture-synthesis), [The Sovereign Intelligence Stack](/blog/2026-07-04-sovereign-intelligence-stack), [The Model Is Not the Product](/blog/2026-07-03-the-model-is-not-the-product)
+**This post is a beginner on-ramp — it defines terms and walks you through your first recipe capture. For the full sovereign AI architecture (5-layer stack, compounding intelligence, research validation), see the [Sovereign AI Architecture pillar](/blog/2026-07-05-sovereign-ai-architecture-synthesis).**
 
 ---
 
 ## Executive Summary
 
-This post is your on-ramp to sovereign AI. It defines key terms, shows a simple example of recipe compilation, and points you to more advanced resources.
+This post is your on-ramp to sovereign AI. It defines key terms, shows a simple example of recipe compilation, and walks you through your first capture in five steps.
 
 **What you'll learn:**
 - What sovereign AI is (and isn't)
@@ -45,6 +45,8 @@ This post is your on-ramp to sovereign AI. It defines key terms, shows a simple 
 - What autonomous evaluation means
 - How to get started with the Sovereign Intelligence Stack
 - Where to find more advanced resources
+
+**Ready for the full architecture?** See the [Sovereign AI Architecture pillar](/blog/2026-07-05-sovereign-ai-architecture-synthesis) for the complete 5-layer stack, compounding intelligence design, and research validation.
 
 ---
 
@@ -229,11 +231,14 @@ for event in events:
 
 ## What's Next?
 
+### Start Here
+
+1. **Read the [Sovereign AI Architecture pillar](/blog/2026-07-05-sovereign-ai-architecture-synthesis)** — The complete 5-layer stack, design principles, and research validation
+
 ### For Beginners
 
-1. **Read the [Sovereign AI Architecture](/blog/2026-07-05-sovereign-ai-architecture-synthesis) post** — Comprehensive synthesis of the entire system
-2. **Read the [Sovereign Intelligence Stack](/blog/2026-07-04-sovereign-intelligence-stack) post** — Deep dive into the 5-layer architecture
-3. **Read the [Model Is Not the Product](/blog/2026-07-03-the-model-is-not-the-product) post** — Research validation and convergence
+1. **Read the [Sovereign Intelligence Stack](/blog/2026-07-04-sovereign-intelligence-stack) post** — Deep dive into the 5-layer architecture
+2. **Read the [Model Is Not the Product](/blog/2026-07-03-the-model-is-not-the-product) post** — Research validation and convergence
 
 ### For Intermediate Readers
 
@@ -277,7 +282,7 @@ CrewAI is a multi-agent framework. The Sovereign Intelligence Stack is a compoun
 
 ### Related Posts
 
-- [Sovereign AI Architecture](/blog/2026-07-05-sovereign-ai-architecture-synthesis) — Comprehensive synthesis of four years of work
+- [Sovereign AI Architecture](/blog/2026-07-05-sovereign-ai-architecture-synthesis) — Full 5-layer architecture, compounding intelligence, research validation (the pillar)
 - [The Sovereign Intelligence Stack](/blog/2026-07-04-sovereign-intelligence-stack) — Architecture deep dive
 - [The Model Is Not the Product](/blog/2026-07-03-the-model-is-not-the-product) — Research validation
 - [The Loop Is the Product](/blog/2026-07-03-the-sovereign-intelligence-observatory) — Companion post
