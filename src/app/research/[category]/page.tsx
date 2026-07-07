@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getCategories, getPostsByCategory, getCategoryBySlug } from '@/lib/blog';
 import { ResearchCard } from '@/components/blog/ResearchCard';
+import { Breadcrumbs } from '@/components/seo/Breadcrumbs';
 import Link from 'next/link';
 
 export function generateStaticParams() {
@@ -33,6 +34,13 @@ export default async function ResearchCategoryPage({ params }: Props) {
     <main className="min-h-screen">
       <section className="py-20 px-4">
         <div className="max-w-4xl mx-auto">
+          <Breadcrumbs
+            items={[
+              { name: 'Home', url: '/' },
+              { name: 'Research', url: '/research' },
+              { name: cat.name, url: `/research/${slug}` },
+            ]}
+          />
           <Link href="/research" className="text-sm font-bold accent-green hover:text-green-dark transition-colors mb-6 inline-block">
             ← Back to Research
           </Link>

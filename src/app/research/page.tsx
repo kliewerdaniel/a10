@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { getAllBlogPosts, getCornerstonePosts } from '@/lib/blog';
 import { ResearchCard } from '@/components/blog/ResearchCard';
 import { ResearchSearch } from '@/components/blog/ResearchSearch';
+import { Breadcrumbs } from '@/components/seo/Breadcrumbs';
 
 const POSTS_PER_PAGE = 20;
 
@@ -60,6 +61,12 @@ export default async function ResearchPage({ searchParams }: ResearchPageProps) 
       {/* Hero */}
       <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto text-center">
+          <Breadcrumbs
+            items={[
+              { name: 'Home', url: '/' },
+              { name: 'Research', url: '/research' },
+            ]}
+          />
           <span className="mono text-green text-xs mb-4 block">Knowledge Base</span>
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl mb-6">Research</h1>
           <p className="text-ink-3 max-w-2xl mx-auto text-lg leading-relaxed">

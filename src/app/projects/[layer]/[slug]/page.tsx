@@ -2,6 +2,7 @@ import { getProjectBySlug, getLayerBySlug, getRelatedProjects } from '@/lib/proj
 import { StatusBadge } from '@/components/projects/StatusBadge';
 import { TechTag } from '@/components/projects/TechTag';
 import { RelatedProjects } from '@/components/projects/RelatedProjects';
+import { Breadcrumbs } from '@/components/seo/Breadcrumbs';
 import Link from 'next/link';
 
 interface ProjectPageProps {
@@ -63,12 +64,14 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
       {/* Breadcrumb */}
       <section className="py-8 px-4 bg-surface">
         <div className="max-w-6xl mx-auto">
-          <Link 
-            href={`/projects/${project.layer}`} 
-            className="text-sm text-ink-3 hover:text-ink transition-colors"
-          >
-            ← Back to {layer?.name || project.layer}
-          </Link>
+          <Breadcrumbs
+            items={[
+              { name: 'Home', url: '/' },
+              { name: 'Projects', url: '/projects' },
+              { name: layer?.name || project.layer, url: `/projects/${project.layer}` },
+              { name: project.name, url: `/projects/${project.layer}/${project.slug}` },
+            ]}
+          />
         </div>
       </section>
 

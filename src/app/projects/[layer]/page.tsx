@@ -1,6 +1,7 @@
 import { getLayerBySlug, getProjectsByLayer, getProjectCountByLayer } from '@/lib/projects';
 import { StatusBadge } from '@/components/projects/StatusBadge';
 import { TechTag } from '@/components/projects/TechTag';
+import { Breadcrumbs } from '@/components/seo/Breadcrumbs';
 import Link from 'next/link';
 
 interface LayerPageProps {
@@ -57,6 +58,13 @@ export default async function LayerPage({ params }: LayerPageProps) {
       {/* Layer Header */}
       <section className="py-20 px-4 bg-surface">
         <div className="max-w-4xl mx-auto">
+          <Breadcrumbs
+            items={[
+              { name: 'Home', url: '/' },
+              { name: 'Projects', url: '/projects' },
+              { name: layer.name, url: `/projects/${resolvedParams.layer}` },
+            ]}
+          />
           <Link 
             href="/projects" 
             className="text-sm text-ink-3 hover:text-ink transition-colors inline-block mb-6"

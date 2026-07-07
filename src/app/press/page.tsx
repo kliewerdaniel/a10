@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Card } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Card';
 import { BookCTA } from '@/components/blog/BookCTA';
+import { Breadcrumbs } from '@/components/seo/Breadcrumbs';
 
 export const metadata: Metadata = {
   title: 'Press & Media',
@@ -79,6 +80,12 @@ export default function PressPage() {
       {/* Hero */}
       <section className="py-16 sm:py-24 px-5">
         <div className="max-w-4xl mx-auto text-center">
+          <Breadcrumbs
+            items={[
+              { name: 'Home', url: '/' },
+              { name: 'Press', url: '/press' },
+            ]}
+          />
           <h1 className="font-display text-4xl sm:text-5xl md:text-6xl mb-4">Press & Media</h1>
           <p className="text-ink-3 text-lg font-bold max-w-2xl mx-auto">
             Resources for podcasts, conferences, interviews, and speaking engagements covering computational sovereignty and local-first AI architectures.

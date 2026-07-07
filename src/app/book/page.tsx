@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import { BookCover } from '@/components/ui/BookCover';
 import { BookButton } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
+import { JsonLd } from '@/components/seo/JsonLd';
+import { Breadcrumbs } from '@/components/seo/Breadcrumbs';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
@@ -30,9 +32,47 @@ const forWhom = [
   { title: 'Founders Building on Their Own Terms', desc: 'Architectural independence means your margins and your roadmap are not subject to a provider\'s pricing decisions.' },
 ];
 
+const baseUrl = 'https://danielkliewer.com';
+
+const bookSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Book',
+  name: 'Sovereign AI',
+  alternateName: 'An Architectural Investigation into Local-First Intelligence',
+  author: {
+    '@type': 'Person',
+    name: 'Daniel Kliewer',
+    url: `${baseUrl}/about`,
+  },
+  isbn: '979-8184468617',
+  bookFormat: 'Paperback',
+  numberOfPages: 72,
+  image: `${baseUrl}/SovereignAI_300dpi.png`,
+  url: `${baseUrl}/book`,
+  description:
+    'This book examines the architecture of intelligence that you own. From inference runtimes to memory systems to autonomous agents — each layer is designed, constructed, and understood by its operator.',
+  inLanguage: 'en',
+  offers: {
+    '@type': 'Offer',
+    price: '88.00',
+    priceCurrency: 'USD',
+    availability: 'https://schema.org/InStock',
+    url: 'https://www.amazon.com/dp/B0H6RB7D9J',
+  },
+};
+
 export default function BookPage() {
   return (
     <>
+      <JsonLd data={bookSchema} />
+      <div className="px-4 pt-8">
+        <Breadcrumbs
+          items={[
+            { name: 'Home', url: '/' },
+            { name: 'Book', url: '/book' },
+          ]}
+        />
+      </div>
       <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">

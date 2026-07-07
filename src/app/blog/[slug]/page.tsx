@@ -4,6 +4,8 @@ import { getBlogPost, getAllBlogSlugs } from '@/lib/blog';
 import { BookCTA } from '@/components/blog/BookCTA';
 import { Badge } from '@/components/ui/Card';
 import { ReadingProgress } from '@/components/ui/ReadingProgress';
+import { JsonLd } from '@/components/seo/JsonLd';
+import { Breadcrumbs } from '@/components/seo/Breadcrumbs';
 import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -49,10 +51,45 @@ export default async function BlogPostPage({ params }: Props) {
   const post = getBlogPost(slug);
   if (!post) notFound();
 
+  const baseUrl = 'https://danielkliewer.com';
+  const postUrl = `${baseUrl}/blog/${post.slug}`;
+  const imageUrl = post.image.startsWith('http') ? post.image : `${baseUrl}${post.image}`;
+
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.title,
+    datePublished: post.date,
+    dateModified: post.lastmod,
+    author: {
+      '@type': 'Person',
+      name: post.author,
+      url: `${baseUrl}/about`,
+    },
+    image: imageUrl,
+    publisher: {
+      '@type': 'Person',
+      name: 'Daniel Kliewer',
+      url: baseUrl,
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': postUrl,
+    },
+  };
+
   return (
     <article className="py-16 px-4">
       <ReadingProgress />
+      <JsonLd data={articleSchema} />
       <div className="max-w-3xl mx-auto">
+        <Breadcrumbs
+          items={[
+            { name: 'Home', url: '/' },
+            { name: 'Research', url: '/research' },
+            { name: post.title, url: `/blog/${post.slug}` },
+          ]}
+        />
         <header className="mb-8">
           <div className="flex items-center gap-3 mb-4 text-sm text-ink-3 font-bold">
             <time dateTime={post.date}>

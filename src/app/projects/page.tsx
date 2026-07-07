@@ -2,6 +2,7 @@ import { getArchitecture, getLayers, getAllProjects } from '@/lib/projects';
 import { ArchitectureDiagram } from '@/components/projects/ArchitectureDiagram';
 import { Timeline } from '@/components/projects/Timeline';
 import { StatusBadge } from '@/components/projects/StatusBadge';
+import { Breadcrumbs } from '@/components/seo/Breadcrumbs';
 import Link from 'next/link';
 
 export const metadata = {
@@ -22,6 +23,12 @@ export default function ProjectsPage() {
     <main className="min-h-screen">
       <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto text-center">
+          <Breadcrumbs
+            items={[
+              { name: 'Home', url: '/' },
+              { name: 'Projects', url: '/projects' },
+            ]}
+          />
           <span className="mono text-orange text-xs mb-4 block">Projects</span>
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl mb-6 tracking-tight">
             {architecture.title}
