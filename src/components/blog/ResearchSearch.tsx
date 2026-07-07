@@ -16,9 +16,10 @@ interface Post {
 
 interface ResearchSearchProps {
   posts: Post[];
+  allPostsCount?: number;
 }
 
-export function ResearchSearch({ posts }: ResearchSearchProps) {
+export function ResearchSearch({ posts, allPostsCount }: ResearchSearchProps) {
   const [query, setQuery] = useState('');
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
 
@@ -86,7 +87,7 @@ export function ResearchSearch({ posts }: ResearchSearchProps) {
             selectedTag === null ? 'bg-ink text-cream' : 'bg-cream text-ink hover:bg-surface'
           }`}
         >
-          All ({posts.length})
+          All ({allPostsCount ?? posts.length})
         </button>
         {allTags.slice(0, 15).map(({ tag, count }) => (
           <button

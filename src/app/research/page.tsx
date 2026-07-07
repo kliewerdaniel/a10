@@ -1,19 +1,45 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { getAllBlogPosts, getCornerstonePosts } from '@/lib/blog';
 import { ResearchCard } from '@/components/blog/ResearchCard';
 import { ResearchSearch } from '@/components/blog/ResearchSearch';
 
-export const metadata: Metadata = {
-  title: 'Research',
-  description: 'A knowledge base of architectural investigations into local-first AI, cognitive memory, graph reasoning, and computational sovereignty.',
-};
+const POSTS_PER_PAGE = 20;
 
-export default function ResearchPage() {
+interface ResearchPageProps {
+  searchParams: Promise<{ page?: string }>;
+}
+
+export async function generateMetadata({ searchParams }: ResearchPageProps): Promise<Metadata> {
+  const params = await searchParams;
+  const page = Math.max(1, parseInt(params.page || '1', 10) || 1);
+
+  const title = page === 1 ? 'Research' : `Research — Page ${page}`;
+  const description = 'A knowledge base of architectural investigations into local-first AI, cognitive memory, graph reasoning, and computational sovereignty.';
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: page === 1 ? '/research' : `/research?page=${page}`,
+    },
+  };
+}
+
+export default async function ResearchPage({ searchParams }: ResearchPageProps) {
+  const params = await searchParams;
+  const page = Math.max(1, parseInt(params.page || '1', 10) || 1);
+
   const allPosts = getAllBlogPosts();
   const cornerstone = getCornerstonePosts();
   const latestPosts = allPosts.slice(0, 6);
+  const archivePosts = allPosts.slice(6);
 
-  const litePosts = allPosts.map((p) => ({
+  const totalPages = Math.ceil(archivePosts.length / POSTS_PER_PAGE);
+  const startIndex = (page - 1) * POSTS_PER_PAGE;
+  const currentPosts = archivePosts.slice(startIndex, startIndex + POSTS_PER_PAGE);
+
+  const litePosts = currentPosts.map((p) => ({
     slug: p.slug,
     title: p.title,
     date: p.date,
@@ -24,8 +50,13 @@ export default function ResearchPage() {
     featured: p.featured,
   }));
 
+  const prevUrl = page > 1 ? (page === 2 ? '/research' : `/research?page=${page - 1}`) : null;
+  const nextUrl = page < totalPages ? `/research?page=${page + 1}` : null;
+
   return (
     <main className="min-h-screen">
+      {prevUrl && <link rel="prev" href={prevUrl} />}
+      {nextUrl && <link rel="next" href={nextUrl} />}
       {/* Hero */}
       <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto text-center">
@@ -97,9 +128,68 @@ export default function ResearchPage() {
           <div className="mb-10">
             <span className="mono text-green text-xs mb-3 block">Archive</span>
             <h2 className="font-display text-2xl md:text-3xl">All Articles</h2>
-            <p className="text-ink-3 mt-2 text-sm">Search and filter the complete research archive.</p>
+            <p className="text-ink-3 mt-2 text-sm">
+              Showing {startIndex + 1}–{Math.min(startIndex + POSTS_PER_PAGE, archivePosts.length)} of {archivePosts.length} articles.
+            </p>
           </div>
-          <ResearchSearch posts={litePosts} />
+          <ResearchSearch posts={litePosts} allPostsCount={archivePosts.length} />
+
+          {/* Pagination */}
+          {totalPages > 1 && (
+            <nav className="mt-10 flex items-center justify-center gap-2" aria-label="Pagination">
+              {page > 1 && (
+                <Link
+                  href={page === 2 ? '/research' : `/research?page=${page - 1}`}
+                  className="mono px-4 py-2 text-sm font-bold border-2 border-ink bg-cream text-ink hover:bg-surface transition-colors"
+                  rel="prev"
+                >
+                  ← Prev
+                </Link>
+              )}
+
+              {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => {
+                const href = p === 1 ? '/research' : `/research?page=${p}`;
+                const isCurrent = p === page;
+
+                if (totalPages <= 7 || Math.abs(p - page) <= 1 || p === 1 || p === totalPages) {
+                  return (
+                    <Link
+                      key={p}
+                      href={href}
+                      className={`mono px-3 py-2 text-sm font-bold border-2 border-ink transition-colors ${
+                        isCurrent
+                          ? 'bg-ink text-cream'
+                          : 'bg-cream text-ink hover:bg-surface'
+                      }`}
+                      aria-current={isCurrent ? 'page' : undefined}
+                    >
+                      {p}
+                    </Link>
+                  );
+                }
+
+                if (Math.abs(p - page) === 2) {
+                  return (
+                    <span key={p} className="mono px-2 py-2 text-sm text-ink-3">
+                      …
+                    </span>
+                  );
+                }
+
+                return null;
+              })}
+
+              {page < totalPages && (
+                <Link
+                  href={`/research?page=${page + 1}`}
+                  className="mono px-4 py-2 text-sm font-bold border-2 border-ink bg-cream text-ink hover:bg-surface transition-colors"
+                  rel="next"
+                >
+                  Next →
+                </Link>
+              )}
+            </nav>
+          )}
         </div>
       </section>
     </main>
