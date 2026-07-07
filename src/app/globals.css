@@ -268,3 +268,32 @@ button:focus-visible { outline: 4px solid #1F8A4C; outline-offset: 2px; }
     transition: none;
   }
 }
+
+/* ========== HERO ENTRANCE ANIMATIONS ========== */
+
+.hero-fade-in {
+  opacity: 0;
+  transform: translateY(16px);
+  animation: heroFadeIn 0.7s ease-out forwards;
+}
+
+.hero-delay-1 { animation-delay: 0.1s; }
+.hero-delay-2 { animation-delay: 0.25s; }
+.hero-delay-3 { animation-delay: 0.4s; }
+.hero-delay-4 { animation-delay: 0.55s; }
+.hero-delay-5 { animation-delay: 0.7s; }
+
+@keyframes heroFadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-fade-in {
+    opacity: 1;
+    transform: none;
+    animation: none;
+  }
+}

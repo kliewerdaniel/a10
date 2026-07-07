@@ -42,41 +42,43 @@ export default function Home() {
       {/* Hero */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <HeroBackground />
-        <div className="relative z-10 max-w-5xl mx-auto px-5 text-center">
-          <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-[5.5rem] mb-6 tracking-tighter leading-[0.85]">
-            <span className="text-ink">Building</span>
+        <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
+          <p className="mono text-green text-xs mb-8 hero-fade-in hero-delay-1">
+            Daniel Kliewer — AI Engineer & Researcher
+          </p>
+
+          <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-[5rem] mb-8 tracking-tighter leading-[0.9] hero-fade-in hero-delay-2">
+            <span className="text-ink">Building</span>{' '}
+            <span className="accent-green">Local-First AI Systems</span>
             <br />
-            <span className="accent-green">Sovereign AI Systems</span>
+            <span className="text-ink">for Human Intelligence</span>
           </h1>
 
-          <p className="text-base sm:text-xl md:text-2xl text-ink-3 mb-3 max-w-3xl mx-auto leading-relaxed">
-            Researching, designing, and building intelligence you own.
-          </p>
-          <p className="text-sm sm:text-base text-ink-3/60 mb-10">
-            Local-first AI, cognitive memory, graph reasoning, and computational sovereignty.
-            <br className="hidden sm:block" />
-            An ongoing investigation by{' '}
-            <Link href="/about" className="accent-green font-bold transition-colors hover:text-green-dark">
-              Daniel Kliewer
-            </Link>
+          <p className="text-base sm:text-lg md:text-xl text-ink-3 mb-12 max-w-2xl mx-auto leading-relaxed hero-fade-in hero-delay-3">
+            I research and build sovereign AI architectures, agent orchestration systems, retrieval-augmented generation pipelines, and practical tools that run on your own hardware.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-14 hero-fade-in hero-delay-4">
             <Button href="/research" variant="primary" size="lg">
               Explore Research
             </Button>
             <Button href="/projects" variant="secondary" size="lg">
               View Projects
             </Button>
-            <Button href="/book" variant="ghost" size="lg">
-              Read the Book
-            </Button>
+          </div>
+
+          <div className="flex flex-wrap justify-center gap-x-5 gap-y-2 hero-fade-in hero-delay-5">
+            {['Local LLMs', 'Multi-Agent Systems', 'RAG Architectures', 'Knowledge Graphs', 'AI Engineering', 'Next.js', 'Python', 'Ollama'].map((specialty) => (
+              <span key={specialty} className="mono text-[11px] text-ink-3/70 tracking-wider">
+                {specialty}
+              </span>
+            ))}
           </div>
         </div>
 
-        <div className="absolute bottom-6 sm:bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
-          <div className="w-6 h-10 border-4 border-ink bg-cream dark:bg-base flex justify-center pt-2">
-            <div className="w-1 h-2.5 rounded-full bg-ink animate-pulse" />
+        <div className="absolute bottom-8 sm:bottom-12 left-1/2 -translate-x-1/2 hero-fade-in hero-delay-5">
+          <div className="w-5 h-8 border-2 border-ink/30 flex justify-center pt-1.5">
+            <div className="w-0.5 h-2 rounded-full bg-ink/40 animate-pulse" />
           </div>
         </div>
       </section>
