@@ -4,6 +4,9 @@ import { getAllBlogPosts, getCategories } from '@/lib/blog';
 const baseUrl = 'https://www.danielkliewer.com';
 const POSTS_PER_PAGE = 20;
 
+export const dynamic = 'force-static';
+export const revalidate = false;
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllBlogPosts();
   const categories = getCategories();
