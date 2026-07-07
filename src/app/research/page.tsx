@@ -9,24 +9,15 @@ import categories from '@/data/research-categories.json';
 
 const POSTS_PER_PAGE = 20;
 
+export const dynamic = 'force-static';
+
+export const metadata: Metadata = {
+  title: 'Research',
+  description: 'A knowledge base of architectural investigations into local-first AI, cognitive memory, graph reasoning, and computational sovereignty.',
+};
+
 interface ResearchPageProps {
   searchParams: Promise<{ page?: string }>;
-}
-
-export async function generateMetadata({ searchParams }: ResearchPageProps): Promise<Metadata> {
-  const params = await searchParams;
-  const page = Math.max(1, parseInt(params.page || '1', 10) || 1);
-
-  const title = page === 1 ? 'Research' : `Research — Page ${page}`;
-  const description = 'A knowledge base of architectural investigations into local-first AI, cognitive memory, graph reasoning, and computational sovereignty.';
-
-  return {
-    title,
-    description,
-    alternates: {
-      canonical: page === 1 ? '/research' : `/research?page=${page}`,
-    },
-  };
 }
 
 export default async function ResearchPage({ searchParams }: ResearchPageProps) {
