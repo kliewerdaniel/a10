@@ -11,6 +11,7 @@ export interface BlogPost {
   slug: string;
   title: string;
   date: string;
+  lastmod: string;
   author: string;
   description: string;
   tags: string[];
@@ -65,6 +66,7 @@ export function getAllBlogPosts(): BlogPost[] {
       slug,
       title,
       date: data.date || '',
+      lastmod: data.lastmod || data.date || '',
       author: data.author || 'Daniel Kliewer',
       description,
       tags,
@@ -98,6 +100,7 @@ export function getBlogPost(slug: string): BlogPost | null {
     slug,
     title,
     date: data.date || '',
+    lastmod: data.lastmod || data.date || '',
     author: data.author || 'Daniel Kliewer',
     description,
     tags,

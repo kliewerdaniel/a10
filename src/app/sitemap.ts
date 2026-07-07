@@ -1,18 +1,21 @@
 import type { MetadataRoute } from 'next';
-import { getAllBlogPosts } from '@/lib/blog';
+import { getAllBlogPosts, getCategories } from '@/lib/blog';
 
 const baseUrl = 'https://danielkliewer.com';
 const POSTS_PER_PAGE = 20;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllBlogPosts();
+  const categories = getCategories();
+
   const staticPages = [
     '',
     '/about',
     '/book',
-    '/blog',
     '/projects',
     '/press',
+    '/privacy',
+    '/terms',
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = staticPages.map((page) => ({
@@ -35,12 +38,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: page === 1 ? 0.8 : 0.6,
   }));
 
+  const categoryRoutes: MetadataRoute.Sitemap = categories.map((cat) => ({
+    url: `${baseUrl}/research/${cat.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: 0.7,
+  }));
+
   const postRoutes: MetadataRoute.Sitemap = posts.map((post) => ({
     url: `${baseUrl}/blog/${post.slug}`,
-    lastModified: new Date(post.date),
+    lastModified: new Date(post.lastmod),
     changeFrequency: 'monthly',
     priority: 0.7,
   }));
 
-  return [...staticRoutes, ...researchRoutes, ...postRoutes];
+  return [...staticRoutes, ...researchRoutes, ...categoryRoutes, ...postRoutes];
 }
