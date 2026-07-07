@@ -1,0 +1,1203 @@
+[
+  {
+    "slug": "sovereign-intelligence-stack",
+    "name": "sovereign-intelligence-stack",
+    "summary": "The canonical 5-layer sovereign intelligence architecture: recipe compiler, signal router, autonomous evaluation, apprenticeship engine, and intelligence observatory.",
+    "problem": "AI systems lack the structural coherence to operate autonomously with sovereignty. Individual components exist but don't form a unified system.",
+    "why_matters": "This is the complete architecture that ties everything together \u2014 from local inference to autonomous evaluation to observability.",
+    "core_ideas": [
+      "Recipe-based development: specifications as executable artifacts",
+      "Signal routing: dynamic dispatch based on task complexity",
+      "Autonomous evaluation: systems that judge their own output",
+      "Apprenticeship learning: agents learn from their own mistakes",
+      "Observability: tracking intelligence across its lifecycle"
+    ],
+    "status": "production",
+    "technologies": [
+      "TypeScript",
+      "Python",
+      "Ollama"
+    ],
+    "layer": "orchestration",
+    "blog_slugs": [
+      "2026-06-30-sovereign-intelligence-stack-a-deep-dive"
+    ],
+    "related_projects": [
+      "sovereign-intelligence-observatory",
+      "sovereignSpec",
+      "sovereign-memory-bank"
+    ],
+    "repository": "kliewerdaniel/sovereign-intelligence-stack",
+    "url": "https://github.com/kliewerdaniel/sovereign-intelligence-stack",
+    "created": "2026-06-30",
+    "last_updated": "2026-07-06"
+  },
+  {
+    "slug": "sovereign-intelligence-observatory",
+    "name": "sovereign-intelligence-observatory",
+    "summary": "Complete local-first AI observability platform that tracks, analyzes, and optimizes agent intelligence across its entire lifecycle.",
+    "problem": "Once intelligence runs autonomously, you need to observe it \u2014 not just log, but understand, analyze, and improve it.",
+    "why_matters": "Observability is the final layer of sovereignty. If you can't see what's happening, you don't own it.",
+    "core_ideas": [
+      "Lifecycle tracking: from recipe to execution to evaluation",
+      "Intelligence metrics: measuring sovereignty, not just accuracy",
+      "Drift detection: when does intelligence degrade?",
+      "Federated sync: sharing insights across distributed systems"
+    ],
+    "status": "active",
+    "technologies": [
+      "TypeScript",
+      "Python"
+    ],
+    "layer": "orchestration",
+    "blog_slugs": [
+      "2026-07-03-the-sovereign-intelligence-observatory"
+    ],
+    "related_projects": [
+      "sovereign-intelligence-stack",
+      "sovereignSpec",
+      "sovereign-memory-bank"
+    ],
+    "repository": "kliewerdaniel/sovereign-intelligence-observatory",
+    "url": "https://github.com/kliewerdaniel/sovereign-intelligence-observatory",
+    "created": "2026-07-03",
+    "last_updated": "2026-07-06"
+  },
+  {
+    "slug": "stratagent",
+    "name": "stratagent",
+    "summary": "Collaborative AI development environment where specialized AI personas work together to build software projects.",
+    "problem": "Single-agent development is fragile. Specialized personas (architect, reviewer, tester) working together produce better code.",
+    "why_matters": "Demonstrates that sovereign intelligence isn't just one agent \u2014 it's coordinated swarms of specialized agents.",
+    "core_ideas": [
+      "Specialized AI personas with distinct roles",
+      "Collaborative development through chat interface",
+      "Specification analysis, architectural design, code generation, validation, project management",
+      "User interacts naturally; AI handles the engineering"
+    ],
+    "status": "active",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "orchestration",
+    "blog_slugs": [],
+    "related_projects": [
+      "sovereign-intelligence-stack",
+      "sovereignSpec",
+      "synthScript"
+    ],
+    "repository": "kliewerdaniel/stratagent",
+    "url": "https://github.com/kliewerdaniel/stratagent",
+    "created": "2026-01-13",
+    "last_updated": "2026-01-13"
+  },
+  {
+    "slug": "workflow",
+    "name": "workflow",
+    "summary": "Structured AI-assisted development methodology exploring how systems thinking guides human-AI collaboration in software engineering.",
+    "problem": "AI-assisted development lacks structure. Ad-hoc prompting leads to inconsistent results.",
+    "why_matters": "Provides the methodological foundation for how humans and AI collaborate on sovereign systems.",
+    "core_ideas": [
+      "Systems thinking applied to human-AI collaboration",
+      "Structured development workflows with AI",
+      "Methodology over tools: the process matters more than the implementation"
+    ],
+    "status": "active",
+    "technologies": [
+      "Markdown"
+    ],
+    "layer": "orchestration",
+    "blog_slugs": [],
+    "related_projects": [
+      "sovereign-intelligence-stack",
+      "sovereignSpec"
+    ],
+    "repository": "kliewerdaniel/workflow",
+    "url": "https://github.com/kliewerdaniel/workflow",
+    "created": "2025-11-03",
+    "last_updated": "2025-11-03"
+  },
+  {
+    "slug": "sovereignSpec",
+    "name": "sovereignSpec",
+    "summary": "Local-first, offline spec-driven development engine that treats specifications as living, graph-grounded artifacts and enforces deterministic code generation through structured pipelines.",
+    "problem": "Software specifications are static documents. They don't evolve, they don't connect to knowledge, and they don't enforce quality.",
+    "why_matters": "This is the engineering layer \u2014 where architecture meets production. Spec-driven development ensures code is generated from living specifications.",
+    "core_ideas": [
+      "Specs as living artifacts: specifications evolve with the system",
+      "Graph-grounded: specifications connect to knowledge graphs",
+      "Deterministic code generation: structured pipelines, no cloud APIs",
+      "Local-first: everything runs on-device"
+    ],
+    "status": "production",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "reasoning",
+    "blog_slugs": [
+      "2026-06-13-sovereignSpec-a-deep-dive"
+    ],
+    "related_projects": [
+      "specweave",
+      "synthScript",
+      "ukb"
+    ],
+    "repository": "kliewerdaniel/sovereignSpec",
+    "url": "https://github.com/kliewerdaniel/sovereignSpec",
+    "created": "2026-06-13",
+    "last_updated": "2026-06-13"
+  },
+  {
+    "slug": "specweave",
+    "name": "specweave",
+    "summary": "Self-verifying, speculative, multi-agent spec engine with neuro-symbolic reasoning.",
+    "problem": "Single-agent spec generation lacks verification. Multi-agent systems with neuro-symbolic reasoning produce more robust specifications.",
+    "why_matters": "Extends sovereignSpec with self-verification and speculative reasoning.",
+    "core_ideas": [
+      "Self-verifying specifications",
+      "Multi-agent speculation: multiple agents propose different approaches",
+      "Neuro-symbolic reasoning: combining neural and symbolic methods"
+    ],
+    "status": "active",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "reasoning",
+    "blog_slugs": [],
+    "related_projects": [
+      "sovereignSpec",
+      "synthScript",
+      "sovereign-intelligence-stack"
+    ],
+    "repository": "kliewerdaniel/specweave",
+    "url": "https://github.com/kliewerdaniel/specweave",
+    "created": "2026-06-13",
+    "last_updated": "2026-06-13"
+  },
+  {
+    "slug": "synthScript",
+    "name": "synthScript",
+    "summary": "Semantic operating system that transforms a knowledge graph into executable software specifications \u2014 no more prompting LLMs directly.",
+    "problem": "Prompting LLMs directly is fragile. Knowledge graphs provide structure and grounding.",
+    "why_matters": "Bridges knowledge graphs and software specifications \u2014 the semantic layer between understanding and implementation.",
+    "core_ideas": [
+      "Knowledge graph \u2192 executable specifications",
+      "Semantic operating system: everything is a graph operation",
+      "No direct LLM prompting: the graph drives generation"
+    ],
+    "status": "active",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "reasoning",
+    "blog_slugs": [],
+    "related_projects": [
+      "sovereignSpec",
+      "specweave",
+      "sovereign-knowledge-engine"
+    ],
+    "repository": "kliewerdaniel/synthScript",
+    "url": "https://github.com/kliewerdaniel/synthScript",
+    "created": "2026-06-29",
+    "last_updated": "2026-06-29"
+  },
+  {
+    "slug": "specgen",
+    "name": "specgen",
+    "summary": "Transform natural language specifications into production-ready application skeletons using AI-powered agentic workflows.",
+    "problem": "Writing application skeletons from specifications is tedious. AI can automate this.",
+    "why_matters": "Early exploration of spec-driven code generation.",
+    "core_ideas": [
+      "Natural language \u2192 application skeleton",
+      "AI-powered agentic workflows",
+      "Production-ready code generation"
+    ],
+    "status": "experimental",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "reasoning",
+    "blog_slugs": [],
+    "related_projects": [
+      "sovereignSpec",
+      "synthScript",
+      "stratagent"
+    ],
+    "repository": "kliewerdaniel/specgen",
+    "url": "https://github.com/kliewerdaniel/specgen",
+    "created": "2026-01-07",
+    "last_updated": "2026-01-07"
+  },
+  {
+    "slug": "zero-trust",
+    "name": "zero-trust",
+    "summary": "Security architecture for AI-generated code preventing supply chain poisoning, DLL sideloading, and trust inheritance exploits.",
+    "problem": "AI-generated code introduces security risks: supply chain poisoning, DLL sideloading, trust inheritance.",
+    "why_matters": "Sovereign systems must be secure. Zero-trust architecture ensures generated code can't be exploited.",
+    "core_ideas": [
+      "Prevent supply chain poisoning in AI-generated code",
+      "Prevent DLL sideloading",
+      "Prevent trust inheritance exploits",
+      "Multi-layered security architecture"
+    ],
+    "status": "active",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "reasoning",
+    "blog_slugs": [],
+    "related_projects": [
+      "sovereignSpec",
+      "sovereign-scaffold",
+      "turboq"
+    ],
+    "repository": "kliewerdaniel/zero-trust",
+    "url": "https://github.com/kliewerdaniel/zero-trust",
+    "created": "2026-04-13",
+    "last_updated": "2026-04-13"
+  },
+  {
+    "slug": "orthos",
+    "name": "orthos",
+    "summary": "A locally sovereign, replayable, graph-executed cognitive system.",
+    "problem": "Cognitive systems need to be replayable and graph-executed for reproducibility.",
+    "why_matters": "Early exploration of graph-based cognitive systems.",
+    "core_ideas": [
+      "Locally sovereign execution",
+      "Replayable cognitive operations",
+      "Graph-executed reasoning"
+    ],
+    "status": "experimental",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "reasoning",
+    "blog_slugs": [],
+    "related_projects": [
+      "sovereignSpec",
+      "cogGraph"
+    ],
+    "repository": "kliewerdaniel/orthos",
+    "url": "https://github.com/kliewerdaniel/orthos",
+    "created": "2026-01-05",
+    "last_updated": "2026-01-05"
+  },
+  {
+    "slug": "objective",
+    "name": "objective",
+    "summary": "Autonomous news ingestion, claim extraction, contradiction tracking, and TTS broadcast \u2014 entirely on your laptop.",
+    "problem": "News consumption is passive and fragmented. Autonomous systems can ingest, analyze, and synthesize news continuously.",
+    "why_matters": "First demonstration of perpetual local intelligence \u2014 a system that runs continuously, ingests information, and generates reports.",
+    "core_ideas": [
+      "Autonomous news ingestion from across the web",
+      "Claim extraction and contradiction tracking",
+      "TTS broadcast: synthesized audio reports",
+      "Entirely local: no cloud dependency"
+    ],
+    "status": "active",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "planning",
+    "blog_slugs": [
+      "2026-06-08-objective05-exec-giving-local-intelligence-system-hands"
+    ],
+    "related_projects": [
+      "objective05",
+      "objective06",
+      "synthInt"
+    ],
+    "repository": "kliewerdaniel/objective",
+    "url": "https://github.com/kliewerdaniel/objective",
+    "created": "2026-06-02",
+    "last_updated": "2026-06-02"
+  },
+  {
+    "slug": "objective05",
+    "name": "objective05",
+    "summary": "Perpetual intelligence and broadcasting platform \u2014 a long-running daemon that continuously ingests information, extracts entities and claims, detects events, narratives, and contradictions, maintains a living knowledge graph, and generates written reports and audio broadcasts.",
+    "problem": "Intelligence systems are ephemeral. Perpetual systems that run continuously build compounding understanding.",
+    "why_matters": "Evolution of the objective series \u2014 a complete perpetual intelligence system with knowledge graph and broadcasting.",
+    "core_ideas": [
+      "Perpetual daemon: runs continuously",
+      "Information ingestion from across the web",
+      "Entity and claim extraction",
+      "Event, narrative, and contradiction detection",
+      "Living knowledge graph maintenance",
+      "Written reports and audio broadcast generation"
+    ],
+    "status": "active",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "planning",
+    "blog_slugs": [
+      "2026-06-08-objective05-exec-giving-local-intelligence-system-hands"
+    ],
+    "related_projects": [
+      "objective",
+      "objective06",
+      "synthInt"
+    ],
+    "repository": "kliewerdaniel/objective05",
+    "url": "https://github.com/kliewerdaniel/objective05",
+    "created": "2026-06-08",
+    "last_updated": "2026-06-08"
+  },
+  {
+    "slug": "objective06",
+    "name": "objective06",
+    "summary": "Local-first intelligence infrastructure that continuously synthesizes a user's digital existence into a persistent, evolving cognitive model.",
+    "problem": "Knowledge systems are static. Persistent cognitive models that evolve with use provide deeper understanding.",
+    "why_matters": "Latest evolution of the objective series \u2014 focusing on persistent cognitive models.",
+    "core_ideas": [
+      "Continuous synthesis of digital existence",
+      "Persistent, evolving cognitive models",
+      "Local-first architecture"
+    ],
+    "status": "active",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "planning",
+    "blog_slugs": [],
+    "related_projects": [
+      "objective",
+      "objective05",
+      "sovereign-memory-bank"
+    ],
+    "repository": "kliewerdaniel/objective06",
+    "url": "https://github.com/kliewerdaniel/objective06",
+    "created": "2026-06-11",
+    "last_updated": "2026-06-11"
+  },
+  {
+    "slug": "synt",
+    "name": "synt",
+    "summary": "Revolutionary, air-gapped Local-First Dynamic Persona Intelligence System that transforms large, heterogeneous corpuses into grounded, attributable, and conversationally explorable intelligence using deterministic generative models.",
+    "problem": "Intelligence systems lack grounding in specific corpuses. Persona-based systems can be specialized and grounded.",
+    "why_matters": "Demonstrates that synthetic intelligence can emerge from locally-hosted specialized models through dynamic persona routing.",
+    "core_ideas": [
+      "Air-gapped: completely offline operation",
+      "Dynamic persona intelligence: specialized models for different tasks",
+      "Grounded in corpuses: intelligence derived from specific knowledge",
+      "Deterministic generative models: reproducibility"
+    ],
+    "status": "production",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "planning",
+    "blog_slugs": [
+      "2026-01-25-dynamic-persona-moe-rag-building-a-sovereign-synthetic-intelligence-system"
+    ],
+    "related_projects": [
+      "dynamic_persona_moe_rag",
+      "divine-light",
+      "cogGraph"
+    ],
+    "repository": "kliewerdaniel/synt",
+    "url": "https://github.com/kliewerdaniel/synt",
+    "created": "2026-01-28",
+    "last_updated": "2026-01-28"
+  },
+  {
+    "slug": "synthInt",
+    "name": "SynthInt",
+    "summary": "Dynamic Persona Intelligence System that transforms large, heterogeneous corpuses into grounded, attributable, and conversationally explorable intelligence.",
+    "problem": "Same as synt \u2014 earlier iteration.",
+    "why_matters": "Earlier iteration of the synt project.",
+    "core_ideas": [
+      "Dynamic persona routing",
+      "Grounded intelligence",
+      "Conversationally explorable"
+    ],
+    "status": "production",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "planning",
+    "blog_slugs": [
+      "2026-01-25-dynamic-persona-moe-rag-building-a-sovereign-synthetic-intelligence-system"
+    ],
+    "related_projects": [
+      "synt",
+      "dynamic_persona_moe_rag",
+      "divine-light"
+    ],
+    "repository": "kliewerdaniel/SynthInt",
+    "url": "https://github.com/kliewerdaniel/SynthInt",
+    "created": "2026-01-25",
+    "last_updated": "2026-01-25"
+  },
+  {
+    "slug": "dynamic_persona_moe_rag",
+    "name": "dynamic_persona_moe_rag",
+    "summary": "Dynamic graph-based Mixture-of-Experts RAG system using persona JSON files and a local Ollama model.",
+    "problem": "Traditional RAG lacks specialization. Mixture-of-Experts routing through personas provides specialized retrieval.",
+    "why_matters": "Demonstrates that RAG can be specialized through persona-based routing.",
+    "core_ideas": [
+      "Graph-based Mixture-of-Experts",
+      "Persona JSON files for specialization",
+      "Local Ollama model integration"
+    ],
+    "status": "active",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "planning",
+    "blog_slugs": [
+      "2026-01-25-dynamic-persona-moe-rag-building-a-sovereign-synthetic-intelligence-system"
+    ],
+    "related_projects": [
+      "synt",
+      "synthInt",
+      "divine-light"
+    ],
+    "repository": "kliewerdaniel/dynamic_persona_moe_rag",
+    "url": "https://github.com/kliewerdaniel/dynamic_persona_moe_rag",
+    "created": "2026-01-22",
+    "last_updated": "2026-01-22"
+  },
+  {
+    "slug": "divine-light",
+    "name": "divine-light",
+    "summary": "Unified AI memory system combining MemPalace verbatim storage, Graphify knowledge graphs, and Synt-inspired reasoning agents.",
+    "problem": "Memory systems are fragmented. Unified systems combining storage, graphs, and reasoning provide deeper understanding.",
+    "why_matters": "Combines multiple memory approaches into a unified system.",
+    "core_ideas": [
+      "MemPalace verbatim storage",
+      "Graphify knowledge graphs",
+      "Synt-inspired reasoning agents",
+      "Unified memory system"
+    ],
+    "status": "active",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "planning",
+    "blog_slugs": [],
+    "related_projects": [
+      "synt",
+      "dynamic_persona_moe_rag",
+      "sovereign-memory-bank"
+    ],
+    "repository": "kliewerdaniel/divine-light",
+    "url": "https://github.com/kliewerdaniel/divine-light",
+    "created": "2026-04-09",
+    "last_updated": "2026-04-09"
+  },
+  {
+    "slug": "cogGraph",
+    "name": "cogGraph",
+    "summary": "Sophisticated cognitive routing system that transforms how AI systems process and respond to user inputs through a cognitive graph-based reasoning engine.",
+    "problem": "Traditional chatbots lack cognitive depth. Graph-based reasoning engines activate modular persona subgraphs based on prompt analysis.",
+    "why_matters": "Demonstrates that cognitive routing through graphs provides more sophisticated reasoning.",
+    "core_ideas": [
+      "Cognitive graph-based reasoning engine",
+      "Modular persona subgraphs",
+      "Prompt-based activation",
+      "Sophisticated cognitive routing"
+    ],
+    "status": "active",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "planning",
+    "blog_slugs": [],
+    "related_projects": [
+      "synt",
+      "dynamic_persona_moe_rag",
+      "orthos"
+    ],
+    "repository": "kliewerdaniel/cogGraph",
+    "url": "https://github.com/kliewerdaniel/cogGraph",
+    "created": "2026-02-22",
+    "last_updated": "2026-02-22"
+  },
+  {
+    "slug": "sovereign-memory-bank",
+    "name": "sovereign-memory-bank",
+    "summary": "Seven-layer cognitive memory architecture for autonomous agents: raw documents \u2192 synthesized abstractions \u2192 cross-document insights.",
+    "problem": "Agents forget between sessions. Vector stores retrieve but don't understand. Memory must be structured, layered, and self-improving.",
+    "why_matters": "First system demonstrating that persistent agent memory could be autonomous and self-improving \u2014 no cloud required.",
+    "core_ideas": [
+      "Seven-layer hierarchy: raw documents \u2192 synthesized abstractions \u2192 cross-document insights",
+      "Local-first: all processing on-device via Ollama",
+      "Self-improving: the memory improves as it runs",
+      "Sovereign: no data leaves the machine"
+    ],
+    "status": "production",
+    "technologies": [
+      "Python",
+      "Ollama"
+    ],
+    "layer": "retrieval",
+    "blog_slugs": [
+      "2026-06-14-sovereign-memory-bank-a-deep-dive-into-autonomous-cognitive-memory-for-agent-systems"
+    ],
+    "related_projects": [
+      "brain-memory-graphrag-engine",
+      "sovereign-knowledge-engine",
+      "ukb"
+    ],
+    "repository": "kliewerdaniel/sovereignBank",
+    "url": "https://github.com/kliewerdaniel/sovereignBank",
+    "created": "2026-06-14",
+    "last_updated": "2026-06-14"
+  },
+  {
+    "slug": "brain-memory-graphrag-engine",
+    "name": "brain-memory-graphrag-engine",
+    "summary": "Unified system that combines sovereign Graph RAG with self-improving agent memory.",
+    "problem": "Graph RAG and agent memory are typically separate systems. Unified systems provide deeper understanding.",
+    "why_matters": "Extends sovereign-memory-bank with self-improving agent memory.",
+    "core_ideas": [
+      "Unified Graph RAG + agent memory",
+      "Self-improving: learns from interactions",
+      "Graph-based reasoning with memory"
+    ],
+    "status": "active",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "retrieval",
+    "blog_slugs": [],
+    "related_projects": [
+      "sovereign-memory-bank",
+      "sovereign-knowledge-engine",
+      "ukb"
+    ],
+    "repository": "kliewerdaniel/Brain-Memory-GraphRAG-Engine",
+    "url": "https://github.com/kliewerdaniel/Brain-Memory-GraphRAG-Engine",
+    "created": "2026-06-20",
+    "last_updated": "2026-06-20"
+  },
+  {
+    "slug": "sovereign-knowledge-engine",
+    "name": "sovereign-knowledge-engine",
+    "summary": "Local-first, sovereign knowledge system that ingests markdown documents, constructs a multi-layer knowledge graph, generates vector embeddings, performs agentic reasoning, and continuously expands its understanding through human interaction.",
+    "problem": "Knowledge systems are static. Sovereign systems that continuously learn from interaction provide compounding understanding.",
+    "why_matters": "Demonstrates that knowledge systems can be sovereign, local-first, and continuously learning.",
+    "core_ideas": [
+      "Markdown document ingestion",
+      "Multi-layer knowledge graph construction",
+      "Vector embedding generation",
+      "Agentic reasoning",
+      "Continuous learning through human interaction"
+    ],
+    "status": "active",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "retrieval",
+    "blog_slugs": [],
+    "related_projects": [
+      "sovereign-memory-bank",
+      "brain-memory-graphrag-engine",
+      "ukb"
+    ],
+    "repository": "kliewerdaniel/Sovereign-Knowledge-Engine",
+    "url": "https://github.com/kliewerdaniel/Sovereign-Knowledge-Engine",
+    "created": "2026-06-18",
+    "last_updated": "2026-06-18"
+  },
+  {
+    "slug": "ukb",
+    "name": "ukb",
+    "summary": "Universal Knowledge Base \u2014 Spec-driven knowledge base system. Define what you know in an .sspec file, run start.sh, get a searchable, embeddable, web-UI-equipped knowledge base.",
+    "problem": "Knowledge bases are complex to set up. Spec-driven systems simplify configuration and provide structured knowledge.",
+    "why_matters": "Generalizes sovereign-memory-bank into a spec-driven system \u2014 anyone can define their knowledge with .sspec files.",
+    "core_ideas": [
+      "Spec-driven: define knowledge in .sspec files",
+      "Searchable, embeddable, web-UI-equipped",
+      "Universal: works with any knowledge base"
+    ],
+    "status": "active",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "retrieval",
+    "blog_slugs": [],
+    "related_projects": [
+      "sovereign-memory-bank",
+      "sovereignSpec",
+      "sovereign-knowledge-engine"
+    ],
+    "repository": "kliewerdaniel/ukb",
+    "url": "https://github.com/kliewerdaniel/ukb",
+    "created": "2026-06-15",
+    "last_updated": "2026-06-15"
+  },
+  {
+    "slug": "blog-knowledge-base",
+    "name": "blog-knowledge-base",
+    "summary": "Next.js chat application that ingests markdown blog posts, constructs a knowledge graph with vector embeddings using a local LLM, and provides a RAG-based chat interface for querying blog content.",
+    "problem": "Blogs are static. RAG-based chat interfaces make blog content interactive and queryable.",
+    "why_matters": "Demonstrates that blogs can be transformed into interactive knowledge bases.",
+    "core_ideas": [
+      "Markdown blog post ingestion",
+      "Knowledge graph construction with vector embeddings",
+      "Local LLM integration",
+      "RAG-based chat interface"
+    ],
+    "status": "active",
+    "technologies": [
+      "Next.js",
+      "TypeScript",
+      "Python"
+    ],
+    "layer": "retrieval",
+    "blog_slugs": [],
+    "related_projects": [
+      "sovereign-memory-bank",
+      "sovereign-knowledge-engine"
+    ],
+    "repository": "kliewerdaniel/Blog-Knowledge-Base",
+    "url": "https://github.com/kliewerdaniel/Blog-Knowledge-Base",
+    "created": "2026-06-18",
+    "last_updated": "2026-06-18"
+  },
+  {
+    "slug": "LGVRAG-series",
+    "name": "LGVRAG series",
+    "summary": "Local Graph + Vector RAG System with HelixDB \u2014 multiple iterations exploring graph and vector retrieval.",
+    "problem": "Traditional RAG uses either graphs or vectors. Combined systems provide better retrieval.",
+    "why_matters": "Multiple iterations exploring the best combination of graph and vector retrieval.",
+    "core_ideas": [
+      "Graph + vector RAG",
+      "HelixDB integration",
+      "Multiple iterations refining the approach"
+    ],
+    "status": "experimental",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "retrieval",
+    "blog_slugs": [],
+    "related_projects": [
+      "sovereign-memory-bank",
+      "brain-memory-graphrag-engine"
+    ],
+    "repository": "kliewerdaniel/LGVRAG01",
+    "url": "https://github.com/kliewerdaniel/LGVRAG01",
+    "created": "2025-10-17",
+    "last_updated": "2025-10-17"
+  },
+  {
+    "slug": "mindmap-series",
+    "name": "mindmap series",
+    "summary": "Mind Map AI \u2014 Local LLM-powered Personal Knowledge Graph. Interactive mind maps from notes using local LLMs and vector embeddings.",
+    "problem": "Notes are static. Interactive mind maps make knowledge visual and navigable.",
+    "why_matters": "Demonstrates that local LLMs can generate interactive visualizations.",
+    "core_ideas": [
+      "Interactive mind maps from notes",
+      "Local LLM-powered",
+      "Vector embeddings for semantic search"
+    ],
+    "status": "experimental",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "retrieval",
+    "blog_slugs": [],
+    "related_projects": [
+      "sovereign-memory-bank",
+      "ukb"
+    ],
+    "repository": "kliewerdaniel/mindmap01",
+    "url": "https://github.com/kliewerdaniel/mindmap01",
+    "created": "2025-10-19",
+    "last_updated": "2025-10-19"
+  },
+  {
+    "slug": "bot-series",
+    "name": "bot series",
+    "summary": "Multiple AI chatbot and research assistant iterations exploring GraphRAG, MCP integration, and conversational interfaces.",
+    "problem": "Early iterations of chatbot and research assistant systems.",
+    "why_matters": "Experimental exploration of conversational interfaces.",
+    "core_ideas": [
+      "GraphRAG integration",
+      "MCP integration",
+      "Conversational interfaces"
+    ],
+    "status": "experimental",
+    "technologies": [
+      "Python",
+      "Next.js"
+    ],
+    "layer": "retrieval",
+    "blog_slugs": [],
+    "related_projects": [
+      "sovereign-memory-bank",
+      "basicbot"
+    ],
+    "repository": "kliewerdaniel/bot001",
+    "url": "https://github.com/kliewerdaniel/bot001",
+    "created": "2025-11-17",
+    "last_updated": "2025-11-17"
+  },
+  {
+    "slug": "basicbot",
+    "name": "basicbot",
+    "summary": "Sophisticated Research Assistant powered by GraphRAG technology for analyzing documents and research data.",
+    "problem": "Document analysis is manual. GraphRAG-powered research assistants automate analysis.",
+    "why_matters": "Demonstrates GraphRAG for document analysis.",
+    "core_ideas": [
+      "GraphRAG-powered document analysis",
+      "Research assistant",
+      "Intelligent querying and insights"
+    ],
+    "status": "experimental",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "retrieval",
+    "blog_slugs": [],
+    "related_projects": [
+      "sovereign-memory-bank",
+      "bot-series"
+    ],
+    "repository": "kliewerdaniel/basicbot",
+    "url": "https://github.com/kliewerdaniel/basicbot",
+    "created": "2025-11-17",
+    "last_updated": "2025-11-17"
+  },
+  {
+    "slug": "turboq",
+    "name": "turboq",
+    "summary": "Comprehensive local LLM inference platform that synthesizes research-grade KV cache optimization, graph-based agent orchestration, and distributed cluster deployment into a unified system.",
+    "problem": "Local LLM inference lacks optimization, orchestration, and deployment tools.",
+    "why_matters": "Comprehensive inference platform for local LLMs \u2014 from optimization to distributed deployment.",
+    "core_ideas": [
+      "Research-grade KV cache optimization",
+      "Graph-based agent orchestration",
+      "Distributed cluster deployment",
+      "Designed for Apple Silicon (M4 Pro)",
+      "Multi-model routing and dynamic agent swarms"
+    ],
+    "status": "active",
+    "technologies": [
+      "Go"
+    ],
+    "layer": "foundation",
+    "blog_slugs": [],
+    "related_projects": [
+      "sovereign-scaffold",
+      "zero-trust",
+      "sovereign"
+    ],
+    "repository": "kliewerdaniel/turboq",
+    "url": "https://github.com/kliewerdaniel/turboq",
+    "created": "2026-04-12",
+    "last_updated": "2026-04-12"
+  },
+  {
+    "slug": "sovereign-scaffold",
+    "name": "sovereign-scaffold",
+    "summary": "Deployable, configurable sovereign AI system that you can run locally and deploy for any client.",
+    "problem": "Sovereign AI systems are hard to deploy. Scaffold systems simplify deployment.",
+    "why_matters": "Makes sovereign AI deployable for any client.",
+    "core_ideas": [
+      "Deployable sovereign AI system",
+      "Configurable for different use cases",
+      "Local-first deployment"
+    ],
+    "status": "active",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "infrastructure",
+    "blog_slugs": [],
+    "related_projects": [
+      "turboq",
+      "zero-trust",
+      "sovereign"
+    ],
+    "repository": "kliewerdaniel/sovereign-scaffold",
+    "url": "https://github.com/kliewerdaniel/sovereign-scaffold",
+    "created": "2026-03-31",
+    "last_updated": "2026-03-31"
+  },
+  {
+    "slug": "sovereign",
+    "name": "sovereign",
+    "summary": "Local-first AI operating system. No cloud. No telemetry. Your inference. Your memory. Your governance.",
+    "problem": "AI systems depend on cloud infrastructure. Local-first systems provide sovereignty.",
+    "why_matters": "Original sovereign AI operating system \u2014 the foundation of everything that follows.",
+    "core_ideas": [
+      "Local-first AI operating system",
+      "No cloud dependency",
+      "No telemetry",
+      "User-owned inference, memory, and governance"
+    ],
+    "status": "production",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "foundation",
+    "blog_slugs": [],
+    "related_projects": [
+      "turboq",
+      "sovereign-scaffold"
+    ],
+    "repository": "kliewerdaniel/sovereign",
+    "url": "https://github.com/kliewerdaniel/sovereign",
+    "created": "2026-03-29",
+    "last_updated": "2026-03-29"
+  },
+  {
+    "slug": "sse",
+    "name": "sse",
+    "summary": "Local-first, privacy-focused Sovereign Intelligence Layer that eliminates dependency on cloud-based AI services.",
+    "problem": "AI services depend on cloud infrastructure. Sovereign Intelligence Layer eliminates this dependency.",
+    "why_matters": "Sovereign Intelligence Layer provides the infrastructure for cloud-free AI.",
+    "core_ideas": [
+      "Local-first sovereignty",
+      "Privacy-focused",
+      "Eliminates cloud dependency"
+    ],
+    "status": "active",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "infrastructure",
+    "blog_slugs": [],
+    "related_projects": [
+      "sovereign",
+      "turboq",
+      "sovereign-scaffold"
+    ],
+    "repository": "kliewerdaniel/sse",
+    "url": "https://github.com/kliewerdaniel/sse",
+    "created": "2026-05-23",
+    "last_updated": "2026-05-23"
+  },
+  {
+    "slug": "quantum-series",
+    "name": "quantum series",
+    "summary": "Post-quantum cryptography implementations for sovereign systems: q01, quantum01, quantum03, r02.",
+    "problem": "Current encryption is vulnerable to quantum computing. Post-quantum cryptography ensures long-term sovereignty.",
+    "why_matters": "Sovereign systems must be secure against future threats. Post-quantum cryptography ensures long-term sovereignty.",
+    "core_ideas": [
+      "Post-quantum cryptography",
+      "Quantum key distribution",
+      "Quantum-resistant encryption",
+      "Long-term sovereignty"
+    ],
+    "status": "experimental",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "infrastructure",
+    "blog_slugs": [],
+    "related_projects": [
+      "zero-trust",
+      "turboq",
+      "sovereign"
+    ],
+    "repository": "kliewerdaniel/q01",
+    "url": "https://github.com/kliewerdaniel/q01",
+    "created": "2025-10-06",
+    "last_updated": "2025-10-06"
+  },
+  {
+    "slug": "rlm",
+    "name": "rlm",
+    "summary": "General plug-and-play inference library for Recursive Language Models (RLMs), supporting various sandboxes.",
+    "problem": "Inference libraries lack flexibility. Recursive Language Models provide more sophisticated reasoning.",
+    "why_matters": "Inference library for Recursive Language Models.",
+    "core_ideas": [
+      "Recursive Language Models",
+      "Plug-and-play inference",
+      "Supports various sandboxes"
+    ],
+    "status": "active",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "foundation",
+    "blog_slugs": [],
+    "related_projects": [
+      "turboq",
+      "sovereign"
+    ],
+    "repository": "kliewerdaniel/rlm",
+    "url": "https://github.com/kliewerdaniel/rlm",
+    "created": "2026-04-28",
+    "last_updated": "2026-04-28"
+  },
+  {
+    "slug": "ollama-chatbot",
+    "name": "ollama-chatbot",
+    "summary": "Experimental Ollama integration for chatbot applications.",
+    "problem": "Early exploration of Ollama integration.",
+    "why_matters": "Early Ollama experimentation.",
+    "core_ideas": [
+      "Ollama integration",
+      "Chatbot application"
+    ],
+    "status": "experimental",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "foundation",
+    "blog_slugs": [],
+    "related_projects": [
+      "sovereign",
+      "turboq"
+    ],
+    "repository": "kliewerdaniel/ollama-chatbot",
+    "url": "https://github.com/kliewerdaniel/ollama-chatbot",
+    "created": "2025-12-30",
+    "last_updated": "2025-12-30"
+  },
+  {
+    "slug": "AMIS",
+    "name": "AMIS",
+    "summary": "Autonomous Marketing Intelligence System \u2014 turns a corpus of Markdown blog posts into an autonomous marketing knowledge graph that plans, ranks, recommends, and generates campaigns.",
+    "problem": "Marketing lacks automation. Autonomous marketing systems can plan, rank, recommend, and generate campaigns.",
+    "why_matters": "Demonstrates that sovereign intelligence can be applied to marketing \u2014 autonomous knowledge graphs that generate campaigns.",
+    "core_ideas": [
+      "Autonomous marketing knowledge graph",
+      "Plans, ranks, recommends, generates campaigns",
+      "Markdown blog post corpus ingestion",
+      "Autonomous decision-making"
+    ],
+    "status": "active",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "applications",
+    "blog_slugs": [
+      "2026-06-30-amis-in-action-autonomous-marketing-knowledge-graph"
+    ],
+    "related_projects": [
+      "sovereign-knowledge-engine",
+      "Learn",
+      "BookForge"
+    ],
+    "repository": "kliewerdaniel/amis",
+    "url": "https://github.com/kliewerdaniel/amis",
+    "created": "2026-06-30",
+    "last_updated": "2026-06-30"
+  },
+  {
+    "slug": "Learn",
+    "name": "Learn",
+    "summary": "Self-hosted, personalized AI learning platform powered by local LLMs, knowledge graphs, and retrieval-augmented generation.",
+    "problem": "Learning platforms are generic. Personalized AI learning platforms powered by local LLMs provide tailored education.",
+    "why_matters": "Demonstrates that sovereign intelligence can be applied to education \u2014 personalized learning powered by local AI.",
+    "core_ideas": [
+      "Self-hosted learning platform",
+      "Personalized AI learning",
+      "Local LLM-powered",
+      "Knowledge graph integration",
+      "Retrieval-augmented generation"
+    ],
+    "status": "active",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "applications",
+    "blog_slugs": [],
+    "related_projects": [
+      "AMIS",
+      "BookForge",
+      "sovereign-knowledge-engine"
+    ],
+    "repository": "kliewerdaniel/learn",
+    "url": "https://github.com/kliewerdaniel/learn",
+    "created": "2026-06-30",
+    "last_updated": "2026-06-30"
+  },
+  {
+    "slug": "BookForge",
+    "name": "BookForge",
+    "summary": "Deterministic publishing runtime that transforms structured knowledge into professionally written technical books.",
+    "problem": "Writing books is manual. Deterministic publishing runtimes automate book generation from structured knowledge.",
+    "why_matters": "Demonstrates that sovereign intelligence can be applied to publishing \u2014 automated book generation from knowledge.",
+    "core_ideas": [
+      "Deterministic publishing runtime",
+      "Structured knowledge \u2192 professionally written books",
+      "Automated book generation"
+    ],
+    "status": "active",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "applications",
+    "blog_slugs": [],
+    "related_projects": [
+      "AMIS",
+      "Learn",
+      "sovereignSpec"
+    ],
+    "repository": "kliewerdaniel/bookforge",
+    "url": "https://github.com/kliewerdaniel/bookforge",
+    "created": "2026-06-23",
+    "last_updated": "2026-06-23"
+  },
+  {
+    "slug": "catholic-kb",
+    "name": "catholic-kb",
+    "summary": "Local-first Catholic knowledge base with AI-powered Q&A. Built with Tauri, Rust, and vanilla JavaScript.",
+    "problem": "Knowledge bases for specific domains lack local-first implementations. Catholic knowledge base provides doctrinal reasoning grounded in authoritative sources.",
+    "why_matters": "Demonstrates that sovereign intelligence can be applied to specific domains \u2014 Catholic knowledge with AI-powered Q&A.",
+    "core_ideas": [
+      "Local-first Catholic knowledge base",
+      "AI-powered Q&A",
+      "Built with Tauri, Rust, vanilla JavaScript",
+      "Grounded in authoritative sources"
+    ],
+    "status": "active",
+    "technologies": [
+      "Rust",
+      "Tauri",
+      "JavaScript"
+    ],
+    "layer": "applications",
+    "blog_slugs": [],
+    "related_projects": [
+      "sovereign-knowledge-engine",
+      "cathkb"
+    ],
+    "repository": "kliewerdaniel/catholic-kb",
+    "url": "https://github.com/kliewerdaniel/catholic-kb",
+    "created": "2026-06-17",
+    "last_updated": "2026-06-17"
+  },
+  {
+    "slug": "cathkb",
+    "name": "cathkb",
+    "summary": "Local-first doctrinal reasoning engine grounded exclusively in authoritative Catholic sources.",
+    "problem": "Same as catholic-kb \u2014 earlier iteration.",
+    "why_matters": "Earlier iteration of catholic-kb.",
+    "core_ideas": [
+      "Doctrinal reasoning",
+      "Grounded in authoritative sources",
+      "Local-first"
+    ],
+    "status": "active",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "applications",
+    "blog_slugs": [],
+    "related_projects": [
+      "catholic-kb",
+      "sovereign-knowledge-engine"
+    ],
+    "repository": "kliewerdaniel/cathkb",
+    "url": "https://github.com/kliewerdaniel/cathkb",
+    "created": "2026-06-17",
+    "last_updated": "2026-06-17"
+  },
+  {
+    "slug": "concreat",
+    "name": "ConCreat",
+    "summary": "Modern web application for creating and managing multimedia content, featuring AI-powered text-to-speech capabilities using Chatterbox.",
+    "problem": "Content creation lacks local-first tools. ConCreat provides local text-to-speech for multimedia content.",
+    "why_matters": "Demonstrates that local text-to-speech can be integrated into content creation.",
+    "core_ideas": [
+      "Multimedia content creation",
+      "AI-powered text-to-speech",
+      "Chatterbox integration",
+      "Local-first"
+    ],
+    "status": "experimental",
+    "technologies": [
+      "TypeScript"
+    ],
+    "layer": "applications",
+    "blog_slugs": [],
+    "related_projects": [
+      "autoblog01",
+      "chrome-ai-filename-generator"
+    ],
+    "repository": "kliewerdaniel/ConCreat",
+    "url": "https://github.com/kliewerdaniel/ConCreat",
+    "created": "2025-12-26",
+    "last_updated": "2025-12-26"
+  },
+  {
+    "slug": "autoblog01",
+    "name": "autoblog01",
+    "summary": "Investigates whether local LLMs can drive a complete content generation pipeline. RSS ingestion, RAG-based writing, and automated publishing on local hardware.",
+    "problem": "Content generation depends on cloud APIs. Local LLMs can drive complete content pipelines.",
+    "why_matters": "Demonstrates that local LLMs can drive complete content generation pipelines.",
+    "core_ideas": [
+      "Local LLM-driven content generation",
+      "RSS ingestion",
+      "RAG-based writing",
+      "Automated publishing on local hardware"
+    ],
+    "status": "active",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "applications",
+    "blog_slugs": [],
+    "related_projects": [
+      "AMIS",
+      "autoblog02",
+      "concreat"
+    ],
+    "repository": "kliewerdaniel/autoblog01",
+    "url": "https://github.com/kliewerdaniel/autoblog01",
+    "created": "2025-10-08",
+    "last_updated": "2025-10-08"
+  },
+  {
+    "slug": "chrome-ai-filename-generator",
+    "name": "chrome-ai-filename-generator",
+    "summary": "Studies the interaction between local inference and everyday user workflows. A concrete experiment in unobtrusive on-device AI utility.",
+    "problem": "AI utilities are intrusive. Unobtrusive on-device AI can enhance everyday workflows.",
+    "why_matters": "Demonstrates that local AI can enhance everyday workflows without being intrusive.",
+    "core_ideas": [
+      "Local inference for everyday workflows",
+      "Unobtrusive on-device AI utility",
+      "Concrete experiment in AI utility"
+    ],
+    "status": "experimental",
+    "technologies": [
+      "JavaScript"
+    ],
+    "layer": "applications",
+    "blog_slugs": [],
+    "related_projects": [
+      "concreat",
+      "autoblog01"
+    ],
+    "repository": "kliewerdaniel/chrome-ai-filename-generator",
+    "url": "https://github.com/kliewerdaniel/chrome-ai-filename-generator",
+    "created": "2026-06-30",
+    "last_updated": "2026-06-30"
+  },
+  {
+    "slug": "redDis",
+    "name": "RedDiss",
+    "summary": "Explores the practical limits of local LLMs for content analysis. Built during the Loco Local LocalLLaMa Hackathon.",
+    "problem": "Content analysis depends on cloud APIs. Local LLMs can analyze content locally.",
+    "why_matters": "Demonstrates that local LLMs can analyze content locally.",
+    "core_ideas": [
+      "Local LLM content analysis",
+      "Practical limits exploration",
+      "Hackathon project"
+    ],
+    "status": "experimental",
+    "technologies": [
+      "Python"
+    ],
+    "layer": "applications",
+    "blog_slugs": [],
+    "related_projects": [
+      "autoblog01",
+      "chrome-ai-filename-generator"
+    ],
+    "repository": "kliewerdaniel/RedDiss",
+    "url": "https://github.com/kliewerdaniel/RedDiss",
+    "created": "2026-06-30",
+    "last_updated": "2026-06-30"
+  }
+]

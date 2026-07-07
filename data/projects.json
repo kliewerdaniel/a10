@@ -1,0 +1,110 @@
+[
+  {
+    "slug": "sovereign-intelligence-stack",
+    "name": "Sovereign Intelligence Stack",
+    "summary": "The complete 7-layer architecture for locally-owned AI systems.",
+    "problem": "How do you build intelligent systems that are fully owned and operated by the end user?",
+    "why_matters": "This is the foundational architecture. Everything else builds on it.",
+    "core_ideas": [
+      "Seven-layer architecture from inference to applications",
+      "Local-first by design",
+      "Data sovereignty as a constraint",
+      "Compounding knowledge"
+    ],
+    "status": "production",
+    "technologies": ["Python", "TypeScript", "Markdown"],
+    "layer": "orchestration",
+    "blog_slugs": ["2026-07-02-the-sovereign-intelligence-stack"],
+    "related_projects": ["sovereign-intelligence-observatory", "stratagent"],
+    "roadmap": [
+      "Add federated sync capabilities",
+      "Build observatory dashboard",
+      "Implement knowledge graph integration"
+    ],
+    "repository": "sovereign-intelligence-stack",
+    "url": "https://github.com/kliewerdaniel/sovereign-intelligence-stack",
+    "created": "2026-07-02",
+    "last_updated": "2026-07-05"
+  },
+  {
+    "slug": "sovereign-intelligence-observatory",
+    "name": "Sovereign Intelligence Observatory",
+    "summary": "Monitor and measure the sovereignty of AI systems.",
+    "problem": "How do you know if your AI system is truly sovereign?",
+    "why_matters": "Observability is the operating system for sovereign intelligence.",
+    "core_ideas": [
+      "Measure sovereignty across dimensions",
+      "Track architectural compliance",
+      "Monitor data flows",
+      "Audit decisions"
+    ],
+    "status": "production",
+    "technologies": ["Python", "TypeScript"],
+    "layer": "orchestration",
+    "blog_slugs": [],
+    "related_projects": ["sovereign-intelligence-stack", "turboq"],
+    "roadmap": [
+      "Add real-time monitoring",
+      "Build alerting system",
+      "Create visualization dashboard"
+    ],
+    "repository": "sovereign-intelligence-observatory",
+    "url": "https://github.com/kliewerdaniel/sovereign-intelligence-observatory",
+    "created": "2026-07-02",
+    "last_updated": "2026-07-05"
+  },
+  {
+    "slug": "stratagent",
+    "name": "StratAgent",
+    "summary": "Multi-agent orchestration for complex reasoning tasks.",
+    "problem": "How do multiple specialized agents coordinate to solve problems?",
+    "why_matters": "Individual agents are useful. Coordinated agents are powerful.",
+    "core_ideas": [
+      "Agent specialization",
+      "Task decomposition",
+      "Coordination protocols",
+      "Result aggregation"
+    ],
+    "status": "active",
+    "technologies": ["Python"],
+    "layer": "orchestration",
+    "blog_slugs": [],
+    "related_projects": ["sovereign-intelligence-stack", "workflow"],
+    "roadmap": [
+      "Add more agent types",
+      "Improve coordination logic",
+      "Build evaluation framework"
+    ],
+    "repository": "stratagent",
+    "url": "https://github.com/kliewerdaniel/stratagent",
+    "created": "2026-07-01",
+    "last_updated": "2026-07-04"
+  },
+  {
+    "slug": "workflow",
+    "name": "Workflow",
+    "summary": "A methodology for integrating AI into software development.",
+    "problem": "How do you systematically integrate AI into engineering workflows?",
+    "why_matters": "AI is most powerful when embedded in processes.",
+    "core_ideas": [
+      "Systems thinking for AI",
+      "Process integration",
+      "Quality gates",
+      "Feedback loops"
+    ],
+    "status": "active",
+    "technologies": ["Markdown", "Python"],
+    "layer": "orchestration",
+    "blog_slugs": [],
+    "related_projects": ["stratagent", "sovereignSpec"],
+    "roadmap": [
+      "Add more templates",
+      "Build tooling",
+      "Create case studies"
+    ],
+    "repository": "workflow",
+    "url": "https://github.com/kliewerdaniel/workflow",
+    "created": "2026-06-15",
+    "last_updated": "2026-07-01"
+  }
+]

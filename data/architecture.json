@@ -1,0 +1,84 @@
+{
+  "layers": [
+    {
+      "slug": "foundation",
+      "name": "Foundation",
+      "description": "Local inference and model execution. The base layer where intelligence runs on your hardware.",
+      "problem": "AI systems depend on cloud infrastructure. Local inference provides sovereignty.",
+      "why_matters": "Foundation is where sovereignty begins. No external dependencies.",
+      "color": "accent-blue",
+      "icon": "⬇",
+      "position": "bottom",
+      "projects": ["foundation-models", "quantization-tools", "hardware-selection"]
+    },
+    {
+      "slug": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Infrastructure for running, securing, and deploying sovereign intelligence.",
+      "problem": "Sovereignty isn't just about running locally — it's about security, trust, and deployment at scale.",
+      "why_matters": "Infrastructure makes sovereignty practical. Without it, sovereignty is just a theory.",
+      "color": "accent-green",
+      "icon": "⬆",
+      "position": "bottom-middle",
+      "projects": ["zero-trust-security", "turboq", "sovereign", "quantum-secure", "quantum-safe"]
+    },
+    {
+      "slug": "retrieval",
+      "name": "Retrieval",
+      "description": "Persistent, structured knowledge that compounds over time.",
+      "problem": "Agents forget between sessions. Vector stores retrieve — they don't understand.",
+      "why_matters": "Retrieval is the difference between ephemeral and durable intelligence.",
+      "color": "accent-cyan",
+      "icon": "⬆",
+      "position": "middle",
+      "projects": ["sovereign-memory-bank", "brain-memory-graphrag-engine", "knowledge-graph", "persistent-memory", "memory-architect"]
+    },
+    {
+      "slug": "planning",
+      "name": "Planning",
+      "description": "Turn knowledge into understanding, reports, and broadcasts.",
+      "problem": "Retrieval alone is just storage. Planning makes intelligence actionable.",
+      "why_matters": "Planning transforms information into insight and action.",
+      "color": "accent-yellow",
+      "icon": "⬆",
+      "position": "middle",
+      "projects": ["synthint", "synthetic-intelligence", "dynamic-persona-moe-rag", "cogGraph", "objective", "objective-series"]
+    },
+    {
+      "slug": "reasoning",
+      "name": "Reasoning",
+      "description": "Treat specifications as living, graph-grounded artifacts.",
+      "problem": "Software specifications are static documents. They don't evolve or connect to knowledge.",
+      "why_matters": "Reasoning makes intelligence adaptive and connected.",
+      "color": "accent-orange",
+      "icon": "⬆",
+      "position": "middle-top",
+      "projects": ["sovereignSpec", "specweave", "synthScript", "spec-generation", "reasoning-framework"]
+    },
+    {
+      "slug": "orchestration",
+      "name": "Orchestration",
+      "description": "Coordinate multiple specialized agents into coherent intelligence.",
+      "problem": "Individual components are useless without orchestration.",
+      "why_matters": "Orchestration is where intelligence becomes systemic.",
+      "color": "accent-pink",
+      "icon": "⬆",
+      "position": "top-middle",
+      "projects": ["sovereign-intelligence-stack", "sovereign-intelligence-observatory", "stratagent", "workflow"]
+    },
+    {
+      "slug": "applications",
+      "name": "Applications",
+      "description": "Real systems that demonstrate the stack in practice.",
+      "problem": "Theoretical systems need practical demonstrations.",
+      "why_matters": "Applications prove the architecture works. They're the evidence.",
+      "color": "accent-purple",
+      "icon": "⬆",
+      "position": "top",
+      "projects": ["amis", "learn", "bookforge", "catholic-kb", "chrome-ai-filename-generator", "concreat", "autoblog01", "sovereignBank", "SynthInt"]
+    }
+  ],
+  "title": "The Sovereign Intelligence Stack",
+  "subtitle": "One evolving architecture. Seven layers. Eighty repositories testing one hypothesis: intelligence can be locally owned.",
+  "narrative": "Intelligence can be locally owned. This architecture demonstrates that hypothesis through implementation."
+}

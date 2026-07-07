@@ -2,7 +2,6 @@ import { HeroBackground } from '@/components/three/HeroBackground';
 import { BookButton, Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
 import { BookCTA } from '@/components/blog/BookCTA';
-import { ProjectCard } from '@/components/projects/ProjectCard';
 import Link from 'next/link';
 
 const BOOK_URL = 'https://www.amazon.com/dp/B0H6RB7D9J';
@@ -19,15 +18,6 @@ const solutions = [
   { icon: '●', color: 'accent-green', title: 'Composable Systems', desc: 'RAG pipelines, knowledge graphs, and autonomous agents combine into architectures, not point solutions.' },
   { icon: '●', color: 'accent-orange', title: 'Data Authority', desc: 'Processing stays within your network. This is a structural property of the architecture.' },
   { icon: '●', color: 'accent-yellow', title: 'Unmetered Operation', desc: 'No rate limits or usage caps — there is no external gate. The only constraint is your hardware.' },
-];
-
-const featuredProjects = [
-  { name: 'workflow', description: 'A structured methodology for integrating AI into software development. Explores how systems thinking can guide AI-assisted engineering.', stars: 45, language: 'Markdown', url: 'https://github.com/kliewerdaniel/workflow' },
-  { name: 'autoblog01', description: 'Investigates RAG-driven content generation as an architectural pattern. Can local LLMs drive the full content pipeline end to end?', stars: 22, language: 'Python', url: 'https://github.com/kliewerdaniel/autoblog01' },
-  { name: 'sovereignBank', description: 'Explores whether autonomous agents can maintain persistent, evolving memory without cloud infrastructure. A seven-layer cognitive architecture.', stars: 0, language: 'Python', url: 'https://github.com/kliewerdaniel/sovereignBank', blogSlug: '2026-06-14-sovereign-memory-bank-a-deep-dive-into-autonomous-cognitive-memory-for-agent-systems' },
-  { name: 'SynthInt', description: 'Examines mixture-of-experts routing through dynamic personas. Can synthetic intelligence emerge from locally-hosted specialized models?', stars: 0, language: 'Python', url: 'https://github.com/kliewerdaniel/SynthInt' },
-  { name: 'chrome-ai-filename-generator', description: 'Studies the interface between local inference and everyday workflows. A concrete experiment in on-device AI utility.', stars: 6, language: 'JavaScript', url: 'https://github.com/kliewerdaniel/chrome-ai-filename-generator' },
-  { name: 'ConCreat', description: 'Investigates local text-to-speech pipelines for multimedia content. What are the boundaries of fully offline content generation?', stars: 1, language: 'TypeScript', url: 'https://github.com/kliewerdaniel/ConCreat' },
 ];
 
 const latestPosts = [
@@ -182,14 +172,14 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8 sm:mb-10">
             <div>
-              <span className="mono text-orange text-xs mb-3 sm:mb-4 block">Open Source</span>
-              <h2 className="font-display text-3xl sm:text-4xl">Research Through Code</h2>
+              <span className="mono text-orange text-xs mb-3 sm:mb-4 block">Sovereign Intelligence Stack</span>
+              <h2 className="font-display text-3xl sm:text-4xl">Seven Layers. Eighty Projects. One Architecture.</h2>
             </div>
-            <Button href="https://github.com/kliewerdaniel" external variant="secondary" size="sm">All Repositories →</Button>
+            <Button href="/projects" variant="secondary" size="sm">Explore the Architecture →</Button>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-            {featuredProjects.map((p) => <ProjectCard key={p.name} {...p} />)}
-          </div>
+          <p className="text-lg text-ink-3 mb-8 max-w-3xl">
+            From local inference to full-stack applications — this is the architecture of computational sovereignty. Click any layer to explore the projects within it.
+          </p>
         </div>
       </section>
 

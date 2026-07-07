@@ -1,0 +1,84 @@
+{
+  "layers": [
+    {
+      "slug": "foundation",
+      "name": "Foundation",
+      "description": "Local inference and model execution. The base layer where intelligence runs on your hardware.",
+      "problem": "AI systems depend on cloud infrastructure. Local inference provides sovereignty.",
+      "why_matters": "Everything above depends on local-first inference. If you can't run intelligence locally, you have no sovereignty.",
+      "color": "accent-blue",
+      "icon": "⬇",
+      "position": "bottom",
+      "projects": ["turboq", "sovereign", "rlm", "ollama-chatbot"]
+    },
+    {
+      "slug": "infrastructure",
+      "name": "Infrastructure",
+      "description": "Infrastructure for running, securing, and deploying sovereign intelligence.",
+      "problem": "Sovereignty isn't just about running locally — it's about security, trust, and deployment at scale.",
+      "why_matters": "Security and deployment infrastructure ensures sovereign systems are robust and trustworthy.",
+      "color": "accent-green",
+      "icon": "⬆",
+      "position": "middle",
+      "projects": ["sse", "quantum-series", "zero-trust", "turboq", "sovereign-scaffold"]
+    },
+    {
+      "slug": "retrieval",
+      "name": "Retrieval",
+      "description": "Persistent, structured knowledge that compounds over time.",
+      "problem": "Agents forget between sessions. Vector stores retrieve — they don't understand.",
+      "why_matters": "Memory is the key differentiator between a one-shot LLM and sovereign intelligence.",
+      "color": "accent-cyan",
+      "icon": "⬆",
+      "position": "middle",
+      "projects": ["sovereign-memory-bank", "brain-memory-graphrag-engine", "sovereign-knowledge-engine", "ukb", "blog-knowledge-base", "LGVRAG-series", "mindmap-series", "bot-series", "basicbot"]
+    },
+    {
+      "slug": "planning",
+      "name": "Planning",
+      "description": "Turn knowledge into understanding, reports, and broadcasts.",
+      "problem": "Retrieval alone is just storage. Planning makes intelligence actionable.",
+      "why_matters": "Planning transforms raw knowledge into synthesized understanding.",
+      "color": "accent-yellow",
+      "icon": "⬆",
+      "position": "middle",
+      "projects": ["objective", "objective05", "objective06", "synt", "synthInt", "dynamic_persona_moe_rag", "divine-light", "cogGraph"]
+    },
+    {
+      "slug": "reasoning",
+      "name": "Reasoning",
+      "description": "Treat specifications as living, graph-grounded artifacts.",
+      "problem": "Software specifications are static documents. They don't evolve or connect to knowledge.",
+      "why_matters": "Reasoning is the bridge from research to implementable systems.",
+      "color": "accent-orange",
+      "icon": "⬆",
+      "position": "middle",
+      "projects": ["sovereignSpec", "specweave", "synthScript", "specgen", "zero-trust", "orthos"]
+    },
+    {
+      "slug": "orchestration",
+      "name": "Orchestration",
+      "description": "Coordinate multiple specialized agents into coherent intelligence.",
+      "problem": "Individual components are useless without orchestration.",
+      "why_matters": "Orchestration turns a collection of parts into an integrated whole.",
+      "color": "accent-pink",
+      "icon": "⬆",
+      "position": "middle",
+      "projects": ["sovereign-intelligence-stack", "sovereign-intelligence-observatory", "stratagent", "workflow"]
+    },
+    {
+      "slug": "applications",
+      "name": "Applications",
+      "description": "Real systems that demonstrate the stack in practice.",
+      "problem": "Theoretical systems need practical demonstrations.",
+      "why_matters": "Applications prove that sovereign intelligence is not theoretical — it can be built and used today.",
+      "color": "accent-purple",
+      "icon": "⬆",
+      "position": "top",
+      "projects": ["AMIS", "Learn", "BookForge", "catholic-kb", "cathkb", "concreat", "autoblog01", "chrome-ai-filename-generator", "redDis"]
+    }
+  ],
+  "title": "The Sovereign Intelligence Stack",
+  "subtitle": "One evolving architecture. Seven layers. Eighty repositories testing one hypothesis.",
+  "narrative": "Intelligence can be locally owned. This architecture demonstrates that hypothesis through implementation."
+}
