@@ -1,9 +1,11 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { getAllBlogPosts, getCornerstonePosts } from '@/lib/blog';
+import { getAllBlogPosts, getCornerstonePosts, getCategoryArticleCounts } from '@/lib/blog';
 import { ResearchCard } from '@/components/blog/ResearchCard';
 import { ResearchSearch } from '@/components/blog/ResearchSearch';
+import { CategoryCard } from '@/components/blog/CategoryCard';
 import { Breadcrumbs } from '@/components/seo/Breadcrumbs';
+import categories from '@/data/research-categories.json';
 
 const POSTS_PER_PAGE = 20;
 
@@ -33,12 +35,14 @@ export default async function ResearchPage({ searchParams }: ResearchPageProps) 
 
   const allPosts = getAllBlogPosts();
   const cornerstone = getCornerstonePosts();
-  const latestPosts = allPosts.slice(0, 6);
-  const archivePosts = allPosts.slice(6);
+  const categoryCounts = getCategoryArticleCounts();
 
-  const totalPages = Math.ceil(archivePosts.length / POSTS_PER_PAGE);
+  const prevUrl = page > 1 ? (page === 2 ? '/research' : `/research?page=${page - 1}`) : null;
+  const nextUrl = page < Math.ceil(allPosts.length / POSTS_PER_PAGE) ? `/research?page=${page + 1}` : null;
+
+  const totalPages = Math.ceil(allPosts.length / POSTS_PER_PAGE);
   const startIndex = (page - 1) * POSTS_PER_PAGE;
-  const currentPosts = archivePosts.slice(startIndex, startIndex + POSTS_PER_PAGE);
+  const currentPosts = allPosts.slice(startIndex, startIndex + POSTS_PER_PAGE);
 
   const litePosts = currentPosts.map((p) => ({
     slug: p.slug,
@@ -51,13 +55,16 @@ export default async function ResearchPage({ searchParams }: ResearchPageProps) 
     featured: p.featured,
   }));
 
-  const prevUrl = page > 1 ? (page === 2 ? '/research' : `/research?page=${page - 1}`) : null;
-  const nextUrl = page < totalPages ? `/research?page=${page + 1}` : null;
+  const categoryCards = categories.map((cat) => ({
+    ...cat,
+    articleCount: categoryCounts[cat.slug] || 0,
+  }));
 
   return (
     <main className="min-h-screen">
       {prevUrl && <link rel="prev" href={prevUrl} />}
       {nextUrl && <link rel="next" href={nextUrl} />}
+
       {/* Hero */}
       <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto text-center">
@@ -67,23 +74,23 @@ export default async function ResearchPage({ searchParams }: ResearchPageProps) 
               { name: 'Research', url: '/research' },
             ]}
           />
-          <span className="mono text-green text-xs mb-4 block">Knowledge Base</span>
+          <span className="mono text-green text-xs mb-4 block">Knowledge Hub</span>
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl mb-6">Research</h1>
           <p className="text-ink-3 max-w-2xl mx-auto text-lg leading-relaxed">
             Architectural investigations into local-first AI, cognitive memory, graph reasoning,
-            and computational sovereignty. Start with the cornerstone articles or explore by topic.
+            and computational sovereignty.
           </p>
         </div>
       </section>
 
-      {/* Featured Research — Cornerstone Articles */}
+      {/* Featured Research */}
       {cornerstone.length > 0 && (
         <section className="py-16 px-4 bg-surface relative">
           <div className="absolute inset-0 pointillism-layer opacity-20 pointer-events-none" />
           <div className="max-w-6xl mx-auto relative">
             <div className="mb-10">
               <span className="mono text-pink text-xs mb-3 block">Start Here</span>
-              <h2 className="font-display text-2xl md:text-3xl">Featured Research</h2>
+              <h2 className="font-display text-2xl md:text-3xl">Start Here</h2>
               <p className="text-ink-3 mt-2 text-sm">The essential articles that introduce the architecture and connect the research.</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -105,41 +112,40 @@ export default async function ResearchPage({ searchParams }: ResearchPageProps) 
         </section>
       )}
 
-      {/* Latest Research */}
-      <section className="py-16 px-4 reveal">
-        <div className="max-w-6xl mx-auto">
+      {/* Category Browser */}
+      <section className="py-16 px-4 bg-surface relative">
+        <div className="absolute inset-0 pointillism-layer opacity-15 pointer-events-none" />
+        <div className="max-w-6xl mx-auto relative">
           <div className="mb-10">
-            <span className="mono text-green text-xs mb-3 block">Latest Work</span>
-            <h2 className="font-display text-2xl md:text-3xl">Recent Research</h2>
+            <span className="mono text-green text-xs mb-3 block">Browse by Topic</span>
+            <h2 className="font-display text-2xl md:text-3xl">Category Browser</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {latestPosts.map((post) => (
-              <ResearchCard
-                key={post.slug}
-                slug={post.slug}
-                title={post.title}
-                date={post.date}
-                description={post.description}
-                tags={post.tags}
-                readingTime={post.readingTime}
-                category={post.category}
+            {categoryCards.map((cat) => (
+              <CategoryCard
+                key={cat.slug}
+                slug={cat.slug}
+                name={cat.name}
+                description={cat.description}
+                color={cat.color}
+                articleCount={cat.articleCount}
               />
             ))}
           </div>
         </div>
       </section>
 
-      {/* All Articles — Search & Filter */}
+      {/* Search & Explore */}
       <section className="py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="mb-10">
-            <span className="mono text-green text-xs mb-3 block">Archive</span>
-            <h2 className="font-display text-2xl md:text-3xl">All Articles</h2>
+            <span className="mono text-green text-xs mb-3 block">Full Archive</span>
+            <h2 className="font-display text-2xl md:text-3xl">All Research</h2>
             <p className="text-ink-3 mt-2 text-sm">
-              Showing {startIndex + 1}–{Math.min(startIndex + POSTS_PER_PAGE, archivePosts.length)} of {archivePosts.length} articles.
+              {startIndex + 1}–{Math.min(startIndex + POSTS_PER_PAGE, allPosts.length)} of {allPosts.length} articles.
             </p>
           </div>
-          <ResearchSearch posts={litePosts} allPostsCount={archivePosts.length} />
+          <ResearchSearch posts={litePosts} allPostsCount={allPosts.length} />
 
           {/* Pagination */}
           {totalPages > 1 && (

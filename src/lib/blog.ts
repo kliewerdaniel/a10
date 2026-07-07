@@ -142,3 +142,12 @@ export function getCategories(): ResearchCategory[] {
 export function getCategoryBySlug(slug: string): ResearchCategory | undefined {
   return (categories as ResearchCategory[]).find(c => c.slug === slug);
 }
+
+export function getCategoryArticleCounts(): Record<string, number> {
+  const allPosts = getAllBlogPosts();
+  const counts: Record<string, number> = {};
+  for (const post of allPosts) {
+    counts[post.category] = (counts[post.category] || 0) + 1;
+  }
+  return counts;
+}

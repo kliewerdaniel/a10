@@ -55,17 +55,17 @@ export function ResearchSearch({ posts, allPostsCount }: ResearchSearchProps) {
 
   return (
     <div>
-      <div className="mb-6">
+      <div className="mb-8">
         <div className="relative">
-          <svg className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-ink-3 pointer-events-none" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+          <svg className="absolute left-5 top-1/2 -translate-y-1/2 w-6 h-6 text-ink-3 pointer-events-none" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
           </svg>
           <input
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Semantic search across all research..."
-            className="w-full pl-12 pr-4 py-4 bg-cream border-4 border-ink text-ink placeholder-ink-3 focus:outline-none focus:bg-surface transition-colors font-bold text-lg"
+            placeholder="Search all research..."
+            className="w-full pl-14 pr-12 py-5 bg-cream border-4 border-ink text-ink placeholder-ink-3 focus:outline-none focus:bg-surface transition-colors font-bold text-xl"
           />
           {query && (
             <button
@@ -80,16 +80,16 @@ export function ResearchSearch({ posts, allPostsCount }: ResearchSearchProps) {
         </div>
       </div>
 
-      <div className="mb-8 flex flex-wrap gap-2">
+      <div className="mb-10 flex flex-wrap gap-2">
         <button
           onClick={() => setSelectedTag(null)}
           className={`mono px-3 py-1.5 text-xs font-bold border-2 border-ink transition-colors ${
             selectedTag === null ? 'bg-ink text-cream' : 'bg-cream text-ink hover:bg-surface'
           }`}
         >
-          All ({allPostsCount ?? posts.length})
+          All
         </button>
-        {allTags.slice(0, 15).map(({ tag, count }) => (
+        {allTags.slice(0, 20).map(({ tag, count }) => (
           <button
             key={tag}
             onClick={() => setSelectedTag(selectedTag === tag ? null : tag)}
@@ -97,7 +97,7 @@ export function ResearchSearch({ posts, allPostsCount }: ResearchSearchProps) {
               selectedTag === tag ? 'bg-ink text-cream' : 'bg-cream text-ink hover:bg-surface'
             }`}
           >
-            {tag} ({count})
+            {tag}
           </button>
         ))}
       </div>
