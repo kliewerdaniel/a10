@@ -120,7 +120,7 @@ export default async function BlogPostPage({ params }: Props) {
 
         {post.image && (
           <div className="my-8 border-4 border-ink overflow-hidden shadow-brutalist-lg">
-            <img src={post.image} alt={post.title} className="w-full h-auto" />
+            <img src={post.image} alt={post.title} width={1200} height={630} className="w-full h-auto" loading="lazy" decoding="async" />
           </div>
         )}
 

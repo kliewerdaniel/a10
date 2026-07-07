@@ -11,14 +11,18 @@ export function BookCover({ size = 'lg' }: { size?: 'sm' | 'md' | 'lg' }) {
       <div
         className={`${dims} border-4 border-ink bg-white overflow-hidden relative transition-transform duration-300 group-hover:scale-105 shadow-brutalist-xl`}
       >
-        <Image
-          src="/SovereignAI_300dpi.png"
-          alt="Sovereign AI: An Architectural Investigation into Local-First Intelligence by Daniel Kliewer"
-          fill
-          className="object-cover"
-          sizes="224px"
-          priority
-        />
+        <picture>
+          <source srcSet="/images/formats/SovereignAI.avif" type="image/avif" />
+          <source srcSet="/images/formats/SovereignAI.webp" type="image/webp" />
+          <Image
+            src="/SovereignAI_300dpi.png"
+            alt="Sovereign AI: An Architectural Investigation into Local-First Intelligence by Daniel Kliewer"
+            fill
+            className="object-cover"
+            sizes="224px"
+            priority
+          />
+        </picture>
       </div>
     </a>
   );

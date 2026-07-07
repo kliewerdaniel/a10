@@ -18,7 +18,7 @@ export function BlogCard({ slug, title, date, description, tags, image, readingT
       <Link href={`/blog/${slug}`} className="group block card-pointillist overflow-hidden md:col-span-2 transition-all duration-200">
         <div className="md:flex">
           <div className="md:w-1/2 aspect-video md:aspect-auto relative overflow-hidden">
-            <img src={image} alt={title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+            <img src={image} alt={title} width={640} height={360} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" decoding="async" />
             <div className="absolute inset-0 bg-gradient-to-t from-cream/90 via-cream/20 to-transparent md:hidden" />
             <div className="absolute inset-0 bg-gradient-to-r from-transparent to-cream/60 hidden md:block" />
           </div>
@@ -49,7 +49,7 @@ export function BlogCard({ slug, title, date, description, tags, image, readingT
   return (
     <Link href={`/blog/${slug}`} className="group block card-pointillist overflow-hidden transition-all duration-200">
       <div className="aspect-video relative overflow-hidden">
-        <img src={image} alt={title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+        <img src={image} alt={title} width={640} height={360} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy" decoding="async" />
         <div className="absolute inset-0 bg-gradient-to-t from-cream via-cream/30 to-transparent" />
       </div>
       <div className="p-6">

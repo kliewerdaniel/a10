@@ -10,13 +10,17 @@ export function BookCTA({ variant = 'banner' }: { variant?: 'banner' | 'inline' 
         <div className="absolute inset-0 dot-green opacity-30 pointer-events-none" />
         <div className="flex flex-col sm:flex-row items-center gap-4 relative z-10">
           <div className="flex-shrink-0 w-14 h-20 border-4 border-ink bg-white overflow-hidden relative">
-            <Image
-              src="/SovereignAI_300dpi.png"
-              alt="Sovereign AI book cover"
-              fill
-              className="object-cover"
-              sizes="56px"
-            />
+            <picture>
+              <source srcSet="/images/formats/SovereignAI.avif" type="image/avif" />
+              <source srcSet="/images/formats/SovereignAI.webp" type="image/webp" />
+              <Image
+                src="/SovereignAI_300dpi.png"
+                alt="Sovereign AI book cover"
+                fill
+                className="object-cover"
+                sizes="56px"
+              />
+            </picture>
           </div>
           <div className="text-center sm:text-left flex-1">
             <p className="mono text-xs accent-green font-bold mb-1">From the Book</p>
@@ -44,13 +48,17 @@ export function BookCTA({ variant = 'banner' }: { variant?: 'banner' | 'inline' 
 
       <div className="flex flex-col md:flex-row items-center gap-6 sm:gap-8 relative z-10">
         <div className="flex-shrink-0 w-44 h-60 border-4 border-ink bg-white overflow-hidden relative">
-          <Image
-            src="/SovereignAI_300dpi.png"
-            alt="Sovereign AI: An Architectural Investigation into Local-First Intelligence by Daniel Kliewer"
-            fill
-            className="object-cover"
-            sizes="176px"
-          />
+          <picture>
+            <source srcSet="/images/formats/SovereignAI.avif" type="image/avif" />
+            <source srcSet="/images/formats/SovereignAI.webp" type="image/webp" />
+            <Image
+              src="/SovereignAI_300dpi.png"
+              alt="Sovereign AI: An Architectural Investigation into Local-First Intelligence by Daniel Kliewer"
+              fill
+              className="object-cover"
+              sizes="176px"
+            />
+          </picture>
         </div>
 
         <div className="text-center md:text-left flex-1">

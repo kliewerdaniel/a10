@@ -28,13 +28,18 @@ export function AboutContent() {
           <div className="flex flex-col md:flex-row items-center gap-10">
             <div className="flex-shrink-0 relative">
               <div className="w-36 h-36 border-4 border-ink overflow-hidden relative shadow-brutalist-lg">
-                <Image
-                  src="/images/profile.jpeg"
-                  alt="Daniel Kliewer"
-                  fill
-                  className="object-cover"
-                  sizes="144px"
-                />
+                <picture>
+                  <source srcSet="/images/formats/profile.avif" type="image/avif" />
+                  <source srcSet="/images/formats/profile.webp" type="image/webp" />
+                  <Image
+                    src="/images/profile.jpeg"
+                    alt="Daniel Kliewer"
+                    fill
+                    className="object-cover"
+                    sizes="144px"
+                    priority
+                  />
+                </picture>
               </div>
             </div>
             <div className="text-center md:text-left">
