@@ -62,7 +62,7 @@ export function Footer() {
               </div>
               <div className="flex flex-col">
                 <span className="font-display text-base leading-tight text-ink">
-                  SOVEREIGN <span className="accent-green">AI</span>
+                  Daniel <span className="accent-green">Kliewer</span>
                 </span>
                 <span className="mono text-[9px] text-ink-3 leading-none">Architectures for Sovereignty</span>
               </div>
