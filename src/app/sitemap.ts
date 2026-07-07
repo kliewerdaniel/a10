@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { getAllBlogPosts, getCategories } from '@/lib/blog';
 
-const baseUrl = 'https://danielkliewer.com';
+const baseUrl = 'https://www.danielkliewer.com';
 const POSTS_PER_PAGE = 20;
 
 export default function sitemap(): MetadataRoute.Sitemap {

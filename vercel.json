@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "danielkliewer.com" }],
+      "destination": "https://www.danielkliewer.com/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:path*/",
+      "destination": "/:path",
+      "permanent": true
+    }
+  ]
+}

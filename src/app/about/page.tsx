@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Daniel Kliewer investigates architectures for computational sovereignty — local-first AI, cognitive memory systems, graph-based reasoning, and autonomous agents.',
 };
 
-const baseUrl = 'https://danielkliewer.com';
+const baseUrl = 'https://www.danielkliewer.com';
 
 const personSchema = {
   '@context': 'https://schema.org',

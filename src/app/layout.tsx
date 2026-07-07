@@ -24,30 +24,32 @@ const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
 });
 
+const CANONICAL_BASE = 'https://www.danielkliewer.com';
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://danielkliewer.com"),
+  metadataBase: new URL(CANONICAL_BASE),
   title: {
-    default: "Daniel Kliewer — Architectures for Computational Sovereignty",
-    template: "%s | Daniel Kliewer",
+    default: 'Daniel Kliewer — Architectures for Computational Sovereignty',
+    template: '%s | Daniel Kliewer',
   },
-  description: "Investigating architectures for local-first intelligence — cognitive memory, graph reasoning, autonomous agents, and the engineering of AI systems you actually own. By Daniel Kliewer.",
-  keywords: ["computational sovereignty", "local-first AI", "cognitive architectures", "memory systems", "knowledge graphs", "autonomous agents", "synthetic intelligence", "Daniel Kliewer", "graph reasoning", "inspectable AI", "sovereign AI"],
-  authors: [{ name: "Daniel Kliewer" }],
-  creator: "Daniel Kliewer",
+  description: 'Investigating architectures for local-first intelligence — cognitive memory, graph reasoning, autonomous agents, and the engineering of AI systems you actually own. By Daniel Kliewer.',
+  keywords: ['computational sovereignty', 'local-first AI', 'cognitive architectures', 'memory systems', 'knowledge graphs', 'autonomous agents', 'synthetic intelligence', 'Daniel Kliewer', 'graph reasoning', 'inspectable AI', 'sovereign AI'],
+  authors: [{ name: 'Daniel Kliewer' }],
+  creator: 'Daniel Kliewer',
   openGraph: {
-    type: "website",
-    locale: "en_US",
-    url: "https://danielkliewer.com",
-    siteName: "Daniel Kliewer",
-    title: "Daniel Kliewer — Architectures for Computational Sovereignty",
-    description: "Investigating architectures for local-first intelligence — cognitive memory, graph reasoning, autonomous agents, and the engineering of AI systems you actually own.",
-    images: [{ url: "/images/og-image.png", width: 1200, height: 630 }],
+    type: 'website',
+    locale: 'en_US',
+    url: CANONICAL_BASE,
+    siteName: 'Daniel Kliewer',
+    title: 'Daniel Kliewer — Architectures for Computational Sovereignty',
+    description: 'Investigating architectures for local-first intelligence — cognitive memory, graph reasoning, autonomous agents, and the engineering of AI systems you actually own.',
+    images: [{ url: '/images/og-image.png', width: 1200, height: 630 }],
   },
   twitter: {
-    card: "summary_large_image",
-    title: "Daniel Kliewer — Architectures for Computational Sovereignty",
-    description: "Investigating architectures for local-first intelligence — cognitive memory, graph reasoning, autonomous agents.",
-    images: ["/images/og-image.png"],
+    card: 'summary_large_image',
+    title: 'Daniel Kliewer — Architectures for Computational Sovereignty',
+    description: 'Investigating architectures for local-first intelligence — cognitive memory, graph reasoning, autonomous agents.',
+    images: ['/images/og-image.png'],
   },
   robots: {
     index: true,

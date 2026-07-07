@@ -51,7 +51,7 @@ export default async function BlogPostPage({ params }: Props) {
   const post = getBlogPost(slug);
   if (!post) notFound();
 
-  const baseUrl = 'https://danielkliewer.com';
+  const baseUrl = 'https://www.danielkliewer.com';
   const postUrl = `${baseUrl}/blog/${post.slug}`;
   const imageUrl = post.image.startsWith('http') ? post.image : `${baseUrl}${post.image}`;
 

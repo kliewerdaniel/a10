@@ -32,7 +32,7 @@ const forWhom = [
   { title: 'Founders Building on Their Own Terms', desc: 'Architectural independence means your margins and your roadmap are not subject to a provider\'s pricing decisions.' },
 ];
 
-const baseUrl = 'https://danielkliewer.com';
+const baseUrl = 'https://www.danielkliewer.com';
 
 const bookSchema = {
   '@context': 'https://schema.org',

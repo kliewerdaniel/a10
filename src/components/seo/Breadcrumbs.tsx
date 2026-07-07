@@ -11,7 +11,7 @@ interface BreadcrumbsProps {
 }
 
 export function Breadcrumbs({ items }: BreadcrumbsProps) {
-  const baseUrl = 'https://danielkliewer.com';
+  const baseUrl = 'https://www.danielkliewer.com';
 
   const jsonLd = {
     '@context': 'https://schema.org',
