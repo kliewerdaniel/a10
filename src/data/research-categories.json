@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "architecture",
+    "name": "Architecture",
+    "description": "System design patterns, architectural decisions, and the structural logic of sovereign intelligence systems.",
+    "color": "green",
+    "icon": "◆",
+    "keywords": ["architecture", "architectural", "design", "system", "stack", "infrastructure", "full-stack", "blueprint"]
+  },
+  {
+    "slug": "memory-retrieval",
+    "name": "Memory & Retrieval",
+    "description": "Knowledge graphs, RAG pipelines, vector embeddings, and persistent memory systems for sovereign agents.",
+    "color": "pink",
+    "icon": "◆",
+    "keywords": ["memory", "retrieval", "rag", "graph", "knowledge", "vector", "embedding", "graphrag", "knowledge-graph"]
+  },
+  {
+    "slug": "agent-systems",
+    "name": "Agent Systems",
+    "description": "Autonomous agents, multi-agent coordination, persona routing, and cognitive architectures.",
+    "color": "orange",
+    "icon": "◆",
+    "keywords": ["agent", "autonomous", "persona", "cognitive", "swarm", "routing", "orchestrat", "multi-agent", "ai-agent"]
+  },
+  {
+    "slug": "local-ai",
+    "name": "Local AI",
+    "description": "Local inference, Ollama, llama.cpp, on-device models, and cloud-free AI infrastructure.",
+    "color": "yellow",
+    "icon": "◆",
+    "keywords": ["local", "ollama", "inference", "llm", "on-device", "offline", "local-first", "local-llm"]
+  },
+  {
+    "slug": "engineering",
+    "name": "Engineering",
+    "description": "Implementation guides, tooling, frameworks, and practical development workflows.",
+    "color": "green",
+    "icon": "◆",
+    "keywords": ["build", "implement", "guide", "tutorial", "how-to", "setup", "deploy", "integrate", "framework", "sdk", "api", "coding", "code", "python", "typescript", "rust", "nextjs", "next.js"]
+  },
+  {
+    "slug": "theory",
+    "name": "Theory",
+    "description": "Conceptual frameworks, research directions, and the intellectual foundations of computational sovereignty.",
+    "color": "pink",
+    "icon": "◆",
+    "keywords": ["theory", "concept", "research", "investigation", "philosophy", "manifesto", "why", "sovereignty", "sovereign"]
+  },
+  {
+    "slug": "experiments",
+    "name": "Experiments",
+    "description": "Exploratory projects, hackathon builds, and early-stage architectural experiments.",
+    "color": "orange",
+    "icon": "◆",
+    "keywords": ["experiment", "hackathon", "prototype", "explore", "test", "proof-of-concept", "poc"]
+  }
+]

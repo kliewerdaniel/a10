@@ -55,7 +55,7 @@ export default function BookPage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-surface relative">
+      <section className="py-20 px-4 bg-surface relative reveal">
         <div className="absolute inset-0 pointillism-layer opacity-20 pointer-events-none" />
         <div className="max-w-6xl mx-auto relative">
           <div className="text-center mb-12">
@@ -73,7 +73,7 @@ export default function BookPage() {
         </div>
       </section>
 
-      <section className="py-20 px-4">
+      <section className="py-20 px-4 reveal">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <span className="mono text-pink text-xs mb-4 block">Contents</span>
@@ -95,7 +95,7 @@ export default function BookPage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-surface relative">
+      <section className="py-20 px-4 bg-surface relative reveal">
         <div className="absolute inset-0 dot-pattern opacity-15 pointer-events-none" />
         <div className="max-w-6xl mx-auto relative">
           <div className="text-center mb-12">
@@ -113,7 +113,7 @@ export default function BookPage() {
         </div>
       </section>
 
-      <section className="py-20 px-4">
+      <section className="py-20 px-4 reveal">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="font-display text-4xl mb-5">The Full Architectural Investigation</h2>
           <p className="text-ink-3 mb-10 text-lg">Available now. The reasoning is in the book. The implementation is in the code.</p>
@@ -121,7 +121,7 @@ export default function BookPage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-surface">
+      <section className="py-20 px-4 bg-surface reveal">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="font-display text-3xl">Related Essays</h2>

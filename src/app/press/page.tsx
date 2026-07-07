@@ -87,7 +87,7 @@ export default function PressPage() {
       </section>
 
       {/* About Daniel */}
-      <section className="py-16 sm:py-24 px-5 bg-surface relative">
+      <section className="py-16 sm:py-24 px-5 bg-surface relative reveal">
         <div className="absolute inset-0 pointillism-layer opacity-20 pointer-events-none" />
         <div className="max-w-4xl mx-auto relative">
           <h2 className="font-display text-3xl mb-8">About Daniel Kliewer</h2>
@@ -106,7 +106,7 @@ export default function PressPage() {
       </section>
 
       {/* About Sovereign AI */}
-      <section className="py-16 sm:py-24 px-5">
+      <section className="py-16 sm:py-24 px-5 reveal">
         <div className="max-w-4xl mx-auto">
           <h2 className="font-display text-3xl mb-8">About Sovereign AI</h2>
           <p className="text-ink-3 text-lg font-bold mb-8 max-w-3xl">
@@ -121,7 +121,7 @@ export default function PressPage() {
       </section>
 
       {/* Downloadable Media */}
-      <section className="py-16 sm:py-24 px-5 bg-surface relative">
+      <section className="py-16 sm:py-24 px-5 bg-surface relative reveal">
         <div className="absolute inset-0 dot-pattern opacity-15 pointer-events-none" />
         <div className="max-w-4xl mx-auto relative">
           <h2 className="font-display text-3xl mb-8">Downloadable Media</h2>
@@ -145,7 +145,7 @@ export default function PressPage() {
       </section>
 
       {/* Suggested Interview Topics */}
-      <section className="py-16 sm:py-24 px-5">
+      <section className="py-16 sm:py-24 px-5 reveal">
         <div className="max-w-4xl mx-auto">
           <h2 className="font-display text-3xl mb-8">Suggested Interview Topics</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -160,7 +160,7 @@ export default function PressPage() {
       </section>
 
       {/* Sample Interview Questions */}
-      <section className="py-16 sm:py-24 px-5 bg-surface relative">
+      <section className="py-16 sm:py-24 px-5 bg-surface relative reveal">
         <div className="absolute inset-0 pointillism-layer opacity-20 pointer-events-none" />
         <div className="max-w-4xl mx-auto relative">
           <h2 className="font-display text-3xl mb-8">Sample Interview Questions</h2>
@@ -214,7 +214,7 @@ export default function PressPage() {
       </section>
 
       {/* Previous Talks & Interviews */}
-      <section className="py-16 sm:py-24 px-5">
+      <section className="py-16 sm:py-24 px-5 reveal">
         <div className="max-w-4xl mx-auto">
           <h2 className="font-display text-3xl mb-8">Previous Talks & Interviews</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -228,7 +228,7 @@ export default function PressPage() {
       </section>
 
       {/* Speaking */}
-      <section className="py-16 sm:py-24 px-5 bg-surface relative">
+      <section className="py-16 sm:py-24 px-5 bg-surface relative reveal">
         <div className="absolute inset-0 pointillism-layer opacity-20 pointer-events-none" />
         <div className="max-w-4xl mx-auto relative">
           <h2 className="font-display text-3xl mb-4">Speaking</h2>
@@ -245,7 +245,7 @@ export default function PressPage() {
       </section>
 
       {/* Contact */}
-      <section className="py-16 sm:py-24 px-5">
+      <section className="py-16 sm:py-24 px-5 reveal">
         <div className="max-w-4xl mx-auto">
           <h2 className="font-display text-3xl mb-8">Contact</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -274,7 +274,7 @@ export default function PressPage() {
       </section>
 
       {/* Bios */}
-      <section className="py-16 sm:py-24 px-5 bg-surface relative">
+      <section className="py-16 sm:py-24 px-5 bg-surface relative reveal">
         <div className="absolute inset-0 dot-pattern opacity-15 pointer-events-none" />
         <div className="max-w-4xl mx-auto relative">
           <h2 className="font-display text-3xl mb-8">Bios</h2>
@@ -311,7 +311,7 @@ export default function PressPage() {
       </section>
 
       {/* Book CTA */}
-      <section className="py-16 sm:py-24 px-5">
+      <section className="py-16 sm:py-24 px-5 reveal">
         <div className="max-w-4xl mx-auto">
           <BookCTA />
         </div>

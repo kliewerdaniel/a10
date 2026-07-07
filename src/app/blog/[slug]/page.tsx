@@ -119,8 +119,8 @@ export default async function BlogPostPage({ params }: Props) {
         <BookCTA />
 
         <div className="mt-10 text-center">
-          <Link href="/blog" className="accent-green hover:text-green-dark font-bold transition-colors">
-            ← Back to all posts
+          <Link href="/research" className="accent-green hover:text-green-dark font-bold transition-colors">
+            ← Back to all research
           </Link>
         </div>
       </div>

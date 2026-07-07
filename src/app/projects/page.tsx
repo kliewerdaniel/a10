@@ -1,7 +1,8 @@
-import { getArchitecture, getLayers, getProjectCountByLayer, getAllProjects } from '@/lib/projects';
-import { LayerGrid } from '@/components/projects/LayerGrid';
+import { getArchitecture, getLayers, getAllProjects } from '@/lib/projects';
 import { ArchitectureDiagram } from '@/components/projects/ArchitectureDiagram';
 import { Timeline } from '@/components/projects/Timeline';
+import { StatusBadge } from '@/components/projects/StatusBadge';
+import Link from 'next/link';
 
 export const metadata = {
   title: 'Projects — Sovereign Intelligence Stack',
@@ -11,30 +12,47 @@ export const metadata = {
 export default function ProjectsPage() {
   const architecture = getArchitecture();
   const layers = getLayers();
-  const projectCounts = getProjectCountByLayer();
   const allProjects = getAllProjects();
+
+  const productionCount = allProjects.filter((p) => p.status === 'production').length;
+  const activeCount = allProjects.filter((p) => p.status === 'active').length;
+  const experimentalCount = allProjects.filter((p) => p.status === 'experimental').length;
 
   return (
     <main className="min-h-screen">
-      {/* Hero Section */}
-      <section className="py-20 px-4 bg-surface">
+      <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto text-center">
-          <h1 className="font-display text-5xl md:text-6xl lg:text-7xl mb-6 tracking-tight">
+          <span className="mono text-orange text-xs mb-4 block">Sovereign Intelligence Stack</span>
+          <h1 className="font-display text-4xl md:text-5xl lg:text-6xl mb-6 tracking-tight">
             {architecture.title}
           </h1>
-          <p className="text-xl md:text-2xl text-ink-3 mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-ink-3 mb-6 max-w-3xl mx-auto leading-relaxed">
             {architecture.subtitle}
           </p>
-          <p className="text-lg text-ink-3/80 max-w-2xl mx-auto">
+          <p className="text-lg text-ink-3/80 max-w-2xl mx-auto mb-8">
             {architecture.narrative}
           </p>
+          <div className="flex flex-wrap justify-center gap-4">
+            <div className="flex items-center gap-3 px-5 py-3 border-4 border-ink bg-cream">
+              <StatusBadge status="production" />
+              <span className="text-2xl font-display">{productionCount}</span>
+            </div>
+            <div className="flex items-center gap-3 px-5 py-3 border-4 border-ink bg-cream">
+              <StatusBadge status="active" />
+              <span className="text-2xl font-display">{activeCount}</span>
+            </div>
+            <div className="flex items-center gap-3 px-5 py-3 border-4 border-ink bg-cream">
+              <StatusBadge status="experimental" />
+              <span className="text-2xl font-display">{experimentalCount}</span>
+            </div>
+          </div>
         </div>
       </section>
 
-      {/* Architecture Diagram */}
-      <section className="py-20 px-4">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="font-display text-3xl md:text-4xl mb-8 text-center">
+      <section className="py-16 px-4 bg-surface relative reveal">
+        <div className="absolute inset-0 dot-pattern opacity-15 pointer-events-none" />
+        <div className="max-w-6xl mx-auto relative">
+          <h2 className="font-display text-3xl md:text-4xl mb-4 text-center">
             The Architecture
           </h2>
           <p className="text-center text-ink-3 mb-12 max-w-2xl mx-auto">
@@ -44,23 +62,10 @@ export default function ProjectsPage() {
         </div>
       </section>
 
-      {/* Layer Grid */}
-      <section className="py-20 px-4 bg-surface">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="font-display text-3xl md:text-4xl mb-8 text-center">
-            Seven Layers
-          </h2>
-          <p className="text-center text-ink-3 mb-12 max-w-2xl mx-auto">
-            Each layer builds on the one below it, creating a complete sovereignty stack.
-          </p>
-          <LayerGrid layers={layers} projectCounts={projectCounts} />
-        </div>
-      </section>
-
-      {/* Timeline */}
-      <section className="py-20 px-4">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="font-display text-3xl md:text-4xl mb-8 text-center">
+      <section className="py-16 px-4 bg-surface relative reveal">
+        <div className="absolute inset-0 pointillism-layer opacity-15 pointer-events-none" />
+        <div className="max-w-4xl mx-auto relative">
+          <h2 className="font-display text-3xl md:text-4xl mb-4 text-center">
             Evolution
           </h2>
           <p className="text-center text-ink-3 mb-12 max-w-2xl mx-auto">
@@ -70,8 +75,7 @@ export default function ProjectsPage() {
         </div>
       </section>
 
-      {/* Call to Action */}
-      <section className="py-20 px-4 bg-surface">
+      <section className="py-16 px-4 reveal">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="font-display text-3xl md:text-4xl mb-6">
             The Work Is Open
@@ -88,12 +92,12 @@ export default function ProjectsPage() {
             >
               All Repositories on GitHub ↗
             </a>
-            <a
-              href="/blog"
+            <Link
+              href="/research"
               className="inline-flex items-center justify-center px-6 py-3 bg-cream text-ink font-bold border-4 border-ink hover:bg-surface transition-colors shadow-brutalist-sm"
             >
-              Read the Essays →
-            </a>
+              Read the Research →
+            </Link>
           </div>
         </div>
       </section>

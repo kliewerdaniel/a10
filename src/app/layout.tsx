@@ -5,6 +5,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { ClientExtras } from "@/components/layout/ClientExtras";
 import { Analytics } from "@/components/layout/Analytics";
+import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import "./globals.css";
 
 const archivoBlack = Archivo_Black({
@@ -82,6 +83,9 @@ export default function RootLayout({
         <link rel="icon" href="/logo.png" type="image/png" sizes="any" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
+        <noscript>
+          <style>{`.reveal { opacity: 1 !important; transform: none !important; }`}</style>
+        </noscript>
       </head>
       <body className="min-h-full flex flex-col bg-background text-foreground">
         <Navbar />
@@ -91,6 +95,7 @@ export default function RootLayout({
         <Footer />
         <ClientExtras />
         <Analytics />
+        <ScrollReveal />
       </body>
     </html>
   );

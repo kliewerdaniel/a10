@@ -52,7 +52,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-surface relative">
+      <section className="py-20 px-4 bg-surface relative reveal">
         <div className="absolute inset-0 pointillism-layer opacity-20 pointer-events-none" />
         <div className="max-w-4xl mx-auto relative">
           <h2 className="font-display text-3xl mb-8">The Investigation</h2>
@@ -73,7 +73,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="py-20 px-4">
+      <section className="py-20 px-4 reveal">
         <div className="max-w-4xl mx-auto">
           <h2 className="font-display text-3xl mb-8">Design Principles</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -87,7 +87,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-surface relative">
+      <section className="py-20 px-4 bg-surface relative reveal">
         <div className="absolute inset-0 dot-pattern opacity-15 pointer-events-none" />
         <div className="max-w-4xl mx-auto relative">
           <h2 className="font-display text-3xl mb-8">Timeline</h2>
@@ -106,7 +106,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="py-20 px-4">
+      <section className="py-20 px-4 reveal">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="font-display text-3xl mb-4">Open Source</h2>
           <p className="text-ink-3 mb-8 text-lg font-bold">Hundreds of repositories. Each one tests a specific architectural question.</p>
@@ -117,7 +117,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-surface">
+      <section className="py-20 px-4 bg-surface reveal">
         <div className="max-w-4xl mx-auto"><BookCTA /></div>
       </section>
     </>

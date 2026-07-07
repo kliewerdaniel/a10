@@ -91,7 +91,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
       </section>
 
       {/* Main Content */}
-      <section className="py-20 px-4">
+      <section className="py-20 px-4 reveal">
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Main Content */}
           <div className="lg:col-span-2 space-y-12">

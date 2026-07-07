@@ -84,7 +84,7 @@ export default async function LayerPage({ params }: LayerPageProps) {
       </section>
 
       {/* Projects List */}
-      <section className="py-20 px-4">
+      <section className="py-20 px-4 reveal">
         <div className="max-w-6xl mx-auto">
           <h2 className="font-display text-3xl md:text-4xl mb-8">
             {projects.length} Project{projects.length !== 1 ? 's' : ''} in {layer.name}

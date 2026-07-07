@@ -9,10 +9,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '',
     '/about',
     '/book',
+    '/research',
     '/blog',
     '/projects',
     '/press',
-    '/contact',
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = staticPages.map((page) => ({

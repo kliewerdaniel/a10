@@ -2,25 +2,40 @@ interface StatusBadgeProps {
   status: 'production' | 'active' | 'experimental' | 'archived';
 }
 
-export function StatusBadge({ status }: StatusBadgeProps) {
-  const colorMap: Record<string, string> = {
-    'production': 'bg-green text-green-dark',
-    'active': 'bg-pink text-pink-dark',
-    'experimental': 'bg-orange text-orange-dark',
-    'archived': 'bg-surface text-ink-3',
-  };
+const statusConfig: Record<string, { label: string; dotClass: string; borderClass: string; bgClass: string }> = {
+  'production': {
+    label: 'Production',
+    dotClass: 'bg-green',
+    borderClass: 'border-l-green',
+    bgClass: 'bg-green/10',
+  },
+  'active': {
+    label: 'Active',
+    dotClass: 'bg-pink',
+    borderClass: 'border-l-pink',
+    bgClass: 'bg-pink/10',
+  },
+  'experimental': {
+    label: 'Experimental',
+    dotClass: 'bg-orange',
+    borderClass: 'border-l-orange',
+    bgClass: 'bg-orange/10',
+  },
+  'archived': {
+    label: 'Archived',
+    dotClass: 'bg-ink-3',
+    borderClass: 'border-l-ink-3',
+    bgClass: 'bg-ink-3/10',
+  },
+};
 
-  const textColorMap: Record<string, string> = {
-    'production': 'text-green-dark',
-    'active': 'text-pink-dark',
-    'experimental': 'text-orange-dark',
-    'archived': 'text-ink-3',
-  };
+export function StatusBadge({ status }: StatusBadgeProps) {
+  const config = statusConfig[status];
 
   return (
-    <span className={`inline-flex items-center gap-1.5 px-2.5 py-1 text-xs font-bold border-2 border-ink ${colorMap[status]} ${textColorMap[status]}`}>
-      <div className="w-2 h-2 rounded-full bg-current" />
-      {status}
+    <span className={`inline-flex items-center gap-2 px-3 py-1.5 text-xs font-bold border-2 border-ink/15 border-l-4 ${config.borderClass} ${config.bgClass} text-ink`}>
+      <div className={`w-2 h-2 rounded-full ${config.dotClass}`} />
+      {config.label}
     </span>
   );
 }
