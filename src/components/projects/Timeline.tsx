@@ -1,5 +1,3 @@
-'use client';
-
 import { Project } from '@/lib/projects';
 import { StatusBadge } from './StatusBadge';
 import { TechTag } from './TechTag';
