@@ -249,7 +249,7 @@ button:focus-visible { outline: 4px solid #1F8A4C; outline-offset: 2px; }
 
 /* ========== SCROLL ANIMATIONS ========== */
 
-/* Scroll reveal — force visible immediately to avoid hiding content */
+/* Force reveal content visible by default on all viewports */
 .reveal {
   opacity: 1 !important;
   transform: none !important;
@@ -277,9 +277,9 @@ button:focus-visible { outline: 4px solid #1F8A4C; outline-offset: 2px; }
   .reveal.visible {
     animation: none;
   }
-  .reveal:not(.visible) {
-    opacity: 1;
-    transform: none;
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
   }
 }
 
