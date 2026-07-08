@@ -17,7 +17,7 @@ const personSchema = {
   '@context': 'https://schema.org',
   '@type': 'Person',
   name: 'Daniel Kliewer',
-  url: baseUrl,
+  url: `${baseUrl}/about`,
   image: `${baseUrl}/images/profile.jpeg`,
   jobTitle: 'AI Engineer & Researcher',
   description: 'Investigating architectures for computational sovereignty — local-first AI, cognitive memory systems, graph-based reasoning, and autonomous agents.',

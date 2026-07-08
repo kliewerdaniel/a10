@@ -52,6 +52,7 @@ const bookSchema = {
   numberOfPages: 72,
   image: `${baseUrl}/SovereignAI_300dpi.png`,
   url: `${baseUrl}/book`,
+  datePublished: '2026-06-26',
   description:
     'This book examines the architecture of intelligence that you own. From inference runtimes to memory systems to autonomous agents — each layer is designed, constructed, and understood by its operator.',
   inLanguage: 'en',

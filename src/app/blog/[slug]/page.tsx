@@ -58,12 +58,21 @@ export default async function BlogPostPage({ params }: Props) {
   const postUrl = `${baseUrl}/blog/${post.slug}`;
   const imageUrl = post.image.startsWith('http') ? post.image : `${baseUrl}${post.image}`;
 
+  function toIsoDate(dateStr: string): string {
+    if (!dateStr || typeof dateStr !== 'string') return '';
+    if (/^\d{4}-\d{2}-\d{2}/.test(dateStr)) return dateStr;
+    const match = dateStr.match(/^(\d{2})-(\d{2})-(\d{4})/);
+    if (match) return `${match[3]}-${match[1]}-${match[2]}`;
+    return dateStr;
+  }
+
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: post.title,
-    datePublished: post.date,
-    dateModified: post.lastmod,
+    description: post.description,
+    datePublished: toIsoDate(post.date),
+    dateModified: toIsoDate(post.lastmod),
     author: {
       '@type': 'Person',
       name: post.author,
@@ -71,7 +80,7 @@ export default async function BlogPostPage({ params }: Props) {
     },
     image: imageUrl,
     publisher: {
-      '@type': 'Person',
+      '@type': 'Organization',
       name: 'Daniel Kliewer',
       url: baseUrl,
     },
