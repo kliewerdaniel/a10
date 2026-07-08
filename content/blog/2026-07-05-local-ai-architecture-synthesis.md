@@ -1,6 +1,6 @@
 ---
 author: Daniel Kliewer
-canonical_url: /blog/local-ai-architecture-synthesis
+canonical_url: /blog/sovereign-ai-architecture-synthesis
 date: 07-05-2026
 description: "Your practical guide to running AI on your own hardware. Ollama setup, model selection, hardware requirements from $2K to $50K, and wiring local inference into a sovereign pipeline."
 image: /images/ComfyUI_00207_.png
@@ -37,7 +37,7 @@ draft: false
 
 ## Executive Summary
 
-This post is your practical guide to running AI on your own hardware. It covers Ollama setup, model selection, hardware requirements, and how to wire local inference into a sovereign pipeline.
+This post is about the physical infrastructure layer that sovereign AI runs on — not the architecture itself, but the hardware and inference stack you need to own it. If the [Sovereign AI Architecture pillar](/blog/2026-07-05-sovereign-ai-architecture-synthesis) describes what a compounding intelligence system does, this post covers how to build the machine that runs it: Ollama for local inference, model selection tradeoffs, hardware requirements from a $2K consumer rig to a $50K multi-GPU workstation, and how to wire local inference into the sovereign pipeline so your data never leaves your possession.
 
 **What you'll learn:**
 - Why local AI matters (sovereignty, privacy, cost, performance)

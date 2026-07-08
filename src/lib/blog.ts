@@ -25,6 +25,7 @@ export interface BlogPost {
   bookReference: boolean;
   featured: boolean;
   category: string;
+  canonicalUrl: string | null;
 
   readingTime: string;
   content: string;
@@ -61,6 +62,7 @@ function parsePost(filename: string): BlogPost {
     bookReference: data.book_reference || false,
     featured: data.featured || false,
     category: data.category || assignCategory(title, description, slug, tags),
+    canonicalUrl: data.canonical_url || null,
     readingTime: stats.text.replace('min read', 'min'),
     content,
   };

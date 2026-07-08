@@ -1,6 +1,6 @@
 ---
 author: Daniel Kliewer
-canonical_url: /blog/getting-started-sovereign-ai
+canonical_url: /blog/sovereign-ai-architecture-synthesis
 date: 07-05-2026
 description: "Beginner on-ramp to sovereign AI. Defines key terms — recipe compilation, signal routing, autonomous evaluation — and walks you through your first recipe capture in five steps."
 image: /images/ComfyUI_00201_.png
@@ -36,7 +36,7 @@ draft: false
 
 ## Executive Summary
 
-This post is your on-ramp to sovereign AI. It defines key terms, shows a simple example of recipe compilation, and walks you through your first capture in five steps.
+This post is the zero-to-one on-ramp: it defines the three core concepts of sovereign AI (recipe compilation, signal routing, autonomous evaluation) in plain language, then walks you through capturing your first recipe in five steps using the Sovereign Intelligence Stack. If the [Sovereign AI Architecture pillar](/blog/2026-07-05-sovereign-ai-architecture-synthesis) is the full five-layer reference, this is the page you read first — no prerequisites, no code dumps, just the mental model you need before you start building.
 
 **What you'll learn:**
 - What sovereign AI is (and isn't)

@@ -1,6 +1,6 @@
 ---
 author: Daniel Kliewer
-canonical_url: /blog/retrieval-architecture-synthesis
+canonical_url: /blog/sovereign-ai-architecture-synthesis
 date: 07-05-2026
 description: "Memory systems and retrieval architecture for sovereign AI. Sovereign Memory Bank, Dynamic Persona MoE RAG, Objective05, and GraphRAG — the subsystems that make retrieval compound over time."
 image: /images/ComfyUI_00205_.png
@@ -39,7 +39,7 @@ draft: false
 
 ## Executive Summary
 
-This post focuses on the memory and retrieval layer of sovereign AI. It covers the four subsystems that make retrieval compound over time: Sovereign Memory Bank, Dynamic Persona MoE RAG, Objective05, and SovereignSpec.
+This post isolates the memory and retrieval subsystems that make sovereign AI compound — the four pillars (Sovereign Memory Bank, Dynamic Persona MoE RAG, Objective05, and SovereignSpec) that sit beneath the [Sovereign Intelligence Stack](/blog/2026-07-05-sovereign-ai-architecture-synthesis) and turn flat, stateless RAG into a system where every retrieval improves the next. If the architecture pillar describes the full five-layer loop, this post goes deep on Layer 4 (Knowledge Systems) and the retrieval patterns that make it work: hierarchical memory promotion, persona-driven mixture-of-experts retrieval, Rust-backed persistent storage, and spec-driven GraphRAG.
 
 **What you'll learn:**
 - Why current RAG systems fail (fragmentation, statelessness, lack of compounding)
