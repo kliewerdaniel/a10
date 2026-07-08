@@ -1,0 +1,8 @@
+# Legacy blog URL redirects
+# Old format: /2024/11/04/deep-fake
+# New format: /blog/2024-11-04-deep-fake
+
+/2024/: /blog/:splat
+/2024/*: /blog/:splat
+
+/20[0-9][0-9]/[0-9][0-9]/[0-9][0-9]/*: /blog/:splat
