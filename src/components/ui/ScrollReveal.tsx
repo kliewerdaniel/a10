@@ -13,12 +13,21 @@ export function ScrollReveal() {
           }
         });
       },
-      { threshold: 0.1, rootMargin: '0px 0px -50px 0px' }
+      { threshold: 0.1, rootMargin: '0px 0px -10px 0px' }
     );
+
+    function isElementInViewport(el: Element) {
+      const rect = el.getBoundingClientRect();
+      return rect.top < window.innerHeight && rect.bottom > 0;
+    }
 
     function observeElements() {
       document.querySelectorAll('.reveal:not(.visible)').forEach((el) => {
-        observer.observe(el);
+        if (isElementInViewport(el)) {
+          el.classList.add('visible');
+        } else {
+          observer.observe(el);
+        }
       });
     }
 
