@@ -19,9 +19,9 @@ function generateRedirects() {
   ];
   
   try {
-    const files = fs.readdirSync(contentDirectory).filter(f => f.endsWith('.md') || f.endsWith('.mdx'));
+    const files = fs.readdirSync(contentDirectory).filter((f: string) => f.endsWith('.md') || f.endsWith('.mdx'));
     
-    files.forEach(filename => {
+    files.forEach((filename: string) => {
       const slug = filename.replace(/\.(md|mdx)$/, '');
       const dateMatch = slug.match(/^(\d{4})-(\d{2})-(\d{2})-(.+)/);
       
