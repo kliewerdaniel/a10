@@ -6,8 +6,11 @@ import { Breadcrumbs } from '@/components/seo/Breadcrumbs';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Projects — Sovereign Intelligence Stack',
-  description: 'One evolving architecture. Seven layers. Eighty repositories testing one hypothesis: intelligence can be locally owned.',
+  title: {
+    default: 'Sovereign Intelligence Stack Projects',
+    template: '%s',
+  },
+  description: 'Explore the sovereign AI architecture — 80 repositories across 7 layers testing how intelligence can be locally owned. Research embedded in the code.',
 };
 
 export default function ProjectsPage() {

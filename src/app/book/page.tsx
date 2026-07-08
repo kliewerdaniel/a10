@@ -7,8 +7,11 @@ import { Breadcrumbs } from '@/components/seo/Breadcrumbs';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'The Book',
-  description: 'Sovereign AI: An Architectural Investigation into Local-First Intelligence — 72 pages from first principles to production deployment.',
+  title: {
+    default: 'Sovereign AI: Local-First Intelligence Architecture',
+    template: '%s',
+  },
+  description: 'The Sovereign AI book examines local-first intelligence architecture — design principles, inference runtimes, memory systems, and autonomous agents for owner-built AI.',
 };
 
 const chapters = [

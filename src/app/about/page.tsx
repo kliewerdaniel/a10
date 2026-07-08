@@ -4,8 +4,11 @@ import { JsonLd } from '@/components/seo/JsonLd';
 import { Breadcrumbs } from '@/components/seo/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'About Daniel Kliewer',
-  description: 'Daniel Kliewer investigates architectures for computational sovereignty — local-first AI, cognitive memory systems, graph-based reasoning, and autonomous agents.',
+  title: {
+    default: 'About Daniel Kliewer — AI Engineer & Researcher',
+    template: '%s',
+  },
+  description: 'Daniel Kliewer builds sovereign AI systems — local-first architectures, cognitive memory, graph reasoning, and autonomous agents. Researcher, engineer, author of Sovereign AI.',
 };
 
 const baseUrl = 'https://www.danielkliewer.com';
