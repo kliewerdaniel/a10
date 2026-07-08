@@ -13,17 +13,23 @@ export function ScrollReveal() {
           }
         });
       },
-      { threshold: 0.1, rootMargin: '0px 0px -10px 0px' }
+      { threshold: 0.05, rootMargin: '0px 0px 100px 0px' }
     );
 
-    function isElementInViewport(el: Element) {
-      const rect = el.getBoundingClientRect();
-      return rect.top < window.innerHeight && rect.bottom > 0;
+    function checkVisibility() {
+      document.querySelectorAll('.reveal:not(.visible)').forEach((el) => {
+        const rect = el.getBoundingClientRect();
+        if (rect.top < window.innerHeight + 100 && rect.bottom > 0) {
+          el.classList.add('visible');
+          observer.unobserve(el);
+        }
+      });
     }
 
     function observeElements() {
       document.querySelectorAll('.reveal:not(.visible)').forEach((el) => {
-        if (isElementInViewport(el)) {
+        const rect = el.getBoundingClientRect();
+        if (rect.top < window.innerHeight + 100 && rect.bottom > 0) {
           el.classList.add('visible');
         } else {
           observer.observe(el);
@@ -32,6 +38,14 @@ export function ScrollReveal() {
     }
 
     observeElements();
+
+    let scrollTimer: ReturnType<typeof setTimeout>;
+    const onScroll = () => {
+      clearTimeout(scrollTimer);
+      scrollTimer = setTimeout(checkVisibility, 10);
+      checkVisibility();
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
 
     const mutationObserver = new MutationObserver(() => {
       observeElements();
@@ -42,6 +56,8 @@ export function ScrollReveal() {
     return () => {
       observer.disconnect();
       mutationObserver.disconnect();
+      window.removeEventListener('scroll', onScroll);
+      clearTimeout(scrollTimer);
     };
   }, []);
 
