@@ -5,7 +5,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { ClientExtras } from "@/components/layout/ClientExtras";
 import { Analytics } from "@/components/layout/Analytics";
-import { ScrollReveal } from "@/components/ui/ScrollReveal";
+import ScrollReveal from "@/components/ui/ScrollReveal";
 import "./globals.css";
 
 const archivoBlack = Archivo_Black({
