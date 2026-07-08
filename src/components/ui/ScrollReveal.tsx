@@ -7,7 +7,7 @@ export function ScrollReveal() {
     const interval = setInterval(() => {
       document.querySelectorAll('.reveal:not(.visible)').forEach((el) => {
         const rect = el.getBoundingClientRect();
-        if (rect.top < window.innerHeight && rect.bottom > 0) {
+        if (rect.top < window.innerHeight) {
           el.classList.add('visible');
         }
       });
