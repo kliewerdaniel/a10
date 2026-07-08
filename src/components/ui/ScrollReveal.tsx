@@ -4,27 +4,28 @@ import { useEffect } from 'react';
 
 export function ScrollReveal() {
   useEffect(() => {
-    function reveal() {
-      document.querySelectorAll('.reveal:not(.visible)').forEach((el) => {
-        const rect = el.getBoundingClientRect();
-        if (rect.top < window.innerHeight) {
-          el.classList.add('visible');
-        }
-      });
-    }
+    const nodes = Array.from(document.querySelectorAll('.reveal:not(.visible)'));
 
-    reveal();
+    if (!nodes.length) return;
 
-    window.addEventListener('scroll', reveal, { passive: true });
-    window.addEventListener('resize', reveal, { passive: true });
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      {
+        rootMargin: '200px 0px 200px 0px',
+        threshold: 0.01,
+      }
+    );
 
-    const interval = setInterval(reveal, 300);
+    nodes.forEach((node) => observer.observe(node));
 
-    return () => {
-      window.removeEventListener('scroll', reveal);
-      window.removeEventListener('resize', reveal);
-      clearInterval(interval);
-    };
+    return () => observer.disconnect();
   }, []);
 
   return null;
