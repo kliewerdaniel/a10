@@ -5,10 +5,10 @@ import { Breadcrumbs } from '@/components/seo/Breadcrumbs';
 
 export const metadata: Metadata = {
   title: {
-    default: 'About Daniel Kliewer — AI Engineer & Researcher',
+    default: 'About Daniel Kliewer | Sovereign AI',
     template: '%s',
   },
-  description: 'Daniel Kliewer builds sovereign AI systems — local-first architectures, cognitive memory, graph reasoning, and autonomous agents. Researcher, engineer, author of Sovereign AI.',
+  description: 'Computer scientist and AI researcher exploring sovereign architectures — cognitive memory systems, graph reasoning, autonomous agents, and the engineering of AI you actually own. Austin-based author of "Sovereign AI" and the Sovereign Intelligence Stack.',
 };
 
 const baseUrl = 'https://www.danielkliewer.com';
