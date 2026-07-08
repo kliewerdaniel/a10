@@ -1,64 +1,24 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 
 export function ScrollReveal() {
+  const revealed = useRef(new Set<Element>());
+
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-            observer.unobserve(entry.target);
+    const interval = setInterval(() => {
+      document.querySelectorAll('.reveal:not(.visible)').forEach((el) => {
+        if (!revealed.current.has(el)) {
+          const rect = el.getBoundingClientRect();
+          if (rect.top < window.innerHeight && rect.bottom > 0) {
+            el.classList.add('visible');
+            revealed.current.add(el);
           }
-        });
-      },
-      { threshold: 0.05, rootMargin: '0px 0px 100px 0px' }
-    );
-
-    function checkVisibility() {
-      document.querySelectorAll('.reveal:not(.visible)').forEach((el) => {
-        const rect = el.getBoundingClientRect();
-        if (rect.top < window.innerHeight + 100 && rect.bottom > 0) {
-          el.classList.add('visible');
-          observer.unobserve(el);
         }
       });
-    }
+    }, 150);
 
-    function observeElements() {
-      document.querySelectorAll('.reveal:not(.visible)').forEach((el) => {
-        const rect = el.getBoundingClientRect();
-        if (rect.top < window.innerHeight + 100 && rect.bottom > 0) {
-          el.classList.add('visible');
-        } else {
-          observer.observe(el);
-        }
-      });
-    }
-
-    observeElements();
-
-    let scrollTimer: ReturnType<typeof setTimeout>;
-    const onScroll = () => {
-      clearTimeout(scrollTimer);
-      scrollTimer = setTimeout(checkVisibility, 10);
-      checkVisibility();
-    };
-    window.addEventListener('scroll', onScroll, { passive: true });
-
-    const mutationObserver = new MutationObserver(() => {
-      observeElements();
-    });
-
-    mutationObserver.observe(document.body, { childList: true, subtree: true });
-
-    return () => {
-      observer.disconnect();
-      mutationObserver.disconnect();
-      window.removeEventListener('scroll', onScroll);
-      clearTimeout(scrollTimer);
-    };
+    return () => clearInterval(interval);
   }, []);
 
   return null;

@@ -254,6 +254,12 @@ button:focus-visible { outline: 4px solid #1F8A4C; outline-offset: 2px; }
   opacity: 0;
   transform: translateY(24px);
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  /* CSS-only fallback: fade in after 4s if JS doesn't add .visible */
+  animation: revealFallback 0.01ms 4s forwards;
+}
+
+@keyframes revealFallback {
+  to { opacity: 1; transform: translateY(0); }
 }
 
 .reveal.visible {
@@ -266,6 +272,7 @@ button:focus-visible { outline: 4px solid #1F8A4C; outline-offset: 2px; }
     opacity: 1;
     transform: none;
     transition: none;
+    animation: none;
   }
 }
 
