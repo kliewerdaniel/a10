@@ -59,7 +59,7 @@ export default function ProjectsPage() {
         </div>
       </section>
 
-      <section className="py-16 px-4 bg-surface relative">
+      <section className="py-16 px-4 bg-surface relative reveal">
         <div className="absolute inset-0 dot-pattern opacity-15 pointer-events-none" />
         <div className="max-w-6xl mx-auto relative">
           <h2 className="font-display text-3xl md:text-4xl mb-4 text-center">
@@ -72,7 +72,7 @@ export default function ProjectsPage() {
         </div>
       </section>
 
-      <section className="py-16 px-4 bg-surface relative">
+      <section className="py-16 px-4 bg-surface relative reveal">
         <div className="absolute inset-0 pointillism-layer opacity-15 pointer-events-none" />
         <div className="max-w-4xl mx-auto relative">
           <h2 className="font-display text-3xl md:text-4xl mb-4 text-center">
@@ -85,7 +85,7 @@ export default function ProjectsPage() {
         </div>
       </section>
 
-      <section className="py-16 px-4">
+      <section className="py-16 px-4 reveal">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="font-display text-3xl md:text-4xl mb-6">
             The Work Is Open
