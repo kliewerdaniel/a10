@@ -250,10 +250,6 @@ button:focus-visible { outline: 4px solid #1F8A4C; outline-offset: 2px; }
 /* ========== SCROLL ANIMATIONS ========== */
 
 /* Scroll reveal — animated when .visible class is added */
-.reveal {
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-}
-
 .reveal:not(.visible) {
   opacity: 0;
   transform: translateY(24px);
@@ -262,14 +258,27 @@ button:focus-visible { outline: 4px solid #1F8A4C; outline-offset: 2px; }
 .reveal.visible {
   opacity: 1;
   transform: translateY(0);
+  animation: revealFadeIn 0.6s ease-out forwards;
+}
+
+@keyframes revealFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .reveal,
+  .reveal.visible {
+    animation: none;
+  }
   .reveal:not(.visible) {
     opacity: 1;
     transform: none;
-    transition: none;
   }
 }
 
