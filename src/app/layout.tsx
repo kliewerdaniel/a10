@@ -4,6 +4,7 @@ import Script from "next/script";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { ClientExtras } from "@/components/layout/ClientExtras";
+import { GoogleAnalytics } from "@/components/layout/GoogleAnalytics";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import "./globals.css";
 
@@ -95,21 +96,8 @@ export default function RootLayout({
         </main>
         <Footer />
         <ClientExtras />
+        <GoogleAnalytics />
         <ScrollReveal />
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-02N9FT7XP5" strategy="afterInteractive" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              window.gtag = gtag;
-              gtag('js', new Date());
-              gtag('config', 'G-02N9FT7XP5', {
-                page_path: window.location.pathname,
-              });
-            `,
-          }}
-        />
       </body>
     </html>
   );
