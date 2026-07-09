@@ -66,7 +66,7 @@ export default function RootLayout({
       <head>
         <Script id="iubenda-config" strategy="beforeInteractive">
           {`var _iub = _iub || [];
-          _iub.csConfiguration = {"siteId":4597774,"cookiePolicyId":43314476,"lang":"en","storage":{"useSiteId":true}};`}
+          _iub.csConfiguration = {"siteId":4597774,"cookiePolicyId":43314476,"lang":"en","storage":{"useSiteId":true},"autoblocking":false};`}
         </Script>
         <Script src="https://cdn.iubenda.com/iubenda.js" strategy="beforeInteractive" />
 
