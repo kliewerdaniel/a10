@@ -4,7 +4,6 @@ import Script from "next/script";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { ClientExtras } from "@/components/layout/ClientExtras";
-import { Analytics } from "@/components/layout/Analytics";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import "./globals.css";
 
@@ -96,7 +95,6 @@ export default function RootLayout({
         </main>
         <Footer />
         <ClientExtras />
-        <Analytics />
         <ScrollReveal />
       </body>
     </html>
