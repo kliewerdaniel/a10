@@ -5,6 +5,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { ClientExtras } from "@/components/layout/ClientExtras";
 import ScrollReveal from "@/components/ui/ScrollReveal";
+import { ConsentProvider, ConsentBanner, ScriptGater } from "@/components/consent";
 import "./globals.css";
 
 const archivoBlack = Archivo_Black({
@@ -64,13 +65,6 @@ export default function RootLayout({
   return (
     <html lang="en" data-scroll-behavior="smooth" className={`${archivoBlack.variable} ${spaceGrotesk.variable} ${jetbrainsMono.variable} antialiased`} suppressHydrationWarning>
       <head>
-        <Script id="iubenda-config" strategy="beforeInteractive">
-          {`var _iub = _iub || [];
-          _iub.csConfiguration = {"siteId":4597774,"cookiePolicyId":43314476,"lang":"en","storage":{"useSiteId":true},"autoblocking":false};`}
-        </Script>
-        <Script src="https://cdn.iubenda.com/iubenda.js" strategy="beforeInteractive" />
-
-        <Script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5368889366103187" crossOrigin="anonymous" strategy="afterInteractive" />
         <Script id="theme-detection" strategy="beforeInteractive">
           {`(function() {
             var t = localStorage.getItem('theme');
@@ -87,13 +81,17 @@ export default function RootLayout({
         </noscript>
       </head>
       <body className="min-h-full flex flex-col bg-background text-foreground">
-        <Navbar />
-        <main className="flex-1 pt-20">
-          {children}
-        </main>
-        <Footer />
-        <ClientExtras />
-        <ScrollReveal />
+        <ConsentProvider>
+          <ConsentBanner />
+          <ScriptGater />
+          <Navbar />
+          <main className="flex-1 pt-20">
+            {children}
+          </main>
+          <Footer />
+          <ClientExtras />
+          <ScrollReveal />
+        </ConsentProvider>
       </body>
     </html>
   );
