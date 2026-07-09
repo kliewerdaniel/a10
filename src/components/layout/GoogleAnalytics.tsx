@@ -17,8 +17,8 @@ function initGtag() {
   document.head.appendChild(script);
 
   script.onload = () => {
-    window.gtag('js', new Date());
-    window.gtag('config', GA_MEASUREMENT_ID, {
+    window.gtag!('js', new Date());
+    window.gtag!('config', GA_MEASUREMENT_ID, {
       page_path: window.location.pathname,
     });
   };
