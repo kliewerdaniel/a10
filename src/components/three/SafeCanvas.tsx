@@ -43,11 +43,18 @@ function checkWebGL(): boolean {
   }
 }
 
+function isMobileDevice(): boolean {
+  if (typeof window === 'undefined') return false;
+  const userAgent = navigator.userAgent || navigator.vendor || '';
+  return /android|iphone|ipad|ipod|webos|blackberry|opera mini|iemobile|wpdesktop/i.test(userAgent) ||
+    (window.innerWidth <= 768 && 'ontouchstart' in window);
+}
+
 export function SafeCanvas({ fallback, children, ...props }: { fallback?: ReactNode } & React.ComponentProps<typeof Canvas>) {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(checkWebGL());
+    setMounted(checkWebGL() && !isMobileDevice());
   }, []);
 
   if (!mounted) {
