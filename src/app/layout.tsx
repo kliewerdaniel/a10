@@ -71,18 +71,7 @@ export default function RootLayout({
         <Script src="https://cs.iubenda.com/autoblocking/4597774.js" strategy="beforeInteractive" />
         <Script src="//cdn.iubenda.com/cs/gpp/stub.js" strategy="beforeInteractive" />
         <Script src="//cdn.iubenda.com/cs/iubenda_cs.js" strategy="beforeInteractive" />
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-02N9FT7XP5" strategy="afterInteractive" />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            window.gtag = gtag;
-            gtag('js', new Date());
-            gtag('config', 'G-02N9FT7XP5', {
-              page_path: window.location.pathname,
-            });
-          `}
-        </Script>
+
         <Script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5368889366103187" crossOrigin="anonymous" strategy="afterInteractive" />
         <Script id="theme-detection" strategy="beforeInteractive">
           {`(function() {
@@ -107,6 +96,18 @@ export default function RootLayout({
         <Footer />
         <ClientExtras />
         <ScrollReveal />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-02N9FT7XP5" strategy="afterInteractive" />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            window.gtag = gtag;
+            gtag('js', new Date());
+            gtag('config', 'G-02N9FT7XP5', {
+              page_path: window.location.pathname,
+            });
+          `}
+        </Script>
       </body>
     </html>
   );
