@@ -35,7 +35,7 @@ export default async function ResearchPage() {
   }));
 
   return (
-    <main className="min-h-screen">
+    <div className="min-h-screen">
       {/* Hero */}
       <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto text-center">
@@ -116,6 +116,6 @@ export default async function ResearchPage() {
           <ResearchArchive posts={litePosts} />
         </div>
       </section>
-    </main>
+    </div>
   );
 }

@@ -38,7 +38,7 @@ export default async function LayerPage({ params }: LayerPageProps) {
   
   if (!layer) {
     return (
-      <main className="min-h-screen flex items-center justify-center">
+      <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
           <h1 className="font-display text-4xl mb-4">Layer Not Found</h1>
           <p className="text-ink-3 mb-8">The requested layer does not exist.</p>
@@ -46,7 +46,7 @@ export default async function LayerPage({ params }: LayerPageProps) {
             ← Back to Projects
           </Link>
         </div>
-      </main>
+      </div>
     );
   }
 
@@ -54,7 +54,7 @@ export default async function LayerPage({ params }: LayerPageProps) {
   const projectCounts = getProjectCountByLayer();
 
   return (
-    <main className="min-h-screen">
+    <div className="min-h-screen">
       {/* Layer Header */}
       <section className="py-20 px-4 bg-surface">
         <div className="max-w-4xl mx-auto">
@@ -140,6 +140,6 @@ export default async function LayerPage({ params }: LayerPageProps) {
           </div>
         </div>
       </section>
-    </main>
+    </div>
   );
 }

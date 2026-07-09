@@ -27,7 +27,7 @@ export default function ProjectsPage() {
   const years = Object.keys(byYear).sort().reverse();
 
   return (
-    <main className="min-h-screen">
+    <div className="min-h-screen">
       <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl mb-6 tracking-tight">
@@ -103,6 +103,6 @@ export default function ProjectsPage() {
           </div>
         </div>
       </section>
-    </main>
+    </div>
   );
 }

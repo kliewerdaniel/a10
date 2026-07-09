@@ -44,7 +44,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
   
   if (!project) {
     return (
-      <main className="min-h-screen flex items-center justify-center">
+      <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
           <h1 className="font-display text-4xl mb-4">Project Not Found</h1>
           <p className="text-ink-3 mb-8">The requested project does not exist.</p>
@@ -52,7 +52,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             ← Back to Projects
           </Link>
         </div>
-      </main>
+      </div>
     );
   }
 
@@ -60,7 +60,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
   const layer = getLayerBySlug(project.layer);
 
   return (
-    <main className="min-h-screen">
+    <div className="min-h-screen">
       {/* Breadcrumb */}
       <section className="py-8 px-4 bg-surface">
         <div className="max-w-6xl mx-auto">
@@ -206,6 +206,6 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           </div>
         </div>
       </section>
-    </main>
+    </div>
   );
 }

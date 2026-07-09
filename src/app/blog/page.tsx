@@ -25,7 +25,7 @@ export default function BlogIndex() {
   }));
 
   return (
-    <main className="min-h-screen">
+    <div className="min-h-screen">
       <section className="py-20 px-4 bg-surface relative">
         <div className="absolute inset-0 pointillism-layer opacity-20 pointer-events-none" />
         <div className="max-w-6xl mx-auto relative">
@@ -122,6 +122,6 @@ export default function BlogIndex() {
           )}
         </div>
       </section>
-    </main>
+    </div>
   );
 }

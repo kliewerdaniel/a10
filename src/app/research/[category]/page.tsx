@@ -31,7 +31,7 @@ export default async function ResearchCategoryPage({ params }: Props) {
   const posts = getPostsByCategory(slug);
 
   return (
-    <main className="min-h-screen">
+    <div className="min-h-screen">
       <section className="py-20 px-4">
         <div className="max-w-4xl mx-auto">
           <Breadcrumbs
@@ -75,6 +75,6 @@ export default async function ResearchCategoryPage({ params }: Props) {
           )}
         </div>
       </section>
-    </main>
+    </div>
   );
 }
