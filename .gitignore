@@ -36,6 +36,11 @@ yarn-error.log*
 # vercel
 .vercel
 
+# tie output
+/tie/data/
+/tie/*.egg-info/
+__pycache__/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

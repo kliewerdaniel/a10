@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Website Behavior Graph</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: system-ui, sans-serif; background: #0a0a0a; color: #e0e0e0; }
+#header { padding: 16px 24px; border-bottom: 1px solid #1a1a2e; display: flex; align-items: center; gap: 16px; }
+#header h1 { font-size: 18px; font-weight: 600; color: #fff; }
+#header span { font-size: 13px; color: #888; }
+#mynetwork { width: 100%; height: calc(100vh - 57px); }
+.legend { display: flex; gap: 16px; margin-left: auto; font-size: 12px; }
+.legend-item { display: flex; align-items: center; gap: 6px; }
+.legend-dot { width: 10px; height: 10px; border-radius: 50%; }
+</style>
+</head>
+<body>
+<div id="header">
+  <h1>Telemetry Intelligence Engine</h1>
+  <span>Behavioral Knowledge Graph</span>
+  <div class="legend">
+    <div class="legend-item"><div class="legend-dot" style="background:#4fc3f7"></div>Content</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#ffb74d"></div>Session</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#81c784"></div>Topic</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#ce93d8"></div>Source</div>
+  </div>
+</div>
+<div id="mynetwork"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.6/vis-network.min.js"></script>
+<script>
+const data = __GRAPH_DATA__;
+const nodes = new vis.DataSet(data.nodes.map(n => ({
+  id: n.id, label: n.label, title: n.title || n.label,
+  color: { background: n.color || '#4fc3f7', border: '#fff', highlight: { background: n.color || '#4fc3f7', border: '#fff' } },
+  shape: 'dot', size: n.size || 12, font: { color: '#e0e0e0', size: 11 }
+})));
+const edges = new vis.DataSet(data.edges.map(e => ({
+  from: e.from, to: e.to,
+  label: e.label || '', arrows: 'to',
+  color: { color: '#555', highlight: '#888', opacity: 0.5 },
+  font: { color: '#888', size: 9, strokeWidth: 0 },
+  width: e.weight || 1
+})));
+const container = document.getElementById('mynetwork');
+new vis.Network(container, { nodes, edges }, {
+  physics: { solver: 'forceAtlas2Based', forceAtlas2Based: { gravitationalConstant: -40, centralGravity: 0.005 } },
+  interaction: { hover: true, tooltipDelay: 100 },
+  edges: { smooth: { type: 'continuous' } }
+});
+</script>
+</body>
+</html>

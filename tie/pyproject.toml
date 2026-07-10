@@ -1,0 +1,28 @@
+[project]
+name = "tie"
+version = "0.1.0"
+description = "Telemetry Intelligence Engine — local-first GraphRAG for website analytics"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx",
+    "pydantic>=2.0",
+    "networkx>=3.2",
+    "click",
+    "rich",
+    "python-dotenv",
+    "pyyaml",
+]
+
+[project.scripts]
+tie = "tie.cli:cli"
+
+[tool.setuptools.packages.find]
+include = ["tie*"]
+
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
