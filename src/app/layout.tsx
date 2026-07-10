@@ -6,7 +6,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { ClientExtras } from "@/components/layout/ClientExtras";
 import ScrollReveal from "@/components/ui/ScrollReveal";
-import { ConsentProvider, ConsentBanner, ScriptGater } from "@/components/consent";
+import { ConsentProvider, ConsentBanner, ScriptGater, PosthogAnalytics } from "@/components/consent";
 import "./globals.css";
 
 const archivoBlack = Archivo_Black({
@@ -86,6 +86,7 @@ export default function RootLayout({
         <ConsentProvider>
           <ConsentBanner />
           <ScriptGater />
+          <PosthogAnalytics />
           <Navbar />
           <main className="flex-1 pt-20">
             {children}

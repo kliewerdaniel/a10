@@ -25,19 +25,29 @@ export default function PrivacyPage() {
             <p>
               This site uses Vercel Analytics to measure basic traffic and performance.
               Vercel Analytics is privacy-first — it does not use cookies, does not track
-              users across sites, and collects only anonymized, aggregated data. No personal
-              data is collected. There are no advertising cookies and no user accounts.
-              The contact form is not connected to a database — messages are sent via email
-              and not stored.
+              users across sites, and collects only anonymized, aggregated data.
+            </p>
+            <p className="mt-3">
+              If you consent to analytics, PostHog is loaded to collect richer behavioral
+              data — page views, clicks, session duration, and scroll depth. PostHog is
+              self-hosted or privacy-compliant cloud-hosted. No data is shared with third
+              parties. You can opt out at any time via the cookie banner.
+            </p>
+            <p className="mt-3">
+              No personal data is collected. There are no advertising cookies and no user
+              accounts. The contact form is not connected to a database — messages are sent
+              via email and not stored.
             </p>
           </div>
 
           <div>
             <h2 className="font-display text-xl mb-3">Cookies</h2>
             <p>
-              This site uses no cookies. If you consent to marketing, Google AdSense may set cookies
-              for personalized ads. You can change your preferences at any time via the cookie banner.
-              Google&apos;s ads.txt is also served for ads.txt verification purposes.
+              This site uses no essential cookies. If you consent to analytics, PostHog may
+              set a cookie to recognize returning visitors. If you consent to marketing,
+              Google AdSense may set cookies for personalized ads. You can change your
+              preferences at any time via the cookie banner. Google&apos;s ads.txt is also
+              served for ads.txt verification purposes.
             </p>
           </div>
 
