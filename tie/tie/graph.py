@@ -27,11 +27,49 @@ COLORS = {
 }
 
 
+def aggregate_metrics(normalized_path: str) -> dict:
+    events = json.loads(Path(normalized_path).read_text())
+    metrics: dict[str, dict] = {}
+
+    for ev in events:
+        page = ev.get("page_path", "")
+        if not page:
+            continue
+        if page not in metrics:
+            metrics[page] = {
+                "views": 0, "total_engagement": 0.0, "max_scroll": 0.0,
+                "sessions": set(), "sources": set(), "devices": set(),
+                "countries": set(),
+            }
+        m = metrics[page]
+        m["views"] += 1
+        m["total_engagement"] += ev.get("engagement_time", 0) or 0
+        m["max_scroll"] = max(m["max_scroll"], ev.get("scroll_depth", 0) or 0)
+        if ev.get("session_id"):
+            m["sessions"].add(ev["session_id"])
+        if ev.get("traffic_source"):
+            m["sources"].add(ev["traffic_source"])
+        if ev.get("device_category"):
+            m["devices"].add(ev["device_category"])
+        if ev.get("user_country"):
+            m["countries"].add(ev["user_country"])
+
+    for m in metrics.values():
+        m["sessions"] = len(m["sessions"])
+        m["sources"] = list(m["sources"])
+        m["devices"] = list(m["devices"])
+        m["countries"] = list(m["countries"])
+        m["avg_engagement"] = round(m["total_engagement"] / m["views"], 1) if m["views"] else 0.0
+
+    return metrics
+
+
 def build_graph(
     normalized_path: str | None = None,
     content_path: str | None = None,
 ) -> nx.Graph:
     G = nx.Graph()
+    page_metrics = aggregate_metrics(normalized_path) if normalized_path else {}
 
     if content_path:
         entities = json.loads(Path(content_path).read_text())
@@ -84,6 +122,7 @@ def build_graph(
             page = ev.get("page_path", "")
             if page:
                 page_id = f"page:{page}"
+                m = page_metrics.get(page, {})
                 G.add_node(
                     page_id,
                     label=page.split("/")[-1] or "/",
@@ -91,6 +130,12 @@ def build_graph(
                     node_type="page",
                     color=COLORS["page"],
                     size=12,
+                    views=m.get("views", 0),
+                    avg_engagement=m.get("avg_engagement", 0),
+                    max_scroll=m.get("max_scroll", 0),
+                    unique_sessions=m.get("sessions", 0),
+                    sources=m.get("sources", []),
+                    devices=m.get("devices", []),
                 )
                 G.add_edge(f"session:{sid}", page_id,
                            label="viewed", weight=1)
@@ -101,14 +146,21 @@ def build_graph(
 def export_graph_json(G: nx.Graph) -> dict:
     node_data = []
     for nid, attrs in G.nodes(data=True):
-        node_data.append({
+        entry = {
             "id": nid,
             "label": attrs.get("label", str(nid)),
             "title": f"{attrs.get('type', '')} — {attrs.get('label', nid)}",
             "color": attrs.get("color", COLORS["default"]),
             "size": attrs.get("size", 10),
             "group": attrs.get("node_type", "default"),
-        })
+        }
+        if attrs.get("views"):
+            entry["views"] = attrs["views"]
+            entry["avg_engagement"] = attrs.get("avg_engagement", 0)
+            entry["max_scroll"] = attrs.get("max_scroll", 0)
+            entry["unique_sessions"] = attrs.get("unique_sessions", 0)
+            entry["sources"] = attrs.get("sources", [])
+        node_data.append(entry)
 
     edge_data = []
     for u, v, attrs in G.edges(data=True):

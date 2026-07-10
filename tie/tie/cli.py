@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import glob
+
 import click
 from rich.console import Console
 
@@ -57,7 +59,6 @@ def parse_content():
 @click.option("--content", "-c", default=None, help="Path to content entities JSON")
 def graph(normalized: str | None, content: str | None):
     """Build and visualize the behavioral graph."""
-    import glob
     from tie.graph import build_and_render
 
     if not normalized:
@@ -101,6 +102,66 @@ def pipeline(days: int):
     console.log(f"[green]4. Graph:[/green] {viz}")
 
     console.log("[bold green]Pipeline complete![/bold green]")
+
+
+@cli.command()
+@click.option("--rebuild", is_flag=True, help="Rebuild ChromaDB from scratch")
+def ingest(rebuild: bool):
+    """Ingest graph + content into ChromaDB for RAG queries."""
+    from tie.rag import get_chroma_client, embed_fn, reset_collections, ingest_graph, ingest_content
+
+    console.log("[bold]Phase 3a:[/bold] Ingesting into ChromaDB...")
+
+    client = get_chroma_client()
+    ef = embed_fn()
+    collections = reset_collections(client, ef)
+
+    graph_files = sorted(glob.glob("data/website_behavior_graph_*.html"))
+    if not graph_files:
+        console.log("[red]No graph file found. Run 'tie graph' first.[/red]")
+        return
+    latest_graph = graph_files[-1]
+    console.log(f"[dim]Using graph: {latest_graph}[/dim]")
+    ingest_graph(latest_graph, collections)
+
+    content_files = sorted(glob.glob("data/content_entities.json"))
+    if content_files:
+        ingest_content(content_files[-1], collections)
+
+    console.log("[bold green]Ingest complete. Ready for queries.[/bold green]")
+
+
+@cli.command()
+@click.argument("question")
+@click.option("--persona", type=click.Choice(["seo", "product", "research", "us"]), default="research")
+@click.option("--model", default="llama3.1:8b")
+def query(question: str, persona: str, model: str):
+    """Ask a natural-language question about your analytics graph."""
+    from tie.rag import get_chroma_client, embed_fn, get_collections
+    from tie.analyst import query_analytics
+
+    client = get_chroma_client()
+    ef = embed_fn()
+    collections = get_collections(client, ef)
+
+    answer = query_analytics(question, collections, persona)
+    console.print(answer)
+
+
+@cli.command()
+def report():
+    """Generate a full Telemetry Intelligence Report."""
+    from tie.rag import get_chroma_client, embed_fn, get_collections
+    from tie.analyst import generate_report
+
+    console.log("[bold]Phase 4:[/bold] Generating Telemetry Intelligence Report...")
+
+    client = get_chroma_client()
+    ef = embed_fn()
+    collections = get_collections(client, ef)
+
+    report_text = generate_report(collections)
+    console.print(report_text)
 
 
 if __name__ == "__main__":
