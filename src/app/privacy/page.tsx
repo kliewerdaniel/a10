@@ -23,18 +23,19 @@ export default function PrivacyPage() {
           <div>
             <h2 className="font-display text-xl mb-3">What This Site Collects</h2>
             <p>
-              This site does not collect personal data by default. Analytics tracking (Google Analytics 4) is
-              available only with your explicit consent via the cookie banner. If you decline, no analytics
-              data is collected. There are no advertising cookies and no user accounts. The contact form is
-              not connected to a database — messages are sent via email and not stored.
+              This site uses Vercel Analytics to measure basic traffic and performance.
+              Vercel Analytics is privacy-first — it does not use cookies, does not track
+              users across sites, and collects only anonymized, aggregated data. No personal
+              data is collected. There are no advertising cookies and no user accounts.
+              The contact form is not connected to a database — messages are sent via email
+              and not stored.
             </p>
           </div>
 
           <div>
             <h2 className="font-display text-xl mb-3">Cookies</h2>
             <p>
-              This site uses no cookies by default. If you consent to analytics, Google Analytics may set
-              cookies to measure site usage. If you consent to marketing, Google AdSense may set cookies
+              This site uses no cookies. If you consent to marketing, Google AdSense may set cookies
               for personalized ads. You can change your preferences at any time via the cookie banner.
               Google&apos;s ads.txt is also served for ads.txt verification purposes.
             </p>
