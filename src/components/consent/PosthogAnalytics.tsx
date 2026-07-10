@@ -8,32 +8,32 @@ export function PosthogAnalytics() {
   const initialized = useRef(false);
 
   useEffect(() => {
-    const key = process.env.NEXT_PUBLIC_POSTHOG_KEY;
+    const key = process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN || process.env.NEXT_PUBLIC_POSTHOG_KEY;
     const host = process.env.NEXT_PUBLIC_POSTHOG_HOST || 'https://us.i.posthog.com';
 
     if (!key) return;
 
-    if (consent.analytics && !initialized.current) {
+    if (!initialized.current) {
       initialized.current = true;
 
       import('posthog-js').then(({ default: posthog }) => {
         posthog.init(key, {
           api_host: host,
           person_profiles: 'identified_only',
-          loaded: (ph) => {
-            if (process.env.NODE_ENV !== 'production') {
-              ph.opt_out_capturing();
-            }
-          },
+          opt_out_capturing_by_default: true,
+          defaults: '2026-05-30',
         });
       });
     }
 
-    if (!consent.analytics && initialized.current) {
+    if (consent.analytics) {
       import('posthog-js').then(({ default: posthog }) => {
-        posthog.reset();
+        posthog.opt_in_capturing();
+      });
+    } else {
+      import('posthog-js').then(({ default: posthog }) => {
         posthog.opt_out_capturing();
-        initialized.current = false;
+        posthog.reset();
       });
     }
   }, [consent.analytics]);
