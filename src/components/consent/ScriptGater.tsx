@@ -1,35 +1,44 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
+import { usePathname, useSearchParams } from 'next/navigation';
 import { useConsent } from './ConsentProvider';
+
+const GA_MEASUREMENT_ID = 'G-02N9FT7XP5';
 
 export function ScriptGater() {
   const { consent } = useConsent();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
   const ga4Loaded = useRef(false);
   const adsenseLoaded = useRef(false);
 
-  // GA4
+  // GA4: Load script on consent
   useEffect(() => {
     if (consent.analytics && !ga4Loaded.current) {
       ga4Loaded.current = true;
 
-      // Initialize dataLayer and gtag
       window.dataLayer = window.dataLayer || [];
       function gtag(...args: unknown[]) {
         window.dataLayer!.push(args);
       }
       gtag('js', new Date());
-      gtag('config', 'G-02N9FT7XP5', { debug_mode: true });
+      gtag('config', GA_MEASUREMENT_ID);
 
-      // Load gtag.js
       const script = document.createElement('script');
       script.async = true;
-      script.src = 'https://www.googletagmanager.com/gtag/js?id=G-02N9FT7XP5';
+      script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
       document.head.appendChild(script);
-
-      console.log('[Consent] GA4 loaded');
     }
   }, [consent.analytics]);
+
+  // GA4: Track route changes
+  useEffect(() => {
+    if (!consent.analytics || !ga4Loaded.current) return;
+
+    const url = pathname + (searchParams.toString() ? `?${searchParams.toString()}` : '');
+    window.gtag?.('config', GA_MEASUREMENT_ID, { page_path: url });
+  }, [pathname, searchParams, consent.analytics]);
 
   // AdSense
   useEffect(() => {
