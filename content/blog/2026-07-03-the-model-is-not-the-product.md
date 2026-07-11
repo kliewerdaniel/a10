@@ -23,7 +23,7 @@ tags:
   - local-ai
   - sovereign-ai
   - thinking-machines-lab
-  - autoreearch
+  - autoresearch
   - sovereign-memory-bank
   - objective05
   - dynamic-moe-rag
@@ -34,7 +34,7 @@ twitter:title: 'The Model Is Not the Product: Residual State, Compiled Agents, a
 wiki_references: ["model-is-not-the-product", "residual-context-diffusion", "sglang", "execution-graphs", "constrained-optimization", "agent-loops", "knowledge-graphs", "local-ai", "sovereign-ai"]
 ---
 
-# The Model Is Not the Product: Residual State, Compiled Agents, and the Optimization of Loops
+# The Model Is Not the Product: Residual State, Compiled Agents, and Optimization Loops
 
 **July 3, 2026**
 
