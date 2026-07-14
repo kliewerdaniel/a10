@@ -29,9 +29,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: post.title,
     description: post.description,
-    alternates: post.canonicalUrl
-      ? { canonical: post.canonicalUrl }
-      : undefined,
+    alternates: {
+      canonical: post.canonicalUrl ?? `/blog/${post.slug}`,
+      types: {
+        'text/plain': `/blog-txt/${post.slug}.txt`,
+      },
+    },
     openGraph: {
       title: post.title,
       description: post.description,
@@ -136,34 +139,42 @@ export default async function BlogPostPage({ params }: Props) {
           </div>
         )}
 
-        <div className="blog-content">
-          <ReactMarkdown
-            remarkPlugins={[remarkGfm]}
-            rehypePlugins={[rehypeRaw]}
-            components={{
-              code({ className, children, ...props }) {
-                const match = /language-(\w+)/.exec(className || '');
-                const codeString = String(children).replace(/\n$/, '');
+        {(() => {
+          const markdownComponents = {
+            code({ className, children, ...props }: any) {
+              const match = /language-(\w+)/.exec(className || '');
+              const codeString = String(children).replace(/\n$/, '');
 
-                if (match) {
-                  return <CodeBlock code={codeString} language={match[1]} />;
-                }
+              if (match) {
+                return <CodeBlock code={codeString} language={match[1]} />;
+              }
 
-                if (codeString.includes('\n')) {
-                  return <CodeBlock code={codeString} language="text" />;
-                }
+              if (codeString.includes('\n')) {
+                return <CodeBlock code={codeString} language="text" />;
+              }
 
-                return (
-                  <code className={className} {...props}>
-                    {children}
-                  </code>
-                );
-              },
-            }}
-          >
-            {post.content}
-          </ReactMarkdown>
-        </div>
+              return (
+                <code className={className} {...props}>
+                  {children}
+                </code>
+              );
+            },
+          };
+
+          return (
+            <>
+              <div className="blog-content">
+                <ReactMarkdown
+                  remarkPlugins={[remarkGfm]}
+                  rehypePlugins={[rehypeRaw]}
+                  components={markdownComponents}
+                >
+                  {post.content}
+                </ReactMarkdown>
+              </div>
+            </>
+          );
+        })()}
 
         <BookCTA />
 

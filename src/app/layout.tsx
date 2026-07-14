@@ -77,6 +77,7 @@ export default function RootLayout({
         <link rel="icon" href="/logo.png" type="image/png" sizes="any" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
+        <link rel="alternate" type="application/rss+xml" title="Daniel Kliewer — Sovereign AI Research" href="/feed.xml" />
         <noscript>
           <style>{`.reveal { opacity: 1 !important; transform: none !important; }`}</style>
         </noscript>

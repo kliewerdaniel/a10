@@ -17,6 +17,12 @@
 /.next/
 /out/
 
+# generated full-text RSS feed (built by `npm run prebuild` -> scripts/generate-feed.mjs)
+/public/feed.xml
+/public/rss.xml
+# generated per-post plain-text mirrors (public/blog-txt/*.txt)
+/public/blog-txt/*.txt
+
 # production
 /build
 
