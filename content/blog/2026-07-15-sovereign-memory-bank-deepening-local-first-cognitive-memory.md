@@ -29,6 +29,8 @@ draft: false
 
 # The Sovereign Knowledge Compiler: Compile-Time Memory for Local-First AI Agents
 
+[Github Link to Project](https://github.com/kliewerdaniel/sovereign-knowledge-compiler)
+
 ## Abstract
 
 The original Sovereign Memory Bank (SMB) proposal argued that agent memory should be local and private rather than cloud-hosted. That argument still holds, but it undersells the more interesting claim buried inside it: memory doesn't have to be *retrieved* at all — it can be *compiled*. This revision keeps the local-first commitment but replaces the "documents → embeddings → vector store → agent query" pipeline with a compiler pipeline: raw material goes in once, expensive reasoning happens once, and the runtime does cheap lookups against a set of static, inspectable artifacts. This reframing turns out to track something already happening at the frontier — OpenAI's Agents SDK now ships a built-in `Memory()` capability that distills raw conversation into consolidated files across two explicit phases, and third-party memory layers like Mem0 and Hindsight are converging on the same "extract once, retrieve cheaply" shape. The difference is where the compiled artifacts live and who owns the compiler.
