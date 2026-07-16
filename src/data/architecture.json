@@ -1,84 +1,148 @@
 {
   "layers": [
     {
-      "slug": "foundation",
-      "name": "Foundation",
-      "description": "Local inference and model execution. The base layer where intelligence runs on your hardware.",
-      "problem": "AI systems depend on cloud infrastructure. Local inference provides sovereignty.",
-      "why_matters": "Everything above depends on local-first inference. If you can't run intelligence locally, you have no sovereignty.",
-      "color": "accent-blue",
-      "icon": "⬇",
-      "position": "bottom",
-      "projects": ["turboq", "sovereign", "rlm", "ollama-chatbot"]
-    },
-    {
-      "slug": "infrastructure",
-      "name": "Infrastructure",
-      "description": "Infrastructure for running, securing, and deploying sovereign intelligence.",
-      "problem": "Sovereignty isn't just about running locally — it's about security, trust, and deployment at scale.",
-      "why_matters": "Security and deployment infrastructure ensures sovereign systems are robust and trustworthy.",
+      "slug": "knowledge-compilation",
+      "name": "Knowledge Compilation",
+      "description": "Transforming heterogeneous human knowledge into structured, navigable semantic artifacts — organized before the question is asked.",
+      "problem": "Human knowledge is scattered across documents, notes, and code. Until it is compiled into navigable structure, it cannot be understood at scale.",
+      "why_matters": "Compilation is the first step in reducing the cost of understanding: it turns a corpus into something a person can actually explore.",
       "color": "accent-green",
-      "icon": "⬆",
+      "icon": "◆",
       "position": "middle",
-      "projects": ["sse", "quantum-series", "zero-trust", "turboq", "sovereign-scaffold"]
+      "projects": [
+        "sovereign-knowledge-compiler",
+        "knowledge-compiler-sdk",
+        "sovereign-knowledge-engine",
+        "ukb",
+        "blog-knowledge-base",
+        "LGVRAG-series",
+        "mindmap-series"
+      ]
     },
     {
-      "slug": "retrieval",
-      "name": "Retrieval",
-      "description": "Persistent, structured knowledge that compounds over time.",
-      "problem": "Agents forget between sessions. Vector stores retrieve — they don't understand.",
-      "why_matters": "Memory is the key differentiator between a one-shot LLM and sovereign intelligence.",
-      "color": "accent-cyan",
-      "icon": "⬆",
-      "position": "middle",
-      "projects": ["sovereign-memory-bank", "brain-memory-graphrag-engine", "sovereign-knowledge-engine", "ukb", "blog-knowledge-base", "LGVRAG-series", "mindmap-series", "bot-series", "basicbot"]
-    },
-    {
-      "slug": "planning",
-      "name": "Planning",
-      "description": "Turn knowledge into understanding, reports, and broadcasts.",
-      "problem": "Retrieval alone is just storage. Planning makes intelligence actionable.",
-      "why_matters": "Planning transforms raw knowledge into synthesized understanding.",
-      "color": "accent-yellow",
-      "icon": "⬆",
-      "position": "middle",
-      "projects": ["objective", "objective05", "objective06", "synt", "synthInt", "dynamic_persona_moe_rag", "divine-light", "cogGraph"]
-    },
-    {
-      "slug": "reasoning",
-      "name": "Reasoning",
-      "description": "Treat specifications as living, graph-grounded artifacts.",
-      "problem": "Software specifications are static documents. They don't evolve or connect to knowledge.",
-      "why_matters": "Reasoning is the bridge from research to implementable systems.",
+      "slug": "compile-time-ai",
+      "name": "Compile-Time AI",
+      "description": "Performing reasoning once and compiling it into representations people can explore, instead of rediscovering relationships on every query. An active, recent direction of the research.",
+      "problem": "Query-time AI rediscovers the same relationships repeatedly. Reasoning done ahead of time is far cheaper to reuse.",
+      "why_matters": "Compile-time AI is how we lower the cognitive cost of understanding — the hard work happens once, for everyone.",
       "color": "accent-orange",
-      "icon": "⬆",
+      "icon": "◆",
       "position": "middle",
-      "projects": ["sovereignSpec", "specweave", "synthScript", "specgen", "zero-trust", "orthos"]
+      "projects": [
+        "sovereignSpec",
+        "specweave",
+        "synthScript"
+      ]
     },
     {
-      "slug": "orchestration",
-      "name": "Orchestration",
-      "description": "Coordinate multiple specialized agents into coherent intelligence.",
-      "problem": "Individual components are useless without orchestration.",
-      "why_matters": "Orchestration turns a collection of parts into an integrated whole.",
+      "slug": "scientific-knowledge-systems",
+      "name": "Scientific Knowledge Systems",
+      "description": "Semantic infrastructure for preserving scientific knowledge and accelerating discovery — making research easier to build upon.",
+      "problem": "Scientific knowledge is fragmented across papers, code, and institutions. Preserving and connecting it accelerates everyone who comes next.",
+      "why_matters": "Every hour a researcher spends searching is an hour not spent discovering. Better knowledge systems return that time to science.",
+      "color": "accent-yellow",
+      "icon": "◆",
+      "position": "middle",
+      "projects": [
+        "sovereign-intelligence-stack",
+        "sovereign-intelligence-observatory",
+        "zero-trust",
+        "quantum-series",
+        "Learn",
+        "catholic-kb",
+        "cathkb",
+        "chrome-ai-filename-generator"
+      ]
+    },
+    {
+      "slug": "local-first-ai",
+      "name": "Local-First AI",
+      "description": "Knowledge systems that run on your own hardware — transparent, inspectable, and under the user’s control rather than a third party’s cloud.",
+      "problem": "Cloud-dependent AI places knowledge behind someone else’s infrastructure and incentives. Local-first keeps it under the user’s control.",
+      "why_matters": "Knowledge that can be shared without being consumed should also be owned. Local-first is how understanding stays sovereign.",
       "color": "accent-pink",
-      "icon": "⬆",
+      "icon": "◆",
       "position": "middle",
-      "projects": ["sovereign-intelligence-stack", "sovereign-intelligence-observatory", "stratagent", "workflow"]
+      "projects": [
+        "turboq",
+        "sovereign-scaffold",
+        "sovereign",
+        "sse",
+        "rlm",
+        "ollama-chatbot"
+      ]
     },
     {
-      "slug": "applications",
-      "name": "Applications",
-      "description": "Real systems that demonstrate the stack in practice.",
-      "problem": "Theoretical systems need practical demonstrations.",
-      "why_matters": "Applications prove that sovereign intelligence is not theoretical — it can be built and used today.",
-      "color": "accent-purple",
-      "icon": "⬆",
-      "position": "top",
-      "projects": ["AMIS", "Learn", "BookForge", "catholic-kb", "cathkb", "concreat", "autoblog01", "chrome-ai-filename-generator", "redDis"]
+      "slug": "cognitive-memory",
+      "name": "Cognitive Memory",
+      "description": "Persistent, structured memory that compounds understanding across sessions instead of forgetting it between conversations.",
+      "problem": "Systems that forget between sessions cannot accumulate understanding. Memory is what turns information into knowledge.",
+      "why_matters": "Durable memory is how the cost of understanding keeps falling — each session builds on the last instead of starting over.",
+      "color": "accent-green",
+      "icon": "◆",
+      "position": "middle",
+      "projects": [
+        "orthos",
+        "divine-light",
+        "sovereign-memory-bank",
+        "brain-memory-graphrag-engine",
+        "bot-series",
+        "basicbot"
+      ]
+    },
+    {
+      "slug": "research-automation",
+      "name": "Research Automation",
+      "description": "Autonomous and semi-autonomous agents that ingest, synthesize, and broadcast knowledge — returning time to human discovery and care.",
+      "problem": "Much knowledge work is ingestion, synthesis, and reporting. Automating it returns human time to judgment and care.",
+      "why_matters": "Automation at the level of understanding — not replacement — is how more people can do more meaningful work.",
+      "color": "accent-orange",
+      "icon": "◆",
+      "position": "middle",
+      "projects": [
+        "objective",
+        "objective05",
+        "objective06",
+        "synt",
+        "synthInt",
+        "dynamic_persona_moe_rag",
+        "AMIS",
+        "concreat",
+        "autoblog01",
+        "redDis"
+      ]
+    },
+    {
+      "slug": "knowledge-representation",
+      "name": "Knowledge Representation",
+      "description": "How understanding is modeled and made explicit — from intermediate representations to structured publishing of what we know.",
+      "problem": "Understanding that cannot be represented cannot be reused, taught, or improved. Representation is the substrate of transfer.",
+      "why_matters": "Clear representation is what makes knowledge portable — from one mind to another, from one system to the next.",
+      "color": "accent-yellow",
+      "icon": "◆",
+      "position": "middle",
+      "projects": [
+        "stratagent",
+        "workflow",
+        "specgen",
+        "BookForge"
+      ]
+    },
+    {
+      "slug": "decision-graphs",
+      "name": "Decision Graphs",
+      "description": "Explicit representations of judgment that make reasoning inspectable, reusable, and improvable over time.",
+      "problem": "Judgment is usually implicit and unrepeatable. Making it explicit lets reasoning be inspected and taught.",
+      "why_matters": "When decisions are graphs, not black boxes, understanding becomes something we can pass on and refine.",
+      "color": "accent-pink",
+      "icon": "◆",
+      "position": "middle",
+      "projects": [
+        "cogGraph"
+      ]
     }
   ],
-  "title": "Sovereign Intelligence Stack",
-  "subtitle": "One evolving architecture. Seven layers. Eighty repositories testing one hypothesis.",
-  "narrative": "Intelligence can be locally owned. This architecture demonstrates that hypothesis through implementation."
+  "title": "Research Directions",
+  "subtitle": "One mission. Eight directions. Forty-plus experiments toward reducing the cost of understanding human knowledge.",
+  "narrative": "None of these projects is the destination. Each is a different approach toward the same goal — making human knowledge cheaper to understand, preserve, and share."
 }

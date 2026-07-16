@@ -30,11 +30,11 @@ const CANONICAL_BASE = 'https://www.danielkliewer.com';
 export const metadata: Metadata = {
   metadataBase: new URL(CANONICAL_BASE),
   title: {
-    default: 'Daniel Kliewer — Architectures for Computational Sovereignty',
+    default: 'Daniel Kliewer — Reducing the Cost of Understanding Human Knowledge',
     template: '%s | Daniel Kliewer',
   },
-  description: 'Investigating architectures for local-first intelligence — cognitive memory, graph reasoning, autonomous agents, and the engineering of AI systems you actually own. By Daniel Kliewer.',
-  keywords: ['computational sovereignty', 'local-first AI', 'cognitive architectures', 'memory systems', 'knowledge graphs', 'autonomous agents', 'synthetic intelligence', 'Daniel Kliewer', 'graph reasoning', 'inspectable AI', 'sovereign AI'],
+  description: 'A long-term research program on knowledge compilation, compile-time AI, scientific knowledge systems, and local-first cognitive tools — building the semantic infrastructure that makes humanity’s accumulated knowledge easier to understand, preserve, and share.',
+  keywords: ['knowledge compilation', 'compile-time AI', 'knowledge engineering', 'scientific knowledge systems', 'semantic infrastructure', 'knowledge representation', 'learning systems', 'local-first AI', 'research automation', 'human-centered AI', 'Daniel Kliewer', 'cognitive tools', 'scientific acceleration', 'knowledge preservation'],
   authors: [{ name: 'Daniel Kliewer' }],
   creator: 'Daniel Kliewer',
   openGraph: {
@@ -42,14 +42,14 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: CANONICAL_BASE,
     siteName: 'Daniel Kliewer',
-    title: 'Daniel Kliewer — Architectures for Computational Sovereignty',
-    description: 'Investigating architectures for local-first intelligence — cognitive memory, graph reasoning, autonomous agents, and the engineering of AI systems you actually own.',
+    title: 'Daniel Kliewer — Reducing the Cost of Understanding Human Knowledge',
+    description: 'A long-term research program on knowledge compilation, compile-time AI, semantic infrastructure, and cognitive tools for understanding human knowledge.',
     images: [{ url: '/images/og-image.png', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Daniel Kliewer — Architectures for Computational Sovereignty',
-    description: 'Investigating architectures for local-first intelligence — cognitive memory, graph reasoning, autonomous agents.',
+    title: 'Daniel Kliewer — Reducing the Cost of Understanding Human Knowledge',
+    description: 'Knowledge compilation, compile-time AI, semantic infrastructure, and cognitive tools for understanding human knowledge.',
     images: ['/images/og-image.png'],
   },
   robots: {

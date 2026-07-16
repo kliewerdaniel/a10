@@ -1,50 +1,66 @@
 [
   {
-    "slug": "sovereign-systems",
-    "name": "Sovereign Systems",
-    "description": "Foundations of computational sovereignty: agency, local-first philosophy, data autonomy, and the political case for infrastructure you control.",
+    "slug": "decision-graphs",
+    "name": "Decision Graphs",
+    "description": "Explicit representations of judgment that make reasoning inspectable, reusable, and improvable over time.",
     "color": "pink",
     "icon": "◆",
-    "keywords": ["sovereign", "sovereignty", "manifesto", "manifest", "agency", "human", "philosophy", "political", "local-first", "phoenix", "resurrection"]
+    "keywords": ["decision graph", "judgment graph", "reasoning graph", "explainable decision"]
   },
   {
-    "slug": "architecture",
-    "name": "Architecture",
-    "description": "System design patterns, layered stacks, protocol specifications, and structural decisions for sovereign intelligence.",
+    "slug": "knowledge-compilation",
+    "name": "Knowledge Compilation",
+    "description": "Transforming heterogeneous human knowledge into structured, navigable semantic artifacts — organized before the question is asked.",
     "color": "green",
     "icon": "◆",
-    "keywords": ["architecture", "architectural", "design", "stack", "infrastructure", "full-stack", "blueprint", "system", "paradigm", "magnum", "protocol", "alignment", "spec", "compounding"]
+    "keywords": ["knowledge compiler", "knowledge compilation", "compiling human knowledge", "semantic artifact", "static semantic", "compile human", "compiling knowledge", "knowledge compiler sdk", "recursive research compiler"]
   },
   {
-    "slug": "local-ai",
-    "name": "Local AI",
-    "description": "On-device and local inference, quantization, hardware accelerators, and cloud-free model execution.",
-    "color": "yellow",
-    "icon": "◆",
-    "keywords": ["local", "ollama", "inference", "llm", "on-device", "offline", "llama", "quantization", "cpu", "gpu", "ram", "model-local", "performance"]
-  },
-  {
-    "slug": "agent-systems",
-    "name": "Agent Systems",
-    "description": "Autonomous agents, multi-agent coordination, dynamic personas, mixture-of-experts routing, and agent evaluation loops.",
+    "slug": "compile-time-ai",
+    "name": "Compile-Time AI",
+    "description": "Performing reasoning once and compiling it into representations people can explore, instead of rediscovering relationships on every query.",
     "color": "orange",
     "icon": "◆",
-    "keywords": ["agent", "autonomous", "persona", "persona-based", "moe", "cognitive", "swarm", "multi-agent", "orchestrat", "autoresearch", "evaluation loop"]
+    "keywords": ["compile-time", "compile time", "compile-time ai", "compile time ai", "reasoning once"]
   },
   {
-    "slug": "memory-retrieval",
-    "name": "Memory & Retrieval",
-    "description": "Knowledge graphs, vector embeddings, RAG pipelines, persistent memory banks, and retrieval-driven reasoning.",
-    "color": "pink",
-    "icon": "◆",
-    "keywords": ["memory", "retrieval", "rag", "graph", "knowledge graph", "vector", "embedding", "graphrag", "knowledge-graph", "database", "memory bank", "context"]
-  },
-  {
-    "slug": "engineering",
-    "name": "Engineering",
-    "description": "Implementation guides, tooling, frameworks, APIs, and practical build workflows for sovereign AI systems.",
+    "slug": "cognitive-memory",
+    "name": "Cognitive Memory",
+    "description": "Persistent, structured memory that compounds understanding across sessions instead of forgetting it between conversations.",
     "color": "green",
     "icon": "◆",
-    "keywords": ["engineering", "build", "implement", "guide", "tutorial", "how-to", "setup", "deploy", "integrate", "framework", "sdk", "api", "coding", "code", "python", "typescript", "rust", "nextjs", "django", "react", "firebase", "fastapi", "postgres", "redis", "celery", "rabbitmq", "platform", "tool", "chrome", "extension"]
+    "keywords": ["cognitive memory", "memory bank", "sovereign memory", "agent memory", "persistent memory", "memory architecture", "memory graph", "long-term memory"]
+  },
+  {
+    "slug": "knowledge-representation",
+    "name": "Knowledge Representation",
+    "description": "How understanding is modeled, structured, and made explicit — from decision graphs to intermediate representations.",
+    "color": "yellow",
+    "icon": "◆",
+    "keywords": ["intermediate representation", "ontology", "schema", "structuring knowledge", "knowledge graph construction", "modeling knowledge", "semantic structure"]
+  },
+  {
+    "slug": "research-automation",
+    "name": "Research Automation",
+    "description": "Autonomous and semi-autonomous agents that ingest, synthesize, and broadcast knowledge — returning time to human discovery and care.",
+    "color": "orange",
+    "icon": "◆",
+    "keywords": ["autonomous agent", "multi-agent system", "persona-based", "mixture-of-experts", "moe routing", "agent swarm", "objective0", "synthetic intelligence", "autoblog", "content generation pipeline", "marketing intelligence", "news ingestion", "broadcast", "agent framework"]
+  },
+  {
+    "slug": "local-first-ai",
+    "name": "Local-First AI",
+    "description": "Knowledge systems that run on your own hardware — transparent, inspectable, and under the user’s control rather than a third party’s cloud.",
+    "color": "pink",
+    "icon": "◆",
+    "keywords": ["local-first", "local first", "on-device", "offline", "no cloud", "local llm", "local inference", "quantiz", "edge ai", "ollama", "llama.cpp", "gguf", "run locally"]
+  },
+  {
+    "slug": "scientific-knowledge-systems",
+    "name": "Scientific Knowledge Systems",
+    "description": "Semantic infrastructure for preserving scientific knowledge, accelerating discovery, and making research easier to build upon.",
+    "color": "yellow",
+    "icon": "◆",
+    "keywords": ["scientific", "science", "discovery", "intelligence observatory", "observatory", "evaluation", "benchmark", "grief to code", "digital resurrection", "architecture synthesis", "autonomous architecture", "autonomous voice", "agents sdk", "model context protocol", "mcp", "large-scale agent"]
   }
 ]

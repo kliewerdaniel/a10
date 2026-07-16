@@ -3,12 +3,13 @@ import Link from 'next/link';
 const BOOK_URL = 'https://www.amazon.com/dp/B0H6RB7D9J';
 
 const researchLinks: { href: string; label: string; external?: boolean }[] = [
+  { href: '/mission', label: 'The Mission' },
   { href: '/research', label: 'Research Hub' },
   { href: '/book', label: 'The Book' },
 ];
 
 const projectLinks: { href: string; label: string; external?: boolean }[] = [
-  { href: '/projects', label: 'Architecture' },
+  { href: '/projects', label: 'Research Directions' },
   { href: 'https://github.com/kliewerdaniel', label: 'GitHub', external: true },
 ];
 
@@ -64,11 +65,11 @@ export function Footer() {
                 <span className="font-display text-base leading-tight text-ink">
                   Daniel <span className="accent-green">Kliewer</span>
                 </span>
-                <span className="mono text-[9px] text-ink-3 leading-none">Architectures for Sovereignty</span>
+                <span className="mono text-[9px] text-ink-3 leading-none">Reducing the Cost of Understanding</span>
               </div>
             </Link>
             <p className="text-sm text-ink-3 mb-5 leading-relaxed">
-              Documenting architectures for intelligence you own.
+              A research program on knowledge compilation, compile-time AI, and the tools that make human knowledge easier to understand.
             </p>
             <a
               href={BOOK_URL}

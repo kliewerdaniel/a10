@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { getBlogPost, getAllBlogSlugs } from '@/lib/blog';
 import { BookCTA } from '@/components/blog/BookCTA';
 import { Badge } from '@/components/ui/Card';
+import { BlogThemeBanner } from '@/components/blog/BlogThemeBanner';
 import { ReadingProgress } from '@/components/ui/ReadingProgress';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { Breadcrumbs } from '@/components/seo/Breadcrumbs';
@@ -130,6 +131,8 @@ export default async function BlogPostPage({ params }: Props) {
             ))}
           </div>
         </header>
+
+        <BlogThemeBanner category={post.category} />
 
         <BookCTA variant="inline" />
 

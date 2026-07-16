@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: LayerPageProps) {
   }
 
   return {
-    title: `${layer.name} — Sovereign Intelligence Stack`,
+    title: `${layer.name} — Research Directions`,
     description: layer.description,
   };
 }
@@ -69,7 +69,7 @@ export default async function LayerPage({ params }: LayerPageProps) {
             href="/projects" 
             className="text-sm text-ink-3 hover:text-ink transition-colors inline-block mb-6"
           >
-            ← Back to Architecture
+            ← Back to Research Directions
           </Link>
           
           <div className="flex items-center gap-3 mb-4">

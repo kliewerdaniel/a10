@@ -13,6 +13,8 @@ export interface Project {
   status: 'production' | 'active' | 'experimental' | 'archived';
   technologies: string[];
   layer: string;
+  theme: string;
+  mission_context?: string;
   blog_slugs: string[];
   related_projects: string[];
   roadmap?: string[];

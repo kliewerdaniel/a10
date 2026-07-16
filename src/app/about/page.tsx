@@ -5,10 +5,13 @@ import { Breadcrumbs } from '@/components/seo/Breadcrumbs';
 
 export const metadata: Metadata = {
   title: {
-    default: 'About Daniel Kliewer | Sovereign AI',
+    default: 'About Daniel Kliewer | Reducing the Cost of Understanding',
     template: '%s',
   },
-  description: 'Computer scientist and AI researcher exploring sovereign architectures — cognitive memory systems, graph reasoning, autonomous agents, and the engineering of AI you actually own. Austin-based author of "Sovereign AI" and the Sovereign Intelligence Stack.',
+  description: 'Computer scientist and AI researcher working to reduce the cost of understanding human knowledge — through knowledge compilation, compile-time AI, local-first cognitive tools, and semantic infrastructure. Austin-based author of "Sovereign AI".',
+  alternates: {
+    canonical: '/about',
+  },
 };
 
 const baseUrl = 'https://www.danielkliewer.com';
@@ -19,20 +22,21 @@ const personSchema = {
   name: 'Daniel Kliewer',
   url: `${baseUrl}/about`,
   image: `${baseUrl}/images/profile.jpeg`,
-  jobTitle: 'AI Engineer & Researcher',
-  description: 'Investigating architectures for computational sovereignty — local-first AI, cognitive memory systems, graph-based reasoning, and autonomous agents.',
+  jobTitle: 'AI Researcher',
+  description: 'Researcher working to reduce the cost of understanding human knowledge through knowledge compilation, compile-time AI, and local-first cognitive tools.',
   sameAs: [
     'https://github.com/kliewerdaniel',
     'https://x.com/kliewer_daniel',
     'https://www.linkedin.com/in/daniel-kliewer-42691944/',
   ],
   knowsAbout: [
-    'Local-First AI',
+    'Knowledge Compilation',
+    'Compile-Time AI',
+    'Knowledge Representation',
     'Cognitive Memory Systems',
-    'Knowledge Graphs',
-    'Autonomous AI Agents',
-    'Computational Sovereignty',
-    'RAG Pipelines',
+    'Semantic Infrastructure',
+    'Local-First AI',
+    'Human-Centered AI',
   ],
 };
 

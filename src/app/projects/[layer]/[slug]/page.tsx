@@ -93,6 +93,18 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         </div>
       </section>
 
+      {/* Mission Context */}
+      <section className="py-8 px-4">
+        <div className="max-w-4xl mx-auto">
+          <div className="border-l-4 border-green bg-surface px-6 py-5">
+            <p className="mono text-xs text-green font-bold mb-2">In Service of the Mission</p>
+            <p className="text-ink-3 leading-relaxed">
+              {project.mission_context}
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Main Content */}
       <section className="py-20 px-4 reveal">
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-12">

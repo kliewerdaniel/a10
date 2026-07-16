@@ -6,38 +6,38 @@ import { Breadcrumbs } from '@/components/seo/Breadcrumbs';
 
 export const metadata: Metadata = {
   title: 'Press & Media',
-  description: 'Press kit, interview topics, bios, and speaking information for Daniel Kliewer — investigating architectures for computational sovereignty.',
+  description: 'Press kit, interview topics, bios, and speaking information for Daniel Kliewer — researching how to reduce the cost of understanding human knowledge through knowledge compilation, compile-time AI, and local-first systems.',
 };
 
 const interviewTopics = [
-  'The architectural meaning of computational sovereignty',
-  'Why local inference changes the design space for AI systems',
-  'Open-source models and proprietary infrastructure',
-  'Running LLMs on consumer hardware — what is actually possible',
-  'RAG architectures for production systems',
-  'Memory architectures for persistent intelligence',
-  'Knowledge graphs and graph-based reasoning',
-  'Agentic AI: architectures beyond chatbots',
-  'Designing resilient, inspectable AI systems',
-  'The future of AI ownership and control',
-  'Solo development in the AI ecosystem',
-  'Open-source AI ecosystems and their evolution',
+  'Why the cost of understanding human knowledge is a leverage problem',
+  'Knowledge transfer as the engine of civilization — and its bottleneck',
+  'Compile-time AI: doing the reasoning once, exploring it forever',
+  'Knowledge compilation: organizing knowledge before the question is asked',
+  'Local-first AI as a precondition for trustworthy, inspectable knowledge',
+  'Decision graphs as inspectable representations of human judgment',
+  'Cognitive memory: compounding understanding across sessions',
+  'Why more text is not the goal — reducing cognitive cost is',
+  'How knowledge can be shared without being consumed',
+  'Open research as a public good',
+  'Building a twenty-year research program as a solo investigator',
+  'Why human-centered AI is a question of access, not capability',
   'Writing Sovereign AI: synthesizing a research program into a book',
 ];
 
-const questionsAboutTheBook = [
-  'What question does Sovereign AI investigate?',
-  'Who is this book for?',
-  'What misconceptions about AI architecture do you hope to challenge?',
-  'What surprised you most while writing the book?',
+const questionsAboutTheMission = [
+  'What does "reducing the cost of understanding human knowledge" mean?',
+  'Why frame AI around understanding rather than generation?',
+  'What is the bottleneck you are trying to remove?',
+  'How does this connect to professions like nursing, teaching, and medicine?',
 ];
 
-const questionsInfrastructure = [
-  'Why are local models becoming increasingly important?',
-  'How should developers think about AI ownership?',
-  'What role does RAG play in production systems?',
-  'Are knowledge graphs making a comeback?',
-  'How do you approach long-term AI memory?',
+const questionsResearch = [
+  'What is compile-time AI, and how is it different from retrieval?',
+  'What does it mean to compile knowledge instead of searching it?',
+  'Why are local-first and open systems important to this work?',
+  'How do decision graphs make reasoning inspectable?',
+  'What have you learned from compiling an entire blog into a decision graph?',
 ];
 
 const questionsIndustry = [
@@ -47,21 +47,21 @@ const questionsIndustry = [
 ];
 
 const questionsPersonal = [
-  'How did you become interested in AI?',
-  'What does your development workflow look like?',
+  'How did you become interested in knowledge and understanding?',
+  'What does your research workflow look like?',
   'What are you building next?',
 ];
 
 const topics = [
-  'Local LLMs',
-  'Retrieval-Augmented Generation (RAG)',
-  'Knowledge Graphs',
-  'AI Agents',
-  'Long-Term Memory',
-  'Open-Source AI',
-  'Local-First Architecture',
-  'AI Infrastructure',
-  'Autonomous Systems',
+  'Knowledge Compilation',
+  'Compile-Time AI',
+  'Cognitive Memory',
+  'Decision Graphs',
+  'Local-First AI',
+  'Semantic Infrastructure',
+  'Open Research',
+  'Human-Centered AI',
+  'Learning Systems',
 ];
 
 const availability = [
@@ -88,7 +88,7 @@ export default function PressPage() {
           />
           <h1 className="font-display text-4xl sm:text-5xl md:text-6xl mb-4">Press & Media</h1>
           <p className="text-ink-3 text-lg font-bold max-w-2xl mx-auto">
-            Resources for podcasts, conferences, interviews, and speaking engagements covering computational sovereignty and local-first AI architectures.
+            Resources for podcasts, conferences, interviews, and speaking engagements covering one question: how do we reduce the cost of understanding human knowledge?
           </p>
         </div>
       </section>
@@ -100,24 +100,24 @@ export default function PressPage() {
           <h2 className="font-display text-3xl mb-8">About Daniel Kliewer</h2>
           <div className="space-y-5 text-ink-3 leading-relaxed text-lg font-bold">
             <p>
-              Daniel Kliewer investigates architectures for intelligence that remains under its user&apos;s control. His work examines local-first AI, cognitive memory systems, graph-based reasoning, autonomous agents, and the engineering principles that make sovereign intelligence possible.
+              Daniel Kliewer researches how to reduce the cost of understanding human knowledge. His work examines knowledge compilation, compile-time AI, cognitive memory, decision graphs, and the local-first systems that make knowledge easier to preserve, navigate, and share.
             </p>
             <p>
-              Rather than treating AI as a service to consume, his work treats it as a system to construct — one where every layer, from inference runtime to memory architecture, is owned and understood by its operator. Each project tests a specific architectural hypothesis.
+              Rather than treating AI as a generator of more text, his work treats it as infrastructure for understanding — systems that organize what we already know so more people can learn it, teach it, and build on it. Each project tests a specific hypothesis about how knowledge transfers between people.
             </p>
             <p>
-              He is the author of <strong className="text-ink">Sovereign AI</strong>, a book that traces this architectural reasoning from first principles to production deployment across eleven chapters.
+              He is the author of <strong className="text-ink">Sovereign AI</strong>, a book that traces this reasoning from first principles to working systems, and he publishes his research openly so the knowledge itself can be shared without being consumed.
             </p>
           </div>
         </div>
       </section>
 
-      {/* About Sovereign AI */}
+      {/* About the Research Mission */}
       <section className="py-16 sm:py-24 px-5 reveal">
         <div className="max-w-4xl mx-auto">
-          <h2 className="font-display text-3xl mb-8">About Sovereign AI</h2>
+          <h2 className="font-display text-3xl mb-8">About the Research</h2>
           <p className="text-ink-3 text-lg font-bold mb-8 max-w-3xl">
-            Sovereign AI examines the architecture of intelligence that you own. From first principles — why local inference matters structurally — through production deployment patterns for autonomous agents, memory systems, and secure, sovereign infrastructure.
+            The research program asks a single question: how do we make humanity&apos;s accumulated knowledge cheaper to understand? It explores compile-time AI, knowledge compilation, semantic infrastructure, and the tools that turn static documents into navigable, inspectable understanding.
           </p>
           <div className="flex flex-wrap gap-3">
             {topics.map((topic) => (
@@ -173,9 +173,9 @@ export default function PressPage() {
           <h2 className="font-display text-3xl mb-8">Sample Interview Questions</h2>
           <div className="space-y-10">
             <div>
-              <h3 className="font-display text-xl mb-4 accent-green">About the Book</h3>
+              <h3 className="font-display text-xl mb-4 accent-green">About the Mission</h3>
               <ul className="space-y-3">
-                {questionsAboutTheBook.map((q) => (
+                {questionsAboutTheMission.map((q) => (
                   <li key={q} className="flex gap-3 text-ink font-bold">
                     <span className="text-pink flex-shrink-0">Q.</span>
                     <span>{q}</span>
@@ -184,9 +184,9 @@ export default function PressPage() {
               </ul>
             </div>
             <div>
-              <h3 className="font-display text-xl mb-4 accent-pink">AI Infrastructure</h3>
+              <h3 className="font-display text-xl mb-4 accent-pink">The Research</h3>
               <ul className="space-y-3">
-                {questionsInfrastructure.map((q) => (
+                {questionsResearch.map((q) => (
                   <li key={q} className="flex gap-3 text-ink font-bold">
                     <span className="text-orange flex-shrink-0">Q.</span>
                     <span>{q}</span>
@@ -239,7 +239,7 @@ export default function PressPage() {
         <div className="absolute inset-0 pointillism-layer opacity-20 pointer-events-none" />
         <div className="max-w-4xl mx-auto relative">
           <h2 className="font-display text-3xl mb-4">Speaking</h2>
-          <p className="text-ink-3 text-lg font-bold mb-8">Daniel speaks on computational sovereignty, local-first AI architectures, cognitive memory systems, and the engineering of autonomous intelligence. Topics can be tailored for technical, business, or general audiences.</p>
+          <p className="text-ink-3 text-lg font-bold mb-8">Daniel speaks on reducing the cost of understanding human knowledge — compile-time AI, knowledge compilation, cognitive memory, decision graphs, and local-first systems. Topics can be tailored for technical, educational, or general audiences.</p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             {availability.map((item) => (
               <div key={item.type} className="flex items-center gap-3 p-4 border-4 border-ink bg-cream">
@@ -289,28 +289,28 @@ export default function PressPage() {
             <div>
               <h3 className="font-display text-xl mb-3 accent-green">Short Bio (50 Words)</h3>
               <p className="text-ink-3 font-bold leading-relaxed">
-                Daniel Kliewer investigates architectures for computational sovereignty. His work examines local-first AI, cognitive memory, graph-based reasoning, and autonomous agents. He is the author of Sovereign AI, a book tracing the architecture of intelligence you own.
+                Daniel Kliewer researches how to reduce the cost of understanding human knowledge. His work examines knowledge compilation, compile-time AI, cognitive memory, and local-first systems. He is the author of Sovereign AI, a book on building infrastructure for understanding rather than generation.
               </p>
             </div>
             <div>
               <h3 className="font-display text-xl mb-3 accent-pink">Medium Bio (100 Words)</h3>
               <p className="text-ink-3 font-bold leading-relaxed">
-                Daniel Kliewer investigates architectures for intelligence that remains under its user&apos;s control. His work spans cognitive memory systems, graph-based reasoning, local inference, and autonomous agent architectures. He approaches AI as a system to construct rather than a service to consume — each layer owned and understood by its operator. His book, Sovereign AI, traces this architectural reasoning from first principles to production deployment. He documents his investigations through open-source code, technical writing, and public research.
+                Daniel Kliewer researches how to reduce the cost of understanding human knowledge. His work spans knowledge compilation, compile-time AI, cognitive memory, decision graphs, and local-first inference. He approaches AI as infrastructure for understanding rather than a generator of more text — systems that organize what we know so more people can learn it. His book, Sovereign AI, traces this reasoning from first principles to working systems. He documents his investigations through open-source code, technical writing, and public research.
               </p>
             </div>
             <div>
               <h3 className="font-display text-xl mb-3 accent-orange">Long Bio (250 Words)</h3>
               <p className="text-ink-3 font-bold leading-relaxed">
-                Daniel Kliewer investigates architectures for computational sovereignty — the design and engineering of intelligence infrastructure that answers to its user rather than a third party. His work examines how cognitive memory systems, graph-based reasoning, local inference, and modular agent architectures compose into intelligence that persists independently of cloud infrastructure.
+                Daniel Kliewer researches how to reduce the cost of understanding human knowledge — the idea that human progress depends on how efficiently what we already know can move from one person to the next. His work examines how knowledge compilation, compile-time AI, cognitive memory, and decision graphs turn static documents into navigable, inspectable understanding.
               </p>
               <p className="text-ink-3 font-bold leading-relaxed mt-4">
-                Rather than treating AI as an API to call, his work treats it as a system to construct, where every architectural layer is owned and inspectable. The central investigation: what changes when intelligence infrastructure belongs entirely to the person using it? The answers are architectural — explicit memory replacing context windows, graph reasoning replacing flat retrieval, modular cognition replacing monolithic models, and local-first computing replacing cloud dependence as the default position.
+                Rather than treating AI as a generator of more text, his work treats it as infrastructure for understanding, where every layer is owned, local-first, and inspectable. The central question: what changes when knowledge is compiled once and explored by everyone? The answers are architectural — structured semantic artifacts replacing ad-hoc retrieval, graph reasoning replacing flat search, persistent memory replacing context windows, and local systems replacing cloud dependence as the default.
               </p>
               <p className="text-ink-3 font-bold leading-relaxed mt-4">
-                Each project tests a specific hypothesis. Sovereign Memory Bank explores whether agents can maintain self-evolving, persistent knowledge. Dynamic Persona MoE RAG examines whether routed specialist models outperform monolithic reasoning. These are not products. They are answers to specific architectural questions.
+                Each project tests a specific hypothesis. The Sovereign Knowledge Compiler explores whether a corpus can be compiled into a decision graph that people navigate instead of re-deriving. Knowledge Compiler SDK makes that compilation programmable. These are not products. They are answers to specific questions about how understanding is made cheaper.
               </p>
               <p className="text-ink-3 font-bold leading-relaxed mt-4">
-                As the author of Sovereign AI, Daniel presents the synthesis of this architectural investigation — eleven chapters that trace the logic from first principles through production deployment. He documents his work publicly: the code on GitHub, the reasoning in the blog, the synthesis in the book. The work is ongoing. The questions remain open.
+                As the author of Sovereign AI, Daniel presents the synthesis of this investigation — chapters that trace the logic from first principles through working systems. He documents his work publicly: the code on GitHub, the reasoning in the blog, the synthesis in the book. The work is ongoing. The questions remain open.
               </p>
             </div>
           </div>

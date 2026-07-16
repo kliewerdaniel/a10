@@ -4,11 +4,11 @@ import Link from 'next/link';
 
 export const metadata = {
   title: {
-    default: 'Sovereign Intelligence Stack Projects',
+    default: 'Research Directions',
     template: '%s',
   },
   description:
-    'Explore the sovereign AI architecture — 80 repositories across 7 layers testing how intelligence can be locally owned. Research embedded in the code.',
+    'The projects on this site, grouped by the larger questions they explore — knowledge compilation, compile-time AI, local-first systems, cognitive memory, and more. All working toward one mission: reducing the cost of understanding human knowledge.',
 };
 
 export default function ProjectsPage() {
@@ -30,6 +30,7 @@ export default function ProjectsPage() {
     <div className="min-h-screen">
       <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto text-center">
+          <span className="mono text-green text-xs mb-4 block">One Mission, Many Directions</span>
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl mb-6 tracking-tight">
             {architecture.title}
           </h1>

@@ -34,6 +34,14 @@ export function ProjectDetail({ project, relatedProjects }: ProjectDetailProps) 
         </div>
       </div>
 
+      {/* Mission Context */}
+      {project.mission_context && (
+        <div className="mt-6 border-l-4 border-green bg-surface px-5 py-4">
+          <p className="mono text-xs text-green font-bold mb-2">In Service of the Mission</p>
+          <p className="text-ink-3 leading-relaxed">{project.mission_context}</p>
+        </div>
+      )}
+
       {/* Main Content */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Left Column */}
