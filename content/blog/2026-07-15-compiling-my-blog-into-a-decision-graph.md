@@ -74,6 +74,8 @@ Drag the concept graph. Hover a node — size is frequency, color is theme, edge
 
 The demo app is static, deployed to Vercel, and reads a single `dataset.json` the compiler emitted. The 3D graph, the stats, the cards — none of it was hand-authored. It is the compiled corpus, visualized.
 
+Compiling the blog was the proof. Compiling the *whole ecosystem* is the point: the [Sovereign AI Ecosystem](https://sovereign-ecosystem.vercel.app/) site runs the same Discoverable Knowledge SDK over the book, the blog, the open-source Stack, and the Observatory at once — a cross-cutting `concept` layer links every post, chapter, and module into one traversable graph, so an agent can follow any idea (recipe, signal router, observatory) across the entire body of work.
+
 ## Why this matters
 
 The standard story is: dump documents in a vector store, retrieve the top-k at query time, let the model re-reason every time. That re-pays the reasoning cost on every query and never compounds. Compiling flips it:
