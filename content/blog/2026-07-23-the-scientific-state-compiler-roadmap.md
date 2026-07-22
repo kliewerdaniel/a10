@@ -95,7 +95,7 @@ Source code becomes an intermediate representation, gets optimized through passe
 and is emitted as an executable that is then version-controlled and released.
 Science has the same shape and has never had the tooling:
 
-```
+```bash
 Software:  source → compiler → executable → version control → releases
 Science:   papers → state compiler → understanding artifact → version control → scientific releases
 ```
@@ -172,7 +172,7 @@ bottlenecks, and incomplete evidence.
 
 The compiler reverses the traditional workflow:
 
-```
+```bash
 Papers → Evidence → Claims → Contradictions → Missing explanations → Unanswered Questions → Research Opportunities
 ```
 
@@ -225,7 +225,7 @@ of how all of that changed.
 
 Science is a **state machine**, not a document collection:
 
-```
+```bash
 Scientific State(t0) → new evidence → Scientific State(t1) → new evidence → State(t2)
 ```
 
@@ -259,7 +259,7 @@ maximize knowledge gain, not interest.
 
 The pipeline:
 
-```
+```bash
 Scientific State → Uncertainty Detection → Hypothesis Generation → Hypothesis Ranking
 → Experiment Simulation → Expected Outcome Prediction → Experiment Recommendation → Research Program
 ```
@@ -288,7 +288,7 @@ variation as the discriminating experiment.
 This stage is the highest-risk (a wrong hypothesis may sound novel; validation can
 take decades) but transformational. And it closes the loop:
 
-```
+```bash
 Reality → Experiments → Papers → Compiler → Scientific State → New Questions → Hypotheses → Experiments → Reality
 ```
 
