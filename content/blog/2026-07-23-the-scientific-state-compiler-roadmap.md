@@ -25,7 +25,7 @@ tags:
   - uncertainty
   - scientific-state
   - research-roadmap
-draft: true
+draft: false
 ---
 
 # Compiling the State of Human Understanding: A Roadmap for the Scientific State Compiler
