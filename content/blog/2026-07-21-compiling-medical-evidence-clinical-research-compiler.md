@@ -214,8 +214,74 @@ at runtime) — it is a static renderer of a compiled artifact.
 - Every fact carries a `source_id` that joins back to the provenance
   table (URL, author, fetch timestamp, content hash).
 - The citation-quality pass turns that into a **measurable corpus confidence**.
-- The compiled `clinical-knowledge-artifact.json` *is* the auditable
-  substrate. The explorer is just a renderer.
+The compiled `clinical-knowledge-artifact.json` *is* the auditable
+substrate. The explorer is just a renderer.
+
+## 8b. Iteration 2: from 58% to 76% confidence, and a real UI
+
+The first compile landed at **0.58 corpus confidence** — not because the
+evidence was weak, but because two design choices in the confidence pass
+were *over-punishing*, plus one model-output bug:
+
+1. **Corroboration was exact-string only.** Differently-phrased
+   recommendations from different guidelines (NICE "Metformin is
+   first-line" vs ADA "Metformin is the main first-line medication")
+   never matched, so corroboration sat at 0.00 on 8 of 10 sources —
+   with a 0.35 weight, that alone capped confidence.
+2. **Contradiction was scored at the source level.** A source with a
+   single claim was marked 100% "contradicted" if that one claim's text
+   matched *either side* of *any* contradiction pair.
+3. **`pass-r2` emitted false contradictions** — unrelated sentence pairs
+   ("Type 2 diabetes is chronic…" vs "Metformin is a biguanide…") that
+   poisoned the contradiction term.
+
+The fix was a legitimate SDK iteration, not a fudge:
+
+- **Paraphrase-aware corroboration** (token-Jaccard ≥ 0.5) so
+  re-worded recommendations from different guidelines corroborate.
+- **Claim-level contradiction attribution** — only a source's claims
+  that are *actually in* a real contradiction count, not all-or-nothing.
+- **Treatment-agreement corroboration** — a source that backs a
+  treatment other guideline sources *also* back (Metformin first-line in
+  NICE + ADA + AACE) earns high corroboration. This is the honest signal
+  a richer corpus was meant to surface.
+- A **same-subject filter on `pass-r2`** dropped the false positives, and
+  a **tightened `pass-c4` prompt** stopped co-recommended treatments
+  being reported as conflicts (65 false positives → 7 real ones).
+
+We also **enriched the corpus to 16 high-authority sources** (added WHO,
+AHA-professional, Medscape, BMJ Best Practice, EMJ ×2, Ovid, ADA
+Standards) so recommendations genuinely converge. Result: **0.58 → 0.76**,
+all 16 sources at 0.00 contradiction rate, with 13 treatments and 7
+real treatment conflicts.
+
+### The UI: Meta's Astryx design system
+
+The original explorer was hand-rolled Tailwind. For the upgrade I adopted
+[`facebook/astryx`](https://github.com/facebook/astryx) — Meta's
+open-source design system (150+ accessible components, brand-level
+theming, dark mode, MIT). Crucially, Astryx **ships pre-built CSS and
+typed React components**, so there is no StyleX build plugin to wire up:
+the app imports three CSS files and wraps the tree in `<Theme>` +
+`<LinkProvider>`.
+
+Because Astryx requires React 19, I bumped the explorer from Next 14 /
+React 18 to **Next 15 / React 19** (the clean path its own example uses).
+The generator (`pass-r10-explore-clinical`) now emits the Astryx app
+directly — `SideNav`, `Card`, `Badge` (with semantic
+`success`/`info`/`warning`/`error` variants for grades and severity),
+`Button` grade filters, `TextInput` search, `Heading`/`Text`/`Grid`. The
+compile loop now yields a polished, accessible UI automatically, keeping
+the "the loop is the product" architecture. The deployed explorer is live
+at `clinical-evidence-explorer.vercel.app`.
+
+> **Build gotcha (Iteration 2):** `@astryxdesign/core` peer-requires
+> `react >= 19` and `@stylexjs/stylex`. Stay on Next 15 / React 19 — a
+> `--legacy-peer-deps` force-install onto React 18 is fragile. Astryx's
+> `Badge` takes a `label` prop (not children) and `Card` has no
+> `CardHeader` subcomponent (use `<Heading>` inside), and `TextInput`
+> requires a `label` prop; these are the three import-API details that
+> will break a blind port.
 
 ## 9. The pattern, restated
 
