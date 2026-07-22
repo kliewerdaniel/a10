@@ -2,11 +2,11 @@
 author: Daniel Kliewer
 canonical_url: /blog/2026-07-21-research-compiler-scientific-discovery
 date: 07-21-2026
-description: "A retrospective that crosses a threshold: the Clinical Research Compiler is no longer a better research assistant. It is a proposed computational model for scientific discovery — optimizing scientific progress, not information retrieval."
+description: "A research vision: why scientific knowledge needs a new computational architecture. The Clinical Research Compiler SDK is an early prototype of a scientific reasoning compiler that transforms literature into versioned understanding — not a better research assistant."
 layout: post
-title: 'Beyond the Research Assistant: A Research Compiler as a Computational Model for Scientific Discovery'
-og:description: "We built a clinical research aide. The retrospective argues the project should aim far higher: a research compiler that transforms the literature into versioned scientific understanding and helps humanity create new knowledge."
-og:title: 'A Research Compiler for Scientific Discovery, Not Retrieval'
+title: 'A Research Compiler for Scientific Understanding, Not a Better Research Assistant'
+og:description: "Current AI retrieves and summarizes knowledge. A research compiler should transform scientific literature into versioned representations of understanding — evidence graphs, causal models, contradiction maps, unknowns, hypotheses, and research opportunities."
+og:title: 'A Research Compiler for Scientific Understanding'
 og.type: article
 og.url: /blog/2026-07-21-research-compiler-scientific-discovery
 image: "/images/12092025/uncensored-ai-chatbot-architecture-diagram.png"
@@ -26,271 +26,274 @@ tags:
 draft: false
 ---
 
-# Beyond the Research Assistant: A Research Compiler as a Computational Model for Scientific Discovery
+# A Research Compiler for Scientific Understanding, Not a Better Research Assistant
 
 *By Daniel Kliewer · 2026-07-21*
 
-We built a Clinical Research Compiler. It discovers sources, extracts treatments with
-evidence grades, surfaces conflicts, tracks guideline evolution, and renders a
-provenance-tracked artifact. It works, it is reproducible, it is deployed.
+This is not primarily a description of a software project. It is a research vision — an
+argument for why scientific knowledge requires a new computational architecture, and what
+that architecture should look like.
 
-But reading the run back, something more interesting happened than "we shipped an app." The
-retrospective stopped being a story about a better interface or a better RAG system. It
-started asking what a *compiler for science* should actually produce. And that question
-crosses a threshold.
+The immediate occasion is a build we shipped: the **Clinical Research Compiler**, an
+extension of the Research Compiler Agent SDK that discovers clinical sources, extracts
+treatments with evidence grades, surfaces conflicts, tracks guideline evolution, and emits a
+provenance-tracked artifact rendered as a live explorer. That system works. But reading the
+run back, the interesting question is not "did it deploy." It is whether the thing we built
+is the right *category* of tool — and the answer is that it is only the first instance of a
+much larger idea.
 
-**A research compiler should not optimize information retrieval. It should optimize
-scientific progress.**
+**Current AI systems primarily retrieve and summarize existing knowledge. A research
+compiler should instead transform scientific literature into versioned representations of
+scientific understanding.**
 
-That sounds subtle. It is not. It completely changes the SDK.
+That sentence is the thesis. The rest of this essay explains it.
 
-## 1. The sentence that should define the SDK
+## 1. The distinction we kept missing
 
-This is the line I would build everything around:
+For most of this project we described the tool as a *research aide*. A research aide is,
+honestly, a better search engine. The thing we were actually circling is closer to a
+**scientific reasoning compiler**. The distinction is not cosmetic — it changes what the
+system is for:
 
-> **A research compiler periodically transforms the world's scientific literature into
-> versioned representations of current scientific understanding, producing hypotheses,
-> explanations, and research opportunities that are fully traceable to their supporting
-> evidence.**
+| Research aide | Research compiler |
+|---|---|
+| Finds papers | Finds relationships |
+| Summarizes evidence | Synthesizes evidence |
+| Answers questions | Generates questions |
+| Retrieves known knowledge | Produces structured understanding |
+| Helps researchers work faster | Changes what researchers can discover |
 
-Notice the emphasis. It is no longer on *documents*. It is on **scientific understanding**.
-The unit of output is not a paper, a summary, or a retrieved passage. It is a
-*representation of what we know* — and the gaps, contradictions, and opportunities inside
-it — each step traceable back to the literature it came from.
+A research aide reduces the cost of *reading* scientific knowledge. A research compiler
+reduces the cost of *generating new scientific understanding*. Those are different products.
+The first optimizes consumption. The second optimizes discovery.
 
-That sentence reframes the whole project from an application into a **proposed
-computational model for scientific discovery**.
+## 2. The purpose is not cheaper reading
 
-## 2. The pipeline shift
+The next version of the SDK should be built around one statement:
 
-Today the pipeline is essentially:
+> **The purpose of a research compiler is not to reduce the cost of reading scientific
+> knowledge. It is to reduce the cost of generating new scientific understanding.**
 
-```
-Papers
-  → Search
-    → Summaries
-      → Research assistant
-```
-
-That is useful. It is also not transformative. It optimizes *finding and consuming*
-knowledge — the job of search engines and research assistants.
-
-The pipeline we actually want is:
-
-```
-Scientific literature
-  → Compiler
-    → Structured scientific understanding
-      → Research acceleration
-```
-
-Here the compiler is not *serving humans information*. It is *serving humans new
-understanding* — and, downstream, the opportunities to extend it. The compiler's customer
-is not a reader. It is the scientific process itself.
-
-## 3. What the run actually built — and how far it is from the target
-
-Being honest about the run matters more now, because the run is the *first rung* of the
-ladder, not the destination. Here is what we can claim.
-
-**The architecture is the precondition, and it held.** Compile once, render forever. The
-artifact is a versioned JSON (`clinical-knowledge-artifact/1.0`); every fact carries a
-`source_id`; every source joins back to a provenance table. That reproducibility is exactly
-what a discovery compiler needs: you cannot compile understanding across a corpus you
-cannot re-read deterministically. This is the foundation the ambitious version builds on.
-
-**We engineered the confidence metric honestly.** First compile: 0.58. We resisted fudging
-the bar and instead fixed the measurement — paraphrase-aware corroboration, claim-level
-contradiction attribution, treatment-agreement signal — and tightened the conflict pass (65
-false positives → 7 real). It landed at **0.76** because the *measurement* became correct.
-Honest metrics are a prerequisite for trusting any hypothesis the compiler later emits.
-
-**We made the generator own the UI** (Astryx, Next 15 / React 19) so future iterations spend
-energy on *what the app shows* — synthesis and opportunity — rather than styling.
-
-So we built a working **research aide**: it retrieves, structures, and renders clinical
-knowledge. And that is precisely the ceiling we have to name. The run optimized
-*information retrieval and consumption*. It did **not** optimize scientific progress. Every
-output was reconstructable from the inputs by a human in an afternoon. We assembled
-knowledge; we did not compile understanding.
-
-## 4. Where we failed — measured against the new target
-
-Reframed through the discovery-compiler lens, the failures are sharper and more consequential
-than CSS bugs:
-
-**We optimized retrieval, not progress.** The entire pipeline — discover, extract, grade,
-conflict, timeline — is retrieval-and-structuring. None of it asks "what should we now
-*do*?" or "what do we now *know that we didn't*?" It serves consumption.
-
-**We never compressed the literature.** We held 16 sources and emitted treatments, grades,
-conflicts, a timeline. We never progressively compressed the corpus into higher-level
-representations — mechanisms, causal relationships, unresolved controversies, unknowns.
-The product is still "the literature, structured," not "what the literature *means*."
-
-**We never produced a scientific work product.** The outputs are artifacts, not the graphs
-a scientist could immediately use: no Evidence Graph, no Consensus Graph, no Contradiction
-Graph, no Mechanism Graph, no Hypothesis Graph, no Research-Opportunity Graph, no
-Experimental-Design Graph.
-
-**We never estimated knowledge state.** No Knowledge Entropy / Stability (is this question
-solved or chaos?), no Knowledge Gain changelog ("what did humanity learn this version?"), no
-Expected Information Gain ("which experiment increases knowledge most?").
-
-**We never generated theories or programs.** No competing explanatory models, no
-five-year research roadmaps, no Discovery Distance, no Opportunity Density map, no
-Missing-Vocabulary detection across disciplines.
-
-**The discovery traps we did hit** are worth keeping on the record, because they block the
-ambitious version too: discovery counted dead links and login walls as "16 sources"; the
-0.76 was a process score mislabeled as clinical trust; we shipped on a happy-path local
-check twice (you caught both unreadable-UI bugs); we never audited extraction against
-ground truth (a "70-7.5%" typo reached the UI); the conflicts were weak and possibly
-circular. A compiler that emits hypotheses on unaudited, partly-unreadable sources is worse
-than an aide — it manufactures authority.
-
-## 5. Redefining the compiler outputs: scientific work products
-
-Today the outputs are mostly artifacts. Tomorrow they should become **scientific work
-products** — structures a scientist can pick up and use immediately. Concretely, the
-compiler should emit a ladder of graphs:
+That means the output chain cannot stop at "disease → papers → summaries." It has to become
+a compilation pipeline in which each stage is a higher-level intermediate representation:
 
 ```
-Knowledge Graph
-  → Evidence Graph
-    → Consensus Graph
-      → Contradiction Graph
-        → Mechanism Graph
-          → Hypothesis Graph
-            → Research-Opportunity Graph
-              → Experimental-Design Graph
+Literature
+  → Claims
+    → Evidence
+      → Mechanisms
+        → Consensus
+          → Contradictions
+            → Unknowns
+              → Hypotheses
+                → Research Opportunities
 ```
 
-Each is a different level of compression, each traceable to sources. The Evidence Graph
-says what is supported. The Consensus Graph says where the field agrees. The Contradiction
-Graph says where it doesn't. The Mechanism Graph says *how* things work. The Hypothesis
-Graph says what is still unknown-but-implied. The Research-Opportunity Graph says where to
-spend effort. The Experimental-Design Graph says *how* to spend it.
+Every arrow is a compiler pass. Every stage preserves provenance back to the literature it
+came from. By the time you reach "Research Opportunities," you are no longer looking at the
+literature — you are looking at a structured representation of what the literature *means*,
+and where it is silent.
 
-## 6. The compiler passes that make this a discovery engine
+## 3. Papers are source code
 
-These are the passes the next iterations must add. They are the substance of "optimize
-scientific progress" rather than "optimize retrieval."
+The metaphor that makes this concrete: **papers are equivalent to source code.** A compiler
+does not reason over `.c` files as prose; it parses them into an intermediate representation
+and reasons over that. We should treat the literature the same way.
 
-**Scientific Compression.** Humans don't want papers; they want "what changed our
-understanding?" The compiler should progressively compress the literature into
-increasingly higher-level representations while preserving provenance. Compile 10,000
-papers → 37 mechanisms → 9 unresolved controversies → 22 high-confidence causal
-relationships → 5 major unknowns. That is an entirely different product, and the provenance
-chain is what makes it trustworthy.
+The true primitive is not the document. It is the **claim**. A claim is a typed, machine-
+reasoned unit:
 
-**Knowledge Gain.** Every compiler version should answer *"what did humanity learn?"* — not
-*"what papers were published?"* A version changelog reads: *new causal mechanism, stronger
-evidence, weaker evidence, new contradiction, consensus shifted, new unexplored hypothesis,
-research gap discovered.* That becomes a **changelog for science itself**.
+```json
+{
+  "claim": "Drug X reduces mortality",
+  "population": "adults > 65",
+  "intervention": "Drug X",
+  "outcome": "all-cause mortality",
+  "confidence": 0.82,
+  "supporting_sources": ["src-1", "src-7"],
+  "contradictions": ["src-12"]
+}
+```
 
-**Knowledge Entropy / Stability.** Estimate, per question, whether the literature is solved
-or chaos. High entropy: contradictory literature, poor replication, weak studies,
-inconsistent outcomes. Low entropy: decades of agreement, strong meta-analyses, reproducible
-mechanisms. This is useful immediately — it tells a reader where certainty lives.
+The compiler reasons over *claims*, not PDFs. Documents become inputs to a parser; claims
+become the IR the rest of the pipeline operates on. This is the single most important
+architectural upgrade, because everything downstream — evidence graphs, contradiction
+compilation, hypothesis generation — only becomes possible once the unit of knowledge is a
+claim with structure, confidence, and provenance, rather than a paragraph.
 
-**Expected Information Gain.** Instead of recommending papers, recommend *experiments*. The
-compiler should ask: *if we spend one million dollars, which experiment increases human
-knowledge the most?* This aligns with active learning and optimal experiment design — it is
-fundamentally different from retrieval.
+## 4. The artifacts a compiler should emit
 
-**Research Programs, not just questions.** Don't emit a lone "research question." Emit a
-five-year roadmap: Experiment 1 → Experiment 2 → Experiment 3 → Clinical Trial → Guideline
-Update. The compiler starts thinking longitudinally.
+Once claims are the primitive, the compiler produces scientific work products — structures a
+scientist can pick up and use immediately. The highest-value ones:
 
-**Discovery Distance.** Measure how many inference steps separate known knowledge from an
-undiscovered hypothesis. Paper A → Paper B → Paper C → compiler discovers D: Discovery
-Distance = 3. Very small distances are likely high-value hypotheses — "close" to existing
-evidence but not yet explicit.
+**Evidence Graphs.** A normal knowledge graph says `Drug → treats → Disease`. An evidence
+graph makes the *evidence* a graph object:
 
-**Opportunity Density.** Map every field across Known / Unknown / Contradicted / Missing /
-Understudied / Impossible. The compiler literally charts *where scientific opportunity
-exists*.
+```
+Drug → reduces mortality
+  Supported by:  RCT A, Meta-analysis B
+  Contradicted by: Study C
+  Confidence: Moderate
+  Population: Adults > 65
+```
 
-**Automatic Theory Generation.** Don't stop at one hypothesis — generate *competing
-explanatory models*. Scientists don't just need answers; they need better explanations.
+The evidence itself becomes a first-class node, not a footnote.
 
-**Missing-Vocabulary Detection.** Fields often discover the same phenomenon under different
-names. The compiler should flag equivalent concepts, mechanisms, biomarkers, and pathways
-*across disciplines* — a direct win for interdisciplinary synthesis.
+**Contradiction Compilation.** This is one of the highest-value features, because science
+progresses by *resolving* disagreements. The compiler should output:
 
-## 7. Redefining the optimization target
+```
+Conflict #142
+  Claim: "Treatment X improves survival"
+  Conflict source:
+    Study A: positive result
+    Study B: negative result
+  Possible explanation:
+    ✓ Population difference
+    ✓ Dosage difference
+    ✓ Follow-up duration
+    ✓ Statistical power
+```
 
-Today the optimization target is approximately *accuracy*. That is the wrong objective for a
-discovery engine. It should be a **multi-objective optimization problem**:
+That is far more valuable than "here are 10 papers." It turns a pile of citations into a
+*scientific debate map*.
 
-- Maximize **novelty**
-- Maximize **correctness**
-- Maximize **reproducibility**
-- Maximize **explanatory power**
-- Maximize **expected information gain**
-- Minimize **unsupported speculation**
-- Minimize **contradiction without evidence**
-- Preserve **complete provenance**
+**Knowledge Delta.** Every compilation should produce a **Git diff for science**:
 
-Notice that "accuracy" doesn't even survive as the lone target — and that "preserve complete
-provenance" is a hard constraint, not a soft preference. A hypothesis with no traceable
-evidence path fails the build, however novel.
+```
+Clinical Knowledge Compiler v1.4
+  New:        + Mechanism discovered
+              + Trial evidence added
+  Changed:    ~ Treatment recommendation confidence increased
+  Removed:    - Weak hypothesis rejected
+```
 
-## 8. What this run proved, and the roadmap it implies
+This is where the "compiler" metaphor becomes real. The literature is recompiled
+periodically; each version is a diff against the last. The artifact is not a snapshot — it is
+a changelog of understanding.
 
-Strip away the bugs and the run proved three things worth keeping — and now we can see
-exactly how they seed the ambitious version:
+**Unknown Detection — the killer feature.** The question is not "what do we know?" It is
+"what *should* exist but does not?" Example:
 
-1. **The compile-once, versioned, provenance-tracked artifact works.** That is the
-   substrate every graph in Section 5 is built from. It is the *representation* primitive the
-   discovery compiler needs.
-2. **You can raise a confidence number honestly by fixing the measurement.** That discipline
-   is what makes Knowledge Entropy and Knowledge Gain *trustworthy* rather than decorative.
-3. **A generator can own the UI**, so the explorer can render the new work products
-   (Opportunity Density maps, Experimental-Design Graphs) without a styling detour.
+```
+Known:    A causes B
+          B causes C
+Missing:  No study has tested whether A causes C
+```
 
-What it did **not** prove is the thing that matters: that the system optimizes scientific
-progress. It doesn't yet. So iteration three's definition of done becomes a roadmap toward
-the model, not just a cleaner aide:
+The compiler generates **research gaps** by finding the missing edge in a causal chain.
 
-- **Preconditions (carry over):** provenance table with zero counted-but-unusable sources;
-  confidence honestly labeled a process score with a clinical-validity disclaimer; automated
-  contrast + hydration CI check; extraction audit with citation-coverage; falsifiable,
-  rare-by-default conflicts; preview-deploy smoke test.
-- **Compression pass:** emit the graph ladder of Section 5, each node traceable to sources.
-- **Knowledge Gain + Entropy:** per-version "what humanity learned" changelog and a
-  Stability estimate per question.
-- **Synthesis + Expected Information Gain:** a `pass-synthesize` that emits novel,
-  evidence-traced insights *and* the experiment that would resolve the largest remaining
-  uncertainty.
-- **Theory + Program generation:** competing explanatory models and a five-year research
-  roadmap per high-opportunity area.
-- **Discovery Distance + Opportunity Density + Missing-Vocabulary:** the maps that tell a
-  scientist *where* to look.
-- **Expert-recognition gate:** synthesized output is judged novel / correct / worth pursuing
-  by a domain expert, and that score is reported alongside artifact integrity.
+**Hypothesis Generation with Provenance.** Not "AI thinks X." Instead:
 
-## 9. The reframe
+```
+Generated hypothesis: Pathway A may influence Disease B.
+  Reason:
+    Paper 1: A activates mechanism M
+    Paper 2: M influences symptom S
+    Paper 3: S predicts Disease B
+  Novelty:    High
+  Confidence: Moderate
+```
 
-Search engines help us *find* knowledge. Research assistants help us *consume* it. Research
-compilers should help humanity *create new* knowledge.
+The evidence chain is attached, so an expert can evaluate the hypothesis rather than trust
+it.
 
-That single sentence reframes the SDK from an application into a proposed computational
-model for scientific discovery. It also aligns with where clinical AI is actually heading:
-away from isolated tools and toward integrated knowledge infrastructures — standardized
-representations, continuous evaluation, and decision support rather than simple retrieval.
+**Research Opportunity Ranking.** The compiler ranks opportunities by novelty, impact,
+evidence support, feasibility, and **expected information gain**, and outputs "here are the
+20 experiments humanity should consider."
 
-The 0.76 confidence number was never the deliverable. The deliverable is the loop — honest
-enough to be improved, and aimed high enough to matter. This run built the first rung: a
-reproducible compiler that assembles clinical knowledge with provenance. The next rungs are
-the ones that make it a compiler for science itself — one that periodically transforms the
-literature into versioned understanding, and tells us not just what we read, but what we
-learned, what we contradict, and what we should do next.
+**Why This Matters.** Every artifact answers "why should a human care?" — e.g., "Three
+independent pathways converge on target X; current therapies ignore this pathway; potential
+impact: a new therapeutic direction."
+
+## 5. Two modes: researcher and expert
+
+The UI needs two modes, and the second is where the product becomes unique:
+
+- **General researcher:** "What is known about Alzheimer's?"
+- **Expert scientist:** "What assumptions in Alzheimer's research are weakest?"
+
+The first mode is a research aide. The second is a reasoning compiler — it interrogates the
+*structure* of the field, not its summary. Competing Theory Generation belongs here: the
+compiler produces Model A (inflammation-first) vs Model B (protein-folding), each with an
+evidence bar, and surfaces what is unresolved ("which mechanism is upstream?"). The output
+is a debate map, not a verdict.
+
+## 6. Benchmarks around discovery, not summarization
+
+The hardest and most important shift is how we judge the thing. Do **not** benchmark "did it
+summarize correctly?" Benchmark "did it identify something useful?"
+
+- Can experts recognize the generated hypotheses as valuable?
+- Does it rediscover known research gaps (face validity)?
+- Does it *predict* future papers (prospective validity)?
+- Does it identify contradictions earlier than reviewers do?
+
+The success criterion is not whether a researcher saves time reading papers. It is whether
+domain experts discover useful insights that were not explicitly written in any single paper
+but *emerge from the structured synthesis of thousands of sources*.
+
+## 7. The evolved SDK architecture
+
+Concretely, the SDK should evolve into a pipeline of typed passes, each emitting an
+intermediate representation that the next pass consumes — exactly like a source-code
+compiler:
+
+```
+Clinical Research Compiler SDK
+  Pass 1:  Document Parser        → markdown / source IR
+  Pass 2:  Claim Extractor        → claim IR        (papers become claims)
+  Pass 3:  Evidence Mapper        → evidence graph  (claims weighted by sources)
+  Pass 4:  Causal Reasoner        → mechanism / causal graph
+  Pass 5:  Contradiction Detector → contradiction map
+  Pass 6:  Consensus Builder      → consensus model
+  Pass 7:  Unknown Detector       → research gaps
+  Pass 8:  Hypothesis Generator   → hypotheses w/ provenance
+  Pass 9:  Research Planner       → ranked opportunities + experiment designs
+  Output:  Scientific Understanding Artifact
+```
+
+The Clinical Research Compiler we shipped is an early prototype of this idea — it already has
+a Document Parser, a Claim Extractor (in embryo), an Evidence Mapper, a Contradiction
+Detector, and a Consensus/Unknown view via the guideline timeline. What it lacks is the
+causal reasoner, the unknown detector, the hypothesis generator, and the research planner.
+Those are the passes that turn an aide into a compiler.
+
+## 8. What the build proved, and what it didn't
+
+Being honest about the prototype matters, because it anchors the vision in something real.
+The build proved the *substrate* works: a versioned, provenance-tracked artifact; an honest
+confidence metric (we raised 0.58 → 0.76 by fixing the measurement, not the bar); a generator
+that owns the UI so future work products render without a styling detour. It also surfaced
+the traps that block the ambitious version — discovery counted dead links and login walls as
+"16 sources"; the confidence score was a process metric mislabeled as clinical trust; we
+shipped on a happy-path local check twice; we never audited extraction against ground truth.
+
+What it did **not** prove is the thing this essay argues for: that the system reduces the
+cost of *generating understanding*. It doesn't yet. It retrieves, structures, and renders.
+The roadmap above is precisely the set of passes that would let it cross that line.
+
+## 9. The reframe, and why the timing is right
+
+Search engines organize information. Research assistants summarize information. **Research
+compilers compile scientific understanding.**
+
+That is the line the whole project should be built around. It reframes the SDK from an
+application into a proposed computational architecture for science itself.
+
+The timing is aligned with broader clinical AI trends. Current medical-AI work is
+increasingly moving toward structured, auditable systems rather than purely conversational
+interfaces — traceable trial-eligibility reasoning, structured clinical research artifacts,
+continuous evaluation. The differentiator here is that we push the structured-artifact idea
+one level higher: from *clinical data* artifacts to *scientific knowledge* artifacts. The
+compiler periodically recompiles the literature into intermediate representations that
+preserve provenance, uncertainty, disagreement, and evolution over time. The output is not a
+summary. It is understanding, versioned — and the next important scientific question, made
+visible.
 
 ---
 
-*This retrospective covers the Clinical Research Compiler run extending the [Research
-Compiler Agent SDK](https://github.com/kliewerdaniel/research-compiler-agent-sdk). The live
-explorer is at `clinical-evidence-explorer.vercel.app`. The companion build post —
-"Compiling Medical Evidence" — documents the pipeline itself.*
+*This essay extends the Clinical Research Compiler, built on the [Research Compiler Agent
+SDK](https://github.com/kliewerdaniel/research-compiler-agent-sdk). The live explorer is at
+`clinical-evidence-explorer.vercel.app`. The companion build post — "Compiling Medical
+Evidence" — documents the pipeline itself.*
