@@ -89,7 +89,7 @@ The Scientific Discovery Compiler does the same thing to a corpus:
 Because every pass writes a typed, schema-validated IR, the loop is observable.
 When a hypothesis is wrong you do not interrogate a black box. You trace it:
 
-```
+```bash
 hyp-1.grounded_in → gap-3 → causal_edge ce-4 → claim clm-9 → source src-2
 ```
 
