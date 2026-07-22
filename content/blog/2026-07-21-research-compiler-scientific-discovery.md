@@ -121,6 +121,100 @@ architectural upgrade, because everything downstream — evidence graphs, contra
 compilation, hypothesis generation — only becomes possible once the unit of knowledge is a
 claim with structure, confidence, and provenance, rather than a paragraph.
 
+## 3b. The distinction that is everything
+
+There is a sharper way to state the whole thesis, and it is the part worth building the
+project around:
+
+> **A research compiler should not compile papers. It should compile the *state of
+> understanding* represented by papers.**
+
+That distinction is everything. A PDF compiler produces PDFs. A code compiler produces
+executable programs. A research compiler should produce **explanations, models, hypotheses,
+unresolved questions, and experimental opportunities.** The artifact is not the literature.
+The artifact is *scientific understanding*.
+
+This reframes the real research question. We are no longer asking "how do we make researchers
+more efficient?" We are asking: **can we create computational infrastructure that changes how
+scientific discovery itself happens?** That is a much more interesting question — and it
+places this work inside the broader movement toward AI systems that assist with scientific
+reasoning, hypothesis generation, and automated research workflows. Recent efforts from
+groups like Google Research and others are moving in this direction, but they often focus on
+*agents that perform parts of the research loop*. The angle here is different and, arguably,
+more foundational: **create the knowledge substrate those agents reason over.**
+
+## 3c. The Scientific IR — a stack of intermediate representations
+
+The deepest technical contribution follows from the "papers are source code" metaphor.
+Software compilers don't jump straight from source to machine code; they pass through
+intermediate representations, and every transformation is inspectable. The research compiler
+needs the same:
+
+```
+Papers
+  → Claims IR
+    → Evidence IR
+      → Mechanism IR
+        → Causal IR
+          → Consensus IR
+            → Discovery IR
+```
+
+Each pass transforms the knowledge state into a higher-level representation, preserving
+provenance at every step. The compiler becomes *explainable by construction* — you can open
+any IR and see exactly how the understanding was derived. This is also what makes the
+downstream artifacts trustworthy: a hypothesis in the Discovery IR carries a traceable path
+back through Causal, Mechanism, Evidence, and Claims IR to the original papers.
+
+## 3d. Discovery Artifacts — what nobody has stated yet
+
+The current explorer answers "what did we find?" The next output should answer "what has
+nobody explicitly stated yet?" Three shapes:
+
+**Hidden connection** — Mechanism A appears in diabetes research; Mechanism B in Alzheimer's.
+No paper connects them. But A → pathway X → inflammation → B. The compiler surfaces a
+cross-domain hypothesis nobody wrote.
+
+**Missing experiment** — Known: drug affects biomarker X; X predicts outcome Y. Missing: no
+trial measures whether the drug changes Y *through* X. Suggested study attached.
+
+**Field-level contradiction** — The field assumes A causes B. The evidence actually shows A
+causes B *only under condition C*. Research opportunity: define the boundary conditions.
+
+These are the artifacts that make an expert lean in — not a summary of what they already
+knew, but the missing edge in the synthesis.
+
+## 3e. Scientific Git — version-controlled understanding
+
+Every compilation should produce a versioned snapshot, like a commit:
+
+```
+Clinical Knowledge v2026.07
+  Added:       + New mechanism
+  Changed:     ~ Treatment confidence increased
+  Deprecated:  - Previous hypothesis weakened
+  Unresolved:  ? 14 contradictions remain
+```
+
+Scientific understanding becomes **version controlled**. This is perhaps the most intuitive
+explanation of why the compiler metaphor matters: the literature is recompiled periodically,
+and each version is a diff against the last. You can bisect it, revert it, and ask "what did
+we learn between v2026.06 and v2026.07?" — a changelog for science itself.
+
+## 3f. The Expert Surprise Score — the benchmark that matters
+
+The hardest question is how to measure whether the compiler discovered something valuable.
+Not papers processed, not retrieval accuracy, not summary quality. The right instrument is an
+**Expert Surprise Score**: would a domain expert say
+
+- "I knew this already,"
+- "I suspected this," or
+- "I had never connected these before?"
+
+The highest-value output is the third category. That single metric reframes evaluation around
+*discovery* rather than *fidelity* — and it is exactly the prospective benchmark (can experts
+recognize valuable hypotheses? does it predict future papers?) made operational.
+
 ## 4. The artifacts a compiler should emit
 
 Once claims are the primitive, the compiler produces scientific work products — structures a
@@ -206,9 +300,20 @@ evidence support, feasibility, and **expected information gain**, and outputs "h
 independent pathways converge on target X; current therapies ignore this pathway; potential
 impact: a new therapeutic direction."
 
-## 5. Two modes: researcher and expert
+## 5. From Evidence Explorer to Understanding Explorer
 
-The UI needs two modes, and the second is where the product becomes unique:
+The current explorer answers "what evidence exists?" The next version should answer "what
+does this evidence *collectively imply*?" The interface should stop feeling like a database
+and start feeling like exploring a field's mental model. Sections like:
+
+- **Current Understanding**
+- **Known Mechanisms**
+- **Strong Evidence** / **Weak Evidence**
+- **Active Debates**
+- **Unknowns**
+- **Potential Discoveries**
+
+The UI still needs two modes — but the second is where the product becomes unique:
 
 - **General researcher:** "What is known about Alzheimer's?"
 - **Expert scientist:** "What assumptions in Alzheimer's research are weakest?"
@@ -218,6 +323,14 @@ The first mode is a research aide. The second is a reasoning compiler — it int
 compiler produces Model A (inflammation-first) vs Model B (protein-folding), each with an
 evidence bar, and surfaces what is unresolved ("which mechanism is upstream?"). The output
 is a debate map, not a verdict.
+
+And the explorer should optimize for **knowledge gaps** — the places where human knowledge is
+*inefficiently structured*. Consider a field with 10,000 papers, 500 mechanisms, 50 diseases,
+and 3 disconnected research communities. The compiler notices that Mechanism X is central yet
+studied separately in three domains. That is exactly where breakthroughs occur: connecting
+previously separated knowledge. This idea has precedent in computational theories of
+discovery and knowledge-network research — and it is a direct output of the Discovery IR in
+§3c.
 
 ## 6. Benchmarks around discovery, not summarization
 
@@ -242,22 +355,29 @@ compiler:
 ```
 Clinical Research Compiler SDK
   Pass 1:  Document Parser        → markdown / source IR
-  Pass 2:  Claim Extractor        → claim IR        (papers become claims)
-  Pass 3:  Evidence Mapper        → evidence graph  (claims weighted by sources)
-  Pass 4:  Causal Reasoner        → mechanism / causal graph
-  Pass 5:  Contradiction Detector → contradiction map
-  Pass 6:  Consensus Builder      → consensus model
+  Pass 2:  Claim Extractor        → Claims IR       (papers become claims)
+  Pass 3:  Evidence Mapper        → Evidence IR     (claims weighted by sources)
+  Pass 4:  Causal Reasoner        → Mechanism / Causal IR
+  Pass 5:  Contradiction Detector → Contradiction map
+  Pass 6:  Consensus Builder      → Consensus IR
   Pass 7:  Unknown Detector       → research gaps
   Pass 8:  Hypothesis Generator   → hypotheses w/ provenance
-  Pass 9:  Research Planner       → ranked opportunities + experiment designs
+  Pass 9:  Research Planner       → Discovery IR: ranked opportunities + experiment designs
   Output:  Scientific Understanding Artifact
 ```
 
+This is the Scientific IR stack from §3c made operational as named passes — each one a typed
+transformation of the knowledge state, each inspectable. The Research Planner is the capstone:
+its output is not "interesting hypothesis" but "what would we do next?" — e.g., *Hypothesis:
+pathway X affects disease Y (confidence 0.71); cheapest validation: Experiment A; highest-
+value validation: Experiment B; clinical relevance: high.* The compiler connects knowledge to
+action.
+
 The Clinical Research Compiler we shipped is an early prototype of this idea — it already has
 a Document Parser, a Claim Extractor (in embryo), an Evidence Mapper, a Contradiction
-Detector, and a Consensus/Unknown view via the guideline timeline. What it lacks is the
-causal reasoner, the unknown detector, the hypothesis generator, and the research planner.
-Those are the passes that turn an aide into a compiler.
+Detector, and a Consensus/Unknown view via the guideline timeline. What it lacks is the causal
+reasoner, the unknown detector, the hypothesis generator, and the research planner. Those are
+the passes that turn an aide into a compiler.
 
 ## 8. What the build proved, and what it didn't
 
@@ -278,8 +398,25 @@ The roadmap above is precisely the set of passes that would let it cross that li
 Search engines organize information. Research assistants summarize information. **Research
 compilers compile scientific understanding.**
 
-That is the line the whole project should be built around. It reframes the SDK from an
-application into a proposed computational architecture for science itself.
+The sentence to build the whole project around is sharper still:
+
+> **The goal of a research compiler is not to automate scientists. It is to make the
+> accumulated knowledge of humanity computationally manipulable.**
+
+Because once knowledge becomes computationally manipulable, entirely new operations become
+possible. You can **diff** it, **optimize** it, **test its consistency**, **find its gaps**,
+**generate hypotheses**, **simulate consequences**, and **design experiments**. Those are
+impossible when knowledge exists only as disconnected papers.
+
+That reframes the SDK from an application into a proposed computational architecture for
+science — and it does not compete with scientific experts. It creates a new layer of
+infrastructure *between literature and human reasoning*. The analogy is the one that explains
+the whole vision:
+
+- **Before compilers,** programmers thought in machine instructions.
+- **After compilers,** they could think in abstractions.
+- **A research compiler could do the same for science:** before, scientists think directly in
+  papers; after, they think in *compiled representations of knowledge*.
 
 The timing is aligned with broader clinical AI trends. Current medical-AI work is
 increasingly moving toward structured, auditable systems rather than purely conversational
@@ -290,6 +427,14 @@ compiler periodically recompiles the literature into intermediate representation
 preserve provenance, uncertainty, disagreement, and evolution over time. The output is not a
 summary. It is understanding, versioned — and the next important scientific question, made
 visible.
+
+The future versions name themselves:
+
+- **v1 — Research Retrieval Compiler:** "turn papers into structured evidence."
+- **v2 — Research Understanding Compiler:** "turn evidence into models."
+- **v3 — Scientific Discovery Compiler:** "turn models into discoveries."
+
+We shipped an early v1. The rest of this essay is the direction of travel.
 
 ---
 
