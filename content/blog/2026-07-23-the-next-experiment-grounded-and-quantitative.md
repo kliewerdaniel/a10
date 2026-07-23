@@ -277,7 +277,7 @@ to `kliewerdaniel/scientific-question-compiler`).
 **Runtime constraint — broken hermes venv.** Do **not** use the `openai` package.
 Call the endpoint via stdlib `urllib.request` exactly as `inference.py` does.
 Always prefix Python runs with:
-```
+```bash
 env -u PYTHONPATH -u VIRTUAL_ENV KC_MAX_TOKENS=12000 KC_TIMEOUT=600 /usr/bin/python3 <script>.py
 ```
 
