@@ -205,7 +205,7 @@ Per the standing convention, three artifacts:
   — the schema, the four methods, the benchmark corpora (with real DOIs), the
   scorer, and the explorer. No third-party Python dependencies; every model call
   goes through the standard library to a local endpoint.
-- **Explorer:** a static site with the falsifiability question, the
+- **Explorer:** [Pied Popper](https://popper-pied.vercel.app/) a static site with the falsifiability question, the
   compiler-versus-control table, the per-discovery rediscovery results, and every
   compiled hypothesis with its full provenance and scores.
 - **This post.**
