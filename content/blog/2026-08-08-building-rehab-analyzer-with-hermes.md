@@ -49,12 +49,14 @@ decisions; the decisions are what survive.
 this property, and what's it worth after?**
 
 1. **Geocode** the address (Nominatim) → lat/lon.
-2. **Fetch metadata** from free-tier providers — **RentCast** and **ATTOM** — covering
-   year built, square footage, beds/baths, lot size, last sale price, property taxes,
-   and features.
-3. **Reconcile** across providers: canonical provider, unit-vs-building scope
-   detection, per-field provenance, and conflict flags (e.g. divergent `year_built`).
-   ARV is pinned to the last sale price when available.
+2. **Fetch metadata** from the free-tier **ATTOM** provider — covering year built,
+   square footage, beds/baths, lot size, last sale price, property taxes, and
+   features.
+3. **Reconcile** the record: canonical provider, unit-vs-building scope detection,
+   per-field provenance, and conflict flags (e.g. divergent `year_built`). With a
+   single metadata source the reconciler notes that no cross-provider comparison is
+   available; it re-engages automatically if a second provider is added. ARV is
+   pinned to the last sale price when available.
 4. **Estimate rehab cost** with a **local, OpenAI-compatible LLM** (I run `gemma4` on
    `:8080` — no cloud, no API bill).
 5. **Pull real photos** of the property from a chain of legitimate sources, so the
@@ -76,9 +78,9 @@ Next.js app is what runs.
 ```
 rehab-analyzer/
 ├── nextjs/            # ACTIVE app
-│   ├── app/           # / (analyze), /history, /api/analyze, /api/photo/[file]
+│   ├── app/           # /, /history, /history/[id], /api/analyze, /api/history, /api/history/[id], /api/photo/[file]
 │   ├── lib/
-│   │   ├── adapters/  # rentcast.ts, attom.ts
+│   │   ├── adapters/  # attom.ts (metadata-only)
 │   │   ├── photos.ts  # getPropertyPhoto() source chain
 │   │   ├── db.ts      # node:sqlite (address-keyed cache)
 │   │   ├── llm.ts     # local OpenAI-compatible client
@@ -187,16 +189,16 @@ npx playwright install chromium
 
 ### 3. Provider adapters (free-tier schemas we verified)
 
-Free tiers are deliberately limited — no photos, no AVM. We reverse-engineered the
-real response shapes so you don't have to.
+Free tiers are metadata-only by design — no photos, no AVM. We reverse-engineered the
+real response shape for the one provider we use so you don't have to.
 
-**RentCast** — base `https://api.rentcast.io/v1`, header `X-Api-Key`:
-
-- `GET /properties?address=<addr>` returns a **list**; take `[0]`.
-- Fields: `yearBuilt, squareFootage, bedrooms, bathrooms, lotSize, propertyType, features{}`.
-- `lastSalePrice` is in **cents** (e.g. `66454000` → `$664,540`). Convert.
-- `propertyTaxes` is a per-year **dict**, not cents — pass it through, don't multiply.
-- No photos on `/properties`. `/properties/{id}/valuation` returns `value: null` on free.
+> **Note:** the app originally reconciled **RentCast + ATTOM** across providers. RentCast
+> was later dropped (it 404s for many addresses and adds no free-tier value); **ATTOM**
+> is now the sole metadata source. The reconciler still handles a single record
+> gracefully — it emits a "Single metadata provider — no cross-provider comparison
+> available" note instead of fabricating a comparison. The reconciliation logic
+> (scope detection, provenance, conflict flags) is intact and re-engages automatically
+> if a second provider is added back.
 
 **ATTOM** — base `https://api.gateway.attomdata.com/propertyapi/v1.0.0`, header `apikey`:
 
@@ -208,9 +210,10 @@ real response shapes so you don't have to.
 The adapter contract is an abstract `ProviderAdapter` with `get_property(address)`
 and `health_check()`. Each adapter maps the provider's response onto a shared
 `PropertyRecord` (metadata-only: `avm=null`, with `data_warnings` for missing
-photos/avm). Reconciliation then compares the two records, detects scope mismatch
-(unit record vs building record), and flags conflicting fields rather than averaging
-them blindly.
+photos/avm). Reconciliation then detects scope mismatch
+(unit record vs building record) and flags conflicting fields rather than averaging
+them blindly; with a single provider it notes that no cross-provider comparison is
+available rather than fabricating one.
 
 ### 4. Local LLM estimate
 
@@ -268,7 +271,6 @@ interior); labels are advisory.
 `.env.local` (gitignored, never committed):
 
 ```bash
-RENTCAST_API_KEY=...
 ATTOM_API_KEY=...
 REHAB_LLM_BASE_URL=http://localhost:8080/v1
 REHAB_LLM_MODEL=gemma-4-26B-A4B-it-ultra-uncensored-heretic-Q4_K_M.gguf
@@ -296,6 +298,27 @@ export PYTHONPATH=""; export PYTHONHOME=""   # strip agent poison
 ```
 
 Then `curl -X POST http://127.0.0.1:3100/api/analyze -H "Content-Type: application/json" -d '{"address":"311 Cedar St, Seattle, WA 98121"}'`.
+
+### 8. Post-build refinements: CRUD, downloads, hardening
+
+After the first push we hardened the app into something you'd actually keep using:
+
+- **Saved-analysis CRUD.** The `node:sqlite` cache gained `DELETE` and a partial
+  `UPDATE` (rename label, free-text notes, and a manual rehab-cost override
+  low/high that takes precedence over the model's estimate). A self-migrating schema
+  adds these columns on first run.
+- **`GET` / `PATCH` / `DELETE` on `/api/history/[id]`.** PATCH validates its body and
+  only writes the keys you send; the UI's history list has inline rename + delete,
+  and the detail page has a notes field and override inputs.
+- **One-click downloads.** Every gallery image and the hero now carry a
+  `/api/photo/<file>?download=1` link that sets `Content-Disposition: attachment`
+  (verified: correct filename + `Content-Type`). The detail view also offers
+  "Copy JSON" and "Download all".
+- **Hardened `analyze`.** The route now validates `address` is a non-empty string
+  capped at 200 characters and returns sanitized errors (no stack traces leak).
+- **ATTOM-only metadata.** RentCast was removed entirely (it 404s for many
+  addresses and added no free-tier value). The reconciler handles a single record
+  gracefully and re-engages cross-provider comparison if a second source returns.
 
 ---
 
@@ -341,11 +364,13 @@ Then `curl -X POST http://127.0.0.1:3100/api/analyze -H "Content-Type: applicati
 
 The app is committed and pushed to
 [github.com/kliewerdaniel/rehab-analyzer](https://github.com/kliewerdaniel/rehab-analyzer)
-(public). It runs locally, pulls real Redfin + Places
-galleries, and estimates rehab cost from a local LLM. Two visible refinements remain:
-the Redfin "interior" label is a heuristic (floor-plan thumbnails get mislabeled), and
-some addresses 404 on RentCast (so metadata falls back to ATTOM only) — both worth a
-follow-up pass.
+(public). It runs locally, pulls a real **Redfin** gallery (most authoritative for the
+exact building) with **Google Places** as a fallback, and estimates rehab cost from a
+local LLM. Beyond the initial build it now supports **saved-analysis CRUD** (rename,
+notes, manual rehab-cost overrides), **one-click photo downloads**, and a **hardened
+`analyze` route** (input validation + sanitized errors). One visible refinement
+remains: the Redfin "interior" label is a heuristic (floor-plan thumbnails get
+mislabeled) — worth a follow-up pass.
 
 The deeper point stands: a local-first tool, built by an agent, reviewed by a human,
 running on your own hardware with your own model. No cloud dependency for the
