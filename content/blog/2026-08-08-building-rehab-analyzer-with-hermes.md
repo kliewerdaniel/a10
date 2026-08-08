@@ -21,7 +21,6 @@ tags:
   - agent-infrastructure
 ---
 
-![Rehab Analyzer result view — Redfin image gallery plus the reconciled rehab estimate and line-item table with evidence flags.](/images/rehab-analyzer-result-view.png)
 
 ## Why this post exists
 
