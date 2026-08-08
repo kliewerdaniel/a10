@@ -342,7 +342,7 @@ Then `curl -X POST http://127.0.0.1:3100/api/analyze -H "Content-Type: applicati
 
 The app is committed and pushed to
 [github.com/kliewerdaniel/rehab-analyzer](https://github.com/kliewerdaniel/rehab-analyzer)
-(private repo, ready to flip public). It runs locally, pulls real Redfin + Places
+(public). It runs locally, pulls real Redfin + Places
 galleries, and estimates rehab cost from a local LLM. Two visible refinements remain:
 the Redfin "interior" label is a heuristic (floor-plan thumbnails get mislabeled), and
 some addresses 404 on RentCast (so metadata falls back to ATTOM only) — both worth a
