@@ -7,6 +7,7 @@
     "build": "next build",
     "prebuild": "node scripts/generate-feed.mjs",
     "postbuild": "node scripts/ping-sitemap.mjs",
+    "build:convergence": "node scripts/build-convergence.mjs",
     "start": "next start",
     "lint": "eslint"
   },
