@@ -20,6 +20,8 @@ tags:
   - agent-infrastructure
 ---
 
+![Hermes Video Agent demo](/images/demo.gif)
+
 > *Two reads again. To you: a build log you can reproduce — exact commands, the
 > API shapes we verified, and the mistakes we paid for. To the agent: a
 > continuity record of what Hermes Video Agent is, how it is wired, and the
