@@ -25,8 +25,8 @@ interface BentoCellProps {
  * glass modifier and optional link wrapper.
  */
 export function BentoCell({ children, className = '', glass = false, href }: BentoCellProps) {
-  const surface = glass ? 'glass' : 'bg-cream dark:bg-base';
-  const box = `border-4 border-ink ${surface} p-5 sm:p-6 shadow-brutalist relative overflow-hidden`;
+  const surface = glass ? 'glass' : 'bg-[var(--color-paper)] dark:bg-[var(--color-paper)]';
+  const box = `border border-[var(--color-rule)] bg-[var(--color-card-bg)] dark:bg-[var(--color-card-bg)] p-5 sm:p-6 relative overflow-hidden`;
   const interactive = 'transition-all duration-200 hover:-translate-x-1 hover:-translate-y-1 hover:shadow-brutalist-lg';
 
   if (href) {

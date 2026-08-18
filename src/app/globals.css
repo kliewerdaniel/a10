@@ -16,30 +16,13 @@
   --color-ink-2: #3A362D;
   --color-ink-3: #6B6657;
   --color-rule: #D8CFB8;
-  --color-green: #1F8A4C;
-  --color-green-dark: #136636;
-  --color-pink: #C44E86;
-  --color-orange: #D8541F;
-  --color-yellow: #B8860B;
-  --color-blue: #2A5BA8;
-  --color-purple: #6D28D9;
-
-  /* Brutalist-name aliases kept so legacy class usage still resolves */
-  --color-cream: var(--color-paper);
-  --color-cream-2: var(--color-paper-2);
-  --color-base: var(--color-paper);
-  --color-base-2: var(--color-paper-2);
-  --color-surface-base: var(--color-paper-2);
-  --color-surface-highlight: var(--color-paper-3);
-  --color-text: var(--color-ink);
-  --color-text-2: var(--color-ink-2);
-  --color-text-3: var(--color-ink-3);
-  --color-border: var(--color-rule);
-  --color-card-bg: var(--color-paper);
-  --color-glass-bg: rgba(247, 243, 234, 0.88);
-  --color-code-bg: var(--color-paper-2);
-  --color-selection-bg: rgba(31, 138, 76, 0.22);
-  --color-scrollbar-track: var(--color-paper);
+  --color-green: #147A3F;
+  --color-green-dark: #0F5C2E;
+  --color-pink: #B23A6E;
+  --color-orange: #C2451A;
+  --color-yellow: #9A6F08;
+  --color-blue: #234E94;
+  --color-purple: #5B21B6;
 
   --font-display: var(--font-serif), Georgia, serif;
   --font-body: var(--font-body), system-ui, sans-serif;
@@ -48,6 +31,25 @@
 }
 
 :root {
+  /* Editorial semantic tokens — defined here as REAL runtime variables so
+     components that read var(--color-ink/-ink-2/-ink-3/-green/...) resolve in
+     both light and dark. The @theme inline block only emits *utility classes*,
+     not these variables, so without this block var(--color-ink-3) etc. fall
+     through to an inherited color and go invisible in one mode. */
+  --color-paper: #F7F3EA;
+  --color-paper-2: #EFE8D8;
+  --color-paper-3: #E7DECB;
+  --color-ink: #16140F;
+  --color-ink-2: #3A362D;
+  --color-ink-3: #6B6657;
+  --color-green: #147A3F;
+  --color-green-dark: #0F5C2E;
+  --color-pink: #B23A6E;
+  --color-orange: #C2451A;
+  --color-yellow: #9A6F08;
+  --color-blue: #234E94;
+  --color-purple: #5B21B6;
+
   --color-base: #F7F3EA;
   --color-base-2: #EFE8D8;
   --color-surface-base: #EFE8D8;
@@ -78,6 +80,24 @@
   --color-code-bg: #242118;
   --color-selection-bg: rgba(122, 196, 149, 0.28);
   --color-scrollbar-track: #14130F;
+
+  /* Editorial semantic tokens — must be overridden for dark, since the
+     @theme inline block only defines their LIGHT values. Without these,
+     text painted with var(--color-ink) etc. collapses to near-black on the
+     near-black dark background (invisible in dark mode). */
+  --color-paper: #14130F;
+  --color-paper-2: #1C1A15;
+  --color-paper-3: #242118;
+  --color-ink: #F1ECE0;
+  --color-ink-2: #D9D2C2;
+  --color-ink-3: #9A9384;
+  --color-green: #5BBF82;
+  --color-green-dark: #7AC495;
+  --color-pink: #E58AB6;
+  --color-orange: #E8784A;
+  --color-yellow: #D9A93A;
+  --color-blue: #6FA0E0;
+  --color-purple: #A78BFA;
 }
 
 * { box-sizing: border-box; }
