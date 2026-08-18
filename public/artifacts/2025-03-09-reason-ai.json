@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "id": "2025-03-09-reason-ai",
+  "title": "ReasonAI: Complete Guide to Building Local-First AI Agents with Advanced Reasoning and Task Decomposition",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-03-09",
+  "updated_at": "2025-03-09",
+  "canonical_url": "/blog/2025-03-09-reason-ai",
+  "content_hash": "sha256:eb12452ec92f19eb7ec5594eff40331111bd22eb5157e189640ad20e5696cae1",
+  "topics": [
+    "reasonai",
+    "ai-agents",
+    "local-llms",
+    "task-decomposition",
+    "real-time-reasoning",
+    "ollama",
+    "next-js",
+    "ai-development",
+    "agent-frameworks",
+    "local-first-ai"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "building intelligent",
+    "local privacy",
+    "ollama reasoning agent framework",
+    "core concepts",
+    "agents matter",
+    "core concept",
+    "task decomposition architecture",
+    "problem it solves",
+    "it works the",
+    "implementation insights the",
+    "dependency tracking",
+    "contextual memory as",
+    "reasoning streams traditional",
+    "server implementation the",
+    "client implementation on",
+    "key benefits this",
+    "ollama at",
+    "install ollama",
+    "privacy architecture the",
+    "model selection guide different",
+    "task type",
+    "recommended model",
+    "practical implementation",
+    "building your first agent",
+    "project setup",
+    "agent core implementation create",
+    "task decomposition",
+    "step execution",
+    "step result",
+    "user interface",
+    "advanced customization once",
+    "knowledge you",
+    "adding tools",
+    "external capabilities for",
+    "use case",
+    "trip planner",
+    "user input",
+    "agent execution flow",
+    "japan result",
+    "performance optimization for",
+    "error handling robust",
+    "possible cause"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-11-15-building-evaluating-local-research-assistant-graphrag-vero-eval",
+      "weight": 0.0211,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-02-25-building-an-ai-powered-filename-generator-chrome-extension",
+      "weight": 0.0196,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-13-simulacra",
+      "weight": 0.0189,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-28-basic-autogen",
+      "weight": 0.0179,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-10-12-django-react",
+      "weight": 0.0167,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-26-deerflow-2-building-sovereign-ai-agent-systems",
+      "weight": 0.0143,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-09-nextjs-ollama-custom-agent-framework",
+      "weight": 0.0141,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-01-16-solo-business-ventures",
+      "weight": 0.0139,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "When a user asks an AI to \"Plan a European vacation,\" this seemingly simple request requires dozens of distinct reasoning steps",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Traditional AI interactions are black boxes\" - you submit a request and wait for a complete response",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "At the heart of the framework is Ollama, an open-source tool for running LLMs locally:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "3. **Sequential Steps**: Once flights are chosen, proceeds to accommodation and transportation planning",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Robust error handling is crucial for agent reliability:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This pattern represents a fundamental shift from cloud-dependent AI to sovereign, local-first artificial intelligence",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2025-11-15-building-evaluating-local-research-assistant-graphrag-vero-eval",
+    "2025-02-25-building-an-ai-powered-filename-generator-chrome-extension",
+    "2025-03-13-simulacra",
+    "2024-11-28-basic-autogen",
+    "2024-10-12-django-react",
+    "2026-03-26-deerflow-2-building-sovereign-ai-agent-systems",
+    "2025-03-09-nextjs-ollama-custom-agent-framework",
+    "2025-01-16-solo-business-ventures"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-03-09-reason-ai.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "eb12452ec92f19eb7ec5594eff40331111bd22eb5157e189640ad20e5696cae1",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

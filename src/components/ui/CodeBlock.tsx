@@ -18,13 +18,13 @@ export function CodeBlock({ code, language }: CodeBlockProps) {
   };
 
   return (
-    <div className="my-6 border-4 border-ink relative group shadow-brutalist">
+    <div className="my-6 border border-[var(--color-rule)] relative group">
       {/* Header bar */}
-      <div className="flex items-center justify-between px-4 py-2 bg-ink border-b-4 border-ink">
-        <span className="mono text-[10px] text-cream/60">{language}</span>
+      <div className="flex items-center justify-between px-4 py-2 bg-[var(--color-ink)] border-b border-[var(--color-rule)]">
+        <span className="font-mono text-[10px] text-[var(--color-paper)]/60">{language}</span>
         <button
           onClick={handleCopy}
-          className="mono text-[10px] text-cream/60 hover:text-cream transition-colors cursor-pointer flex items-center gap-1.5"
+          className="font-mono text-[10px] text-[var(--color-paper)]/60 hover:text-[var(--color-paper)] transition-colors cursor-pointer flex items-center gap-1.5"
         >
           {copied ? (
             <>
@@ -53,7 +53,7 @@ export function CodeBlock({ code, language }: CodeBlockProps) {
           >
             {tokens.map((line, i) => (
               <div key={i} {...getLineProps({ line })} className="table-row">
-                <span className="table-cell pr-4 text-right text-ink-3/40 select-none text-xs w-8">{i + 1}</span>
+                <span className="table-cell pr-4 text-right text-[var(--color-paper)]/40 select-none text-xs w-8">{i + 1}</span>
                 <span className="table-cell">
                   {line.map((token, key) => (
                     <span key={key} {...getTokenProps({ token })} />

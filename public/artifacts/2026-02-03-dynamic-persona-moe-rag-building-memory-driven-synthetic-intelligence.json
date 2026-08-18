@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "id": "2026-02-03-dynamic-persona-moe-rag-building-memory-driven-synthetic-intelligence",
+  "title": "Dynamic Persona MoE RAG: Building a Memory-Driven Synthetic Intelligence with Knowledge Graphs and Persona Evolution",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-02-03",
+  "updated_at": "2026-02-03",
+  "canonical_url": "/blog/2026-02-03-dynamic-persona-moe-rag-building-memory-driven-synthetic-intelligence",
+  "content_hash": "sha256:c2e65800705e75c5436ea75ab72d84e2445ad609cc2abd31b73466d956842716",
+  "topics": [
+    "ai",
+    "knowledge-graphs",
+    "persona-engineering",
+    "rag",
+    "memory-systems",
+    "synthetic-intelligence",
+    "machine-learning",
+    "llm"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "mutable persona state",
+    "temporal knowledge graph",
+    "core abstractions",
+    "state vector",
+    "state transition system",
+    "knowledge graph definition",
+    "subgraph extraction",
+    "retrieval rather",
+    "persona generation",
+    "graph state",
+    "knowledge graph",
+    "dynamic persona mixture",
+    "expert personas the",
+    "gating function",
+    "expert composition the",
+    "inference lens",
+    "deterministic context assembly the",
+    "persona reinforcement when",
+    "personas each",
+    "system overview at",
+    "implementation guide",
+    "canonical storage",
+    "file system layout markdown",
+    "markdown ingestion each",
+    "knowledge graph construction",
+    "graph schema the",
+    "incremental graph updates the",
+    "persona engine",
+    "persona definition",
+    "persona state the",
+    "persona derivation",
+    "dynamic persona",
+    "subgraph retrieval",
+    "persona experts each",
+    "composition if",
+    "agentic context assembly agents",
+    "execution the",
+    "feedback loop",
+    "memory every",
+    "diagnostics the",
+    "this works this",
+    "architectural identity this"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-03-29-sovereign-synthesis",
+      "weight": 0.0312,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-29-architecture-of-autonomy",
+      "weight": 0.0308,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-retrieval-architecture-synthesis",
+      "weight": 0.0241,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-25-building-the-synthetic-analyst",
+      "weight": 0.0192,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-sovereign-ai-architecture-synthesis",
+      "weight": 0.0187,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-06-30-amis-in-action-autonomous-marketing-knowledge-graph",
+      "weight": 0.0179,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-25-synthetic-intelligence",
+      "weight": 0.0156,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-22-dynamic-persona-moe-rag",
+      "weight": 0.0154,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "blog system is not a publishing pipeline in the conventional sense, but a continuously evolving synthetic intelligence that treats writing itself as a form of memory. The archive of markdown files is not merely content to be rendered, indexed, or searched",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "that can be reasoned over, recomposed, and transformed as new information arrives. Each post becomes both an artifact and a structural element in a larger cognitive system whose primary purpose is synthesis rather than retrieval",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Short-term memory is implemented as a mutable persona state file that captures the current configuration of personality weights",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "These weights represent traits, priorities, tone, and behavioral tendencies that are fixed in the present moment but continuously adjustable in response to new events",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The short-term persona is grounded in a knowledge graph derived from source documents, structured data, or predefined schemas",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "interprets and composes context. Long-form documents in the knowledge base can be treated as time-indexed personas, capturing snapshots of perspective that evolve as new information arrives. This enables the system to reason not only over content, but over how its interpretive stance has changed across time",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "A central goal of this architecture is the generation of new personas as first-class artifacts",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "As interactions accumulate and new data is ingested, the system synthesizes updated or entirely new persona configurations",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "These personas are persisted within a file or graph-based structure, allowing them to be recalled, compared, or analyzed longitudinally",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The persona's primary operational role is to function as a lens through which the final language model inference is executed",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "LLMs, achieving a degree of deterministic behavior across inference engines. While outputs will never be perfectly identical, the persona ensures that the same conceptual and stylistic biases are applied regardless of provider",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "symbolic reasoning outputs, structured database queries, procedural memories, or dynamically generated subgraphs. The persona therefore not only influences generation, but actively shapes how context is assembled before inference",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Long-term memory is realized through the continuous ingestion of data into a persistent knowledge graph",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "at query time or incrementally maintained as structured representations that evolve with continued use. Nodes and relationships gain or lose salience based on how frequently and how recently they are accessed",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Time series information is therefore intrinsic to the graph, enabling decay functions, reinforcement effects, and temporal heuristics",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "A persona at a given moment in time can be described as a collection of interpretable trait keys, where each key has an associated numeric weight that changes over time. Each key represents a specific behavioral or stylistic dimension such as tone, epistemic stance, verbosity, or abstraction level",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The full persona is therefore the complete set of these key-weight pairs at that moment",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The set of keys is fixed across the system, while the weights evolve as the system interacts with new data and events",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This representation is not prompt text",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "It is a structured control surface that governs how context is assembled and how generation is shaped",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Short-term memory can be understood as a process that transforms the current persona into a new persona in response to an event. The persona at the next moment in time is produced by applying an update function to the current persona and the triggering event",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "In a typical update rule, each persona weight at the next moment is computed as a combination of its previous value and a contribution derived from the event",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "A decay factor controls how much of the old value is retained, while an event influence factor controls how strongly the event pushes the weight in a new direction",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Long-term memory is represented as a directed, labeled graph with time-aware metadata",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": ". Edges represent labeled relationships between those entities. Each node and edge stores semantic embeddings, symbolic attributes, and usage statistics that track how often and how recently they are accessed",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2026-03-29-sovereign-synthesis",
+    "2026-03-29-architecture-of-autonomy",
+    "2026-07-05-retrieval-architecture-synthesis",
+    "2026-01-25-building-the-synthetic-analyst",
+    "2026-07-05-sovereign-ai-architecture-synthesis",
+    "2026-06-30-amis-in-action-autonomous-marketing-knowledge-graph",
+    "2026-01-25-synthetic-intelligence",
+    "2026-01-22-dynamic-persona-moe-rag"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-02-03-dynamic-persona-moe-rag-building-memory-driven-synthetic-intelligence.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "c2e65800705e75c5436ea75ab72d84e2445ad609cc2abd31b73466d956842716",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

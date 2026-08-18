@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "id": "2026-07-05-retrieval-architecture-synthesis",
+  "title": "Retrieval Architecture: Memory Systems That Compound",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-07-05",
+  "updated_at": "2026-07-05",
+  "canonical_url": "/blog/2026-07-05-retrieval-architecture-synthesis",
+  "content_hash": "sha256:28a06859afd50858648931091a2b1fa1482583c1ee6a64b3e575816262f51532",
+  "topics": [
+    "retrieval-augmented-generation",
+    "sovereign-memory-bank",
+    "dynamic-persona-moe-rag",
+    "objective05",
+    "sovereigntyspec",
+    "graphrag",
+    "knowledge-graphs",
+    "local-first",
+    "local-first-ai",
+    "rag"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "retrieval architecture",
+    "memory systems that compound",
+    "sovereign memory bank",
+    "dynamic persona",
+    "executive summary this",
+    "memory bank",
+    "persistent infrastructure",
+    "systems are fragmented right",
+    "systems are stateless most",
+    "sovereign solution the",
+    "sovereign intelligence stack",
+    "sovereign retrieval architecture",
+    "knowledge graph",
+    "four pillars",
+    "sovereign retrieval",
+    "unified retrieval system",
+    "memory manager",
+    "initialize objective05",
+    "unified retrieval pipeline",
+    "advanced retrieval patterns",
+    "compounding retrieval",
+    "memory promotion",
+    "retrieval best practices",
+    "memory bank start",
+    "use persona",
+    "diversity use persona",
+    "leverage objective05",
+    "performance use objective05",
+    "specs use",
+    "compound over time capture",
+    "retrieval resources",
+    "start here",
+    "intermediate readers",
+    "advanced readers",
+    "is not",
+    "intelligence observatory",
+    "sovereign intelligence",
+    "model is not",
+    "loop is",
+    "autonomous sovereign",
+    "external references",
+    "related repositories",
+    "architectural investigation"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-07-05-getting-started-sovereign-ai",
+      "weight": 0.7222,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-sovereign-ai-architecture-synthesis",
+      "weight": 0.6111,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-03-the-model-is-not-the-product",
+      "weight": 0.6098,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-04-sovereign-intelligence-stack",
+      "weight": 0.5725,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-02-building-autonomous-sovereign-ai-with-autoresearch-loops-and-fine-tuned-expert-models",
+      "weight": 0.5485,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-03-the-sovereign-intelligence-observatory",
+      "weight": 0.5333,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-06-14-sovereign-memory-bank-a-deep-dive-into-autonomous-cognitive-memory-for-agent-systems",
+      "weight": 0.526,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-22-dynamic-persona-moe-rag",
+      "weight": 0.5152,
+      "basis": "shared-entity+crosslink"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Memory without structure is noise",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Structure without memory is stateless",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Sovereign retrieval is both",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Current RAG Systems Are Fragmented",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Right now, the RAG ecosystem is split across multiple disconnected systems:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Current RAG Systems Are Stateless",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Most RAG systems today are **stateless**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Every retrieval is a fresh start:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Every retrieval is a mystery",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Why it matters:** Current memory systems are flat",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Use Persona MoE for diverse retrieval strategies. It prevents tunnel vision",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Rust** provides performance, memory safety, and reliability. It's ideal for intelligence infrastructure where crashes are unacceptable",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "1. **Read the [Model Is Not the Product](/blog/2026-07-03-the-model-is-not-the-product) post** — Research validation",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "2. **Read the [Loop Is the Product](/blog/2026-07-03-the-sovereign-intelligence-observatory) post** — Intelligence Observatory deep dive",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Model Is Not the Product](/blog/2026-07-03-the-model-is-not-the-product) — Research validation",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Loop Is the Product](/blog/2026-07-03-the-sovereign-intelligence-observatory) — Intelligence Observatory deep dive",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Model Is Not the Product](/blog/2026-07-03-the-model-is-not-the-product)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Loop Is the Product](/blog/2026-07-03-the-sovereign-intelligence-observatory)",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/sovereign-memory-bank",
+    "https://github.com/kliewerdaniel/sovereign-memory-bank/blob/main/README.md",
+    "https://github.com/kliewerdaniel/dynamic-persona-moe-rag",
+    "https://github.com/kliewerdaniel/dynamic-persona-moe-rag/blob/main/README.md",
+    "https://github.com/kliewerdaniel/objective05",
+    "https://github.com/kliewerdaniel/objective05/blob/main/README.md",
+    "https://github.com/kliewerdaniel/sovereignspec",
+    "https://github.com/kliewerdaniel/sovereignspec/blob/main/README.md",
+    "https://github.com/microsoft/graphrag",
+    "https://microsoft.github.io/graphrag/",
+    "https://github.com/kliewerdaniel/sovereign-memory-bank",
+    "https://github.com/kliewerdaniel/sovereign-memory-bank",
+    "https://github.com/kliewerdaniel/sovereign-memory-bank",
+    "https://github.com/kliewerdaniel/dynamic-persona-moe-rag",
+    "https://github.com/kliewerdaniel/objective05",
+    "https://github.com/kliewerdaniel/sovereignspec",
+    "https://github.com/microsoft/graphrag",
+    "https://microsoft.github.io/graphrag/",
+    "https://github.com/coleam00/context-engineering-intro",
+    "https://github.com/ecc-ai/enterprise-code-compiler",
+    "https://github.com/kliewerdaniel/sovereign-intelligence-stack",
+    "https://github.com/kliewerdaniel/sovereign-memory-bank",
+    "https://github.com/kliewerdaniel/dynamic-persona-moe-rag",
+    "https://github.com/kliewerdaniel/objective05",
+    "https://github.com/kliewerdaniel/sovereignspec",
+    "https://www.amazon.com/Sovereign-AI-Architectural-Investigation-Local-First/dp/xxx"
+  ],
+  "related_artifacts": [
+    "2026-07-05-getting-started-sovereign-ai",
+    "2026-07-05-sovereign-ai-architecture-synthesis",
+    "2026-07-03-the-model-is-not-the-product",
+    "2026-07-04-sovereign-intelligence-stack",
+    "2026-07-02-building-autonomous-sovereign-ai-with-autoresearch-loops-and-fine-tuned-expert-models",
+    "2026-07-03-the-sovereign-intelligence-observatory",
+    "2026-06-14-sovereign-memory-bank-a-deep-dive-into-autonomous-cognitive-memory-for-agent-systems",
+    "2026-01-22-dynamic-persona-moe-rag"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-07-05-retrieval-architecture-synthesis.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "28a06859afd50858648931091a2b1fa1482583c1ee6a64b3e575816262f51532",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

@@ -1,0 +1,313 @@
+{
+  "schema_version": 1,
+  "id": "2026-07-05-sovereign-ai-architecture-synthesis",
+  "title": "Sovereign AI Architecture: Building Compounding Intelligence",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-07-05",
+  "updated_at": "2026-07-05",
+  "canonical_url": "/blog/2026-07-05-sovereign-ai-architecture-synthesis",
+  "content_hash": "sha256:8878ab23c9085ceb63fa54a388d4dfe2d5c24936e1b788ea3a65f992d83d6539",
+  "topics": [
+    "local-first-ai",
+    "ai-architecture",
+    "compounding-intelligence",
+    "recipe-compiler",
+    "signal-router",
+    "evaluation-loop",
+    "knowledge-graphs",
+    "intelligence-observatory",
+    "local-first",
+    "sovereign-intelligence-stack"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "building compounding intelligence",
+    "sovereign intelligence",
+    "model is not",
+    "loop is",
+    "autonomous sovereign",
+    "executive summary this",
+    "stateless interactions most",
+    "user prompt",
+    "model inference",
+    "loop problem even",
+    "capture decision",
+    "compound intelligence",
+    "sovereign solution the",
+    "sovereign intelligence stack",
+    "intelligence layer",
+    "context engineering",
+    "apprenticeship engine",
+    "intelligence observatory",
+    "pattern detection",
+    "knowledge systems",
+    "graph store",
+    "persistent memory",
+    "evaluation loop",
+    "signal drift",
+    "test generation",
+    "signal router",
+    "routing logic",
+    "signal types",
+    "recipe compiler",
+    "immutable recipes",
+    "integration layer",
+    "five layers explained",
+    "population stability index",
+    "compounding architecture",
+    "feedback loop the",
+    "intelligence observatory the",
+    "compounding intelligence every",
+    "related systems",
+    "sovereign memory bank",
+    "sensory buffer",
+    "working memory",
+    "semantic memory",
+    "episodic memory",
+    "procedural memory",
+    "dynamic persona",
+    "research validation",
+    "converging research threads the",
+    "residual context diffusion",
+    "context diffusion language",
+    "agentic execution",
+    "key researchers",
+    "apple research",
+    "thinking machines lab",
+    "implementation guide",
+    "full pipeline",
+    "autonomous evaluation",
+    "apprenticeship progression",
+    "design principles",
+    "known limitations",
+    "vector store",
+    "update pydantic",
+    "immediate priorities",
+    "the sovereign intelligence",
+    "building intelligence you",
+    "building intelligent memory",
+    "related repositories",
+    "research papers"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-07-05-getting-started-sovereign-ai",
+      "weight": 0.6538,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-04-sovereign-intelligence-stack",
+      "weight": 0.6264,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-local-ai-architecture-synthesis",
+      "weight": 0.6124,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-retrieval-architecture-synthesis",
+      "weight": 0.6111,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-03-the-model-is-not-the-product",
+      "weight": 0.5952,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-06-sovereign-ai-benchmarks-performance-results",
+      "weight": 0.5824,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-03-the-sovereign-intelligence-observatory",
+      "weight": 0.5617,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-02-building-autonomous-sovereign-ai-with-autoresearch-loops-and-fine-tuned-expert-models",
+      "weight": 0.5476,
+      "basis": "shared-entity+crosslink"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Intelligence is not the model",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Intelligence is the accumulated decisions that shaped the model",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The key insight: **Intelligence is not the model",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Intelligence is the accumulated decisions that shaped the model",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The result is a system that gets smarter over time — not through retraining, but through **compounding intelligence**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Most AI systems today are **stateless**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Every interaction is a fresh start:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Every conversation is a mystery",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Integration:** Recipes are stored in SQLite with FTS5 full-text search, enabling fast semantic search across all captured decisions",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Why it matters:** Not all tasks are created equal",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Why it matters:** Without evaluation, you have no way to know if your system is improving or degrading",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Why it matters:** Observability is the operating system",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Loop Is the Product](/blog/2026-07-03-the-sovereign-intelligence-observatory) — Intelligence Observatory deep dive",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Sovereign Intelligence Stack is not a linear pipeline",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "1. **Recipes** are captured by the Recipe Compiler",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "2. **Signals** are classified by the Signal Router",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "3. **Evaluations** are run by the Evaluation Loop",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "4. **Knowledge** is stored in the Knowledge Systems",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "5. **Observability** is provided by the Intelligence Observatory",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Sovereign Intelligence Stack is validated by three converging research threads:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Principle:** Recipes are captured once, never modified",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Updates are tracked as new versions",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Rationale:** Immutability ensures history is preserved",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Rationale:** Data sovereignty is a core value",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Principle:** Every decision produces a timeline event. Nothing is lost",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/sovereign-intelligence-stack",
+    "https://github.com/kliewerdaniel/sovereign-memory-bank",
+    "https://github.com/kliewerdaniel/dynamic-persona-moe-rag",
+    "https://github.com/kliewerdaniel/objective05",
+    "https://github.com/kliewerdaniel/sovereignspec",
+    "https://arxiv.org/abs/2601.22954",
+    "https://github.com/sgl-project/sglang",
+    "https://arxiv.org/abs/2305.xxxxx",
+    "https://github.com/kliewerdaniel/sovereign-intelligence-stack",
+    "https://github.com/kliewerdaniel/sovereign-intelligence-stack",
+    "https://github.com/kliewerdaniel/sovereign-memory-bank",
+    "https://github.com/kliewerdaniel/dynamic-persona-moe-rag",
+    "https://github.com/kliewerdaniel/objective05",
+    "https://github.com/kliewerdaniel/sovereignspec",
+    "https://arxiv.org/abs/2601.22954",
+    "https://github.com/sgl-project/sglang",
+    "https://github.com/coleam00/context-engineering-intro",
+    "https://github.com/ecc-ai/enterprise-code-compiler",
+    "https://github.com/anthropics/claude-memory",
+    "https://github.com/crewAIInc/crewAI",
+    "https://github.com/",
+    "https://github.com/microsoft/graphrag"
+  ],
+  "related_artifacts": [
+    "2026-07-05-getting-started-sovereign-ai",
+    "2026-07-04-sovereign-intelligence-stack",
+    "2026-07-05-local-ai-architecture-synthesis",
+    "2026-07-05-retrieval-architecture-synthesis",
+    "2026-07-03-the-model-is-not-the-product",
+    "2026-07-06-sovereign-ai-benchmarks-performance-results",
+    "2026-07-03-the-sovereign-intelligence-observatory",
+    "2026-07-02-building-autonomous-sovereign-ai-with-autoresearch-loops-and-fine-tuned-expert-models"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-07-05-sovereign-ai-architecture-synthesis.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "8878ab23c9085ceb63fa54a388d4dfe2d5c24936e1b788ea3a65f992d83d6539",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

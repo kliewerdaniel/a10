@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "id": "2026-01-25-dynamic-persona-moe-rag-building-a-sovereign-synthetic-intelligence-system",
+  "title": "Dynamic Persona MoE RAG - Building a Sovereign Synthetic Intelligence System",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-01-25",
+  "updated_at": "2026-01-25",
+  "canonical_url": "/blog/2026-01-25-dynamic-persona-moe-rag-building-a-sovereign-synthetic-intelligence-system",
+  "content_hash": "sha256:dfa07997ee3f0c066305f8df2ec89e3b3119ac548e4c1591737e4788fae77f0a",
+  "topics": [
+    "ai",
+    "machine-learning",
+    "local-first",
+    "privacy",
+    "sovereignty",
+    "synthetic-intelligence"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "dynamic persona",
+    "sovereign synthetic intelligence system",
+    "daniel kliewer",
+    "systems before",
+    "system architecture overview",
+    "input query",
+    "dynamic graph",
+    "persona store",
+    "graph traversal",
+    "graph snapshots",
+    "core components",
+    "entity constructor agent the",
+    "dynamic knowledge graph unlike",
+    "persona store the",
+    "orchestrator the",
+    "expansion the",
+    "evaluation each",
+    "pruning based",
+    "persona traversal system the",
+    "analytical traversal focuses",
+    "creative traversal emphasizes",
+    "pragmatic traversal prioritizes",
+    "scoring framework the",
+    "relevance scoring uses",
+    "consistency scoring measures",
+    "novelty scoring rewards",
+    "grounding scoring ensures",
+    "ollama integration the",
+    "persistence the",
+    "key innovations",
+    "scalability the",
+    "memory management",
+    "processing efficiency",
+    "scalability considerations",
+    "operation the",
+    "data sovereignty all",
+    "auditability every",
+    "future enhancements",
+    "the dynamic persona"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-01-28-dynamic-persona-moe-rag-implementation-plan",
+      "weight": 0.0567,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-02-14-reddiss",
+      "weight": 0.0328,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-22-dynamic-persona-moe-rag",
+      "weight": 0.0328,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+      "weight": 0.0244,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+      "weight": 0.0238,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-22-if-the-loop-is-the-product",
+      "weight": 0.0222,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
+      "weight": 0.0217,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-23-rlhf-lab-business-plan",
+      "weight": 0.0208,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Most AI systems rely on cloud-based infrastructure, exposing sensitive data to third-party surveillance and creating single points of failure. For sectors like healthcare, legal, and defense, this is unacceptable",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Traditional systems produce different outputs for identical inputs, making them unsuitable for high-integrity environments where reproducibility is paramount",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Unlike traditional vector stores that flatten semantic relationships, our **Dynamic Knowledge Graph** represents knowledge as explicit, traversable relationships between entities",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Built using NetworkX, this graph is constructed on-demand for each query, ensuring relevance and preventing state pollution",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The **Persona Store** manages the lifecycle of digital personas - the system's \"experts\" that provide diverse perspectives on queries. Personas are stored as validated JSON files with strict schemas ensuring consistency and reliability",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Each persona's output is rigorously evaluated using multiple criteria:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Pruning**: Consistently poor performers are archived",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Activation**: Stable personas are reactivated when needed",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ensures outputs are connected to provided entities and minimizes hallucinations:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Traditional systems treat personas as text prompts that are concatenated to the input",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Unlike persistent knowledge graphs that accumulate noise and become unwieldy, our system builds **query-scoped graphs** that are constructed fresh for each query",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Relevance**: Only entities and relationships relevant to the current query are included",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "2. **Provenance Tracking**: Every output is traceable to specific graph nodes",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "3. **Multi-Criteria Evaluation**: Grounding is explicitly scored",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "4. **Contextual Validation**: Outputs are validated against provided context",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The system is designed for **local-first performance** while maintaining scalability:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Every system operation is logged and traceable, enabling compliance with regulatory requirements",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Dynamic Persona MoE RAG system represents a significant advancement in local-first, sovereign AI systems",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The codebase is available and ready for use, testing, and contribution",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/SynthInt"
+  ],
+  "related_artifacts": [
+    "2026-01-28-dynamic-persona-moe-rag-implementation-plan",
+    "2025-02-14-reddiss",
+    "2026-01-22-dynamic-persona-moe-rag",
+    "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+    "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+    "2026-07-22-if-the-loop-is-the-product",
+    "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
+    "2024-11-23-rlhf-lab-business-plan"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-01-25-dynamic-persona-moe-rag-building-a-sovereign-synthetic-intelligence-system.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "dfa07997ee3f0c066305f8df2ec89e3b3119ac548e4c1591737e4788fae77f0a",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

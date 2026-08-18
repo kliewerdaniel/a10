@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "id": "2025-03-13-simulacra",
+  "title": "Simulacra01: Complete Guide to Building Local AI Agents with OpenAI Agents SDK and Ollama Integration",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-03-13",
+  "updated_at": "2025-03-13",
+  "canonical_url": "/blog/2025-03-13-simulacra",
+  "content_hash": "sha256:a2e8c34df7a062e789c88d6c080314ef0fc01aa6815fa8cca328a58d30ff841a",
+  "topics": [
+    "simulacra01",
+    "openai-agents-sdk",
+    "ollama",
+    "local-ai-agents",
+    "document-analysis",
+    "custom-agents",
+    "ai-development",
+    "agent-frameworks",
+    "local-llms",
+    "ai-integration"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "simulacra01 this",
+    "document analysis",
+    "key benefits",
+    "core components",
+    "architecture simulacra01",
+    "ollama layer the",
+    "adapter layer the",
+    "layer provides",
+    "application layer implements",
+    "document analysis agent",
+    "document memory",
+    "system requirements",
+    "install ollama for",
+    "download required models",
+    "install simulacra01",
+    "install dependencies",
+    "verify installation run",
+    "using document analysis agent",
+    "basic usage run",
+    "available commands",
+    "example interactions analyze",
+    "tool functionality the document",
+    "analysis agent",
+    "document memory the document",
+    "interface the simulacra01",
+    "global commands these",
+    "document agent",
+    "research agent",
+    "task agent",
+    "configuration configure",
+    "creating custom agents simulacra01",
+    "basic agent creation",
+    "tool development best practices",
+    "use pydantic",
+    "complex agent example",
+    "weather assistant",
+    "advanced customization",
+    "using different models ollama",
+    "model recommendations",
+    "latest microsoft",
+    "custom system prompts the",
+    "caching implementation implement",
+    "custom tool categories organize",
+    "research assistant",
+    "custom response formatting implement",
+    "enabling debug logging",
+    "model not found",
+    "memory issues",
+    "consult ollama",
+    "tool call issues",
+    "inspecting raw responses to",
+    "performance optimization",
+    "model selection strategies choose",
+    "task type",
+    "recommended model",
+    "prompt optimization optimize",
+    "chunking strategies for",
+    "caching optimization implement",
+    "parallel processing implement",
+    "setting up development environment",
+    "running tests",
+    "code style",
+    "documentation generation",
+    "branch strategy",
+    "commit guidelines use",
+    "pull request process"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-02-05-ollama-smolagents-open-deep-research",
+      "weight": 0.0247,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-12-openai-agents-sdk-ollama-integration",
+      "weight": 0.0204,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-09-reason-ai",
+      "weight": 0.0189,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-12-integrating-openai-agents-sdk-ollama",
+      "weight": 0.0167,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-02-25-building-an-ai-powered-filename-generator-chrome-extension",
+      "weight": 0.0133,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-01-23-building-a-multimodal-story-generation-system",
+      "weight": 0.0128,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-21-compiling-medical-evidence-clinical-research-compiler",
+      "weight": 0.012,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-12-autonomous-ai-agents-developer-portfolio",
+      "weight": 0.0119,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "is a powerful framework that brings together the structured agent capabilities of OpenAI's Agents SDK with the privacy and cost benefits of local LLM inference through Ollama. This integration enables you to build sophisticated AI agents that run entirely on your local infrastructure",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ollama**: Enables local running of various open-source LLMs",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Checks if the document is already in memory",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Document memory is stored on disk and persists between sessions",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Configuration is stored in",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The system prompt (instructions) is crucial for agent behavior:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "2. Check that tool schemas are properly defined",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://ollama.com/download"
+  ],
+  "related_artifacts": [
+    "2025-02-05-ollama-smolagents-open-deep-research",
+    "2025-03-12-openai-agents-sdk-ollama-integration",
+    "2025-03-09-reason-ai",
+    "2025-03-12-integrating-openai-agents-sdk-ollama",
+    "2025-02-25-building-an-ai-powered-filename-generator-chrome-extension",
+    "2025-01-23-building-a-multimodal-story-generation-system",
+    "2026-07-21-compiling-medical-evidence-clinical-research-compiler",
+    "2026-01-12-autonomous-ai-agents-developer-portfolio"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-03-13-simulacra.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "a2e8c34df7a062e789c88d6c080314ef0fc01aa6815fa8cca328a58d30ff841a",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

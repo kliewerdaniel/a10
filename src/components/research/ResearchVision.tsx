@@ -1,55 +1,42 @@
 interface VisionStep {
   label: string;
   desc: string;
-  color: 'green' | 'pink' | 'orange' | 'yellow' | 'ink';
 }
 
 const visionSteps: VisionStep[] = [
-  { label: 'Human Knowledge', desc: 'The accumulated understanding of every profession, discipline, and generation.', color: 'ink' },
-  { label: 'Knowledge Compilation', desc: 'Organizing and structuring knowledge before the question is asked.', color: 'green' },
-  { label: 'Semantic Understanding', desc: 'Relationships made explicit, navigable, and inspectable — not buried in text.', color: 'orange' },
-  { label: 'Lower Cost of Learning', desc: 'Acquiring professional knowledge becomes faster, clearer, and more durable.', color: 'yellow' },
-  { label: 'More Qualified Professionals', desc: 'Education scales without lowering standards or replacing expertise.', color: 'green' },
-  { label: 'More Scientific Discovery', desc: 'Researchers spend less time searching and more time discovering.', color: 'orange' },
-  { label: 'Better Care', desc: 'More people with the time and capacity to care for one another.', color: 'pink' },
-  { label: 'Human Flourishing', desc: 'A world where more people can learn, teach, and discover.', color: 'pink' },
+  { label: 'Human Knowledge', desc: 'The accumulated understanding of every profession, discipline, and generation.' },
+  { label: 'Knowledge Compilation', desc: 'Organizing and structuring knowledge before the question is asked.' },
+  { label: 'Semantic Understanding', desc: 'Relationships made explicit, navigable, and inspectable — not buried in text.' },
+  { label: 'Lower Cost of Learning', desc: 'Acquiring professional knowledge becomes faster, clearer, and more durable.' },
+  { label: 'More Qualified Professionals', desc: 'Education scales without lowering standards or replacing expertise.' },
+  { label: 'More Scientific Discovery', desc: 'Researchers spend less time searching and more time discovering.' },
+  { label: 'Better Care', desc: 'More people with the time and capacity to care for one another.' },
+  { label: 'Human Flourishing', desc: 'A world where more people can learn, teach, and discover.' },
 ];
-
-const dotColors: Record<VisionStep['color'], string> = {
-  green: 'bg-green',
-  pink: 'bg-pink',
-  orange: 'bg-orange',
-  yellow: 'bg-yellow',
-  ink: 'bg-ink',
-};
 
 export function ResearchVision({ heading = true }: { heading?: boolean }) {
   return (
-    <section className="py-16 sm:py-24 px-5 relative reveal" id="research-vision">
-      <div className="absolute inset-0 dot-pattern opacity-15 pointer-events-none" />
-      <div className="max-w-5xl mx-auto relative">
+    <section className="section-rule section-pad" id="research-vision">
+      <div className="max-w-5xl mx-auto">
         {heading && (
           <div className="text-center mb-12">
-            <span className="mono text-green text-xs mb-3 block">Research Vision</span>
-            <h2 className="font-display text-3xl sm:text-4xl md:text-5xl mb-4">From Knowledge to Care</h2>
-            <p className="text-ink-3 max-w-2xl mx-auto text-base sm:text-lg">
+            <span className="kicker mb-3 block">Research Vision</span>
+            <h2 className="font-serif font-medium text-3xl sm:text-4xl md:text-5xl tracking-[-0.02em] text-[var(--color-ink)]">From Knowledge to Care</h2>
+            <p className="text-[var(--color-ink-3)] max-w-2xl mx-auto text-base sm:text-lg mt-4">
               Every project on this site is a step along one path. The destination is not a better
               model — it is a world where understanding human knowledge costs less.
             </p>
           </div>
         )}
 
-        <div className="flex flex-col items-center gap-0">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-px bg-[var(--color-rule)] border border-[var(--color-rule)]">
           {visionSteps.map((step, i) => (
-            <div key={step.label} className="flex flex-col items-center w-full">
-              <div className="flex flex-col items-center text-center px-6 py-4 border-4 border-ink bg-cream dark:bg-base shadow-brutalist-sm w-full max-w-lg">
-                <span className={`w-3 h-3 rounded-full ${dotColors[step.color]} flex-shrink-0 mb-2`} />
-                <h3 className="font-display text-ink text-base sm:text-lg">{step.label}</h3>
-                <p className="text-xs text-ink-3 font-bold mt-1 leading-relaxed">{step.desc}</p>
+            <div key={step.label} className="bg-[var(--color-base)] p-6">
+              <div className="font-mono text-[0.6rem] tracking-[0.14em] text-[var(--color-green)] mb-3">
+                {String(i + 1).padStart(2, '0')}
               </div>
-              {i < visionSteps.length - 1 && (
-                <div className="w-0.5 h-6 bg-ink/20" aria-hidden />
-              )}
+              <h3 className="font-serif text-[var(--color-ink)] text-lg font-medium mb-2">{step.label}</h3>
+              <p className="text-xs text-[var(--color-ink-3)] leading-relaxed">{step.desc}</p>
             </div>
           ))}
         </div>

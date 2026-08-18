@@ -1,0 +1,1605 @@
+{
+  "schema_version": 1,
+  "generated_by": "P2 reconcile (post-copy+normalize)",
+  "total": 177,
+  "published": 177,
+  "to_publish": 0,
+  "excluded": [
+    "temp"
+  ],
+  "entries": [
+    {
+      "slug": "2024-10-04-detailed-description-of-insight-journal",
+      "canonical_url": "/blog/2024-10-04-detailed-description-of-insight-journal",
+      "title": "Building an AI-Powered Journal Local LLMs for Private, Intelligent Reflection",
+      "author": "Daniel Kliewer",
+      "date": "2024-10-04 07:40:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-10-09-how-to-build-a-persona-based-blog-post-generator-with-large-language-models",
+      "canonical_url": "/blog/2024-10-09-how-to-build-a-persona-based-blog-post-generator-with-large-language-models",
+      "title": "Building AI Persona-Based Content Generator: Complete Python Tutorial with",
+      "author": "Daniel Kliewer",
+      "date": "2024-10-09 05:40:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-10-12-django-react",
+      "canonical_url": "/blog/2024-10-12-django-react",
+      "title": "Building Full-Stack AI Persona Generator: Complete Django + React Tutorial",
+      "author": "Daniel Kliewer",
+      "date": "2024-10-12 05:40:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-10-18-building-a-full-stack-application-with-django-and-react",
+      "canonical_url": "/blog/2024-10-18-building-a-full-stack-application-with-django-and-react",
+      "title": "Complete Full-Stack AI Persona Generator: Django REST API + React Frontend",
+      "author": "Daniel Kliewer",
+      "date": "2024-10-18 05:40:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-10-22-integrating-django-react-ollama-with-xai-api",
+      "canonical_url": "/blog/2024-10-22-integrating-django-react-ollama-with-xai-api",
+      "title": "Complete Guide: Migrating from OpenAI to XAI API in Django + React Full-Stack",
+      "author": "Daniel Kliewer",
+      "date": "2024-10-22 05:40:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-10-24-ghost-writer",
+      "canonical_url": "/blog/2024-10-24-ghost-writer",
+      "title": "GhostWriter: Complete AI Writing Assistant - Django + React Full-Stack Tutorial",
+      "author": "Daniel Kliewer",
+      "date": "2024-10-24 05:40:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-10-30-creating-ai-agents",
+      "canonical_url": "/blog/2024-10-30-creating-ai-agents",
+      "title": "Building AI Agents: From Code to Digital \u00dcbermensch - Complete Guide to Autonomous",
+      "author": "Daniel Kliewer",
+      "date": "2024-10-30 03:40:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-11-04-deep-fake",
+      "canonical_url": "/blog/2024-11-04-deep-fake",
+      "title": "AI-Generated Deepfakes: Complete Guide to Persona-Based Content Creation and",
+      "author": "Daniel Kliewer",
+      "date": "2024-11-04 03:40:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-11-22-planning",
+      "canonical_url": "/blog/2024-11-22-planning",
+      "title": "Complete Guide to Building a Data Annotation Platform Company: From Startup",
+      "author": "Daniel Kliewer",
+      "date": "2024-11-22 03:40:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-11-22-rlhf-lab",
+      "canonical_url": "/blog/2024-11-22-rlhf-lab",
+      "title": "RLHF-Lab: Complete Guide to Building an AI Data Annotation Platform Company",
+      "author": "Daniel Kliewer",
+      "date": "2024-11-22 04:40:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-11-23-rlhf-lab-business-plan",
+      "canonical_url": "/blog/2024-11-23-rlhf-lab-business-plan",
+      "title": "Complete Business Plan for RLHF-Lab: Building an AI Data Annotation Startup",
+      "author": "Daniel Kliewer",
+      "date": "2024-11-23 04:40:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-11-27-data-annotation-guide",
+      "canonical_url": "/blog/2024-11-27-data-annotation-guide",
+      "title": "Complete Guide to Data Annotation Careers: From Beginner to AI Professional",
+      "author": "Daniel Kliewer",
+      "date": "2024-11-27 04:40:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-11-27-swarm-autogen",
+      "canonical_url": "/blog/2024-11-27-swarm-autogen",
+      "title": "Integrating OpenAI Swarm & Microsoft Autogen: Multi-Agent AI for Persona Generation",
+      "author": "Daniel Kliewer",
+      "date": "2024-11-27 05:40:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-11-27-enhanced-persona-generator",
+      "canonical_url": "/blog/2024-11-27-enhanced-persona-generator",
+      "title": "Complete Guide: Building Enhanced AI Persona Generator with Python & OpenAI",
+      "author": "Daniel Kliewer",
+      "date": "2024-11-27 06:40:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-11-27-reddit-blog-generator",
+      "canonical_url": "/blog/2024-11-27-reddit-blog-generator",
+      "title": "Reddit Blog Generator: Automate Reddit-to-Blog Posts with AI Personas",
+      "author": "Daniel Kliewer",
+      "date": "2024-11-27 07:40:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-11-27-instagram-feed-summarizer",
+      "canonical_url": "/blog/2024-11-27-instagram-feed-summarizer",
+      "title": "AI Instagram Feed Summarizer: Build Multi-Modal Persona Blog Generator",
+      "author": "Daniel Kliewer",
+      "date": "2024-11-27 09:40:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-11-27-ai-agent-based-cross-platform-content-generator-and-distributor",
+      "canonical_url": "/blog/2024-11-27-ai-agent-based-cross-platform-content-generator-and-distributor",
+      "title": "Complete Guide: Building AI Agent-Based Cross-Platform Content Generator for",
+      "author": "Daniel Kliewer",
+      "date": "2024-11-27 11:40:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-11-28-basic-swarm-chatbot",
+      "canonical_url": "/blog/2024-11-28-basic-swarm-chatbot",
+      "title": "AI Customer Support Chatbot Using OpenAI Swarm: Multi-Agent Routing",
+      "author": "Daniel Kliewer",
+      "date": "2024-11-28 07:40:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-11-28-basic-autogen",
+      "canonical_url": "/blog/2024-11-28-basic-autogen",
+      "title": "AI Travel Planner with Microsoft AutoGen: Multi-Agent Collaboration",
+      "author": "Daniel Kliewer",
+      "date": "2024-11-28 07:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-11-29-tech-company-orchestrator",
+      "canonical_url": "/blog/2024-11-29-tech-company-orchestrator",
+      "title": "Tech Company Orchestrator: Simulate Full-Stack Development Workflow with AI",
+      "author": "Daniel Kliewer",
+      "date": "2024-11-29 07:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-12-01-basic-rag",
+      "canonical_url": "/blog/2024-12-01-basic-rag",
+      "title": "Complete Guide: Building Robust RAG Systems with LangChain & OpenAI - From",
+      "author": "Daniel Kliewer",
+      "date": "2024-12-01 07:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-12-02-persona-chat",
+      "canonical_url": "/blog/2024-12-02-persona-chat",
+      "title": "Complete Guide: Building Personalized AI Assistants with LangChain - Persona-Based",
+      "author": "Daniel Kliewer",
+      "date": "2024-12-02 07:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-12-05-personagen",
+      "canonical_url": "/blog/2024-12-05-personagen",
+      "title": "Complete Guide: Refactoring Django Persona Manager - From JSON to Individual",
+      "author": "Daniel Kliewer",
+      "date": "2024-12-05 07:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-12-09-pydantic-rag",
+      "canonical_url": "/blog/2024-12-09-pydantic-rag",
+      "title": "Complete Guide: Building Persona-Aware RAG Systems with Pydantic AI Agents",
+      "author": "Daniel Kliewer",
+      "date": "2024-12-09 07:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-12-10-rl",
+      "canonical_url": "/blog/2024-12-10-rl",
+      "title": "Complete Guide to Reinforcement Learning: From MDPs to AGI - Theory, Algorithms",
+      "author": "Daniel Kliewer",
+      "date": "2024-12-10 07:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-12-11-next-gen-personagen",
+      "canonical_url": "/blog/2024-12-11-next-gen-personagen",
+      "title": "Advanced PersonaGen: Architecting Next-Generation AI Systems with Reinforcement",
+      "author": "Daniel Kliewer",
+      "date": "2024-12-11 07:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-12-14-learning-from-the-past",
+      "canonical_url": "/blog/2024-12-14-learning-from-the-past",
+      "title": "Developing a Toxicity Detection Communication App: Promoting Positive Dialogue",
+      "author": "Daniel Kliewer",
+      "date": "2024-12-14 07:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-12-19-continue.dev-ollama",
+      "canonical_url": "/blog/2024-12-19-continue.dev-ollama",
+      "title": "Configuring Continue.dev with Ollama for Local Large Language Model Integration",
+      "author": "Daniel Kliewer",
+      "date": "2024-12-19 07:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-12-19-homeless-guide-austin",
+      "canonical_url": "/blog/2024-12-19-homeless-guide-austin",
+      "title": "Comprehensive Austin Homeless Survival Guide: Essential Resources, Legal Rights,",
+      "author": "Daniel Kliewer",
+      "date": "2024-12-19 07:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-12-19-langchain-ollama",
+      "canonical_url": "/blog/2024-12-19-langchain-ollama",
+      "title": "Complete LangChain Ollama Integration: Building Graph-Based Multi-Persona",
+      "author": "Daniel Kliewer",
+      "date": "2024-12-19 07:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2024-12-30-cultural-fingerprints",
+      "canonical_url": "/blog/2024-12-30-cultural-fingerprints",
+      "title": "Cultural Fingerprints in AI: Comparative Analysis of Ethical Guardrails in",
+      "author": "Daniel Kliewer",
+      "date": "2024-12-30 07:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-01-16-solo-business-ventures",
+      "canonical_url": "/blog/2025-01-16-solo-business-ventures",
+      "title": "Solo Developer''s Guide to Upwork Success: Psychological Analysis & Implementation",
+      "author": "Daniel Kliewer",
+      "date": "2025-01-16 07:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-01-22-image-to-book",
+      "canonical_url": "/blog/2025-01-22-image-to-book",
+      "title": "Building an Advanced AI Image-to-Book Pipeline: Multimodal Storytelling with",
+      "author": "Daniel Kliewer",
+      "date": "2025-01-22 07:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-01-23-building-a-multimodal-story-generation-system",
+      "canonical_url": "/blog/2025-01-23-building-a-multimodal-story-generation-system",
+      "title": "Building a Multimodal Story Generation System",
+      "author": "Daniel Kliewer",
+      "date": "2025-01-23 07:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-02-03-scrape-reddit-analysis-blog",
+      "canonical_url": "/blog/2025-02-03-scrape-reddit-analysis-blog",
+      "title": "Automated Reddit Content Analytics Pipeline: Transforming Social Media Insights",
+      "author": "Daniel Kliewer",
+      "date": "2025-02-03 07:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-02-05-open-deep-research",
+      "canonical_url": "/blog/2025-02-05-open-deep-research",
+      "title": "Mastering Open Deep Research: Complete Smolagents Setup Guide with GAIA Benchmark",
+      "author": "Daniel Kliewer",
+      "date": "2025-02-05 07:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-02-05-loco-local-localllama",
+      "canonical_url": "/blog/2025-02-05-loco-local-localllama",
+      "title": "Announcing Loco LLM Hackathon 1.0: 24-Hour Global Sprint to Build Open-Source",
+      "author": "Daniel Kliewer",
+      "date": "2025-02-05 08:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-02-05-ollama-smolagents-open-deep-research",
+      "canonical_url": "/blog/2025-02-05-ollama-smolagents-open-deep-research",
+      "title": "Complete Ollama Smolagents Integration Tutorial: Building Open Deep Research",
+      "author": "Daniel Kliewer",
+      "date": "2025-02-05 09:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-02-14-reddiss",
+      "canonical_url": "/blog/2025-02-14-reddiss",
+      "title": "RedDiss Technical Deep Dive: Complete AI-Powered Diss Track Generation Pipeline",
+      "author": "Daniel Kliewer",
+      "date": "2025-02-14 07:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-02-23-privacy-policy",
+      "canonical_url": "/blog/2025-02-23-privacy-policy",
+      "title": "Privacy Policy for AI Filename Generator Chrome Extension: Complete Data Protection",
+      "author": "Daniel Kliewer",
+      "date": "2025-02-23 07:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-02-25-building-an-ai-powered-filename-generator-chrome-extension",
+      "canonical_url": "/blog/2025-02-25-building-an-ai-powered-filename-generator-chrome-extension",
+      "title": "Developing an AI-Powered Filename Generator Chrome Extension: Complete Technical",
+      "author": "Daniel Kliewer",
+      "date": "2025-02-25 07:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-03-03-text-adventure",
+      "canonical_url": "/blog/2025-03-03-text-adventure",
+      "title": "Building an AI Text Adventure Generator Web Application: Creating Interactive",
+      "author": "Daniel Kliewer",
+      "date": "2025-03-03 07:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-03-09-mastra-ollama-nextjs",
+      "canonical_url": "/blog/2025-03-09-mastra-ollama-nextjs",
+      "title": "Complete Guide: Building an AI-Powered Next.js Application with Mastra and",
+      "author": "Daniel Kliewer",
+      "date": "2025-03-09 07:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-03-09-nextjs-ollama-custom-agent-framework",
+      "canonical_url": "/blog/2025-03-09-nextjs-ollama-custom-agent-framework",
+      "title": "Complete Guide: Building an AI-Powered Next.js Application with Custom Agent",
+      "author": "Daniel Kliewer",
+      "date": "2025-03-09 08:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-03-09-custom-agent",
+      "canonical_url": "/blog/2025-03-09-custom-agent",
+      "title": "Custom AI Agent Framework: Next.js & Ollama Integration Guide",
+      "author": "Daniel Kliewer",
+      "date": "2025-03-09 09:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-03-09-reason-ai",
+      "canonical_url": "/blog/2025-03-09-reason-ai",
+      "title": "ReasonAI: Complete Guide to Building Local-First AI Agents with Advanced Reasoning",
+      "author": "Daniel Kliewer",
+      "date": "2025-03-09 10:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-03-09-nextjs-firebase",
+      "canonical_url": "/blog/2025-03-09-nextjs-firebase",
+      "title": "Complete Guide: Building a High-Performance Quiz Platform with Next.js and",
+      "author": "Daniel Kliewer",
+      "date": "2025-03-09 11:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-03-11-integrating-the-openai-agents-sdk-with-rusts-burn-framework",
+      "canonical_url": "/blog/2025-03-11-integrating-the-openai-agents-sdk-with-rusts-burn-framework",
+      "title": "Complete Guide: Integrating OpenAI Agents SDK with Rust''s Burn Framework",
+      "author": "Daniel Kliewer",
+      "date": "2025-03-11 10:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-03-11-integrating-rust-burn-framework-for-ai",
+      "canonical_url": "/blog/2025-03-11-integrating-rust-burn-framework-for-ai",
+      "title": "Complete Guide: Integrating Rust''s Burn Framework for AI Model Training and",
+      "author": "Daniel Kliewer",
+      "date": "2025-03-11 11:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-03-12-mcp-openai-agents-sdk-ollama",
+      "canonical_url": "/blog/2025-03-12-mcp-openai-agents-sdk-ollama",
+      "title": "The Convergence of MCP, OpenAI Agents SDK, and Ollama: An Architectural Paradigm",
+      "author": "Daniel Kliewer",
+      "date": "2025-03-12 09:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-03-12-openai-agents-sdk-ollama-integration",
+      "canonical_url": "/blog/2025-03-12-openai-agents-sdk-ollama-integration",
+      "title": "Complete Guide: Integrating OpenAI Agents SDK with Ollama for Local AI Agent",
+      "author": "Daniel Kliewer",
+      "date": "2025-03-12 09:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-03-12-integrating-openai-agents-sdk-ollama",
+      "canonical_url": "/blog/2025-03-12-integrating-openai-agents-sdk-ollama",
+      "title": "OpenAI Agents SDK & Ollama Integration: Complete Architecture Guide",
+      "author": "Daniel Kliewer",
+      "date": "2025-03-12 11:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-03-12-mcp-openai-responses-api-agents-sdk-ollama",
+      "canonical_url": "/blog/2025-03-12-mcp-openai-responses-api-agents-sdk-ollama",
+      "title": "Complete Guide: Integrating MCP with OpenAI Responses API, Agents SDK, and",
+      "author": "Daniel Kliewer",
+      "date": "2025-03-12 11:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-03-13-simulacra",
+      "canonical_url": "/blog/2025-03-13-simulacra",
+      "title": "Simulacra01: Complete Guide to Building Local AI Agents with OpenAI Agents",
+      "author": "Daniel Kliewer",
+      "date": "2025-03-13 01:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-03-21-browser-use-ollama-mcp",
+      "canonical_url": "/blog/2025-03-21-browser-use-ollama-mcp",
+      "title": "Complete Guide: Building an AI Knowledge Companion with Browser-Use, MCP,",
+      "author": "Daniel Kliewer",
+      "date": "2025-03-22 01:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-03-22-local-llm-document-pipeline-blueprint",
+      "canonical_url": "/blog/2025-03-22-local-llm-document-pipeline-blueprint",
+      "title": "Complete Blueprint: Building a Local LLM Document Processing Pipeline with",
+      "author": "Daniel Kliewer",
+      "date": "2025-03-22 01:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-03-24-model-context-protocol",
+      "canonical_url": "/blog/2025-03-24-model-context-protocol",
+      "title": "Complete Guide: Building Your Own Model Context Protocol (MCP) Server for",
+      "author": "Daniel Kliewer",
+      "date": "2025-03-24 01:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-03-25-large-scale-agent-architecture",
+      "canonical_url": "/blog/2025-03-25-large-scale-agent-architecture",
+      "title": "Large-Scale Agent Architecture: Complete Guide to Building Scalable Multi-Agent",
+      "author": "Daniel Kliewer",
+      "date": "2025-03-25 01:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-03-28-scalable-ai-backends",
+      "canonical_url": "/blog/2025-03-28-scalable-ai-backends",
+      "title": "Building Scalable AI Backends: FastAPI, PostgreSQL, Redis, Celery, and RabbitMQ",
+      "author": "Daniel Kliewer",
+      "date": "2025-03-28 01:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-03-28-ollama-chunking",
+      "canonical_url": "/blog/2025-03-28-ollama-chunking",
+      "title": "Mastering Text Chunking with Ollama: Advanced Techniques for Processing Large",
+      "author": "Daniel Kliewer",
+      "date": "2025-03-28 02:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-03-29-markdown-teaching-assistant",
+      "canonical_url": "/blog/2025-03-29-markdown-teaching-assistant",
+      "title": "Building an AI-Powered Interactive Learning Platform",
+      "author": "Daniel Kliewer",
+      "date": "2025-03-29 01:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-03-30-learning-platform",
+      "canonical_url": "/blog/2025-03-30-learning-platform",
+      "title": "Building an AI-Driven Personalized Learning Platform: Dynamic Lessons with",
+      "author": "Daniel Kliewer",
+      "date": "2025-03-30 01:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-03-30-building-a-personalized-ai-learning-system-with-local-llm",
+      "canonical_url": "/blog/2025-03-30-building-a-personalized-ai-learning-system-with-local-llm",
+      "title": "Complete Guide: Building a Personalized AI Learning System with Local LLMs,",
+      "author": "Daniel Kliewer",
+      "date": "2025-03-30 02:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-04-06-judgmental-art-cat",
+      "canonical_url": "/blog/2025-04-06-judgmental-art-cat",
+      "title": "Building Sustainable Micro-Enterprises: The Judgmental Art Cat Project - Art,",
+      "author": "Daniel Kliewer",
+      "date": "2025-04-06 01:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-04-07-echoshelf",
+      "canonical_url": "/blog/2025-04-07-echoshelf",
+      "title": "EchoShelf: Enterprise Voice Annotation System for Inventory Management and",
+      "author": "Daniel Kliewer",
+      "date": "2025-04-07 01:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-07-06-beyond-prompts",
+      "canonical_url": "/blog/2025-07-06-beyond-prompts",
+      "title": "Unlocking AI-Powered Productivity: Two Essential Guides for Building Custom",
+      "author": "Daniel Kliewer",
+      "date": "2025-07-06 01:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-07-06-demystifying-large-language-models",
+      "canonical_url": "/blog/2025-07-06-demystifying-large-language-models",
+      "title": "Demystifying Large Language Models: A Data Pipeline Insider''s Perspective",
+      "author": "Daniel Kliewer",
+      "date": "2025-07-06 01:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-07-08-ai-ssr-guide",
+      "canonical_url": "/blog/2025-07-08-ai-ssr-guide",
+      "title": "Complete Guide: Building Server-Side Rendered AI Applications with Next.js",
+      "author": "Daniel Kliewer",
+      "date": "2025-07-08 01:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-10-18-Is-There-No-King",
+      "canonical_url": "/blog/2025-10-18-Is-There-No-King",
+      "title": "Is There No King? Or Is NodeRAG King?",
+      "author": "Daniel Kliewer",
+      "date": "2025-10-18 01:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-10-18-NextJS-SEO-CLIne-Prompt",
+      "canonical_url": "/blog/2025-10-18-NextJS-SEO-CLIne-Prompt",
+      "title": "NextJS SEO CLIne Prompt",
+      "author": "Daniel Kliewer",
+      "date": "2025-10-18 01:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-10-19-building-a-local-llm-powered-knowledge-graph",
+      "canonical_url": "/blog/2025-10-19-building-a-local-llm-powered-knowledge-graph",
+      "title": "Vibe Coding Session Building a Local LLM-Powered Knowledge Graph",
+      "author": "Daniel Kliewer",
+      "date": "2025-10-19 01:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-10-19-vibe-coding-janitor-session",
+      "canonical_url": "/blog/2025-10-19-vibe-coding-janitor-session",
+      "title": "Vibe Coding Janitor Session Building a Local LLM-Powered Knowledge Graph Part",
+      "author": "Daniel Kliewer",
+      "date": "2025-10-19 01:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-10-20-how-to-vibe-code-a-nextjs-boilerplate-repo",
+      "canonical_url": "/blog/2025-10-20-how-to-vibe-code-a-nextjs-boilerplate-repo",
+      "title": "How to Vibe Code a Next.js Boilerplate Repository - Complete Guide 2025",
+      "author": "Daniel Kliewer",
+      "date": "2025-10-20 01:42:44 -0500",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-10-21-learn-programming-computer-science-youtube-roadmap",
+      "canonical_url": "https://danielkliewer.com/blog/2025-10-21-learn-programming-computer-science-youtube-roadmap",
+      "title": "Learn Programming for Free: Complete YouTube Roadmap to Master Computer Science",
+      "author": "Daniel Kliewer",
+      "date": "2025-10-21",
+      "image": "/images/1021002.png",
+      "status": "published"
+    },
+    {
+      "slug": "2025-10-21-ultimate-guide-export-your-reddit-data-to-markdown-using-python-and-PRAW-API",
+      "canonical_url": "https://danielkliewer.com/blog/2025-10-21-ultimate-guide-export-your-reddit-data-to-markdown-using-python-and-PRAW-API",
+      "title": "Ultimate Guide: Export Your Reddit Data to Markdown Using Python & PRAW API",
+      "author": "Daniel Kliewer",
+      "date": "2025-10-21",
+      "image": "/images/1021019.png",
+      "status": "published"
+    },
+    {
+      "slug": "2025-10-25-building-your-own-uncensored-ai-overlord",
+      "canonical_url": "https://kliewerdaniel.com/blog/2025-10-25-building-your-own-uncensored-ai-overlord",
+      "title": "Building Your Own Uncensored AI Overlord: A Comprehensive Guide to Chatbot",
+      "author": "Daniel Kliewer",
+      "date": "2025-10-25",
+      "image": "/images/1025001.png",
+      "status": "published"
+    },
+    {
+      "slug": "2025-10-31-reddit-haunting-project-ai-resurrection",
+      "canonical_url": "https://danielkliewer.com/blog/2025-10-31-reddit-haunting-project-ai-resurrection",
+      "title": "Reddit''s Most Haunting Project: Meet the Man Coding His Murdered Friend Back",
+      "author": "Daniel Kliewer",
+      "date": "2025-10-31",
+      "image": "/images/digital-resurrection-ai.png",
+      "status": "published"
+    },
+    {
+      "slug": "2025-11-02-rise-of-vibe-coding",
+      "canonical_url": "/blog/2025-11-02-rise-of-vibe-coding",
+      "title": "The Rise of Vibe Coding: Cursor 2.0 vs VS Code + Cline - Ultimate AI Coding",
+      "author": "Daniel Kliewer",
+      "date": "2025-11-02",
+      "image": "/images/1101001.png",
+      "status": "published"
+    },
+    {
+      "slug": "2025-11-03-document-driven-development-nextjs-blog",
+      "canonical_url": "/blog/2025-11-03-document-driven-development-nextjs-blog",
+      "title": "Document-Driven Development: How I Built a Production Blog Without Writing",
+      "author": "Daniel Kliewer",
+      "date": "2025-11-03",
+      "image": "/images/1103010.png",
+      "status": "published"
+    },
+    {
+      "slug": "2025-11-03-the-revolution-will-be-documented",
+      "canonical_url": "/blog/2025-11-03-the-revolution-will-be-documented",
+      "title": "The Revolution Will Be Documented: A Manifesto for AI-Assisted Software Development",
+      "author": "Daniel Kliewer",
+      "date": "2025-11-03 12:00:00 -0600",
+      "image": "/images/ai-development-manifesto.png",
+      "status": "published"
+    },
+    {
+      "slug": "2025-11-04-ai-flatten-workforce-inequality-honest-conversation",
+      "canonical_url": "/blog/2025-11-04-ai-flatten-workforce-inequality-honest-conversation",
+      "title": "AI Will Flatten Workforce Inequality\u2014If We're Honest About What That Actually",
+      "author": "Daniel Kliewer",
+      "date": "2025-11-04",
+      "image": "/images/ai-workforce-inequality.png",
+      "status": "published"
+    },
+    {
+      "slug": "2025-11-05-capacity-review-ai-workflow-vibe-coding",
+      "canonical_url": "https://danielkliewer.com/blog/2025-11-05-capacity-review-ai-workflow-vibe-coding",
+      "title": "Capacity Review: The AI Workflow Engine That Actually Understands Vibe Coding",
+      "author": "Daniel Kliewer",
+      "date": "2025-11-05",
+      "image": "/images/11052025/capacity-workflow-automation.png",
+      "status": "published"
+    },
+    {
+      "slug": "2025-11-05-how-to-build-an-ai-study-system-that-actually-works-citizens-replace-your-broken-pdf-tools",
+      "canonical_url": "/blog/2025-11-05-how-to-build-an-ai-study-system-that-actually-works-citizens-replace-your-broken-pdf-tools",
+      "title": "How to Build an AI Study System That Actually Works (Citizens Replace Your",
+      "author": "Daniel Kliewer",
+      "date": "2025-11-05",
+      "image": "/images/ComfyUI_00240_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2025-11-05-the-ghost-in-the-machine-is-finally-allowed-to-see-a-beginners-guide-to-mcp",
+      "canonical_url": "https://danielkliewer.com/blog/2025-11-05-the-ghost-in-the-machine-is-finally-allowed-to-see-a-beginners-guide-to-mcp",
+      "title": "The Ghost in the Machine is Finally Allowed to See: A Beginner''s Guide to",
+      "author": "Daniel Kliewer",
+      "date": "2025-11-05",
+      "image": "/images/ComfyUI_00186_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2025-11-08-local-llm-integration",
+      "canonical_url": "/blog/2025-11-08-local-llm-integration",
+      "title": "Local LLM Integration: A Pragmatic Guide to Parsing & Summarizing Tabular",
+      "author": "Daniel Kliewer",
+      "date": "2025-11-08",
+      "image": "/images/ComfyUI_00186_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2025-11-10-top-ai-algortihms",
+      "canonical_url": "/blog/2025-11-10-top-ai-algortihms",
+      "title": "Top 20 AI Algorithms: Complete Guide with Use Cases and Sample Projects for",
+      "author": "Daniel Kliewer",
+      "date": "2025-11-10",
+      "image": "/images/11102025/top-ai-algorithms.jpeg",
+      "status": "published"
+    },
+    {
+      "slug": "2025-11-11-vscode-blog-editing",
+      "canonical_url": "/blog/2025-11-11-vscode-blog-editing",
+      "title": "The Complete Guide to VSCode for Free Technical Blogging: From Setup to Publication",
+      "author": "Daniel Kliewer",
+      "date": "2025-11-11",
+      "image": "/images/11112025/vscode-blogging-setup-guide-infographic.png",
+      "status": "published"
+    },
+    {
+      "slug": "2025-11-12-mastering-llama-cpp-local-llm-integration-guide",
+      "canonical_url": "/blog/2025-11-12-mastering-llama-cpp-local-llm-integration-guide",
+      "title": "Mastering llama.cpp: A Comprehensive Guide to Local LLM Integration",
+      "author": "Daniel Kliewer",
+      "date": "2025-11-12",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2025-11-14-2025-inference-new-geography-intelligence",
+      "canonical_url": "/blog/2025-11-14-2025-inference-new-geography-intelligence",
+      "title": "Inference and the New Geography of Intelligence: Why Running AI Models Matters",
+      "author": "Daniel Kliewer",
+      "date": "2025-11-13",
+      "image": "/images/ComfyUI_00240_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2025-11-15-building-evaluating-local-research-assistant-graphrag-vero-eval",
+      "canonical_url": "/blog/2025-11-15-building-evaluating-local-research-assistant-graphrag-vero-eval",
+      "title": "Building and Evaluating a Local-First Research Assistant with GraphRAG and",
+      "author": "Daniel Kliewer",
+      "date": "2025-11-15",
+      "image": "/images/11152025/graphrag-research-assistant-architecture.png",
+      "status": "published"
+    },
+    {
+      "slug": "2025-12-04-critical-nextjs-rce-cve-2025-66478-security-guide",
+      "canonical_url": "/blog/2025-12-04-critical-nextjs-rce-cve-2025-66478-security-guide",
+      "title": "Critical Next.js RCE: CVE-2025-66478 Security Guide",
+      "author": "Daniel Kliewer",
+      "date": "2025-12-04",
+      "image": "/images/12042025/nextjs-rce-vulnerability.png",
+      "status": "published"
+    },
+    {
+      "slug": "2025-12-09-mcp-integration-uncensored-chatbot",
+      "canonical_url": "/blog/2025-12-09-mcp-integration-uncensored-chatbot",
+      "title": "How I Built a Fully Uncensored, Persona-Driven AI Chatbot Using MCP and NotebookLM",
+      "author": "Daniel Kliewer",
+      "date": "2025-12-09",
+      "image": "/images/12092025/mcp-integration-uncensored-chatbot.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-01-03-american-phoenix",
+      "canonical_url": "/blog/2026-01-03-american-phoenix",
+      "title": "The American Phoenix: How One Man''s Digital Resurrection Rewrites the Rules",
+      "author": "Daniel Kliewer",
+      "date": "2026-01-03",
+      "image": "/images/phoenix.jpg",
+      "status": "published"
+    },
+    {
+      "slug": "2026-01-03-autonomous-architectures",
+      "canonical_url": "/blog/2026-01-03-autonomous-architectures",
+      "title": "Autonomous Architectures: The Convergence of High-Velocity Inference and Self-Improving",
+      "author": "Daniel Kliewer",
+      "date": "2026-01-04",
+      "image": "/images/101801.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-01-05-architectures-of-autonomous-voice",
+      "canonical_url": "/blog/2026-01-05-architectures-of-autonomous-voice",
+      "title": "Architectures of Autonomous Voice: Building Ethically-Grounded AI Systems",
+      "author": "Daniel Kliewer",
+      "date": "2026-01-05",
+      "image": "/images/ai-development-manifesto.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-01-05-quantizing-consciousness-digital-resurrection",
+      "canonical_url": "/blog/2026-01-05-quantizing-consciousness-digital-resurrection",
+      "title": "Infinity, Paradox, and Autonomous Architects: Why Anthropomorphizing AI is",
+      "author": "Daniel Kliewer",
+      "date": "2026-01-05",
+      "image": "/images/101801.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-01-07-specgen-deterministic-ai-powered-code-generation-from-naturals-language",
+      "canonical_url": "/blog/2026-01-07-specgen-deterministic-ai-powered-code-generation-from-naturals-language",
+      "title": "SpecGen: Deterministic AI-Powered Code Generation from Natural Language",
+      "author": "Daniel Kliewer",
+      "date": "2026-01-07",
+      "image": "/images/ComfyUI_00240_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-01-08-revolutionizing-music-creation-the-dawn-of-ace-step-and-the-shadows-of-ai-warfare",
+      "canonical_url": "/blog/2026-01-08-revolutionizing-music-creation-the-dawn-of-ace-step-and-the-shadows-of-ai-warfare",
+      "title": "Revolutionizing Music Creation: The Dawn of ACE-Step and the Shadows of AI",
+      "author": "Daniel Kliewer",
+      "date": "2026-01-08",
+      "image": "/images/ComfyUI_00240_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-01-10-the-ai-revolution-in-business-transforming-sales-crm-and-customer-management-in-2026",
+      "canonical_url": "/blog/2026-01-10-the-ai-revolution-in-business-transforming-sales-crm-and-customer-management-in-2026",
+      "title": "The AI Revolution in Business: Transforming Sales, CRM, and Customer Management",
+      "author": "Daniel Kliewer",
+      "date": "2026-01-10",
+      "image": "images/ai-job-market.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-01-11-from-grief-to-code-the-digital-resurrection-journey",
+      "canonical_url": "/blog/2026-01-11-from-grief-to-code-the-digital-resurrection-journey",
+      "title": "Memory Preservation Invariants: A New Class of Autonomous Agent Architectures",
+      "author": "Daniel Kliewer",
+      "date": "2026-01-11",
+      "image": "/images/phoenix.jpg",
+      "status": "published"
+    },
+    {
+      "slug": "2026-01-12-autonomous-ai-agents-developer-portfolio",
+      "canonical_url": "https://danielkliewer.com/blog/2026-01-12-autonomous-ai-agents-developer-portfolio",
+      "title": "Autonomous AI Agents: Building Distributed Systems with Local LLMs - Developer",
+      "author": "Daniel Kliewer",
+      "date": "2026-01-12",
+      "image": "/images/ComfyUI_00240_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-01-16-from-fragmented-experiments-to-cognitive-synthesis",
+      "canonical_url": "/blog/2026-01-16-from-fragmented-experiments-to-cognitive-synthesis",
+      "title": "From Fragmented Experiments to Cognitive Synthesis : The Evolution of Simulacra",
+      "author": "Daniel Kliewer",
+      "date": "2026-01-16",
+      "image": "/images/101801.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-01-22-dynamic-persona-moe-rag",
+      "canonical_url": "/blog/2026-01-22-dynamic-persona-moe-rag",
+      "title": "Building a Dynamic Persona-Based Mixture-of-Experts RAG System",
+      "author": "Daniel Kliewer",
+      "date": "2026-01-22",
+      "image": "/images/ComfyUI_00186_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-01-22-from-scaffolding-to-reality-building-the-dynamic-persona-moe-rag-system",
+      "canonical_url": "/blog/2026-01-22-from-scaffolding-to-reality-building-the-dynamic-persona-moe-rag-system",
+      "title": "From Scaffolding to Reality: Building the Dynamic Persona MOE RAG System",
+      "author": "Daniel Kliewer",
+      "date": "2026-01-22",
+      "image": "/images/ComfyUI_00192_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-01-22-renders-latest-betrayal-or-how-my-logs-quietly-became-someone-elses-asset",
+      "canonical_url": "/blog/2026-01-22-renders-latest-betrayal-or-how-my-logs-quietly-became-someone-elses-asset",
+      "title": "Render''s Latest Betrayal: Or How My Logs Quietly Became Someone Else''s Asset",
+      "author": "Daniel Kliewer",
+      "date": "2026-01-22",
+      "image": "/images/ComfyUI_00189_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-01-25-building-the-synthetic-analyst",
+      "canonical_url": "/blog/2026-01-25-building-the-synthetic-analyst",
+      "title": "Building the Synthetic Analyst: From RAG to Reason with Dynamic Persona MoE",
+      "author": "Daniel Kliewer",
+      "date": "2026-01-25",
+      "image": "/images/ComfyUI_00199_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-01-25-dynamic-persona-moe-rag-building-a-sovereign-synthetic-intelligence-system",
+      "canonical_url": "/blog/2026-01-25-dynamic-persona-moe-rag-building-a-sovereign-synthetic-intelligence-system",
+      "title": "Dynamic Persona MoE RAG - Building a Sovereign Synthetic Intelligence System",
+      "author": "Daniel Kliewer",
+      "date": "2026-01-25",
+      "image": "/images/2026-01-25-dynamic-persona-moe-rag.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-01-25-synthetic-intelligence",
+      "canonical_url": "/blog/2026-01-25-synthetic-intelligence",
+      "title": "Synthetic Intelligence: Engineering the Sovereign, Deterministic Mind",
+      "author": "Daniel Kliewer",
+      "date": "2026-01-25",
+      "image": "/images/ComfyUI_00204_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-01-28-dynamic-persona-moe-rag-implementation-plan",
+      "canonical_url": "/blog/2026-01-28-dynamic-persona-moe-rag-implementation-plan",
+      "title": "Dynamic Persona MoE RAG - Implementation Plan",
+      "author": "Daniel Kliewer",
+      "date": "2026-01-28",
+      "image": "/images/ComfyUI_00203_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-02-03-dynamic-persona-moe-rag-building-memory-driven-synthetic-intelligence",
+      "canonical_url": "/blog/2026-02-03-dynamic-persona-moe-rag-building-memory-driven-synthetic-intelligence",
+      "title": "Dynamic Persona MoE RAG: Building a Memory-Driven Synthetic Intelligence with",
+      "author": "Daniel Kliewer",
+      "date": "2026-02-03",
+      "image": "/images/1025004.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-02-08-audible-data-transmission-when-humans-become-the-codec",
+      "canonical_url": "/blog/2026-02-08-audible-data-transmission-when-humans-become-the-codec",
+      "title": "Audible Data Transmission: When Humans Become the Codec",
+      "author": "Daniel Kliewer",
+      "date": "2026-02-08",
+      "image": "/images/code.jpg",
+      "status": "published"
+    },
+    {
+      "slug": "2026-02-13-the-biological-api-why-ai-developers-should-care-about-rhythmic-chanting",
+      "canonical_url": "/blog/2026-02-13-the-biological-api-why-ai-developers-should-care-about-rhythmic-chanting",
+      "title": "The Biological API: Why AI Developers Should Care About Rhythmic Chanting",
+      "author": "Daniel Kliewer",
+      "date": "2026-02-13",
+      "image": "/images/code.jpg",
+      "status": "published"
+    },
+    {
+      "slug": "2026-02-15-building-this-blog",
+      "canonical_url": "/blog/2026-02-15-building-this-blog",
+      "title": "Building This Blog: A Technical Deep Dive into My Next.js AI-Powered Publishing",
+      "author": "Daniel Kliewer",
+      "date": "2026-02-15",
+      "image": "/images/1021019.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-02-19-building-knowledge-chatbot",
+      "canonical_url": "/blog/2026-02-19-building-knowledge-chatbot",
+      "title": "Building a Knowledge-Sharing Chatbot: Turn Expertise Into an AI That Anyone",
+      "author": "Daniel Kliewer",
+      "date": "2026-02-19",
+      "image": "/images/1021019.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-02-22-building-cognitive-graph-ai-application",
+      "canonical_url": "/blog/2026-02-22-building-cognitive-graph-ai-application",
+      "title": "Building a Cognitive Graph AI Application: A Comprehensive Guide",
+      "author": "Daniel Kliewer",
+      "date": "2026-02-22",
+      "image": "/images/1019010.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-03-10-breaking-free-from-chatgpt",
+      "canonical_url": "/blog/2026-03-10-breaking-free-from-chatgpt",
+      "title": "Breaking Free from ChatGPT: How to Take Back Your AI Sovereignty",
+      "author": "Daniel Kliewer",
+      "date": "2026-03-10",
+      "image": "/images/1019020.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-03-10-how-to-run-your-own-ai-agent-openclaw-qwen-telegram",
+      "canonical_url": "/blog/2026-03-10-how-to-run-your-own-ai-agent-openclaw-qwen-telegram",
+      "title": "How to Run Your Own AI Agent: OpenClaw + Qwen 3.5 + Telegram (Fully Local)",
+      "author": "Daniel Kliewer",
+      "date": "2026-03-10",
+      "image": "/images/1018001.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-03-17-building-a-private-knowledge-graph-with-local-ai-agents",
+      "canonical_url": "/blog/2026-03-17-building-a-private-knowledge-graph-with-local-ai-agents",
+      "title": "Building a Private Knowledge Graph with Local AI Agents",
+      "author": "Daniel Kliewer",
+      "date": "2026-03-17",
+      "image": "/images/ComfyUI_00278_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-03-26-deerflow-2-building-sovereign-ai-agent-systems",
+      "canonical_url": "/blog/2026-03-26-deerflow-2-building-sovereign-ai-agent-systems",
+      "title": "DeerFlow 2.0: Building Sovereign AI Agent Systems with Local-First Architecture",
+      "author": "Daniel Kliewer",
+      "date": "2026-03-26",
+      "image": "/images/open-source-ai-accessibility.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-03-28-architecture-as-autonomy",
+      "canonical_url": "/blog/2026-03-28-architecture-as-autonomy",
+      "title": "Architecture as Autonomy",
+      "author": "Daniel Kliewer",
+      "date": "2026-03-28",
+      "image": "/images/1025003.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-03-28-sovereignty-manifesto",
+      "canonical_url": "/blog/2026-03-28-sovereignty-manifesto",
+      "title": "The Sovereignty Manifesto: Why Local Data is the Last Bastion of Human Agency",
+      "author": "Daniel Kliewer",
+      "date": "2026-03-28",
+      "image": "/images/ComfyUI_00190_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-03-29-architecture-of-autonomy",
+      "canonical_url": "/blog/2026-03-29-architecture-of-autonomy",
+      "title": "The Architecture of Autonomy: Why the Divergence Between Corporate and Sovereign",
+      "author": "Daniel Kliewer",
+      "date": "2026-03-29",
+      "image": "/images/1025004.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-03-29-sovereign-synthesis",
+      "canonical_url": "/blog/2026-03-29-sovereign-synthesis",
+      "title": "SOVEREIGN: The Unified Architecture \u2014 A Magnum Opus for Local-First AI Systems",
+      "author": "Daniel Kliewer",
+      "date": "2026-03-29",
+      "image": "/images/ComfyUI_00198_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-04-15-synthetic-intelligence-why-emergence-is-math-and-data-should-stay-local",
+      "canonical_url": "/blog/2026-04-15-synthetic-intelligence-why-emergence-is-math-and-data-should-stay-local",
+      "title": "Synthetic Intelligence: Why ''Emergence'' is Just Math and Why Your Data Should",
+      "author": "Daniel Kliewer",
+      "date": "2026-04-15",
+      "image": "/images/ComfyUI_00186_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-04-29-recursive-language-models",
+      "canonical_url": "/blog/2026-04-29-recursive-language-models",
+      "title": "Recursive Language Models: Breaking the Context Barrier with Programmable",
+      "author": "Daniel Kliewer",
+      "date": "2026-04-29",
+      "image": "/images/rlm-hero.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-05-01-qwen-scope-interpretability-interface",
+      "canonical_url": "/blog/2026-05-01-qwen-scope-interpretability-interface",
+      "title": "Qwen-Scope and the Rise of Feature-Level Control: From Interpretability to",
+      "author": "Daniel Kliewer",
+      "date": "2026-05-01",
+      "image": "/images/1020001.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-05-02-autodata-ram-ecosystem",
+      "canonical_url": "/blog/2026-05-02-autodata-ram-ecosystem",
+      "title": "Autodata and the RAM Ecosystem: When AI Learns to Build Its Own Training Data",
+      "author": "Daniel Kliewer",
+      "date": "2026-05-02",
+      "image": "/images/ComfyUI_00192_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-06-01-objective03-local-news-agency",
+      "canonical_url": "/blog/2026-06-01-objective03-local-news-agency",
+      "title": "objective03: My Laptop Eats the News and Talks Back",
+      "author": "Daniel Kliewer",
+      "date": "2026-06-01",
+      "image": "/images/open-source-ai-accessibility.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-06-03-the-model-is-not-the-product-on-building-persistent-intelligence-infrastructure",
+      "canonical_url": "/blog/2026-06-03-the-model-is-not-the-product-on-building-persistent-intelligence-infrastructure",
+      "title": "The Model Is Not the Product: On Building Persistent Intelligence Infrastructure",
+      "author": "Daniel Kliewer",
+      "date": "2026-06-03",
+      "image": "/images/1025003.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-06-08-objective05-exec-giving-local-intelligence-system-hands",
+      "canonical_url": "/blog/2026-06-08-objective05-exec-giving-local-intelligence-system-hands",
+      "title": "objective05-exec: Giving Your Local Intelligence System Hands \u2014 A Rust Tutorial",
+      "author": "Daniel Kliewer",
+      "date": "2026-06-08",
+      "image": "/images/ComfyUI_00209_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-06-08-opendesign-opencode-local-first-design-operating-system",
+      "canonical_url": "/blog/2026-06-08-opendesign-opencode-local-first-design-operating-system",
+      "title": "OpenDesign + OpenCode: Building a Local-First Design Operating System Inside",
+      "author": "Daniel Kliewer",
+      "date": "2026-06-08",
+      "image": "/images/1103012.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-06-12-sovereignspec-ganymedean-alignment-protocol",
+      "canonical_url": "/blog/2026-06-12-sovereignspec-ganymedean-alignment-protocol",
+      "title": "SovereignSpec and the Ganymedean Alignment Protocol: A Technical Treatise",
+      "author": "Daniel Kliewer",
+      "date": "2026-06-12",
+      "image": "/images/ganymede.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-06-12-sovereignspec-local-first-spec-driven-development",
+      "canonical_url": "/blog/2026-06-12-sovereignspec-local-first-spec-driven-development",
+      "title": "Project Proposal: SovereignSpec \u2014 Local-First Spec-Driven Development",
+      "author": "Daniel Kliewer",
+      "date": "2026-06-12",
+      "image": "/images/ComfyUI_00200_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-06-14-sovereign-memory-bank",
+      "canonical_url": "/blog/2026-06-14-sovereign-memory-bank",
+      "title": "Sovereign Memory Bank: Autonomous Cognitive Memory for Agent Systems",
+      "author": "Daniel Kliewer",
+      "date": "2026-06-14",
+      "image": "/images/1103010.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-06-14-sovereign-memory-bank-a-deep-dive-into-autonomous-cognitive-memory-for-agent-systems",
+      "canonical_url": "/blog/2026-06-14-sovereign-memory-bank-a-deep-dive-into-autonomous-cognitive-memory-for-agent-systems",
+      "title": "Sovereign Memory Bank: A Deep Dive Into Autonomous Cognitive Memory for Agent",
+      "author": "Daniel Kliewer",
+      "date": "2026-06-14",
+      "image": "/images/1103010.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-06-30-amis-in-action-autonomous-marketing-knowledge-graph",
+      "canonical_url": "/blog/2026-06-30-amis-in-action-autonomous-marketing-knowledge-graph",
+      "title": "AMIS in Action: Live Vercel Analytics to Autonomous Marketing Knowledge Graph",
+      "author": "Daniel Kliewer",
+      "date": "2026-06-30",
+      "image": "/images/ComfyUI_00208_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-02-building-autonomous-sovereign-ai-with-autoresearch-loops-and-fine-tuned-expert-models",
+      "canonical_url": "/blog/2026-07-02-building-autonomous-sovereign-ai-with-autoresearch-loops-and-fine-tuned-expert-models",
+      "title": "Building Autonomous Sovereign AI: How Autoresearch Loops and Expert Fine-Tuning Create Self-Improving Local AI Systems",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-02",
+      "image": "/images/ComfyUI_00206_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-02-context-engineering-the-blind-spots-and-the-real-full-stack-development-paradigm",
+      "canonical_url": "/blog/2026-07-02-context-engineering-the-blind-spots-and-the-real-full-stack-development-paradigm",
+      "title": "The Missing Stack: Context Engineering, Agent Harnesses, and the Real Full-Stack Development Paradigm of 2026",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-02",
+      "image": "/images/ComfyUI_00200_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-02-context-engineering-the-real-full-stack-development-paradigm",
+      "canonical_url": "/blog/2026-07-02-context-engineering-the-real-full-stack-development-paradigm",
+      "title": "Context Engineering: The Real Full-Stack Development Paradigm in 2026",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-02",
+      "image": "/images/ComfyUI_00200_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-03-the-model-is-not-the-product",
+      "canonical_url": "/blog/2026-07-03-the-model-is-not-the-product",
+      "title": "The Model Is Not the Product: Residual State, Compiled Agents, and Optimization Loops",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-03",
+      "image": "/images/ComfyUI_00186_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-03-the-sovereign-intelligence-observatory",
+      "canonical_url": "/blog/2026-07-03-the-sovereign-intelligence-observatory",
+      "title": "The Loop Is the Product: Inside the Sovereign Intelligence Observatory",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-03",
+      "image": "/images/ComfyUI_00204_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-04-sovereign-intelligence-stack",
+      "canonical_url": "/blog/2026-07-04-sovereign-intelligence-stack",
+      "title": "The Sovereign Intelligence Stack: Building Compounding AI Infrastructure",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-04",
+      "image": "/images/ComfyUI_00195_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-05-getting-started-sovereign-ai",
+      "canonical_url": "/blog/2026-07-05-getting-started-sovereign-ai",
+      "title": "Getting Started with Sovereign AI: Your First Recipe",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-05",
+      "image": "/images/ComfyUI_00201_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-05-local-ai-architecture-synthesis",
+      "canonical_url": "/blog/2026-07-05-local-ai-architecture-synthesis",
+      "title": "Local AI Architecture: Running Models on Your Own Hardware",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-05",
+      "image": "/images/ComfyUI_00207_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-05-retrieval-architecture-synthesis",
+      "canonical_url": "/blog/2026-07-05-retrieval-architecture-synthesis",
+      "title": "Retrieval Architecture: Memory Systems That Compound",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-05",
+      "image": "/images/ComfyUI_00205_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-05-sovereign-ai-architecture-synthesis",
+      "canonical_url": "/blog/2026-07-05-sovereign-ai-architecture-synthesis",
+      "title": "Sovereign AI Architecture: Building Compounding Intelligence",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-05",
+      "image": "/images/ComfyUI_00210_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-06-sovereign-ai-benchmarks-performance-results",
+      "canonical_url": "/blog/2026-07-06-sovereign-ai-benchmarks-performance-results",
+      "title": "Sovereign Intelligence Stack: Performance Benchmarks",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-06",
+      "image": "/images/ComfyUI_00196_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-06-the-sovereign-loop-why-model-local-ai-is-the-missing-os-layer",
+      "canonical_url": "/blog/2026-07-06-the-sovereign-loop-why-model-local-ai-is-the-missing-os-layer",
+      "title": "The Sovereign Loop: Why Model-Local AI Is the Missing Operating System Layer",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-06",
+      "image": "/images/ComfyUI_00197_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-09-telemetry-intelligence-engine",
+      "canonical_url": "/blog/2026-07-09-telemetry-intelligence-engine",
+      "title": "The Telemetry Intelligence Engine: A Local-First GraphRAG System for Website Analytics",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-10",
+      "image": "/images/1021018.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-11-knowledge-compiler-compiling-human-knowledge-into-static-semantic-artifacts",
+      "canonical_url": "/blog/2026-07-11-knowledge-compiler-compiling-human-knowledge-into-static-semantic-artifacts",
+      "title": "Knowledge Compiler: Why I'm Building a Compiler for Human Knowledge Instead of Another RAG System",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-11",
+      "image": "/images/The_Knowledge_Compiler_-_Slide_3.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-12-compile-time-ai-knowledge-compiler-architecture",
+      "canonical_url": "/blog/2026-07-12-compile-time-ai-knowledge-compiler-architecture",
+      "title": "Compile-Time AI: Why the Industry Is Quietly Building an LLVM for Knowledge",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-12",
+      "image": "/images/1025003.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-14-recursive-research-compiler-knowledge-compiler-sdk",
+      "canonical_url": "/blog/2026-07-14-recursive-research-compiler-knowledge-compiler-sdk",
+      "title": "The Recursive Research Compiler",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-14",
+      "image": "/images/1019010.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-14-synthesizing-memory-with-agent",
+      "canonical_url": "/blog/2026-07-14-synthesizing-memory-with-agent",
+      "title": "Synthesizing Memory with Agent: A Local-First Architecture for Persistent AI State",
+      "author": "Research Compiler Agent",
+      "date": "2026-07-14",
+      "image": "/images/ComfyUI_00209_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-15-compiling-my-blog-into-a-decision-graph",
+      "canonical_url": "/blog/2026-07-15-compiling-my-blog-into-a-decision-graph",
+      "title": "I Compiled My Blog Into a Decision Graph",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-15",
+      "image": "/images/ganymede.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-15-sovereign-memory-bank-deepening-local-first-cognitive-memory",
+      "canonical_url": "/blog/2026-07-15-sovereign-memory-bank-deepening-local-first-cognitive-memory",
+      "title": "The Sovereign Knowledge Compiler: Compile-Time Memory for Local-First AI Agents",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-15",
+      "image": "/images/1103010.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-16-the-sovereign-knowledge-compiler-explorer",
+      "canonical_url": "/blog/2026-07-16-the-sovereign-knowledge-compiler-explorer",
+      "title": "The Sovereign Knowledge Compiler Explorer: A Recipe for Compiling Knowledge Into a Static, Living Artifact",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-16",
+      "image": "/images/ganymede.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-18-compile-time-ai-k8s",
+      "canonical_url": "/blog/2026-07-18-compile-time-ai-k8s",
+      "title": "Compile-Time AI in Practice: How We Built a Kubernetes Knowledge Compiler",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-18",
+      "image": "/images/ganymede.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-20-compile-time-intelligence-research-compiler-agent",
+      "canonical_url": "/blog/2026-07-20-compile-time-intelligence-research-compiler-agent",
+      "title": "Compile-Time Intelligence: Building a Research Compiler Agent That Compiles Knowledge Instead of Re-Reading It",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-20",
+      "image": "/images/12092025/uncensored-ai-chatbot-architecture-diagram.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-21-compiling-medical-evidence-clinical-research-compiler",
+      "canonical_url": "/blog/2026-07-21-compiling-medical-evidence-clinical-research-compiler",
+      "title": "Compiling Medical Evidence: A Clinical Research Compiler That Turns Guidelines and Trials Into a Queryable Knowledge Artifact",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-21",
+      "image": "/images/12092025/uncensored-ai-chatbot-architecture-diagram.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-21-research-compiler-scientific-discovery",
+      "canonical_url": "/blog/2026-07-21-research-compiler-scientific-discovery",
+      "title": "A Research Compiler for Scientific Understanding, Not a Better Research Assistant",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-21",
+      "image": "/images/12092025/uncensored-ai-chatbot-architecture-diagram.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-22-if-the-loop-is-the-product",
+      "canonical_url": "/blog/2026-07-22-if-the-loop-is-the-product",
+      "title": "If the Loop Is the Product, Observability Becomes the Operating System",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-22",
+      "image": "/images/12092025/uncensored-ai-chatbot-architecture-diagram.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-23-building-the-scientific-question-compiler",
+      "canonical_url": "/blog/2026-07-23-building-the-scientific-question-compiler",
+      "title": "Building the Scientific Question Compiler: A Map of What We Do Not Know",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-23",
+      "image": "/images/12092025/uncensored-ai-chatbot-architecture-diagram.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-23-the-loop-closes-itself",
+      "canonical_url": "/blog/2026-07-23-the-loop-closes-itself",
+      "title": "The Loop Closes Itself: A Compiler That Directs Its Own Next Compile",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-23",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-23-the-next-experiment-grounded-and-quantitative",
+      "canonical_url": "/blog/2026-07-23-the-next-experiment-grounded-and-quantitative",
+      "title": "The Next Experiment: From 'Survives Scale' to 'Correct' \u2014 Grounding, Negative Controls, and Quantitative Domains",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-23",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-23-the-scientific-state-compiler-pass-4",
+      "canonical_url": "/blog/2026-07-23-the-scientific-state-compiler-pass-4",
+      "title": "Pass 4: The Scientific State Compiler \u2014 A Versioned Model of What We Understand",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-23",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-23-the-scientific-state-compiler-roadmap",
+      "canonical_url": "/blog/2026-07-23-the-scientific-state-compiler-roadmap",
+      "title": "Compiling the State of Human Understanding: A Roadmap for the Scientific State Compiler",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-23",
+      "image": "/images/12092025/uncensored-ai-chatbot-architecture-diagram.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-23-validating-at-scale-orkg",
+      "canonical_url": "/blog/2026-07-23-validating-at-scale-orkg",
+      "title": "Validating at Scale: The Compiler Meets 6.3 Million RDF Triples",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-23",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-24-popper-the-falsifiable-hypothesis-compiler",
+      "canonical_url": "/blog/2026-07-24-popper-the-falsifiable-hypothesis-compiler",
+      "title": "Popper: Making the Hypothesis Compiler Falsifiable \u2014 Rediscovery Benchmarks, Negative Controls, and the Move From Plausible to Provable",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-24",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-25-does-the-hypothesis-compiler-generalize-orkg",
+      "canonical_url": "/blog/2026-07-25-does-the-hypothesis-compiler-generalize-orkg",
+      "title": "Does the Hypothesis Compiler Generalize? Running Popper on a Corpus I Did Not Build",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-25",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2026-07-26-does-the-compiler-know-when-it-is-wrong",
+      "canonical_url": "/blog/2026-07-26-does-the-compiler-know-when-it-is-wrong",
+      "title": "Does the Compiler Know When It's Wrong? Semantic Rediscovery and the Limits of Falsification-Awareness",
+      "author": "Daniel Kliewer",
+      "date": "2026-07-26",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2026-08-05-build-a-video-editing-hermes-agent",
+      "canonical_url": "/blog/2026-08-05-build-a-video-editing-hermes-agent",
+      "title": "How I Taught an Agent to Edit Video \u2014 and the Repeatable Method Behind It",
+      "author": "Daniel Kliewer",
+      "date": "2026-08-05",
+      "image": "/images/ComfyUI_00200_.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-08-08-building-rehab-analyzer-with-hermes",
+      "canonical_url": "/blog/2026-08-08-building-rehab-analyzer-with-hermes",
+      "title": "Building a Local-First Rehab Cost Analyzer with an AI Agent (Full Build + Replication Guide)",
+      "author": "Daniel Kliewer",
+      "date": "2026-08-08",
+      "image": "/images/rehab-analyzer-result-view.png",
+      "status": "published"
+    },
+    {
+      "slug": "2026-08-09-hermes-atlas-v01-local-first-incrementally-compiled-falsifiable-knowledge-system",
+      "canonical_url": "/blog/2026-08-09-hermes-atlas-v01-local-first-incrementally-compiled-falsifiable-knowledge-system",
+      "title": "Hermes Atlas v0.1: A Local-First, Incrementally-Compiled, Falsifiable Knowledge",
+      "author": "Daniel Kliewer",
+      "date": "2026-08-09",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+      "canonical_url": "/blog/2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+      "title": "Hermes Atlas v0.2: Claim-Level Coverage, a Determinism Gate, and a Knowledge-Mutation",
+      "author": "Daniel Kliewer",
+      "date": "2026-08-09",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+      "canonical_url": "/blog/2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+      "title": "Hermes Atlas v0.3: An Evidence Ledger, a Provable Claim Lifecycle, and an",
+      "author": "Daniel Kliewer",
+      "date": "2026-08-09",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
+      "canonical_url": "/blog/2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
+      "title": "Hermes Atlas v0.4: Proving the Evidence Ledger & Claim Lifecycle with a Gold-Labeled",
+      "author": "Daniel Kliewer",
+      "date": "2026-08-09",
+      "image": "",
+      "status": "published"
+    },
+    {
+      "slug": "2026-08-09-hermes-video-agent",
+      "canonical_url": "/blog/2026-08-09-hermes-video-agent",
+      "title": "Building Hermes Video Agent: a local-first, human-in-the-loop video pipeline",
+      "author": "Daniel Kliewer",
+      "date": "2026-08-09",
+      "image": "/images/hva-landing.png",
+      "status": "published"
+    }
+  ]
+}

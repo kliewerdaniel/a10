@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "id": "2026-06-01-objective03-local-news-agency",
+  "title": "objective03: My Laptop Eats the News and Talks Back",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-06-01",
+  "updated_at": "2026-06-01",
+  "canonical_url": "/blog/2026-06-01-objective03-local-news-agency",
+  "content_hash": "sha256:f5755e6c4a944656bff00134f86e00c32e6e4e9b4fd64fc83f76c45251573e1d",
+  "topics": [
+    "local-ai",
+    "news-aggregation",
+    "llm",
+    "contradiction-detection",
+    "tts",
+    "llama-cpp",
+    "kuzudb",
+    "qdrant",
+    "qwen3-tts",
+    "local-first-ai"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "apple silicon",
+    "autonomous news ingestion",
+    "contradiction tracking system",
+    "architecture overview",
+    "audio broadcasts",
+    "consumer hardware",
+    "pipeline architecture the",
+    "task group",
+    "analysis pipeline",
+    "claim extraction each",
+    "entity resolution",
+    "event clustering claims",
+    "contradiction detection new",
+    "narrative analysis claims",
+    "source reliability scoring each",
+    "graph update all",
+    "broadcast generation",
+    "audio production",
+    "storage architecture",
+    "edge schema",
+    "node types",
+    "key properties",
+    "edge types",
+    "inference stack",
+    "scheduler configuration",
+    "this stack the",
+    "daniel kliewer"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+      "weight": 0.0345,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+      "weight": 0.0333,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-22-if-the-loop-is-the-product",
+      "weight": 0.0303,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
+      "weight": 0.0294,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-23-rlhf-lab-business-plan",
+      "weight": 0.0278,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-building-the-scientific-question-compiler",
+      "weight": 0.0278,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-20-compile-time-intelligence-research-compiler-agent",
+      "weight": 0.0238,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-21-compiling-medical-evidence-clinical-research-compiler",
+      "weight": 0.0227,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "All documents undergo SHA-256 deduplication before graph insertion. The normalized document is stored as a   node in KuzuDB with a   edge pointing to the originating   node",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Each document is chunked and passed to a local LLM (llama",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "GBNF grammar enforcement ensures the model's output is structurally valid — no schema drift, no optional fields appearing as required",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "A second local LLM call extracts named entities (PERSON, ORG, LOC, EVENT) from each document. Extracted entities are resolved against existing graph nodes via:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "4. If no matches, a new   node is created with   status",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "New claims are embedded using BGE-Small-EN-v1",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "1. **Vector search** — cosine similarity query against the Qdrant collection. Candidates with similarity > 0.75 are returned",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "2. **LLM classification** — each candidate pair is passed to the local LLM with a prompt template that classifies the relationship into one of five typed categories:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Contradictions are persisted as   edges between claim nodes with a   property",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Contradictions are **never auto-resolved** — the system preserves the raw disagreement for downstream consumption",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Claims not assigned to events (i.e., no entity overlap with existing event nodes) are grouped into narrative threads via embedding cosine similarity clustering (>0",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "All extracted nodes and edges are committed to KuzuDB in a single transaction per batch",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Preprocessed segments are synthesized via Qwen3-TTS using mlx_audio",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Voice cloning is supported via reference audio input",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Synthesized audio segments are crossfaded at boundaries and queued for playback via   on macOS",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "7B-parameter models to run at interactive speeds on Apple Silicon. Qwen3-TTS synthesizes speech at 2x real-time on an M-series chip. Qdrant runs embedded with minimal memory footprint. KuzuDB is embedded with zero external dependencies",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "objective03 is MIT licensed, requires Python 3",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "11+, and is structured as:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Built by Daniel Kliewer (kliewerdaniel). Follows the local-first philosophy established in \"mastering llama.cpp local LLM integration\": a weak local model controlled by the user is superior to a powerful cloud model controlled by a vendor",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "03\" — version three. Also: the third wave of local AI. Wave 1 was CPU inference (slow, universal). Wave 2 was GPU inference (fast, desktop-bound). Wave 3 is Metal/MLX inference on consumer SoCs (fast, portable, power-efficient)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The compute shortage is a billing shortage",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://6340588028610.gumroad.com/l/qkxkt",
+    "https://github.com/kliewerdaniel/objective",
+    "https://6340588028610.gumroad.com/l/qkxkt"
+  ],
+  "related_artifacts": [
+    "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+    "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+    "2026-07-22-if-the-loop-is-the-product",
+    "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
+    "2024-11-23-rlhf-lab-business-plan",
+    "2026-07-23-building-the-scientific-question-compiler",
+    "2026-07-20-compile-time-intelligence-research-compiler-agent",
+    "2026-07-21-compiling-medical-evidence-clinical-research-compiler"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-06-01-objective03-local-news-agency.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "f5755e6c4a944656bff00134f86e00c32e6e4e9b4fd64fc83f76c45251573e1d",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

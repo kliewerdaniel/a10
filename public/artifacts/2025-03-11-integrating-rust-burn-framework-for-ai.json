@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "2025-03-11-integrating-rust-burn-framework-for-ai",
+  "title": "Complete Guide: Integrating Rust's Burn Framework for AI Model Training and Local Deployment",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-03-11",
+  "updated_at": "2025-03-11",
+  "canonical_url": "/blog/2025-03-11-integrating-rust-burn-framework-for-ai",
+  "content_hash": "sha256:d21238bda294f2391d7a2f23a0778cf3ba5f79052073198b5337d3ed032a4be5",
+  "topics": [
+    "rust-burn-framework",
+    "ai-model-training",
+    "local-deployment",
+    "rust-ai",
+    "python-integration",
+    "performance-optimization",
+    "machine-learning",
+    "neural-networks",
+    "ai-development",
+    "cross-language-integration"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "running local models",
+    "no python",
+    "full workflow",
+    "define your",
+    "leveling up your burn",
+    "why together",
+    "new rust",
+    "rust module"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-03-11-integrating-the-openai-agents-sdk-with-rusts-burn-framework",
+      "weight": 0.0625,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Meanwhile, Python is still the king of AI and data science",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "But Python is slow",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "We’re going to create a new Rust library ( means it’s not an executable binary):",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is just the beginning. Rust can handle much heavier lifting—like SIMD-optimized tensor computations, fast graph algorithms, or even custom LLM model inference. The point is : if you care about performance, security, and keeping AI workloads efficient, Rust deserves a place in your stack",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The AI world is moving fast, and the divide between research and practical implementation is only growing",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "If you want to be ahead of the curve, mastering hybrid Rust/Python applications for AI is the way forward",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/openai/openai-agents-python.git"
+  ],
+  "related_artifacts": [
+    "2025-03-11-integrating-the-openai-agents-sdk-with-rusts-burn-framework"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-03-11-integrating-rust-burn-framework-for-ai.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "d21238bda294f2391d7a2f23a0778cf3ba5f79052073198b5337d3ed032a4be5",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

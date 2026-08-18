@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "id": "2025-02-14-reddiss",
+  "title": "RedDiss Technical Deep Dive: Complete AI-Powered Diss Track Generation Pipeline with Reddit Sentiment Analysis, LLM Lyrics Crafting, and Audio Production Automation",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-02-14",
+  "updated_at": "2025-02-14",
+  "canonical_url": "/blog/2025-02-14-reddiss",
+  "content_hash": "sha256:e2c60aec18da8d07ab0fa79aa5246a9fefd44d3a2575f1a097e818e04a26cfb6",
+  "topics": [
+    "reddiss",
+    "reddit",
+    "ai",
+    "llm",
+    "tts",
+    "beat-sync",
+    "diss-tracks",
+    "streamlit",
+    "fastapi",
+    "music-generation",
+    "audio-processing",
+    "text-to-speech",
+    "async-api"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "diss tracks",
+    "reddit in",
+    "daniel kliewer",
+    "loco local",
+    "reddit data",
+    "project architecture",
+    "core components",
+    "reddit data scraper",
+    "initialize reddit",
+    "text sanitization",
+    "raw reddit",
+    "theme extraction",
+    "leveraging hugging",
+    "lyrics generation",
+    "utilizing llama",
+    "flow refinement",
+    "beat synchronization",
+    "audio mastering",
+    "diss track",
+    "reddit post",
+    "backend integration",
+    "quality assurance",
+    "up environment",
+    "future prospects"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+      "weight": 0.0385,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+      "weight": 0.037,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-22-if-the-loop-is-the-product",
+      "weight": 0.0333,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-25-dynamic-persona-moe-rag-building-a-sovereign-synthetic-intelligence-system",
+      "weight": 0.0328,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
+      "weight": 0.0323,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-23-rlhf-lab-business-plan",
+      "weight": 0.0303,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-building-the-scientific-question-compiler",
+      "weight": 0.0303,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-21-browser-use-ollama-mcp",
+      "weight": 0.0294,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "In the ever-evolving landscape of artificial intelligence and social media, innovative projects continually push the boundaries of what's possible. One such pioneering endeavor is **RedDiss**, an AI-powered diss track generator developed by Daniel Kliewer",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "RedDiss is structured to ensure maintainability, scalability, and efficiency",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The project repository is organized into several key directories:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The scraper ensures that only meaningful and non-deprecated directories (like  ) are accessed, maintaining the integrity and security of the data extraction process",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Understanding the themes and sentiments within the Reddit content is pivotal for generating relevant diss tracks",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The lyrics are scaffolded into structured formats, including verses, chorus, and outro, ensuring a coherent and impactful flow",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Transforming written lyrics into spoken word is achieved through the TTS engine",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "No diss track is complete without the right beat",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This meticulous process guarantees that each diss track is studio-quality, ready for listeners to engage and enjoy",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The user-facing interface of RedDiss is built with Streamlit, offering an intuitive platform for users to generate diss tracks effortlessly",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "To maintain high-quality outputs, RedDiss incorporates a suite of tests using  . For instance, the sanitizer module is rigorously tested to ensure it effectively cleans and preprocesses Reddit content",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Setting up RedDiss is straightforward, guided by comprehensive documentation",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/RedDiss.git"
+  ],
+  "related_artifacts": [
+    "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+    "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+    "2026-07-22-if-the-loop-is-the-product",
+    "2026-01-25-dynamic-persona-moe-rag-building-a-sovereign-synthetic-intelligence-system",
+    "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
+    "2024-11-23-rlhf-lab-business-plan",
+    "2026-07-23-building-the-scientific-question-compiler",
+    "2025-03-21-browser-use-ollama-mcp"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-02-14-reddiss.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "e2c60aec18da8d07ab0fa79aa5246a9fefd44d3a2575f1a097e818e04a26cfb6",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

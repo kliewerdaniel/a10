@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "id": "2026-07-12-compile-time-ai-knowledge-compiler-architecture",
+  "title": "Compile-Time AI: Why the Industry Is Quietly Building an LLVM for Knowledge",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-07-12",
+  "updated_at": "2026-07-12",
+  "canonical_url": "/blog/2026-07-12-compile-time-ai-knowledge-compiler-architecture",
+  "content_hash": "sha256:727668f68b7b312081e61d54af5ff3da270777f7114cd8e4930669950c6e9ee6",
+  "topics": [
+    "compile-time-ai",
+    "knowledge-compiler",
+    "local-first-ai",
+    "ai-architecture",
+    "intermediate-representation",
+    "ai-compilers",
+    "semantic-compilation",
+    "beyond-rag"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "industry is quietly building",
+    "knowledge every",
+    "context compilation theory",
+    "core thesis",
+    "semantic passes",
+    "knowledge graph",
+    "static application",
+    "runtime artifact",
+    "source code human knowledge",
+    "optimization relationship",
+    "machine code heuristic",
+    "six independent efforts",
+    "one pattern",
+    "keegan thompson",
+    "claude code",
+    "claude desktop",
+    "bayesian networks",
+    "verifiable inference runtime",
+    "security optimizer",
+    "original taxonomy",
+    "ecosystem laying",
+    "telemetry intelligence engine",
+    "knowledge compilation",
+    "application compilation",
+    "compiler analogy breaks down",
+    "questions worth investigating further",
+    "thing none",
+    "external references",
+    "brian letort",
+    "secure skill compilation",
+    "unified architecture",
+    "document processing pipeline blueprint"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-07-16-the-sovereign-knowledge-compiler-explorer",
+      "weight": 0.5,
+      "basis": "crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-14-recursive-research-compiler-knowledge-compiler-sdk",
+      "weight": 0.0513,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-retrieval-architecture-synthesis",
+      "weight": 0.0274,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-29-sovereign-synthesis",
+      "weight": 0.023,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-06-30-amis-in-action-autonomous-marketing-knowledge-graph",
+      "weight": 0.0217,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-05-the-ghost-in-the-machine-is-finally-allowed-to-see-a-beginners-guide-to-mcp",
+      "weight": 0.0204,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-21-compiling-medical-evidence-clinical-research-compiler",
+      "weight": 0.0204,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-02-context-engineering-the-blind-spots-and-the-real-full-stack-development-paradigm",
+      "weight": 0.0189,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Compile-Time AI: Why the Industry Is Quietly Building an LLVM for Knowledge",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Every few years, systems programming rediscovers the same lesson: expensive work done once, ahead of time, beats expensive work done repeatedly, on demand. That lesson is why we have compilers instead of interpreting source code line-by-line on every execution",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "I don't think this is a coincidence, and I don't think it's marketing convergence",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "I think it's the AI industry rediscovering a systems-design pattern that is older than AI itself, applied to a resource that changed the economics: tokens",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This piece is a survey and a taxonomy, not a pitch for any one project",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This works. It is also, structurally, an interpreter",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The question worth asking isn't  is this a real trend",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "it across many future queries is financially rational), and reliability (a system that reasons fresh every time is also nondeterministic every time — compiling a decision once and auditing it once is a fundamentally different governance posture than re-deriving it under time pressure on every request)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Thompson, that ingests URLs, PDFs, YouTube transcripts, GitHub repos, and images, then runs an explicit   step that turns those raw sources into a structured, queryable markdown wiki. The workflow is unapologetically compiler-shaped:  ,  ,  ,",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "the compiled artifact, not embedding search over raw chunks, and the whole thing ships as an MCP server so agents in Claude Code, Cursor, or Claude Desktop can drive the pipeline directly. Output is plain markdown files under version control — no proprietary database, no lock-in",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "What's notable architecturally is the framing on their own site: the tool doesn't call itself a RAG system or a note-taking app",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Kompile is the most ambitious of the group and the one furthest from a single-developer tool",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "(  files) explicitly built for regulated, disconnected environments. It's early access only as of this writing, so the production-scale evidence isn't public yet, but the architectural ambition is the most complete instance of \"compile the whole stack\" I found",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Of everything surveyed, Brian Letort's work is the most rigorous attempt to give this pattern a formal theory rather than just an implementation",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": ": source context, memory and knowledge substrate, context compiler, Context IR, lowering, and experience runtimes. His insight — and I think this is the sharpest single idea in the entire survey — is that layers three and four, the compiler and the IR, form a stable core that survives changes above and below it",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": ", swap your interface from chat to voice: the compiled Context IR doesn't have to change, because policy decisions and relevance selection happened once, in IR space, and only the lowering step is runtime-specific",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The project is explicit that this is complementary to RAG, not a replacement for it: RAG stays useful for ad-hoc retrieval over large uncompiled corpora, while the compiled wiki is what you retrieve from once material has been through the pipeline",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The mechanism is a double-compilation model",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "ML models (scikit-learn, XGBoost), rules engines, and monitoring loops — with the explicit constraint that the resulting runtime should have no frontier-model dependency unless an escalation path is triggered",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The academic literature is starting to catch up to what these production tools are already doing",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "and Kimi CLI, produces wildly different pass rates, because each model's training distribution has a documented format preference (Claude performs better with XML-tagged structure; GPT-series models are hurt by a \"JSON format tax\"; deeply nested data parses best as YAML)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Authoring separately for every framework is an m×n problem",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "s trial-and-error during execution. The paper also runs the experiment that matters most for anyone tempted to treat \"the compiled format\" as universal: the same Kimi-optimized output helps Kimi, is neutral on GLM, and is mildly negative on DeepSeek",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": ", framework-targeted artifacts. SkCC is the rigorous academic instance of this; it's the layer closest to traditional software compilation, because the artifact being compiled (a SKILL.md file) is itself closer to source code than to prose",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Sovereign AI** — not a compilation layer at all, but a cross-cutting property that most of these projects share by design choice rather than accident: the compiled artifact is something you own, can inspect, can version with git, and can run without a network dependency",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2026-07-16-the-sovereign-knowledge-compiler-explorer",
+    "2026-07-14-recursive-research-compiler-knowledge-compiler-sdk",
+    "2026-07-05-retrieval-architecture-synthesis",
+    "2026-03-29-sovereign-synthesis",
+    "2026-06-30-amis-in-action-autonomous-marketing-knowledge-graph",
+    "2025-11-05-the-ghost-in-the-machine-is-finally-allowed-to-see-a-beginners-guide-to-mcp",
+    "2026-07-21-compiling-medical-evidence-clinical-research-compiler",
+    "2026-07-02-context-engineering-the-blind-spots-and-the-real-full-stack-development-paradigm"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-07-12-compile-time-ai-knowledge-compiler-architecture.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "727668f68b7b312081e61d54af5ff3da270777f7114cd8e4930669950c6e9ee6",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

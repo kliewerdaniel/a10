@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "id": "2026-07-04-sovereign-intelligence-stack",
+  "title": "The Sovereign Intelligence Stack: Building Compounding AI Infrastructure",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-07-04",
+  "updated_at": "2026-07-04",
+  "canonical_url": "/blog/2026-07-04-sovereign-intelligence-stack",
+  "content_hash": "sha256:3ad46c2273891c4b286efaab8ab5024e0840bfa2b191b0a9543dee531aaf87e1",
+  "topics": [
+    "sovereign-intelligence",
+    "ai-infrastructure",
+    "local-first",
+    "agent-recipes",
+    "knowledge-graphs",
+    "autonomous-evaluation",
+    "context-engineering",
+    "local-first-ai",
+    "code-generation",
+    "ai-architecture"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "intelligence is not",
+    "model the",
+    "sovereign intelligence stack",
+    "lines the sovereign intelligence",
+    "recipe compiler",
+    "signal router",
+    "evaluation loop",
+    "knowledge systems",
+    "persistent memory layer",
+    "intelligence observatory",
+    "this matters now",
+    "recipe compiler every",
+    "expert signal router",
+    "autonomous evaluation loop",
+    "signal definitions",
+    "drift detection signals",
+    "autonomous loop the",
+    "knowledge systems two",
+    "persistent memory agents",
+    "intelligence observatory the",
+    "intelligence timeline",
+    "pattern detection",
+    "putting it all together",
+    "compounding effect",
+    "code the",
+    "this enables with",
+    "philosophy this",
+    "next steps the",
+    "model is not",
+    "autonomous sovereign",
+    "related repositories"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-07-05-sovereign-ai-architecture-synthesis",
+      "weight": 0.6264,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-getting-started-sovereign-ai",
+      "weight": 0.602,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-06-sovereign-ai-benchmarks-performance-results",
+      "weight": 0.598,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-local-ai-architecture-synthesis",
+      "weight": 0.5862,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-retrieval-architecture-synthesis",
+      "weight": 0.5725,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-03-the-model-is-not-the-product",
+      "weight": 0.5533,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-02-building-autonomous-sovereign-ai-with-autoresearch-loops-and-fine-tuned-expert-models",
+      "weight": 0.5323,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-03-the-sovereign-intelligence-observatory",
+      "weight": 0.1111,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Intelligence Is Not the Model",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The model is not the product",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The model is the ingredient",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The model is a snapshot of accumulated decisions",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The loop is the engine that keeps accumulating",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "If you build AI systems that don't capture their own decisions, you're building castles on sand. Every session resets. Every conversation starts from zero. Every failure is a mystery because you have no record of why it failed",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Sovereign Intelligence Stack is a 5-layer architecture where each layer produces data that makes the next layer better",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Nothing is wasted",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The AI ecosystem is exploding",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Sovereign Intelligence Stack is the glue",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Every AI decision should be captured as an immutable record. This is the foundation",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is **Git for AI**. Every recipe is an immutable commit",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "2. **FTS5 is fast** — Full-text search at query time, not build time",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "3. **Immutable records** — Append-only schema. Recipes are never modified, only extended",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Not all tasks are equal",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is **reinforcement learning for evaluation**. The loop doesn't just check — it generates new ways to check, detects when its own checks are drifting, and improves over time",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The knowledge graph has **3,468 edges** (from my earlier work on knowledge graphs). Each node represents a concept, each edge represents a relationship",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Access frequency** — How often is it used",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Over time, irrelevant memories are pruned",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Relevant memories are retained and prioritized",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "6. **Day 30**: You have 1,000 recipes, 500 nodes, and your system is self-improving",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is compounding.** Each day makes the next day better. The system is learning from itself",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The working implementation is in the [sovereign-intelligence-stack](https://github",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "2. **Debug failures** — Every failure is a recipe you can investigate",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "6. **Maintain sovereignty** — All data stays local, all decisions are captured",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/sovereign-intelligence-stack",
+    "https://danielkliewer.com/blog/2026-03-29-architecture-of-autonomy",
+    "https://danielkliewer.com/blog/2026-07-03-the-model-is-not-the-product",
+    "https://danielkliewer.com/blog/2026-07-02-building-autonomous-sovereign-ai-with-autoresearch-loops-and-fine-tuned-expert-models",
+    "https://danielkliewer.com/blog/2026-07-02-context-engineering-the-real-full-stack-development-paradigm",
+    "https://github.com/microsoft/graphrag",
+    "https://github.com/ecc-ai/enterprise-code-compiler",
+    "https://github.com/anthropics/claude-memory",
+    "https://github.com/coleam00/context-engineering-intro",
+    "https://github.com/kliewerdaniel/sovereign-memory-bank",
+    "https://github.com/kliewerdaniel/dynamic-persona-moe-rag",
+    "https://github.com/kliewerdaniel/objective05",
+    "https://github.com/kliewerdaniel/sovereignspec"
+  ],
+  "related_artifacts": [
+    "2026-07-05-sovereign-ai-architecture-synthesis",
+    "2026-07-05-getting-started-sovereign-ai",
+    "2026-07-06-sovereign-ai-benchmarks-performance-results",
+    "2026-07-05-local-ai-architecture-synthesis",
+    "2026-07-05-retrieval-architecture-synthesis",
+    "2026-07-03-the-model-is-not-the-product",
+    "2026-07-02-building-autonomous-sovereign-ai-with-autoresearch-loops-and-fine-tuned-expert-models",
+    "2026-07-03-the-sovereign-intelligence-observatory"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-07-04-sovereign-intelligence-stack.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "3ad46c2273891c4b286efaab8ab5024e0840bfa2b191b0a9543dee531aaf87e1",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "2025-04-06-judgmental-art-cat",
+  "title": "Building Sustainable Micro-Enterprises: The Judgmental Art Cat Project - Art, Automation, and Experimentation",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-04-06",
+  "updated_at": "2025-04-06",
+  "canonical_url": "/blog/2025-04-06-judgmental-art-cat",
+  "content_hash": "sha256:9010438c0daac79bc0a3e9bd78a86d057a7f4d4d7561e5e96851c8f359c93f03",
+  "topics": [
+    "micro-enterprise",
+    "art-business",
+    "sticker-art",
+    "business-automation",
+    "organic-marketing",
+    "e-commerce",
+    "independent-art",
+    "sustainable-business",
+    "local-business",
+    "creative-entrepreneurship"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "building sustainable",
+    "through art",
+    "judgmental art cat",
+    "project over",
+    "premise the",
+    "art cat",
+    "skill development",
+    "practical automation",
+    "financial sustainability through",
+    "outreach if",
+    "expansion this",
+    "broader intent in",
+    "follow along you"
+  ],
+  "relationships": [],
+  "claims": [
+    {
+      "text": "Unlike AI-generated art, these stickers are created through traditional methods—hand-drawn, digitized, and formatted for sticker production",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The emphasis is on **authenticity**, **uniqueness**, and **relatable expression** in an era of increasingly homogenized content",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "this platform to experiment with **open-source AI tools** and **local model hosting** to handle copywriting, SEO, analytics, and targeted engagement. This allows me to build automation systems that are *cost-effective*, *modular*, and *independent* of commercial APIs",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Once the automation stack is tested, I’ll package it into a freelancing toolkit",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "In a time when many creators are locked into subscription services, platforms, and paywalled APIs, *Judgmental Art Cat* stands as a small rebellion",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://judgmentalartcat.com",
+    "https://judgmentalartcat.com"
+  ],
+  "related_artifacts": [],
+  "provenance": {
+    "source": "content/blog/2025-04-06-judgmental-art-cat.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "9010438c0daac79bc0a3e9bd78a86d057a7f4d4d7561e5e96851c8f359c93f03",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

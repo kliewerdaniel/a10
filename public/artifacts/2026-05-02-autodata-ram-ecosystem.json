@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "id": "2026-05-02-autodata-ram-ecosystem",
+  "title": "Autodata and the RAM Ecosystem: When AI Learns to Build Its Own Training Data",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-05-02",
+  "updated_at": "2026-05-02",
+  "canonical_url": "/blog/2026-05-02-autodata-ram-ecosystem",
+  "content_hash": "sha256:ee79a535a060251adcd795d1860b9aa6f0bd8752b04de7dfeb4fa40631689e6c",
+  "topics": [
+    "ai",
+    "synthetic-data",
+    "ram",
+    "autodata",
+    "reasoning",
+    "llm",
+    "meta-learning",
+    "data-science"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "living blueprint",
+    "inference the",
+    "evaluation quality",
+    "reward models",
+    "evaluation the",
+    "environments reasoning",
+    "byte latent",
+    "data scientist that",
+    "builds itself at",
+    "inner architecture",
+    "three pillars",
+    "matter in",
+    "this changes",
+    "picture the",
+    "autonomous domain data",
+    "condensed spec the",
+    "goal build",
+    "domain data studio",
+    "target domains",
+    "system architecture",
+    "harness manager",
+    "data generation workflow",
+    "evaluation metrics",
+    "solver discrimination gap",
+    "domain coverage",
+    "rubric precision",
+    "safety pass rate",
+    "diversity score",
+    "harness improvement rate",
+    "governance requirements",
+    "phased roadmap",
+    "risk register",
+    "moving forward autodata"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-01-25-building-the-synthetic-analyst",
+      "weight": 0.0233,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-15-sovereign-memory-bank-deepening-local-first-cognitive-memory",
+      "weight": 0.0169,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-27-reddit-blog-generator",
+      "weight": 0.0123,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-05-capacity-review-ai-workflow-vibe-coding",
+      "weight": 0.0122,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "High-quality data is not a precondition for intelligence — it is an expression of it",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "For most of the history of machine learning, data has been treated as an upstream problem. You gather it, clean it, label it, and then hand it off to a training pipeline. The model is downstream",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The data is fixed",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Quality assurance in reasoning systems is hard",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The question of *how do you know if a model is getting better",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Reasoning in isolation is not enough",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Long-horizon reasoning requires memory",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The core premise is deceptively simple: *train an AI to be its own data scientist",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Not to process data, but to **create, analyze, and iteratively refine the data used to train and benchmark other AI systems**. The implications of this are significant",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Autodata's primary instantiation is called **Agentic Self-Instruct**, and it runs through four specialized subagents operating in a continuous loop:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The *gap* between weak and strong solver performance is the signal",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "If both solvers succeed easily, the task is too simple",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "If both fail, the task is too hard or the rubric is broken",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Tasks that discriminate well — where weak fails and strong succeeds — are the high-value training examples",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Data Analysis** is where the system develops metacognitive awareness of its own outputs",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Meta-Optimization** is the most striking capability",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "A substantial and growing gap between weak and strong solver performance — confirming the system is generating genuinely discriminative data",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "A notable improvement in validation pass rates in the outer loop — confirming the meta-optimizer is making the harness more effective over time",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The conventional view of AI training data treats it as a resource problem: you need more data, better data, labeled data. The solution is collection, annotation, and cleaning — expensive human labor applied at scale",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Autodata proposes a different framing: **data quality is a function of inference compute and iterative refinement, not just collection effort",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The implication is that the ceiling on synthetic data quality is not fixed by the quality of the generator model at a point in time — it can be raised by running better loops",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "inference time yields better reasoning. Autodata applies this same principle to data generation: spend more compute generating and evaluating data, and the resulting training signal improves. The two are complementary — better data produces better base models; better base models produce better data",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The alignment connection.** Autodata's rubric-driven verifier is not just a quality filter — it is an alignment mechanism",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The rubric encodes what \"good\" looks like in a domain. When the meta-optimizer refines the rubric, it is refining the operational definition of alignment for that domain",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The memory connection.** The evolving harness is a form of external memory",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/facebookresearch/RAM",
+    "https://facebookresearch.github.io/RAM/blogs/autodata/",
+    "https://github.com/facebookresearch/RAM",
+    "https://facebookresearch.github.io/RAM/blogs/autodata/"
+  ],
+  "related_artifacts": [
+    "2026-01-25-building-the-synthetic-analyst",
+    "2026-07-15-sovereign-memory-bank-deepening-local-first-cognitive-memory",
+    "2024-11-27-reddit-blog-generator",
+    "2025-11-05-capacity-review-ai-workflow-vibe-coding"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-05-02-autodata-ram-ecosystem.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "ee79a535a060251adcd795d1860b9aa6f0bd8752b04de7dfeb4fa40631689e6c",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

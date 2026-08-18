@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "id": "2024-12-02-persona-chat",
+  "title": "Complete Guide: Building Personalized AI Assistants with LangChain - Persona-Based Chatbot Development",
+  "author": "Daniel Kliewer",
+  "created_at": "2024-12-02",
+  "updated_at": "2024-12-02",
+  "canonical_url": "/blog/2024-12-02-persona-chat",
+  "content_hash": "sha256:33b6b28eaeed57a1468262d8a245f42d9c436ef8b2e23489913d63f69a3f9191",
+  "topics": [
+    "persona-chatbot",
+    "langchain",
+    "openai",
+    "chromadb",
+    "writing-style-imitation",
+    "nlp",
+    "tutorial",
+    "chatbot-development",
+    "conversational-ai",
+    "ai-assistants",
+    "vector-databases"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "starting point",
+    "project artificial intelligence",
+    "natural language processing",
+    "repository the",
+    "getting started before",
+    "directory structure",
+    "up environment",
+    "processing writing samples the",
+    "creating embeddings",
+    "vector store embeddings",
+    "user interaction",
+    "conversation logging the",
+    "potential applications",
+    "prompts this",
+    "personal writing assistant",
+    "famous author",
+    "jane austen",
+    "mark twain",
+    "customer service bot trained",
+    "company documents",
+    "educational tutor imitating",
+    "teaching style",
+    "world war",
+    "content generator",
+    "marketing teams"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-02-14-reddiss",
+      "weight": 0.0208,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-12-01-basic-rag",
+      "weight": 0.0189,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-27-ai-agent-based-cross-platform-content-generator-and-distributor",
+      "weight": 0.0182,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-10-24-ghost-writer",
+      "weight": 0.0179,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-25-building-your-own-uncensored-ai-overlord",
+      "weight": 0.0167,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-27-reddit-blog-generator",
+      "weight": 0.0137,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-12-19-langchain-ollama",
+      "weight": 0.0137,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-03-american-phoenix",
+      "weight": 0.0104,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Artificial Intelligence has revolutionized the way we interact with technology, and Natural Language Processing (NLP) is at the forefront of this transformation",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "File where the conversation history is saved",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "It uses   for text files and   for PDFs. The loaded documents are then split into chunks using   to ensure the embeddings are manageable",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Embeddings are generated using  , which converts text chunks into high-dimensional vectors",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "These embeddings are stored in a Chroma vector store, allowing for efficient similarity searches during retrieval",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "A retriever is created to fetch relevant chunks based on the user's query",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Each conversation turn is appended to a Markdown file for record-keeping",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ensure sensitive information is handled appropriately",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://beta.openai.com/account/api-keys"
+  ],
+  "related_artifacts": [
+    "2025-02-14-reddiss",
+    "2024-12-01-basic-rag",
+    "2024-11-27-ai-agent-based-cross-platform-content-generator-and-distributor",
+    "2024-10-24-ghost-writer",
+    "2025-10-25-building-your-own-uncensored-ai-overlord",
+    "2024-11-27-reddit-blog-generator",
+    "2024-12-19-langchain-ollama",
+    "2026-01-03-american-phoenix"
+  ],
+  "provenance": {
+    "source": "content/blog/2024-12-02-persona-chat.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "33b6b28eaeed57a1468262d8a245f42d9c436ef8b2e23489913d63f69a3f9191",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

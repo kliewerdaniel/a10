@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "id": "2026-06-03-the-model-is-not-the-product-on-building-persistent-intelligence-infrastructure",
+  "title": "The Model Is Not the Product: On Building Persistent Intelligence Infrastructure",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-06-03",
+  "updated_at": "2026-06-03",
+  "canonical_url": "/blog/2026-06-03-the-model-is-not-the-product-on-building-persistent-intelligence-infrastructure",
+  "content_hash": "sha256:c352963e3fad31b0540384394d227d22b90ccd868b049585ba2507b78283caf2",
+  "topics": [
+    "local-ai",
+    "rust",
+    "knowledge-representation",
+    "objective05",
+    "persistent-intelligence",
+    "event-driven-architecture",
+    "temporal-graph",
+    "kuzudb",
+    "local-first-ai",
+    "contradiction-detection"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "model is not",
+    "building persistent intelligence",
+    "gets built when",
+    "wrong frame when",
+    "temporal knowledge graphs",
+    "infrastructure the",
+    "architecture that makes",
+    "local models actually interesting",
+    "event engine",
+    "case study",
+    "representation over generation the",
+    "political economy",
+    "gets built there",
+    "rust implementation teaches building",
+    "broadcast layer",
+    "overlooked endpoint most",
+    "remaining work",
+    "this points objective05"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-07-03-the-model-is-not-the-product",
+      "weight": 0.0312,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-getting-started-sovereign-ai",
+      "weight": 0.025,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-06-08-objective05-exec-giving-local-intelligence-system-hands",
+      "weight": 0.0238,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-06-sovereign-ai-benchmarks-performance-results",
+      "weight": 0.0238,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-04-sovereign-intelligence-stack",
+      "weight": 0.0208,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-local-ai-architecture-synthesis",
+      "weight": 0.0204,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-retrieval-architecture-synthesis",
+      "weight": 0.0167,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-02-building-autonomous-sovereign-ai-with-autoresearch-loops-and-fine-tuned-expert-models",
+      "weight": 0.0122,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "The Model Is Not the Product: On Building Persistent Intelligence Infrastructure",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "There is a framing problem at the center of most AI discourse right now, and it is costing builders real clarity about what they are actually constructing",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The framing is this: the model is the product",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The framing: **the information architecture is the product",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The model is a processing component",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "When you treat the model as the product, you build stateless interfaces. The pattern is familiar: user sends message, model generates response, context window closes, everything disappears",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The intelligence exists only during the forward pass. Memory is a feature you bolt on later",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Persistence is an afterthought",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "You end up with something that is very impressive in a demo and surprisingly brittle in any workflow that spans more than one session",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is not a criticism of the models themselves. It is a criticism of the system design choices that treating the model as the product encourages",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The alternative is to ask a different question at the start of the design process",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Not \"which model should I use?\" but \"what information structure do I need to build, and which model operations are appropriate for enriching it",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Documents stop being terminal outputs and start being observations. An article is evidence that a claim existed at a particular time",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "A Reddit thread is evidence that a discussion occurred",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "A YouTube transcript is evidence that a statement was made",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The core data structure in Objective05 is a temporal knowledge graph backed by Kuzu DB",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Every node carries   and   timestamps. Nothing is ever physically deleted — only logically superseded",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is not a nice-to-have. It is architecturally load-bearing",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Here is why: the interesting questions in an intelligence system are almost never \"what is true right now",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "are \"what did we know about X at time T?\", \"which claims appeared first?\", \"which sources have been consistent over time?\", \"when did this narrative start diverging from that one?\" These questions are unanswerable in a system that treats information as a current-state snapshot rather than an evolving temporal structure",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "— event mining, temporal graph analysis, information diffusion, dynamic graph networks — has been building toward exactly this insight for years. The practical implementation has lagged because it is genuinely hard to build correctly and because the stateless chatbot interface was an easier thing to ship",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "But the gap between what temporal graph systems can answer and what current AI products can answer is enormous, and it is not going to close by making the model bigger",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "that transforms documents into claims, claims into entities, entities into relationships, relationships into events, events into narratives, and narratives into evolving models of reality. The graph is not a database bolted onto an LLM",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The graph is the primary artifact",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The LLM is one of several components that enrich it",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/objective05",
+    "https://github.com/kliewerdaniel/objective05",
+    "https://www.danielkliewer.com/2026-06-01-objective03-local-news-agency"
+  ],
+  "related_artifacts": [
+    "2026-07-03-the-model-is-not-the-product",
+    "2026-07-05-getting-started-sovereign-ai",
+    "2026-06-08-objective05-exec-giving-local-intelligence-system-hands",
+    "2026-07-06-sovereign-ai-benchmarks-performance-results",
+    "2026-07-04-sovereign-intelligence-stack",
+    "2026-07-05-local-ai-architecture-synthesis",
+    "2026-07-05-retrieval-architecture-synthesis",
+    "2026-07-02-building-autonomous-sovereign-ai-with-autoresearch-loops-and-fine-tuned-expert-models"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-06-03-the-model-is-not-the-product-on-building-persistent-intelligence-infrastructure.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "c352963e3fad31b0540384394d227d22b90ccd868b049585ba2507b78283caf2",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

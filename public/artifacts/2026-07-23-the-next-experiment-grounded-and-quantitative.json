@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "id": "2026-07-23-the-next-experiment-grounded-and-quantitative",
+  "title": "The Next Experiment: From 'Survives Scale' to 'Correct' — Grounding, Negative Controls, and Quantitative Domains",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-07-23",
+  "updated_at": "2026-07-23",
+  "canonical_url": "/blog/2026-07-23-the-next-experiment-grounded-and-quantitative",
+  "content_hash": "sha256:39d1a66bce023d71d87f7b5b30f339999db5db23cb9db78abff2a226626667b5",
+  "topics": [
+    "ai-agents",
+    "compile-time-ai",
+    "knowledge-compiler",
+    "local-first-ai",
+    "scientific-state-compiler",
+    "orkg"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "scientific question",
+    "state compiler",
+    "research knowledge",
+    "scientific git",
+    "compiler meets",
+    "silence maps"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-07-23-the-loop-closes-itself",
+      "weight": 0.25,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-validating-at-scale-orkg",
+      "weight": 0.25,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-24-popper-the-falsifiable-hypothesis-compiler",
+      "weight": 0.2,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-25-does-the-hypothesis-compiler-generalize-orkg",
+      "weight": 0.1667,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-the-scientific-state-compiler-pass-4",
+      "weight": 0.0909,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-22-if-the-loop-is-the-product",
+      "weight": 0.0833,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-building-the-scientific-question-compiler",
+      "weight": 0.0667,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-the-scientific-state-compiler-roadmap",
+      "weight": 0.05,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "But — and this is the whole point of the next experiment — **survives scale is",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "not the same as correct.** Today proved the tool is *robust*",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "prove the tool is *right*",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "each fix is a legitimate adaptation of the existing tool:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The lesson is sharper than \"we had a bug",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "That is the exact failure mode the next experiment is designed to defend against:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "is not polish. It is the difference between a knowledge compiler and articulate",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "1. **The architecture is scale-robust",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "2. **Scale failures are a distinct class",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "They are not the same as \"the idea doesn't work\" — they are the tool needs",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "resilience engineering.\" Checkpointing, batching, and sharding are not optional",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "polish on 35B hardware; they are what make a multi-hour job survivable",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "3. **The 35B model is slow and CoT-expensive",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Every call is minutes, not",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "seconds. This is why resilience (resume, retry) matters more here than on a",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "measured* disagreements. That is a property of the corpus, not the compiler",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "5. **A tool that publishes flat assertions is untrustworthy by construction",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "empirical papers usually lack.\" That distinction is the entire credibility of",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "demonstrate the architecture is **correct**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The next experiment is about",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "correctness: grounding, controls, and domains where \"right is checkable",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This section is the brief for the next run",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "execute it. It is organized around the seven considerations that define it",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "RE papers are mostly narrative/qualitative, which is why our \"contradictions",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "density of genuinely conflicting numeric claims. This is the more legible story",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2026-07-23-the-loop-closes-itself",
+    "2026-07-23-validating-at-scale-orkg",
+    "2026-07-24-popper-the-falsifiable-hypothesis-compiler",
+    "2026-07-25-does-the-hypothesis-compiler-generalize-orkg",
+    "2026-07-23-the-scientific-state-compiler-pass-4",
+    "2026-07-22-if-the-loop-is-the-product",
+    "2026-07-23-building-the-scientific-question-compiler",
+    "2026-07-23-the-scientific-state-compiler-roadmap"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-07-23-the-next-experiment-grounded-and-quantitative.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "39d1a66bce023d71d87f7b5b30f339999db5db23cb9db78abff2a226626667b5",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

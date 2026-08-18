@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "id": "2025-11-03-the-revolution-will-be-documented",
+  "title": "The Revolution Will Be Documented: A Manifesto for AI-Assisted Software Development in the Age of Gatekeeping",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-11-03",
+  "updated_at": "2025-11-03",
+  "canonical_url": "/blog/2025-11-03-the-revolution-will-be-documented",
+  "content_hash": "sha256:022573e2f0038f82a2568879c04da2a4b364a3116e4d59e2b9f87cf0d5770885",
+  "topics": [
+    "ai-assisted-development",
+    "document-driven-development",
+    "software-engineering",
+    "vibe-coding",
+    "gatekeeping",
+    "programming-manifesto",
+    "ai-tools",
+    "software-development",
+    "next-js",
+    "ai-collaboration"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "revolution will be",
+    "software development",
+    "really afraid before",
+    "clean code",
+    "development let",
+    "technical foundation",
+    "blueprint that matters",
+    "system design",
+    "frontend layer",
+    "client components",
+    "server components",
+    "route handlers",
+    "backend layer",
+    "data layer",
+    "external services",
+    "translating architecture",
+    "code the",
+    "structure rationale",
+    "app router",
+    "custom react",
+    "implementation patterns",
+    "client pattern",
+    "error handling pattern",
+    "component state management pattern",
+    "security requirements",
+    "content security policy",
+    "variable requirements",
+    "collaboration workflow now",
+    "engineering before",
+    "initial build prompt",
+    "iterative refinement the",
+    "systematic verification once",
+    "building something real",
+    "project scope",
+    "local ollama",
+    "documentation first",
+    "functional requirements",
+    "blog post display",
+    "semantic search",
+    "backend implementation strategy with",
+    "application structure",
+    "blog search",
+    "integration pattern",
+    "search implementation",
+    "frontend integration",
+    "route proxy",
+    "testing strategy",
+    "test pyramid",
+    "unit tests",
+    "integration tests",
+    "test commands",
+    "coverage requirements",
+    "backend test",
+    "deeper implications now",
+    "class warfare",
+    "real skill that",
+    "common criticisms",
+    "wrong let",
+    "stack overflow",
+    "already here",
+    "documentation structure clone",
+    "plan your first project",
+    "testing good",
+    "reflect run",
+    "hacker news",
+    "final thought",
+    "frequently asked questions",
+    "author daniel kliewer"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-01-28-dynamic-persona-moe-rag-implementation-plan",
+      "weight": 0.023,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-06-08-objective05-exec-giving-local-intelligence-system-hands",
+      "weight": 0.0226,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-02-15-building-this-blog",
+      "weight": 0.0206,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-20-how-to-vibe-code-a-nextjs-boilerplate-repo",
+      "weight": 0.0171,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-20-compile-time-intelligence-research-compiler-agent",
+      "weight": 0.012,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-07-08-ai-ssr-guide",
+      "weight": 0.0119,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-18-NextJS-SEO-CLIne-Prompt",
+      "weight": 0.0116,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-21-learn-programming-computer-science-youtube-roadmap",
+      "weight": 0.0116,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": ", like clockwork. Senior developers with decades of experience telling me I'm not a \"real\" programmer. Bootcamp grads who spent six months memorizing React hooks explaining why my methodology is dangerous",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The fear isn't really about code quality or technical debt or whether someone can implement quicksort on a whiteboard. The fear is about **democratization**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Let me be crystal clear about something: I'm not suggesting that understanding algorithms doesn't matter, or that computer science fundamentals are useless",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "What I'm arguing—and what terrifies the traditional guard— is that **the barrier to entry shouldn't be memorizing syntax**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Patterns, Clean Code, The Art of Computer Programming), you demonstrate mastery of esoteric knowledge (linked list manipulation, big-O notation, the difference between TCP and UDP), and only then are you granted entry into the priesthood of software engineering",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "using AI agents and comprehensive documentation—without writing most of the code by hand—I'm not just sharing a workflow. I'm demonstrating that the expensive knowledge that justified those barriers is becoming obsolete",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Let me tell you what Document-Driven Development actually is , stripped of both the hype and the hatred",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "software architecture for decades. The difference is that now, instead of writing comprehensive documentation that *describes* code you've already written, you write comprehensive documentation that * defines * code that hasn't been written yet",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Each of these documents serves a specific purpose in defining how your software should work, not just how it's currently implemented. Let me walk through what actually goes in each one, because this is where most people go wrong",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This isn't busywork. This is the contract that prevents your codebase from becoming spaghetti six months from now",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The implementation doc bridges the gap between \"what we're building\" and \"how we build it.\" This is where you define:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Notice what I'm doing: I'm not writing full implementations. I'm defining **patterns** that the entire codebase should follow. This is the difference between documentation that helps and documentation that rots in a README nobody reads",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This document defines your threat model and security requirements *before* you write vulnerable code:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This isn't paranoia. This is basic operational security that gets skipped when you're \"moving fast and breaking things",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Once the initial build is complete, you don't manually test everything",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "testing.md defines our approach:**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The developers who are most threatened by AI-assisted development are usually the ones whose value proposition rests on knowing implementation details rather than understanding problems",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The question isn't whether this shift is happening",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "And that's where AI-assisted development actually raises the bar rather than lowering it. When the AI can generate boilerplate in seconds, the only thing that matters is whether you gave it good instructions",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Garbage documentation produces garbage code, whether a human or an AI is typing it",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "AI-generated code is buggy and unmaintainable",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This one betrays a fundamental misunderstanding. AI doesn't generate good or bad code—**it generates code that matches your specifications**. If your specifications are vague, ambiguous, or poorly thought through, yes, you'll get buggy code",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "But that's true whether a human or an AI is implementing those specs",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "I've shipped production applications built this way that have run for months without critical bugs. Not because the AI is magical, but because I did the hard work of specification upfront",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "AI-assisted development is just another abstraction layer",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://danielkliewer.com"
+  ],
+  "related_artifacts": [
+    "2026-01-28-dynamic-persona-moe-rag-implementation-plan",
+    "2026-06-08-objective05-exec-giving-local-intelligence-system-hands",
+    "2026-02-15-building-this-blog",
+    "2025-10-20-how-to-vibe-code-a-nextjs-boilerplate-repo",
+    "2026-07-20-compile-time-intelligence-research-compiler-agent",
+    "2025-07-08-ai-ssr-guide",
+    "2025-10-18-NextJS-SEO-CLIne-Prompt",
+    "2025-10-21-learn-programming-computer-science-youtube-roadmap"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-11-03-the-revolution-will-be-documented.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "022573e2f0038f82a2568879c04da2a4b364a3116e4d59e2b9f87cf0d5770885",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

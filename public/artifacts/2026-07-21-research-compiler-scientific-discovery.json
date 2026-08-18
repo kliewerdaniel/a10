@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "id": "2026-07-21-research-compiler-scientific-discovery",
+  "title": "A Research Compiler for Scientific Understanding, Not a Better Research Assistant",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-07-21",
+  "updated_at": "2026-07-21",
+  "canonical_url": "/blog/2026-07-21-research-compiler-scientific-discovery",
+  "content_hash": "sha256:162a71aadfb08061cf7b062d00bd41cf17da51f2f1ae36134d522f44809d539f",
+  "topics": [
+    "ai-agents",
+    "compile-time-ai",
+    "knowledge-compiler",
+    "knowledge-representation",
+    "local-first-ai",
+    "provenance",
+    "reproducible-ai",
+    "ollama",
+    "research-compiler",
+    "clinical-ai",
+    "scientific-discovery"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "research compiler",
+    "scientific understanding",
+    "better research assistant",
+    "daniel kliewer",
+    "research compiler agent",
+    "research opportunities",
+    "google research",
+    "discovery artifacts",
+    "scientific git",
+    "clinical knowledge",
+    "expert surprise score",
+    "moderate population",
+    "clinical knowledge compiler",
+    "high confidence",
+    "opportunity ranking",
+    "evidence explorer",
+    "understanding explorer the",
+    "competing theory generation",
+    "clinical research compiler",
+    "document parser",
+    "claim extractor",
+    "evidence mapper",
+    "causal reasoner",
+    "contradiction detector",
+    "consensus builder",
+    "unknown detector",
+    "hypothesis generator",
+    "research planner",
+    "scientific understanding artifact",
+    "research retrieval compiler",
+    "research understanding compiler",
+    "scientific discovery compiler",
+    "compiler agent"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-07-22-if-the-loop-is-the-product",
+      "weight": 0.1111,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-21-compiling-medical-evidence-clinical-research-compiler",
+      "weight": 0.0851,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-the-scientific-state-compiler-roadmap",
+      "weight": 0.0781,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-the-loop-closes-itself",
+      "weight": 0.05,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-building-the-scientific-question-compiler",
+      "weight": 0.0488,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-20-compile-time-intelligence-research-compiler-agent",
+      "weight": 0.0426,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+      "weight": 0.0286,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-validating-at-scale-orkg",
+      "weight": 0.0278,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "This is not primarily a description of a software project. It is a research vision — an",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "argument for why scientific knowledge requires a new computational architecture, and what",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The immediate occasion is a build we shipped: the **Clinical Research Compiler**, an",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "run back, the interesting question is not \"did it deploy",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "is the right *category* of tool — and the answer is that it is only the first instance of a",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "That sentence is the thesis",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "honestly, a better search engine. The thing we were actually circling is closer to a",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "scientific reasoning compiler**. The distinction is not cosmetic — it changes what the",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "reduces the cost of *generating new scientific understanding*. Those are different products",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "2. The purpose is not cheaper reading",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The purpose of a research compiler is not to reduce the cost of reading scientific",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "knowledge. It is to reduce the cost of generating new scientific understanding",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "a compilation pipeline in which each stage is a higher-level intermediate representation:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Every arrow is a compiler pass",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "came from. By the time you reach \"Research Opportunities,\" you are no longer looking at the",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "literature — you are looking at a structured representation of what the literature *means*,",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "and where it is silent",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "3. Papers are source code",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The metaphor that makes this concrete: **papers are equivalent to source code",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The true primitive is not the document",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "It is the **claim**. A claim is a typed, machine-",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "become the IR the rest of the pipeline operates on. This is the single most important",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "3b. The distinction that is everything",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "There is a sharper way to state the whole thesis, and it is the part worth building the",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "That distinction is everything",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/research-compiler-agent-sdk"
+  ],
+  "related_artifacts": [
+    "2026-07-22-if-the-loop-is-the-product",
+    "2026-07-21-compiling-medical-evidence-clinical-research-compiler",
+    "2026-07-23-the-scientific-state-compiler-roadmap",
+    "2026-07-23-the-loop-closes-itself",
+    "2026-07-23-building-the-scientific-question-compiler",
+    "2026-07-20-compile-time-intelligence-research-compiler-agent",
+    "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+    "2026-07-23-validating-at-scale-orkg"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-07-21-research-compiler-scientific-discovery.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "162a71aadfb08061cf7b062d00bd41cf17da51f2f1ae36134d522f44809d539f",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

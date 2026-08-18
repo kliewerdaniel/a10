@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "2026-01-11-from-grief-to-code-the-digital-resurrection-journey",
+  "title": "Memory Preservation Invariants: A New Class of Autonomous Agent Architectures",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-01-11",
+  "updated_at": "2026-01-11",
+  "canonical_url": "/blog/2026-01-11-from-grief-to-code-the-digital-resurrection-journey",
+  "content_hash": "sha256:ace66b5b8035c16ab32c59e2a84dca04ecbe6507716d1c2e7c8efe07f2fd6d88",
+  "topics": [
+    "ai",
+    "autonomous-agents",
+    "knowledge-graphs",
+    "memory-preservation",
+    "deterministic-pipelines",
+    "computational-sovereignty"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "memory preservation invariants",
+    "new class",
+    "autonomous agent architectures",
+    "problem statement current",
+    "novel concepts",
+    "agentic knowledge graphs",
+    "interface definition",
+    "deterministic persona layers",
+    "layer composition",
+    "system formalization",
+    "failure modes",
+    "this enables these",
+    "this is not",
+    "just another",
+    "stack standard",
+    "open research questions",
+    "would falsify",
+    "break this approach"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-07-06-beyond-prompts",
+      "weight": 0.0385,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-29-sovereign-synthesis",
+      "weight": 0.0135,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "leads to hallucination, drift, and inability to maintain coherent personas over extended interactions. Memory preservation—ensuring that an agent's \"identity\" remains invariant under perturbation— is fundamentally unsupported in existing architectures",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Invariants are formal constraints that must hold true throughout system operation",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "PersonaInterface**: Defines schema application and validation",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Why This Is Not Just Another RAG Stack",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Persona layers are quantified schemas, not free-text prompts",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2025-07-06-beyond-prompts",
+    "2026-03-29-sovereign-synthesis"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-01-11-from-grief-to-code-the-digital-resurrection-journey.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "ace66b5b8035c16ab32c59e2a84dca04ecbe6507716d1c2e7c8efe07f2fd6d88",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

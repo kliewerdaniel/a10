@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: /blog/building-evaluating-local-research-assistant-graphrag-vero-eval
+canonical_url: /blog/2025-11-15-building-evaluating-local-research-assistant-graphrag-vero-eval
 date: 11-15-2025
 description: Complete technical guide to building a production-ready research assistant
   using GraphRAG, Neo4j knowledge graphs, Ollama local LLMs, and vero-eval evaluation

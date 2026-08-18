@@ -9,7 +9,7 @@ export function BookCover({ size = 'lg' }: { size?: 'sm' | 'md' | 'lg' }) {
   return (
     <a href={BOOK_URL} target="_blank" rel="noopener noreferrer" className="block group">
       <div
-        className={`${dims} border-4 border-ink bg-white overflow-hidden relative transition-transform duration-300 group-hover:scale-105 shadow-brutalist-xl`}
+        className={`${dims} border border-[var(--color-rule)] bg-white overflow-hidden relative transition-transform duration-300 group-hover:scale-[1.03]`}
       >
         <picture>
           <source srcSet="/images/formats/SovereignAI.avif" type="image/avif" />
@@ -33,9 +33,7 @@ export function BookCoverLink() {
     <Link href="/book" className="block group">
       <div className="relative">
         <BookCover />
-        <div className="absolute -top-2 -right-2 mono text-[9px] bg-cream border-2 border-ink px-2 py-0.5 font-bold z-10">
-          $88
-        </div>
+        <div className="absolute -top-2 -right-2 font-mono text-[0.6rem] tracking-[0.14em] uppercase bg-[var(--color-paper-2)] border border-[var(--color-rule)] px-2 py-0.5">$88</div>
       </div>
     </Link>
   );

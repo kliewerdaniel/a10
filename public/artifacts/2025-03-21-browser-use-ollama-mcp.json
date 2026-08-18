@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "id": "2025-03-21-browser-use-ollama-mcp",
+  "title": "Complete Guide: Building an AI Knowledge Companion with Browser-Use, MCP, and Ollama for Advanced Web Automation and Information Processing",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-03-22",
+  "updated_at": "2025-03-22",
+  "canonical_url": "/blog/2025-03-21-browser-use-ollama-mcp",
+  "content_hash": "sha256:aa0801b84ca51d00bbec730a0f841445cbffa491abde1df58482ddd8e90b2fa6",
+  "topics": [
+    "browser-use",
+    "mcp",
+    "ollama",
+    "ai-knowledge-companion",
+    "web-automation",
+    "information-processing",
+    "local-llms",
+    "ai-agents",
+    "semantic-search",
+    "intelligent-research"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "beyond research",
+    "knowledge companion",
+    "information processing",
+    "knowledge systems in",
+    "model context protocol",
+    "core technologies",
+    "project architecture",
+    "building your knowledge companion",
+    "system overview our knowledge",
+    "component interaction flow",
+    "setting up your development",
+    "software requirements for",
+    "installation process",
+    "download ollama",
+    "understanding browser automation principles",
+    "integration layer",
+    "orchestration engine",
+    "coordinating your",
+    "understanding orchestration the",
+    "effective user interface",
+    "interface for",
+    "advanced features",
+    "performance implement",
+    "parallel processing optimize",
+    "smart throttling prevent",
+    "ethical considerations",
+    "securing your knowledge companion",
+    "ethical web scraping follow",
+    "quality assurance",
+    "unit testing core components",
+    "integration testing test",
+    "testing test",
+    "deployment strategies",
+    "docker containerization create",
+    "using docker compose",
+    "deployment create",
+    "serverless deployment for",
+    "docker compose",
+    "practical applications",
+    "academic research assistant customize",
+    "business intelligence tool adapt",
+    "personal learning assistant create",
+    "knowledge systems the",
+    "additional resources",
+    "context protocol",
+    "web scraping"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-03-12-mcp-openai-agents-sdk-ollama",
+      "weight": 0.0323,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-02-14-reddiss",
+      "weight": 0.0294,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-07-specgen-deterministic-ai-powered-code-generation-from-naturals-language",
+      "weight": 0.0244,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-06-08-opendesign-opencode-local-first-design-operating-system",
+      "weight": 0.0241,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-24-model-context-protocol",
+      "weight": 0.0213,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-28-dynamic-persona-moe-rag-implementation-plan",
+      "weight": 0.0196,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-10-30-creating-ai-agents",
+      "weight": 0.0185,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-02-context-engineering-the-blind-spots-and-the-real-full-stack-development-paradigm",
+      "weight": 0.0167,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "What is MCP (Model Context Protocol)?** The Model Context Protocol is a standardized framework that facilitates secure communication between AI models and external tools or data sources",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "MCP defines how information is exchanged, permissions are granted, and results are returned, creating a universal \"language\" for AI systems to safely and effectively interface with the digital world",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "4. Actions are executed through Browser-Use or MCP connections",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "6. The final report is presented to the user",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Key insight**: The above implementation demonstrates how Browser-Use goes beyond simple scraping by making contextual decisions about what content is relevant, handling different site structures, and maintaining state across navigation",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "1. **Tool registration**: Defining what tools are available",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The orchestration engine is the \"brain\" of your Knowledge Companion, responsible for:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "1. **Query analysis**: Understanding what the user is asking",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The AI Knowledge Companion we've built represents just the beginning of a new era in information processing",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "As we look to the future, several trends are emerging:",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://browser-use.readthedocs.io/",
+    "https://mcp-protocol.org/",
+    "https://github.com/ollama/ollama",
+    "https://www.scrapehero.com/how-to-prevent-getting-blacklisted-while-scraping/",
+    "https://fastapi.tiangolo.com/",
+    "https://redis.io/documentation",
+    "https://docs.docker.com/",
+    "https://arxiv.org/help/api"
+  ],
+  "related_artifacts": [
+    "2025-03-12-mcp-openai-agents-sdk-ollama",
+    "2025-02-14-reddiss",
+    "2026-01-07-specgen-deterministic-ai-powered-code-generation-from-naturals-language",
+    "2026-06-08-opendesign-opencode-local-first-design-operating-system",
+    "2025-03-24-model-context-protocol",
+    "2026-01-28-dynamic-persona-moe-rag-implementation-plan",
+    "2024-10-30-creating-ai-agents",
+    "2026-07-02-context-engineering-the-blind-spots-and-the-real-full-stack-development-paradigm"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-03-21-browser-use-ollama-mcp.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "aa0801b84ca51d00bbec730a0f841445cbffa491abde1df58482ddd8e90b2fa6",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "id": "2025-03-28-scalable-ai-backends",
+  "title": "Building Scalable AI Backends: FastAPI, PostgreSQL, Redis, Celery, and RabbitMQ Architecture Guide",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-03-28",
+  "updated_at": "2025-03-28",
+  "canonical_url": "/blog/2025-03-28-scalable-ai-backends",
+  "content_hash": "sha256:f667957c9685dad6a37b7992719f7747459ed93787c8425a5cb526dcd6d833bc",
+  "topics": [
+    "fastapi",
+    "postgresql",
+    "redis",
+    "celery",
+    "rabbitmq",
+    "scalable-architecture",
+    "async-programming",
+    "task-queues",
+    "caching",
+    "database-optimization"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "modern web development",
+    "scalable backend architecture in",
+    "technology stack",
+    "these technologies",
+    "detailed project setup",
+    "project initialization",
+    "environment configuration",
+    "virtual environment setup",
+    "dependency installation",
+    "database configuration",
+    "database connection options",
+    "google cloud",
+    "azure database",
+    "async database connection configuration",
+    "key architectural considerations",
+    "asynchronous programming",
+    "connection pooling",
+    "next development phases",
+    "upcoming implementation steps",
+    "user authentication system",
+    "caching strategy",
+    "task processing",
+    "advanced user authentication",
+    "caching strategies",
+    "database model",
+    "authentication schemas",
+    "authentication utilities",
+    "authentication endpoints",
+    "redis caching strategy",
+    "redis connection",
+    "utility functions",
+    "cached user retrieval example",
+    "check redis",
+    "advanced caching strategies",
+    "caching patterns",
+    "performance optimization techniques",
+    "security considerations",
+    "async capabilities",
+    "async to",
+    "use async",
+    "standard python",
+    "scaling strategies when",
+    "performance indexing",
+    "search tree",
+    "inverted index",
+    "indexing when",
+    "query optimization",
+    "improving performance beyond indexing",
+    "growth as",
+    "vertical scaling",
+    "horizontal scaling",
+    "managed solutions cloud",
+    "exploring redis",
+    "use cases beyond caching",
+    "rate limiting",
+    "resources rate",
+    "redis helps",
+    "window rate",
+    "leaky bucket",
+    "simple rate limiting",
+    "messaging system the",
+    "works in redis",
+    "other redis use cases",
+    "beyond caching while",
+    "session management redis",
+    "task management",
+    "sorted set",
+    "distributed locks redis",
+    "redis beyond caching redis",
+    "task queues",
+    "efficient asynchronous processing in",
+    "use celery",
+    "setting up celery",
+    "install celery now",
+    "configure celery in",
+    "configure celery",
+    "celery worker to",
+    "sending tasks",
+    "celery you",
+    "advanced features",
+    "task scheduling",
+    "celery beat celery beat",
+    "install celery beat",
+    "configure celery beat",
+    "celery beat",
+    "task result backend celery",
+    "retrying tasks",
+    "error handling celery"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-01-07-specgen-deterministic-ai-powered-code-generation-from-naturals-language",
+      "weight": 0.0161,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-21-ultimate-guide-export-your-reddit-data-to-markdown-using-python-and-PRAW-API",
+      "weight": 0.0136,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-02-22-building-cognitive-graph-ai-application",
+      "weight": 0.0126,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-16-from-fragmented-experiments-to-cognitive-synthesis",
+      "weight": 0.0108,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-23-rlhf-lab-business-plan",
+      "weight": 0.0103,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-01-23-building-a-multimodal-story-generation-system",
+      "weight": 0.01,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-12-mcp-openai-responses-api-agents-sdk-ollama",
+      "weight": 0.0094,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-14-2025-inference-new-geography-intelligence",
+      "weight": 0.0094,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "In the rapidly evolving landscape of software development, creating robust, scalable backend systems is crucial for building modern applications",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Our chosen technology stack is carefully selected to address key challenges in modern web application development:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Here, the   keyword indicates that the function is asynchronous, allowing the event loop to handle multiple requests efficiently",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Avoid Blocking Code**: Standard Python libraries like   or are blocking",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "When managing large-scale databases, PostgreSQL is one of the most reliable open-source relational database management systems (RDBMS) out there",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Indexing is one of the fundamental ways to improve database performance, especially when querying large datasets",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "B-tree Indexes**: The default indexing method. It is ideal for equality comparisons and range queries",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Block Range INdexes (BRIN)**: Suitable for massive datasets where rows are naturally ordered in a predictable way, such as time-series data",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "When creating indexes, it's crucial to strike a balance between read and write performance. Here are some best practices to optimize indexing in PostgreSQL:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Index Selectively**: Don't index every column. Index columns that are frequently used in WHERE, JOIN, ORDER BY, and GROUP BY clauses",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Indexes alone won't guarantee fast queries; you also need to optimize your queries. Here are some strategies to make the most of PostgreSQL's features:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "EXPLAIN and ANALYZE**: PostgreSQL's EXPLAIN and EXPLAIN ANALYZE commands show the query execution plan, helping you understand how PostgreSQL is executing queries",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "updates and deletes), leading to bloated tables and slower performance. The VACUUM command reclaims space, while the autovacuum process ensures that this happens automatically. Regular vacuuming is essential to maintain query performance",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": ") Wisely**: While CTEs can make queries more readable, they can sometimes hurt performance by materializing intermediate results. Use them sparingly and consider subqueries or joins when performance is critical",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "As your PostgreSQL database grows, it's essential to think about scalability. PostgreSQL is capable of scaling, but it requires proper strategies and tools to handle growth efficiently",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Increasing Hardware Resources**: The most straightforward approach is adding more CPU, RAM, and storage to your database server",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Optimizing PostgreSQL Configuration**: Adjusting settings like shared_buffers, work_mem, maintenance_work_mem, and effective_cache_size can lead to substantial performance improvements. The goal is to make better use of system resources, especially for complex queries",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Replication**: PostgreSQL supports both synchronous and asynchronous replication. Synchronous replication ensures data consistency across nodes but may introduce latency. Asynchronous replication is more flexible but can lead to eventual consistency issues",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Sharding**: Sharding involves breaking your data into smaller, more manageable pieces, distributed across different machines. PostgreSQL doesn't natively support sharding, but there are third-party tools like Citus that can help",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Sharding is useful for large datasets that need to be spread across multiple servers",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "connections grows, PostgreSQL can struggle to handle them efficiently. Connection pooling reduces the number of active connections to the database by reusing them. Tools like PgBouncer or PgPool are often used to manage connections effectively",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Optimizing and scaling PostgreSQL requires a deep understanding of how indexes work, how to write efficient queries, and how to scale horizontally or vertically",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Whether you are managing a small application or a massive enterprise system, understanding these strategies is crucial for maintaining performance as your data grows",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Redis is widely known for its role in caching, significantly improving the performance of web applications by reducing the load on databases. However, Redis is a versatile tool with many other powerful capabilities beyond simple caching",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Rate limiting is an essential mechanism for controlling how frequently users or services can access an API or resource",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2026-01-07-specgen-deterministic-ai-powered-code-generation-from-naturals-language",
+    "2025-10-21-ultimate-guide-export-your-reddit-data-to-markdown-using-python-and-PRAW-API",
+    "2026-02-22-building-cognitive-graph-ai-application",
+    "2026-01-16-from-fragmented-experiments-to-cognitive-synthesis",
+    "2024-11-23-rlhf-lab-business-plan",
+    "2025-01-23-building-a-multimodal-story-generation-system",
+    "2025-03-12-mcp-openai-responses-api-agents-sdk-ollama",
+    "2025-11-14-2025-inference-new-geography-intelligence"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-03-28-scalable-ai-backends.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "f667957c9685dad6a37b7992719f7747459ed93787c8425a5cb526dcd6d833bc",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "id": "2026-08-05-build-a-video-editing-hermes-agent",
+  "title": "How I Taught an Agent to Edit Video — and the Repeatable Method Behind It",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-08-05",
+  "updated_at": "2026-08-05",
+  "canonical_url": "/blog/2026-08-05-build-a-video-editing-hermes-agent",
+  "content_hash": "sha256:9148eec8913e569d296914503619a00268df99f303f6be582759cb11bba32a51",
+  "topics": [
+    "ai-agents",
+    "local-first-ai",
+    "skills",
+    "video-generation",
+    "agent-infrastructure"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "bare hermes",
+    "hermes agent",
+    "jesse vincent",
+    "usage skill",
+    "point hermes"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-video-agent",
+      "weight": 0.6429,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-08-building-rehab-analyzer-with-hermes",
+      "weight": 0.1,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-02-context-engineering-the-blind-spots-and-the-real-full-stack-development-paradigm",
+      "weight": 0.0125,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "This post is two things at once",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The model is not the product",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "That sentence is easy to agree with and hard to",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "useful was realizing that intelligence, in this context, is not the model",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "pipeline. GreenPatch is the worked example I can point to directly, because",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "vertical-video generator I call kleincannon in this post is further along the",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "shape honestly, including what isn't public yet, because the shape is the",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "how and when to use that software.* Everything else in this post is detail in",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Three layers, kept deliberately separate. The separation is what makes the",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Layer | What it is | Where it lives |",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "to work on) are different things, and conflating them is the most common",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "domain-free — it should apply whether the agent is repairing video or writing",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "loop*. The next task is then cheaper by exactly the cost of that capability",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Over a year this is the difference between an agent that answers questions",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "walk it top to bottom; each step is independently verifiable",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "behind it can be swapped freely, since Hermes itself is just the harness",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "used as a new skill for next time. Its skill format is compatible with the",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "looked plausible in the transcript.\" With them, it means the agent ran the",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "3. The capability layer — SDKs.** This is where domain work lives",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "magic. What makes them *agent-native* is step 4",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "commands, gotchas, a verification checklist. This is the bridge",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The single most important operational lesson surfaced at step 3 and is worth",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "those two variables when creating *any* child venv is non-negotiable",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "GreenPatch — the lesson is *ship a real CLI and a real skill, together*",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "GreenPatch is the cleanest illustration of the minimal viable teaching loop,",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://hermes-agent.nousresearch.com/",
+    "https://nousresearch.com/",
+    "https://agentskills.io",
+    "https://github.com/obra/superpowers",
+    "https://github.com/kliewerdaniel/GreenPatch"
+  ],
+  "related_artifacts": [
+    "2026-08-09-hermes-video-agent",
+    "2026-08-08-building-rehab-analyzer-with-hermes",
+    "2026-07-02-context-engineering-the-blind-spots-and-the-real-full-stack-development-paradigm"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-08-05-build-a-video-editing-hermes-agent.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "9148eec8913e569d296914503619a00268df99f303f6be582759cb11bba32a51",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

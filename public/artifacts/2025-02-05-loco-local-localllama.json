@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "2025-02-05-loco-local-localllama",
+  "title": "Announcing Loco LLM Hackathon 1.0: 24-Hour Global Sprint to Build Open-Source AI Tools with Local Large Language Models and Smolagents Framework",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-02-05",
+  "updated_at": "2025-02-05",
+  "canonical_url": "/blog/2025-02-05-loco-local-localllama",
+  "content_hash": "sha256:6538348d45e98d48f4b92feb1c78dc326e6b19983345c17c937d2be98af8ed91",
+  "topics": [
+    "hackathon",
+    "llm",
+    "smolagents",
+    "open-deep-research",
+    "community",
+    "ai-innovation",
+    "local-ai",
+    "hugging-face"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "deep research",
+    "using hugging",
+    "raspberry pi",
+    "silicon valley"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-02-05-open-deep-research",
+      "weight": 0.0417,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-26-deerflow-2-building-sovereign-ai-agent-systems",
+      "weight": 0.0312,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-31-reddit-haunting-project-ai-resurrection",
+      "weight": 0.0294,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-25-building-your-own-uncensored-ai-overlord",
+      "weight": 0.0256,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "The AI revolution is here—but access shouldn’t depend on corporate budgets",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://huggingface.co/blog/open-deep-research",
+    "https://reddit.com/r/LocoLLM",
+    "https://reddit.com/r/LocoLLM",
+    "https://huggingface.co/blog/open-deep-research"
+  ],
+  "related_artifacts": [
+    "2025-02-05-open-deep-research",
+    "2026-03-26-deerflow-2-building-sovereign-ai-agent-systems",
+    "2025-10-31-reddit-haunting-project-ai-resurrection",
+    "2025-10-25-building-your-own-uncensored-ai-overlord"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-02-05-loco-local-localllama.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "6538348d45e98d48f4b92feb1c78dc326e6b19983345c17c937d2be98af8ed91",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "id": "2025-03-09-custom-agent",
+  "title": "Custom AI Agent Framework: Next.js & Ollama Integration Guide",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-03-09",
+  "updated_at": "2025-03-09",
+  "canonical_url": "/blog/2025-03-09-custom-agent",
+  "content_hash": "sha256:065a1139d1bbabbdd687ab2a960ebfd1b5a2fb69970f3c1c3c8aa4bd732598d4",
+  "topics": [],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "agent framework",
+    "ollama in",
+    "key concepts",
+    "agent framework before",
+    "task decomposition complex",
+    "reasoning before action for",
+    "streaming progress updates users",
+    "contextual memory each",
+    "custom agent class the",
+    "frontend our",
+    "custom agent framework",
+    "goal input section",
+    "agent logs section",
+    "result section",
+    "endpoint next",
+    "advanced enhancements after",
+    "adding specialized tools",
+    "workflows for",
+    "database integration for",
+    "using prisma",
+    "evaluation when"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-03-09-nextjs-ollama-custom-agent-framework",
+      "weight": 0.1087,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-09-mastra-ollama-nextjs",
+      "weight": 0.08,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-getting-started-sovereign-ai",
+      "weight": 0.0233,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-28-architecture-as-autonomy",
+      "weight": 0.0204,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-10-how-to-run-your-own-ai-agent-openclaw-qwen-telegram",
+      "weight": 0.02,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-30-building-a-personalized-ai-learning-system-with-local-llm",
+      "weight": 0.0161,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-25-large-scale-agent-architecture",
+      "weight": 0.004,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "a content calendar for social media\" and watch as an AI agent systematically works through the problem, documenting its reasoning and delivering high-quality results. The beauty of this approach is that everything runs locally on your machine using Ollama, providing privacy benefits and eliminating API costs",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The heart of our application is the   class, which handles the execution of tasks:",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://ollama.com/"
+  ],
+  "related_artifacts": [
+    "2025-03-09-nextjs-ollama-custom-agent-framework",
+    "2025-03-09-mastra-ollama-nextjs",
+    "2026-07-05-getting-started-sovereign-ai",
+    "2026-03-28-architecture-as-autonomy",
+    "2026-03-10-how-to-run-your-own-ai-agent-openclaw-qwen-telegram",
+    "2025-03-30-building-a-personalized-ai-learning-system-with-local-llm",
+    "2025-03-25-large-scale-agent-architecture"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-03-09-custom-agent.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "065a1139d1bbabbdd687ab2a960ebfd1b5a2fb69970f3c1c3c8aa4bd732598d4",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

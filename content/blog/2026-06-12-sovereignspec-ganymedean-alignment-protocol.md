@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: /blog/sovereignspec-ganymedean-alignment-protocol
+canonical_url: /blog/2026-06-12-sovereignspec-ganymedean-alignment-protocol
 date: 06-12-2026
 description: An exhaustive, technically rigorous exposition of SovereignSpec, the
   Ganymedean Alignment Protocol, and the underlying principles of specification-driven

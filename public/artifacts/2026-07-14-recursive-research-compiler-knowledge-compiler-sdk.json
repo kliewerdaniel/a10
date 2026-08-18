@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "id": "2026-07-14-recursive-research-compiler-knowledge-compiler-sdk",
+  "title": "The Recursive Research Compiler: Turning Compile-Time AI Inward with the Knowledge Compiler SDK",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-07-14",
+  "updated_at": "2026-07-14",
+  "canonical_url": "/blog/2026-07-14-recursive-research-compiler-knowledge-compiler-sdk",
+  "content_hash": "sha256:f29424e8d1a17e8f30437779664469816ef7fac7cc21aec0291348be38edffde",
+  "topics": [
+    "compile-time-ai",
+    "local-first-ai",
+    "knowledge-graphs",
+    "local-first",
+    "agents",
+    "compilers"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "recursive research compiler",
+    "knowledge compiler",
+    "context compilation theory",
+    "software compiler",
+    "syntax tree",
+    "intermediate representation",
+    "static next",
+    "claude code",
+    "context compilation"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-07-16-the-sovereign-knowledge-compiler-explorer",
+      "weight": 0.6429,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-11-knowledge-compiler-compiling-human-knowledge-into-static-semantic-artifacts",
+      "weight": 0.2174,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-20-compile-time-intelligence-research-compiler-agent",
+      "weight": 0.087,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-12-compile-time-ai-knowledge-compiler-architecture",
+      "weight": 0.0513,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-12-autonomous-ai-agents-developer-portfolio",
+      "weight": 0.037,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-15-sovereign-memory-bank-deepening-local-first-cognitive-memory",
+      "weight": 0.0286,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-06-12-sovereignspec-local-first-spec-driven-development",
+      "weight": 0.0238,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-06-the-sovereign-loop-why-model-local-ai-is-the-missing-os-layer",
+      "weight": 0.0227,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": ", Brian Letort's Context Compilation Theory, llm-wiki-compiler, OVIR, and the SkCC paper, of moving semantic work out of the request path and into a build step. That post was a taxonomy. This one is the implementation",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The core complaint against standard Retrieval-Augmented Generation is simple: every query pays full price",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "underlying knowledge domain hasn't changed since the last query. A RAG pipeline answering the same class of question for the thousandth time does exactly the same work it did the first time. Nothing is retained except the raw chunks sitting in the vector store",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "That last row is worth sitting with",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The deployable unit isn't a chatbot with a system prompt bolted onto a vector index — it's a static application. The reasoning already happened. What ships is the result",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "It's worth being precise about what the Knowledge Compiler SDK is *not*",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "First, every artifact it produces is immutable and transparent — written once as JSON, GraphML, or TypeScript, and fully inspectable afterward",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Nothing about the reasoning is hidden in a model's context window or a chat transcript that evaporates when the session ends",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "If the compiler concluded something about how two concepts relate, that conclusion is a file you can open, diff, and put under version control",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Second, inference is local-first",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The pipeline is built to run against a local OpenAI-compatible server — llama",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The most interesting use of any compiler is compiling itself",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ingest and parse.** The first passes are deterministic and don't touch the model at all —   and   walk the Markdown sources and build a clean AST",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Cybernetic comparison.** Once the external research — papers, related repos, systems-design literature — is compiled into an architecture graph at  , the agent acts as a comparator rather than a summarizer",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "gap, the loop closes: the agent proposes a new declarative compiler pass in YAML, specifying exactly what it consumes and produces. The orchestrator runs it, and every artifact the new pass generates is evaluated across nine dimensions, including hallucination, provenance, and consistency",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "model returns malformed output, the scaffold retries with exponential backoff; if it still fails, the compiler exits loudly rather than silently shipping a bad artifact. A build that fails honestly is more useful than one that succeeds by accident",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "It's worth naming why this loop specifically requires the compile-time framing rather than a long-running agentic chat session",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "That reflexivity is what makes \"recursive\" the right word rather than just \"automated",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The broader claim, and the one both this post and the taxonomy piece before it are circling, is that the future of this kind of engineering isn't models writing better code snippets one conversation at a time",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://notebooklm.google.com/notebook/57b09d32-2e14-4dd3-83a6-204cbc461d4b",
+    "https://github.com/kliewerdaniel/knowledge-compiler-sdk",
+    "https://knowledge-compiler-blog-demo.vercel.app/",
+    "https://github.com/kliewerdaniel/knowledge-compiler-sdk"
+  ],
+  "related_artifacts": [
+    "2026-07-16-the-sovereign-knowledge-compiler-explorer",
+    "2026-07-11-knowledge-compiler-compiling-human-knowledge-into-static-semantic-artifacts",
+    "2026-07-20-compile-time-intelligence-research-compiler-agent",
+    "2026-07-12-compile-time-ai-knowledge-compiler-architecture",
+    "2026-01-12-autonomous-ai-agents-developer-portfolio",
+    "2026-07-15-sovereign-memory-bank-deepening-local-first-cognitive-memory",
+    "2026-06-12-sovereignspec-local-first-spec-driven-development",
+    "2026-07-06-the-sovereign-loop-why-model-local-ai-is-the-missing-os-layer"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-07-14-recursive-research-compiler-knowledge-compiler-sdk.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "f29424e8d1a17e8f30437779664469816ef7fac7cc21aec0291348be38edffde",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

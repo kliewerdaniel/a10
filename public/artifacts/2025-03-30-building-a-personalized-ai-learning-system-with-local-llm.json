@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "id": "2025-03-30-building-a-personalized-ai-learning-system-with-local-llm",
+  "title": "Complete Guide: Building a Personalized AI Learning System with Local LLMs, Knowledge Graphs, and Adaptive Learning",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-03-30",
+  "updated_at": "2025-03-30",
+  "canonical_url": "/blog/2025-03-30-building-a-personalized-ai-learning-system-with-local-llm",
+  "content_hash": "sha256:fab83ca979d09f34d4bbb910c294d09e5b179ec1b8eadf77b7ea6e346606acc4",
+  "topics": [
+    "ai-learning-platform",
+    "local-llms",
+    "knowledge-graphs",
+    "rag",
+    "next-js",
+    "fastapi",
+    "postgresql",
+    "chromadb",
+    "adaptive-learning",
+    "personalized-education"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "learning system",
+    "tech stack",
+    "key features",
+    "lesson generation",
+    "system architecture the",
+    "react this",
+    "graph management",
+    "knowledge graph the",
+    "data flow",
+    "environment setup first",
+    "backend setup",
+    "frontend setup",
+    "initialize next",
+    "database setup",
+    "knowledge graph implementation",
+    "embedding service",
+    "frontend implementation",
+    "app layout",
+    "sidebar component",
+    "dashboard page",
+    "learn page",
+    "start lesson",
+    "lesson display component",
+    "neural networks neural",
+    "key concepts",
+    "neural networks work",
+    "image recognition",
+    "natural language processing neural",
+    "submit answer",
+    "previous lesson",
+    "file upload component",
+    "bringing it together now",
+    "ensure ollama",
+    "challenges one",
+    "adaptive scaling to",
+    "custom learning paths allow",
+    "local deployment",
+    "docker create",
+    "deployment for",
+    "install docker",
+    "docker compose",
+    "next steps after"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-03-30-learning-platform",
+      "weight": 0.05,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-16-from-fragmented-experiments-to-cognitive-synthesis",
+      "weight": 0.029,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-10-24-ghost-writer",
+      "weight": 0.0278,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-24-model-context-protocol",
+      "weight": 0.0222,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-19-building-a-local-llm-powered-knowledge-graph",
+      "weight": 0.02,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-09-custom-agent",
+      "weight": 0.0161,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-getting-started-sovereign-ai",
+      "weight": 0.0156,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-29-architecture-of-autonomy",
+      "weight": 0.0152,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Dynamic Lesson Generation:** Each lesson is uniquely tailored to the user's progress",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "3. Ensure Ollama is running with your chosen model:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "One of the most effective ways to enhance learning is to have students explain concepts back in their own words",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/learn"
+  ],
+  "related_artifacts": [
+    "2025-03-30-learning-platform",
+    "2026-01-16-from-fragmented-experiments-to-cognitive-synthesis",
+    "2024-10-24-ghost-writer",
+    "2025-03-24-model-context-protocol",
+    "2025-10-19-building-a-local-llm-powered-knowledge-graph",
+    "2025-03-09-custom-agent",
+    "2026-07-05-getting-started-sovereign-ai",
+    "2026-03-29-architecture-of-autonomy"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-03-30-building-a-personalized-ai-learning-system-with-local-llm.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "fab83ca979d09f34d4bbb910c294d09e5b179ec1b8eadf77b7ea6e346606acc4",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

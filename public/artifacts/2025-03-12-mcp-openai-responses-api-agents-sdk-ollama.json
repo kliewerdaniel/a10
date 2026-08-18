@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "id": "2025-03-12-mcp-openai-responses-api-agents-sdk-ollama",
+  "title": "Complete Guide: Integrating MCP with OpenAI Responses API, Agents SDK, and Ollama for Symbiotic Intelligence",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-03-12",
+  "updated_at": "2025-03-12",
+  "canonical_url": "/blog/2025-03-12-mcp-openai-responses-api-agents-sdk-ollama",
+  "content_hash": "sha256:e4958997c1dd9dbd51ab4dcba111cd7c80ddf76cc839d76e85d8e008b1516ee7",
+  "topics": [
+    "mcp",
+    "openai-responses-api",
+    "openai-agents-sdk",
+    "ollama",
+    "symbiotic-intelligence",
+    "hybrid-ai",
+    "local-llms",
+    "ai-integration",
+    "agent-frameworks",
+    "distributed-ai"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "crafting symbiotic intelligence",
+    "theoretical foundations",
+    "architectural vision the",
+    "model context protocol",
+    "cognitive system implementation before",
+    "working ollama",
+    "implementation architecture",
+    "foundational layer",
+    "environment configuration",
+    "ontological framework",
+    "configuration create",
+    "cognitive core",
+    "custom client implementation the",
+    "transform ollama",
+    "servers to",
+    "main application implementation finally",
+    "theoretical implications",
+    "advanced considerations this",
+    "toward autonomous cognitive systems"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-03-12-mcp-openai-agents-sdk-ollama",
+      "weight": 0.0571,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-05-the-ghost-in-the-machine-is-finally-allowed-to-see-a-beginners-guide-to-mcp",
+      "weight": 0.0278,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-28-architecture-as-autonomy",
+      "weight": 0.0213,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-02-15-building-this-blog",
+      "weight": 0.0204,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-10-24-ghost-writer",
+      "weight": 0.02,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-06-08-opendesign-opencode-local-first-design-operating-system",
+      "weight": 0.0175,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-21-browser-use-ollama-mcp",
+      "weight": 0.0156,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-05-architectures-of-autonomous-voice",
+      "weight": 0.0156,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "The integration of Model Context Protocol (MCP) with OpenAI's Responses API and Agents SDK, all mediated through Ollama's local inference capabilities, represents a paradigm shift in autonomous agent construction",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Create a comprehensive configuration file that defines the tool ontology available to your agent:",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2025-03-12-mcp-openai-agents-sdk-ollama",
+    "2025-11-05-the-ghost-in-the-machine-is-finally-allowed-to-see-a-beginners-guide-to-mcp",
+    "2026-03-28-architecture-as-autonomy",
+    "2026-02-15-building-this-blog",
+    "2024-10-24-ghost-writer",
+    "2026-06-08-opendesign-opencode-local-first-design-operating-system",
+    "2025-03-21-browser-use-ollama-mcp",
+    "2026-01-05-architectures-of-autonomous-voice"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-03-12-mcp-openai-responses-api-agents-sdk-ollama.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "e4958997c1dd9dbd51ab4dcba111cd7c80ddf76cc839d76e85d8e008b1516ee7",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

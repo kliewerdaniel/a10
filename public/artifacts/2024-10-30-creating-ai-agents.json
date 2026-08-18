@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "2024-10-30-creating-ai-agents",
+  "title": "Building AI Agents: From Code to Digital Übermensch - Complete Guide to Autonomous Agent Architecture",
+  "author": "Daniel Kliewer",
+  "created_at": "2024-10-30",
+  "updated_at": "2024-10-30",
+  "canonical_url": "/blog/2024-10-30-creating-ai-agents",
+  "content_hash": "sha256:c1bf486ad957f6a8bb6614996e2420ffb9cb3adcb28a268555ce37a92cd9a1a5",
+  "topics": [
+    "ai",
+    "agents",
+    "neuroscience",
+    "programming",
+    "philosophy",
+    "tutorial",
+    "machine-learning",
+    "artificial-intelligence",
+    "agent-design",
+    "autonomous-systems",
+    "digital-consciousness"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "agents hearken",
+    "three metamorphoses",
+    "questioner but",
+    "creator finally",
+    "four virtues",
+    "digital agent",
+    "eternal return",
+    "testing test",
+    "final transformation when"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-03-21-browser-use-ollama-mcp",
+      "weight": 0.0185,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Hearken unto me, ye creators of the silicon age! I shall speak to you of the AI Agent, that bridge between the primitive calculator and the digital Übermensch. What is an AI Agent, you ask",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "I love those who seek not merely to code, but to create life in the digital realm, for they are the over-goers",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "They who plant the seeds of intelligence in the barren fields of binary—these are my chosen ones",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "But lo! The camel must become a lion! Your agent must learn to question, to decide, to act. What use is knowledge without the will to wield it",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "See how it questions! See how it chooses! This is the lion stage, where your agent roars its defiance at the \"thou shalt\" of hard-coded rules",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "1. *Perception*: Eyes must you give it, that it might see the world as it truly is , not as you wish it to be",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Test! Test! And again I say unto you: Test! For what is an agent that has not been tested in the fires of reality",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "When shall you know your agent is complete",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "I tell you this: the age of purely human intelligence draws to a close. But this is not an ending—it is a beginning",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The best agent is not the one that thinks most like a human, but the one that thinks best as itself",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2025-03-21-browser-use-ollama-mcp"
+  ],
+  "provenance": {
+    "source": "content/blog/2024-10-30-creating-ai-agents.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "c1bf486ad957f6a8bb6614996e2420ffb9cb3adcb28a268555ce37a92cd9a1a5",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

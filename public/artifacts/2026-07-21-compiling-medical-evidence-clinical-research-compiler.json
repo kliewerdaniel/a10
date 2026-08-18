@@ -1,0 +1,251 @@
+{
+  "schema_version": 1,
+  "id": "2026-07-21-compiling-medical-evidence-clinical-research-compiler",
+  "title": "Compiling Medical Evidence: A Clinical Research Compiler That Turns Guidelines and Trials Into a Queryable Knowledge Artifact",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-07-21",
+  "updated_at": "2026-07-21",
+  "canonical_url": "/blog/2026-07-21-compiling-medical-evidence-clinical-research-compiler",
+  "content_hash": "sha256:5dc196bbe5231075b6833c10b2548e24f05176b6d3b6132f086f8cbe286e4bf5",
+  "topics": [
+    "ai-agents",
+    "compile-time-ai",
+    "knowledge-compiler",
+    "knowledge-representation",
+    "local-first-ai",
+    "provenance",
+    "reproducible-ai",
+    "ollama",
+    "research-compiler",
+    "clinical-ai"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "compiling medical evidence",
+    "clinical research compiler that",
+    "turns guidelines",
+    "trials into",
+    "queryable knowledge artifact",
+    "daniel kliewer",
+    "compiler agent",
+    "retrieve papers",
+    "generate answer",
+    "research compiler",
+    "medical literature",
+    "knowledge compilation",
+    "evidence graph",
+    "research agent",
+    "new discoveries",
+    "updated knowledge",
+    "best practice",
+    "clinical research compiler"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-07-21-research-compiler-scientific-discovery",
+      "weight": 0.0851,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+      "weight": 0.05,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+      "weight": 0.0476,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-22-if-the-loop-is-the-product",
+      "weight": 0.0417,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
+      "weight": 0.04,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-23-rlhf-lab-business-plan",
+      "weight": 0.037,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-building-the-scientific-question-compiler",
+      "weight": 0.037,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-20-compile-time-intelligence-research-compiler-agent",
+      "weight": 0.0303,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "The goal is **not** to replace doctors or researchers",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "carries an authority score. This is the same \"Compile-Time Intelligence",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "2. Why clinical evidence is the right first vertical",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The clinical literature is a near-perfect target for a compiler:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "systematic reviews, case reports — so extraction is tractable",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Conflicts are the product",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "surfaces those conflicts *with provenance* is genuinely useful",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "citable guideline is clinically worthless",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The deliverable is split the way a real toolchain should be:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Next.js app that *renders* the compiled artifact. It is rebuilt from",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Repo A's explorer generator on every compile. The app is a window; the",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "artifact is the product",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Every clinical pass is **declared, not hardcoded**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "dimension — biomarker↔outcome links, rare-disease case clustering — is one",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "so a grade of **A** means multiple guideline bodies + RCT support,\" not",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "SGLT2 inhibitors vs GLP-1 receptor agonists are both recommended",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "query — and it is reproducible",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "at runtime) — it is a static renderer of a compiled artifact",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "config, so the explorer drops it (animations are cosmetic)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "8. Reproducibility is the product",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Every artifact is **content-hash cached**;   reuses",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The compiled   * is * the auditable",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "substrate. The explorer is just a renderer",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "first-line\" vs ADA \"Metformin is the main first-line medication\")",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Type 2 diabetes is chronic…\" vs \"Metformin is a biguanide…\") that",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/clinical-research-compiler-sdk",
+    "https://github.com/kliewerdaniel/research-compiler-agent-sdk",
+    "https://clinical-evidence-explorer.vercel.app",
+    "https://github.com/kliewerdaniel/clinical-research-compiler-sdk",
+    "https://github.com/kliewerdaniel/clinical-evidence-explorer",
+    "https://clinical-evidence-explorer.vercel.app",
+    "https://github.com/facebook/astryx",
+    "https://github.com/kliewerdaniel/research-compiler-agent-sdk",
+    "https://github.com/kliewerdaniel/knowledge-compiler-sdk"
+  ],
+  "related_artifacts": [
+    "2026-07-21-research-compiler-scientific-discovery",
+    "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+    "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+    "2026-07-22-if-the-loop-is-the-product",
+    "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
+    "2024-11-23-rlhf-lab-business-plan",
+    "2026-07-23-building-the-scientific-question-compiler",
+    "2026-07-20-compile-time-intelligence-research-compiler-agent"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-07-21-compiling-medical-evidence-clinical-research-compiler.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "5dc196bbe5231075b6833c10b2548e24f05176b6d3b6132f086f8cbe286e4bf5",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

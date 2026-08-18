@@ -64,12 +64,12 @@ export function BlogSearch({ posts }: BlogSearchProps) {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search posts by title, description, or tag..."
-            className="w-full pl-12 pr-4 py-4 bg-cream border-4 border-ink text-ink placeholder-ink-3 focus:outline-none focus:bg-surface transition-colors font-bold text-lg"
+            className="w-full pl-12 pr-4 py-4 bg-[var(--color-paper-2)] border border-[var(--color-rule)] text-[var(--color-ink)] placeholder-[var(--color-ink-3)] focus:outline-none focus:border-[var(--color-ink)] transition-colors font-serif text-lg"
           />
           {query && (
             <button
               onClick={() => setQuery('')}
-              className="absolute right-4 top-1/2 -translate-y-1/2 text-ink-3 hover:text-ink transition-colors"
+              className="absolute right-4 top-1/2 -translate-y-1/2 text-[var(--color-ink-3)] hover:text-[var(--color-ink)] transition-colors"
             >
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />

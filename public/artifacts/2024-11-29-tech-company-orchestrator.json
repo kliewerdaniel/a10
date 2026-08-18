@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "2024-11-29-tech-company-orchestrator",
+  "title": "Tech Company Orchestrator: Simulate Full-Stack Development Workflow with AI Agents",
+  "author": "Daniel Kliewer",
+  "created_at": "2024-11-29",
+  "updated_at": "2024-11-29",
+  "canonical_url": "/blog/2024-11-29-tech-company-orchestrator",
+  "content_hash": "sha256:45070626c8cb00f196c79586e61b1976aa998058561d703b5437293956aefeb1",
+  "topics": [
+    "ai-agents",
+    "tech-workflow",
+    "networkx",
+    "openai",
+    "sdlc-automation"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "tech company orchestrator",
+    "user guide",
+    "product management",
+    "prepare your initial prompt",
+    "program execute",
+    "outputs the",
+    "workflow the",
+    "customizing agents",
+    "modify agent behavior each",
+    "new agent",
+    "key not found ensure",
+    "format validate",
+    "incorrect outputs",
+    "future improvements",
+    "contributions feel"
+  ],
+  "relationships": [],
+  "claims": [
+    {
+      "text": "Iterative Processing**: Refines outputs across iterations until the workflow is complete",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "7. **Final Agent**: Verifies if the project is complete or requires further refinement",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The agents are connected in a directed graph, ensuring an organized flow of information between departments",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ensure the   file is correctly configured with your API key:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ensure the OpenAI API is accessible and the specified model is available",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Feel free to fork the repository and submit pull requests for improvements. Feedback and suggestions are always welcome",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/tech-company-orchestrator",
+    "https://jsonlint.com"
+  ],
+  "related_artifacts": [],
+  "provenance": {
+    "source": "content/blog/2024-11-29-tech-company-orchestrator.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "45070626c8cb00f196c79586e61b1976aa998058561d703b5437293956aefeb1",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

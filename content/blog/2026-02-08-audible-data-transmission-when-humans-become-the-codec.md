@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: https://danielkliewer.com/blog/audible-data-transmission-when-humans-become-the-codec
+canonical_url: /blog/2026-02-08-audible-data-transmission-when-humans-become-the-codec
 date: 02-08-2026
 description: How a 2016 experiment in encoding binary data as singable chant revealed
   principles we're only now rediscovering in AI development, demonstrating that human

@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "id": "2026-07-02-building-autonomous-sovereign-ai-with-autoresearch-loops-and-fine-tuned-expert-models",
+  "title": "Building Autonomous Sovereign AI: How Autoresearch Loops and Expert Fine-Tuning Create Self-Improving Local AI Systems",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-07-02",
+  "updated_at": "2026-07-02",
+  "canonical_url": "/blog/2026-07-02-building-autonomous-sovereign-ai-with-autoresearch-loops-and-fine-tuned-expert-models",
+  "content_hash": "sha256:467b42d59e3c9e4b959d73d454f3274e0395ddb228f6398b803cca95bf3ffba9",
+  "topics": [
+    "autonomous-agents",
+    "local-first-ai",
+    "autoresearch",
+    "fine-tuning",
+    "local-first",
+    "open-source",
+    "agent-recipes",
+    "reinforcement-learning",
+    "sovereign-architecture",
+    "local-llms",
+    "ollama",
+    "smolagents",
+    "langgraph",
+    "deerflow"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "autoresearch loops",
+    "differentiated intelligence",
+    "converging blueprints",
+    "systems that improve themselves",
+    "thinking machines lab",
+    "loop becomes",
+    "product roland",
+    "loop is",
+    "product traditional",
+    "maintain autoresearch",
+    "repeat the",
+    "agent recipes",
+    "capturing how systems evolve",
+    "inner loop",
+    "outer loop autoresearch",
+    "expert judgment problem",
+    "frontier models break",
+    "core limitation",
+    "tacit judgment",
+    "actually mattered",
+    "training the",
+    "this means",
+    "architecture stack when",
+    "separate inner",
+    "outer loops explicitly",
+    "artifacts agent",
+    "prompting has",
+    "ceiling prompt",
+    "is not optional",
+    "expert systems if",
+    "cost efficiency comes",
+    "specialization the",
+    "practical architecture the",
+    "core components",
+    "key insight",
+    "intelligence is becoming infrastructure",
+    "living systems the",
+    "implementation notes",
+    "minimal code examples",
+    "sovereign autoresearch system this",
+    "core idea",
+    "everything reduces",
+    "loop at",
+    "agent execution layer the",
+    "local agent",
+    "turning judgment",
+    "code evaluators",
+    "outer loop",
+    "autoresearch engine the",
+    "turning failures",
+    "new evaluators this",
+    "agent recipe",
+    "versioned intelligence artifact",
+    "full autoresearch loop",
+    "learning once",
+    "knowledge graph hook",
+    "complete system",
+    "one view",
+    "closing insight once",
+    "related resources",
+    "sovereign intelligence",
+    "intelligence observatory",
+    "model is not",
+    "related repositories",
+    "additional research"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-07-03-the-model-is-not-the-product",
+      "weight": 0.5971,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-getting-started-sovereign-ai",
+      "weight": 0.5602,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-local-ai-architecture-synthesis",
+      "weight": 0.5543,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-retrieval-architecture-synthesis",
+      "weight": 0.5485,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-sovereign-ai-architecture-synthesis",
+      "weight": 0.5476,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-04-sovereign-intelligence-stack",
+      "weight": 0.5323,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-03-the-sovereign-intelligence-observatory",
+      "weight": 0.5244,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-02-context-engineering-the-blind-spots-and-the-real-full-stack-development-paradigm",
+      "weight": 0.5071,
+      "basis": "shared-entity+crosslink"
+    }
+  ],
+  "claims": [
+    {
+      "text": "The unit of intelligence is no longer the model",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "1. The Loop Is the Product",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Traditional AI systems are static:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Autoresearch systems are dynamic:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The key idea is that the feedback loop itself becomes the product surface",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "But the hard problem isn't building loops—it's designing signals that are meaningful enough for improvement without collapsing into noisy optimization",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Expensive signals (expert review, structured evals) are what actually move capability",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "A core concept is the agent recipe",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "An agent recipe is not configuration—it is history:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The outer loop is where improvement happens",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The inner loop is where value is delivered",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The key design challenge is ensuring the outer loop remains cost-bounded and signal-efficient, not a runaway optimization engine",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Humans are not outside the system. They are callable components inside the loop, especially early on",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "These are not reasoning-heavy tasks. They are judgment-heavy tasks",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Prompts can only encode what experts can articulate. The most important judgments are often non-verbalizable",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is not incremental improvement. It is a regime shift in how capability is produced",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "On-policy distillation: prevents degradation over time",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Part 3: What This Means — The New AI Architecture Stack",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "4. Fine-Tuning Is Not Optional for Expert Systems",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The economic advantage is structural",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Part 5: The Key Insight — Intelligence Is Becoming Infrastructure",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The convergence here is not accidental",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "How tightly feedback loops are integrated into their architecture",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Together, they define a single direction: AI systems are becoming self-improving infrastructures for capturing and refining human expertise",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The model is no longer the product",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://www.latent.space/p/autoresearch-introspection",
+    "https://thinkingmachines.ai/news/learning-to-replicate-expert-judgment-in-financial-tasks",
+    "https://github.com/kliewerdaniel/sovereign-intelligence-stack",
+    "https://github.com/kliewerdaniel/sovereign-memory-bank",
+    "https://github.com/kliewerdaniel/dynamic-persona-moe-rag",
+    "https://github.com/kliewerdaniel/objective05",
+    "https://github.com/kliewerdaniel/sovereignspec",
+    "https://www.latent.space/p/autoresearch-introspection",
+    "https://thinkingmachines.ai/news/learning-to-replicate-expert-judgment-in-financial-tasks",
+    "https://arxiv.org/search/?query=autonomous+agents&searchtype=all",
+    "https://arxiv.org/search/?query=expert+fine+tuning&searchtype=all",
+    "https://arxiv.org/search/?query=autoresearch&searchtype=all",
+    "https://www.bridgewater.com/",
+    "https://www.thinkmachineslab.com/"
+  ],
+  "related_artifacts": [
+    "2026-07-03-the-model-is-not-the-product",
+    "2026-07-05-getting-started-sovereign-ai",
+    "2026-07-05-local-ai-architecture-synthesis",
+    "2026-07-05-retrieval-architecture-synthesis",
+    "2026-07-05-sovereign-ai-architecture-synthesis",
+    "2026-07-04-sovereign-intelligence-stack",
+    "2026-07-03-the-sovereign-intelligence-observatory",
+    "2026-07-02-context-engineering-the-blind-spots-and-the-real-full-stack-development-paradigm"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-07-02-building-autonomous-sovereign-ai-with-autoresearch-loops-and-fine-tuned-expert-models.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "467b42d59e3c9e4b959d73d454f3274e0395ddb228f6398b803cca95bf3ffba9",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

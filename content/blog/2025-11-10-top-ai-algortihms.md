@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: https://danielkliewer.com/blog/2025-11-10-top-ai-algorithms
+canonical_url: /blog/2025-11-10-top-ai-algortihms
 date: 11-10-2025
 description: Discover the top 20 AI algorithms powering modern machine learning. This
   comprehensive guide covers practical use cases, implementation tips, and hands-on

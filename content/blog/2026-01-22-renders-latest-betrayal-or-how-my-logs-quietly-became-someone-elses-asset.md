@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: /blog/2026-01-22-renders-latest-betrayal-or-how-my-logs-quietly-became-someone-elses-asset/
+canonical_url: /blog/2026-01-22-renders-latest-betrayal-or-how-my-logs-quietly-became-someone-elses-asset
 date: 01-22-2026
 description: A critical examination of Render's decision to integrate ClickHouse for
   log processing, raising concerns about data privacy and developer trust in cloud

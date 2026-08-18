@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "id": "2024-11-28-basic-autogen",
+  "title": "AI Travel Planner with Microsoft AutoGen: Multi-Agent Collaboration",
+  "author": "Daniel Kliewer",
+  "created_at": "2024-11-28",
+  "updated_at": "2024-11-28",
+  "canonical_url": "/blog/2024-11-28-basic-autogen",
+  "content_hash": "sha256:c30e7fe2f50cb8bfa311620e274db9701a5d5cd6334f1b8199377d0b791c2c36",
+  "topics": [
+    "microsoft-autogen",
+    "multi-agent-systems",
+    "openai",
+    "travel-planning",
+    "ai-collaboration"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "travel planner",
+    "guide this",
+    "project setup",
+    "project directory open",
+    "git repository",
+    "virtual environment",
+    "installing dependencies",
+    "packages install",
+    "environment variables",
+    "main program",
+    "set up environment variables",
+    "new york",
+    "louvre museum",
+    "eiffel tower",
+    "additional notes"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2024-11-27-ai-agent-based-cross-platform-content-generator-and-distributor",
+      "weight": 0.0952,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-28-basic-swarm-chatbot",
+      "weight": 0.0789,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-21-ultimate-guide-export-your-reddit-data-to-markdown-using-python-and-PRAW-API",
+      "weight": 0.0411,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-10-09-how-to-build-a-persona-based-blog-post-generator-with-large-language-models",
+      "weight": 0.04,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-12-09-pydantic-rag",
+      "weight": 0.0286,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-10-24-ghost-writer",
+      "weight": 0.0217,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-12-11-next-gen-personagen",
+      "weight": 0.0213,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-06-08-opendesign-opencode-local-first-design-operating-system",
+      "weight": 0.0189,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "AutoGen is an open-source framework for building AI agent systems",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Mock Implementations:** The functions  ,  , and are mock implementations",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://platform.openai.com/account/api-keys"
+  ],
+  "related_artifacts": [
+    "2024-11-27-ai-agent-based-cross-platform-content-generator-and-distributor",
+    "2024-11-28-basic-swarm-chatbot",
+    "2025-10-21-ultimate-guide-export-your-reddit-data-to-markdown-using-python-and-PRAW-API",
+    "2024-10-09-how-to-build-a-persona-based-blog-post-generator-with-large-language-models",
+    "2024-12-09-pydantic-rag",
+    "2024-10-24-ghost-writer",
+    "2024-12-11-next-gen-personagen",
+    "2026-06-08-opendesign-opencode-local-first-design-operating-system"
+  ],
+  "provenance": {
+    "source": "content/blog/2024-11-28-basic-autogen.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "c30e7fe2f50cb8bfa311620e274db9701a5d5cd6334f1b8199377d0b791c2c36",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

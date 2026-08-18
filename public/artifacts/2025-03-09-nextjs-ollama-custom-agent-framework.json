@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "id": "2025-03-09-nextjs-ollama-custom-agent-framework",
+  "title": "Complete Guide: Building an AI-Powered Next.js Application with Custom Agent Framework and Ollama Integration",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-03-09",
+  "updated_at": "2025-03-09",
+  "canonical_url": "/blog/2025-03-09-nextjs-ollama-custom-agent-framework",
+  "content_hash": "sha256:2f435b1abee359423241eb8ddab4f4839820cfb20e2a4ae74f16e13e84167a09",
+  "topics": [
+    "next-js",
+    "ollama",
+    "custom-agent-framework",
+    "ai-task-automation",
+    "local-llms",
+    "real-time-streaming",
+    "task-decomposition",
+    "react",
+    "web-development",
+    "ai-integration"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "custom agent framework",
+    "app router",
+    "installing dependencies install",
+    "setting up ollama",
+    "install ollama",
+    "home page component create",
+    "goal input section",
+    "agent logs section",
+    "result section",
+    "frontend components the",
+    "react markdown",
+    "custom agent",
+    "route create",
+    "backend architecture our",
+    "web streams",
+    "application now",
+    "development server ensure ollama",
+    "different goals try",
+    "planning examples",
+    "sample interaction",
+    "project once",
+    "adding specialized agent tools",
+    "conversation history add",
+    "using prisma",
+    "install prisma",
+    "initialize prisma",
+    "workflows create",
+    "optimizing model selection",
+    "configuration allow",
+    "additional resources"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-03-09-mastra-ollama-nextjs",
+      "weight": 0.6154,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-09-custom-agent",
+      "weight": 0.1087,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-10-18-building-a-full-stack-application-with-django-and-react",
+      "weight": 0.0323,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-20-compile-time-intelligence-research-compiler-agent",
+      "weight": 0.0222,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-07-08-ai-ssr-guide",
+      "weight": 0.0217,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-18-NextJS-SEO-CLIne-Prompt",
+      "weight": 0.0208,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-28-basic-swarm-chatbot",
+      "weight": 0.0182,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-26-deerflow-2-building-sovereign-ai-agent-systems",
+      "weight": 0.0172,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "The frontend is built with several key features:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ensures the stream is properly closed even on errors",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ensure Ollama is running, then start your Next",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://ollama.com/",
+    "https://github.com/ollama/ollama",
+    "https://nextjs.org/docs",
+    "https://js.langchain.com",
+    "https://www.promptingguide.ai/"
+  ],
+  "related_artifacts": [
+    "2025-03-09-mastra-ollama-nextjs",
+    "2025-03-09-custom-agent",
+    "2024-10-18-building-a-full-stack-application-with-django-and-react",
+    "2026-07-20-compile-time-intelligence-research-compiler-agent",
+    "2025-07-08-ai-ssr-guide",
+    "2025-10-18-NextJS-SEO-CLIne-Prompt",
+    "2024-11-28-basic-swarm-chatbot",
+    "2026-03-26-deerflow-2-building-sovereign-ai-agent-systems"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-03-09-nextjs-ollama-custom-agent-framework.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "2f435b1abee359423241eb8ddab4f4839820cfb20e2a4ae74f16e13e84167a09",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

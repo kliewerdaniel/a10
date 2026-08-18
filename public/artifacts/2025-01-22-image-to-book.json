@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "2025-01-22-image-to-book",
+  "title": "Building an Advanced AI Image-to-Book Pipeline: Multimodal Storytelling with LLaVA, ChromaDB, and Recursive Narrative Generation Using Ollama",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-01-22",
+  "updated_at": "2025-01-22",
+  "canonical_url": "/blog/2025-01-22-image-to-book",
+  "content_hash": "sha256:a9e30d98b97a378c654d8736b776750778983a21ca95199d6242891489ed4181",
+  "topics": [
+    "ai",
+    "image-processing",
+    "content-generation",
+    "python",
+    "llm",
+    "llava",
+    "chromadb",
+    "ollama",
+    "rag",
+    "multimodal-ai",
+    "storytelling"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "narrative generation",
+    "current status",
+    "required elements",
+    "forbidden tropes",
+    "backend implementation",
+    "story generation",
+    "retrieved context",
+    "frontend components",
+    "image analysis",
+    "generate story",
+    "implementation details"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-01-23-building-a-multimodal-story-generation-system",
+      "weight": 0.0435,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-17-building-a-private-knowledge-graph-with-local-ai-agents",
+      "weight": 0.0227,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-28-dynamic-persona-moe-rag-implementation-plan",
+      "weight": 0.0083,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-22-rlhf-lab",
+      "weight": 0.0078,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Quantization enables consumer GPU use",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2025-01-23-building-a-multimodal-story-generation-system",
+    "2026-03-17-building-a-private-knowledge-graph-with-local-ai-agents",
+    "2026-01-28-dynamic-persona-moe-rag-implementation-plan",
+    "2024-11-22-rlhf-lab"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-01-22-image-to-book.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "a9e30d98b97a378c654d8736b776750778983a21ca95199d6242891489ed4181",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

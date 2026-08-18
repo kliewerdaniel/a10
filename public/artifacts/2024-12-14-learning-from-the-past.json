@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "2024-12-14-learning-from-the-past",
+  "title": "Developing a Toxicity Detection Communication App: Promoting Positive Dialogue with AI Ethics, React, and TensorFlow.js",
+  "author": "Daniel Kliewer",
+  "created_at": "2024-12-14",
+  "updated_at": "2024-12-14",
+  "canonical_url": "/blog/2024-12-14-learning-from-the-past",
+  "content_hash": "sha256:b73d3ca686085d04e5c9d1d89e2b2c537024a6ca241fe50a952846d6e8443808",
+  "topics": [
+    "react",
+    "tensorflow-js",
+    "toxicity-model",
+    "graph-visualization",
+    "ai-ethics",
+    "nlp",
+    "machine-learning",
+    "positive-communication"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "learning from",
+    "better future through technology",
+    "new react",
+    "move into",
+    "default code with our",
+    "initialize git"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-11-11-vscode-blog-editing",
+      "weight": 0.0071,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-19-building-a-local-llm-powered-knowledge-graph",
+      "weight": 0.0046,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-10-04-detailed-description-of-insight-journal",
+      "weight": 0.0038,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Yet here we are again, seeing advanced technologies—drones, AI, cryptographic frameworks—funneled into machines of war",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "to improve healthcare delivery in remote areas, or augmented reality can train doctors more efficiently, the tools we create can heal rather than harm. This choice—how we apply our technology— is ours to make",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "’s project: a small web application that uses machine learning and a graph-based data structure to help people communicate more positively. Instead of guiding deadly precision strikes, this codebase is designed to guide more constructive dialogue",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "We’re acknowledging our past failures and choosing a different path forward. This app, while small and symbolic, is a testament to the idea that we can use the most advanced tools at our disposal to cultivate empathy rather than enmity",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "A graph representation of the user’s text where nodes are words and edges represent adjacency and frequency, highlighting potentially problematic areas",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "already created by create-react-app, just ensure dependencies are present):**",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2025-11-11-vscode-blog-editing",
+    "2025-10-19-building-a-local-llm-powered-knowledge-graph",
+    "2024-10-04-detailed-description-of-insight-journal"
+  ],
+  "provenance": {
+    "source": "content/blog/2024-12-14-learning-from-the-past.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "b73d3ca686085d04e5c9d1d89e2b2c537024a6ca241fe50a952846d6e8443808",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "id": "2025-10-21-ultimate-guide-export-your-reddit-data-to-markdown-using-python-and-PRAW-API",
+  "title": "Ultimate Guide: Export Your Reddit Data to Markdown Using Python & PRAW API",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-10-21",
+  "updated_at": "2025-10-21",
+  "canonical_url": "/blog/2025-10-21-ultimate-guide-export-your-reddit-data-to-markdown-using-python-and-PRAW-API",
+  "content_hash": "sha256:5f228a0647f2a4709a49ee2b60b3daac4b147fab7c9017b33798db532865ffbf",
+  "topics": [
+    "python",
+    "reddit",
+    "praw",
+    "data-export",
+    "markdown",
+    "api",
+    "automation",
+    "backup",
+    "data-analysis"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "ultimate guide",
+    "export your reddit data",
+    "markdown using python",
+    "export reddit data",
+    "comprehensive backup",
+    "archival reddit",
+    "data analysis",
+    "personal insights with",
+    "content migration moving",
+    "enhanced searchability unlike",
+    "research purposes researchers",
+    "requirements before",
+    "setting up reddit",
+    "access to",
+    "export reddit",
+    "detailed reddit app creation",
+    "reddit go",
+    "app preferences navigate",
+    "new app scroll",
+    "app details",
+    "get your app credentials",
+    "configure your",
+    "file create",
+    "python export script now",
+    "key features",
+    "script architecture breakdown the",
+    "rate limiting",
+    "retry logic",
+    "media download system concurrent",
+    "comment thread reconstruction advanced",
+    "state management",
+    "installing dependencies",
+    "script with",
+    "virtual environment",
+    "install dependencies always",
+    "script save",
+    "run your export choose",
+    "export everything",
+    "export only submissions",
+    "export only comments",
+    "export saved posts only",
+    "understanding script options",
+    "advanced configuration",
+    "environment variables",
+    "gets exported",
+    "file organization",
+    "directory structure your",
+    "frontmatter metadata each markdown",
+    "reddit post",
+    "troubleshooting common issues",
+    "rate limiting errors if",
+    "authentication problems verify",
+    "missing media downloads some",
+    "large exports taking forever",
+    "permission issues ensure",
+    "data analysis with",
+    "other platforms the",
+    "indexing create",
+    "security considerations",
+    "take control",
+    "reddit data in"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2024-11-28-basic-autogen",
+      "weight": 0.0411,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-28-scalable-ai-backends",
+      "weight": 0.0136,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-12-09-pydantic-rag",
+      "weight": 0.0123,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-04-07-echoshelf",
+      "weight": 0.0123,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-12-mastering-llama-cpp-local-llm-integration-guide",
+      "weight": 0.012,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-02-14-reddiss",
+      "weight": 0.0119,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-28-basic-swarm-chatbot",
+      "weight": 0.0116,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-10-how-to-run-your-own-ai-agent-openclaw-qwen-telegram",
+      "weight": 0.0111,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "To access Reddit's API (which this script relies on), you'll need to create an application through Reddit's app interface. This is free and takes about 2 minutes",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "First create a praw.ini file and save the following code along with the values. You can find the values you need in the reddit app you created. Here is where you can configure the app: [Reddit App Configuration](https://www",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "client_id**: This is the string under the app name",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The script is organized into several key components:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ensure your output directory is writable and you have sufficient disk space",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "A: Markdown is human-readable, searchable, and works with existing static site tools",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Q: How much storage space is needed",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "A: Absolutely! The code is well-documented and modular for customization",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "In an age where platforms control our digital lives, taking ownership of your data is empowering",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://www.reddit.com/prefs/apps",
+    "https://reddit.com"
+  ],
+  "related_artifacts": [
+    "2024-11-28-basic-autogen",
+    "2025-03-28-scalable-ai-backends",
+    "2024-12-09-pydantic-rag",
+    "2025-04-07-echoshelf",
+    "2025-11-12-mastering-llama-cpp-local-llm-integration-guide",
+    "2025-02-14-reddiss",
+    "2024-11-28-basic-swarm-chatbot",
+    "2026-03-10-how-to-run-your-own-ai-agent-openclaw-qwen-telegram"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-10-21-ultimate-guide-export-your-reddit-data-to-markdown-using-python-and-PRAW-API.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "5f228a0647f2a4709a49ee2b60b3daac4b147fab7c9017b33798db532865ffbf",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

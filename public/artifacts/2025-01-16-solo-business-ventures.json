@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "2025-01-16-solo-business-ventures",
+  "title": "Solo Developer's Guide to Upwork Success: Psychological Analysis & Implementation",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-01-16",
+  "updated_at": "2025-01-16",
+  "canonical_url": "/blog/2025-01-16-solo-business-ventures",
+  "content_hash": "sha256:fe6695805fdd91a2594f99691f2d4619c7ba62d13621d841b2863bf4fb4d5341",
+  "topics": [
+    "upwork",
+    "freelancing",
+    "business-psychology",
+    "solo-developer",
+    "career-development"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "upwork success",
+    "psychological analysis",
+    "practical implementation",
+    "understanding platform psychology the",
+    "profile psychology",
+    "initial positioning your",
+    "practical bidding strategy success",
+    "early stage bidding",
+    "example proposal template",
+    "client communication framework understanding",
+    "initial client interaction",
+    "project management",
+    "rate optimization strategy",
+    "starting rates",
+    "rate progression month",
+    "platform algorithm optimization practical",
+    "daily actions",
+    "weekly actions",
+    "success framework sustainable",
+    "client retention strategy",
+    "skills development",
+    "risk management practical",
+    "project selection criteria",
+    "red flags",
+    "implementation checklist daily",
+    "success track",
+    "proposal success rate",
+    "job success score",
+    "client repeat rate",
+    "average project value",
+    "response time"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-04-15-synthetic-intelligence-why-emergence-is-math-and-data-should-stay-local",
+      "weight": 0.0159,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-08-local-llm-integration",
+      "weight": 0.0152,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-09-reason-ai",
+      "weight": 0.0139,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Success in bidding requires understanding the psychological state of clients during the hiring process:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Sustainable success requires systematic approach:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "By implementing these frameworks while maintaining awareness of platform dynamics and client psychology, solo developers can establish sustainable success on Upwork. Remember that success is iterative - continuously refine your approach based on market response and performance metrics",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2026-04-15-synthetic-intelligence-why-emergence-is-math-and-data-should-stay-local",
+    "2025-11-08-local-llm-integration",
+    "2025-03-09-reason-ai"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-01-16-solo-business-ventures.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "fe6695805fdd91a2594f99691f2d4619c7ba62d13621d841b2863bf4fb4d5341",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

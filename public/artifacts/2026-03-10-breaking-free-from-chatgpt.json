@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "id": "2026-03-10-breaking-free-from-chatgpt",
+  "title": "Breaking Free from ChatGPT: How to Take Back Your AI Sovereignty",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-03-10",
+  "updated_at": "2026-03-10",
+  "canonical_url": "/blog/2026-03-10-breaking-free-from-chatgpt",
+  "content_hash": "sha256:7bec1ebcba9547012480ea17ad3207175b6722c25af34c7533f141ebba6cd5e8",
+  "topics": [
+    "ai-sovereignty",
+    "chatgpt-export",
+    "openclaw",
+    "local-ai",
+    "data-ownership",
+    "rag-systems",
+    "ai-independence"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "breaking free",
+    "take back your",
+    "sovereignty in",
+    "thoughts are someone",
+    "asset every",
+    "build your own sovereign",
+    "system by",
+    "history matters your",
+    "technical solution",
+    "building your sovereign",
+    "stack creating",
+    "export your",
+    "data the",
+    "structure your data once",
+    "create clean documents for",
+    "implement text chunking large",
+    "generate embeddings embeddings",
+    "vector database",
+    "sovereignty building",
+    "data ownership",
+    "enhanced performance",
+    "cost efficiency",
+    "basic configuration",
+    "creating your first agent",
+    "advanced implementation for",
+    "automated data pipeline create",
+    "architecture use",
+    "custom tool integration build",
+    "security considerations when",
+    "data encryption",
+    "access management",
+    "enhanced privacy standards",
+    "sovereignty your"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-01-16-from-fragmented-experiments-to-cognitive-synthesis",
+      "weight": 0.0076,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-11-vscode-blog-editing",
+      "weight": 0.006,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "The Problem: Your Thoughts Are Someone Else's Asset",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Every conversation you've had with ChatGPT represents hours of your thinking, problem-solving, and creativity",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This isn't just about privacy—it's about sovereignty. Your ideas, your reasoning patterns, your unique perspective on the world—these are your competitive advantages",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This intellectual property is valuable, and it's time to stop giving it away for free",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The first step is to export your ChatGPT history",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This process is straightforward:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The export includes several files, but the most important one is , which contains all your chat history",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Large language models can't process entire documents at once, so text chunking is essential",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "OpenClaw is a framework that allows you to build autonomous AI agents with local models",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "For those who want to dive deeper, here are some advanced techniques:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "When building your sovereign AI system, security is paramount:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The movement toward AI sovereignty represents a fundamental shift in how we interact with artificial intelligence",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Your thoughts, ideas, and intellectual property are valuable assets that deserve protection",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://www.danielkliewer.com/blog/2026-03-10-how-to-run-your-own-ai-agent-openclaw-qwen-telegram"
+  ],
+  "related_artifacts": [
+    "2026-01-16-from-fragmented-experiments-to-cognitive-synthesis",
+    "2025-11-11-vscode-blog-editing"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-03-10-breaking-free-from-chatgpt.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "7bec1ebcba9547012480ea17ad3207175b6722c25af34c7533f141ebba6cd5e8",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

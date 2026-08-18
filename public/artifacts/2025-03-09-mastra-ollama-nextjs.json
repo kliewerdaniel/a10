@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "id": "2025-03-09-mastra-ollama-nextjs",
+  "title": "Complete Guide: Building an AI-Powered Next.js Application with Mastra and Ollama Integration",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-03-09",
+  "updated_at": "2025-03-09",
+  "canonical_url": "/blog/2025-03-09-mastra-ollama-nextjs",
+  "content_hash": "sha256:5a120f1ef52fea32ae3bcd6bf6facb7f1991dea22f6f21944b6962ff8391376f",
+  "topics": [
+    "mastra",
+    "ollama",
+    "next-js",
+    "ai-agents",
+    "task-automation",
+    "real-time-streaming",
+    "agent-workflows",
+    "web-development",
+    "ai-integration",
+    "production-deployment"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "app router",
+    "installing dependencies install",
+    "setting up ollama",
+    "install ollama",
+    "setting up mastra",
+    "verifying your setup",
+    "home page component create",
+    "initializing mastra",
+    "goal input section",
+    "agent logs section",
+    "result section",
+    "frontend components the",
+    "react markdown",
+    "route create",
+    "initialize mastra",
+    "default ollama",
+    "backend architecture our",
+    "web streams",
+    "application now",
+    "development server ensure ollama",
+    "different goals try",
+    "planning examples",
+    "sample interaction",
+    "project once",
+    "adding specialized agent tools",
+    "conversation history add",
+    "using prisma",
+    "workflows create",
+    "adding authentication",
+    "user management implement",
+    "performance optimization",
+    "model selection allow",
+    "additional resources"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-03-09-nextjs-ollama-custom-agent-framework",
+      "weight": 0.6154,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-09-custom-agent",
+      "weight": 0.08,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-10-18-building-a-full-stack-application-with-django-and-react",
+      "weight": 0.0308,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-12-19-langchain-ollama",
+      "weight": 0.025,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-20-compile-time-intelligence-research-compiler-agent",
+      "weight": 0.0208,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-07-08-ai-ssr-guide",
+      "weight": 0.0204,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-18-NextJS-SEO-CLIne-Prompt",
+      "weight": 0.0196,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-28-basic-swarm-chatbot",
+      "weight": 0.0172,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "The world of AI is rapidly evolving, with agent-based systems emerging as powerful tools for task automation and complex problem-solving",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Let's ensure Ollama is working correctly:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "You should see a coherent response from the model, confirming Ollama is properly installed",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The frontend is built with several key features:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ensures the stream is properly closed even on errors",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ensure Ollama is running, then start your Next",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://ollama.com/",
+    "https://mastra.ai",
+    "https://docs.mastra.ai",
+    "https://github.com/ollama/ollama",
+    "https://nextjs.org/docs",
+    "https://js.langchain.com",
+    "https://www.promptingguide.ai/"
+  ],
+  "related_artifacts": [
+    "2025-03-09-nextjs-ollama-custom-agent-framework",
+    "2025-03-09-custom-agent",
+    "2024-10-18-building-a-full-stack-application-with-django-and-react",
+    "2024-12-19-langchain-ollama",
+    "2026-07-20-compile-time-intelligence-research-compiler-agent",
+    "2025-07-08-ai-ssr-guide",
+    "2025-10-18-NextJS-SEO-CLIne-Prompt",
+    "2024-11-28-basic-swarm-chatbot"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-03-09-mastra-ollama-nextjs.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "5a120f1ef52fea32ae3bcd6bf6facb7f1991dea22f6f21944b6962ff8391376f",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "id": "2026-06-08-objective05-exec-giving-local-intelligence-system-hands",
+  "title": "objective05-exec: Giving Your Local Intelligence System Hands — A Rust Tutorial on Bridging a Knowledge Graph to Real-World Tool Execution",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-06-08",
+  "updated_at": "2026-06-08",
+  "canonical_url": "/blog/2026-06-08-objective05-exec-giving-local-intelligence-system-hands",
+  "content_hash": "sha256:4a8edb49899ede28e495dcf28da3c09b47c0ce5b711c3c4b013fff40dcdf68e9",
+  "topics": [
+    "rust",
+    "objective05",
+    "knowledge-representation",
+    "kuzudb",
+    "agent-runtime",
+    "local-ai",
+    "tools-md",
+    "skills-md",
+    "openclaw",
+    "tool-execution",
+    "github-api",
+    "slack",
+    "discord",
+    "smtp",
+    "local-first-ai",
+    "objective05-exec",
+    "signal-evaluation",
+    "async-rust",
+    "tokio",
+    "mcp",
+    "temporal-graph",
+    "contradiction-detection"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "giving your local intelligence",
+    "system hands",
+    "everyone else is",
+    "tool discovery",
+    "graph query",
+    "tool execution",
+    "core agent",
+    "main entry",
+    "kuzu schema this agent",
+    "building before",
+    "microsoft scout",
+    "google gemini spark spark",
+    "anthropic orbit orbit",
+    "google drive",
+    "gap look",
+    "hacker news",
+    "environment setup before",
+    "install rust",
+    "objective05 repository",
+    "install kuzu",
+    "acquire tool credentials the",
+    "required env vars",
+    "app password",
+    "incoming webhooks",
+    "channel settings",
+    "verify connectivity before",
+    "architecture overview",
+    "agent runtime",
+    "tool execution layer",
+    "loop every",
+    "project structure",
+    "error types",
+    "loading config",
+    "environment the",
+    "tool discovery system",
+    "graph query builder",
+    "signal evaluator the",
+    "filesystem tool the",
+    "core agent runtime",
+    "main entry point",
+    "files the",
+    "running with",
+    "environment variables reference",
+    "required for",
+    "kuzu schema this",
+    "agent expects",
+    "node tables",
+    "seed script if",
+    "agent the",
+    "unit tests",
+    "pure logic",
+    "integration tests",
+    "mocked tools implement",
+    "smoke test the",
+    "deployment patterns",
+    "home server the",
+    "kubernetes deploy",
+    "apple silicon",
+    "autonomous drafting instead",
+    "scheduling the",
+    "routing multiple",
+    "mobile push notifications for",
+    "outcome feedback loops every",
+    "triggers replace",
+    "this matters the",
+    "model is not",
+    "building persistent intelligence",
+    "local news"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-06-03-the-model-is-not-the-product-on-building-persistent-intelligence-infrastructure",
+      "weight": 0.0238,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-03-the-revolution-will-be-documented",
+      "weight": 0.0226,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-06-01-objective03-local-news-agency",
+      "weight": 0.0215,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-03-the-model-is-not-the-product",
+      "weight": 0.0175,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-03-text-adventure",
+      "weight": 0.0137,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-28-dynamic-persona-moe-rag-implementation-plan",
+      "weight": 0.0114,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-02-03-scrape-reddit-analysis-blog",
+      "weight": 0.0111,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-getting-started-sovereign-ai",
+      "weight": 0.0111,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "The Landscape: What Everyone Else Is Building](#the-landscape-what-everyone-else-is-building)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "everything when the session ends. Dashboards act — they display charts, trigger alerts, send emails — but they have no memory of what happened yesterday. The product design choices that lead here are predictable: when the model is the product, you build stateless interfaces",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "When the dashboard is the product, you build passive displays",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Evaluate whether an action is warranted based on detected patterns",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is not a cloud agent. This is not a chatbot wrapper",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Landscape: What Everyone Else Is Building",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "OpenClaw — Scout's base — is itself worth studying",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "agent that synthesizes data from Gmail, Slack, GitHub, Calendar, Google Drive, and Figma to generate personalized daily briefings. Discovered as a hidden toggle in Claude's settings in May 2026, it represents a shift from reactive chat to proactive awareness",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Look at these three products and you'll see a pattern. They're all cloud agents with tool execution. They can act — draft a doc, send an email, file a PR — but their understanding is shallow",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "has deep local understanding — a temporal knowledge graph that tracks entities, claims, events, and contradictions over time — but no way to act on that understanding. It can detect that a narrative is diverging in the GitHub ecosystem, but it can't file a PR to address it",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The gap is clear: Objective05 has the brain",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": ", you need a working Rust toolchain and a few external services configured. The agent is designed to fail soft when credentials are missing — it will log warnings and continue with whatever tools * are * available — but a clean install goes faster with everything in place",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The default toolset requires at minimum a GitHub personal access token",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The rest are optional and can be enabled selectively in",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The agent runtime sits between the knowledge graph and the tools. It queries the graph for context, evaluates whether an action is warranted based on detected patterns, and executes the appropriate tool",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Tools are discovered through  /  files — the same pattern OpenClaw uses, which means our agent can interoperate with the OpenClaw ecosystem",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is intentionally not an LLM-driven loop. The intelligence comes from the graph, the rules come from you, and the LLM is reserved for the parts that actually need language understanding (drafting PR bodies, summarizing divergences)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The deterministic loop is what makes the system debuggable, auditable, and cheap to run",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "bindings via C FFI. If you hit FFI link errors on macOS, you may need   first to obtain the   system library. On Linux, the crate vendors the static library; on Windows, ensure the Visual C++ runtime is installed",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "A note on configuration: every field is required",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The current   reads from disk. For containerized deployments you may want to read specific fields from environment variables. The simplest pattern is to override the config path:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": ":  /  capability discovery. Instead of hardcoding available tools, the agent reads markdown files that describe what tools exist, what parameters they accept, and when they should be used. This means tools can be added without recompiling — just drop a new   file into the tools directory",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "A small but important detail: the parser is intentionally tolerant",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "A   with no   section still loads — the resulting   just has an empty   map. This means you can write a   that documents a tool's intent without committing to a typed schema, useful for early prototyping",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Now we need a way to query the Kuzu knowledge graph for context. This is where Objective05's temporal graph comes in — we're not just asking \"what's true",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/objective05",
+    "https://github.com/kliewerdaniel/objective05",
+    "https://github.com/kliewerdaniel/objective05-exec",
+    "https://github.com/kliewerdaniel/objective05",
+    "https://www.danielkliewer.com/the-model-is-not-the-product-on-building-persistent-intelligence-infrastructure",
+    "https://danielkliewer.com/objective03-local-news-agency",
+    "https://danielkliewer.com/mastering-llama-cpp-local-llm-integration-guide"
+  ],
+  "related_artifacts": [
+    "2026-06-03-the-model-is-not-the-product-on-building-persistent-intelligence-infrastructure",
+    "2025-11-03-the-revolution-will-be-documented",
+    "2026-06-01-objective03-local-news-agency",
+    "2026-07-03-the-model-is-not-the-product",
+    "2025-03-03-text-adventure",
+    "2026-01-28-dynamic-persona-moe-rag-implementation-plan",
+    "2025-02-03-scrape-reddit-analysis-blog",
+    "2026-07-05-getting-started-sovereign-ai"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-06-08-objective05-exec-giving-local-intelligence-system-hands.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "4a8edb49899ede28e495dcf28da3c09b47c0ce5b711c3c4b013fff40dcdf68e9",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

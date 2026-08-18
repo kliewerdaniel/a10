@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "id": "2025-03-28-ollama-chunking",
+  "title": "Mastering Text Chunking with Ollama: Advanced Techniques for Processing Large Documents with Local LLMs",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-03-28",
+  "updated_at": "2025-03-28",
+  "canonical_url": "/blog/2025-03-28-ollama-chunking",
+  "content_hash": "sha256:2d11958fd8e37ca30ea0212e5219e8863d1d34574351238967b8dbf2e5d5fce9",
+  "topics": [
+    "ollama",
+    "text-chunking",
+    "local-llms",
+    "document-processing",
+    "semantic-chunking",
+    "hierarchical-chunking",
+    "sliding-window",
+    "python",
+    "natural-language-processing",
+    "ai-development"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "mastering text chunking",
+    "advanced processing in",
+    "understanding chunking",
+    "ollama chunking",
+    "advanced chunking matters",
+    "ollama when",
+    "advanced chunking strategies",
+    "semantic chunking rather",
+    "hierarchical chunking hierarchical",
+    "sliding window chunking",
+    "context retention this",
+    "implementing advanced chunking",
+    "ollama now",
+    "advanced example",
+    "document analysis",
+    "context maintenance",
+    "advanced chunking considerations",
+    "token estimation",
+    "different models different ollama",
+    "handling code",
+    "technical content code",
+    "parallel processing",
+    "ollama for",
+    "ollama chunking based",
+    "common chunking pitfalls",
+    "mastering ollama",
+    "advanced chunking advanced"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-03-12-openai-agents-sdk-ollama-integration",
+      "weight": 0.0167,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-13-simulacra",
+      "weight": 0.0109,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-25-large-scale-agent-architecture",
+      "weight": 0.0039,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "In today's world of AI and large language models, one of the most common challenges developers face is handling text that exceeds a model's context window",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Chunking is the process of dividing large text into smaller, manageable segments that fit within a model's token limit",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Hierarchical chunking creates a tree-like structure where larger documents are first divided into major sections, then subsections, and finally into token-sized chunks",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This method is particularly useful for processing structured documents like academic papers or technical documentation with Ollama",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This approach is particularly effective for narrative text where continuity between chunks is critical for Ollama to maintain the flow of ideas",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Based on extensive testing with various Ollama models, here are some best practices:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Advanced chunking techniques are essential for getting the most out of Ollama, especially when working with larger documents or complex content",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2025-03-12-openai-agents-sdk-ollama-integration",
+    "2025-03-13-simulacra",
+    "2025-03-25-large-scale-agent-architecture"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-03-28-ollama-chunking.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "2d11958fd8e37ca30ea0212e5219e8863d1d34574351238967b8dbf2e5d5fce9",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

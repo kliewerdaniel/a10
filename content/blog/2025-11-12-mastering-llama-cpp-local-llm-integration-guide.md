@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: https://danielkliewer.com/blog/mastering-llama-cpp-local-llm-integration-guide
+canonical_url: /blog/2025-11-12-mastering-llama-cpp-local-llm-integration-guide
 categories:
 - AI Development
 - Local LLM

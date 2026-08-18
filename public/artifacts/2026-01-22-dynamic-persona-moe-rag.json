@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "id": "2026-01-22-dynamic-persona-moe-rag",
+  "title": "Building a Dynamic Persona-Based Mixture-of-Experts RAG System",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-01-22",
+  "updated_at": "2026-01-22",
+  "canonical_url": "/blog/2026-01-22-dynamic-persona-moe-rag",
+  "content_hash": "sha256:55db8b0be3d9dbbcd016289ea6c96080b1a1c6e672b7fbc324cd051d51a0da44",
+  "topics": [
+    "ai",
+    "machine-learning",
+    "rag",
+    "mixture-of-experts",
+    "knowledge-graphs",
+    "ollama",
+    "python"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "project foundations",
+    "dynamic persona",
+    "project initialization we",
+    "core architecture overview the",
+    "data structures",
+    "configuration system the",
+    "persona schema definition personas",
+    "core components deep dive",
+    "dynamic knowledge graph the",
+    "edge classes",
+    "persona traversal interface the",
+    "orchestrator the",
+    "scoring framework multiple",
+    "persona lifecycle management personas",
+    "ollama integration local",
+    "persistence robust",
+    "pipeline execution the",
+    "final ollama",
+    "design philosophy",
+    "future directions",
+    "key design decisions",
+    "implementation roadmap",
+    "basic ollama",
+    "potential extensions"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-01-22-from-scaffolding-to-reality-building-the-dynamic-persona-moe-rag-system",
+      "weight": 0.5702,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-retrieval-architecture-synthesis",
+      "weight": 0.5152,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-sovereign-ai-architecture-synthesis",
+      "weight": 0.5111,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-getting-started-sovereign-ai",
+      "weight": 0.5,
+      "basis": "crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-25-dynamic-persona-moe-rag-building-a-sovereign-synthetic-intelligence-system",
+      "weight": 0.0328,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-25-building-the-synthetic-analyst",
+      "weight": 0.0294,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-04-29-recursive-language-models",
+      "weight": 0.0233,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-28-dynamic-persona-moe-rag-implementation-plan",
+      "weight": 0.0229,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Personas** are specialized AI agents with unique traits, expertise, and behavioral patterns",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Personas are defined by a strict JSON schema ensuring consistency:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The graph system is designed for query-scoped efficiency:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "1. **Query-Scoped Graphs**: Graphs are built fresh for each query, ensuring relevance and preventing state pollution",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "5. **Modular Architecture**: Clear separation of concerns enables independent development and testing",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/dynamic_persona_moe_rag",
+    "https://github.com/kliewerdaniel/dynamic_persona_moe_rag"
+  ],
+  "related_artifacts": [
+    "2026-01-22-from-scaffolding-to-reality-building-the-dynamic-persona-moe-rag-system",
+    "2026-07-05-retrieval-architecture-synthesis",
+    "2026-07-05-sovereign-ai-architecture-synthesis",
+    "2026-07-05-getting-started-sovereign-ai",
+    "2026-01-25-dynamic-persona-moe-rag-building-a-sovereign-synthetic-intelligence-system",
+    "2026-01-25-building-the-synthetic-analyst",
+    "2026-04-29-recursive-language-models",
+    "2026-01-28-dynamic-persona-moe-rag-implementation-plan"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-01-22-dynamic-persona-moe-rag.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "55db8b0be3d9dbbcd016289ea6c96080b1a1c6e672b7fbc324cd051d51a0da44",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

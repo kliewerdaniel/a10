@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "2024-11-23-rlhf-lab-business-plan",
+  "title": "Complete Business Plan for RLHF-Lab: Building an AI Data Annotation Startup from Ground Zero",
+  "author": "Daniel Kliewer",
+  "created_at": "2024-11-23",
+  "updated_at": "2024-11-23",
+  "canonical_url": "/blog/2024-11-23-rlhf-lab-business-plan",
+  "content_hash": "sha256:158ae579005d5b66b1c8630f4437afba778ee8f6de763637cb5e1aca1feb33c4",
+  "topics": [
+    "rlhf",
+    "data-annotation",
+    "ml-startup",
+    "business-strategy",
+    "ai-platform",
+    "startup-plan",
+    "tutorial",
+    "company-building",
+    "ai-business",
+    "data-science",
+    "entrepreneurship"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "reinforcement learning",
+    "human feedback",
+    "north america",
+    "limited liability company",
+    "daniel kliewer",
+    "selling proposition",
+    "google cloud",
+    "san francisco",
+    "operating expenses",
+    "key team"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-11-14-2025-inference-new-geography-intelligence",
+      "weight": 0.1154,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+      "weight": 0.0833,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+      "weight": 0.0769,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-12-autonomous-ai-agents-developer-portfolio",
+      "weight": 0.0741,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-22-if-the-loop-is-the-product",
+      "weight": 0.0625,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
+      "weight": 0.0588,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-building-the-scientific-question-compiler",
+      "weight": 0.0526,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-22-planning",
+      "weight": 0.0517,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Market Size**: The global data annotation tools market was valued at $1.5 billion in 2023 and is projected to reach $5 billion by 2028",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2025-11-14-2025-inference-new-geography-intelligence",
+    "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+    "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+    "2026-01-12-autonomous-ai-agents-developer-portfolio",
+    "2026-07-22-if-the-loop-is-the-product",
+    "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
+    "2026-07-23-building-the-scientific-question-compiler",
+    "2024-11-22-planning"
+  ],
+  "provenance": {
+    "source": "content/blog/2024-11-23-rlhf-lab-business-plan.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "158ae579005d5b66b1c8630f4437afba778ee8f6de763637cb5e1aca1feb33c4",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

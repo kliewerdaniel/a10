@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "id": "2026-08-09-hermes-video-agent",
+  "title": "Building Hermes Video Agent: a local-first, human-in-the-loop video pipeline",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-08-09",
+  "updated_at": "2026-08-09",
+  "canonical_url": "/blog/2026-08-09-hermes-video-agent",
+  "content_hash": "sha256:2716602acbc9c369294e02613220f90028821ae83c74f6dc72a66efad40aea4f",
+  "topics": [
+    "ai-agents",
+    "local-first-ai",
+    "video-generation",
+    "skills",
+    "agent-infrastructure"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "video agent",
+    "hermes video agent",
+    "hermes agent"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-08-05-build-a-video-editing-hermes-agent",
+      "weight": 0.6429,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-08-building-rehab-analyzer-with-hermes",
+      "weight": 0.125,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-02-context-engineering-the-blind-spots-and-the-real-full-stack-development-paradigm",
+      "weight": 0.0128,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "continuity record of what Hermes Video Agent is , how it is wired, and the",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Current environment reference](#current-environment-reference) if you are the",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "nothing to edit but the prompt. That is the wrong shape for real work",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "licences, timing captions to speech, cutting the timeline — are exactly the",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "parts a machine should do. The parts that decide whether the video is any good —",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "what it argues, which image lands, when to cut — are exactly the parts a human",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Hermes Video Agent** is built on that split",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This post is the **replication guide**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Layer | What it is | Where it lives |",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The discipline that makes it tractable is the same one as the method post: **one",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "ComfyUI (optional) | for generated imagery; a placeholder card is used otherwise |",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The backend deps are deliberately light:  ,  ,  ,",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "own (see Step 4). That separation is the trick that keeps this project from",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "All switches are env vars prefixed  :",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Everything the UI does goes through  . The shapes below are what",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Returns nothing; the project manifest is updated and the UI re-fetches",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "connection check). **API keys are never sent in",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The headline feature of this build: the narration voice picker is **not limited",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The provider registry is one dict:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Swapping TTS is one function and one registry entry; no other module knows which",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "ran. That is the \"providers are adapters\" rule from the architecture, enforced",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Hits from every search term are **pooled and ranked** against the scene's own",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Licensing.** is the default, and on top of Openverse's own",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "cropped and Ken-Burns-zoomed, which is a derivative work",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "the commercial-only pass, if the pool is under the limit, **backfill from the",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2026-08-05-build-a-video-editing-hermes-agent",
+    "2026-08-08-building-rehab-analyzer-with-hermes",
+    "2026-07-02-context-engineering-the-blind-spots-and-the-real-full-stack-development-paradigm"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-08-09-hermes-video-agent.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "2716602acbc9c369294e02613220f90028821ae83c74f6dc72a66efad40aea4f",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

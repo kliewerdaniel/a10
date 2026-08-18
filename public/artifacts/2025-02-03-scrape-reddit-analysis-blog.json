@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "id": "2025-02-03-scrape-reddit-analysis-blog",
+  "title": "Automated Reddit Content Analytics Pipeline: Transforming Social Media Insights into Structured Blog Posts with AI Agents and Local LLMs",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-02-03",
+  "updated_at": "2025-02-03",
+  "canonical_url": "/blog/2025-02-03-scrape-reddit-analysis-blog",
+  "content_hash": "sha256:b47bacf05affa6b818fcdc1a12bd59226a8b26dbe60b9b64d34f2ee485d09ec6",
+  "topics": [
+    "ai",
+    "reddit",
+    "scraping",
+    "analysis",
+    "python",
+    "praw",
+    "streamlit",
+    "sqlite",
+    "ollama",
+    "ai-agents",
+    "social-media-analysis"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "content analyzer",
+    "social media activity",
+    "reddit content analysis",
+    "blog generator",
+    "reddit scraping",
+    "workflow diagram",
+    "tech used",
+    "key function",
+    "reddit integration",
+    "data storage",
+    "workflow engine",
+    "utilizes ollama",
+    "prerequisites ensure",
+    "system components",
+    "personal analytics",
+    "content creation",
+    "community analysis",
+    "professional applications",
+    "future enhancements",
+    "hacker news",
+    "license this",
+    "decode error",
+    "content analysis"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2024-10-24-ghost-writer",
+      "weight": 0.0185,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-12-11-next-gen-personagen",
+      "weight": 0.0182,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-06-the-sovereign-loop-why-model-local-ai-is-the-missing-os-layer",
+      "weight": 0.0172,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-25-dynamic-persona-moe-rag-building-a-sovereign-synthetic-intelligence-system",
+      "weight": 0.0164,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-22-local-llm-document-pipeline-blueprint",
+      "weight": 0.0159,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-27-instagram-feed-summarizer",
+      "weight": 0.0154,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-03-the-revolution-will-be-documented",
+      "weight": 0.0111,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-06-08-objective05-exec-giving-local-intelligence-system-hands",
+      "weight": 0.0111,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "For years, social media has been an unfiltered mirror reflecting our thoughts, habits, and digital personas. Reddit, in particular, is a sprawling archive of opinions, jokes, arguments, and deep reflections—some intentional, some impulsive",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Storing and tracking these transformations is another crucial aspect",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The system logs every analysis in an SQLite database, timestamping results and preserving previous versions. This means users can not only generate content but also track the evolution of their online discussions over time",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Customization is another key advantage",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Perhaps the most fascinating takeaway from this project is how it forces us to confront our own digital presence",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "in online discussions without thinking about the long-term patterns in our own behavior. Do we tend to be argumentative in certain contexts? Do our moods fluctuate based on the topics we engage with? Are we subconsciously drawn to specific themes over time",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Reddit Content Analysis and Blog Generator doesn’t just create content—it encourages self-examination. In an era where so much of our digital footprint is scattered and ephemeral, this tool offers a rare opportunity for coherence, insight, and personal growth",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ultimately, this system is more than a utility; it’s a lens through which users can better understand their own narratives",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "In a world driven by fleeting online interactions, having a way to collect, refine, and repurpose our digital conversations is a step toward intentional storytelling",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This project is licensed under the MIT License",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/RedToBlog02",
+    "https://github.com/kliewerdaniel/RedToBlog02.git",
+    "https://github.com/kliewerdaniel/RedToBlog02"
+  ],
+  "related_artifacts": [
+    "2024-10-24-ghost-writer",
+    "2024-12-11-next-gen-personagen",
+    "2026-07-06-the-sovereign-loop-why-model-local-ai-is-the-missing-os-layer",
+    "2026-01-25-dynamic-persona-moe-rag-building-a-sovereign-synthetic-intelligence-system",
+    "2025-03-22-local-llm-document-pipeline-blueprint",
+    "2024-11-27-instagram-feed-summarizer",
+    "2025-11-03-the-revolution-will-be-documented",
+    "2026-06-08-objective05-exec-giving-local-intelligence-system-hands"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-02-03-scrape-reddit-analysis-blog.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "b47bacf05affa6b818fcdc1a12bd59226a8b26dbe60b9b64d34f2ee485d09ec6",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

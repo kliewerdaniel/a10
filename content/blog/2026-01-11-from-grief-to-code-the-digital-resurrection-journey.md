@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: /blog/2026-01-11-memory-preservation-invariants
+canonical_url: /blog/2026-01-11-from-grief-to-code-the-digital-resurrection-journey
 date: 01-11-2026
 description: Formalizing memory preservation constraints in AI systems to enable identity
   reconstruction and long-horizon autonomy beyond traditional RAG and agent frameworks.

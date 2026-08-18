@@ -1,0 +1,256 @@
+{
+  "schema_version": 1,
+  "id": "2026-07-03-the-sovereign-intelligence-observatory",
+  "title": "The Loop Is the Product: Inside the Sovereign Intelligence Observatory",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-07-03",
+  "updated_at": "2026-07-03",
+  "canonical_url": "/blog/2026-07-03-the-sovereign-intelligence-observatory",
+  "content_hash": "sha256:557fe58b57cc1168759d340408597d09505e96e7034c57d0034a19b775dbd1d1",
+  "topics": [
+    "sovereign-intelligence-observatory",
+    "agent-recipes",
+    "drift-detection",
+    "expert-signal-routing",
+    "tacit-knowledge-extraction",
+    "autonomy-ladders",
+    "knowledge-graphs",
+    "local-ai",
+    "local-first-ai",
+    "sovereign-memory-bank",
+    "sovereignspec",
+    "synthint",
+    "observability"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "loop is",
+    "sovereign intelligence observatory",
+    "agent recipe compiler",
+    "recipe compiler",
+    "expert signal router",
+    "autonomous evaluation loop",
+    "tacit judgment extractor",
+    "sovereign apprenticeship engine",
+    "intelligence observatory",
+    "intelligence timeline",
+    "actionable insights",
+    "agent output",
+    "population stability index",
+    "apprenticeship engine",
+    "fully supervised",
+    "approve dangerous",
+    "approve novel",
+    "approve uncertain",
+    "fully autonomous"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-07-05-sovereign-ai-architecture-synthesis",
+      "weight": 0.5617,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-getting-started-sovereign-ai",
+      "weight": 0.55,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-local-ai-architecture-synthesis",
+      "weight": 0.5408,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-retrieval-architecture-synthesis",
+      "weight": 0.5333,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-03-the-model-is-not-the-product",
+      "weight": 0.5308,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-02-building-autonomous-sovereign-ai-with-autoresearch-loops-and-fine-tuned-expert-models",
+      "weight": 0.5244,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-04-sovereign-intelligence-stack",
+      "weight": 0.1111,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-22-if-the-loop-is-the-product",
+      "weight": 0.04,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "The Loop Is the Product: Inside the Sovereign Intelligence Observatory",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "to do a task. Almost none of them answer the question that actually determines whether your system gets better over time: what happened, in what order, under what confidence, judged by whom, and is that judgment still valid six months later",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The [Sovereign Intelligence Observatory](https://github.com/kliewerdaniel/sovereign-intelligence-observatory) is a six-component, local-first Python system built to answer that second question",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "makes as a first-class, versioned, queryable artifact. The project's own framing is blunt about it: intelligence isn't the weights, it's the accumulated decisions that shaped them, and if the loop is the product, observability of the loop is the operating system",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Most agent systems produce logs. Logs are append-only text optimized for a human to read once, during an incident, and then forget",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The distinction matters because a log is write-once and a recipe is a **row in a schema**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "across prompt or memory versions, embedded and searched semantically (optional ChromaDB), streamed out as training data, and — critically — fed back into the system that decides whether your agent is getting better or worse",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Agent Recipe Compiler is the component that does the capturing; everything downstream consumes its output",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The system frames this as the missing primitive most agent stacks never build, and the framing holds up: without it, \"improving the agent means eyeballing transcripts",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Each layer produces the input for the next, and the Observatory at the bottom folds everything back into a timeline that determines whether the whole loop is compounding or decaying",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "and (optionally) semantic search. It supports chunked streaming JSON export specifically so recipe history can be turned into fine-tuning data later without loading the whole table into memory. This is the layer everything else is built on top of, and it's deliberately boring: SQLite, JSON, HTTP",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "No vector database is required to get started; ChromaDB is dependency-injected and the system falls back to FTS5 silently if it isn't installed",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is the layer I think is most underbuilt in the rest of the agent-framework ecosystem, and it's worth showing the actual math",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Evaluation signals are defined as YAML specs with uncertainty bounds, synthetic test cases are auto-generated from production traffic, and every signal is checked for **drift** using two independent statistics that have to agree before an alert fires",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Requiring both KS *and* PSI to cross threshold before flagging drift is a deliberate design choice against false positives — KS is sensitive to shape changes, PSI is sensitive to mass movement between bins, and real capability regressions tend to show up in both",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "they can pollute the signal: if the last three scores for an objective are all identical, the new score is rejected outright, since real model output has variance and a suspiciously flat signal is more likely a broken pipeline than a stable one",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Local LLM output is untrusted by default",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "field rather than propagating a malformed tree downstream. If Ollama isn't running at all, a rule-based fallback extractor keeps the pipeline alive. Nothing in this system assumes the local model is reliable; every consumer of local-model output is written as if it might return garbage, because eventually it will",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Promotion and demotion between rungs happen automatically based on tracked outcomes, and daily action budgets are compute-weighted — a monitored action costs 1",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Everything above feeds into the flagship component, which is the one users actually look at",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": ". It flags **obsolescent prompts** using recency-weighted usage combined with trend scoring, and **unused memories** — documents that were ingested but never once retrieved, which in most RAG systems is silent, wasted storage that nobody notices until the index is too large to reason about",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "It correlates cheap evaluation signals against expert-reviewed ground truth to tell you which of your cheap signals is actually worth trusting",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Cold storage is hash-chained, not just compressed",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "stored   link breaks. For a system whose entire value proposition is \"trust the recorded history of what your agent did,\" that history needs to be tamper-evident, not just tamper-resistant, and this is the right primitive for that",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Why this is the actual thesis, not a feature list",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/sovereign-intelligence-observatory",
+    "https://www.danielkliewer.com/blog/2026-06-14-sovereign-memory-bank-a-deep-dive-into-autonomous-cognitive-memory-for-agent-systems/",
+    "https://github.com/kliewerdaniel/sovereignspec",
+    "https://github.com/kliewerdaniel/synthint",
+    "https://www.amazon.com/dp/B0H6RB7D9J",
+    "https://www.danielkliewer.com/blog/2026-06-14-sovereign-memory-bank-a-deep-dive-into-autonomous-cognitive-memory-for-agent-systems/",
+    "https://www.danielkliewer.com/blog/2026-03-28-sovereignty-manifesto/",
+    "https://github.com/kliewerdaniel/sovereignspec",
+    "https://github.com/kliewerdaniel/sovereignbank",
+    "https://github.com/kliewerdaniel/synthint"
+  ],
+  "related_artifacts": [
+    "2026-07-05-sovereign-ai-architecture-synthesis",
+    "2026-07-05-getting-started-sovereign-ai",
+    "2026-07-05-local-ai-architecture-synthesis",
+    "2026-07-05-retrieval-architecture-synthesis",
+    "2026-07-03-the-model-is-not-the-product",
+    "2026-07-02-building-autonomous-sovereign-ai-with-autoresearch-loops-and-fine-tuned-expert-models",
+    "2026-07-04-sovereign-intelligence-stack",
+    "2026-07-22-if-the-loop-is-the-product"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-07-03-the-sovereign-intelligence-observatory.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "557fe58b57cc1168759d340408597d09505e96e7034c57d0034a19b775dbd1d1",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "id": "2024-10-12-django-react",
+  "title": "Building Full-Stack AI Persona Generator: Complete Django + React Tutorial with LLM Integration",
+  "author": "Daniel Kliewer",
+  "created_at": "2024-10-12",
+  "updated_at": "2024-10-12",
+  "canonical_url": "/blog/2024-10-12-django-react",
+  "content_hash": "sha256:d660a92d76faee500c7d195a27cafb6c15b06d8407eb9432e2cd336ecb1c0a00",
+  "topics": [
+    "django",
+    "react",
+    "ai",
+    "web-development",
+    "persona-generation",
+    "tutorial",
+    "python",
+    "javascript",
+    "rest-api",
+    "llm-integration",
+    "full-stack"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "language model",
+    "user interface",
+    "establishing communication",
+    "melding minds",
+    "python script",
+    "bringing it all together",
+    "install python",
+    "download node",
+    "install create react app",
+    "django project",
+    "core app",
+    "required libraries",
+    "react app",
+    "text component",
+    "is handled",
+    "django views",
+    "bringing it all",
+    "backend server",
+    "frontend development server"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-03-03-text-adventure",
+      "weight": 0.0417,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-10-09-how-to-build-a-persona-based-blog-post-generator-with-large-language-models",
+      "weight": 0.037,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-12-19-langchain-ollama",
+      "weight": 0.0303,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-07-08-ai-ssr-guide",
+      "weight": 0.0286,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-12-05-personagen",
+      "weight": 0.0244,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-26-deerflow-2-building-sovereign-ai-agent-systems",
+      "weight": 0.0213,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-10-24-ghost-writer",
+      "weight": 0.02,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-12-11-next-gen-personagen",
+      "weight": 0.0196,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "We aspire to build a platform where one can encode a persona, imbued with rich psychological traits, and generate writings that reflect this intricate character. It is an exploration of identity, an attempt to mirror the complexities of human consciousness within the constructs of code",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Our endeavor requires the integration with a language model to breathe life into our personas",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "2. **Ensure CORS Is Handled in Django:**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Our components now stand ready, each crafted with care. It is time to assemble them into a cohesive whole",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "ponder the implications of our work. Consider how the lines between creator and creation blur, how technology becomes an extension of our innermost thoughts. Embrace the questions that arise, for it is in seeking answers that we truly advance",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://www.python.org/downloads/",
+    "https://nodejs.org/en/download/"
+  ],
+  "related_artifacts": [
+    "2025-03-03-text-adventure",
+    "2024-10-09-how-to-build-a-persona-based-blog-post-generator-with-large-language-models",
+    "2024-12-19-langchain-ollama",
+    "2025-07-08-ai-ssr-guide",
+    "2024-12-05-personagen",
+    "2026-03-26-deerflow-2-building-sovereign-ai-agent-systems",
+    "2024-10-24-ghost-writer",
+    "2024-12-11-next-gen-personagen"
+  ],
+  "provenance": {
+    "source": "content/blog/2024-10-12-django-react.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "d660a92d76faee500c7d195a27cafb6c15b06d8407eb9432e2cd336ecb1c0a00",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

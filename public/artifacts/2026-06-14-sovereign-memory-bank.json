@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "2026-06-14-sovereign-memory-bank",
+  "title": "Sovereign Memory Bank: Autonomous Cognitive Memory for Agent Systems",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-06-14",
+  "updated_at": "2026-06-14",
+  "canonical_url": "/blog/2026-06-14-sovereign-memory-bank",
+  "content_hash": "sha256:8fcf69e3f0d138f71fe273df9b4b1b1188b2d639638e834c894efbad32de0477",
+  "topics": [
+    "memory",
+    "ai-agents",
+    "knowledge-representation",
+    "rag",
+    "local-llm",
+    "cognitive-memory"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "sovereign memory bank",
+    "autonomous cognitive memory",
+    "agent systems every",
+    "problem with retrieval",
+    "memory model sovereign memory"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-03-28-sovereignty-manifesto",
+      "weight": 0.5,
+      "basis": "crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-15-sovereign-memory-bank-deepening-local-first-cognitive-memory",
+      "weight": 0.0667,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-06-14-sovereign-memory-bank-a-deep-dive-into-autonomous-cognitive-memory-for-agent-systems",
+      "weight": 0.0513,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-03-the-model-is-not-the-product",
+      "weight": 0.0392,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-retrieval-architecture-synthesis",
+      "weight": 0.0213,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-sovereign-ai-architecture-synthesis",
+      "weight": 0.0141,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-02-context-engineering-the-real-full-stack-development-paradigm",
+      "weight": 0.0133,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-02-context-engineering-the-blind-spots-and-the-real-full-stack-development-paradigm",
+      "weight": 0.0125,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "2. **Extraction Layer** — Concepts, claims, entities, and relationships are extracted",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2026-03-28-sovereignty-manifesto",
+    "2026-07-15-sovereign-memory-bank-deepening-local-first-cognitive-memory",
+    "2026-06-14-sovereign-memory-bank-a-deep-dive-into-autonomous-cognitive-memory-for-agent-systems",
+    "2026-07-03-the-model-is-not-the-product",
+    "2026-07-05-retrieval-architecture-synthesis",
+    "2026-07-05-sovereign-ai-architecture-synthesis",
+    "2026-07-02-context-engineering-the-real-full-stack-development-paradigm",
+    "2026-07-02-context-engineering-the-blind-spots-and-the-real-full-stack-development-paradigm"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-06-14-sovereign-memory-bank.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "8fcf69e3f0d138f71fe273df9b4b1b1188b2d639638e834c894efbad32de0477",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

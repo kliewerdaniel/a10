@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: /blog/dynamic-persona-moe-rag-building-memory-driven-synthetic-intelligence
+canonical_url: /blog/2026-02-03-dynamic-persona-moe-rag-building-memory-driven-synthetic-intelligence
 date: 02-03-2026
 description: A comprehensive guide to building a memory-driven synthetic intelligence
   system that combines dynamic persona modeling, knowledge graphs, and mixture of

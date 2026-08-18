@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "id": "2024-12-19-langchain-ollama",
+  "title": "Complete LangChain Ollama Integration: Building Graph-Based Multi-Persona Conversations with Local LLMs and CLI/GUI Interfaces",
+  "author": "Daniel Kliewer",
+  "created_at": "2024-12-19",
+  "updated_at": "2024-12-19",
+  "canonical_url": "/blog/2024-12-19-langchain-ollama",
+  "content_hash": "sha256:90bb80265ea1055fce1eb27e01bf7988b1c0efe18e7f948ea4a8565fff3177c0",
+  "topics": [
+    "langchain",
+    "ollama",
+    "llm",
+    "ai",
+    "python",
+    "graph-based-orchestration",
+    "multi-persona-systems",
+    "interactive-cli",
+    "streamlit-gui"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "language model",
+    "necessary python libraries",
+    "import required",
+    "default ollama",
+    "processing order",
+    "node creation",
+    "model selection",
+    "window limitations",
+    "context dynamically",
+    "multiple personas",
+    "interaction history",
+    "steps recap",
+    "up environment",
+    "data structures",
+    "directed graph",
+    "graph manager functions",
+    "context collection mechanism",
+    "markdown logger",
+    "analysis module",
+    "topological order",
+    "server not running",
+    "not found",
+    "project directory",
+    "install python",
+    "install ollama",
+    "server issues",
+    "stylistic attributes",
+    "file structure",
+    "create persona",
+    "load personas",
+    "ensure all persona files",
+    "install any new",
+    "adjusting prompts",
+    "persona attributes handling",
+    "command line interface",
+    "graph building",
+    "node processing",
+    "list available personas",
+    "custom inputs",
+    "main execution",
+    "list available",
+    "ernest hemingway albert einstein",
+    "configuring node",
+    "ernest hemingway enter",
+    "albert einstein enter",
+    "graphical user interface",
+    "new streamlit app",
+    "necessary modules",
+    "streamlit app"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2024-10-12-django-react",
+      "weight": 0.0303,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-26-deerflow-2-building-sovereign-ai-agent-systems",
+      "weight": 0.0263,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-09-mastra-ollama-nextjs",
+      "weight": 0.025,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-03-text-adventure",
+      "weight": 0.0185,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-19-building-a-local-llm-powered-knowledge-graph",
+      "weight": 0.0155,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-07-08-ai-ssr-guide",
+      "weight": 0.0154,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-02-14-reddiss",
+      "weight": 0.0139,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-22-dynamic-persona-moe-rag",
+      "weight": 0.0139,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Purpose:* Manages a directed graph where each node represents an LLM prompt and its corresponding response",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Implementation:* Defines personas as configurations or templates that tailor prompts to reflect specific viewpoints",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Purpose:* Manages the context passed between LLM calls, ensuring each prompt is aware of relevant previous interactions",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Note:** Ensure that the Ollama server is running before executing the script:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Use   to process nodes in an order that respects dependencies, ensuring predecessor nodes are processed before successors",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ensure that the model used with Ollama is appropriate for the application's needs",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ensure sensitive information is not exposed, especially when logging prompts and responses",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Manage complex conversational flows where prompts and responses are interconnected in non-linear ways",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Pass information between nodes, ensuring that each prompt is informed by relevant preceding interactions",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "If you encounter connection errors, ensure the Ollama server is running with",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Verify that the model specified in the   LLM instantiation is correctly downloaded and available",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ensure all libraries are up-to-date to avoid compatibility issues",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Before running the application, ensure that the Ollama server is running",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "A directed graph is created using",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Edges define the flow of information (i.e., which nodes' contexts are considered in generating responses)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Responses are generated and logged for each node",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Three nodes are created: two with specific personas (  and  ) and one",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Nodes are processed so that predecessors are handled before successors",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "For non-analyst nodes, the context is collected from predecessors, responses are generated, and the interaction is logged",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "All prompts and responses are appended to   with markdown formatting for readability",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ensure all dependencies are properly installed and compatible with your Python interpreter",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ensure the Ollama server is running ( ) before running the script",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Check if the server is accessible at",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Double-check that all dependencies are installed",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Option 2:** If the analyst persona is generic, handle the absence of specific attributes in   by providing defaults",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/jmorganca/ollama",
+    "https://github.com/jmorganca/ollama",
+    "https://langchain.readthedocs.io/",
+    "https://github.com/jmorganca/ollama",
+    "https://github.com/jmorganca/ollama",
+    "https://langchain.readthedocs.io/",
+    "https://networkx.org/documentation/stable/"
+  ],
+  "related_artifacts": [
+    "2024-10-12-django-react",
+    "2026-03-26-deerflow-2-building-sovereign-ai-agent-systems",
+    "2025-03-09-mastra-ollama-nextjs",
+    "2025-03-03-text-adventure",
+    "2025-10-19-building-a-local-llm-powered-knowledge-graph",
+    "2025-07-08-ai-ssr-guide",
+    "2025-02-14-reddiss",
+    "2026-01-22-dynamic-persona-moe-rag"
+  ],
+  "provenance": {
+    "source": "content/blog/2024-12-19-langchain-ollama.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "90bb80265ea1055fce1eb27e01bf7988b1c0efe18e7f948ea4a8565fff3177c0",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

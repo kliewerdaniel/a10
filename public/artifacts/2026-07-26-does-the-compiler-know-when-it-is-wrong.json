@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "id": "2026-07-26-does-the-compiler-know-when-it-is-wrong",
+  "title": "Does the Compiler Know When It's Wrong? Semantic Rediscovery and the Limits of Falsification-Awareness",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-07-26",
+  "updated_at": "2026-07-26",
+  "canonical_url": "/blog/2026-07-26-does-the-compiler-know-when-it-is-wrong",
+  "content_hash": "sha256:f7c62d6fd76a2f09a1ea116e6830dabd527c2ab64c4c828f2cb40d897fc1312a",
+  "topics": [
+    "ai-agents",
+    "compile-time-ai",
+    "knowledge-compiler",
+    "local-first-ai",
+    "scientific-discovery",
+    "falsifiability",
+    "knowledge-graphs"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-07-25-does-the-hypothesis-compiler-generalize-orkg",
+      "weight": 0.5,
+      "basis": "crosslink"
+    }
+  ],
+  "claims": [
+    {
+      "text": "The temptation at this point in any project is to tune",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Adjust the scorer until the numbers look better, call it a fix, move on. That is exactly the move this series exists to refuse",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "If rediscovery is near-zero, there are two possibilities: the compiler genuinely cannot do it, or the *metric* cannot see what the compiler is doing",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "/kliewerdaniel/popper-consensus), holds the entire prior pipeline byte-for-byte fixed and changes exactly one thing: it adds two new measurement axes. Nothing in   or   was edited. The md5 manifest is checked at the start of every run and the run aborts if a single frozen file drifts",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "ways. The semantic-match axis could show rediscovery was never really zero — a measurement artifact. Or the consensus check could fail to move Lamarckism and caloric — meaning the near-miss is a genuine limitation, not a scoring problem",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The original rediscovery metric asks a binary question: did the generated hypothesis name the exact held-out paper? From metadata alone, across a corpus of 65,689 papers, that is nearly impossible — and it may have been hiding real partial credit the whole time",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The old exact-match number stays in the report untouched. The point is not to replace the metric that produced the failure; it is to put a second instrument next to it and see whether they disagree",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Per-field: prediction 0.667, mechanism 0.658, independent variable 0.610, dependent variable 0.574. Those are not \"rediscovered the paper\" scores — they are reconstructed the mechanism\" scores, and they are consistently above chance across every domain and every temporal gap",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The old exact-match number is retained unchanged alongside the new axis in",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "the mechanism that evidence describes has been *subsequently falsified* in the literature. Grounding can give you a theory that was true in 1850 and false in 1900, scored identically to a theory that is still true",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "That is not a problem if the goal is purely descriptive",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "It is a problem if the goal is falsifiable hypothesis formation — the entire point of the series",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "then scans later papers in the same ORKG research problem for refutation vocabulary. The label composes with the existing scorer — it changes what the scorer sees, not what the generator produces. is untouched",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "for these specific theories. The detector is wired correctly — it checks contradicting evidence items, scans later papers for refutation vocabulary, categorizes status — but the knowledge substrate is incomplete",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Lamarckian inheritance and caloric are historically falsified, but the ORKG corpus doesn't represent that falsification in a form the detector can surface",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "What this means for the series is not that consensus-awareness is a bad idea",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "It means the substrate matters. A knowledge graph that cannot represent \"theory X was refuted by paper Y is a different kind of tool from one that can",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The falsifiable-hypothesis schema in   carries   as a field, but the ORKG corpus does not link that condition to the later work that satisfied it. The gap is between what the schema knows and what the corpus encodes",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Why this is a good result",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "For rediscovery: the metric is fixed",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "file. The md5 manifest at the start of every run confirms this. The architecture that emerged in Phase 4 — schema as compile check, evidence as grounding, falsification as a runtime observable — is intact",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "What changed is what we measure",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Live: https://popper-consensus.vercel.app — no APIs called; all data is static JSON bundled at build time from local reports",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": ". The next iteration is an *intervention*: add explicit refutation edges to the ORKG corpus and re-run the consensus check to see whether it can now downgrade Lamarckism and caloric when the signal is actually present",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The hypothesis for v5 is simple — if v5 fails, the limitation is in the coordinator, not the corpus",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/popper-consensus",
+    "https://github.com/kliewerdaniel/popper-consensus"
+  ],
+  "related_artifacts": [
+    "2026-07-25-does-the-hypothesis-compiler-generalize-orkg"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-07-26-does-the-compiler-know-when-it-is-wrong.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "f7c62d6fd76a2f09a1ea116e6830dabd527c2ab64c4c828f2cb40d897fc1312a",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

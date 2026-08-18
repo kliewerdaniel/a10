@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "id": "2026-08-09-hermes-atlas-v01-local-first-incrementally-compiled-falsifiable-knowledge-system",
+  "title": "Hermes Atlas v0.1: A Local-First, Incrementally-Compiled, Falsifiable Knowledge System",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-08-09",
+  "updated_at": "2026-08-09",
+  "canonical_url": "/blog/2026-08-09-hermes-atlas-v01-local-first-incrementally-compiled-falsifiable-knowledge-system",
+  "content_hash": "sha256:2f37232fa124b137c8fe9e57bcd2a868c6c40999dc1f677b69e267b3f683a771",
+  "topics": [
+    "local-first-ai",
+    "local-ai",
+    "knowledge-representation",
+    "graphrag",
+    "falsifiability",
+    "local-first",
+    "ai-agents"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "falsifiable knowledge system august",
+    "daniel kliewer most",
+    "hermes atlas",
+    "sovereign knowledge compiler"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-07-16-the-sovereign-knowledge-compiler-explorer",
+      "weight": 0.1,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
+      "weight": 0.0909,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-15-sovereign-memory-bank-deepening-local-first-cognitive-memory",
+      "weight": 0.0333,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Most \"agentic knowledge\" tooling is query-time retrieval with a graph bolted on",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Microsoft's GraphRAG is the reference case, and it has two documented weaknesses that a compile-time design fixes:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Conflicts are handled by majority vote + minority caveat — a good instinct left unformalized",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Hermes Atlas v0.1 takes the opposite stance: extract once, at compile time, into a versioned static artifact; keep contradictions as first-class nodes; and prove the graph is doing work a keyword search cannot with a Popper-style canary",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This post is a replication guide",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Every command below was run for real, on a Mac, on Python 3.14. The numbers are from the actual runs, not illustrations",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "stdlib-only at runtime; only dev dep is pytest",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "project interpreter is the fix",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "1. The changelog is built first, on purpose",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "inverts that: the append-only changelog is the source of truth, and the store",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "if existing is not None and prev_hash == chash:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "A changelog that stays silent when inputs are identical is what lets you prove",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The extraction module is ported, not rewritten, from the Sovereign Knowledge",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Extraction provenance is tracked separately from the source checksum:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "if prev is None:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "is a true no-op. There is a regression test: test_ingest_does_not_pre_extract",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "positive from a recency prior. That load-bearing line is what guarantees \"never",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "note=\"no supporting evidence: claim is asserted, not evidenced\")",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Independence is counted by domain/author, not source count — ten posts from",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "one blog are one independent source, and a claim repeated across syndicated copies",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "4. Contradictions are first-class nodes",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "anchored on >=1 non-generic word (trims \"AI is X / AI is not X\" noise)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "contradictions (\"the model is local-first\" vs \"…is not local-first\") were",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "shifts when new sources are added — so the contradiction record's content",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Community detection is a label-propagation append: existing labels are the",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2026-07-16-the-sovereign-knowledge-compiler-explorer",
+    "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
+    "2026-07-15-sovereign-memory-bank-deepening-local-first-cognitive-memory"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-08-09-hermes-atlas-v01-local-first-incrementally-compiled-falsifiable-knowledge-system.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "2f37232fa124b137c8fe9e57bcd2a868c6c40999dc1f677b69e267b3f683a771",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

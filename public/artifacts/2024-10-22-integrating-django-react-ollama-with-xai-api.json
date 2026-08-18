@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "id": "2024-10-22-integrating-django-react-ollama-with-xai-api",
+  "title": "Complete Guide: Migrating from OpenAI to XAI API in Django + React Full-Stack Applications",
+  "author": "Daniel Kliewer",
+  "created_at": "2024-10-22",
+  "updated_at": "2024-10-22",
+  "canonical_url": "/blog/2024-10-22-integrating-django-react-ollama-with-xai-api",
+  "content_hash": "sha256:81785413b7b155124e8f9e2ee211746b925f8dcb7f5d3a323f76a9996e200751",
+  "topics": [
+    "django",
+    "react",
+    "xai",
+    "api",
+    "ai",
+    "migration",
+    "tutorial",
+    "openai",
+    "grok",
+    "api-migration",
+    "full-stack",
+    "web-development"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "grand inquisitor",
+    "integrate it",
+    "step one",
+    "repository awaits our",
+    "step two",
+    "step three",
+    "foundation in",
+    "writing sample",
+    "step four",
+    "step five",
+    "power having",
+    "new way forward",
+    "brothers karamazov"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2024-11-04-deep-fake",
+      "weight": 0.0476,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-10-18-building-a-full-stack-application-with-django-and-react",
+      "weight": 0.0217,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-10-09-how-to-build-a-persona-based-blog-post-generator-with-large-language-models",
+      "weight": 0.0204,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Ah, dear reader, as we gather to discuss the remarkable synthesis of art and technology, we must confess, like the brothers Karamazov, our hearts are heavy with both anticipation and inquiry",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "What does it mean, you ask, to integrate the repository of Django-React-Ollama with the illustrious XAi API? Is it not the union of intellect and machine, of flesh and code, that we undertake in this journey",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Our first act is to clone the repository—this foundational codebase which hosts Django for the backend and React for the frontend",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "With this, the structure is before us, and our hands tingle with the promise of transformation",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "But, dear reader, what is the body without the soul",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "In the repository, we find ourselves among the well-structured ruins of past integrations, but now, we must tear down what is no longer needed and build anew",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "We watch, holding our breath, as the server responds—successfully. The content is generated, flowing forth like Alyosha’s compassion, gentle yet profound",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/Django-React-Ollama-Integration",
+    "https://docs.x.ai/api"
+  ],
+  "related_artifacts": [
+    "2024-11-04-deep-fake",
+    "2024-10-18-building-a-full-stack-application-with-django-and-react",
+    "2024-10-09-how-to-build-a-persona-based-blog-post-generator-with-large-language-models"
+  ],
+  "provenance": {
+    "source": "content/blog/2024-10-22-integrating-django-react-ollama-with-xai-api.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "81785413b7b155124e8f9e2ee211746b925f8dcb7f5d3a323f76a9996e200751",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

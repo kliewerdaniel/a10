@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "id": "2025-03-03-text-adventure",
+  "title": "Building an AI Text Adventure Generator Web Application: Creating Interactive Stories from Images Using Next.js, Python, and Local LLMs with Ollama Integration",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-03-03",
+  "updated_at": "2025-03-03",
+  "canonical_url": "/blog/2025-03-03-text-adventure",
+  "content_hash": "sha256:5e0a951cae72d038c1f8f878a3027b7c66f60ef41a24fb62e4d02a8fded38dad",
+  "topics": [
+    "next-js",
+    "python",
+    "ollama",
+    "ai-text-generation",
+    "interactive-fiction",
+    "websocket",
+    "netlify",
+    "llava",
+    "story-creation"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "text adventure generator web",
+    "install python",
+    "install node",
+    "deployment this",
+    "project structure",
+    "it works"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2024-10-09-how-to-build-a-persona-based-blog-post-generator-with-large-language-models",
+      "weight": 0.0488,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-07-08-ai-ssr-guide",
+      "weight": 0.0455,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-10-12-django-react",
+      "weight": 0.0417,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-26-deerflow-2-building-sovereign-ai-agent-systems",
+      "weight": 0.0294,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-16-from-fragmented-experiments-to-cognitive-synthesis",
+      "weight": 0.0192,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-12-19-langchain-ollama",
+      "weight": 0.0185,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-22-rlhf-lab",
+      "weight": 0.0164,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-29-sovereign-synthesis",
+      "weight": 0.0161,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "This application is configured for deployment on Netlify:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "5. The results are returned to the web interface for display",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/textadventure07",
+    "http://localhost:3000/app"
+  ],
+  "related_artifacts": [
+    "2024-10-09-how-to-build-a-persona-based-blog-post-generator-with-large-language-models",
+    "2025-07-08-ai-ssr-guide",
+    "2024-10-12-django-react",
+    "2026-03-26-deerflow-2-building-sovereign-ai-agent-systems",
+    "2026-01-16-from-fragmented-experiments-to-cognitive-synthesis",
+    "2024-12-19-langchain-ollama",
+    "2024-11-22-rlhf-lab",
+    "2026-03-29-sovereign-synthesis"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-03-03-text-adventure.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "5e0a951cae72d038c1f8f878a3027b7c66f60ef41a24fb62e4d02a8fded38dad",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

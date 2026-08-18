@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "id": "2024-11-27-ai-agent-based-cross-platform-content-generator-and-distributor",
+  "title": "Complete Guide: Building AI Agent-Based Cross-Platform Content Generator for Automated Social Media Distribution",
+  "author": "Daniel Kliewer",
+  "created_at": "2024-11-27",
+  "updated_at": "2024-11-27",
+  "canonical_url": "/blog/2024-11-27-ai-agent-based-cross-platform-content-generator-and-distributor",
+  "content_hash": "sha256:74fe8559844675f3929f0c31e115bf81fc81e8f0f17096f326dbfc7cbdfda01f",
+  "topics": [
+    "ai-agents",
+    "content-generation",
+    "social-media",
+    "python",
+    "api-integration",
+    "automation",
+    "tutorial",
+    "social-media-marketing",
+    "multi-platform",
+    "content-distribution",
+    "ai-automation"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "content generator",
+    "distributor this",
+    "project environment",
+    "project directory open",
+    "git repository",
+    "virtual environment",
+    "install required python packages",
+    "environment variables create",
+    "key sign",
+    "social media",
+    "credentials for",
+    "input listener agent",
+    "content analysis agent",
+    "content generation agents",
+    "implement text generation agent",
+    "implement image generation agent",
+    "publishing agents",
+    "implement instagram",
+    "implement facebook",
+    "agent coordinator",
+    "create temporary directory",
+    "install celery",
+    "ensure redis",
+    "set up celery tasks",
+    "task create",
+    "start celery worker",
+    "beat scheduler in",
+    "implement webhooks",
+    "install flask",
+    "expose your server",
+    "additional notes"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2024-11-28-basic-autogen",
+      "weight": 0.0952,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-28-basic-swarm-chatbot",
+      "weight": 0.0755,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-10-09-how-to-build-a-persona-based-blog-post-generator-with-large-language-models",
+      "weight": 0.0462,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-12-02-persona-chat",
+      "weight": 0.0182,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-10-24-ghost-writer",
+      "weight": 0.0161,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-27-reddit-blog-generator",
+      "weight": 0.0127,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-21-ultimate-guide-export-your-reddit-data-to-markdown-using-python-and-PRAW-API",
+      "weight": 0.011,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-19-building-a-local-llm-powered-knowledge-graph",
+      "weight": 0.0041,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Ensure Redis is installed and running:",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://ffmpeg.org/download.html"
+  ],
+  "related_artifacts": [
+    "2024-11-28-basic-autogen",
+    "2024-11-28-basic-swarm-chatbot",
+    "2024-10-09-how-to-build-a-persona-based-blog-post-generator-with-large-language-models",
+    "2024-12-02-persona-chat",
+    "2024-10-24-ghost-writer",
+    "2024-11-27-reddit-blog-generator",
+    "2025-10-21-ultimate-guide-export-your-reddit-data-to-markdown-using-python-and-PRAW-API",
+    "2025-10-19-building-a-local-llm-powered-knowledge-graph"
+  ],
+  "provenance": {
+    "source": "content/blog/2024-11-27-ai-agent-based-cross-platform-content-generator-and-distributor.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "74fe8559844675f3929f0c31e115bf81fc81e8f0f17096f326dbfc7cbdfda01f",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

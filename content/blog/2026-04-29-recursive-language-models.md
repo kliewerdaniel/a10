@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: /blog/recursive-language-models
+canonical_url: /blog/2026-04-29-recursive-language-models
 date: 04-29-2026
 description: Explore Recursive Language Models (RLMs), a powerful new inference paradigm
   that lets LLMs handle near-infinite contexts by treating input as programmable data

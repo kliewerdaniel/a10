@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: /blog/synthetic-intelligence-why-emergence-is-math-and-data-should-stay-local
+canonical_url: /blog/2026-04-15-synthetic-intelligence-why-emergence-is-math-and-data-should-stay-local
 date: 04-15-2026
 description: A technical deep-dive into Synthetic Intelligence (Synth-Int), a local-first,
   deterministic AI framework that replaces probabilistic black boxes with explicit

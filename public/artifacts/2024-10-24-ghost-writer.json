@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "id": "2024-10-24-ghost-writer",
+  "title": "GhostWriter: Complete AI Writing Assistant - Django + React Full-Stack Tutorial & Setup Guide",
+  "author": "Daniel Kliewer",
+  "created_at": "2024-10-24",
+  "updated_at": "2024-10-24",
+  "canonical_url": "/blog/2024-10-24-ghost-writer",
+  "content_hash": "sha256:5c16a1cee922037a3cbdf1918ce4e8f0a8f2b91da9cafe09b6c7f655c82aef30",
+  "topics": [
+    "ai",
+    "writing-assistant",
+    "content-creation",
+    "django",
+    "react",
+    "tutorial",
+    "open-source",
+    "productivity",
+    "nlp",
+    "full-stack",
+    "writing-tools"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "exceptional writing hello",
+    "natural language processing",
+    "key features that will",
+    "elevate your writing",
+    "content creation",
+    "optimization tools",
+    "user interface",
+    "environment tool",
+    "installation steps follow",
+    "repository begin",
+    "backend setup",
+    "virtual environment",
+    "install backend dependencies navigate",
+    "frontend setup",
+    "frontend directory from",
+    "install frontend dependencies use",
+    "configure environment variables",
+    "configuration create",
+    "application with",
+    "backend server ensure",
+    "frontend server open",
+    "media content",
+    "academic writing",
+    "professional communication",
+    "creative writing",
+    "troubleshooting while",
+    "environment variables not loading",
+    "database connection errors",
+    "authentication issues",
+    "port conflicts",
+    "missing dependencies",
+    "wrapping up"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-03-30-building-a-personalized-ai-learning-system-with-local-llm",
+      "weight": 0.0278,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-28-basic-autogen",
+      "weight": 0.0217,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-10-12-django-react",
+      "weight": 0.02,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-12-mcp-openai-responses-api-agents-sdk-ollama",
+      "weight": 0.02,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-02-03-scrape-reddit-analysis-blog",
+      "weight": 0.0185,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-12-02-persona-chat",
+      "weight": 0.0179,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-28-basic-swarm-chatbot",
+      "weight": 0.0175,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-27-ai-agent-based-cross-platform-content-generator-and-distributor",
+      "weight": 0.0161,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "GhostWriter is an open-source project developed to simplify and enhance the writing process across various domains",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "GhostWriter's backend is built with Django, a robust Python web framework",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "GhostWriter's frontend is developed using React",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Note:** If the port is in use, React will prompt you to run on a different port",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Once both servers are running, follow these steps to begin using GhostWriter:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "GhostWriter is versatile and caters to a wide range of users",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ensure that the   files are correctly placed in the   and   directories",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Verify that the variable names are correctly prefixed, especially for React (e",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ensure that PostgreSQL is installed and running",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Verify that the database credentials are correct",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ensure that is set in the backend   file",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Verify that the token is being correctly attached to API requests in the frontend",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Check backend settings to ensure is included in",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "If   or is in use, specify a different port when running the servers",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ensure all dependencies are installed by rerunning the installation commands",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "a tool; it's like having a writing buddy that's always there to help you shine. Whether you're looking to boost productivity, enhance your writing, or make the process less of a headache, GhostWriter is here to assist",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/GhostWriter",
+    "https://github.com/kliewerdaniel/GhostWriter",
+    "https://docs.djangoproject.com/",
+    "https://reactjs.org/docs/getting-started.html",
+    "https://django-rest-framework-simplejwt.readthedocs.io/en/latest/"
+  ],
+  "related_artifacts": [
+    "2025-03-30-building-a-personalized-ai-learning-system-with-local-llm",
+    "2024-11-28-basic-autogen",
+    "2024-10-12-django-react",
+    "2025-03-12-mcp-openai-responses-api-agents-sdk-ollama",
+    "2025-02-03-scrape-reddit-analysis-blog",
+    "2024-12-02-persona-chat",
+    "2024-11-28-basic-swarm-chatbot",
+    "2024-11-27-ai-agent-based-cross-platform-content-generator-and-distributor"
+  ],
+  "provenance": {
+    "source": "content/blog/2024-10-24-ghost-writer.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "5c16a1cee922037a3cbdf1918ce4e8f0a8f2b91da9cafe09b6c7f655c82aef30",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

@@ -1,6 +1,5 @@
 ---
-author: Daniel Kliewer
-canonical_url: /blog/sovereign-ai-benchmarks-performance-results
+canonical_url: /blog/2026-07-06-sovereign-ai-benchmarks-performance-results
 date: 07-06-2026
 description: "Real performance results from the Sovereign Intelligence Stack. Recipe compilation at 1,375/sec, signal routing at 1.2M/sec, and autonomous evaluation at 1.7M test cases/sec — all with sub-millisecond latency."
 image: /images/ComfyUI_00196_.png

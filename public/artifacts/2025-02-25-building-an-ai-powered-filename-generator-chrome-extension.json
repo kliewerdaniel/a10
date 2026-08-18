@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "id": "2025-02-25-building-an-ai-powered-filename-generator-chrome-extension",
+  "title": "Developing an AI-Powered Filename Generator Chrome Extension: Complete Technical Guide with Ollama Integration and Webpack Build System",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-02-25",
+  "updated_at": "2025-02-25",
+  "canonical_url": "/blog/2025-02-25-building-an-ai-powered-filename-generator-chrome-extension",
+  "content_hash": "sha256:2c714fe7a0d1a6a3045f4f816ab20600e211d3791a39b1dba773372899e15932",
+  "topics": [
+    "chrome-extension",
+    "ai",
+    "ollama",
+    "webpack",
+    "manifest-v3",
+    "downloads-api",
+    "javascript",
+    "browser-development"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "filename generator chrome extension",
+    "chrome web store",
+    "filename generator",
+    "tech stack overview this",
+    "it works the",
+    "extension want",
+    "install dependencies",
+    "key features explained",
+    "future improvements while",
+    "filename generator chrome"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-02-23-privacy-policy",
+      "weight": 0.0588,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-02-05-ollama-smolagents-open-deep-research",
+      "weight": 0.0385,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-02-05-open-deep-research",
+      "weight": 0.0333,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-26-deerflow-2-building-sovereign-ai-agent-systems",
+      "weight": 0.0263,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-09-reason-ai",
+      "weight": 0.0196,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-13-simulacra",
+      "weight": 0.0133,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-02-context-engineering-the-real-full-stack-development-paradigm",
+      "weight": 0.0125,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-22-rlhf-lab",
+      "weight": 0.0079,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "This Chrome extension is built using:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "While the current version is functional, there are some enhancements I plan to explore:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The AI Filename Generator Chrome extension is a small but powerful tool that enhances file organization",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://chromewebstore.google.com/detail/ai-filename-generator/eocbkbnabbmclgneeakdbglicbhbimbj",
+    "https://github.com/kliewerdaniel/chrome-ai-filename-generator",
+    "https://chromewebstore.google.com/detail/ai-filename-generator/eocbkbnabbmclgneeakdbglicbhbimbj",
+    "https://github.com/kliewerdaniel/chrome-ai-filename-generator",
+    "https://chromewebstore.google.com/detail/ai-filename-generator/eocbkbnabbmclgneeakdbglicbhbimbj"
+  ],
+  "related_artifacts": [
+    "2025-02-23-privacy-policy",
+    "2025-02-05-ollama-smolagents-open-deep-research",
+    "2025-02-05-open-deep-research",
+    "2026-03-26-deerflow-2-building-sovereign-ai-agent-systems",
+    "2025-03-09-reason-ai",
+    "2025-03-13-simulacra",
+    "2026-07-02-context-engineering-the-real-full-stack-development-paradigm",
+    "2024-11-22-rlhf-lab"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-02-25-building-an-ai-powered-filename-generator-chrome-extension.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "2c714fe7a0d1a6a3045f4f816ab20600e211d3791a39b1dba773372899e15932",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

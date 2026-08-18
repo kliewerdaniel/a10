@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "2025-02-23-privacy-policy",
+  "title": "Privacy Policy for AI Filename Generator Chrome Extension: Complete Data Protection Guidelines for Local AI Processing Using Ollama",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-02-23",
+  "updated_at": "2025-02-23",
+  "canonical_url": "/blog/2025-02-23-privacy-policy",
+  "content_hash": "sha256:6a6967e91ebb03bc559e773dde3d0be49f2f1ad00232af6894b8bfaa55be6ec8",
+  "topics": [
+    "chrome-extension",
+    "ai",
+    "privacy",
+    "local-processing",
+    "data-protection",
+    "ollama",
+    "filename-generator",
+    "gdpr",
+    "browser-security"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "privacy policy",
+    "filename generator",
+    "chrome extension",
+    "data collection",
+    "justifications the",
+    "privacy measures",
+    "policy any",
+    "contact information if"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-02-25-building-an-ai-powered-filename-generator-chrome-extension",
+      "weight": 0.0588,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-12-30-cultural-fingerprints",
+      "weight": 0.0041,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "No image data, filenames, or user information is transmitted to external servers",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "No personally identifiable information (PII) is collected, stored, or shared",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The extension requires the following permissions for functionality:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "No third-party analytics or tracking is used",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "All operations are confined to the user’s local environment",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Any updates to this Privacy Policy will be posted on this page. It is recommended to review this policy periodically",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2025-02-25-building-an-ai-powered-filename-generator-chrome-extension",
+    "2024-12-30-cultural-fingerprints"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-02-23-privacy-policy.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "6a6967e91ebb03bc559e773dde3d0be49f2f1ad00232af6894b8bfaa55be6ec8",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

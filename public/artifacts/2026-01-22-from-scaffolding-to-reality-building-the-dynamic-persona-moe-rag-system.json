@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "id": "2026-01-22-from-scaffolding-to-reality-building-the-dynamic-persona-moe-rag-system",
+  "title": "From Scaffolding to Reality: Building the Dynamic Persona MOE RAG System",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-01-22",
+  "updated_at": "2026-01-22",
+  "canonical_url": "/blog/2026-01-22-from-scaffolding-to-reality-building-the-dynamic-persona-moe-rag-system",
+  "content_hash": "sha256:17762ac10e7a2d6e9c80b0fd2de1592d5e4b79eb5982d78589abbba2b2a6b0fd",
+  "topics": [
+    "ai",
+    "machine-learning",
+    "rag",
+    "mixture-of-experts",
+    "knowledge-graphs",
+    "ollama",
+    "python",
+    "fastapi",
+    "next-js",
+    "web-development"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "dynamic persona",
+    "design concepts",
+    "working implementation",
+    "original vision",
+    "current reality the",
+    "development phases completed the",
+    "basic ollama",
+    "backend architecture",
+    "dynamic knowledge graph implementation",
+    "persona traversal",
+    "beyond abstract interfaces the",
+    "orchestrator evolution what",
+    "beyond ollama",
+    "nemotron integration the",
+    "metrics collection",
+    "performance tracking",
+    "web application",
+    "complete user experience the",
+    "stack added",
+    "app router",
+    "framer motion",
+    "interactive visualization components",
+    "graph visualization",
+    "metrics dashboard",
+    "quality assurance",
+    "comprehensive test suite the",
+    "structured validation framework",
+    "configuration system the",
+    "key architectural evolutions",
+    "modular design the",
+    "performance optimizations added",
+    "lessons learned",
+    "future directions",
+    "we learned",
+    "constraints drive",
+    "experience transforms",
+    "enhanced roadmap the"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-01-22-dynamic-persona-moe-rag",
+      "weight": 0.5702,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-25-building-the-synthetic-analyst",
+      "weight": 0.0213,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-20-compile-time-intelligence-research-compiler-agent",
+      "weight": 0.0192,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-07-08-ai-ssr-guide",
+      "weight": 0.0189,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-18-NextJS-SEO-CLIne-Prompt",
+      "weight": 0.0182,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-04-29-recursive-language-models",
+      "weight": 0.0179,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-02-14-reddiss",
+      "weight": 0.0167,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-29-architecture-of-autonomy",
+      "weight": 0.0164,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "3. **Testing is Essential**: Comprehensive unit tests caught integration issues early and provided confidence during refactoring",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2026-01-22-dynamic-persona-moe-rag",
+    "2026-01-25-building-the-synthetic-analyst",
+    "2026-07-20-compile-time-intelligence-research-compiler-agent",
+    "2025-07-08-ai-ssr-guide",
+    "2025-10-18-NextJS-SEO-CLIne-Prompt",
+    "2026-04-29-recursive-language-models",
+    "2025-02-14-reddiss",
+    "2026-03-29-architecture-of-autonomy"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-01-22-from-scaffolding-to-reality-building-the-dynamic-persona-moe-rag-system.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "17762ac10e7a2d6e9c80b0fd2de1592d5e4b79eb5982d78589abbba2b2a6b0fd",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: /blog/the-biological-api-why-ai-developers-should-care-about-rhythmic-chanting
+canonical_url: /blog/2026-02-13-the-biological-api-why-ai-developers-should-care-about-rhythmic-chanting
 date: 02-13-2026
 description: A comprehensive exploration of audible binary transmission and how human
   vocal-auditory channels can function as lossless data encoding mediums

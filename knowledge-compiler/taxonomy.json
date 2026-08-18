@@ -1,0 +1,34 @@
+{
+  "$comment": "Controlled vocabulary seed for knowledge-compiler. Categories are mirrored from src/data/research-categories.json so topics align with the portal. entities/tech are normalized to lowercase-kebab. Unknown values are preserved (not dropped) during normalize.",
+  "topics": [
+    "decision-graphs",
+    "knowledge-compilation",
+    "compile-time-ai",
+    "cognitive-memory",
+    "knowledge-representation",
+    "research-automation",
+    "local-first-ai",
+    "scientific-knowledge-systems"
+  ],
+  "status_values": ["observed", "designed", "proposed", "experiment"],
+  "entities": [
+    "ed25519",
+    "fleet.epistemic.decide",
+    "graphrag",
+    "nextjs",
+    "chromadb",
+    "sovereignspec",
+    "ollama",
+    "llama.cpp",
+    "mcp",
+    "tie"
+  ],
+  "topic_aliases": {
+    "sovereign-ai": "local-first-ai",
+    "knowledge-systems": "knowledge-representation",
+    "knowledge-graph": "knowledge-representation",
+    "memory-as-architecture": "cognitive-memory",
+    "agent-systems": "research-automation",
+    "sovereign-agent-fleet": "research-automation"
+  }
+}

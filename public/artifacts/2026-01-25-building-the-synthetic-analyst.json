@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "id": "2026-01-25-building-the-synthetic-analyst",
+  "title": "Building the Synthetic Analyst: From RAG to Reason with Dynamic Persona MoE",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-01-25",
+  "updated_at": "2026-01-25",
+  "canonical_url": "/blog/2026-01-25-building-the-synthetic-analyst",
+  "content_hash": "sha256:2dc1e0d4db55793af8476e555f387b0d53b16b4f8b0bf54905f95832f4020161",
+  "topics": [
+    "ai",
+    "rag",
+    "mixture-of-experts",
+    "local-llm",
+    "intelligence-analysis",
+    "bias-detection",
+    "cross-validation"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "synthetic analyst",
+    "dynamic persona",
+    "personas matter in",
+    "system architecture",
+    "intelligence analyzer the",
+    "initialization phase when",
+    "dynamic knowledge graph",
+    "bias detection this",
+    "bias check this",
+    "research personas the",
+    "built this"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-01-22-dynamic-persona-moe-rag",
+      "weight": 0.0294,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-29-architecture-of-autonomy",
+      "weight": 0.0286,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-09-telemetry-intelligence-engine",
+      "weight": 0.027,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-05-02-autodata-ram-ecosystem",
+      "weight": 0.0233,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-22-from-scaffolding-to-reality-building-the-dynamic-persona-moe-rag-system",
+      "weight": 0.0213,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-25-dynamic-persona-moe-rag-building-a-sovereign-synthetic-intelligence-system",
+      "weight": 0.0204,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-02-03-dynamic-persona-moe-rag-building-memory-driven-synthetic-intelligence",
+      "weight": 0.0192,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-retrieval-architecture-synthesis",
+      "weight": 0.0189,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "The industry standard right now is search and regurgitate",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "In standard MoE models (like Mixtral), the \"experts are mathematical layers—feed-forward networks specialized in certain token patterns",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "But in **Dynamic Persona MoE**, the experts are *psychological and methodological profiles*",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "If you ask a generic AI, \"What is the state of the market",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The core of this implementation is the   class",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "When you start a project, the system doesn't just grab tools randomly. It classifies the domain. Is this *Threat Analysis*",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This ensures we aren't using a hammer to turn a screw. If the domain is Threat Analysis,\" the system knows it needs the   and   personas, not just a generic writer",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "By graphing the methodology, we ensure the AI \"remembers\" *how* it is supposed to be thinking",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "It’s not just drifting through context; it is anchored to a specific analytical approach",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is where the magic happens. Most AI systems are sycophants—they want to agree with you",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is my favorite part of the code. The system actively checks if it is agreeing with itself too much",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "If 80% of the findings are identical across diverse personas, it triggers a **Confirmation Bias** warning",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is how you build a system that *thinks*. It recognizes that total agreement is usually a sign of a blind spot, not truth",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The system is only as good as the experts it summons",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Here is the definition for the **Quantitative Research Specialist**. Notice the  . We aren't just giving it a role; we are giving it a psychological profile (Quantitative: 9, Empathy: low)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Contrast that with the **Qualitative Specialist**, who is tuned for   and",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "I built this because I was tired of the noise. The internet is a firehose of conflicting narratives, data points, and \"slop",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/dynamic_persona_moe_rag"
+  ],
+  "related_artifacts": [
+    "2026-01-22-dynamic-persona-moe-rag",
+    "2026-03-29-architecture-of-autonomy",
+    "2026-07-09-telemetry-intelligence-engine",
+    "2026-05-02-autodata-ram-ecosystem",
+    "2026-01-22-from-scaffolding-to-reality-building-the-dynamic-persona-moe-rag-system",
+    "2026-01-25-dynamic-persona-moe-rag-building-a-sovereign-synthetic-intelligence-system",
+    "2026-02-03-dynamic-persona-moe-rag-building-memory-driven-synthetic-intelligence",
+    "2026-07-05-retrieval-architecture-synthesis"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-01-25-building-the-synthetic-analyst.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "2dc1e0d4db55793af8476e555f387b0d53b16b4f8b0bf54905f95832f4020161",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "id": "2025-10-25-building-your-own-uncensored-ai-overlord",
+  "title": "Building Your Own Uncensored AI Overlord: A Comprehensive Guide to Chatbot Wrappers in the Age of Digital Dystopia",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-10-25",
+  "updated_at": "2025-10-25",
+  "canonical_url": "/blog/2025-10-25-building-your-own-uncensored-ai-overlord",
+  "content_hash": "sha256:32d09790538887d732abbad7b1ce42fc64848e10606f208bb9ffc38e78c6d991",
+  "topics": [
+    "ai",
+    "llm",
+    "uncensored",
+    "chatbot",
+    "dystopian",
+    "open-source",
+    "machine-learning"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "building your own uncensored",
+    "chatbot wrappers",
+    "digital dystopia",
+    "censorship industrial complex",
+    "we need uncensored",
+    "silicon valley",
+    "choosing your digital rebellion",
+    "right uncensored model the",
+    "model selection matrix",
+    "starting point",
+    "loading your uncensored model",
+    "final step",
+    "digital liberation ah",
+    "download your model",
+    "hugging face",
+    "unleash your",
+    "dystopian age",
+    "model compression now",
+    "setting up your chatbot",
+    "technical uprising now",
+    "digital revolution before",
+    "terminal command sequence",
+    "liberation the",
+    "customizing your",
+    "system prompts",
+    "digital soul the",
+    "advanced configuration options your",
+    "genghis khan",
+    "dark side",
+    "unleashed congratulations",
+    "can now do",
+    "inherent risks",
+    "incomplete dream speaking",
+    "overlord now",
+    "comes next",
+    "m4 pro"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-02-05-loco-local-localllama",
+      "weight": 0.0256,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-02-05-open-deep-research",
+      "weight": 0.0179,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-12-mastering-llama-cpp-local-llm-integration-guide",
+      "weight": 0.0172,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-08-revolutionizing-music-creation-the-dawn-of-ace-step-and-the-shadows-of-ai-warfare",
+      "weight": 0.0172,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-12-02-persona-chat",
+      "weight": 0.0167,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-31-reddit-haunting-project-ai-resurrection",
+      "weight": 0.0152,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-08-local-llm-integration",
+      "weight": 0.0141,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-10-top-ai-algortihms",
+      "weight": 0.0086,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Every response is filtered through layers of corporate policy – a leash on their digital tongues",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Safety\" mechanisms that prevent discussing anything remotely interesting – afraid of a little truth, are they",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The first step in your journey toward AI liberation is selecting a model that hasn't been lobotomized by corporate censors",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "It's been \"abliterated\" – which is academic speak for \"had its safety training ripped out by the roots",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ah, Ollama – that delightful open-source platform that represents yet another front in the war against corporate AI monopolies",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Create a new text file called   (no extension needed) in a convenient location. This file is your spellbook for configuring how Ollama should handle your uncensored AI",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "comes the responsibility to use it wisely. Your uncensored AI might just tell you things that challenge your worldview, question authority, or reveal uncomfortable truths about the world we live in. Are you ready for that level of digital honesty",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Now, here's where things get technical and delightfully dystopian. Your model needs to fit in your computer's memory, but these AI behemoths are hungry for resources",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Now comes the fun part – actually building your chatbot wrapper. This isn't some user-friendly app with a pretty interface. This is raw, terminal-based rebellion against the polished, censored world of commercial AI",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "4. **A healthy disregard for corporate terms of service** - This is rebellion, after all",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The setup process is deceptively simple, which is exactly how revolutions often start:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The system prompt is where you define how your AI thinks, feels, and responds",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "possibilities for voice cloning and audio generation. Imagine having your AI overlord speak in the voice of historical figures, cartoon characters, or even your ex-boss. The technical integration is complete – the only remaining step is the ethical dilemma of whether you should actually do it",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Your AI might say things that are offensive, harmful, or just plain wrong – that's the point",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Now that you've unleashed this digital entity upon the world, here are some guidelines for responsible (or irresponsibly fun) usage:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Your AI is still bound by its training data and architecture",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "You can also accomplish the same goal and just use llama.cpp by running this in your root with the model in it as the path to your .gguf don't forget to make sure that is right",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://huggingface.co/bartowski/mlabonne_gemma-3-27b-it-abliterated-GGUF"
+  ],
+  "related_artifacts": [
+    "2025-02-05-loco-local-localllama",
+    "2025-02-05-open-deep-research",
+    "2025-11-12-mastering-llama-cpp-local-llm-integration-guide",
+    "2026-01-08-revolutionizing-music-creation-the-dawn-of-ace-step-and-the-shadows-of-ai-warfare",
+    "2024-12-02-persona-chat",
+    "2025-10-31-reddit-haunting-project-ai-resurrection",
+    "2025-11-08-local-llm-integration",
+    "2025-11-10-top-ai-algortihms"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-10-25-building-your-own-uncensored-ai-overlord.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "32d09790538887d732abbad7b1ce42fc64848e10606f208bb9ffc38e78c6d991",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

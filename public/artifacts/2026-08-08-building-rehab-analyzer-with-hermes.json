@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "id": "2026-08-08-building-rehab-analyzer-with-hermes",
+  "title": "Building a Local-First Rehab Cost Analyzer with an AI Agent (Full Build + Replication Guide)",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-08-08",
+  "updated_at": "2026-08-08",
+  "canonical_url": "/blog/2026-08-08-building-rehab-analyzer-with-hermes",
+  "content_hash": "sha256:deaad4582f004d61d0895d1bec169920a8880fcd0204a532674ec5f2777f9256",
+  "topics": [
+    "ai-agents",
+    "hermit-agent",
+    "local-first-ai",
+    "nextjs",
+    "real-estate",
+    "agent-infrastructure"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "architecture the",
+    "headless playwright",
+    "street view",
+    "esri aerial",
+    "hermes agent",
+    "cedar st"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-video-agent",
+      "weight": 0.125,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-05-build-a-video-editing-hermes-agent",
+      "weight": 0.1,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-14-synthesizing-memory-with-agent",
+      "weight": 0.037,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-08-local-llm-integration",
+      "weight": 0.0244,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-02-context-engineering-the-blind-spots-and-the-real-full-stack-development-paradigm",
+      "weight": 0.0123,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-19-building-a-local-llm-powered-knowledge-graph",
+      "weight": 0.0046,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "gotchas, the API schemas we reverse-engineered, and the bugs we hit are all here",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "repository is public:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The thesis underneath it: *intelligence is not the model — it's the accumulated,",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "encapsulated decisions that shaped the build.* The agent is a vehicle for those",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "decisions; the decisions are what survive",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "available; it re-engages automatically if a second provider is added",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The project is a local-first Next",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Next.js app is what runs",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "4a | Street View |   | Outdoor facade ( requires Street View API enabled)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Safari renders blank). This is now applied to every source",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "macOS (the agent runs in the Hermes desktop app; the app itself is cross-platform",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Homebrew is what we used",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The single biggest reproducibility risk is the **agent's shell environment**, not the",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is not optional. It is the difference between \"works on my machine\" and a silent",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "runs on   and is user-launched; the agent only *talks* to it",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Free tiers are metadata-only by design — no photos, no AVM",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "scope detection, provenance, conflict flags) is intact and re-engages automatically",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "if a second provider is added back",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The adapter contract is an abstract   with",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "strict version is what shipped",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "above. The Redfin fetcher is the interesting one:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "them like any other source. Classification is heuristic (hero = exterior, rest =",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "interior); labels are advisory",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Hardened  .** The route now validates is a non-empty string",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "the true type. One-line bug, hours of \"why is Safari blank\" debugging",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/rehab-analyzer"
+  ],
+  "related_artifacts": [
+    "2026-08-09-hermes-video-agent",
+    "2026-08-05-build-a-video-editing-hermes-agent",
+    "2026-07-14-synthesizing-memory-with-agent",
+    "2025-11-08-local-llm-integration",
+    "2026-07-02-context-engineering-the-blind-spots-and-the-real-full-stack-development-paradigm",
+    "2025-10-19-building-a-local-llm-powered-knowledge-graph"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-08-08-building-rehab-analyzer-with-hermes.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "deaad4582f004d61d0895d1bec169920a8880fcd0204a532674ec5f2777f9256",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

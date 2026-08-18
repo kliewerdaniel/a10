@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "id": "2025-11-05-how-to-build-an-ai-study-system-that-actually-works-citizens-replace-your-broken-pdf-tools",
+  "title": "How to Build an AI Study System That Actually Works (Citizens Replace Your Broken PDF Tools)",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-11-05",
+  "updated_at": "2025-11-05",
+  "canonical_url": "/blog/2025-11-05-how-to-build-an-ai-study-system-that-actually-works-citizens-replace-your-broken-pdf-tools",
+  "content_hash": "sha256:f412838b2975c8684422b88f61e3e395bc6d3c997e305a655c0c49250568655c",
+  "topics": [
+    "ai",
+    "llm",
+    "rag",
+    "pdf-parsing",
+    "study-system",
+    "citations",
+    "vector-database",
+    "docling",
+    "qdrant",
+    "ollama"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "agent core architecture",
+    "we lack",
+    "using them wrong let",
+    "study system workflow",
+    "this problem is",
+    "actually hard",
+    "most tools",
+    "context window trap",
+    "citation problem is",
+    "retrieval problem when",
+    "problem most",
+    "fall short",
+    "recursive agent architecture",
+    "layered retrieval alright",
+    "conceptual overview",
+    "intelligent chunking",
+    "structured output",
+    "implementation guide",
+    "choose your stack",
+    "install docling",
+    "create document",
+    "chunking strategy visual",
+    "set up your vector",
+    "hybrid retrieval",
+    "reranking layer",
+    "reconstruct context around retrieved",
+    "structured prompting now",
+    "add iterative refinement",
+    "this architecture works",
+    "example workflow",
+    "honest tradeoffs",
+    "frequently asked questions",
+    "azure form recognizer",
+    "building tools that respect"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-04-15-synthetic-intelligence-why-emergence-is-math-and-data-should-stay-local",
+      "weight": 0.0152,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-02-03-dynamic-persona-moe-rag-building-memory-driven-synthetic-intelligence",
+      "weight": 0.0133,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-05-capacity-review-ai-workflow-vibe-coding",
+      "weight": 0.012,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-sovereign-ai-architecture-synthesis",
+      "weight": 0.01,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-03-the-revolution-will-be-documented",
+      "weight": 0.0099,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-16-from-fragmented-experiments-to-cognitive-synthesis",
+      "weight": 0.0075,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-21-learn-programming-computer-science-youtube-roadmap",
+      "weight": 0.0072,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-25-large-scale-agent-architecture",
+      "weight": 0.0038,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "care about—and the tool cheerfully tells you it's \"ready.\" Then you ask it a question about drug interactions that requires synthesizing information from chapters 3, 11, and 27, and what you get back is either a beautifully formatted hallucination or a technically accurate response so fragmented it's useless",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "does this. Claude does this when you try to brute-force massive context windows. ChatGPT definitely does this. And I want to be clear about something: this isn't because the underlying technology is fundamentally broken",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "It's because we're trying to use general-purpose conversational interfaces to solve a specific, structurally complex problem that requires a different architecture entirely",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "this post needed something straightforward: ingest a massive textbook without splitting it (because the information they need doesn't respect chapter boundaries), generate theory-focused answers that are exam-ready, include proper inline citations, and ideally produce flowcharts, tables, and diagram references",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "When they enabled citations in NotebookLM, answer quality tanked. When they disabled citations, the answers were great but totally unverifiable. This is not a feature tradeoff",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Why This Problem Is Actually Hard (And Why Most Tools Fail)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Before we build the solution, let's talk about why this is legitimately difficult, because understanding the constraints makes the architecture make sense",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "models perform worse on retrieval tasks as context length increases. But they're incentivized to advertise the maximum theoretical context window as if it's uniformly useful, which it absolutely is not",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Citation Problem Is Actually a Retrieval Problem",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "gives you citations, it's doing retrieval under the hood—finding relevant chunks, ranking them, then trying to ground the answer in those specific passages. The quality drops because now the model is working with fragmented context instead of the full narrative flow of the textbook",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "But when you disable citations, you're back to the context window trap, and the model is just vibing based on whatever it half-remembers from the entire document",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "What you actually need is a system that:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "treats tables and diagrams as second-class citizens. They get OCR'd into text (badly) or ignored entirely. But if you're studying medicine, engineering, or anything technical, those visual elements are *load-bearing*",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Good:** NotebookLM uses a retrieval-augmented generation (RAG) approach, which is fundamentally correct",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Problem:** The chunking strategy, embedding model, and retrieval parameters are all black-boxed",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "7. **Iterative Refinement (Optional):** Let the agent ask follow-up retrieval queries if the initial context is insufficient",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This sounds complicated, but each piece is conceptually simple",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The magic is in how they compose",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "LangChain or LlamaIndex** (for orchestration): Provides abstractions for chunking, embedding, retrieval, and LLM chaining. LlamaIndex is slightly more opinionated toward RAG use cases",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ollama + Qwen2.5 or Llama 3.1** (for LLM): Qwen2.5 14B is shockingly good at structured output and reasoning; Llama 3",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Key insight:** The 128-token overlap is crucial",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "It means that if a concept spans a chunk boundary, the next chunk will include enough context to make sense of it. This is what most tools get wrong",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Now your chunks are embedded and queryable",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "LlamaIndex supports hybrid search natively if your vector store does (Weaviate is easiest for this)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "We've separated concerns:** Parsing, embedding, retrieval, reranking, and generation are all discrete, inspectable stages",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2026-04-15-synthetic-intelligence-why-emergence-is-math-and-data-should-stay-local",
+    "2026-02-03-dynamic-persona-moe-rag-building-memory-driven-synthetic-intelligence",
+    "2025-11-05-capacity-review-ai-workflow-vibe-coding",
+    "2026-07-05-sovereign-ai-architecture-synthesis",
+    "2025-11-03-the-revolution-will-be-documented",
+    "2026-01-16-from-fragmented-experiments-to-cognitive-synthesis",
+    "2025-10-21-learn-programming-computer-science-youtube-roadmap",
+    "2025-03-25-large-scale-agent-architecture"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-11-05-how-to-build-an-ai-study-system-that-actually-works-citizens-replace-your-broken-pdf-tools.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "f412838b2975c8684422b88f61e3e395bc6d3c997e305a655c0c49250568655c",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

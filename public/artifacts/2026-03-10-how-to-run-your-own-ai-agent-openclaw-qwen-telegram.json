@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "id": "2026-03-10-how-to-run-your-own-ai-agent-openclaw-qwen-telegram",
+  "title": "How to Run Your Own AI Agent: OpenClaw + Qwen 3.5 + Telegram (Fully Local)",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-03-10",
+  "updated_at": "2026-03-10",
+  "canonical_url": "/blog/2026-03-10-how-to-run-your-own-ai-agent-openclaw-qwen-telegram",
+  "content_hash": "sha256:3f4d95a07e05459096508d4e4593d62ed40f3a0211ed1bf124b3167d5f3f393a",
+  "topics": [
+    "ai",
+    "openclaw",
+    "qwen",
+    "telegram",
+    "local-ai",
+    "autonomous-agents",
+    "tutorial"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "run your own",
+    "agent framework",
+    "ollama inference server",
+    "local model when",
+    "building by",
+    "requirements before",
+    "apple silicon",
+    "qwen model locally now",
+    "dashboard open",
+    "local agent you",
+    "set qwen",
+    "default model sometimes",
+    "telegram bot now",
+    "open telegram",
+    "kadaligogh username",
+    "connect telegram",
+    "pair your telegram account",
+    "telegram now",
+    "telegram you",
+    "fixing common problems",
+    "device signature invalid run",
+    "telegram unsupported type this",
+    "gateway not reachable probe",
+    "give your",
+    "you can build",
+    "next once",
+    "this matters running",
+    "corporate model you",
+    "personal infrastructure",
+    "intelligence the"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-03-09-custom-agent",
+      "weight": 0.02,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-06-01-objective03-local-news-agency",
+      "weight": 0.0179,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-09-telemetry-intelligence-engine",
+      "weight": 0.0179,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-28-architecture-as-autonomy",
+      "weight": 0.0172,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-03-document-driven-development-nextjs-blog",
+      "weight": 0.0154,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-21-ultimate-guide-export-your-reddit-data-to-markdown-using-python-and-PRAW-API",
+      "weight": 0.0111,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-06-08-objective05-exec-giving-local-intelligence-system-hands",
+      "weight": 0.0103,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-25-large-scale-agent-architecture",
+      "weight": 0.0038,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "OpenClaw requires a modern Node runtime",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "If you're running on a laptop or Apple Silicon, 0.8b or 1.5b is ideal",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "OpenClaw is the agent framework that connects your model to tools, memory, and communication channels",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This confirms the CLI is working",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Once this works, your local model server is active at:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Your AI agent is now running",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "At this point the model is responding directly through OpenClaw",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Your AI agent is officially alive",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "OpenClaw requires pairing to ensure only you can control the agent",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Your Telegram account is now authorized",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://nodejs.org/",
+    "https://www.danielkliewer.com/blog/2025-11-12-mastering-llama-cpp-local-llm-integration-guide"
+  ],
+  "related_artifacts": [
+    "2025-03-09-custom-agent",
+    "2026-06-01-objective03-local-news-agency",
+    "2026-07-09-telemetry-intelligence-engine",
+    "2026-03-28-architecture-as-autonomy",
+    "2025-11-03-document-driven-development-nextjs-blog",
+    "2025-10-21-ultimate-guide-export-your-reddit-data-to-markdown-using-python-and-PRAW-API",
+    "2026-06-08-objective05-exec-giving-local-intelligence-system-hands",
+    "2025-03-25-large-scale-agent-architecture"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-03-10-how-to-run-your-own-ai-agent-openclaw-qwen-telegram.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "3f4d95a07e05459096508d4e4593d62ed40f3a0211ed1bf124b3167d5f3f393a",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

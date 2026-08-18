@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "id": "2024-12-01-basic-rag",
+  "title": "Complete Guide: Building Robust RAG Systems with LangChain & OpenAI - From Setup to Advanced Implementation",
+  "author": "Daniel Kliewer",
+  "created_at": "2024-12-01",
+  "updated_at": "2024-12-01",
+  "canonical_url": "/blog/2024-12-01-basic-rag",
+  "content_hash": "sha256:e1d7edfde80a25d4a1cd3e94b2814a5874ccd20795d4168985aecd394c4547b0",
+  "topics": [
+    "rag",
+    "langchain",
+    "openai",
+    "chromadb",
+    "vector-search",
+    "ai-development",
+    "tutorial",
+    "information-retrieval",
+    "vector-databases",
+    "document-processing",
+    "embeddings",
+    "nlp"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "generation system",
+    "loading environment",
+    "importing necessary",
+    "creating embeddings",
+    "setting up retrieval",
+    "more robust",
+    "enhanced error handling",
+    "supporting additional file",
+    "optimizing text splitting",
+    "advanced retrieval",
+    "implementing caching",
+    "security best",
+    "environment first",
+    "code below",
+    "loading environment variables we",
+    "importing necessary libraries we",
+    "splitting documents the",
+    "vector store we",
+    "chain we",
+    "interactive querying we",
+    "more robust systems to",
+    "logging implement",
+    "supporting additional file types",
+    "optimizing text splitting strategy",
+    "advanced retrieval techniques enhance",
+    "implementing caching mechanisms use",
+    "vector stores for",
+    "security best practices ensure",
+    "key management"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2024-12-02-persona-chat",
+      "weight": 0.0189,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "We use   to load environment variables from a   file. This is where we'll store our OpenAI API key securely",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Note:** Ensure all packages are up-to-date to avoid deprecation warnings",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/hwchase17/langchain",
+    "https://openai.com/",
+    "https://www.trychroma.com/",
+    "https://platform.openai.com/",
+    "https://python.langchain.com/",
+    "https://platform.openai.com/docs/api-reference/introduction",
+    "https://www.trychroma.com/",
+    "https://www.pinecone.io/",
+    "https://github.com/hwchase17/langchain"
+  ],
+  "related_artifacts": [
+    "2024-12-02-persona-chat"
+  ],
+  "provenance": {
+    "source": "content/blog/2024-12-01-basic-rag.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "e1d7edfde80a25d4a1cd3e94b2814a5874ccd20795d4168985aecd394c4547b0",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

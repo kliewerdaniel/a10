@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "id": "2026-04-29-recursive-language-models",
+  "title": "Recursive Language Models: Breaking the Context Barrier with Programmable Reasoning",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-04-29",
+  "updated_at": "2026-04-29",
+  "canonical_url": "/blog/2026-04-29-recursive-language-models",
+  "content_hash": "sha256:1e656796ebebd3ee3268db84bbca9354592e448b1ffec40febb4977129dd88b3",
+  "topics": [
+    "ai",
+    "llm",
+    "long-context",
+    "recursive",
+    "inference-scaling"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "recursive language models",
+    "paradigm shift",
+    "language models",
+    "tim kraska",
+    "omar khattab",
+    "core idea traditional",
+    "recursive approach",
+    "architecture overview the",
+    "core the",
+    "direct python",
+    "prime intellect",
+    "communication protocol",
+    "key innovations",
+    "programmable context the",
+    "robust state",
+    "resource management",
+    "practical applications",
+    "developer the",
+    "future directions",
+    "alex zhang"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-03-12-mcp-openai-agents-sdk-ollama",
+      "weight": 0.027,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-12-mastering-llama-cpp-local-llm-integration-guide",
+      "weight": 0.0238,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-22-dynamic-persona-moe-rag",
+      "weight": 0.0233,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-12-11-next-gen-personagen",
+      "weight": 0.0192,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-22-from-scaffolding-to-reality-building-the-dynamic-persona-moe-rag-system",
+      "weight": 0.0179,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-25-dynamic-persona-moe-rag-building-a-sovereign-synthetic-intelligence-system",
+      "weight": 0.0172,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-21-browser-use-ollama-mcp",
+      "weight": 0.0154,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-05-architectures-of-autonomous-voice",
+      "weight": 0.0154,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "The user's long prompt (or document) is loaded into a **REPL environment** (like a Jupyter notebook) as a variable, typically named",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The LLM is prompted to solve the task by **writing Python code** that interacts with this",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The RLM framework is highly modular and extensible:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Results bubble up and are synthesized",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This turns context management into **code generation**, which LLMs are increasingly good at",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The codebase is open and welcoming to contributions—now is an excellent time to experiment and build upon this paradigm",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2025-03-12-mcp-openai-agents-sdk-ollama",
+    "2025-11-12-mastering-llama-cpp-local-llm-integration-guide",
+    "2026-01-22-dynamic-persona-moe-rag",
+    "2024-12-11-next-gen-personagen",
+    "2026-01-22-from-scaffolding-to-reality-building-the-dynamic-persona-moe-rag-system",
+    "2026-01-25-dynamic-persona-moe-rag-building-a-sovereign-synthetic-intelligence-system",
+    "2025-03-21-browser-use-ollama-mcp",
+    "2026-01-05-architectures-of-autonomous-voice"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-04-29-recursive-language-models.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "1e656796ebebd3ee3268db84bbca9354592e448b1ffec40febb4977129dd88b3",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

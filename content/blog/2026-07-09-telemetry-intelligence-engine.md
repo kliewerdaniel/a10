@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: /blog/2026-07-10-telemetry-intelligence-engine
+canonical_url: /blog/2026-07-09-telemetry-intelligence-engine
 date: 07-10-2026
 description: 'A spec-driven walkthrough of the Telemetry Intelligence Engine (TIE): a local-first GraphRAG system that turns GA4 telemetry and site content into a behavioral knowledge graph an operator can query in natural language.'
 image: /images/1021018.png

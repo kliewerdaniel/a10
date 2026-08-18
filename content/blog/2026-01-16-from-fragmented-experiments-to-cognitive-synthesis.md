@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: /blog/2026-01-15-from-fragmented-experiments-to-cognitive-synthesis
+canonical_url: /blog/2026-01-16-from-fragmented-experiments-to-cognitive-synthesis
 date: 01-16-2026
 description: How two years of AI experimentation—from basic chatbots to autonomous
   architectures—converged into Simulacra, a living cognitive system that synthesizes

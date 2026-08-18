@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "id": "2024-12-10-rl",
+  "title": "Complete Guide to Reinforcement Learning: From MDPs to AGI - Theory, Algorithms & Advanced Applications",
+  "author": "Daniel Kliewer",
+  "created_at": "2024-12-10",
+  "updated_at": "2024-12-10",
+  "canonical_url": "/blog/2024-12-10-rl",
+  "content_hash": "sha256:91dc45b779f76bfa9cc894842a4ab26c59e3dde2a9502be728ecb617a21e21d6",
+  "topics": [
+    "reinforcement-learning",
+    "mdps",
+    "value-functions",
+    "q-learning",
+    "policy-gradients",
+    "model-based-rl",
+    "offline-rl",
+    "hierarchical-rl",
+    "large-language-models",
+    "ai-safety",
+    "tutorial",
+    "deep-learning",
+    "ai-research",
+    "decision-making",
+    "ai-algorithms"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "reinforcement learning",
+    "rewards the",
+    "bellman equations",
+    "value functions when",
+    "markov decision processes",
+    "trade in",
+    "dueling networks",
+    "intrinsic rewards",
+    "world models",
+    "foundation models recently",
+    "future directions reinforcement",
+    "artificial intelligence",
+    "general artificial",
+    "efficient policy learning",
+    "incorporating large language models",
+    "foundation models",
+    "partial observability",
+    "extensible knowledge",
+    "lifelong learning",
+    "scaling up",
+    "next steps integration"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2024-11-23-rlhf-lab-business-plan",
+      "weight": 0.0333,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-03-autonomous-architectures",
+      "weight": 0.0225,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-12-11-next-gen-personagen",
+      "weight": 0.0189,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-12-openai-agents-sdk-ollama-integration",
+      "weight": 0.0185,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-27-reddit-blog-generator",
+      "weight": 0.0145,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-27-data-annotation-guide",
+      "weight": 0.0103,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-10-top-ai-algortihms",
+      "weight": 0.0099,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-22-rlhf-lab",
+      "weight": 0.0072,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "fields in machine learning, giving rise to breakthroughs in robotics, game-playing AIs like AlphaGo, and practical systems for recommendation engines, online advertising, and beyond. At its core, RL is about an agent interacting with an environment, choosing actions to maximize cumulative rewards",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "When the world is fully observed and Markovian, we use Markov Decision Processes (MDPs)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "A key concept is the value function, which quantifies how good it is to be in a particular state (or to take a particular action in that state)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "of the environment’s transitions and rewards, the agent can simulate “imagined” trajectories. This can dramatically improve sample efficiency—crucial in real-world applications where data collection is expensive",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "In practice, deep RL—which uses deep neural networks as value approximators or policies— is notoriously unstable",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "A central challenge in RL is the exploration-exploitation tradeoff: should the agent try something new or stick to what it knows works best so far",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Offline RL: Instead of learning by interacting with the world, the agent learns from a fixed dataset of past experiences. This is crucial for safety-critical domains",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "General RL and AIXI: The ultimate dream is general RL agents that learn about any environment from scratch",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The journey is far from over",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Reinforcement learning is more than just a suite of algorithms for playing Atari games or optimizing robot control",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "At heart, RL is about sequential decision-making under uncertainty, an essential ingredient of intelligence",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Model-Based Reasoning for Planning and Imagination: Model-based RL agents learn and internally simulate the world to plan ahead. In a broader AI context, this is akin to deliberative reasoning, where agents imagine possible futures before acting",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Partial Observability and Uncertainty: Real-world environments are not Markovian—agents never have the full picture",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Advanced POMDP models or latent-space world models that integrate uncertainty and memory are crucial",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": ", trust and transparency matter. Understanding why an RL agent makes certain decisions, ensuring it respects safety constraints, and verifying that it doesn’t “cheat” the reward (reward hacking) are active research areas",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Scaling Up to Real-World Complexity: From controlling fleets of autonomous vehicles to managing complex supply chains or personalizing healthcare interventions, RL’s biggest testbeds are outside the lab",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Model-Based RL beyond Control: Scaling model-based RL from low-level control tasks to broader domains like long-term planning in enterprise-level decision-making systems, where data is plentiful offline but real-time deployment is risky",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2024-11-23-rlhf-lab-business-plan",
+    "2026-01-03-autonomous-architectures",
+    "2024-12-11-next-gen-personagen",
+    "2025-03-12-openai-agents-sdk-ollama-integration",
+    "2024-11-27-reddit-blog-generator",
+    "2024-11-27-data-annotation-guide",
+    "2025-11-10-top-ai-algortihms",
+    "2024-11-22-rlhf-lab"
+  ],
+  "provenance": {
+    "source": "content/blog/2024-12-10-rl.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "91dc45b779f76bfa9cc894842a4ab26c59e3dde2a9502be728ecb617a21e21d6",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

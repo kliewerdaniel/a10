@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "id": "2026-07-20-compile-time-intelligence-research-compiler-agent",
+  "title": "Compile-Time Intelligence: Building a Research Compiler Agent That Compiles Knowledge Instead of Re-Reading It",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-07-20",
+  "updated_at": "2026-07-20",
+  "canonical_url": "/blog/2026-07-20-compile-time-intelligence-research-compiler-agent",
+  "content_hash": "sha256:2a0ef9cf171650ed62a3bca2efe9b7dc6df083384db0395ad1ea7c0125f4517b",
+  "topics": [
+    "ai-agents",
+    "compile-time-ai",
+    "knowledge-compiler",
+    "knowledge-representation",
+    "local-first-ai",
+    "provenance",
+    "reproducible-ai",
+    "ollama",
+    "research-compiler"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "research compiler agent",
+    "compiles knowledge instead",
+    "daniel kliewer",
+    "intermediate representation in",
+    "intermediate representation",
+    "knowledge compiler",
+    "source discovery",
+    "compiler engine",
+    "research compiler passes",
+    "research knowledge artifact",
+    "query engine",
+    "recursive agent",
+    "app router",
+    "financial analysis",
+    "reproducibility every",
+    "compiled my blog into"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-07-15-compiling-my-blog-into-a-decision-graph",
+      "weight": 0.5526,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-16-the-sovereign-knowledge-compiler-explorer",
+      "weight": 0.0952,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-14-recursive-research-compiler-knowledge-compiler-sdk",
+      "weight": 0.087,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-11-knowledge-compiler-compiling-human-knowledge-into-static-semantic-artifacts",
+      "weight": 0.0606,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+      "weight": 0.0556,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+      "weight": 0.0526,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-22-if-the-loop-is-the-product",
+      "weight": 0.0455,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
+      "weight": 0.0435,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "1. **Repeated computation.** The same documents are fetched, parsed, and",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "re-embedded on every turn. Tokens are burned re-deriving what was already",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "2. **Shallow memory.** Context windows are ephemeral",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "3. **Hallucination risk.** Without a stable, cited substrate, the model is one",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The root cause is architectural: **semantic computation is happening at runtime,",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The expensive analysis is done **once, at compile time**, and stored",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The expensive *semantic* analysis is done **once, at compile time**, and stored",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The raw documents are the **source code**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The compiled artifact is the **IR**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Queries at \"runtime are cheap lookups and joins over the IR — not re-reads of the",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Research Compiler Agent is built on the",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "of the SDK's design: the pipeline is declared, not hardcoded",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Web search is **key-less** (DuckDuckGo HTML), and HTML→Markdown / PDF→text are",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "pure code (  +   +  ). **Provenance is captured",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Notice that **three of the most important research passes are deterministic**:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "core of Compile-Time Intelligence is reproducible and cheap; the model passes add",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Stopping is **autonomous**: driven by gap exhaustion, corpus confidence, or the",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "iteration budget — not a fixed step count. The   pass is what makes",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The explorer is not the product; the artifact is",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The app is a window",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "5. Provenance is the hard guarantee",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "So \"how much should I trust this artifact? is a **number**, not a vibe — and it",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "inference server is reachable; executed via  ,",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The compiled example — the self-contained explorer and report — is shipped in",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Every artifact is content-hash cached ( )",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/research-compiler-agent-sdk",
+    "https://github.com/kliewerdaniel/knowledge-compiler-sdk",
+    "https://github.com/kliewerdaniel/research-compiler-agent-sdk/blob/main/README.md",
+    "https://github.com/kliewerdaniel/research-compiler-agent-sdk/blob/main/ARCHITECTURE.md",
+    "https://github.com/kliewerdaniel/research-compiler-agent-sdk/tree/main/examples"
+  ],
+  "related_artifacts": [
+    "2026-07-15-compiling-my-blog-into-a-decision-graph",
+    "2026-07-16-the-sovereign-knowledge-compiler-explorer",
+    "2026-07-14-recursive-research-compiler-knowledge-compiler-sdk",
+    "2026-07-11-knowledge-compiler-compiling-human-knowledge-into-static-semantic-artifacts",
+    "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+    "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+    "2026-07-22-if-the-loop-is-the-product",
+    "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-07-20-compile-time-intelligence-research-compiler-agent.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "2a0ef9cf171650ed62a3bca2efe9b7dc6df083384db0395ad1ea7c0125f4517b",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

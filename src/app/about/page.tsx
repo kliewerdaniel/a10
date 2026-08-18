@@ -5,7 +5,7 @@ import { Breadcrumbs } from '@/components/seo/Breadcrumbs';
 
 export const metadata: Metadata = {
   title: {
-    default: 'About Daniel Kliewer | Reducing the Cost of Understanding',
+    default: 'About Daniel Kliewer | Sovereign Agent Fleet',
     template: '%s',
   },
   description: 'Computer scientist and AI researcher working to reduce the cost of understanding human knowledge — through knowledge compilation, compile-time AI, local-first cognitive tools, and semantic infrastructure. Austin-based author of "Sovereign AI".',
@@ -44,7 +44,7 @@ export default function AboutPage() {
   return (
     <>
       <JsonLd data={personSchema} />
-      <div className="px-4 pt-8">
+      <div className="px-5 sm:px-8 pt-28">
         <Breadcrumbs
           items={[
             { name: 'Home', url: '/' },

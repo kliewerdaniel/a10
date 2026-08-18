@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: /blog/autodata-ram-ecosystem
+canonical_url: /blog/2026-05-02-autodata-ram-ecosystem
 date: 05-02-2026
 description: 'Facebook Research''s RAM catalog and its Autodata project represent
   a paradigm shift: synthetic data generation is no longer a preprocessing step, it''s

@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: /blog/sovereignspec-local-first-spec-driven-development
+canonical_url: /blog/2026-06-12-sovereignspec-local-first-spec-driven-development
 date: 06-12-2026
 description: A project proposal for SovereignSpec — a local-first, offline spec-driven
   development engine that treats specifications as living, graph-grounded artifacts

@@ -1,0 +1,275 @@
+{
+  "schema_version": 1,
+  "id": "2026-03-28-architecture-as-autonomy",
+  "title": "Architecture as Autonomy",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-03-28",
+  "updated_at": "2026-03-28",
+  "canonical_url": "/blog/2026-03-28-architecture-as-autonomy",
+  "content_hash": "sha256:13096c88381dca0adba847427ff0133e8af692e73b561a4053cb1ab31b6bfb37",
+  "topics": [
+    "ai",
+    "local-ai",
+    "sovereignty",
+    "architecture",
+    "mixture-of-experts",
+    "ollama",
+    "creative-technology",
+    "autonomy",
+    "open-source"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "stack is",
+    "canvas is code",
+    "sovereignty deficit",
+    "artistic composition",
+    "router layer",
+    "conductor the",
+    "expert pool",
+    "ensemble each",
+    "control boundary",
+    "philosophy becomes executable",
+    "model context protocol",
+    "memory layer",
+    "persistence the",
+    "governance actually lives",
+    "practical guide let",
+    "base intelligence layer",
+    "vector database your",
+    "orchestration layer",
+    "conductor this",
+    "specialized intelligence once",
+    "minimal sovereign stack",
+    "you actually need",
+    "knowledge graph",
+    "agent framework",
+    "sovereign stack",
+    "closing manifesto let",
+    "sovereignty checklist before",
+    "creative technologist",
+    "digital identity"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-07-02-context-engineering-the-blind-spots-and-the-real-full-stack-development-paradigm",
+      "weight": 0.0294,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-29-sovereign-synthesis",
+      "weight": 0.0238,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-06-30-amis-in-action-autonomous-marketing-knowledge-graph",
+      "weight": 0.0233,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-12-mcp-openai-agents-sdk-ollama",
+      "weight": 0.0217,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-05-the-ghost-in-the-machine-is-finally-allowed-to-see-a-beginners-guide-to-mcp",
+      "weight": 0.0217,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-12-mcp-openai-responses-api-agents-sdk-ollama",
+      "weight": 0.0213,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-09-custom-agent",
+      "weight": 0.0204,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-02-context-engineering-the-real-full-stack-development-paradigm",
+      "weight": 0.0204,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "How Your Local AI Stack Is an Act of Sovereignty*",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "I. The Canvas Is Code",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "That moment, for the AI practitioner, is the moment you stop renting intelligence and start building the machinery that thinks on your behalf",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "agentic knowledge graphs, writing frameworks that route, reason, and respond without sending a single token to a server I don't control. What I've come to understand — slowly, then all at once — is that the *choice* of how you build is not a technical decision",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Your AI architecture is not infrastructure",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": ", and somewhere in a data center you will never visit, a model you cannot inspect processes your most private questions using weights you did not choose, governed by policies you did not write. This is the default",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The question I want to ask in this post is not \"which AI should I use",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "That's the consumer's question. The question I want to ask is : *what does it mean to own your execution path",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "That shift is sovereignty",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "And the stack you build is its expression",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "s AI Act and the wave of state-level legislation following it — gesture toward accountability, but they're fundamentally reactive. They tell you what happened after the consequential action. They are , at best, sophisticated telemetry",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The \"Reasonable Care\" standard that anchors most enterprise AI governance is a legal fiction when you don't control the boundary",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Think about what it means to be a writer feeding your unfinished work into a model you cannot audit",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Every one of these is an act of creative surrender disguised as productivity",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "across many posts on this site — from the [inference geography piece](https://danielkliewer.com/blog/2025-11-14-2025-inference-new-geography-intelligence) that looked at how *where* compute runs is becoming a geopolitical question, to the [llama",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": ".com/blog/2025-11-12-mastering-llama-cpp-local-llm-integration-guide) that gave a ground-level view of what local execution actually looks like in production. The throughline across all of it is the same: **who controls the execution path controls the output**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "And right now, for most people, the answer is not them",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The cultural cost of this arrangement is hard to quantify but easy to feel",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "A Mixture of Experts system — MoE, in the literature — is , at its simplest, a system that dynamically routes queries to specialized sub-models",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is not new as a concept in machine learning. What's new is the possibility of *you* building one",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The router is the first thing a query touches",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Its job is interpretation: what kind of problem is this",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "/2025-03-13-simulacra), which integrates the OpenAI Agents SDK with Ollama for locally-hosted agents, the routing logic lives in a handoff layer that evaluates intent before dispatching. The router is not passive — it's the system's first act of interpretation",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "When you build this yourself, every routing rule you write is a decision about what *you* value",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Each expert in the pool is a model — or a model configuration — specialized for a domain",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://danielkliewer.com/blog/2025-11-14-2025-inference-new-geography-intelligence",
+    "https://danielkliewer.com/blog/2025-11-12-mastering-llama-cpp-local-llm-integration-guide",
+    "https://danielkliewer.com/blog/2025-03-13-simulacra",
+    "https://danielkliewer.com/blog/2025-11-15-building-evaluating-local-research-assistant-graphrag-vero-eval",
+    "https://danielkliewer.com/blog/2025-03-12-mcp-openai-agents-sdk-ollama",
+    "https://danielkliewer.com/blog/2025-10-19-building-a-local-llm-powered-knowledge-graph",
+    "https://danielkliewer.com/blog/2025-03-09-reason-ai",
+    "https://ollama.ai",
+    "https://danielkliewer.com/blog/2025-11-12-mastering-llama-cpp-local-llm-integration-guide",
+    "https://danielkliewer.com/blog/2025-03-22-local-llm-document-pipeline-blueprint",
+    "https://danielkliewer.com/blog/2024-12-19-langchain-ollama",
+    "https://danielkliewer.com/blog/2025-03-13-simulacra",
+    "https://6340588028610.gumroad.com/l/eunvm",
+    "https://6340588028610.gumroad.com/l/ddsrtm",
+    "https://danielkliewer.com/blog/2025-03-13-simulacra",
+    "https://danielkliewer.com/blog/2025-03-09-reason-ai",
+    "https://danielkliewer.com/blog/2025-11-15-building-evaluating-local-research-assistant-graphrag-vero-eval",
+    "https://danielkliewer.com/blog/2025-03-21-browser-use-ollama-mcp",
+    "https://6340588028610.gumroad.com/l/eunvm",
+    "https://6340588028610.gumroad.com/l/bulxtf",
+    "https://6340588028610.gumroad.com/l/ddsrtm",
+    "https://6340588028610.gumroad.com/l/squjox",
+    "https://github.com/kliewerdaniel"
+  ],
+  "related_artifacts": [
+    "2026-07-02-context-engineering-the-blind-spots-and-the-real-full-stack-development-paradigm",
+    "2026-03-29-sovereign-synthesis",
+    "2026-06-30-amis-in-action-autonomous-marketing-knowledge-graph",
+    "2025-03-12-mcp-openai-agents-sdk-ollama",
+    "2025-11-05-the-ghost-in-the-machine-is-finally-allowed-to-see-a-beginners-guide-to-mcp",
+    "2025-03-12-mcp-openai-responses-api-agents-sdk-ollama",
+    "2025-03-09-custom-agent",
+    "2026-07-02-context-engineering-the-real-full-stack-development-paradigm"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-03-28-architecture-as-autonomy.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "13096c88381dca0adba847427ff0133e8af692e73b561a4053cb1ab31b6bfb37",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

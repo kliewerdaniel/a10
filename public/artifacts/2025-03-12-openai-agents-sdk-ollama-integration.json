@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "id": "2025-03-12-openai-agents-sdk-ollama-integration",
+  "title": "Complete Guide: Integrating OpenAI Agents SDK with Ollama for Local AI Agent Development",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-03-12",
+  "updated_at": "2025-03-12",
+  "canonical_url": "/blog/2025-03-12-openai-agents-sdk-ollama-integration",
+  "content_hash": "sha256:dcea9983d1507e49943730fb0e84b1215cfc0085f448b2e8ac6c8b110a4edf26",
+  "topics": [
+    "openai-agents-sdk",
+    "ollama",
+    "local-ai-agents",
+    "document-analysis",
+    "custom-agents",
+    "ai-development",
+    "agent-frameworks",
+    "local-llms",
+    "ai-integration",
+    "python"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "complete guide",
+    "ollama this",
+    "up your",
+    "document analysis",
+    "integrate them",
+    "setting up your environment",
+    "install ollama first",
+    "model pull",
+    "set up required dependencies",
+    "integrating ollama",
+    "custom client create",
+    "document analysis agent",
+    "create document memory first",
+    "tools create",
+    "document analysis assistant",
+    "putting it all together",
+    "tools used",
+    "example conversation",
+    "artificial intelligence",
+    "dartmouth college",
+    "dartmouth conference",
+    "ancient greek",
+    "ramon llull",
+    "thomas hobbes",
+    "gottfried leibniz",
+    "charles babbage",
+    "ada lovelace",
+    "marvin minsky",
+    "claude shannon",
+    "nathaniel rochester",
+    "troubleshooting here",
+    "model issues",
+    "context length issues",
+    "compatibility issues"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-03-13-simulacra",
+      "weight": 0.0204,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-12-10-rl",
+      "weight": 0.0185,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-28-ollama-chunking",
+      "weight": 0.0167,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-04-sovereign-intelligence-stack",
+      "weight": 0.0156,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-04-15-synthetic-intelligence-why-emergence-is-math-and-data-should-stay-local",
+      "weight": 0.0152,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-10-18-building-a-full-stack-application-with-django-and-react",
+      "weight": 0.0149,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-10-top-ai-algortihms",
+      "weight": 0.0088,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-11-vscode-blog-editing",
+      "weight": 0.006,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "The OpenAI Agents SDK is a powerful framework for building agent-based AI systems that can solve complex tasks through planning and tool use",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The OpenAI Agents SDK ( ) is a framework that simplifies the development of AI agents",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Verify that Ollama is working by running:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Check if your prompts are clear and well-formatted",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This integration demonstrates how organizations can leverage the power of advanced AI agent frameworks while maintaining control over their data and infrastructure. The result is a flexible, extensible system that can be adapted to many different use cases beyond document analysis",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://ollama.com/download"
+  ],
+  "related_artifacts": [
+    "2025-03-13-simulacra",
+    "2024-12-10-rl",
+    "2025-03-28-ollama-chunking",
+    "2026-07-04-sovereign-intelligence-stack",
+    "2026-04-15-synthetic-intelligence-why-emergence-is-math-and-data-should-stay-local",
+    "2024-10-18-building-a-full-stack-application-with-django-and-react",
+    "2025-11-10-top-ai-algortihms",
+    "2025-11-11-vscode-blog-editing"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-03-12-openai-agents-sdk-ollama-integration.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "dcea9983d1507e49943730fb0e84b1215cfc0085f448b2e8ac6c8b110a4edf26",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

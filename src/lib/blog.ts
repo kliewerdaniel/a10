@@ -4,6 +4,7 @@ import matter from 'gray-matter';
 import readingTime from 'reading-time';
 import categories from '@/data/research-categories.json';
 import cornerstoneSlugs from '@/data/featured-articles.json';
+import { getArtifactIndexMap, type ArtifactStatus } from '@/lib/artifacts';
 
 const contentDirectory = path.join(process.cwd(), 'content/blog');
 
@@ -29,6 +30,13 @@ export interface BlogPost {
 
   readingTime: string;
   content: string;
+
+  /** Epistemic status from the knowledge-compiler artifact index (if present). */
+  status: ArtifactStatus;
+  /** Controlled-vocab topics from the artifact index (if present). */
+  topics: string[];
+  /** Build-time content hash (sha256:...) from the artifact index. */
+  contentHash: string | null;
 }
 
 export interface ResearchCategory {
@@ -50,6 +58,10 @@ function parsePost(filename: string): BlogPost {
   const title = data.title || '';
   const description = data.description || '';
 
+  // Merge compiler artifact metadata (status / topics / hash) when available.
+  // Build-time only; absent for posts the compiler hasn't indexed (graceful).
+  const artifact = getArtifactIndexMap().get(slug);
+
   return {
     slug,
     title,
@@ -65,6 +77,9 @@ function parsePost(filename: string): BlogPost {
     canonicalUrl: data.canonical_url || null,
     readingTime: stats.text.replace('min read', 'min'),
     content,
+    status: (artifact?.status as ArtifactStatus) || 'observed',
+    topics: artifact?.topics || [],
+    contentHash: artifact?.content_hash || null,
   };
 }
 

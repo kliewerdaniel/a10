@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "id": "2026-07-02-context-engineering-the-blind-spots-and-the-real-full-stack-development-paradigm",
+  "title": "The Missing Stack: Context Engineering, Agent Harnesses, and the Real Full-Stack Development Paradigm of 2026",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-07-02",
+  "updated_at": "2026-07-02",
+  "canonical_url": "/blog/2026-07-02-context-engineering-the-blind-spots-and-the-real-full-stack-development-paradigm",
+  "content_hash": "sha256:261262de9a3c3625b016aa6ddbff7c843ac448bf609077fb148ebfc0277817d8",
+  "topics": [
+    "context-engineering",
+    "coding-agents",
+    "local-first-ai",
+    "agent-harness",
+    "vibe-coding",
+    "open-source",
+    "mcp",
+    "multi-agent",
+    "ai-native-development",
+    "full-stack",
+    "persistent-memory",
+    "agent-orchestration",
+    "design-as-code"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "missing stack",
+    "context engineering",
+    "agent harnesses",
+    "development paradigm",
+    "map is not",
+    "territory if",
+    "claude code",
+    "actually happening",
+    "ecosystem before",
+    "coding agent landscape",
+    "open source",
+    "agent harness revolution",
+    "agent harness",
+    "persistent agent memory",
+    "management layer",
+    "hermes agent",
+    "blind spots",
+    "existing coverage now",
+    "blind spot",
+    "context engineering is",
+    "not vibe coding",
+    "vibe code",
+    "agent harness is",
+    "real operating system",
+    "coding agent ecosystem",
+    "is pluralistic",
+    "not monolithic",
+    "persistent memory transforms",
+    "sovereign memory bank",
+    "spec kit",
+    "development stack now",
+    "application layer",
+    "orchestration layer",
+    "agent harness layer",
+    "context engineering layer",
+    "context engineering template",
+    "persistent memory layer",
+    "claude mem",
+    "knowledge graphs",
+    "coding agent layer",
+    "model layer",
+    "infrastructure layer",
+    "layers interact the",
+    "data flow",
+    "project context",
+    "coding agent",
+    "persistent memory",
+    "knowledge graph",
+    "philosophy shift beyond",
+    "which task",
+    "implementation guide now",
+    "project rules",
+    "use next",
+    "app router",
+    "use tailwind",
+    "code style",
+    "use vitest",
+    "use playwright",
+    "user authentication system",
+    "install superpowers",
+    "add persistent memory",
+    "install claude mem",
+    "sovereign memory",
+    "design system",
+    "orchestrate multiple agents for",
+    "perspective for",
+    "stack the",
+    "data sovereignty every",
+    "interoperability the",
+    "model context protocol",
+    "this means",
+    "evolving role the",
+    "opportunities for",
+    "core technologies",
+    "related blog posts",
+    "autonomous sovereign"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-07-02-building-autonomous-sovereign-ai-with-autoresearch-loops-and-fine-tuned-expert-models",
+      "weight": 0.5071,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-02-context-engineering-the-real-full-stack-development-paradigm",
+      "weight": 0.176,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-03-the-model-is-not-the-product",
+      "weight": 0.042,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-28-architecture-as-autonomy",
+      "weight": 0.0294,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-sovereign-ai-architecture-synthesis",
+      "weight": 0.0288,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-06-14-sovereign-memory-bank-a-deep-dive-into-autonomous-cognitive-memory-for-agent-systems",
+      "weight": 0.0275,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-retrieval-architecture-synthesis",
+      "weight": 0.0259,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-02-15-building-this-blog",
+      "weight": 0.019,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "A deep analysis of what the AI development ecosystem is actually building in 2026 — and what's conspicuously absent from existing coverage",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Introduction: The Map Is Not the Territory",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "If you've been following the AI development space in 2026, you've seen the narratives: vibe coding is revolutionizing software, coding agents like Claude Code and Codex are replacing developers, and local-first AI is the path to sovereignty",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "These narratives are real",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "update frequencies, and comparing what people are *actually building* versus what they're *writing about* — is that there exists a complete, functional stack for AI-native full-stack development that is largely invisible to existing coverage",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "2. \"Which coding agent is best",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "These are the wrong questions. The right question — the one the actual ecosystem is answering — is : **\"What is the complete stack for building software with AI agents, and how do all the pieces fit together",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This post maps that stack. It identifies the blind spots in existing coverage. And it explains why context engineering — not vibe coding, not coding agents, not local models — is the actual paradigm shift",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Before I identify the blind spots, let me establish what the ecosystem is actually doing",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The existence of this many agents is itself a signal: no single agent wins",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is the single most important development that existing coverage is missing",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "An **agent harness** is the layer between the AI model and the tools it uses",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Context Engineering](https://github.com/coleam00/context-engineering-intro) (13.5K stars, updated daily) represents a fundamental reframing:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Context Engineering is 10x better than prompt engineering and 100x better than vibe coding",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Session capture** — Every action, decision, and output is recorded",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "CC Switch](https://github.com/farion1231/cc-switch) (112K stars) is a cross-platform desktop all-in-one assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI, and Hermes Agent",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The existence of this tool signals something important: developers are using multiple agents simultaneously, and they need a way to manage them",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Now let me identify what's missing. I've analyzed the blog's existing 136 posts, the broader AI development coverage, and the actual ecosystem. Here are the blind spots:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "2.1 Blind Spot #1: Context Engineering Is the Paradigm, Not Vibe Coding",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Vibe coding works for prototypes. It breaks down at scale because the context window is finite",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Context engineering solves this by treating context as a first-class artifact — something you design, structure, and maintain. The template is a complete system for providing comprehensive context: documentation, examples, rules, patterns, and validation",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Why this matters:** The shift from vibe coding to context engineering is the shift from \"asking the AI nicely\" to \"giving the AI everything it needs to succeed",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "2.2 Blind Spot #2: The Agent Harness Is the Real Operating System",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "An agent harness is what sits between the model and the tools",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Why this matters:** Without a harness, your coding agent is just a model with a terminal",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/coleam00/context-engineering-intro",
+    "https://github.com/thedotmack/claude-mem",
+    "https://github.com/farion1231/cc-switch",
+    "https://github.com/coleam00/context-engineering-intro",
+    "https://github.com/affaan-m/ECC",
+    "https://github.com/obra/superpowers",
+    "https://github.com/thedotmack/claude-mem",
+    "https://github.com/VoltAgent/awesome-design-md",
+    "https://github.com/farion1231/cc-switch",
+    "https://github.com/crewAIInc/crewAI",
+    "https://github.com/simstudioai/sim",
+    "https://github.com/github/spec-kit",
+    "https://github.com/Fission-AI/OpenSpec",
+    "https://github.com/cline/cline",
+    "https://github.com/TabbyML/tabby",
+    "https://github.com/conductor-oss/conductor",
+    "https://github.com/n8n-io/n8n",
+    "https://github.com/langgenius/dify"
+  ],
+  "related_artifacts": [
+    "2026-07-02-building-autonomous-sovereign-ai-with-autoresearch-loops-and-fine-tuned-expert-models",
+    "2026-07-02-context-engineering-the-real-full-stack-development-paradigm",
+    "2026-07-03-the-model-is-not-the-product",
+    "2026-03-28-architecture-as-autonomy",
+    "2026-07-05-sovereign-ai-architecture-synthesis",
+    "2026-06-14-sovereign-memory-bank-a-deep-dive-into-autonomous-cognitive-memory-for-agent-systems",
+    "2026-07-05-retrieval-architecture-synthesis",
+    "2026-02-15-building-this-blog"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-07-02-context-engineering-the-blind-spots-and-the-real-full-stack-development-paradigm.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "261262de9a3c3625b016aa6ddbff7c843ac448bf609077fb148ebfc0277817d8",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

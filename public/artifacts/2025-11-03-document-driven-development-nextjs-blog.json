@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "id": "2025-11-03-document-driven-development-nextjs-blog",
+  "title": "Document-Driven Development: How I Built a Production Blog Without Writing a Single Line of Code By Hand",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-11-03",
+  "updated_at": "2025-11-03",
+  "canonical_url": "/blog/2025-11-03-document-driven-development-nextjs-blog",
+  "content_hash": "sha256:fb669579c5e821e588b61bbbe27828914b8c828db7bd34ba2e572bd9ea29c627",
+  "topics": [
+    "vibe-coding",
+    "document-driven-development",
+    "next-js",
+    "ai-coding",
+    "software-engineering",
+    "prompt-engineering",
+    "workflow-automation",
+    "developer-productivity"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "production blog without writing",
+    "single line",
+    "code by hand look",
+    "real innovation",
+    "think like you",
+    "complete documentation blueprint",
+    "project overview",
+    "orientation purpose",
+    "specs purpose",
+    "system design",
+    "technical blueprint purpose",
+    "development details purpose",
+    "style conventions purpose",
+    "standard operating procedures purpose",
+    "quick verification",
+    "each stage purpose",
+    "quality assurance strategy purpose",
+    "environment strategy purpose",
+    "secure development lifecycle",
+    "compliant design purpose",
+    "search engine optimization blueprint",
+    "integration purpose",
+    "canonical prompt",
+    "agents purpose",
+    "requirements before",
+    "refined specification",
+    "project description this",
+    "open graph",
+    "agent with",
+    "iterative development process",
+    "first reality check",
+    "finished product",
+    "comes next the",
+    "this matters beyond",
+    "just building blogs",
+    "different future"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-10-18-NextJS-SEO-CLIne-Prompt",
+      "weight": 0.0185,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-10-how-to-run-your-own-ai-agent-openclaw-qwen-telegram",
+      "weight": 0.0154,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-02-15-building-this-blog",
+      "weight": 0.0152,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-21-ultimate-guide-export-your-reddit-data-to-markdown-using-python-and-PRAW-API",
+      "weight": 0.0104,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-03-the-revolution-will-be-documented",
+      "weight": 0.0097,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-22-rlhf-lab",
+      "weight": 0.0065,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-19-building-a-local-llm-powered-knowledge-graph",
+      "weight": 0.004,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-20-how-to-vibe-code-a-nextjs-boilerplate-repo",
+      "weight": 0.0026,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "against you. If they're going to call what I do \"vibe coding\" with contempt in their voices, then fine—I'll own it. Because what they're really afraid of isn't the methodology. What terrifies them is obsolescence",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "So let's talk about what \"vibe coding\" actually means when you strip away the condescension",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The methodology is straightforward: create comprehensive, interconnected documentation that defines every aspect of your project *before you write a single line of code*",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This isn't just busy work or over-engineering. This is **documentation as architecture**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "It sounds meta, and it is , but there's a reason for the extra step",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is the messy, stream-of-consciousness version. The next step is refining this into something an AI agent can actually work with",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "With both the documentation boilerplate and the project specification ready, it's time to hand everything over to CLIne (or whatever AI coding agent you prefer). The prompt structure is straightforward but deliberate:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The initial prompt is simple but sets the tone:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Notice what I'm doing here: I'm giving the AI agency and identity. \"You are a world class developer\" isn't just flattery—it's priming",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Here's where patience becomes a virtue. The AI doesn't magically produce perfect code on the first try, and anyone who tells you otherwise is either lying or has extremely low standards",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This step is crucial",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "You want your testing to be comprehensive *before* you ever run the application locally. Debugging after the fact is reactive",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Validating against a checklist before deployment is proactive",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is the moment where a lot of people give up on AI-assisted development. They see one failure and conclude the whole approach is fundamentally broken",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "But here's what they're missing: **this is still faster and more efficient than writing everything by hand**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Everything works. The routing is functional",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The styling is coherent",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The completed repository is available here: [Finished Repo](https://github",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "But here's what most people miss about this workflow: **the boilerplate is just the beginning**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "can swap out the Three.js hero for a different animation library. I can redesign the blog cards. I can add new features like newsletter integration or comment sections. And because every modification is backed by comprehensive documentation, I never lose sight of the architectural decisions that make the application work",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This jumping-off point is my favorite part of AI-assisted development",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The developers who mock \"vibe coding\" aren't wrong to be skeptical of sloppy, thoughtless prompting that produces garbage code. What they're wrong about is assuming that all AI-assisted development falls into that category",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "? How many teams have comprehensive checklists that get verified before deployment? How many codebases have security protocols and testing strategies documented *before* the first line of code is written",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "carefully constructed requirements and specifications and translating them into functional code faster than any human could. But garbage documentation produces garbage code, whether a human or an AI is doing the typing",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "I'll be honest with you: I don't know if I'm right about all of this. I don't know if Document-Driven Development is the future of software engineering or just a temporary adaptation to a specific moment in AI capabilities",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/next16blog.git"
+  ],
+  "related_artifacts": [
+    "2025-10-18-NextJS-SEO-CLIne-Prompt",
+    "2026-03-10-how-to-run-your-own-ai-agent-openclaw-qwen-telegram",
+    "2026-02-15-building-this-blog",
+    "2025-10-21-ultimate-guide-export-your-reddit-data-to-markdown-using-python-and-PRAW-API",
+    "2025-11-03-the-revolution-will-be-documented",
+    "2024-11-22-rlhf-lab",
+    "2025-10-19-building-a-local-llm-powered-knowledge-graph",
+    "2025-10-20-how-to-vibe-code-a-nextjs-boilerplate-repo"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-11-03-document-driven-development-nextjs-blog.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "fb669579c5e821e588b61bbbe27828914b8c828db7bd34ba2e572bd9ea29c627",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

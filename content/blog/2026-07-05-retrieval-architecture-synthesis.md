@@ -1,6 +1,5 @@
 ---
-author: Daniel Kliewer
-canonical_url: /blog/sovereign-ai-architecture-synthesis
+canonical_url: /blog/2026-07-05-retrieval-architecture-synthesis
 date: 07-05-2026
 description: "Memory systems and retrieval architecture for sovereign AI. Sovereign Memory Bank, Dynamic Persona MoE RAG, Objective05, and GraphRAG — the subsystems that make retrieval compound over time."
 image: /images/ComfyUI_00205_.png

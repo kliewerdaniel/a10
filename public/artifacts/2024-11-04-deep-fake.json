@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "id": "2024-11-04-deep-fake",
+  "title": "AI-Generated Deepfakes: Complete Guide to Persona-Based Content Creation and Ethical Implications",
+  "author": "Daniel Kliewer",
+  "created_at": "2024-11-04",
+  "updated_at": "2024-11-04",
+  "canonical_url": "/blog/2024-11-04-deep-fake",
+  "content_hash": "sha256:47074ecd97e50d5ada4741e44af8d34108256d49e5a1ece00f707aaf06c0507a",
+  "topics": [
+    "deepfakes",
+    "ai-content",
+    "persona-generation",
+    "llms",
+    "ethics",
+    "tutorial",
+    "machine-learning",
+    "content-generation",
+    "ai-censorship",
+    "synthetic-media",
+    "digital-ethics"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "response demonstration the",
+    "psychological traits",
+    "writing sample",
+    "san fransisco",
+    "elon musk",
+    "fox news live",
+    "master systems",
+    "iron dome",
+    "final response"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2024-10-22-integrating-django-react-ollama-with-xai-api",
+      "weight": 0.0476,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-10-09-how-to-build-a-persona-based-blog-post-generator-with-large-language-models",
+      "weight": 0.0455,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-10-18-building-a-full-stack-application-with-django-and-react",
+      "weight": 0.0238,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "The following is a prompt and response",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The following is a prompt and response",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "I think you should be able to tell what is and what is not LLM generated content but I have labeled the prompt and the final response",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Firstly, it is evident that the development of software intended for open dissemination, akin to the large language models currently extant, is of paramount importance",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "the processes by which these datasets are constituted enables one to replicate or even surpass existing paradigms, perhaps by establishing enterprises wherein tasks presently performed individually are delegated to others",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "nature of the work, requiring the rapid formulation of novel inquiries and responses. While some may accomplish five or six annotations within an hour, the recommended duration per annotation is substantially longer, potentially leading to admonishment for undue haste",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Moreover, consider the architecture of convolutional neural networks (CNNs), which are particularly adept at processing data structured in grid-like topologies, such as images",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This capability permits the creation of prompts that culminate in the generation of films, effectively translating code into visual media. The potential applications are vast, encompassing realms such as computer games and augmented reality",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "developed to emulate my writing style, I am curious whether it initially eluded detection. Admittedly, it remains a work in progress. The maxim from the study of pathology resonates profoundly: \"What is powerful for good can also be powerful for evil",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Furthermore, it is evident that various artificial intelligence models exhibit distinct orientations",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "illustrates the escalating capabilities within this domain. The development of large language models and their integration into societal structures suggest a paradigm shift in how information is disseminated and consumed",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "So now it is me without the LLM filter",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "That was using my software to write in the style of Aquinas. Anyone with access to any LLM online can use my technology. The reason is because my computer code can just be part of the prompt for any LLM and it will perform the function",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "If you are curious this is how it works",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "First you encode a writing style, this is the encoding prompt you put into the LLM followed by the writing sample you want to emulate, in this case Aquinas:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "write now I often ask the LLM to explain something and then use my software to “translate” the content into whichever style you want, I like Dostovyevsky personally, but you may like Aquinas so that is what I used for this example",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "If you were curious about the original message which was translated into Aquinas it is as follows :",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Yes, that's part of the reason why I'm hoping this software gets released as open source, much like the large language models. Knowing how this dataset is being created, I could start a company that simply hires people to do my current job",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "and answers very quickly. I work swiftly; I get 5-6 annotations done in an hour. They recommend taking 40-50 minutes on each one, so I might get flagged, but they usually forgive you once, which is why I take this approach",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "about things happening in the video or questions you might ask an assistant related to the previous 15 seconds of footage. So I compress what should take 40 minutes into 10. They mentioned the pay is $35 an hour",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Now, consider convolutional neural networks (CNNs). CNNs are a type of deep learning algorithm particularly adept at processing data with a grid-like topology, such as images",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "They use layers with convolving filters that are applied to local features",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "What I'm providing are question and answer pairs that simulate thoughts or consciousness, with the surrounding video acting as the output",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Instead of the question being the input and the answer the output, the chain of 10 thoughts serves as the input, and the corresponding video is the output",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "associated with specific thoughts. Essentially, you input thoughts or a prompt, and the system produces a video—a visual manifestation of consciousness—created from the new multimodal model that Meta is developing with my assistance",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2024-10-22-integrating-django-react-ollama-with-xai-api",
+    "2024-10-09-how-to-build-a-persona-based-blog-post-generator-with-large-language-models",
+    "2024-10-18-building-a-full-stack-application-with-django-and-react"
+  ],
+  "provenance": {
+    "source": "content/blog/2024-11-04-deep-fake.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "47074ecd97e50d5ada4741e44af8d34108256d49e5a1ece00f707aaf06c0507a",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

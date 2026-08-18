@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: /blog/qwen-scope-interpretability-interface
+canonical_url: /blog/2026-05-01-qwen-scope-interpretability-interface
 date: 05-01-2026
 description: An in-depth analysis of Qwen-Scope, sparse autoencoders, and the shift
   from interpretability as observation to interpretability as control in large language

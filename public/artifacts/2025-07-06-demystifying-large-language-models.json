@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "id": "2025-07-06-demystifying-large-language-models",
+  "title": "Demystifying Large Language Models: A Data Pipeline Insider's Perspective on LLM Architecture and Limitations",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-07-06",
+  "updated_at": "2025-07-06",
+  "canonical_url": "/blog/2025-07-06-demystifying-large-language-models",
+  "content_hash": "sha256:c67399e8893ff5012d8865873a521331754d619dc7ee74fd3dcf2822502ed46b",
+  "topics": [
+    "large-language-models",
+    "llm-architecture",
+    "data-pipeline",
+    "ai-data-annotation",
+    "machine-learning",
+    "neural-networks",
+    "vector-embeddings",
+    "sentence-transformers",
+    "ai-ethics",
+    "technical-education"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "demystifying large language models",
+    "decade inside",
+    "data pipeline in",
+    "are not at",
+    "sentence transformers",
+    "mathematics behind",
+    "curtain to",
+    "data pipeline",
+    "annotation my",
+    "are mathematical engines",
+    "not minds to",
+    "human difference",
+    "higher public understanding my"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-06-30-amis-in-action-autonomous-marketing-knowledge-graph",
+      "weight": 0.037,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-12-autonomous-ai-agents-developer-portfolio",
+      "weight": 0.0323,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-17-building-a-private-knowledge-graph-with-local-ai-agents",
+      "weight": 0.0217,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "The Illusion of Sentience: What LLMs Are Not",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Instead, what appears to be sentience is an emergent artifact arising from the mathematical machinery beneath",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "layers of weighted transformations, and produces output sequences optimized to statistically resemble human language. This output can seem remarkably coherent and sometimes eerily insightful, but it is crucial to recognize this as a sophisticated mimicry rooted in probability, not genuine understanding",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "To comprehend how LLMs function, it is instructive to consider the foundational role of sentence transformers",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Within this geometric landscape, relationships between words become spatial relationships between vectors. Similar meanings cluster closer together; disparate meanings are positioned farther apart",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "My journey into this domain began on the front lines of AI development—as a human annotator. Annotation is the meticulous process by which raw textual data is curated, labeled, and refined to form the scaffolding upon which models learn",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "To distill this further: an LLM is a mathematical engine",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "electrochemical processes, plasticity, and emergent phenomena of consciousness, LLMs operate strictly within the confines of their programmed architecture and learned parameters. Their outputs are the product of chained matrix operations guided by statistical optimization, not conscious deliberation",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "What truly separates humans from these systems is our capacity for choice—the ability to reflect, to act against instinct, to generate meaning beyond immediate stimuli",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "My purpose in writing is to elevate public discourse beyond sensationalism and mystification",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "but rather complex statistical approximators empowers us to engage critically with these technologies. It demystifies the “black box” and invites a deeper appreciation of what artificial intelligence is —and what it is not",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2026-06-30-amis-in-action-autonomous-marketing-knowledge-graph",
+    "2026-01-12-autonomous-ai-agents-developer-portfolio",
+    "2026-03-17-building-a-private-knowledge-graph-with-local-ai-agents"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-07-06-demystifying-large-language-models.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "c67399e8893ff5012d8865873a521331754d619dc7ee74fd3dcf2822502ed46b",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

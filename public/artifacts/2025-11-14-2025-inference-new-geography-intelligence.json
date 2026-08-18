@@ -1,0 +1,242 @@
+{
+  "schema_version": 1,
+  "id": "2025-11-14-2025-inference-new-geography-intelligence",
+  "title": "Inference and the New Geography of Intelligence: Why Running AI Models Matters More Than Training Them",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-11-13",
+  "updated_at": "2025-11-13",
+  "canonical_url": "/blog/2025-11-14-2025-inference-new-geography-intelligence",
+  "content_hash": "sha256:e9df7abe2f095b75c8d7092e1b3a6d4ca630f1d37db37a8960a247b1cc8edbf8",
+  "topics": [
+    "ai",
+    "inference",
+    "compute",
+    "geopolitics",
+    "data-centers",
+    "energy",
+    "open-source",
+    "knowledge-economy"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "new geography",
+    "intelligence in",
+    "real resource",
+    "century training",
+    "united states",
+    "google cloud",
+    "limits the",
+    "data centers",
+    "digital refineries data",
+    "open source counterforce",
+    "san francisco",
+    "new division",
+    "labor automation",
+    "compute capitalism",
+    "digital inequality compute",
+    "global cognitive divide the",
+    "shared intelligence",
+    "central power inference",
+    "daniel kliewer"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2024-11-23-rlhf-lab-business-plan",
+      "weight": 0.1154,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+      "weight": 0.0476,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+      "weight": 0.0455,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-22-if-the-loop-is-the-product",
+      "weight": 0.04,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
+      "weight": 0.0385,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-building-the-scientific-question-compiler",
+      "weight": 0.0357,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-22-planning",
+      "weight": 0.0294,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-20-compile-time-intelligence-research-compiler-agent",
+      "weight": 0.0294,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "This isn't hyperbole. Every API call you make, every chatbot conversation, every automated decision in a supply chain or hospital is an act of inference",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "While the headlines celebrate training breakthroughs — GPT-5, Claude 4, Llama 5 — the real battle is happening in the infrastructure that runs these models billions of times per day",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": ", but inference runs the world. Consider the economics: training a frontier model like GPT-4 costs an estimated $100 million. Running it for a year across millions of users costs billions. The ratio is asymmetric and accelerating",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Every chatbot conversation, autonomous decision, and robotic operation consumes inference — compute, energy, and bandwidth that are fast becoming as strategic as oil once was",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Unlike training, which happens once in concentrated bursts, inference is continuous, distributed, and growing exponentially",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "But this is not a permanent advantage",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Inference economics favor those who can pair three things: low-cost energy, efficient silicon, and proximity to users. The first two are becoming global; the third is inherently distributed",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The U.S. is currently the most efficient place to run large-scale inference workloads",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "But this advantage won't go uncontested. China is scaling domestic fabrication through SMIC and investing heavily in inference-optimized chips",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The EU is investing in sovereign cloud initiatives and linking data centers directly to renewable energy grids. India is positioning itself as a hub for cost-effective inference, leveraging cheap solar power and a massive developer base",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Gulf states, flush with oil wealth and sunshine, are building AI cities that connect compute directly to renewable grids",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The critical insight is this: while training requires cutting-edge H100 GPUs and massive parallel clusters, inference increasingly runs on smaller, more efficient chips",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Quantized models, distillation techniques, and edge computing are democratizing access",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Data centers are the new industrial plants — not producing steel or fuel, but cognition",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "As energy transitions to renewables and chips become more efficient, inference will gradually localize. Frontier-scale reasoning — the kind that requires massive models for breakthrough research or complex simulations — may stay in super-clusters",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "While proprietary models from OpenAI, Anthropic, and Google capture attention, an open-source revolution is quietly reshaping inference economics",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Meta's Llama series, Mistral AI's efficient models, and projects like Falcon demonstrate that competitive intelligence no longer requires exclusive access to centralized infrastructure",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "build indigenous AI ecosystems. The EU's AI Act explicitly encourages local deployment. China's focus on self-sufficiency drives massive investment in domestic inference capacity. Even allied nations are hedging their bets",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The result is a more plural AI landscape where inference capacity is distributed, not concentrated",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "But this vision requires infrastructure",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Compute is capital",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Whoever owns the infrastructure for large-scale inference earns rent on cognition itself. That's the new layer of capitalism emerging — _compute capitalism_ — where the means of thinking are monetized like the means of production once were",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "OpenAI charges per token. AWS charges per GPU-hour. Every inference request is a microtransaction in the attention economy",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "But monopolies on compute are unstable for structural reasons",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The question is whether this balance arrives fast enough to prevent concentration",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://danielkliewer.com"
+  ],
+  "related_artifacts": [
+    "2024-11-23-rlhf-lab-business-plan",
+    "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+    "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+    "2026-07-22-if-the-loop-is-the-product",
+    "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
+    "2026-07-23-building-the-scientific-question-compiler",
+    "2024-11-22-planning",
+    "2026-07-20-compile-time-intelligence-research-compiler-agent"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-11-14-2025-inference-new-geography-intelligence.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "e9df7abe2f095b75c8d7092e1b3a6d4ca630f1d37db37a8960a247b1cc8edbf8",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "id": "2025-01-23-building-a-multimodal-story-generation-system",
+  "title": "Building a Multimodal Story Generation System",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-01-23",
+  "updated_at": "2025-01-23",
+  "canonical_url": "/blog/2025-01-23-building-a-multimodal-story-generation-system",
+  "content_hash": "sha256:15848618799fa72685cd5855ce56cd029c25a4f15243524721dfb4b6f61b8f4a",
+  "topics": [
+    "ai",
+    "multimodal",
+    "story-generation",
+    "python",
+    "llm"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "multimodal story generation system",
+    "local development setup",
+    "apple silicon special setup",
+    "system requirements",
+    "disk space",
+    "key components",
+    "technology stack",
+    "image analysis",
+    "story engine",
+    "knowledge base",
+    "production deployment",
+    "docker setup",
+    "cluster configuration"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-01-22-image-to-book",
+      "weight": 0.0435,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-02-05-open-deep-research",
+      "weight": 0.0303,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-14-synthesizing-memory-with-agent",
+      "weight": 0.0294,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-22-local-llm-document-pipeline-blueprint",
+      "weight": 0.0189,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-16-from-fragmented-experiments-to-cognitive-synthesis",
+      "weight": 0.018,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-05-architectures-of-autonomous-voice",
+      "weight": 0.0172,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-05-capacity-review-ai-workflow-vibe-coding",
+      "weight": 0.0161,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-19-building-a-local-llm-powered-knowledge-graph",
+      "weight": 0.0135,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [],
+  "references": [
+    "https://img.shields.io/badge/License-MIT-yellow.svg",
+    "https://img.shields.io/badge/Python-3.11%2B-blue.svg",
+    "https://img.shields.io/badge/Ollama-Required-important.svg",
+    "https://github.com/kliewerdaniel"
+  ],
+  "related_artifacts": [
+    "2025-01-22-image-to-book",
+    "2025-02-05-open-deep-research",
+    "2026-07-14-synthesizing-memory-with-agent",
+    "2025-03-22-local-llm-document-pipeline-blueprint",
+    "2026-01-16-from-fragmented-experiments-to-cognitive-synthesis",
+    "2026-01-05-architectures-of-autonomous-voice",
+    "2025-11-05-capacity-review-ai-workflow-vibe-coding",
+    "2025-10-19-building-a-local-llm-powered-knowledge-graph"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-01-23-building-a-multimodal-story-generation-system.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "15848618799fa72685cd5855ce56cd029c25a4f15243524721dfb4b6f61b8f4a",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

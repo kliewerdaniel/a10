@@ -1,0 +1,251 @@
+{
+  "schema_version": 1,
+  "id": "2026-07-11-knowledge-compiler-compiling-human-knowledge-into-static-semantic-artifacts",
+  "title": "Knowledge Compiler: Why I'm Building a Compiler for Human Knowledge Instead of Another RAG System",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-07-11",
+  "updated_at": "2026-07-11",
+  "canonical_url": "/blog/2026-07-11-knowledge-compiler-compiling-human-knowledge-into-static-semantic-artifacts",
+  "content_hash": "sha256:6f376269d40311c1694ab34f6a1761023ec6045d94c78d451822123f671b4b00",
+  "topics": [
+    "knowledge-compiler",
+    "knowledge-graphs",
+    "rag",
+    "graphrag",
+    "ai-infrastructure",
+    "local-ai",
+    "semantic-search",
+    "compiler-design",
+    "local-first-ai"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "knowledge compiler",
+    "runtime tax",
+    "agentic knowledge systems the",
+    "compiler alternative there",
+    "software compiler",
+    "syntax tree",
+    "intermediate representation",
+    "static next",
+    "knowledge compiler the",
+    "compilation pipeline the",
+    "graph construction",
+    "runtime system the",
+    "this changes the",
+    "applications the",
+    "future research several",
+    "broader idea every",
+    "architectural investigation",
+    "research assistant",
+    "new geography"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-07-16-the-sovereign-knowledge-compiler-explorer",
+      "weight": 0.54,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-14-recursive-research-compiler-knowledge-compiler-sdk",
+      "weight": 0.2174,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-20-compile-time-intelligence-research-compiler-agent",
+      "weight": 0.0606,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-12-autonomous-ai-agents-developer-portfolio",
+      "weight": 0.0556,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-14-2025-inference-new-geography-intelligence",
+      "weight": 0.027,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-14-synthesizing-memory-with-agent",
+      "weight": 0.025,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-15-sovereign-memory-bank-deepening-local-first-cognitive-memory",
+      "weight": 0.0222,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-local-ai-architecture-synthesis",
+      "weight": 0.02,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "This is not a chatbot. It is a compiler",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "inefficiency that most knowledge systems silently accept. Every query against a RAG pipeline pays the full cost of retrieval, context assembly, and generation — even when the knowledge domain is static",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Knowledge Compiler is an exploration of a different tradeoff: what if semantic understanding is performed at compile time instead of runtime",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "What if the artifacts of that compilation — knowledge graphs, concept hierarchies, vector embeddings, cluster maps — are themselves the deployable unit",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Scale this to an organization processing thousands of queries per day against a stable knowledge base — documentation, legal archives, medical literature, scientific papers — and you are paying the same tax for every single query, even though the underlying knowledge has not changed",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The architectural assumption is the same: intelligence happens at query time",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The result is a system that is powerful but expensive, both in latency and in compute",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Software compilers transform source code (human-readable, expressive, redundant) into optimized executables (machine-efficient, pre-analyzed, deployable). The compilation step is expensive",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The runtime step is cheap",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The fundamental insight is that analysis can be *amortized* across all executions",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The compiled artifacts are not an index into the source documents",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The compiler is organized as a monorepo with seven packages and one application:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "MDASTParserPass** parses markdown into an MDAST (Markdown Abstract Syntax Tree) using unified/remark with GFM and frontmatter support. The resulting AST is stored in the IR store as a  :",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Entities are deduplicated and ranked by frequency across the document",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is textbook TF-IDF — and that is intentional",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "It is deterministic, interpretable, and requires no model inference",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "each document, it creates document nodes, entity nodes (with type-prefixed IDs like  ), and edges representing containment (\"document contains entity\") and document-to-document links. Entity edges are weighted by frequency",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Node importance is computed as   capped at 1",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The fallback is worth examining because it enables the entire pipeline to function without any external API key:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This produces vectors that are not semantically rich but are *deterministic* and *locally computable*",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "For a knowledge base that is never compared against external documents, they are sufficient for similarity-based clustering",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "DimensionReducerPass** applies random projection (an approximate PCA) to reduce embeddings from the source dimensionality to 256 dimensions. The projection matrix is sampled from Uniform(-1, 1) scaled by",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "PruningPass** removes edges below a weight threshold and orphaned nodes. (Currently the threshold is effectively zero — this is the simplest possible pruner",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Documents with SimHash similarity >= 0.85 (fraction of matching 64-bit signs) are flagged as near-duplicates",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Edge weights are also rounded to 3 decimal places",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/knowledge-compiler",
+    "https://notebooklm.google.com/notebook/1833f401-8f66-466b-9794-e2669107ab41/artifact/0a6cbfd3-dfb3-4316-b7b9-b8005397f7fc",
+    "https://github.com/kliewerdaniel/knowledge-compiler",
+    "https://danielkliewer.com/book",
+    "https://danielkliewer.com/blog/2025-11-15-building-evaluating-local-research-assistant-graphrag-vero-eval",
+    "https://danielkliewer.com/blog/2026-03-29-sovereign-synthesis",
+    "https://danielkliewer.com/blog/2026-03-10-breaking-free-from-chatgpt",
+    "https://danielkliewer.com/blog/2025-11-14-2025-inference-new-geography-intelligence",
+    "https://danielkliewer.com/blog/2026-05-02-autodata-ram-ecosystem"
+  ],
+  "related_artifacts": [
+    "2026-07-16-the-sovereign-knowledge-compiler-explorer",
+    "2026-07-14-recursive-research-compiler-knowledge-compiler-sdk",
+    "2026-07-20-compile-time-intelligence-research-compiler-agent",
+    "2026-01-12-autonomous-ai-agents-developer-portfolio",
+    "2025-11-14-2025-inference-new-geography-intelligence",
+    "2026-07-14-synthesizing-memory-with-agent",
+    "2026-07-15-sovereign-memory-bank-deepening-local-first-cognitive-memory",
+    "2026-07-05-local-ai-architecture-synthesis"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-07-11-knowledge-compiler-compiling-human-knowledge-into-static-semantic-artifacts.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "6f376269d40311c1694ab34f6a1761023ec6045d94c78d451822123f671b4b00",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

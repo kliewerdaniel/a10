@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: https://danielkliewer.com/blog/building-knowledge-chatbot
+canonical_url: /blog/2026-02-19-building-knowledge-chatbot
 date: 02-19-2026
 description: How to build a chatbot that captures your knowledge, answers questions
   about your expertise, and helps anyone learn from your experience - all running

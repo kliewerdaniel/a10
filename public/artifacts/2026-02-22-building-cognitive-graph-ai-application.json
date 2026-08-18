@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "id": "2026-02-22-building-cognitive-graph-ai-application",
+  "title": "Building a Cognitive Graph AI Application: A Comprehensive Guide",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-02-22",
+  "updated_at": "2026-02-22",
+  "canonical_url": "/blog/2026-02-22-building-cognitive-graph-ai-application",
+  "content_hash": "sha256:87a8248dcd08ecb04a964b325fcae96dcc14d55c93ad68327c074642137900b1",
+  "topics": [
+    "ai",
+    "cognitive-architecture",
+    "ollama",
+    "nextjs",
+    "personas",
+    "llm"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "cognitive graph",
+    "finite state machine",
+    "directed acyclic graph",
+    "finite state",
+    "directed acyclic",
+    "core philosophy before",
+    "systems traditional",
+    "large language model",
+    "cognitive graph solution",
+    "core design principles",
+    "system architecture overview the",
+    "layered stack",
+    "framer motion",
+    "route handlers",
+    "technology stack",
+    "data flows through",
+    "parallel ollama",
+    "persona system the",
+    "seven personas the",
+    "core strength",
+    "structural analyst",
+    "deep critic",
+    "execution planner",
+    "strategic thinker",
+    "introspective guide",
+    "interpersonal expert",
+    "pattern breaker",
+    "persona schema each",
+    "example persona",
+    "systems stoic",
+    "existential systems",
+    "storing personas personas",
+    "finite state machine the",
+    "state enumeration the",
+    "state transition diagram",
+    "graph context the",
+    "directed acyclic graph while",
+    "graph topology the",
+    "base graph structure",
+    "extended graph",
+    "node types the",
+    "feature vector the",
+    "parallel execution model one",
+    "ollama integration ollama",
+    "setting up ollama first",
+    "ollama client",
+    "system prompt construction each",
+    "persona system prompt",
+    "primary persona",
+    "core identity",
+    "core motivation",
+    "emotional posture",
+    "core rules",
+    "tone constraints",
+    "failure modes to avoid",
+    "internal instruction",
+    "classifier prompt",
+    "critique prompt",
+    "synthesis prompt",
+    "ollama calls",
+    "frontend the",
+    "project structure",
+    "custom hooks",
+    "layer implementation the",
+    "production deploying",
+    "environment configuration",
+    "ollama configuration",
+    "start ollama",
+    "built throughout",
+    "future enhancements the",
+    "getting started today to",
+    "install ollama",
+    "quick reference"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-01-16-from-fragmented-experiments-to-cognitive-synthesis",
+      "weight": 0.0176,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-03-text-adventure",
+      "weight": 0.0128,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-28-scalable-ai-backends",
+      "weight": 0.0126,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-12-19-continue.dev-ollama",
+      "weight": 0.0125,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-01-23-building-a-multimodal-story-generation-system",
+      "weight": 0.0118,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-15-building-evaluating-local-research-assistant-graphrag-vero-eval",
+      "weight": 0.0115,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-12-mcp-openai-responses-api-agents-sdk-ollama",
+      "weight": 0.011,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-19-building-a-local-llm-powered-knowledge-graph",
+      "weight": 0.0106,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "1. **Cognitive Decomposition**: Rather than relying on a single LLM to handle all reasoning styles, the system decomposes cognitive tasks into specialized persona modules. Each persona represents a distinct reasoning lens with unique strengths",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Cognitive Graph AI Application follows a layered architecture, with each layer having distinct responsibilities. Understanding this layered approach is crucial before diving into implementation",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The persona system is the heart of the Cognitive Graph application",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Each persona represents a distinct reasoning lens with unique strengths, traits, and activation conditions",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Each persona follows a structured JSON format that defines its identity, behavior, and activation conditions:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Personas are stored as JSON files in a   directory:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The system defines several node types:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "One of the key advantages of the DAG approach is parallel execution:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Each cognitive operation requires a specially crafted prompt",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Deploying the Cognitive Graph application requires consideration of the local Ollama dependency and the real-time nature of the responses",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Determinism enables reliability**: The FSM ensures predictable behavior, making debugging possible",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Parallelism enables speed**: Multiple personas can reason simultaneously, improving response times",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/cogGraph"
+  ],
+  "related_artifacts": [
+    "2026-01-16-from-fragmented-experiments-to-cognitive-synthesis",
+    "2025-03-03-text-adventure",
+    "2025-03-28-scalable-ai-backends",
+    "2024-12-19-continue.dev-ollama",
+    "2025-01-23-building-a-multimodal-story-generation-system",
+    "2025-11-15-building-evaluating-local-research-assistant-graphrag-vero-eval",
+    "2025-03-12-mcp-openai-responses-api-agents-sdk-ollama",
+    "2025-10-19-building-a-local-llm-powered-knowledge-graph"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-02-22-building-cognitive-graph-ai-application.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "87a8248dcd08ecb04a964b325fcae96dcc14d55c93ad68327c074642137900b1",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "id": "2026-07-15-compiling-my-blog-into-a-decision-graph",
+  "title": "I Compiled My Blog Into a Decision Graph",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-07-15",
+  "updated_at": "2026-07-15",
+  "canonical_url": "/blog/2026-07-15-compiling-my-blog-into-a-decision-graph",
+  "content_hash": "sha256:afe35c11687a265071032d0d25ed6b09442c2234a65a1514c9a9e77374461eae",
+  "topics": [
+    "ai-agents",
+    "memory",
+    "local-first-ai",
+    "compile-time-ai",
+    "knowledge-compiler",
+    "knowledge-representation",
+    "ollama",
+    "crdt",
+    "sovereign-memory-bank"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "compiled my blog into",
+    "decision graph in",
+    "use ollama",
+    "discoverable knowledge"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-07-16-the-sovereign-knowledge-compiler-explorer",
+      "weight": 0.6,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-20-compile-time-intelligence-research-compiler-agent",
+      "weight": 0.5526,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-15-sovereign-memory-bank-deepening-local-first-cognitive-memory",
+      "weight": 0.5,
+      "basis": "crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-15-building-evaluating-local-research-assistant-graphrag-vero-eval",
+      "weight": 0.0094,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "-cognitive-memory) I argued that agent memory should be *compiled*, not retrieved: do the expensive reasoning once, emit static, inspectable artifacts, and let the runtime do cheap lookups. This post is the proof",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The numbers are real",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The most interesting row is the second-to-last",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The compiler doesn't just *store* facts — it watches what the synthesis pass keeps coming back to, and rewards those facts with resistance to decay. That is memory that learns what matters from use, not from a hand-tuned retention policy",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Agents & orchestration — 39.** \"The best agent is one that thinks best as itself, not like a human",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Data & annotation — 2.** (RLHF-Lab is real, just not a recurring theme",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Everything above is rendered in a live, interactive Next",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Drag the concept graph. Hover a node — size is frequency, color is theme, edges are co-occurrence",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Switch decision themes. Watch the reinforcement list: the top entries are the ideas this blog cannot stop circling back to",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The demo app is static, deployed to Vercel, and reads a single   the compiler emitted",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The 3D graph, the stats, the cards — none of it was hand-authored. It is the compiled corpus, visualized",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Compiling the blog was the proof. Compiling the *whole ecosystem* is the point: the [Sovereign AI Ecosystem](https://sovereign-ecosystem",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The standard story is : dump documents in a vector store, retrieve the top-k at query time, let the model re-reason every time",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Reasoning happens once**, at write time, and is frozen into artifacts",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The runtime is cheap** — O(1) lookups against static files, no retrieval, no per-query LLM call",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "It is inspectable** — every fact, decision, and rationale is a file you can read, diff, and version",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "I compiled my own blog and got back a map of what I actually argue for. That map is now a live demo, and the compiler that built it is [open source](https://github",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The loop is the product",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/sovereign-knowledge-compiler",
+    "https://skc-demo-eta.vercel.app/",
+    "https://sovereign-ecosystem.vercel.app/",
+    "https://github.com/kliewerdaniel/sovereign-knowledge-compiler"
+  ],
+  "related_artifacts": [
+    "2026-07-16-the-sovereign-knowledge-compiler-explorer",
+    "2026-07-20-compile-time-intelligence-research-compiler-agent",
+    "2026-07-15-sovereign-memory-bank-deepening-local-first-cognitive-memory",
+    "2025-11-15-building-evaluating-local-research-assistant-graphrag-vero-eval"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-07-15-compiling-my-blog-into-a-decision-graph.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "afe35c11687a265071032d0d25ed6b09442c2234a65a1514c9a9e77374461eae",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

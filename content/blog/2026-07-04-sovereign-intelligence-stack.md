@@ -1,6 +1,5 @@
 ---
-author: Daniel Kliewer
-canonical_url: /blog/sovereign-intelligence-stack
+canonical_url: /blog/2026-07-04-sovereign-intelligence-stack
 date: 07-04-2026
 description: "Building a 5-layer architecture where every AI decision compounds into the next layer. The recipe compiler, signal router, autonomous evaluation loop, and more — with working code."
 image: /images/ComfyUI_00195_.png

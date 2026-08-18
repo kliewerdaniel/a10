@@ -1,6 +1,5 @@
 ---
-author: Daniel Kliewer
-canonical_url: /blog/2026-07-15-sovereign-knowledge-compiler-compile-time-memory
+canonical_url: /blog/2026-07-15-sovereign-memory-bank-deepening-local-first-cognitive-memory
 date: 07-15-2026
 description: "A revised architecture for agent memory that treats cognition as something compiled once into inspectable artifacts rather than retrieved fresh on every query — grounded in how OpenAI's Agents SDK, Mem0, and Hindsight are already converging on distillation, and extended with decay, conflict resolution, and CRDT-based device sync."
 image: /images/1103010.png

@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: /blog/specgen-deterministic-ai-code-generation
+canonical_url: /blog/2026-01-07-specgen-deterministic-ai-powered-code-generation-from-naturals-language
 date: 01-07-2026
 description: Discover SpecGen, a revolutionary CLI tool that transforms natural language
   specifications into production-ready application skeletons using deterministic agentic

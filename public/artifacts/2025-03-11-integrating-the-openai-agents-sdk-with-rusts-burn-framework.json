@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "2025-03-11-integrating-the-openai-agents-sdk-with-rusts-burn-framework",
+  "title": "Complete Guide: Integrating OpenAI Agents SDK with Rust's Burn Framework for Local AI Model Development",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-03-11",
+  "updated_at": "2025-03-11",
+  "canonical_url": "/blog/2025-03-11-integrating-the-openai-agents-sdk-with-rusts-burn-framework",
+  "content_hash": "sha256:526d3371f5312f900a3c2aaa1206f5d9070c668a7fdd049ac72cb886713f4441",
+  "topics": [
+    "openai-agents-sdk",
+    "rust-burn-framework",
+    "pyo3",
+    "local-ai-models",
+    "ai-integration",
+    "rust-development",
+    "python-bindings",
+    "model-training",
+    "ai-deployment",
+    "cross-language-integration"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "model using",
+    "new rust project",
+    "train your model",
+    "create python bindings",
+    "rust project",
+    "python bindings",
+    "python module",
+    "rust model",
+    "rust module"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-03-11-integrating-rust-burn-framework-for-ai",
+      "weight": 0.0625,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "This SDK is designed to facilitate the creation and management of AI agents",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2025-03-11-integrating-rust-burn-framework-for-ai"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-03-11-integrating-the-openai-agents-sdk-with-rusts-burn-framework.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "526d3371f5312f900a3c2aaa1206f5d9070c668a7fdd049ac72cb886713f4441",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

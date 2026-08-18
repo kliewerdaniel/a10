@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: /blog/deerflow-2-building-sovereign-ai-agent-systems
+canonical_url: /blog/2026-03-26-deerflow-2-building-sovereign-ai-agent-systems
 date: 03-26-2026
 description: Learn how DeerFlow 2.0 bridges the execution gap in AI with its SuperAgent
   harness, AIO sandbox, and persistent memory. Complete guide to building sovereign,

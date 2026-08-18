@@ -1,6 +1,5 @@
 ---
-author: Daniel Kliewer
-canonical_url: /blog/sovereign-ai-architecture-synthesis
+canonical_url: /blog/2026-07-05-sovereign-ai-architecture-synthesis
 date: 07-05-2026
 description: "A comprehensive synthesis of four years of architectural investigation into sovereign AI. Ties together the Sovereign Intelligence Stack, Sovereign Memory Bank, Dynamic Persona MoE RAG, Objective05, and SovereignSpec into one unified compounding intelligence architecture."
 image: /images/ComfyUI_00210_.png

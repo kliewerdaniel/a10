@@ -1,0 +1,277 @@
+{
+  "schema_version": 1,
+  "id": "2026-06-12-sovereignspec-local-first-spec-driven-development",
+  "title": "Project Proposal: SovereignSpec — Local-First Spec-Driven Development",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-06-12",
+  "updated_at": "2026-06-12",
+  "canonical_url": "/blog/2026-06-12-sovereignspec-local-first-spec-driven-development",
+  "content_hash": "sha256:2b84c273829acfe8abb84f3ca73be9c2cd3769c8abfb7a717bbfe8f5174cd478",
+  "topics": [
+    "sovereignspec",
+    "spec-driven-development",
+    "sdd",
+    "spec-kit",
+    "local-first",
+    "local-ai",
+    "offline-development",
+    "specgen",
+    "synth01",
+    "objective05",
+    "gbnf",
+    "grammar-enforcement",
+    "knowledge-representation",
+    "rag",
+    "contradiction-detection",
+    "narrative-drift",
+    "llm",
+    "llama-cpp",
+    "deterministic-code-generation",
+    "local-first-ai"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "project proposal",
+    "executive summary",
+    "spec kit",
+    "claude code",
+    "current landscape",
+    "complete specs",
+    "reliable code",
+    "spec kit the",
+    "kimi code",
+    "spec kit gets",
+    "exist there",
+    "project concept",
+    "core design principles",
+    "spec engine",
+    "code generator",
+    "kit parity",
+    "spec kit command",
+    "key difference",
+    "makes it different",
+    "graph nodes",
+    "semantic diffing",
+    "grammar enforcement",
+    "drift tracking",
+    "contradiction detection",
+    "context ark",
+    "it relates",
+    "existing stack",
+    "now spec kit",
+    "no neo4j",
+    "bigger picture",
+    "development toolkit",
+    "diving into",
+    "official microsoft",
+    "kit documentation"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-07-02-context-engineering-the-real-full-stack-development-paradigm",
+      "weight": 0.5294,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-getting-started-sovereign-ai",
+      "weight": 0.5,
+      "basis": "crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-retrieval-architecture-synthesis",
+      "weight": 0.5,
+      "basis": "crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-sovereign-ai-architecture-synthesis",
+      "weight": 0.5,
+      "basis": "crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-06-12-sovereignspec-ganymedean-alignment-protocol",
+      "weight": 0.0429,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-14-recursive-research-compiler-knowledge-compiler-sdk",
+      "weight": 0.0238,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-02-context-engineering-the-blind-spots-and-the-real-full-stack-development-paradigm",
+      "weight": 0.0185,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-12-compile-time-ai-knowledge-compiler-architecture",
+      "weight": 0.0154,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "The spec is alive",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "GitHub's **Spec Kit** (released September 2025, now at v0.5.0 as of mid-2026) has catalyzed a shift in how software gets built: **Spec-Driven Development (SDD)** — where specifications are the single source of truth, and code serves the spec, not the other way around",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "But Spec Kit has a fatal flaw for sovereign builders: **it requires cloud AI agents**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Every spec evaluation, clarification, and implementation step routes through an external API. For a project stack built on local-first principles —  ,  , objective05 — this is unacceptable",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Living specs**: Specs are version-controlled markdown that evolve alongside code, not static documents",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Cloud dependency.** Every step of the Spec Kit workflow requires a cloud AI agent",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The   command calls an LLM API. The   command calls an LLM API. The   command calls an LLM API. There is no offline mode",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "There is no local model integration. For anyone who believes a weak local model controlled by you is spiritually superior to a powerful cloud model, this is a design failure",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "No RAG integration.** Spec Kit's specs are flat markdown files",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This gap is the project",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Deterministic output** — GBNF grammar enforcement ensures generated code is parseable and consistent",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Same, but spec is a graph node, not flat markdown |",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Specs as Graph Nodes.** Instead of flat  , each spec is a node in a knowledge graph",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Relationships between specs are tracked: spec A depends on spec B, spec C contradicts spec D",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Evolvable Specs with Semantic Diffing.** Every spec change is tracked",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Not just line-level diffs — semantic diffs. If spec A says \"the API must return JSON\" and spec B later says \"the API must return XML,\" the system detects the contradiction and flags it during  . This is the spec equivalent of contradiction detection in  's pipeline",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Grammar Enforcement.** Code generated from specs passes through GBNF grammar rules, ensuring deterministic, parseable output. No hallucinated syntax. No broken JSON. No malformed Python. The grammar is defined as part of the constitution",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "directly from  's pipeline architecture. As specs evolve, the system tracks whether the project's narrative — its core purpose and scope — has drifted. If the original constitution says \"this is a local-first news synthesizer\" but the specs have drifted to include cloud API integrations, the system flags it",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Typed Contradiction Detection.** Specs are typed (functional vs",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "technical, as Context Ark distinguishes). Contradictions between functional specs and technical specs are detected and resolved through structured clarification workflows",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The local LLM inference pattern is identical",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "objective05**: SovereignSpec can be a first-class citizen in the sovereign intelligence OS. Specs are knowledge graph nodes",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Spec Kit proved the market: 28K stars, adoption by AWS (Kiro), IBM (infrastructure-as-code), and the broader ecosystem. SDD is transitioning from \"interesting idea\" to \"industry standard",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "But the entire ecosystem assumes cloud AI agents. The local-first SDD niche is completely empty",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "You already have the building blocks: specgen's pipeline, synth01's local inference, objective05's knowledge graph infrastructure. SovereignSpec is the natural convergence point",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/sovereignSpec",
+    "https://github.com/github/spec-kit",
+    "https://speckit.org/",
+    "https://contextark.com/blog/spec-driven-development-for-ai-coding",
+    "https://blog.lpains.net/posts/2025-12-07-deep-dive-into-speckit/",
+    "https://jamesm.blog/ai/github-spec-kit-2026-update/",
+    "https://developer.microsoft.com/blog/spec-driven-development-spec-kit",
+    "https://github.github.io/spec-kit/concepts/sdd.html",
+    "https://learn.microsoft.com/en-us/training/modules/spec-driven-development-github-spec-kit-enterprise-developers/"
+  ],
+  "related_artifacts": [
+    "2026-07-02-context-engineering-the-real-full-stack-development-paradigm",
+    "2026-07-05-getting-started-sovereign-ai",
+    "2026-07-05-retrieval-architecture-synthesis",
+    "2026-07-05-sovereign-ai-architecture-synthesis",
+    "2026-06-12-sovereignspec-ganymedean-alignment-protocol",
+    "2026-07-14-recursive-research-compiler-knowledge-compiler-sdk",
+    "2026-07-02-context-engineering-the-blind-spots-and-the-real-full-stack-development-paradigm",
+    "2026-07-12-compile-time-ai-knowledge-compiler-architecture"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-06-12-sovereignspec-local-first-spec-driven-development.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "2b84c273829acfe8abb84f3ca73be9c2cd3769c8abfb7a717bbfe8f5174cd478",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

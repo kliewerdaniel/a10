@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: /blog/2026-03-17-building-a-private-knowledge-graph-with-local-ai-agents.md
+canonical_url: /blog/2026-03-17-building-a-private-knowledge-graph-with-local-ai-agents
 categories:
 - Artificial Intelligence
 - Knowledge Management

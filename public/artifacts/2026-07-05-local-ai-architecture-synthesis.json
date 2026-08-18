@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "id": "2026-07-05-local-ai-architecture-synthesis",
+  "title": "Local AI Architecture: Running Models on Your Own Hardware",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-07-05",
+  "updated_at": "2026-07-05",
+  "canonical_url": "/blog/2026-07-05-local-ai-architecture-synthesis",
+  "content_hash": "sha256:f2b9b45d12bdde2db4acd8815997127c306e545201ef51ebc8a8f19d0ad7244b",
+  "topics": [
+    "local-ai",
+    "local-first-ai",
+    "ollama",
+    "context-engineering",
+    "local-first",
+    "privacy",
+    "ai-architecture",
+    "open-source"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "running models",
+    "own hardware",
+    "executive summary this",
+    "sovereign intelligence stack",
+    "context engineering",
+    "install ollama",
+    "run your first local",
+    "add compounding intelligence",
+    "advanced local",
+    "context condensation",
+    "autonomous evaluation",
+    "start small start",
+    "optimize context bad",
+    "capture recipes capture",
+    "evaluate continuously",
+    "observe patterns look",
+    "ollama resources",
+    "context engineering resources",
+    "sovereign intelligence stack resources",
+    "intelligence stack",
+    "start here",
+    "intermediate readers",
+    "advanced readers",
+    "is not",
+    "intelligence observatory",
+    "sovereign intelligence",
+    "model is not",
+    "loop is",
+    "autonomous sovereign",
+    "external resources",
+    "related repositories",
+    "architectural investigation"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-07-05-getting-started-sovereign-ai",
+      "weight": 0.8095,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-sovereign-ai-architecture-synthesis",
+      "weight": 0.6124,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-04-sovereign-intelligence-stack",
+      "weight": 0.5862,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-03-the-model-is-not-the-product",
+      "weight": 0.5811,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-02-building-autonomous-sovereign-ai-with-autoresearch-loops-and-fine-tuned-expert-models",
+      "weight": 0.5543,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-03-the-sovereign-intelligence-observatory",
+      "weight": 0.5408,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-02-context-engineering-the-real-full-stack-development-paradigm",
+      "weight": 0.5198,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-retrieval-architecture-synthesis",
+      "weight": 0.2097,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "The hardware is the contract",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The model is the commodity",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The loop is the only thing that compounds",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Cloud AI:** Your prompts, responses, and decisions are stored on remote servers",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Local AI:** Pay once for hardware. Run indefinitely. Costs are fixed",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Why it matters:** Context is the most expensive part of local AI",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Why it matters:** Local AI without compounding is just local inference",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Yes.** Local AI is production-ready",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Sovereign Intelligence Stack is used in production for autonomous research and expert fine-tuning",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Local AI** is running models on your hardware",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Local AI is a component of sovereign AI",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "1. **Read the [Model Is Not the Product](/blog/2026-07-03-the-model-is-not-the-product) post** — Research validation",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "2. **Read the [Loop Is the Product](/blog/2026-07-03-the-sovereign-intelligence-observatory) post** — Intelligence Observatory deep dive",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Model Is Not the Product](/blog/2026-07-03-the-model-is-not-the-product) — Research validation",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Loop Is the Product](/blog/2026-07-03-the-sovereign-intelligence-observatory) — Intelligence Observatory deep dive",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://ollama.com/documentation",
+    "https://ollama.com/library",
+    "https://github.com/ollama/ollama",
+    "https://context-engineering.com",
+    "https://github.com/dair-ai/Prompt-Engineering-Guide",
+    "https://arxiv.org/abs/2305.xxxxx",
+    "https://github.com/kliewerdaniel/sovereign-intelligence-stack",
+    "https://github.com/kliewerdaniel/sovereign-intelligence-stack/blob/main/README.md",
+    "https://github.com/kliewerdaniel/sovereign-intelligence-stack/blob/main/examples/sovereign_stack_demo.py",
+    "https://ollama.com/quickstart",
+    "https://github.com/kliewerdaniel/sovereign-intelligence-stack",
+    "https://ollama.com/documentation",
+    "https://github.com/ollama/ollama",
+    "https://context-engineering.com",
+    "https://github.com/dair-ai/Prompt-Engineering-Guide",
+    "https://github.com/kliewerdaniel/sovereign-intelligence-stack",
+    "https://github.com/kliewerdaniel/sovereign-memory-bank",
+    "https://github.com/kliewerdaniel/dynamic-persona-moe-rag",
+    "https://github.com/kliewerdaniel/objective05",
+    "https://github.com/kliewerdaniel/sovereignspec",
+    "https://github.com/kliewerdaniel/sovereign-intelligence-stack",
+    "https://github.com/ollama/ollama",
+    "https://github.com/kliewerdaniel/sovereign-memory-bank",
+    "https://github.com/kliewerdaniel/dynamic-persona-moe-rag",
+    "https://github.com/kliewerdaniel/sovereignspec",
+    "https://www.amazon.com/Sovereign-AI-Architectural-Investigation-Local-First/dp/xxx"
+  ],
+  "related_artifacts": [
+    "2026-07-05-getting-started-sovereign-ai",
+    "2026-07-05-sovereign-ai-architecture-synthesis",
+    "2026-07-04-sovereign-intelligence-stack",
+    "2026-07-03-the-model-is-not-the-product",
+    "2026-07-02-building-autonomous-sovereign-ai-with-autoresearch-loops-and-fine-tuned-expert-models",
+    "2026-07-03-the-sovereign-intelligence-observatory",
+    "2026-07-02-context-engineering-the-real-full-stack-development-paradigm",
+    "2026-07-05-retrieval-architecture-synthesis"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-07-05-local-ai-architecture-synthesis.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "f2b9b45d12bdde2db4acd8815997127c306e545201ef51ebc8a8f19d0ad7244b",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

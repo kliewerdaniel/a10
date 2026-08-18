@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "id": "2026-03-17-building-a-private-knowledge-graph-with-local-ai-agents",
+  "title": "Building a Private Knowledge Graph with Local AI Agents",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-03-17",
+  "updated_at": "2026-03-17",
+  "canonical_url": "/blog/2026-03-17-building-a-private-knowledge-graph-with-local-ai-agents",
+  "content_hash": "sha256:3d09d15890bcd156a7468528fa90bb37c16c17c8379b13b3e339279827cdb8b4",
+  "topics": [
+    "ai",
+    "knowledge-representation",
+    "local-ai",
+    "data-sovereignty",
+    "vector-database",
+    "mistral-vibe",
+    "privacy"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "private knowledge graph",
+    "data sovereignty",
+    "mistral vibe",
+    "cloud dependence most",
+    "fully local knowledge infrastructure",
+    "architecture overview",
+    "knowledge graph structure the",
+    "subreddits users",
+    "subreddits messages",
+    "conversations content",
+    "vector database each",
+    "sentence transformers",
+    "local agent integration mistral",
+    "implementation details",
+    "knowledge graph structure",
+    "knowledge graph",
+    "index structure the",
+    "query examples",
+    "graph queries",
+    "vector queries",
+    "performance characteristics",
+    "full data sovereignty",
+    "offline capabilities",
+    "private research",
+    "corporate knowledge",
+    "personal knowledge management",
+    "setting up your own",
+    "local knowledge base",
+    "adding content",
+    "creating vector embeddings",
+    "ecosystems this",
+    "hardware requirements",
+    "model selection",
+    "data organization"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-06-30-amis-in-action-autonomous-marketing-knowledge-graph",
+      "weight": 0.0426,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-29-sovereign-synthesis",
+      "weight": 0.0341,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-01-22-image-to-book",
+      "weight": 0.0227,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-07-06-demystifying-large-language-models",
+      "weight": 0.0217,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-12-autonomous-ai-agents-developer-portfolio",
+      "weight": 0.0192,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-25-synthetic-intelligence",
+      "weight": 0.0179,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-29-architecture-of-autonomy",
+      "weight": 0.0172,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-06-01-objective03-local-news-agency",
+      "weight": 0.0167,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "The Future of Data Sovereignty is Local",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "3. **Vendor lock-in**: Your knowledge is tied to specific platforms",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This setup represents the future of AI-assisted work:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The tools are here",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The models are capable",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2026-06-30-amis-in-action-autonomous-marketing-knowledge-graph",
+    "2026-03-29-sovereign-synthesis",
+    "2025-01-22-image-to-book",
+    "2025-07-06-demystifying-large-language-models",
+    "2026-01-12-autonomous-ai-agents-developer-portfolio",
+    "2026-01-25-synthetic-intelligence",
+    "2026-03-29-architecture-of-autonomy",
+    "2026-06-01-objective03-local-news-agency"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-03-17-building-a-private-knowledge-graph-with-local-ai-agents.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "3d09d15890bcd156a7468528fa90bb37c16c17c8379b13b3e339279827cdb8b4",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

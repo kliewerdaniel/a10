@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "id": "2026-03-28-sovereignty-manifesto",
+  "title": "The Sovereignty Manifesto: Why Local Data is the Last Bastion of Human Agency",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-03-28",
+  "updated_at": "2026-03-28",
+  "canonical_url": "/blog/2026-03-28-sovereignty-manifesto",
+  "content_hash": "sha256:548813a886bf904e6242d96cdcefb22729224cfd86854207bca9a5676e489c9c",
+  "topics": [
+    "ai",
+    "data-sovereignty",
+    "local-ai",
+    "human-agency",
+    "privacy",
+    "open-source",
+    "governance"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "sovereignty manifesto",
+    "local data",
+    "last bastion",
+    "human agency",
+    "executive summary we",
+    "great illusion",
+    "inevitability walk",
+    "governance mirage enter",
+    "execution path problem",
+    "data sovereignty",
+    "forgotten foundation",
+    "is data sovereignty",
+    "historical context",
+    "central to",
+    "sovereignty deficit the",
+    "beyond centralization the",
+    "proximity at",
+    "technical case",
+    "sovereignty stack imagine",
+    "control boundary",
+    "governance lives",
+    "implementing control boundaries how",
+    "colorado example the",
+    "local governance model",
+    "between open source",
+    "protected expression",
+    "sovereignty framework one",
+    "open source open",
+    "case against walled",
+    "gardens the",
+    "human agency stake",
+    "we stand",
+    "human agency what",
+    "agency the",
+    "sovereignty solution data",
+    "stakes what",
+    "path forward",
+    "technical roadmap what",
+    "economic roadmap at",
+    "policy roadmap at",
+    "cultural roadmap at",
+    "choice is ours",
+    "reader if",
+    "primary sources",
+    "colorado artificial intelligence",
+    "public sector act",
+    "technical references",
+    "philosophical foundations",
+    "daniel kliewer"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-06-14-sovereign-memory-bank",
+      "weight": 0.5,
+      "basis": "crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+      "weight": 0.0196,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+      "weight": 0.0192,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-22-if-the-loop-is-the-product",
+      "weight": 0.0182,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
+      "weight": 0.0179,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-23-rlhf-lab-business-plan",
+      "weight": 0.0172,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-building-the-scientific-question-compiler",
+      "weight": 0.0172,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-20-compile-time-intelligence-research-compiler-agent",
+      "weight": 0.0156,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "The Sovereignty Manifesto: Why Local Data is the Last Bastion of Human Agency",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "one of inevitability: that centralized, monolithic intelligence will sweep across the globe, optimizing everything from healthcare to governance, from art to the very fabric of human interaction. We are told this is progress",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "We are told resistance is futile",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This essay argues that data sovereignty—the right of individuals and communities to control their own data, their own algorithms, and their own digital destiny— is not merely a policy preference but the essential foundation for human agency in the age of artificial intelligence",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The dominant narrative of centralized AI governance, with its focus on telemetry, post-hoc monitoring, and corporate stewardship, is a mirage",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "True governance requires **control boundaries** embedded within the execution path itself, not observation from the outside",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "And the only place where such boundaries can be meaningfully enforced is **locally**—on the devices we carry, in the communities we inhabit, and within the systems we build for ourselves",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "What follows is a synthesis of technical analysis, philosophical argument, and practical prescription",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "It is written for engineers, architects, and thinkers who recognize that the future of AI is not a given, but a choice—and that the choice matters more than we've been led to believe",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Walk into any tech conference, open any industry newsletter, or scroll through any AI-focused social media feed, and you will encounter the same refrain: **AI is the future, and it is coming whether we like it or not",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The language is seductive",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Transformative.\" \"Disruptive.\" \"Paradigm-shifting.\" These are not neutral descriptors; they are incantations designed to evoke awe and surrender",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "dominant narrative positions AI as a force of nature, an unstoppable tide that will reshape society in its image. The companies building these systems—Google, Meta, OpenAI, Anthropic, and their ilk— are framed as stewards, benevolent architects of a smarter world",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Their products are presented as public goods, their algorithms as objective arbiters of truth and efficiency",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "But this narrative obscures a critical reality: **AI is not a force of nature",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "It is a product.** And like any product, it is designed to serve the interests of its creators",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The question of who controls AI—and how— is not a technical detail",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Enter the concept of **AI governance**. In the past few years, this term has become ubiquitous in policy circles, corporate boardrooms, and academic conferences. Governance, we are told, is the answer to the risks posed by AI",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "It is the framework that will ensure these systems are safe, fair, and aligned with human values",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "In most cases, it means **telemetry**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Telemetry is the practice of monitoring and collecting data about system behavior",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is not governance. This is **observation**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "True governance requires **intervention**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "It requires the ability to shape the decision-making process before the decision is made, not just to evaluate it afterward",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "But telemetry, by its nature, is passive",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2026-06-14-sovereign-memory-bank",
+    "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+    "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+    "2026-07-22-if-the-loop-is-the-product",
+    "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
+    "2024-11-23-rlhf-lab-business-plan",
+    "2026-07-23-building-the-scientific-question-compiler",
+    "2026-07-20-compile-time-intelligence-research-compiler-agent"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-03-28-sovereignty-manifesto.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "548813a886bf904e6242d96cdcefb22729224cfd86854207bca9a5676e489c9c",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

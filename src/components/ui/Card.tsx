@@ -8,7 +8,7 @@ interface CardProps {
 }
 
 export function Card({ children, className = '', hover = true, href }: CardProps) {
-  const base = `card-pointillist p-6 ${className}`;
+  const base = `${hover ? 'card-ed' : 'card-ed'} p-7 ${className}`;
 
   if (href) {
     return <Link href={href} className={`${base} block`}>{children}</Link>;
@@ -17,16 +17,16 @@ export function Card({ children, className = '', hover = true, href }: CardProps
 }
 
 export function Badge({ children, color = 'green', className = '' }: { children: React.ReactNode; color?: 'green' | 'pink' | 'orange' | 'yellow' | 'ink'; className?: string }) {
-  const colors = {
-    green: 'bg-green/10 text-green border-2 border-ink',
-    pink: 'bg-pink/10 text-pink border-2 border-ink',
-    orange: 'bg-orange/10 text-orange border-2 border-ink',
-    yellow: 'bg-yellow/10 text-ink border-2 border-ink',
-    ink: 'bg-ink text-cream border-2 border-ink',
+  const colors: Record<string, string> = {
+    green: 'text-[var(--color-green)] border-[var(--color-green)]',
+    pink: 'text-[var(--color-pink)] border-[var(--color-pink)]',
+    orange: 'text-[var(--color-orange)] border-[var(--color-orange)]',
+    yellow: 'text-[var(--color-yellow)] border-[var(--color-yellow)]',
+    ink: 'text-[var(--color-ink)] border-[var(--color-ink)]',
   };
 
   return (
-    <span className={`inline-flex items-center px-2.5 py-0.5 font-bold text-xs ${colors[color]} ${className}`}>
+    <span className={`inline-flex items-center px-2.5 py-0.5 font-mono text-[0.6rem] tracking-[0.14em] uppercase border ${colors[color]} ${className}`}>
       {children}
     </span>
   );

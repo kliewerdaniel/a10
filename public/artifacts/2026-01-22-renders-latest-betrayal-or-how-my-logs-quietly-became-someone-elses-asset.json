@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "id": "2026-01-22-renders-latest-betrayal-or-how-my-logs-quietly-became-someone-elses-asset",
+  "title": "Render's Latest Betrayal: Or How My Logs Quietly Became Someone Else's Asset",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-01-22",
+  "updated_at": "2026-01-22",
+  "canonical_url": "/blog/2026-01-22-renders-latest-betrayal-or-how-my-logs-quietly-became-someone-elses-asset",
+  "content_hash": "sha256:f2462c913d36d6eb914d6f4d5f9ffdcf4addb3c282b010c77339ce021b68836d",
+  "topics": [
+    "render",
+    "data-privacy",
+    "cloud-computing",
+    "ai-development",
+    "logs"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "latest betrayal",
+    "how my logs",
+    "quietly became someone",
+    "actually happening render",
+    "comfort blanket they",
+    "is personal",
+    "like it",
+    "is how it",
+    "always goes this",
+    "so what now"
+  ],
+  "relationships": [],
+  "claims": [
+    {
+      "text": "Subprocessor. A word designed to dull the nervous system. A word that means your data now belongs to another entity, but said gently enough that you’re supposed to nod and move on",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "I’ve been using Render because it’s been the least painful compromise between control and convenience. AWS is psychological warfare",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Render says this is about improving log search performance across the dashboard, API, and CLI",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "My application logs — request metadata, execution traces, failure states, timing data — are now being ingested, indexed, and persisted by ClickHouse",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "And before anyone says “it’s just logs”: if you build AI systems, logs are not trivia",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "They are behavior. They are memory",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Data Residency” Is a Comfort Blanket",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Geography doesn’t protect you from process. Jurisdiction doesn’t matter when the risk surface is code paths, access controls, internal tooling, and human beings with credentials",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "ClickHouse is impressive tech",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "AI development isn’t just shipping CRUD apps. My logs are not anonymized telemetry from a weather widget",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "These systems are extensions of cognition",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This change requires no action on your part",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "4.\tRecognition that developer data is IP — not just operational exhaust",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "If you’re building AI systems, understand this: the cloud is not neutral",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "It never was. Every convenience is a trade",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "And predictability, at this stage of the game, is the real danger",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [],
+  "provenance": {
+    "source": "content/blog/2026-01-22-renders-latest-betrayal-or-how-my-logs-quietly-became-someone-elses-asset.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "f2462c913d36d6eb914d6f4d5f9ffdcf4addb3c282b010c77339ce021b68836d",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

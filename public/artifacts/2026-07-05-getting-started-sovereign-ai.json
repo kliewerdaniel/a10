@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "id": "2026-07-05-getting-started-sovereign-ai",
+  "title": "Getting Started with Sovereign AI: Your First Recipe",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-07-05",
+  "updated_at": "2026-07-05",
+  "canonical_url": "/blog/2026-07-05-getting-started-sovereign-ai",
+  "content_hash": "sha256:75729434a4c4364806b20c40e606249190a8a39a2e454e57be66f2045384d619",
+  "topics": [
+    "local-first-ai",
+    "getting-started",
+    "local-first",
+    "recipe-compilation",
+    "signal-routing",
+    "autonomous-evaluation",
+    "beginner-guide"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "first recipe",
+    "executive summary this",
+    "sovereign intelligence stack",
+    "key concepts",
+    "recipe compilation",
+    "signal routing",
+    "autonomous evaluation",
+    "get started",
+    "capture your first recipe",
+    "full pipeline",
+    "run autonomous evaluation",
+    "intelligence observatory",
+    "start here",
+    "is not",
+    "intermediate readers",
+    "advanced readers",
+    "sovereign intelligence",
+    "model is not",
+    "loop is",
+    "autonomous sovereign",
+    "related repositories",
+    "research papers",
+    "context diffusion language"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-07-05-local-ai-architecture-synthesis",
+      "weight": 0.8095,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-retrieval-architecture-synthesis",
+      "weight": 0.7222,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-sovereign-ai-architecture-synthesis",
+      "weight": 0.6538,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-03-the-model-is-not-the-product",
+      "weight": 0.6094,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-04-sovereign-intelligence-stack",
+      "weight": 0.602,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-02-building-autonomous-sovereign-ai-with-autoresearch-loops-and-fine-tuned-expert-models",
+      "weight": 0.5602,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-03-the-sovereign-intelligence-observatory",
+      "weight": 0.55,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-22-dynamic-persona-moe-rag",
+      "weight": 0.5,
+      "basis": "crosslink"
+    }
+  ],
+  "claims": [
+    {
+      "text": "This post is a beginner on-ramp — it defines terms and walks you through your first recipe capture",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "recipe in five steps using the Sovereign Intelligence Stack. If the [Sovereign AI Architecture pillar](/blog/2026-07-05-sovereign-ai-architecture-synthesis) is the full five-layer reference, this is the page you read first — no prerequisites, no code dumps, just the mental model you need before you start building",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "What sovereign AI is (and isn't)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Sovereign AI is the idea that **intelligence is not the model",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Intelligence is the accumulated decisions that shaped the model",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The model is just a snapshot of past decisions",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The loop is what keeps accumulating",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Systems that don't capture decisions are building castles on sand",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Compounding intelligence requires capture, evaluation, and storage",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "What Sovereign AI Is NOT",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Not just local LLMs** — Local LLMs are a component, not the whole system",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Not just agent frameworks** — Agent frameworks are tools, not architecture",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Not just RAG** — RAG is retrieval, not intelligence",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Not just prompts** — Prompts are inputs, not decisions",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Why it matters:** Not all tasks are created equal",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Why it matters:** Without evaluation, you have no way to know if your system is improving or degrading",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "2. **Read the [Model Is Not the Product](/blog/2026-07-03-the-model-is-not-the-product) post** — Research validation and convergence",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "1. **Read the [Loop Is the Product](/blog/2026-07-03-the-sovereign-intelligence-observatory) post** — Intelligence Observatory deep dive",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "No. Local LLMs are a component",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Sovereign AI is the entire architecture: capture, route, evaluate, store, observe",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "No. The stack works with any model provider (OpenAI, Anthropic, local LLMs, etc.). Ollama is just one option",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Yes. The stack is open-source (MIT license)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Model Is Not the Product](/blog/2026-07-03-the-model-is-not-the-product) — Research validation",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Loop Is the Product](/blog/2026-07-03-the-sovereign-intelligence-observatory) — Companion post",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Model Is Not the Product](/blog/2026-07-03-the-model-is-not-the-product)",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/sovereign-intelligence-stack",
+    "https://github.com/kliewerdaniel/sovereign-intelligence-stack",
+    "https://github.com/kliewerdaniel/sovereign-memory-bank",
+    "https://github.com/kliewerdaniel/dynamic-persona-moe-rag",
+    "https://github.com/kliewerdaniel/objective05",
+    "https://github.com/kliewerdaniel/sovereignspec",
+    "https://arxiv.org/abs/2601.22954",
+    "https://github.com/sgl-project/sglang",
+    "https://github.com/coleam00/context-engineering-intro",
+    "https://github.com/ecc-ai/enterprise-code-compiler",
+    "https://github.com/anthropics/claude-memory",
+    "https://github.com/crewAIInc/crewAI",
+    "https://github.com/",
+    "https://github.com/microsoft/graphrag",
+    "https://github.com/kliewerdaniel/sovereign-intelligence-stack",
+    "https://github.com/kliewerdaniel/sovereign-memory-bank",
+    "https://github.com/kliewerdaniel/dynamic-persona-moe-rag",
+    "https://github.com/kliewerdaniel/objective05",
+    "https://github.com/kliewerdaniel/sovereignspec"
+  ],
+  "related_artifacts": [
+    "2026-07-05-local-ai-architecture-synthesis",
+    "2026-07-05-retrieval-architecture-synthesis",
+    "2026-07-05-sovereign-ai-architecture-synthesis",
+    "2026-07-03-the-model-is-not-the-product",
+    "2026-07-04-sovereign-intelligence-stack",
+    "2026-07-02-building-autonomous-sovereign-ai-with-autoresearch-loops-and-fine-tuned-expert-models",
+    "2026-07-03-the-sovereign-intelligence-observatory",
+    "2026-01-22-dynamic-persona-moe-rag"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-07-05-getting-started-sovereign-ai.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "75729434a4c4364806b20c40e606249190a8a39a2e454e57be66f2045384d619",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

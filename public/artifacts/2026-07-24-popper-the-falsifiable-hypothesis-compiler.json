@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "id": "2026-07-24-popper-the-falsifiable-hypothesis-compiler",
+  "title": "Popper: Making the Hypothesis Compiler Falsifiable — Rediscovery Benchmarks, Negative Controls, and the Move From Plausible to Provable",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-07-24",
+  "updated_at": "2026-07-24",
+  "canonical_url": "/blog/2026-07-24-popper-the-falsifiable-hypothesis-compiler",
+  "content_hash": "sha256:636a6b3b8e8279b9f95a7f3d5846e41dcb6c31452e272f46be24f0f84b6da4dc",
+  "topics": [
+    "ai-agents",
+    "compile-time-ai",
+    "knowledge-compiler",
+    "local-first-ai",
+    "scientific-discovery",
+    "falsifiability"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "scientific question",
+    "state compiler",
+    "karl popper",
+    "source code",
+    "tests popper",
+    "so popper"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-07-25-does-the-hypothesis-compiler-generalize-orkg",
+      "weight": 0.5,
+      "basis": "crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-the-next-experiment-grounded-and-quantitative",
+      "weight": 0.2,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-the-loop-closes-itself",
+      "weight": 0.1538,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-the-scientific-state-compiler-pass-4",
+      "weight": 0.0909,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-the-scientific-state-compiler-roadmap",
+      "weight": 0.0244,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "surviving scale is not the same as being correct",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "scales has proven it is robust",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "It has not proven it is *right*",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "So this experiment is not about adding features",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Large language models are extraordinarily good at producing plausible",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "narratives. That is exactly the danger",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The name of this iteration says what changed. It is called **Popper**, after",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Karl Popper, whose criterion of falsifiability is the spine of the whole design",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "A hypothesis is a compiled artifact",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "hypothesis is admitted only if it is **structurally falsifiable**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Miss any of these and it is not a stylistic lapse",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "non-empty list is not falsifiable by construction",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "can be killed by an experiment. Only one of those is science",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The quantitative prediction is the sharpest upgrade",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The system is no longer",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "measurable change of *this size* in Y\" — even when the number is uncertain",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "uncertain prediction is falsifiable",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "A vague gesture is not",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The point of this project is not the claim \"AI can generate hypotheses",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Everyone already knows that; it is not interesting",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The claim is narrower and",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "A claim only means something if it can fail",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "identical* corpus, so the only variable is the reasoning:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "If the compiler is not clearly above all three controls, the claim fails — and",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "that is a real, publishable result either way. That symmetry is the whole ethic",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/popper",
+    "https://popper-pied.vercel.app/"
+  ],
+  "related_artifacts": [
+    "2026-07-25-does-the-hypothesis-compiler-generalize-orkg",
+    "2026-07-23-the-next-experiment-grounded-and-quantitative",
+    "2026-07-23-the-loop-closes-itself",
+    "2026-07-23-the-scientific-state-compiler-pass-4",
+    "2026-07-23-the-scientific-state-compiler-roadmap"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-07-24-popper-the-falsifiable-hypothesis-compiler.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "636a6b3b8e8279b9f95a7f3d5846e41dcb6c31452e272f46be24f0f84b6da4dc",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

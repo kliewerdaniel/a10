@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "id": "2026-07-09-telemetry-intelligence-engine",
+  "title": "The Telemetry Intelligence Engine: A Local-First GraphRAG System for Website Analytics",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-07-10",
+  "updated_at": "2026-07-10",
+  "canonical_url": "/blog/2026-07-09-telemetry-intelligence-engine",
+  "content_hash": "sha256:c376a63274dd93c85abb03442a4d7a67923011a6e2f4f2f7b5fe6b7642853471",
+  "topics": [
+    "graphrag",
+    "local-first-ai",
+    "knowledge-graphs",
+    "analytics"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "intelligence engine",
+    "dynamic persona",
+    "raw telemetry",
+    "telemetry processor",
+    "behavioral graph vector database",
+    "search console",
+    "relationships the",
+    "article article",
+    "topic topic",
+    "project article",
+    "google search",
+    "ollama article",
+    "retrieval systems",
+    "local inference audience",
+    "researchers intent",
+    "knowledge graphs",
+    "semantic retrieval",
+    "relevant graph neighborhood",
+    "running local",
+    "apple silicon",
+    "project demo",
+    "telemetry intelligence report",
+    "new trends",
+    "visitor behavior changes",
+    "content opportunities",
+    "technical problems",
+    "recommended experiments"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-07-06-beyond-prompts",
+      "weight": 0.0286,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-25-building-the-synthetic-analyst",
+      "weight": 0.027,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-14-synthesizing-memory-with-agent",
+      "weight": 0.0208,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-22-dynamic-persona-moe-rag",
+      "weight": 0.02,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-29-architecture-of-autonomy",
+      "weight": 0.0196,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-06-01-objective03-local-news-agency",
+      "weight": 0.0189,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-10-how-to-run-your-own-ai-agent-openclaw-qwen-telegram",
+      "weight": 0.0179,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-06-14-sovereign-memory-bank-a-deep-dive-into-autonomous-cognitive-memory-for-agent-systems",
+      "weight": 0.0161,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "it matters* — which pieces of content are actually building toward something, which pathways are quietly leaking high-value visitors, and what I should write next to close the gap between what people are looking for and what I've actually published",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "That gap is a reasoning problem, not a reporting problem",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "And reasoning problems are exactly what local LLMs plus a knowledge graph are good at, provided you're willing to build the plumbing yourself instead of waiting for a SaaS dashboard to grow a brain",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "If you've been following the sovereign AI thread on this site, the pattern will be familiar: the information architecture — the graph, the audit trail, the relationships between entities — is the actual product",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The model is just the reasoning engine you point at it",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "What topics are attracting the highest-value visitors",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "What concepts are underrepresented compared to visitor interest",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "covers, to the conversion events (or lack thereof) that followed — and then reasoning over that structure. That's a graph traversal problem wrapped in a retrieval-augmented generation problem, which is precisely the combination GraphRAG architectures are built for",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "this article discusses this topic, this session viewed this page, this page leads to this conversion event. The vector store captures *semantic similarity* — which graph summaries and content chunks are conceptually close to a given question, even when no explicit edge connects them",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The initial data source is a GA4 export, normalized into a consistent event schema:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is deliberately the minimum viable schema. Search Console data, GitHub traffic analytics, newsletter open/click metrics, social referral data, server logs, and error telemetry are all planned as future ingestion sources, but the MVP doesn't need them to prove the architecture out",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Each document is parsed into a structured entity:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is the piece most analytics tools skip entirely — they know a URL got 1,200 views, but they have no model of what that URL is actually *about*, or how it relates conceptually to everything else you've published",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "That third category is the important one and the one most graph-based analytics prototypes leave out",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The edges are what turn a pile of nodes into something queryable:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Raw telemetry is not semantic",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "That \"because\" clause is worth keeping even in the MVP",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Keeping these three layers separate — rather than jumping straight from raw numbers to a recommendation — is what makes the system auditable",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "stored under  , e.g.  . The detail worth calling out: these reports are written back into the corpus and become RAG documents themselves",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Over time, the system isn't just analyzing telemetry against static content — it's analyzing telemetry against its own accumulated history of analysis, which is what makes the self-improving loop in Phase 5 possible instead of aspirational",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Phase 4 — Analyst agent.** Build the   with three capabilities: query analytics, explain trends, and generate recommendations. This is the first point where the system is actually answerable-to in natural language",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The bar isn't \"can it summarize my traffic.\" Standard dashboards already do that well enough. The bar is whether the system can produce something like this, unprompted, from the graph structure alone:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Visitors interested in local AI are not finding my business offerings",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://www.amazon.com/dp/B0H6RB7D9J"
+  ],
+  "related_artifacts": [
+    "2025-07-06-beyond-prompts",
+    "2026-01-25-building-the-synthetic-analyst",
+    "2026-07-14-synthesizing-memory-with-agent",
+    "2026-01-22-dynamic-persona-moe-rag",
+    "2026-03-29-architecture-of-autonomy",
+    "2026-06-01-objective03-local-news-agency",
+    "2026-03-10-how-to-run-your-own-ai-agent-openclaw-qwen-telegram",
+    "2026-06-14-sovereign-memory-bank-a-deep-dive-into-autonomous-cognitive-memory-for-agent-systems"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-07-09-telemetry-intelligence-engine.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "c376a63274dd93c85abb03442a4d7a67923011a6e2f4f2f7b5fe6b7642853471",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

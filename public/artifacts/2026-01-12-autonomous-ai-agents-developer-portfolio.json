@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "id": "2026-01-12-autonomous-ai-agents-developer-portfolio",
+  "title": "Autonomous AI Agents: Building Distributed Systems with Local LLMs - Developer Portfolio",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-01-12",
+  "updated_at": "2026-01-12",
+  "canonical_url": "/blog/2026-01-12-autonomous-ai-agents-developer-portfolio",
+  "content_hash": "sha256:174b698c473ebc79f03a2522584862589320f4a708d9bf7966f11d39a9de7eb6",
+  "topics": [
+    "autonomous-ai-agents",
+    "local-llm",
+    "ollama",
+    "mcp-protocol",
+    "graphrag",
+    "ai-development",
+    "distributed-agent-systems",
+    "computational-sovereignty",
+    "reinforcement-learning",
+    "rag-architecture"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "building distributed systems",
+    "developer portfolio",
+    "daniel kliewer",
+    "normalcy becomes impossible in",
+    "technical thesis my",
+    "core projects",
+    "deterministic code generation",
+    "sentence transformers",
+    "syntax tree",
+    "research assistant",
+    "core logic",
+    "local inference",
+    "uses reinforcement learning",
+    "human feedback",
+    "local python",
+    "coding agents",
+    "context protocol",
+    "portfolio strategy this",
+    "distributed agent"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2024-11-23-rlhf-lab-business-plan",
+      "weight": 0.0741,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-11-knowledge-compiler-compiling-human-knowledge-into-static-semantic-artifacts",
+      "weight": 0.0556,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+      "weight": 0.0476,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+      "weight": 0.0455,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-22-if-the-loop-is-the-product",
+      "weight": 0.04,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
+      "weight": 0.0385,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-14-recursive-research-compiler-knowledge-compiler-sdk",
+      "weight": 0.037,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-building-the-scientific-question-compiler",
+      "weight": 0.0357,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "When return to normalcy is impossible, how do you reorganize",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is a technical manifesto. It is a portfolio documenting how I applied constraint-driven development to build **Computational Sovereignty**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "My work on GitHub is unified by three core architectural principles:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "generative AI, SpecGen uses a **RAG-powered Architect Agent**. It consults a knowledge base of proven design patterns (FastAPI, Django, Next.js) to enforce best practices before a single line of code is written",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Impact:** Reduces project boilerplate time from hours to seconds, ensuring that every generated project is compilable, testable, and architecturally sound",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Problem:** Innovation in AI is often stalled by boilerplate",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Every new local AI tool requires the same tedious scaffolding: a reactive UI, a backend API to handle timeouts, and a connector for local inference",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Solution:** is a production-ready **full-stack starter template** designed specifically for local LLM development",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Why It Matters:** This repository represents the move from \"scripting\" to \"software engineering",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "It was the force multiplier that allowed me to rapidly prototype and deploy complex tools like the **GraphRAG Research Assistant** without starting from zero. It is the standardized chassis upon which my autonomous agents are built",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Problem:** AI \"personalities are usually defined by vague prompts (\"Be helpful,\" \"Be sarcastic\")",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Problem:** Personal journaling is vital for mental health, but traditional AI tools require sending your most private thoughts to the cloud",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "3. Analysis is appended to the entry metadata",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "4. Site is rebuilt and deployed",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This body of work represents a specific philosophy: **The future belongs to those who own their intelligence",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "I built these tools because I had to. When you have nothing, you build everything. These repositories are not just code; they are the reorganization of a life, compiled and deployed",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel",
+    "https://github.com/kliewerdaniel/specgen",
+    "https://github.com/kliewerdaniel/mcbot01",
+    "https://github.com/kliewerdaniel/PersonaGen",
+    "https://github.com/kliewerdaniel/insight-journal",
+    "https://github.com/kliewerdaniel/orthos",
+    "https://github.com/kliewerdaniel/specgen",
+    "https://github.com/kliewerdaniel/mcbot01",
+    "https://github.com/kliewerdaniel/PersonaGen",
+    "https://github.com/kliewerdaniel/orthos",
+    "https://github.com/kliewerdaniel/insight-journal",
+    "https://github.com/kliewerdaniel",
+    "https://danielkliewer.com"
+  ],
+  "related_artifacts": [
+    "2024-11-23-rlhf-lab-business-plan",
+    "2026-07-11-knowledge-compiler-compiling-human-knowledge-into-static-semantic-artifacts",
+    "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+    "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+    "2026-07-22-if-the-loop-is-the-product",
+    "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
+    "2026-07-14-recursive-research-compiler-knowledge-compiler-sdk",
+    "2026-07-23-building-the-scientific-question-compiler"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-01-12-autonomous-ai-agents-developer-portfolio.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "174b698c473ebc79f03a2522584862589320f4a708d9bf7966f11d39a9de7eb6",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "id": "2026-06-30-amis-in-action-autonomous-marketing-knowledge-graph",
+  "title": "AMIS in Action: Live Vercel Analytics to Autonomous Marketing Knowledge Graph",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-06-30",
+  "updated_at": "2026-06-30",
+  "canonical_url": "/blog/2026-06-30-amis-in-action-autonomous-marketing-knowledge-graph",
+  "content_hash": "sha256:4235688cd9009950eaee053f83fcaf11e7e8bdcfeb9dfc020f084ea61505048b",
+  "topics": [
+    "amis",
+    "local-first-ai",
+    "local-first",
+    "knowledge-representation",
+    "rag",
+    "agentic-systems",
+    "marketing-intelligence",
+    "vercel-analytics"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "live vercel analytics",
+    "autonomous marketing knowledge graph",
+    "marketing intelligence",
+    "experimental setup the",
+    "vercel web analytics",
+    "sentence transformers",
+    "test protocol",
+    "technical deep dive",
+    "this works",
+    "knowledge graph",
+    "central nervous system the",
+    "fundamentals the",
+    "analytics schema bridge",
+    "systems this",
+    "build your own to"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-03-17-building-a-private-knowledge-graph-with-local-ai-agents",
+      "weight": 0.0426,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-07-06-demystifying-large-language-models",
+      "weight": 0.037,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-12-autonomous-ai-agents-developer-portfolio",
+      "weight": 0.0303,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-25-synthetic-intelligence",
+      "weight": 0.027,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-29-architecture-of-autonomy",
+      "weight": 0.0256,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-26-deerflow-2-building-sovereign-ai-agent-systems",
+      "weight": 0.0233,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-28-architecture-as-autonomy",
+      "weight": 0.0233,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-02-15-building-this-blog",
+      "weight": 0.0222,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Markdown as Universal Interface**: Frontmatter + structured content enables deterministic ingestion",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://danielkliewer.com",
+    "https://github.com/kliewerdaniel/amis",
+    "https://www.amazon.com/dp/B0H6RB7D9J"
+  ],
+  "related_artifacts": [
+    "2026-03-17-building-a-private-knowledge-graph-with-local-ai-agents",
+    "2025-07-06-demystifying-large-language-models",
+    "2026-01-12-autonomous-ai-agents-developer-portfolio",
+    "2026-01-25-synthetic-intelligence",
+    "2026-03-29-architecture-of-autonomy",
+    "2026-03-26-deerflow-2-building-sovereign-ai-agent-systems",
+    "2026-03-28-architecture-as-autonomy",
+    "2026-02-15-building-this-blog"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-06-30-amis-in-action-autonomous-marketing-knowledge-graph.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "4235688cd9009950eaee053f83fcaf11e7e8bdcfeb9dfc020f084ea61505048b",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

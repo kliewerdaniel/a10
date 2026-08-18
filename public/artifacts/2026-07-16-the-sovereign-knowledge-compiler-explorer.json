@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "id": "2026-07-16-the-sovereign-knowledge-compiler-explorer",
+  "title": "The Sovereign Knowledge Compiler Explorer: A Recipe for Compiling Knowledge Into a Static, Living Artifact",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-07-16",
+  "updated_at": "2026-07-16",
+  "canonical_url": "/blog/2026-07-16-the-sovereign-knowledge-compiler-explorer",
+  "content_hash": "sha256:2a846cab2b427f2654e4dcf47e04569631b53881e8812fb5773ac67f747ecff3",
+  "topics": [
+    "ai-agents",
+    "memory",
+    "local-first-ai",
+    "compile-time-ai",
+    "knowledge-compiler",
+    "knowledge-representation",
+    "nextjs",
+    "vercel",
+    "static-export",
+    "reproducible-build"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "sovereign knowledge compiler",
+    "compiling knowledge into",
+    "living artifact most",
+    "knowledge compiler",
+    "human knowledge into static",
+    "recursive research compiler",
+    "compiled my blog into"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-07-14-recursive-research-compiler-knowledge-compiler-sdk",
+      "weight": 0.6429,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-15-compiling-my-blog-into-a-decision-graph",
+      "weight": 0.6,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-11-knowledge-compiler-compiling-human-knowledge-into-static-semantic-artifacts",
+      "weight": 0.54,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-12-compile-time-ai-knowledge-compiler-architecture",
+      "weight": 0.5,
+      "basis": "crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v01-local-first-incrementally-compiled-falsifiable-knowledge-system",
+      "weight": 0.1,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-20-compile-time-intelligence-research-compiler-agent",
+      "weight": 0.0952,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-15-sovereign-memory-bank-deepening-local-first-cognitive-memory",
+      "weight": 0.0625,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Most \"knowledge apps are interpreters wearing a UI",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "You ask a question, they embed it, hit a vector store, pull top-k chunks, and ask a model to re-reason the answer — on *every single query*. The reasoning cost is paid again and again, and nothing compounds",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The [Sovereign Knowledge Compiler Explorer](https://github.com/kliewerdaniel/sovereign-knowledge-compiler-explorer) is the opposite",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "It is a **static website** — 82 prerendered pages, served from a CDN — that contains **no model at runtime**. When you open a concept, the page already knows what it is , what it depends on, and where to go next",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This post is a **recipe**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Treat the project like a lab experiment you are reconstructing",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This did not appear fully formed. It is the fifth step in a line of reasoning that has been running on this blog for a week",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "just scraped prose), and emit a curriculum — a structured, prerequisite-ordered map of concepts — then serve it as a **fully static, prerendered site** with **zero runtime inference**. The artifact is not just visualized; it is *navigable as a website*",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The thread is unbroken: *reason once, emit static, let the runtime be cheap, keep it sovereign and inspectable",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Explorer is the version where \"static artifact means a website a human can read and descend through,\" not just \"a JSON file a graph reads",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Explorer is two layers:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "2. **A static Next.js explorer app** that consumes that artifact. Every concept page is prerendered at build time",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Navigation, the knowledge graph, search, and learning paths are all computed from the artifact",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Zero gaps means the compiler proved the prerequisite DAG is acyclic and every concept is reachable — a guarantee no RAG system gives you",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The key move: **the compiler and the app are decoupled by a static file boundary",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Everything flows through one contract.   carries  ,  ,  ,  ,   (what_is_it / why_exists / how_it_works / edge_cases),  ,  ,  ,  .   carries  ,  ,  ,  . The IR is the stable anchor — change the UI or the passes, but never break the contract, or the build refuses",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "as edge *types* ( ,  , …). A scheduler topologically sorts them (Kahn's algorithm) so a pass never runs before its inputs exist. If the graph of passes has a cycle, the build fails loudly. This is the \"honesty guard\": the system cannot produce a silently-wrong artifact",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Pass 01–08 run with **no model**: ingest, normalize, extract-from-specs, link, infer prerequisites, optimize the curriculum, emit. A model is *optional* enrichment (pass 03 can distill facts from blog prose if a local LLM is available)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "If none is present, the build still succeeds and emits the declared curriculum",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The emitter writes  ,  ,  , and  . Each file is hashed into a",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Content-addressing means a changed corpus produces changed hashes — you can see exactly what a corpus edit moved, and you can diff artifacts in git (even though the build output itself is gitignored)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Crucially, the frontend is a **consumer**, not a participant",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The artifact is gitignored (it is derived, not source)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is the single most important deployment detail: **on Vercel, the corpus and compiler travel with the app, and the artifact is rebuilt from them at build time",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Nothing is hand-authored; the site is the compiled corpus",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/sovereign-knowledge-compiler-explorer",
+    "https://skce-explorer.vercel.app/",
+    "https://github.com/kliewerdaniel/sovereign-knowledge-compiler-explorer",
+    "https://github.com/kliewerdaniel/sovereign-knowledge-compiler-explorer",
+    "https://skce-explorer.vercel.app/"
+  ],
+  "related_artifacts": [
+    "2026-07-14-recursive-research-compiler-knowledge-compiler-sdk",
+    "2026-07-15-compiling-my-blog-into-a-decision-graph",
+    "2026-07-11-knowledge-compiler-compiling-human-knowledge-into-static-semantic-artifacts",
+    "2026-07-12-compile-time-ai-knowledge-compiler-architecture",
+    "2026-08-09-hermes-atlas-v01-local-first-incrementally-compiled-falsifiable-knowledge-system",
+    "2026-07-20-compile-time-intelligence-research-compiler-agent",
+    "2026-07-15-sovereign-memory-bank-deepening-local-first-cognitive-memory"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-07-16-the-sovereign-knowledge-compiler-explorer.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "2a846cab2b427f2654e4dcf47e04569631b53881e8812fb5773ac67f747ecff3",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

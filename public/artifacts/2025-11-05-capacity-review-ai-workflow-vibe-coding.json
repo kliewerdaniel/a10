@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "id": "2025-11-05-capacity-review-ai-workflow-vibe-coding",
+  "title": "Capacity Review: The AI Workflow Engine That Actually Understands Vibe Coding (2025)",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-11-05",
+  "updated_at": "2025-11-05",
+  "canonical_url": "/blog/2025-11-05-capacity-review-ai-workflow-vibe-coding",
+  "content_hash": "sha256:3d54b447e2ad0074578549dcea03c341facf805c3b139a6db13247739095578e",
+  "topics": [
+    "capacity-review",
+    "ai-workflow-automation",
+    "vibe-coding-tools",
+    "document-driven-development",
+    "ai-automation-platform",
+    "workflow-optimization",
+    "capacity-so",
+    "ai-agent-tools",
+    "productivity-automation",
+    "ai-coding-assistant"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "capacity review",
+    "workflow engine that actually",
+    "understands vibe coding look",
+    "capacity actually is",
+    "most people get",
+    "core features that",
+    "actually matter let",
+    "workflow automation",
+    "workflow automation that respects",
+    "knowledge base integration that",
+    "google docs",
+    "integrations that handle",
+    "prompt engineering that persists",
+    "version control",
+    "collaboration that makes sense",
+    "custom agents",
+    "persistent memory",
+    "knowledge base",
+    "this changes",
+    "development alright",
+    "platform features",
+    "workflow templates that",
+    "immediately pay off let",
+    "documentation analysis",
+    "documentation sync",
+    "test scenario generation",
+    "security audit",
+    "compliance reporting",
+    "documentation generation",
+    "you need",
+    "know before committing alright",
+    "learning curve reality check",
+    "cost considerations capacity",
+    "integration limitations despite",
+    "model dependency",
+    "honest comparison",
+    "custom python scripts",
+    "real talk",
+    "who should actually use",
+    "good fit if",
+    "probably not",
+    "should definitely try",
+    "migration strategy that",
+    "actually works if",
+    "document driven development",
+    "bottom line",
+    "whether you should",
+    "try it yourself",
+    "frequently asked questions",
+    "is capacity"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-01-23-building-a-multimodal-story-generation-system",
+      "weight": 0.0161,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-16-from-fragmented-experiments-to-cognitive-synthesis",
+      "weight": 0.0135,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-21-learn-programming-computer-science-youtube-roadmap",
+      "weight": 0.013,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-05-02-autodata-ram-ecosystem",
+      "weight": 0.0122,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-05-how-to-build-an-ai-study-system-that-actually-works-citizens-replace-your-broken-pdf-tools",
+      "weight": 0.012,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-13-simulacra",
+      "weight": 0.0087,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-05-sovereign-ai-architecture-synthesis",
+      "weight": 0.0086,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-03-the-revolution-will-be-documented",
+      "weight": 0.0085,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "burned too many times by platforms that sound incredible in demos but fall apart the moment you try to do something they didn't anticipate. The graveyard of \"game-changing\" SaaS tools I've abandoned is embarrassingly large",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "What Capacity Actually Is (And Why Most People Get It Wrong)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Capacity is what happens when you take that philosophy and bake it directly into the tooling",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "What it actually means :** You can craft, test, version, and share prompts that work—and you never have to rewrite them from scratch",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Here's a truth about working with AI: **most of the value comes from figuring out exactly how to ask for what you want**. The problem is that this knowledge is ephemeral",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is *especially* valuable for document-driven development because the prompts you need are specific and nuanced",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": ", not just \"save a copy\" functionality. You can branch workflows, test changes in isolation, and merge when you're confident. It's collaborative development for automation, which sounds obvious but is shockingly rare in the automation tool space",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "is that you do a ton of upfront work creating specifications, but then you still have to *implement* everything based on those specs. You've articulated what needs to happen, but execution is still manual and error-prone",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Every new project means rebuilding your prompting strategy",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Why it matters:** Documentation review is tedious but critical",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Why it matters:** Documentation drift is real",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Why it matters:** Security compliance is non-negotiable but tedious",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Why it matters:** API documentation that's out of sync with implementation is worse than no documentation",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Alright, I've spent enough time on the positives. Let's talk about the actual constraints and considerations, because no tool is perfect, and pretending otherwise is dishonest",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Capacity isn't ChatGPT with a nicer interface. It's a platform for building automation, which means **you need to actually learn how to use it effectively**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is normal. This is how you learn any serious tool",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Capacity isn't cheap. The pricing model is based on usage, which makes sense but can be unpredictable if you're building heavy automation",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "That depends entirely on what your time is worth and how much repetitive cognitive work you're doing",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Despite the impressive API integration capabilities, there are still some tools that are difficult to integrate cleanly",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Capacity's value is deeply tied to the quality of underlying AI models",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The truth:** Zapier is cheaper and easier for simple stuff",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Capacity is worth it when you need actual intelligence in your automation",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The truth:** Writing custom scripts gives you complete control but poor scalability. Capacity workflows are easier to share and maintain but less flexible for truly custom logic",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The truth:** These are different tools for different jobs",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "4. **You value time over money** in the specific sense that spending $X/month to save 10+ hours is worth it",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://capacity.so/?via=daniel",
+    "https://danielkliewer.com"
+  ],
+  "related_artifacts": [
+    "2025-01-23-building-a-multimodal-story-generation-system",
+    "2026-01-16-from-fragmented-experiments-to-cognitive-synthesis",
+    "2025-10-21-learn-programming-computer-science-youtube-roadmap",
+    "2026-05-02-autodata-ram-ecosystem",
+    "2025-11-05-how-to-build-an-ai-study-system-that-actually-works-citizens-replace-your-broken-pdf-tools",
+    "2025-03-13-simulacra",
+    "2026-07-05-sovereign-ai-architecture-synthesis",
+    "2025-11-03-the-revolution-will-be-documented"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-11-05-capacity-review-ai-workflow-vibe-coding.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "3d54b447e2ad0074578549dcea03c341facf805c3b139a6db13247739095578e",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

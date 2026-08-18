@@ -1,6 +1,5 @@
 ---
-author: Daniel Kliewer
-canonical_url: /blog/sovereign-ai-architecture-synthesis
+canonical_url: /blog/2026-07-05-local-ai-architecture-synthesis
 date: 07-05-2026
 description: "Your practical guide to running AI on your own hardware. Ollama setup, model selection, hardware requirements from $2K to $50K, and wiring local inference into a sovereign pipeline."
 image: /images/ComfyUI_00207_.png

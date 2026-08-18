@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "id": "2024-10-18-building-a-full-stack-application-with-django-and-react",
+  "title": "Complete Full-Stack AI Persona Generator: Django REST API + React Frontend with Ollama Integration",
+  "author": "Daniel Kliewer",
+  "created_at": "2024-10-18",
+  "updated_at": "2024-10-18",
+  "canonical_url": "/blog/2024-10-18-building-a-full-stack-application-with-django-and-react",
+  "content_hash": "sha256:738df21ff42cb1fa8804826c402ca2239c733d8f4c33da80e2bc31375cdd739d",
+  "topics": [
+    "django",
+    "react",
+    "ai",
+    "ollama",
+    "llm",
+    "persona",
+    "tutorial",
+    "python",
+    "typescript",
+    "rest-api",
+    "full-stack",
+    "web-development"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "guide in",
+    "django project first",
+    "configuring settings update",
+    "defining models create",
+    "creating serializers define",
+    "writing utility functions create",
+    "writing sample",
+    "status code",
+    "response status",
+    "response body",
+    "building views create",
+    "react app ensure",
+    "configuring axios create",
+    "building components create",
+    "component allows",
+    "component displays",
+    "generate content",
+    "integrating react router set",
+    "setting up ollama",
+    "installing ollama first",
+    "model once ollama",
+    "running ollama ollama",
+    "model to",
+    "integrating ollama",
+    "django now",
+    "configuring environment variables create",
+    "function modify",
+    "integration restart",
+    "application now",
+    "backend in",
+    "frontend in",
+    "saved personas",
+    "blog posts",
+    "ollama starts"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-03-09-nextjs-ollama-custom-agent-framework",
+      "weight": 0.0323,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-09-mastra-ollama-nextjs",
+      "weight": 0.0308,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-10-09-how-to-build-a-persona-based-blog-post-generator-with-large-language-models",
+      "weight": 0.029,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-27-reddit-blog-generator",
+      "weight": 0.0247,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-04-deep-fake",
+      "weight": 0.0238,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-10-22-integrating-django-react-ollama-with-xai-api",
+      "weight": 0.0217,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-12-openai-agents-sdk-ollama-integration",
+      "weight": 0.0149,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-10-04-detailed-description-of-insight-journal",
+      "weight": 0.0034,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Once Ollama is installed, you can download the   model:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Note:** If is not available, replace it with the latest version of the Llama model supported by Ollama, such as",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This will start the server on  , which is the default API endpoint for Ollama",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "To ensure everything is set up correctly, test the model using the Ollama CLI:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Now that Ollama is running with the   model, we'll integrate it into our Django application",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ensure that is set up in your Django settings:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ensure that Ollama is running and the   model is loaded",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Note: Replace   with the appropriate model name if is not available or if you are using a different model supported by Ollama",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/Django-React-Ollama-Integration",
+    "https://ollama.ai/",
+    "https://brew.sh/",
+    "https://ollama.ai/docs",
+    "https://docs.djangoproject.com/en/5.1/",
+    "https://reactjs.org/docs/getting-started.html",
+    "https://docs.python-requests.org/en/latest/"
+  ],
+  "related_artifacts": [
+    "2025-03-09-nextjs-ollama-custom-agent-framework",
+    "2025-03-09-mastra-ollama-nextjs",
+    "2024-10-09-how-to-build-a-persona-based-blog-post-generator-with-large-language-models",
+    "2024-11-27-reddit-blog-generator",
+    "2024-11-04-deep-fake",
+    "2024-10-22-integrating-django-react-ollama-with-xai-api",
+    "2025-03-12-openai-agents-sdk-ollama-integration",
+    "2024-10-04-detailed-description-of-insight-journal"
+  ],
+  "provenance": {
+    "source": "content/blog/2024-10-18-building-a-full-stack-application-with-django-and-react.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "738df21ff42cb1fa8804826c402ca2239c733d8f4c33da80e2bc31375cdd739d",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

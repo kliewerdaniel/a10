@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "id": "2025-07-08-ai-ssr-guide",
+  "title": "Complete Guide: Building Server-Side Rendered AI Applications with Next.js and Large Language Models",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-07-08",
+  "updated_at": "2025-07-08",
+  "canonical_url": "/blog/2025-07-08-ai-ssr-guide",
+  "content_hash": "sha256:bbc31e1ef543cc377d319be30c1fde1e6991bc8f669072139000ec93ef4a1253",
+  "topics": [
+    "next-js",
+    "server-side-rendering",
+    "llm-integration",
+    "openai",
+    "ollama",
+    "ai-development",
+    "react",
+    "full-stack-development",
+    "api-routes",
+    "getserversideprops"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "web app",
+    "use react",
+    "app router",
+    "react server components",
+    "this guide",
+    "pages router",
+    "project folder",
+    "language model",
+    "store your key",
+    "send requests",
+    "which should you use",
+    "this code",
+    "page component",
+    "it works",
+    "use query parameters",
+    "test your",
+    "react suspense"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-10-18-NextJS-SEO-CLIne-Prompt",
+      "weight": 0.0588,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-03-text-adventure",
+      "weight": 0.0455,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-12-04-critical-nextjs-rce-cve-2025-66478-security-guide",
+      "weight": 0.0444,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-02-15-building-this-blog",
+      "weight": 0.0435,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-20-compile-time-intelligence-research-compiler-agent",
+      "weight": 0.0312,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-10-12-django-react",
+      "weight": 0.0286,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-09-nextjs-ollama-custom-agent-framework",
+      "weight": 0.0217,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-12-11-next-gen-personagen",
+      "weight": 0.0204,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "You'll then write an API route in  . This is a lightweight Node",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "you can get responses from an LLM, you'll connect it to a real webpage. Using getServerSideProps, you'll dynamically fetch the AI response **at the time of the request**. This means the AI's response is fully rendered on the server before reaching the browser — which is excellent for SEO, shareability, and page speed",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Once everything is wired up, you'll run the app with npm run dev and test it locally",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This isn't just a toy demo. The pattern you'll learn here — **API route + SSR page + AI backend** — is the foundation for production-grade tools that use artificial intelligence in meaningful, high-performance ways",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "You'll be prompted with a few questions. When asked about the router, **choose the Pages Router**, not the App Router. This guide focuses on getServerSideProps and pages/api routes, which are most straightforward to learn using the Pages Router",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "dotenv is mostly for local development — Next.js will automatically load variables from .env.local into your code. Just make sure sensitive keys like OPENAI_API_KEY are never committed to GitHub",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "With that, your project is now set up and ready to go",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Both options follow the same pattern — you'll send a prompt via an API request and receive generated text in response. The only difference is whether the model runs on a remote server (OpenAI) or on your local machine (Ollama)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "If you want quick access to the most powerful LLMs (like GPT-4 or GPT-3.5), OpenAI is the fastest way to start",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This ensures that your API key is loaded securely into your server environment and not exposed on the client",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "If you prefer **running models locally**, Ollama is a fantastic tool",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ollama runs entirely on your machine, so no API keys are needed",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "In Next.js, API routes let you run server-side code just like a traditional Node.js server — but scoped to specific endpoints in your app. This is where we'll place our prompt-handling logic",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Checks that the request method is POST",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This API route is never exposed to the browser — it only runs server-side",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "At this point, your backend is fully wired to generate responses from an LLM",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Now that your backend API route is ready to talk to an LLM, it's time to render the results on your website — **server-side**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "If no prompt is given, it uses a default question: _\"Explain server-side rendering in Next",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "4. The response is passed to your React component",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "5. The entire page is rendered and sent to the browser — **ready to go**, no client-side JavaScript required to fetch content",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Triggers SSR on every page load — so the AI response is always fresh",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "With this form connected, your app is now fully interactive",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Now that your app is fully wired up, it's time to see it in action",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Once you're comfortable with the basics, here are some ideas to take your project further:",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://ollama.com",
+    "https://platform.openai.com/account/api-keys",
+    "https://ollama.com/download",
+    "http://localhost:3000"
+  ],
+  "related_artifacts": [
+    "2025-10-18-NextJS-SEO-CLIne-Prompt",
+    "2025-03-03-text-adventure",
+    "2025-12-04-critical-nextjs-rce-cve-2025-66478-security-guide",
+    "2026-02-15-building-this-blog",
+    "2026-07-20-compile-time-intelligence-research-compiler-agent",
+    "2024-10-12-django-react",
+    "2025-03-09-nextjs-ollama-custom-agent-framework",
+    "2024-12-11-next-gen-personagen"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-07-08-ai-ssr-guide.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "bbc31e1ef543cc377d319be30c1fde1e6991bc8f669072139000ec93ef4a1253",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

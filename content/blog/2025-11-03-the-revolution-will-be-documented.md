@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: https://yourdomain.com/blog/2025/11/03/the-revolution-will-be-documented
+canonical_url: /blog/2025-11-03-the-revolution-will-be-documented
 categories:
 - AI & Machine Learning
 - Development

@@ -1,0 +1,265 @@
+{
+  "schema_version": 1,
+  "id": "2025-03-30-learning-platform",
+  "title": "Building an AI-Driven Personalized Learning Platform: Dynamic Lessons with Local LLMs and Knowledge Graphs",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-03-30",
+  "updated_at": "2025-03-30",
+  "canonical_url": "/blog/2025-03-30-learning-platform",
+  "content_hash": "sha256:cef2833fa81eda24b6f487b736f6f187bdb33090f306e294fe5aa1a0db8f29d6",
+  "topics": [
+    "ai-learning-platform",
+    "personalized-learning",
+    "local-llms",
+    "knowledge-graphs",
+    "rag",
+    "next-js",
+    "fastapi",
+    "chromadb",
+    "postgresql",
+    "adaptive-learning"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "learning system",
+    "lesson generation",
+    "this guide",
+    "three major",
+    "markdown processing",
+    "progress tracking",
+    "graph querying",
+    "frontend communication",
+    "graph construction",
+    "feedback loops",
+    "these layers work",
+    "tech stack",
+    "locally hosted",
+    "knowledge graph",
+    "knowledge graphs",
+    "implement chunking",
+    "parse markdown",
+    "implement graph",
+    "query graph",
+    "design lesson",
+    "build next",
+    "bringing it all",
+    "users explain concepts",
+    "adaptive scaling",
+    "increases difficulty over",
+    "custom learning paths",
+    "user chooses topics",
+    "improve search efficiency",
+    "frequent queries",
+    "embedding models",
+    "scalable backend",
+    "continuous model training",
+    "use docker",
+    "virtual private server",
+    "google cloud",
+    "docker compose",
+    "example dockerfile",
+    "use docker compose",
+    "up reverse",
+    "continuous integration",
+    "implement feedback",
+    "set up logging"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-03-30-building-a-personalized-ai-learning-system-with-local-llm",
+      "weight": 0.05,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-06-14-sovereign-memory-bank-a-deep-dive-into-autonomous-cognitive-memory-for-agent-systems",
+      "weight": 0.0263,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-29-sovereign-synthesis",
+      "weight": 0.0206,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-07-06-beyond-prompts",
+      "weight": 0.02,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-23-rlhf-lab-business-plan",
+      "weight": 0.0196,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-06-30-amis-in-action-autonomous-marketing-knowledge-graph",
+      "weight": 0.0179,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-07-08-ai-ssr-guide",
+      "weight": 0.0172,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-02-context-engineering-the-blind-spots-and-the-real-full-stack-development-paradigm",
+      "weight": 0.0172,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Dynamic Lesson Generation:** Each learning session is unique, with AI-generated content tailored to the user’s progress",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Knowledge Graph-Driven:** Lessons are structured based on a connected map of concepts rather than linear modules",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The **backend** serves as the core of the system, managing user data, lesson generation requests, and AI interactions. This layer is responsible for structuring lessons dynamically, tracking progress, and storing key data",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The **AI layer** is the brain of the system, dynamically generating lessons and maintaining a **knowledge graph** to track relationships between concepts. This ensures that lessons are both **coherent** and **adaptive** to the user’s current knowledge state",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "5️⃣ **User interacts with exercises**, and responses are processed via the Backend & AI Layer to adapt future lessons",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The **frontend** is responsible for providing a sleek, interactive, and responsive learning environment",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "TailwindCSS:** Enables rapid styling with a utility-first approach for a modern UI",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "rendering (SSR) and static site generation (SSG)**, improving performance and SEO if needed. The combination of **TailwindCSS and ShadCN** ensures a clean, minimalistic design, while **React-Flow** enables intuitive **graph-based representations of learning progress**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "FastAPI (Python) or Django:** FastAPI is chosen for speed and async capabilities, while Django provides an extensive ORM and built-in admin interface",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "FastAPI** is **lightweight and async-friendly**, making it great for real-time lesson updates and AI interaction",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Django** is well-suited for complex applications needing robust **ORM support and built-in security**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "ChromaDB (Vector Database):** Enables **semantic search** for AI-driven lesson retrieval",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "PostgreSQL** is **reliable and scalable** for structured data storage",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The **knowledge graph** is central to mapping concepts and ensuring **lessons build upon prior knowledge logically**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "5️⃣ **Lesson is displayed in Next",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "To optimize retrieval, markdown files are **split into logical sections** before embedding:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "One effective way to solidify knowledge and improve learning outcomes is through the **Explain-Back Challenge**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "In this feature, users are prompted to explain a concept back to the AI, which can then assess their explanation and provide feedback",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "1. After completing a lesson or concept, the user is asked to explain the concept in their own words",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Adaptive Scaling** is crucial for maintaining the user’s motivation and engagement throughout their learning journey",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This feature ensures that as users master easier concepts, they are automatically introduced to more **challenging material**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Motivation**: Learners are more likely to stay engaged with content that aligns with their interests",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "To ensure that the AI system evolves with new content and improves its lesson generation abilities, **continuous training** is essential",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "learning system involves setting up the frontend, backend, and database on appropriate platforms. This section walks you through various options for deployment, ensuring your system runs smoothly, is scalable, and is easy to maintain",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "2. Vercel will automatically detect that you are using Next",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2025-03-30-building-a-personalized-ai-learning-system-with-local-llm",
+    "2026-06-14-sovereign-memory-bank-a-deep-dive-into-autonomous-cognitive-memory-for-agent-systems",
+    "2026-03-29-sovereign-synthesis",
+    "2025-07-06-beyond-prompts",
+    "2024-11-23-rlhf-lab-business-plan",
+    "2026-06-30-amis-in-action-autonomous-marketing-knowledge-graph",
+    "2025-07-08-ai-ssr-guide",
+    "2026-07-02-context-engineering-the-blind-spots-and-the-real-full-stack-development-paradigm"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-03-30-learning-platform.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "cef2833fa81eda24b6f487b736f6f187bdb33090f306e294fe5aa1a0db8f29d6",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

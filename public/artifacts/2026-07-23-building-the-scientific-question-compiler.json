@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "id": "2026-07-23-building-the-scientific-question-compiler",
+  "title": "Building the Scientific Question Compiler: A Map of What We Do Not Know",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-07-23",
+  "updated_at": "2026-07-23",
+  "canonical_url": "/blog/2026-07-23-building-the-scientific-question-compiler",
+  "content_hash": "sha256:f1b91b647d9fdf9ebf24493dcab7c619eaca34ffa01733c02e51a24f06a0297f",
+  "topics": [
+    "ai-agents",
+    "compile-time-ai",
+    "knowledge-compiler",
+    "local-first-ai",
+    "provenance",
+    "reproducible-ai",
+    "research-compiler",
+    "scientific-discovery",
+    "scientific-question-compiler",
+    "uncertainty"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "scientific question compiler",
+    "we do not",
+    "daniel kliewer",
+    "scientific state compiler",
+    "discovery compiler",
+    "once state",
+    "scientific git",
+    "uncertainty map",
+    "conflict map",
+    "mechanism view"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-07-23-the-scientific-state-compiler-roadmap",
+      "weight": 0.7105,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-the-scientific-state-compiler-pass-4",
+      "weight": 0.1429,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-22-if-the-loop-is-the-product",
+      "weight": 0.1333,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-the-loop-closes-itself",
+      "weight": 0.1176,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+      "weight": 0.0833,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-validating-at-scale-orkg",
+      "weight": 0.0769,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+      "weight": 0.0769,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-the-next-experiment-grounded-and-quantitative",
+      "weight": 0.0667,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "the four \"research directions\" for the Scientific State Compiler are not four",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "projects, they are five passes in one architecture — Evidence → Questions →",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "35-billion-parameter model. It is [live here](https://scientific-question-compiler",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "the code is [on GitHub](https://github",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "and this post is the honest account — including the bug that taught me something",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "composite, and links questions by dependency. The output is an **uncertainty",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "q1 (high):** Is BBB insulin-transport failure a cause or a consequence of",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "is (q2). That chain — *what must be known before this becomes answerable* — is the",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "to actually watch it to find out why, and the cause is worth recording because it",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "feature; it is why the model reasons well",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The fix is mundane and general: give reasoning models headroom",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Today's compiler is the seed for all of it",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "We are not building a better search engine. We are building the missing infrastructure",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The loop is beginning to turn",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The Scientific Question Compiler is open source at",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://scientific-question-compiler.vercel.app",
+    "https://github.com/kliewerdaniel/scientific-question-compiler",
+    "https://scientific-question-compiler.vercel.app/",
+    "https://scientific-question-compiler.vercel.app/questions",
+    "https://scientific-question-compiler.vercel.app/sources",
+    "https://github.com/kliewerdaniel/scientific-question-compiler",
+    "https://scientific-question-compiler.vercel.app"
+  ],
+  "related_artifacts": [
+    "2026-07-23-the-scientific-state-compiler-roadmap",
+    "2026-07-23-the-scientific-state-compiler-pass-4",
+    "2026-07-22-if-the-loop-is-the-product",
+    "2026-07-23-the-loop-closes-itself",
+    "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+    "2026-07-23-validating-at-scale-orkg",
+    "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+    "2026-07-23-the-next-experiment-grounded-and-quantitative"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-07-23-building-the-scientific-question-compiler.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "f1b91b647d9fdf9ebf24493dcab7c619eaca34ffa01733c02e51a24f06a0297f",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

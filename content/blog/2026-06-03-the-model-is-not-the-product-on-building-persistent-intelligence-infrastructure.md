@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: /blog/the-model-is-not-the-product-on-building-persistent-intelligence-infrastructure
+canonical_url: /blog/2026-06-03-the-model-is-not-the-product-on-building-persistent-intelligence-infrastructure
 date: 06-03-2026
 description: A deep dive into building Objective05 — a local-first persistent intelligence
   system in Rust — and the architectural case for treating information infrastructure

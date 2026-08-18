@@ -1,0 +1,11 @@
+# Local dev environment
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Local build output (the real artifacts are emitted into ../public/artifacts)
+out/
+build/
+dist/

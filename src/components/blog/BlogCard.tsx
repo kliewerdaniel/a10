@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { Badge } from '@/components/ui/Card';
+import { StatusPill } from './StatusPill';
+import { TopicChip } from './TopicChip';
 
 interface BlogCardProps {
   slug: string;
@@ -10,34 +11,35 @@ interface BlogCardProps {
   image: string;
   readingTime: string;
   featured?: boolean;
+  status?: string;
+  topics?: string[];
 }
 
-export function BlogCard({ slug, title, date, description, tags, image, readingTime, featured = false }: BlogCardProps) {
+export function BlogCard({ slug, title, date, description, tags, image, readingTime, featured = false, status = 'observed', topics = [] }: BlogCardProps) {
   if (featured) {
     return (
-      <Link href={`/blog/${slug}`} className="group block card-pointillist overflow-hidden md:col-span-2 transition-all duration-200">
+      <Link href={`/blog/${slug}`} className="group block card-ed overflow-hidden md:col-span-2 hover:border-[var(--color-green)] transition-colors">
         <div className="md:flex">
-          <div className="md:w-1/2 aspect-video md:aspect-auto relative overflow-hidden">
-            <img src={image} alt={title} width={640} height={360} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" decoding="async" />
-            <div className="absolute inset-0 bg-gradient-to-t from-cream/90 via-cream/20 to-transparent md:hidden" />
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent to-cream/60 hidden md:block" />
+          <div className="md:w-1/2 aspect-video md:aspect-auto relative overflow-hidden bg-[var(--color-paper-2)]">
+            <img src={image} alt={title} width={640} height={360} className="w-full h-full object-cover" loading="lazy" decoding="async" />
           </div>
           <div className="p-8 md:w-1/2 flex flex-col justify-center">
             <div className="flex items-center gap-3 mb-4">
-              <Badge color="green">Featured</Badge>
+              <span className="font-mono text-[0.58rem] tracking-[0.14em] uppercase text-[var(--color-green)]">Featured</span>
+              <StatusPill status={status} />
             </div>
-            <div className="flex items-center gap-3 mb-3 text-sm text-ink-3 font-bold">
+            <div className="flex items-center gap-3 mb-3 text-sm text-[var(--color-ink-3)] font-mono tracking-[0.1em] uppercase">
               <time>{new Date(date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</time>
-              <span className="w-1 h-1 rounded-full bg-ink" />
+              <span className="w-1 h-1 rounded-full bg-[var(--color-ink-3)]" />
               <span>{readingTime}</span>
             </div>
-            <h2 className="text-2xl md:text-3xl font-display text-ink mb-4 group-hover:text-pink transition-colors leading-tight">
+            <h2 className="font-serif text-2xl md:text-3xl font-medium text-[var(--color-ink)] mb-4 group-hover:text-[var(--color-green)] transition-colors leading-tight">
               {title}
             </h2>
-            <p className="text-ink-3 mb-5 line-clamp-3 leading-relaxed">{description}</p>
+            <p className="text-[var(--color-ink-3)] mb-5 line-clamp-3 leading-relaxed">{description}</p>
             <div className="flex flex-wrap gap-2">
-              {tags.slice(0, 4).map((tag) => (
-                <Badge key={tag} color="orange">{tag}</Badge>
+              {(topics.length > 0 ? topics : tags).slice(0, 4).map((tag) => (
+                <TopicChip key={tag} topic={tag} />
               ))}
             </div>
           </div>
@@ -47,24 +49,26 @@ export function BlogCard({ slug, title, date, description, tags, image, readingT
   }
 
   return (
-    <Link href={`/blog/${slug}`} className="group block card-pointillist overflow-hidden transition-all duration-200">
-      <div className="aspect-video relative overflow-hidden">
-        <img src={image} alt={title} width={640} height={360} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy" decoding="async" />
-        <div className="absolute inset-0 bg-gradient-to-t from-cream via-cream/30 to-transparent" />
+    <Link href={`/blog/${slug}`} className="group block card-ed overflow-hidden hover:border-[var(--color-green)] transition-colors">
+      <div className="aspect-video relative overflow-hidden bg-[var(--color-paper-2)]">
+        <img src={image} alt={title} width={640} height={360} className="w-full h-full object-cover" loading="lazy" decoding="async" />
       </div>
       <div className="p-6">
-        <div className="flex items-center gap-3 mb-3 text-sm text-ink-3 font-bold">
+        <div className="flex items-center gap-3 mb-3 text-sm text-[var(--color-ink-3)] font-mono tracking-[0.1em] uppercase">
           <time>{new Date(date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</time>
-          <span className="w-1 h-1 rounded-full bg-ink" />
+          <span className="w-1 h-1 rounded-full bg-[var(--color-ink-3)]" />
           <span>{readingTime}</span>
         </div>
-        <h3 className="text-lg font-display text-ink mb-3 group-hover:text-pink transition-colors line-clamp-2 leading-snug">
+        <div className="mb-3">
+          <StatusPill status={status} />
+        </div>
+        <h3 className="font-serif text-xl font-medium text-[var(--color-ink)] mb-3 group-hover:text-[var(--color-green)] transition-colors line-clamp-2 leading-snug">
           {title}
         </h3>
-        <p className="text-sm text-ink-3 mb-4 line-clamp-2 leading-relaxed">{description}</p>
+        <p className="text-sm text-[var(--color-ink-3)] mb-4 line-clamp-2 leading-relaxed">{description}</p>
         <div className="flex flex-wrap gap-1.5">
-          {tags.slice(0, 3).map((tag) => (
-            <Badge key={tag} color="yellow">{tag}</Badge>
+          {(topics.length > 0 ? topics : tags).slice(0, 3).map((tag) => (
+            <TopicChip key={tag} topic={tag} />
           ))}
         </div>
       </div>

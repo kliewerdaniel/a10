@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "id": "2026-07-23-the-scientific-state-compiler-pass-4",
+  "title": "Pass 4: The Scientific State Compiler — A Versioned Model of What We Understand",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-07-23",
+  "updated_at": "2026-07-23",
+  "canonical_url": "/blog/2026-07-23-the-scientific-state-compiler-pass-4",
+  "content_hash": "sha256:07767ae9a1692fe3a33813f889cc807795428091cee5edffcde4f3cbbe9bb3e9",
+  "topics": [
+    "ai-agents",
+    "compile-time-ai",
+    "knowledge-compiler",
+    "local-first-ai"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "scientific state",
+    "uncertainty map",
+    "mechanistic reasoning",
+    "scientific question",
+    "unknown detector",
+    "scientific state compiler"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-07-23-the-loop-closes-itself",
+      "weight": 0.5,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-building-the-scientific-question-compiler",
+      "weight": 0.1429,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-the-scientific-state-compiler-roadmap",
+      "weight": 0.1053,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-the-next-experiment-grounded-and-quantitative",
+      "weight": 0.0909,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-24-popper-the-falsifiable-hypothesis-compiler",
+      "weight": 0.0909,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-22-if-the-loop-is-the-product",
+      "weight": 0.0833,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-21-research-compiler-scientific-discovery",
+      "weight": 0.0263,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "structured model of what is understood, separating what is **accepted** from what",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "is **uncertain** from what is genuinely **contested**, and preserving the",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "That distinction is the whole point",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "What \"state means here",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Questions + Uncertainty = Scientific State*. The output is a single artifact,",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Uncertain models** — plausible but incomplete; the open issue is named",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "can't*. It is the state",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The state is committed to a local-first versioning layer (Scientific Git-lite,",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is \"observability becomes the OS\" made concrete: the artifact is not a frozen",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "version history is the record of that compilation",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "and the parser finds nothing. The fix is per-pass token budgets that leave the CoT",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "State, Discovery, and the Unknown Detector — are not competing projects",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The next move is to make the loop *turn on itself*: feed the open questions back as",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "research queries, re-compile, and watch the state versions advance. That is when the",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "research targets. The compiler begins to direct its own next compile. That is the",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://scientific-question-compiler.vercel.app/state"
+  ],
+  "related_artifacts": [
+    "2026-07-23-the-loop-closes-itself",
+    "2026-07-23-building-the-scientific-question-compiler",
+    "2026-07-23-the-scientific-state-compiler-roadmap",
+    "2026-07-23-the-next-experiment-grounded-and-quantitative",
+    "2026-07-24-popper-the-falsifiable-hypothesis-compiler",
+    "2026-07-22-if-the-loop-is-the-product",
+    "2026-07-21-research-compiler-scientific-discovery"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-07-23-the-scientific-state-compiler-pass-4.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "07767ae9a1692fe3a33813f889cc807795428091cee5edffcde4f3cbbe9bb3e9",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

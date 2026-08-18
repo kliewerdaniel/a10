@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "id": "2025-10-18-Is-There-No-King",
+  "title": "Is There No King? Or Is NodeRAG King?",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-10-18",
+  "updated_at": "2025-10-18",
+  "canonical_url": "/blog/2025-10-18-Is-There-No-King",
+  "content_hash": "sha256:a6e8b9bbcced660acbd28a920275639f0ffd73a167922726d89ad251c565d979",
+  "topics": [
+    "vibe-coding",
+    "rag",
+    "those-who-look-in-the-void-the-void-looks-into-you"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "use local inference ok",
+    "make app great again",
+    "make app great for",
+    "first time because it",
+    "is realistic to admit",
+    "there is always",
+    "room for improvement",
+    "should not worship",
+    "past but think"
+  ],
+  "relationships": [],
+  "claims": [
+    {
+      "text": "So for this post I am including all my prompts, except for the ones that are just copy/pasting errors until it fixes itself",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "OK, so it is cloned I guess I type something into CLIne to start this because I have no clue",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "It is running now at least. I did not learn how to run it, but it works and that is all that matters right",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Well I can already tell this is not going to work",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "So what am I going to do now? How am I going to know if there is a king if I can't run this for free",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "available model on OpenRouter or HuggingFace or anywhere else but I want to do a lot of work on a lot of documents and I really want to be able to run absolutely everything local so I think this is what I am going to do:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "I guess I have Ollama running still I could use that. I have granite4-mirco-h or whatever that less than 2GB model installed which is what I am going to use but I should really use a small Qwen model most likely for testing purposes",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "I guess I will just write a prompt and see if CLIne can one shot it. It is simple enough",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ok, well I am talking to Grok here as he is free on CLIne right now",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "I am sorry maker of this repo if you are reading this",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "I am sure you are very disappointed in me",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "I am sure I have done some bastardization and even if I do get it to work at this point I am just churning out more and more bloat slop code. I am sure you are thinking that I am a terrible person",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "God the maker of this is going to hunt me down for this if nothing else than to make me feel bad",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Well that solved that. Oh wait, what is that error",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Does it mean anything? Should I test what I have now? Nah, I'll just copy paste this error and see if that will fix things pre-emptively because we all know pre-emptive strikes are the only real way to do things",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "So tootaloo I am going to try this again in a new post. This post is my shit post",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [],
+  "provenance": {
+    "source": "content/blog/2025-10-18-Is-There-No-King.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "a6e8b9bbcced660acbd28a920275639f0ffd73a167922726d89ad251c565d979",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

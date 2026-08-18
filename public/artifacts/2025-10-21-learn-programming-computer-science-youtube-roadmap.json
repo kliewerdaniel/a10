@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "id": "2025-10-21-learn-programming-computer-science-youtube-roadmap",
+  "title": "Learn Programming for Free: Complete YouTube Roadmap to Master Computer Science (2025)",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-10-21",
+  "updated_at": "2025-10-21",
+  "canonical_url": "/blog/2025-10-21-learn-programming-computer-science-youtube-roadmap",
+  "content_hash": "sha256:7087094ca01042e45821d5c12ad200fe6f2c64ea6bcfd7bd5512cf599ea9567d",
+  "topics": [
+    "free-programming-tutorials",
+    "youtube-coding-channels",
+    "self-taught-developer-roadmap",
+    "learn-computer-science-online",
+    "coding-bootcamp-alternatives",
+    "programming-beginner-guide",
+    "data-structures-algorithms",
+    "machine-learning-tutorials",
+    "web-development-free",
+    "python-programming-roadmap"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "learn programming",
+    "master computer science",
+    "essential topics you need",
+    "machine learning",
+    "web development",
+    "computer networks",
+    "data structures",
+    "define your goal",
+    "programming fundamentals",
+    "data orientation",
+    "advanced specializations",
+    "build your portfolio",
+    "job readiness",
+    "stay consistent",
+    "learning programming",
+    "master before",
+    "channel directory",
+    "best free programming",
+    "teachers now",
+    "neso academy",
+    "channel stands out",
+    "use it",
+    "corey schafer",
+    "programming beginner",
+    "joey blue",
+    "is fun",
+    "understanding excel",
+    "krish naik",
+    "code with harry",
+    "programming knowledge",
+    "understanding linux",
+    "install linux",
+    "kunal kushwaha",
+    "learn docker",
+    "docker compose",
+    "david bombal",
+    "packet tracer",
+    "use joey",
+    "use programming knowledge",
+    "use linux",
+    "code with",
+    "watch david",
+    "core data",
+    "advanced problems",
+    "use excel",
+    "data science",
+    "unsupervised learning",
+    "google cloud",
+    "cloud engineering",
+    "advanced linux",
+    "master linux",
+    "learn terraform",
+    "learn ansible",
+    "cloud platform",
+    "certified solutions architect",
+    "ethical hacking",
+    "burp suite",
+    "security fundamentals",
+    "web application",
+    "system exploitation",
+    "study metasploit",
+    "security certified",
+    "security path",
+    "modern frontend",
+    "choose react",
+    "advanced backend",
+    "database mastery",
+    "google docs",
+    "blockchain development",
+    "binance smart",
+    "smart contract",
+    "learn solidity",
+    "ethereum virtual machine",
+    "learn web3",
+    "advanced topics",
+    "explore layer",
+    "blockchain path",
+    "over quantity",
+    "web developers",
+    "data scientists",
+    "security professionals",
+    "interview practice",
+    "interview prep",
+    "search channels",
+    "actually finish the",
+    "sustainable schedule",
+    "active learning",
+    "not passive watching",
+    "progress visibly",
+    "strategic breaks",
+    "small wins",
+    "tutorial hell",
+    "common mistakes",
+    "programmers make",
+    "learning too many things",
+    "ignoring data structures",
+    "not building real",
+    "stack overflow",
+    "not reading",
+    "comparing your beginning",
+    "giving up too",
+    "not preparing",
+    "frequently asked questions",
+    "choose python",
+    "start today",
+    "install python"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2024-11-22-rlhf-lab",
+      "weight": 0.0182,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-30-learning-platform",
+      "weight": 0.0137,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-12-19-langchain-ollama",
+      "weight": 0.0131,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-05-capacity-review-ai-workflow-vibe-coding",
+      "weight": 0.013,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-29-sovereign-synthesis",
+      "weight": 0.0124,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-03-the-revolution-will-be-documented",
+      "weight": 0.0116,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-16-from-fragmented-experiments-to-cognitive-synthesis",
+      "weight": 0.0098,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-03-text-adventure",
+      "weight": 0.009,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": ". Everyone around you seems to be landing tech jobs, building apps, or talking about machine learning like it's second nature. Meanwhile, you're wondering: *Can I really teach myself programming? Is it possible to become a developer without spending $15,000 on a bootcamp or four years in university",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "1. [Why YouTube is Perfect for Learning Programming](#why-youtube)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Why YouTube is Perfect for Learning Programming",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The answer is a resounding yes, and here's why YouTube has become the go-to platform for millions of aspiring developers:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Visual and practical learning.** Programming is best learned by watching someone code and then doing it yourself",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "You can pause, rewind, and replay.** Missed something? Go back 30 seconds. Need to see that debugging process again? Watch it three more times. You control the pace, which is impossible in traditional classroom settings",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Community-driven quality.** Bad instructors get exposed quickly through comments and low view counts. The channels that rise to the top are there because they genuinely help people learn",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Before we dive into the roadmap, let's understand the landscape. Computer science is vast, but you don't need to learn everything at once",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The beauty of this roadmap is that it shows you how these topics interconnect and gives you a logical progression through them",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Now let's meet your instructors. These are the YouTube channels that have helped millions of people break into tech",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "computer science topics including compiler design and computer architecture. If you're the type of person who wants to understand *why* things work, not just *how* to make them work, Neso Academy is perfect for you",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "you've grasped the basics, move into collections, multi-threading, and streams. Build small projects: a console-based calculator, a simple inventory management system, or a GUI application. The goal is applying concepts, not just watching videos",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Why This Channel Stands Out:** Corey Schafer has achieved legendary status in the Python learning community. His teaching style is crystal clear, well-paced, and remarkably thorough",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "SQL might seem less exciting than coding a web app, but here's reality: almost every application you'll ever build needs to store and retrieve data. Understanding SQL is non-negotiable for backend developers, data engineers, data analysts, and even many frontend developers",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "How to Use It:** Follow his tutorials to learn SELECT statements, WHERE clauses, JOINs, GROUP BY aggregations, subqueries, and transactions. Install PostgreSQL or MySQL on your computer (both are free) and practice every query he demonstrates",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Build a small project database—maybe track your personal expenses, catalog your book collection, or store recipe information. The point is getting comfortable writing queries and designing tables",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "a href=\"https://www.youtube.com/@excelisfun\"><img src=\"/images/1021006.png\" alt=\"Excel Is Fun YouTube Channel\"></a>",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Why This Channel Stands Out:** You might be thinking, \"Excel? Really? I'm trying to become a programmer!\" But hear me out: Excel is an incredibly powerful tool for data manipulation, quick prototyping, and analysis",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "How to Use It:** Start by understanding what blockchain actually is —a distributed ledger with cryptographic security",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Wireshark for packet analysis, Nmap for network scanning, Metasploit for penetration testing. Most importantly, only practice on systems you own or have explicit permission to test—ethical hacking means respecting legal boundaries",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Web development is one of the most practical, immediately applicable skills you can learn",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Why This Channel Stands Out:** Programming Knowledge offers thorough Linux tutorials from beginner to advanced levels. Linux knowledge is crucial because most web servers, cloud infrastructure, and development environments run on Linux systems",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "How to Use It:** Install Linux (Ubuntu is beginner-friendly) in a virtual machine or as a dual-boot system",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Whether you're debugging why your API calls are failing, optimizing application performance, or building distributed systems, network knowledge is invaluable",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Stands Out:** Jenny's Lectures CS IT is the go-to channel for DSA preparation, especially for students preparing for technical interviews and competitive programming. Data structures and algorithms are the foundation of efficient programming",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://www.youtube.com/@nesoacademy",
+    "https://www.youtube.com/@coreyms",
+    "https://www.youtube.com/@JoeyBlue1",
+    "https://www.youtube.com/@excelisfun",
+    "https://www.youtube.com/@SimplilearnOfficial",
+    "https://www.youtube.com/@Telusko",
+    "https://www.youtube.com/@krishnaik06",
+    "https://www.youtube.com/@NetworkChuck",
+    "https://www.youtube.com/@CodeWithHarry",
+    "https://www.youtube.com/@ProgrammingKnowledge",
+    "https://www.youtube.com/@KunalKushwaha",
+    "https://www.youtube.com/@DavidBombal",
+    "https://www.youtube.com/@jennyslecturesCSIT",
+    "https://danielkliewer.com/blog/2024-10-18-building-a-full-stack-application-with-django-and-react",
+    "https://danielkliewer.com/blog/2024-10-12-django-react"
+  ],
+  "related_artifacts": [
+    "2024-11-22-rlhf-lab",
+    "2025-03-30-learning-platform",
+    "2024-12-19-langchain-ollama",
+    "2025-11-05-capacity-review-ai-workflow-vibe-coding",
+    "2026-03-29-sovereign-synthesis",
+    "2025-11-03-the-revolution-will-be-documented",
+    "2026-01-16-from-fragmented-experiments-to-cognitive-synthesis",
+    "2025-03-03-text-adventure"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-10-21-learn-programming-computer-science-youtube-roadmap.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "7087094ca01042e45821d5c12ad200fe6f2c64ea6bcfd7bd5512cf599ea9567d",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

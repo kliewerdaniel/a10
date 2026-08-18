@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "id": "2024-11-27-swarm-autogen",
+  "title": "Integrating OpenAI Swarm & Microsoft Autogen: Multi-Agent AI for Persona Generation",
+  "author": "Daniel Kliewer",
+  "created_at": "2024-11-27",
+  "updated_at": "2024-11-27",
+  "canonical_url": "/blog/2024-11-27-swarm-autogen",
+  "content_hash": "sha256:3bd05e5d254f905fa7cb2d96847802fb8a32790aef51fb24a526ba6284b477a7",
+  "topics": [
+    "openai-swarm",
+    "microsoft-autogen",
+    "multi-agent-systems",
+    "ai-frameworks",
+    "persona-generator"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "microsoft autogen",
+    "understanding swarm",
+    "persona generation",
+    "response generation",
+    "define swarm",
+    "orchestrate agents",
+    "integrating microsoft autogen",
+    "install microsoft",
+    "understanding autogen",
+    "define autogen",
+    "orchestrate chains",
+    "existing script now",
+    "refactor code",
+    "contains swarm",
+    "contains autogen",
+    "implement agents",
+    "use swarm",
+    "enhanced persona generator",
+    "generated response",
+    "adding new features with",
+    "security improvements your",
+    "environment variable",
+    "hardcoded keys",
+    "final thoughts integrating",
+    "advanced orchestration",
+    "implement autogen",
+    "user experience"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2024-11-27-enhanced-persona-generator",
+      "weight": 0.0189,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-02-03-dynamic-persona-moe-rag-building-memory-driven-synthetic-intelligence",
+      "weight": 0.0147,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-10-04-detailed-description-of-insight-journal",
+      "weight": 0.0035,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Microsoft Autogen** is a framework that simplifies the orchestration of large language models (LLMs) to build complex applications",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Now, let's enhance your existing script by integrating both OpenAI Swarm and Microsoft Autogen. Below are the key modifications and additions:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Your current script includes the OpenAI API key hardcoded within the script. This is a significant security risk",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ensure that sensitive files like are stored securely",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/openai/swarm",
+    "https://github.com/microsoft/autogen"
+  ],
+  "related_artifacts": [
+    "2024-11-27-enhanced-persona-generator",
+    "2026-02-03-dynamic-persona-moe-rag-building-memory-driven-synthetic-intelligence",
+    "2024-10-04-detailed-description-of-insight-journal"
+  ],
+  "provenance": {
+    "source": "content/blog/2024-11-27-swarm-autogen.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "3bd05e5d254f905fa7cb2d96847802fb8a32790aef51fb24a526ba6284b477a7",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

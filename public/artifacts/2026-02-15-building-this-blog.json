@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "id": "2026-02-15-building-this-blog",
+  "title": "Building This Blog: A Technical Deep Dive into My Next.js AI-Powered Publishing Platform",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-02-15",
+  "updated_at": "2026-02-15",
+  "canonical_url": "/blog/2026-02-15-building-this-blog",
+  "content_hash": "sha256:fd014e8c1a104a670c074abdd9cd8f96f314fd29e10ea7e02972d2fb6b115259",
+  "topics": [
+    "ai-agents",
+    "architecture",
+    "knowledge-representation",
+    "local-ai",
+    "next-js",
+    "ollama",
+    "rag",
+    "local-first-ai"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "building this blog",
+    "technical deep dive",
+    "publishing platform",
+    "model context protocol",
+    "app router",
+    "react server components",
+    "tech stack",
+    "file structure let",
+    "interface first",
+    "open graph",
+    "twitter card",
+    "parsing markdown",
+    "contents for",
+    "tool calling this",
+    "personas the",
+    "best for",
+    "senior software engineer",
+    "tool calling",
+    "can search my blog",
+    "available tools",
+    "semantic search",
+    "ollama embeddings beyond",
+    "integration this",
+    "claude desktop",
+    "knowledge graph visualization one",
+    "categories clicking",
+    "frontmatter schema every",
+    "rendering posts in",
+    "chat component the",
+    "this approach works",
+    "using shiki"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-10-18-NextJS-SEO-CLIne-Prompt",
+      "weight": 0.0638,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-07-08-ai-ssr-guide",
+      "weight": 0.0435,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-05-the-ghost-in-the-machine-is-finally-allowed-to-see-a-beginners-guide-to-mcp",
+      "weight": 0.0426,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-12-04-critical-nextjs-rce-cve-2025-66478-security-guide",
+      "weight": 0.0339,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-06-30-amis-in-action-autonomous-marketing-knowledge-graph",
+      "weight": 0.0222,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-20-compile-time-intelligence-research-compiler-agent",
+      "weight": 0.0217,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-12-mcp-openai-agents-sdk-ollama",
+      "weight": 0.0208,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-03-the-revolution-will-be-documented",
+      "weight": 0.0206,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Next.js checked all these boxes. The App Router provides excellent SSG support, and the React foundation means I can embed interactive components when needed",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Here's what this blog is built on:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The key differentiator from a typical blog is the AI layer",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Let me walk you through how this blog is organized:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The simplicity is intentional",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This interface handles not just the basics (title, date, content) but also SEO metadata, reading time estimation, and auto-generated table of contents. The reading time is calculated based on an average reading speed of 200 words per minute:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This separation is elegant because it lets me write metadata alongside content without any special syntax beyond standard YAML",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "For a technical blog, having a table of contents is essential",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "One of the most powerful features is that the AI assistant can actually search and retrieve content from the blog",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "When you ask the AI about a topic, it can actually search through all 100+ blog posts and provide relevant answers with links. This is RAG (Retrieval-Augmented Generation) in action",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is the same infrastructure I write about in my posts about building sovereign AI systems - the blog itself is a working demonstration",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "One of the most visually impressive features is the interactive 3D knowledge graph",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The   function enables SSG - Next",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The chat interface itself is a polished React component with:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "2. **Version control**: Every post is a text file",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "3. **Performance**: Static generation means fast page loads",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "5. **Developer experience**: Writing in markdown with a good editor is a pleasure",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "3. **Image management**: Manually managing images in a folder requires discipline",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "blog or portfolio, I highly recommend this approach. Start simple, add AI capabilities when they add genuine value, and always prioritize your writing experience over fancy features. The blog is , first and foremost, a place for ideas - the technology should serve that purpose, not distract from it",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The future of the web is agentic, tool-using, and local-first",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This blog is a small demonstration of that future, running today",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2025-10-18-NextJS-SEO-CLIne-Prompt",
+    "2025-07-08-ai-ssr-guide",
+    "2025-11-05-the-ghost-in-the-machine-is-finally-allowed-to-see-a-beginners-guide-to-mcp",
+    "2025-12-04-critical-nextjs-rce-cve-2025-66478-security-guide",
+    "2026-06-30-amis-in-action-autonomous-marketing-knowledge-graph",
+    "2026-07-20-compile-time-intelligence-research-compiler-agent",
+    "2025-03-12-mcp-openai-agents-sdk-ollama",
+    "2025-11-03-the-revolution-will-be-documented"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-02-15-building-this-blog.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "fd014e8c1a104a670c074abdd9cd8f96f314fd29e10ea7e02972d2fb6b115259",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

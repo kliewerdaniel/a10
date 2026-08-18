@@ -59,11 +59,11 @@ const timeline = [
 export function AboutContent() {
   return (
     <>
-      <section className="py-20 px-4">
+      <section className="section-pad">
         <div className="max-w-4xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-10">
             <div className="flex-shrink-0 relative">
-              <div className="w-36 h-36 border-4 border-ink overflow-hidden relative shadow-brutalist-lg">
+              <div className="w-36 h-36 border border-[var(--color-rule)] overflow-hidden relative">
                 <picture>
                   <source srcSet="/images/formats/profile.avif" type="image/avif" />
                   <source srcSet="/images/formats/profile.webp" type="image/webp" />
@@ -79,14 +79,14 @@ export function AboutContent() {
               </div>
             </div>
             <div className="text-center md:text-left">
-              <h1 className="font-display text-4xl md:text-5xl mb-3">Daniel Kliewer</h1>
-              <p className="text-xl accent-green mb-2 font-bold">Reducing the Cost of Understanding Human Knowledge</p>
-              <p className="text-ink-3 mb-4 font-bold">Austin, TX</p>
+              <h1 className="font-serif font-medium text-4xl md:text-5xl tracking-[-0.02em] text-[var(--color-ink)] mb-3">Daniel Kliewer</h1>
+              <p className="text-xl text-[var(--color-green)] mb-2">Reducing the Cost of Understanding Human Knowledge</p>
+              <p className="text-[var(--color-ink-3)] mb-4">Austin, TX</p>
               <div className="flex gap-4 justify-center md:justify-start">
-                <a href="https://github.com/kliewerdaniel" target="_blank" rel="noopener noreferrer" className="text-sm accent-pink hover:text-pink-dark font-bold transition-colors">GitHub ↗</a>
-                <a href="https://www.linkedin.com/in/daniel-kliewer-42691944/" target="_blank" rel="noopener noreferrer" className="text-sm accent-green hover:text-green-dark font-bold transition-colors">LinkedIn ↗</a>
-                <a href="https://x.com/kliewer_daniel" target="_blank" rel="noopener noreferrer" className="text-sm accent-orange hover:text-orange font-bold transition-colors">X ↗</a>
-                <a href="mailto:danielkliewer@gmail.com" className="text-sm accent-green hover:text-green-dark font-bold transition-colors">Email ↗</a>
+                <a href="https://github.com/kliewerdaniel" target="_blank" rel="noopener noreferrer" className="font-mono text-[0.66rem] tracking-[0.16em] uppercase text-[var(--color-pink)] hover:underline transition-colors">GitHub ↗</a>
+                <a href="https://www.linkedin.com/in/daniel-kliewer-42691944/" target="_blank" rel="noopener noreferrer" className="font-mono text-[0.66rem] tracking-[0.16em] uppercase text-[var(--color-green)] hover:underline transition-colors">LinkedIn ↗</a>
+                <a href="https://x.com/kliewer_daniel" target="_blank" rel="noopener noreferrer" className="font-mono text-[0.66rem] tracking-[0.16em] uppercase text-[var(--color-orange)] hover:underline transition-colors">X ↗</a>
+                <a href="mailto:danielkliewer@gmail.com" className="font-mono text-[0.66rem] tracking-[0.16em] uppercase text-[var(--color-green)] hover:underline transition-colors">Email ↗</a>
               </div>
             </div>
           </div>
@@ -94,16 +94,15 @@ export function AboutContent() {
       </section>
 
       {/* Purpose */}
-      <section className="py-20 px-4 bg-surface relative reveal">
-        <div className="absolute inset-0 pointillism-layer opacity-20 pointer-events-none" />
-        <div className="max-w-4xl mx-auto relative">
-          <span className="mono text-green text-xs mb-3 block">Purpose</span>
-          <h2 className="font-display text-3xl mb-10">Why I Do This Work</h2>
+      <section className="section-rule section-pad">
+        <div className="max-w-4xl mx-auto">
+          <span className="kicker mb-3 block">Purpose</span>
+          <h2 className="font-serif font-medium text-3xl tracking-[-0.015em] text-[var(--color-ink)] mb-10">Why I Do This Work</h2>
           <div className="space-y-10">
             {purpose.map((s) => (
               <div key={s.title}>
-                <h3 className="font-display text-2xl mb-3 text-ink">{s.title}</h3>
-                <div className="space-y-4 text-ink-3 leading-relaxed text-lg font-bold">
+                <h3 className="font-serif text-2xl font-medium text-[var(--color-ink)] mb-3">{s.title}</h3>
+                <div className="space-y-4 text-[var(--color-ink-3)] leading-relaxed text-lg">
                   {s.body.map((p, i) => (
                     <p key={i}>{p}</p>
                   ))}
@@ -115,48 +114,47 @@ export function AboutContent() {
       </section>
 
       {/* Research Philosophy */}
-      <section className="py-20 px-4 reveal">
+      <section className="section-rule section-pad">
         <div className="max-w-4xl mx-auto">
-          <h2 className="font-display text-3xl mb-8">Research Philosophy</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <h2 className="font-serif font-medium text-3xl tracking-[-0.015em] text-[var(--color-ink)] mb-8">Research Philosophy</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-[var(--color-rule)] border border-[var(--color-rule)]">
             {researchPhilosophy.map((s) => (
-              <Card key={s.title}>
-                <h3 className="font-display text-ink mb-3">{s.title}</h3>
-                <p className="text-sm text-ink-3 font-bold leading-relaxed">{s.desc}</p>
-              </Card>
+              <div key={s.title} className="bg-[var(--color-base)] p-7">
+                <h3 className="font-serif text-[var(--color-ink)] text-lg font-medium mb-3">{s.title}</h3>
+                <p className="text-sm text-[var(--color-ink-3)] leading-relaxed">{s.desc}</p>
+              </div>
             ))}
           </div>
         </div>
       </section>
 
       {/* Open Source Philosophy */}
-      <section className="py-20 px-4 bg-surface relative reveal">
-        <div className="absolute inset-0 dot-pattern opacity-15 pointer-events-none" />
-        <div className="max-w-4xl mx-auto relative">
-          <h2 className="font-display text-3xl mb-8">Open Source Philosophy</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <section className="section-rule section-pad">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="font-serif font-medium text-3xl tracking-[-0.015em] text-[var(--color-ink)] mb-8">Open Source Philosophy</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-[var(--color-rule)] border border-[var(--color-rule)]">
             {openSource.map((s) => (
-              <Card key={s.title}>
-                <h3 className="font-display text-ink mb-3">{s.title}</h3>
-                <p className="text-sm text-ink-3 font-bold leading-relaxed">{s.desc}</p>
-              </Card>
+              <div key={s.title} className="bg-[var(--color-base)] p-7">
+                <h3 className="font-serif text-[var(--color-ink)] text-lg font-medium mb-3">{s.title}</h3>
+                <p className="text-sm text-[var(--color-ink-3)] leading-relaxed">{s.desc}</p>
+              </div>
             ))}
           </div>
         </div>
       </section>
 
       {/* Timeline */}
-      <section className="py-20 px-4 reveal">
+      <section className="section-rule section-pad">
         <div className="max-w-4xl mx-auto">
-          <h2 className="font-display text-3xl mb-8">Timeline</h2>
+          <h2 className="font-serif font-medium text-3xl tracking-[-0.015em] text-[var(--color-ink)] mb-8">Timeline</h2>
           <div className="space-y-8">
             {timeline.map((t, i) => (
               <div key={i} className="flex gap-5">
-                <div className="flex-shrink-0 w-20 text-right"><span className="mono text-sm font-bold accent-green">{t.year}</span></div>
-                <div className="flex-shrink-0 w-1 bg-gradient-to-b from-green/50 to-transparent" />
+                <div className="flex-shrink-0 w-20 text-right"><span className="font-mono text-sm font-medium text-[var(--color-green)]">{t.year}</span></div>
+                <div className="flex-shrink-0 w-px bg-[var(--color-rule)]" />
                 <div className="pb-2">
-                  <h3 className="font-display text-ink text-lg">{t.title}</h3>
-                  <p className="text-ink-3 mt-1 font-bold">{t.desc}</p>
+                  <h3 className="font-serif text-[var(--color-ink)] text-lg font-medium">{t.title}</h3>
+                  <p className="text-[var(--color-ink-3)] mt-1">{t.desc}</p>
                 </div>
               </div>
             ))}
@@ -164,10 +162,10 @@ export function AboutContent() {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-surface reveal">
+      <section className="section-rule section-pad">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="font-display text-3xl mb-4">The Mission, in Full</h2>
-          <p className="text-ink-3 mb-8 text-lg font-bold max-w-2xl mx-auto">
+          <h2 className="font-serif font-medium text-3xl tracking-[-0.015em] text-[var(--color-ink)] mb-4">The Mission, in Full</h2>
+          <p className="text-[var(--color-ink-3)] mb-8 text-lg max-w-2xl mx-auto">
             The complete argument for why this work matters — and what a world with cheaper understanding looks like.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
@@ -177,7 +175,7 @@ export function AboutContent() {
         </div>
       </section>
 
-      <section className="py-20 px-4 reveal">
+      <section className="section-rule section-pad">
         <div className="max-w-4xl mx-auto"><BookCTA /></div>
       </section>
     </>

@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "id": "2025-03-22-local-llm-document-pipeline-blueprint",
+  "title": "Complete Blueprint: Building a Local LLM Document Processing Pipeline with Advanced Extraction, Semantic Analysis, and Scalable Storage",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-03-22",
+  "updated_at": "2025-03-22",
+  "canonical_url": "/blog/2025-03-22-local-llm-document-pipeline-blueprint",
+  "content_hash": "sha256:e17b8134a496ef4c1c89f009c3e69748ea714ba3a7a1a133ee7adfb0c1f0af58",
+  "topics": [
+    "local-llms",
+    "document-processing",
+    "semantic-analysis",
+    "vector-databases",
+    "text-extraction",
+    "ollama",
+    "fastapi",
+    "docker",
+    "scalable-architecture",
+    "enterprise-ai"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "local document processing pipeline",
+    "ultimate architecture",
+    "architecture overview",
+    "transformation layer",
+    "document extraction system the",
+    "semantic processing",
+    "robust storage",
+    "retrieval system this",
+    "full system integration",
+    "docker compose bring",
+    "frontend interface",
+    "document processing system",
+    "document list tab",
+    "upload tab",
+    "upload new document",
+    "select file",
+    "search tab",
+    "search documents",
+    "document dialog",
+    "transform document",
+    "transformation result",
+    "document content",
+    "comprehensive deployment guide create",
+    "deployment guide this",
+    "system requirements",
+    "docker compose",
+    "container toolkit",
+    "component overview the",
+    "configuration options",
+    "environment variables edit",
+    "server configuration",
+    "ollama configuration",
+    "web interface configuration",
+    "model selection by",
+    "deployment if",
+    "increase docker",
+    "viewing logs",
+    "production for",
+    "contributing we",
+    "license this",
+    "beyond document processing the"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-03-29-sovereign-synthesis",
+      "weight": 0.0208,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-01-23-building-a-multimodal-story-generation-system",
+      "weight": 0.0189,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-02-03-scrape-reddit-analysis-blog",
+      "weight": 0.0159,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-06-01-objective03-local-news-agency",
+      "weight": 0.0149,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-04-15-synthetic-intelligence-why-emergence-is-math-and-data-should-stay-local",
+      "weight": 0.0137,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-17-building-a-private-knowledge-graph-with-local-ai-agents",
+      "weight": 0.0135,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-30-building-a-personalized-ai-learning-system-with-local-llm",
+      "weight": 0.0122,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-30-learning-platform",
+      "weight": 0.0122,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "The ability to process, understand, and transform documents is not merely a technical challenge—it is the foundation of knowledge work in the digital age",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "-grade, locally-hosted document processing pipeline that combines elegance with power. By the end, you'll have a system that extracts meaning from documents, structures information intelligently, and enables limitless transformations of your content—all without sending sensitive data to external APIs",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The foundation of our pipeline is a robust extraction engine that preserves document structure while efficiently handling multiple formats",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The architecture presented here goes far beyond a simple document processing system. It represents a paradigm shift in how we interact with documents and knowledge:",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2026-03-29-sovereign-synthesis",
+    "2025-01-23-building-a-multimodal-story-generation-system",
+    "2025-02-03-scrape-reddit-analysis-blog",
+    "2026-06-01-objective03-local-news-agency",
+    "2026-04-15-synthetic-intelligence-why-emergence-is-math-and-data-should-stay-local",
+    "2026-03-17-building-a-private-knowledge-graph-with-local-ai-agents",
+    "2025-03-30-building-a-personalized-ai-learning-system-with-local-llm",
+    "2025-03-30-learning-platform"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-03-22-local-llm-document-pipeline-blueprint.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "e17b8134a496ef4c1c89f009c3e69748ea714ba3a7a1a133ee7adfb0c1f0af58",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "id": "2026-02-19-building-knowledge-chatbot",
+  "title": "Building a Knowledge-Sharing Chatbot: Turn Expertise Into an AI That Anyone Can Query",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-02-19",
+  "updated_at": "2026-02-19",
+  "canonical_url": "/blog/2026-02-19-building-knowledge-chatbot",
+  "content_hash": "sha256:2f3828cd7b9be951d86834c8d5d8fa0f2b259e8f6fe8da13c48d9ec083099992",
+  "topics": [
+    "ai",
+    "ollama",
+    "knowledge-transfer",
+    "chatbot",
+    "rag",
+    "python",
+    "local-llm",
+    "vector-database",
+    "expertise-capture"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "turn expertise into",
+    "anyone can query",
+    "real problem",
+    "knowledge bottlenecks every",
+    "pipeline the",
+    "expert interview",
+    "vector embeddings",
+    "queryable chatbot",
+    "unknown questions",
+    "expert review",
+    "new knowledge integrated",
+    "this approach works",
+    "practice let",
+    "capturing expert knowledge the",
+    "structuring knowledge",
+    "standard operating procedure",
+    "role overview",
+    "daily tasks",
+    "common mistakes",
+    "edge cases",
+    "special circumstances",
+    "standard operating procedures",
+    "making knowledge searchable structured",
+    "chatbot interface all",
+    "knowledge assistant",
+    "reference information",
+    "user question",
+    "learning loop the",
+    "complete data flow",
+    "knowledge capture",
+    "knowledge structuring",
+    "knowledge embedding",
+    "query time",
+    "gap filling",
+    "matters this",
+    "use cases beyond onboarding",
+    "key learnings building",
+    "capture must be frictionless",
+    "are great structurers the",
+    "chunking strategy makes",
+    "breaks retrieval bad",
+    "edge cases are features",
+    "not bugs every",
+    "is now practical ollama",
+    "temperature settings matter different",
+    "next this",
+    "replace telegram"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-02-15-building-this-blog",
+      "weight": 0.013,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-21-learn-programming-computer-science-youtube-roadmap",
+      "weight": 0.0066,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-20-how-to-vibe-code-a-nextjs-boilerplate-repo",
+      "weight": 0.0051,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "need. Whether you're a seasoned manager with institutional history, a technician with troubleshooting tricks learned over decades, or a founder with lessons from a hundred decisions—the problem is the same: **your knowledge is trapped in your head, and it scales poorly",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "You could write documentation, but documentation is static",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Traditional solutions don't work well. Wikis go stale. Training videos are passive",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Documentation requires people to know what to look for",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "What people actually want is **conversation**—the ability to ask questions and get answers tailored to their context",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The first challenge is getting knowledge out of people's heads",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Most experts are too busy to write comprehensive documentation, but they'll answer focused questions",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The interview process is deliberately conversational:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Key insight**: The questions are designed to surface not just what to do, but *what goes wrong*",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Raw interview responses are valuable but unstructured",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Structured documentation is great, but only if people can find what they need",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The embedding function itself is straightforward:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Retrieval is where semantic search shines:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Key insight**: The   parameter enables knowledge domain filtering",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The most powerful feature is the system's ability to learn from questions it can't answer:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "When an edge case is identified, expert answers get integrated back:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Experts won't write documentation, but they'll answer questions. The interview format is familiar and low-effort",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "2. LLMs Are Great Structurers",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The transformation from raw responses to organized documentation is where LLMs genuinely shine",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "4. Edge Cases Are Features, Not Bugs",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Every question the system can't answer is an opportunity to improve it",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The learning loop is the most valuable part of the architecture",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "5. Local-First Is Now Practical",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Ollama has matured to the point where local LLMs are genuinely useful for production workloads",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The quality is good enough, and the trade-offs (privacy, cost, control) often favor local",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2026-02-15-building-this-blog",
+    "2025-10-21-learn-programming-computer-science-youtube-roadmap",
+    "2025-10-20-how-to-vibe-code-a-nextjs-boilerplate-repo"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-02-19-building-knowledge-chatbot.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "2f3828cd7b9be951d86834c8d5d8fa0f2b259e8f6fe8da13c48d9ec083099992",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

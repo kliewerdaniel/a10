@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "id": "2025-03-29-markdown-teaching-assistant",
+  "title": "Building an AI-Powered Interactive Learning Platform",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-03-29",
+  "updated_at": "2025-03-29",
+  "canonical_url": "/blog/2025-03-29-markdown-teaching-assistant",
+  "content_hash": "sha256:ebdcaee5b0617fbd6b8e0e8696465c3ad8840eb0e690b18d660d3567d19ffbd9",
+  "topics": [
+    "ai-teaching-assistant",
+    "markdown-processing",
+    "local-llms",
+    "personalized-learning",
+    "interactive-quizzes",
+    "next-js",
+    "ollama",
+    "chromadb",
+    "knowledge-graphs",
+    "fastapi",
+    "learning-platform"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "interactive learning",
+    "could be",
+    "using react",
+    "file upload component",
+    "file upload",
+    "file structure",
+    "parsing markdown",
+    "storing content",
+    "parsed content",
+    "generating content using",
+    "displaying content",
+    "fetching content",
+    "rendering content",
+    "new page",
+    "adding interactive features",
+    "simple quiz",
+    "quiz component",
+    "storing user interactions",
+    "prisma migrate",
+    "storing user quiz",
+    "store quiz",
+    "handling user",
+    "personalized feedback",
+    "analyzing quiz results",
+    "generating personalized",
+    "enhancing feedback",
+    "learning models",
+    "data analytics",
+    "defining key metrics",
+    "organizing analytics",
+    "generating scheduled",
+    "average quiz score",
+    "integrating user feedback",
+    "soliciting user",
+    "analyzing user",
+    "prototype new",
+    "ensuring security",
+    "implement strong data security",
+    "access control",
+    "privacy laws",
+    "data protection regulation",
+    "european union",
+    "consumer privacy act",
+    "not sell my",
+    "protecting user",
+    "regular security audits",
+    "building trust",
+    "optimizing user experience",
+    "content accessibility guidelines",
+    "optimize performance",
+    "content delivery networks",
+    "web app",
+    "usability testing"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-07-08-ai-ssr-guide",
+      "weight": 0.0145,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-02-15-building-this-blog",
+      "weight": 0.012,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-22-rlhf-lab",
+      "weight": 0.0118,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-30-building-a-personalized-ai-learning-system-with-local-llm",
+      "weight": 0.0106,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-12-19-langchain-ollama",
+      "weight": 0.0099,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-19-building-a-local-llm-powered-knowledge-graph",
+      "weight": 0.0038,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Markdown**: A lightweight and universally recognized markup language, Markdown is ideal for structuring educational content in an easily readable format",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Before diving into building the platform, let’s review the tools, technologies, and skills you’ll need to successfully follow this guide. These prerequisites are designed to ensure that you have the necessary environment and knowledge to implement each feature",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Next.js](https://nextjs.org/) is a powerful React framework that enables both static site generation and server-side rendering (SSR)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Remark.js](https://remark.js.org/) is a fast and extensible Markdown parser that converts Markdown into HTML",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "For our project, Remark.js is used to parse user-uploaded Markdown files into structured data that can be processed further (e",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Markdown is a lightweight format for educational content, and Remark",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "ChromaDB](https://www.trychroma.com/) is a vector database used to store and manage knowledge graphs",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "FastAPI](https://fastapi.tiangolo.com/) is a modern, fast (high-performance) web framework for building APIs with Python",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "FastAPI is chosen for its simplicity and high-performance capabilities",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "If you decide to integrate FastAPI for advanced backend processing, a basic understanding of Python is needed to set up and interact with the backend service",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "npx create-next-app@latest learning-platform**: This command initializes a new Next.js application using the latest stable version. The learning-platform is the project folder where your app will be created",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Now that you have your Next.js project set up, you’ll need to install the necessary dependencies. These libraries are essential for handling Markdown parsing, file uploads, and integrating with local LLMs and ChromaDB",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "remark and remark-html**: These packages are used for parsing Markdown files and converting them into HTML",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "remark is the core library, and remark-html is a plugin that converts the parsed Markdown into HTML",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The fs.writeFileSync method saves the file to a local directory. In this case, the file is saved as markdown",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "When a user drops a file, the handleUpload function is triggered, which sends the file to the backend (/api/upload) via a POST request",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Add more detailed error handling both on the frontend and backend. For example, check if the uploaded file is a valid Markdown file, and handle any errors that occur during the file upload process",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "In the backend, ensure that only valid Markdown files are accepted",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Once you’ve uploaded the Markdown file, the next step is to parse the content and convert it into structured HTML",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The file is read from the local file system after being uploaded",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "remark().use(remarkHtml)**: This converts the Markdown content into HTML. remark is a powerful Markdown processor, and remark-html is a plugin to convert it into HTML",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The parsed HTML content is then returned in the response, ready to be used in the frontend or stored in a database",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "ChromaDB is used to create a knowledge graph from the parsed content, enabling the AI to query and interact with it",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "ChromaDB** enables efficient querying of stored content, creating a knowledge graph from the parsed HTML",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The generated content is returned as part of the response and can be displayed on the frontend",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://nextjs.org/",
+    "https://remark.js.org/",
+    "https://www.trychroma.com/",
+    "https://fastapi.tiangolo.com/",
+    "https://www.postgresql.org/download/"
+  ],
+  "related_artifacts": [
+    "2025-07-08-ai-ssr-guide",
+    "2026-02-15-building-this-blog",
+    "2024-11-22-rlhf-lab",
+    "2025-03-30-building-a-personalized-ai-learning-system-with-local-llm",
+    "2024-12-19-langchain-ollama",
+    "2025-10-19-building-a-local-llm-powered-knowledge-graph"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-03-29-markdown-teaching-assistant.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "ebdcaee5b0617fbd6b8e0e8696465c3ad8840eb0e690b18d660d3567d19ffbd9",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

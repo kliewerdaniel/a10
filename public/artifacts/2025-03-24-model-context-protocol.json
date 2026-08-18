@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "id": "2025-03-24-model-context-protocol",
+  "title": "Complete Guide: Building Your Own Model Context Protocol (MCP) Server for AI Tool Integration and Communication",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-03-24",
+  "updated_at": "2025-03-24",
+  "canonical_url": "/blog/2025-03-24-model-context-protocol",
+  "content_hash": "sha256:033d24a3b17551e10a72e64c6a402b48b1689f66b9ecbccc9a7e1079f784c1a8",
+  "topics": [
+    "model-context-protocol",
+    "mcp",
+    "ai-integration",
+    "context-management",
+    "fastapi",
+    "kubernetes",
+    "vector-databases",
+    "scalable-architecture",
+    "ai-infrastructure",
+    "enterprise-ai"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "building your own model",
+    "context protocol",
+    "model context protocol",
+    "context management context",
+    "model lifecycle management",
+    "building your own",
+    "hardware requirements",
+    "compute resources",
+    "intel xeon",
+    "software requirements",
+    "operating system",
+    "windows server",
+    "model management",
+    "database systems",
+    "operating system setup",
+    "ubuntu server",
+    "download ubuntu server",
+    "docker installation",
+    "install docker",
+    "kubernetes setup",
+    "container toolkit",
+    "database setup",
+    "setting up model serving",
+    "triton inference server",
+    "defining context parameters the",
+    "integration create",
+    "context handling implementation create",
+    "model manager implementation",
+    "contextual adaptation implement",
+    "unit tests create",
+    "integration tests create",
+    "server integration",
+    "performance testing create",
+    "kubernetes create kubernetes",
+    "database scaling",
+    "optimizing performance implement",
+    "authorization implement",
+    "security best practices implement",
+    "system health checks",
+    "check redis",
+    "server deployment",
+    "context management",
+    "performance optimization",
+    "use redis",
+    "data retention",
+    "common pitfalls",
+    "context management issues",
+    "performance pitfalls",
+    "security pitfalls",
+    "server benefits building"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-03-12-mcp-openai-agents-sdk-ollama",
+      "weight": 0.0303,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-16-from-fragmented-experiments-to-cognitive-synthesis",
+      "weight": 0.0274,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-06-08-opendesign-opencode-local-first-design-operating-system",
+      "weight": 0.023,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-30-building-a-personalized-ai-learning-system-with-local-llm",
+      "weight": 0.0222,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-21-browser-use-ollama-mcp",
+      "weight": 0.0213,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-22-if-the-loop-is-the-product",
+      "weight": 0.0179,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-05-the-ghost-in-the-machine-is-finally-allowed-to-see-a-beginners-guide-to-mcp",
+      "weight": 0.0149,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-12-mcp-openai-responses-api-agents-sdk-ollama",
+      "weight": 0.0147,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "The Model Context Protocol (MCP) is a standardized framework for managing, transmitting, and utilizing contextual information in machine learning systems",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Unlike traditional ML deployment approaches where models operate as isolated black boxes, MCP creates an ecosystem where models are constantly aware of their operational environment, historical interactions, and user-specific requirements",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This context-aware approach enables models to make more informed, personalized, and accurate predictions",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Task context**: The broader goal the model is helping to achieve, including prior steps in a multi-step process",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Context Filtering**: Only relevant context is passed to each model, improving efficiency",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Continuous Improvement**: Historical context enables targeted retraining based on actual usage patterns",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Latency**: Low-latency connections, especially if context data is stored separately from models",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "1. **Structured Context Schema**: Always use a well-defined, versioned schema for context data. This ensures compatibility across models and prevents unexpected behavior",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "1. **Efficient Context Retrieval**: Ensure your database schema is properly indexed for quick context lookups:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "2. **Synchronous I/O in Async Code**: Ensure all I/O operations are properly async:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "1. **Complete Control**: With a custom MCP server, you have full control over how context is managed, stored, and utilized by your models",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2025-03-12-mcp-openai-agents-sdk-ollama",
+    "2026-01-16-from-fragmented-experiments-to-cognitive-synthesis",
+    "2026-06-08-opendesign-opencode-local-first-design-operating-system",
+    "2025-03-30-building-a-personalized-ai-learning-system-with-local-llm",
+    "2025-03-21-browser-use-ollama-mcp",
+    "2026-07-22-if-the-loop-is-the-product",
+    "2025-11-05-the-ghost-in-the-machine-is-finally-allowed-to-see-a-beginners-guide-to-mcp",
+    "2025-03-12-mcp-openai-responses-api-agents-sdk-ollama"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-03-24-model-context-protocol.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "033d24a3b17551e10a72e64c6a402b48b1689f66b9ecbccc9a7e1079f784c1a8",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

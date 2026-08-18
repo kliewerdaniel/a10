@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: https://danielkliewer.com/blog/document-driven-development-nextjs-blog
+canonical_url: /blog/2025-11-03-document-driven-development-nextjs-blog
 date: 11-03-2025
 description: 'A complete guide to Document-Driven Development and AI-assisted coding:
   building a Next.js 16 blog from scratch using plain language prompts, comprehensive

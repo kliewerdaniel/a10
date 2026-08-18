@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "2024-12-19-continue.dev-ollama",
+  "title": "Configuring Continue.dev with Ollama for Local Large Language Model Integration in VSCode Development Environment",
+  "author": "Daniel Kliewer",
+  "created_at": "2024-12-19",
+  "updated_at": "2024-12-19",
+  "canonical_url": "/blog/2024-12-19-continue.dev-ollama",
+  "content_hash": "sha256:dde940c4b8fd8e3adaba47af608dacb5007ca2f298159063f8e164fffd2678cd",
+  "topics": [
+    "continue-dev",
+    "ollama",
+    "vscode",
+    "local-llms",
+    "gguf-models",
+    "ai-development",
+    "model-integration",
+    "code-completion",
+    "local-ai-setup"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "setting up continue",
+    "visual studio code",
+    "start ollama",
+    "list available models",
+    "ollama to",
+    "configuring continue",
+    "loading models",
+    "pulling models"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-03-29-sovereign-synthesis",
+      "weight": 0.0156,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-02-22-building-cognitive-graph-ai-application",
+      "weight": 0.0125,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-16-from-fragmented-experiments-to-cognitive-synthesis",
+      "weight": 0.0093,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-15-building-evaluating-local-research-assistant-graphrag-vero-eval",
+      "weight": 0.0091,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-19-building-a-local-llm-powered-knowledge-graph",
+      "weight": 0.0045,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-12-integrating-openai-agents-sdk-ollama",
+      "weight": 0.0023,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "2. **Ollama**: Install [Ollama](https://github.com/jmorganca/ollama), a local LLM runner that can host various models. Make sure Ollama is running and that you know the port it's listening on (default:  )",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Run   or ensure Ollama is already running in the background",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This must point to Ollama’s API endpoint for generating responses. By default, Ollama listens on  . Make sure this is included exactly as shown",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "If a model is hosted in a repository or by Ollama itself, you can pull it directly:",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://marketplace.visualstudio.com/items?itemName=Continue.continue",
+    "https://github.com/jmorganca/ollama"
+  ],
+  "related_artifacts": [
+    "2026-03-29-sovereign-synthesis",
+    "2026-02-22-building-cognitive-graph-ai-application",
+    "2026-01-16-from-fragmented-experiments-to-cognitive-synthesis",
+    "2025-11-15-building-evaluating-local-research-assistant-graphrag-vero-eval",
+    "2025-10-19-building-a-local-llm-powered-knowledge-graph",
+    "2025-03-12-integrating-openai-agents-sdk-ollama"
+  ],
+  "provenance": {
+    "source": "content/blog/2024-12-19-continue.dev-ollama.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "dde940c4b8fd8e3adaba47af608dacb5007ca2f298159063f8e164fffd2678cd",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

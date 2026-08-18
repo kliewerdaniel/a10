@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: /blog/objective05-exec-giving-local-intelligence-system-hands
+canonical_url: /blog/2026-06-08-objective05-exec-giving-local-intelligence-system-hands
 date: 06-08-2026
 description: A complete Rust tutorial on building objective05-exec — a local-first
   agent runtime that bridges a perpetual Kuzu-backed knowledge graph to real-world

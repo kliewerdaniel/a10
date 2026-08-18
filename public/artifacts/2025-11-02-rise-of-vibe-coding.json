@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "id": "2025-11-02-rise-of-vibe-coding",
+  "title": "The Rise of Vibe Coding: Cursor 2.0 vs VS Code + Cline - Ultimate AI Coding Showdown 2025",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-11-02",
+  "updated_at": "2025-11-02",
+  "canonical_url": "/blog/2025-11-02-rise-of-vibe-coding",
+  "content_hash": "sha256:610f4569851c157b2f347d63fb4ddf0cf972008e3939ab071fc7a9f489c2a72e",
+  "topics": [
+    "vibe-coding",
+    "ai-coding",
+    "cursor-2-0",
+    "vscode",
+    "cline",
+    "ai-agents",
+    "document-driven-development",
+    "nextjs",
+    "fastapi",
+    "llm-integration",
+    "seo-optimization"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "vibe coding",
+    "agents go",
+    "war in",
+    "news broadcast generator our",
+    "cline warmup",
+    "real talk moment",
+    "ultimate evaluation hack",
+    "fray time",
+    "fixing python",
+    "infamous cursor context",
+    "file hack one",
+    "news synthesizer",
+    "fixes implementation summary",
+    "all critical",
+    "high priority issues resolved",
+    "hybrid approach emerges",
+    "both worlds but",
+    "battle results",
+    "who won",
+    "vibe coding war",
+    "cline strengths",
+    "vibe coding lessons learned",
+    "king my",
+    "tool switching",
+    "plan more",
+    "worry less cursor",
+    "cheap anymore the",
+    "final product",
+    "we built despite",
+    "this matters",
+    "level up your vibe",
+    "coding game"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-02-08-audible-data-transmission-when-humans-become-the-codec",
+      "weight": 0.0222,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-02-13-the-biological-api-why-ai-developers-should-care-about-rhythmic-chanting",
+      "weight": 0.0222,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-10-the-ai-revolution-in-business-transforming-sales-crm-and-customer-management-in-2026",
+      "weight": 0.0204,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-04-15-synthetic-intelligence-why-emergence-is-math-and-data-should-stay-local",
+      "weight": 0.0156,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-19-building-a-local-llm-powered-knowledge-graph",
+      "weight": 0.0041,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-20-how-to-vibe-code-a-nextjs-boilerplate-repo",
+      "weight": 0.0026,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "In the neon-lit underbelly of modern software development, a new art form is emerging",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The LLM chews on this for what feels like an eternity, then spits out... something. It's a backend. It works. But how good is it, really",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Anyone can build a basic CRUD API. The true test of vibe coding is handling complexity - LLM integration, cross-platform TTS, database relationships, error handling",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is next-level vibe coding - the AI is using **document-driven development on itself**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The winner? Neither. The real power is in combination",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "1. Document-Driven Development is King",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "2. Tool Switching is a Superpower",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The free tiers of these tools are insanely capable",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This isn't the future of coding. This ** is ** the future of coding",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The question is : are you vibing with it",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Try the hybrid approach I used here. Set both Cursor and VS Code up, then switch between them while you build. The combination is greater than the sum of its parts",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "And remember: in the world of AI development, the code isn't the endgame. The vibe is the victory",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2026-02-08-audible-data-transmission-when-humans-become-the-codec",
+    "2026-02-13-the-biological-api-why-ai-developers-should-care-about-rhythmic-chanting",
+    "2026-01-10-the-ai-revolution-in-business-transforming-sales-crm-and-customer-management-in-2026",
+    "2026-04-15-synthetic-intelligence-why-emergence-is-math-and-data-should-stay-local",
+    "2025-10-19-building-a-local-llm-powered-knowledge-graph",
+    "2025-10-20-how-to-vibe-code-a-nextjs-boilerplate-repo"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-11-02-rise-of-vibe-coding.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "610f4569851c157b2f347d63fb4ddf0cf972008e3939ab071fc7a9f489c2a72e",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

@@ -9,16 +9,16 @@ export function RelatedProjects({ projects }: RelatedProjectsProps) {
 
   return (
     <div>
-      <h3 className="font-display text-xl mb-4">Related Projects</h3>
+      <h3 className="font-serif text-xl font-medium text-[var(--color-ink)] mb-4">Related Projects</h3>
       <div className="space-y-3">
         {projects.slice(0, 3).map((project) => (
-          <div key={project.slug} className="border-t border-ink pt-3 mt-3">
+          <div key={project.slug} className="border-t border-[var(--color-rule)] pt-3 first:border-t-0 first:pt-0">
             <a
-              href={`/projects/${project.layer}/${project.slug}`}
-              className="block hover:text-pink-dark transition-colors"
+              href={`/fleet/${project.layer}/${project.slug}`}
+              className="block hover:text-[var(--color-green)] transition-colors"
             >
-              <h4 className="font-display text-ink mb-1">{project.name}</h4>
-              <p className="text-xs text-ink-3 line-clamp-2">{project.summary}</p>
+              <h4 className="font-serif text-[var(--color-ink)] mb-1">{project.name}</h4>
+              <p className="text-xs text-[var(--color-ink-3)] line-clamp-2">{project.summary}</p>
             </a>
           </div>
         ))}

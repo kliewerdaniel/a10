@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: /blog/2026-01-25-building-the-synthetic-analyst/
+canonical_url: /blog/2026-01-25-building-the-synthetic-analyst
 date: 01-25-2026
 description: A deep dive into building an advanced RAG system that uses dynamic personas
   and cross-validation to create synthetic analysts capable of critical thinking and

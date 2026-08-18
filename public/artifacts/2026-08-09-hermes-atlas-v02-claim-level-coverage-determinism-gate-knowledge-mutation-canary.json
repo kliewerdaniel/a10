@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "id": "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+  "title": "Hermes Atlas v0.2: Claim-Level Coverage, a Determinism Gate, and a Knowledge-Mutation Canary",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-08-09",
+  "updated_at": "2026-08-09",
+  "canonical_url": "/blog/2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+  "content_hash": "sha256:5078a78650b986115c8d9ba64a034d1ec73af9721b493ce42f119275e55ea3ae",
+  "topics": [
+    "local-first-ai",
+    "local-ai",
+    "knowledge-representation",
+    "graphrag",
+    "falsifiability",
+    "local-first",
+    "ai-agents"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "determinism gate",
+    "canary august",
+    "daniel kliewer"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+      "weight": 0.1667,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-22-if-the-loop-is-the-product",
+      "weight": 0.1111,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
+      "weight": 0.1,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-23-rlhf-lab-business-plan",
+      "weight": 0.0833,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-building-the-scientific-question-compiler",
+      "weight": 0.0833,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-20-compile-time-intelligence-research-compiler-agent",
+      "weight": 0.0556,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-21-compiling-medical-evidence-clinical-research-compiler",
+      "weight": 0.05,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-14-2025-inference-new-geography-intelligence",
+      "weight": 0.0476,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "v0.2 is a benchmark-and-fix release. The spec was explicit: no new personas, no new model integrations, no prettier CLI. Just close the honesty gaps with measurements. Here is what changed and — more importantly — the numbers, including the ones that did not reach 1",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The code is public: github",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "rediscovery canary ran, it reported flagged (pass_rate 0.0): the loop never leaked the withheld fact, but it also never generated a question targeting it. The canary couldn't say \"this specific fact is missing\" because nothing in the pipeline could",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The wiring is minimal and defensive:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "gaps.analyse(question, corpus) now calls coverage_gaps_for_question only when both are supplied, wrapped in try/except so a coverage failure never breaks the aggregate report",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Entities come only from backtick tokens ( ), acronyms, mid-sentence proper nouns, and a vocabulary list. Lowercase terms are never entities",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Sentence-initial capitals are skipped (deliberate \"not an entity\" rule)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "A sentence is a claim only with an assertion cue (is/are/requires/lacks/has/",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Python runs on Linux.\" (19 chars) is not a claim",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Exposed as atlas gate. The gate is why the v0",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "1 \"we're deterministic\" claim is now a proof rather than a hope",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "? (Either the confidence number moves, or its contradiction_ids back-link appears — a claim sitting at floor confidence of 0.0 cannot move numerically downward, but recording the contradiction is itself the propagation",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "deterministic corpora (bench_corpus_b.json, bench_corpus_c.json): 10 negative-control + 10 held-out + 5 knowledge-mutation each. Fixed corpora replace the unreproducible blog scrape so the numbers are real and repeatable",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The harness is model-free (llm_baseline_available: false) — everything is computed at compile time",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Negative controls at 1.0 on both corpora: the graph beats the keyword baseline because the claims are actually in the graph",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "5–0.7, not 1.0. That is the honest result",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The metric is loop-targeted-the-hole: the loop passes when it identifies the withheld fact and generates a question targeting it",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "It is lower than 1.0 because the coverage layer localises a hole best when the withheld fact is the sole co-mention of its entity pair (a unique link-carrier)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The only error class is false positives: rhetorical \"What is…",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Are you…?\" questions and metaphors (\"It is a rope stretched between…\") slip through the is/are/has cue",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "down-weights low-reliability sources and the gap analysis ignores claims with no entity backing, so these don't poison the graph. High recall, modest precision — a deliberate, accepted tradeoff. It is reported here as a measured limitation, not a claim of perfection",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The env -u PYTHONPATH -u PYTHONHOME prefix strips a leaked venv from the shell when running under Hermes. On a clean shell it is unnecessary",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Coverage localisation is strongest on unique link-carriers",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "A falsifiable system is only as honest as its canary",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "a correction. v0.2 closes that: it measures contradiction recall and update propagation, and it reports the numbers that didn't hit 1.0 right alongside the ones that did. A canary that never fails is not measuring anything",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+    "2026-07-22-if-the-loop-is-the-product",
+    "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
+    "2024-11-23-rlhf-lab-business-plan",
+    "2026-07-23-building-the-scientific-question-compiler",
+    "2026-07-20-compile-time-intelligence-research-compiler-agent",
+    "2026-07-21-compiling-medical-evidence-clinical-research-compiler",
+    "2025-11-14-2025-inference-new-geography-intelligence"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "5078a78650b986115c8d9ba64a034d1ec73af9721b493ce42f119275e55ea3ae",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

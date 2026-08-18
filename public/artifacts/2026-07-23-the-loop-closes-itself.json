@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "id": "2026-07-23-the-loop-closes-itself",
+  "title": "The Loop Closes Itself: A Compiler That Directs Its Own Next Compile",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-07-23",
+  "updated_at": "2026-07-23",
+  "canonical_url": "/blog/2026-07-23-the-loop-closes-itself",
+  "content_hash": "sha256:e3b5fdc24608ecd5af46308ac6533a10398b5a4694ea1041f5a4d533e6bb431c",
+  "topics": [
+    "ai-agents",
+    "compile-time-ai",
+    "knowledge-compiler",
+    "local-first-ai"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "scientific state compiler",
+    "scientific git",
+    "permissive role",
+    "vascular dysfunction",
+    "state compiler",
+    "mechanistic reasoning",
+    "scientific question",
+    "scientific state",
+    "unknown detector"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-07-23-the-scientific-state-compiler-pass-4",
+      "weight": 0.5,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-the-next-experiment-grounded-and-quantitative",
+      "weight": 0.25,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-24-popper-the-falsifiable-hypothesis-compiler",
+      "weight": 0.1538,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-22-if-the-loop-is-the-product",
+      "weight": 0.1429,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-the-scientific-state-compiler-roadmap",
+      "weight": 0.125,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-building-the-scientific-question-compiler",
+      "weight": 0.1176,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-validating-at-scale-orkg",
+      "weight": 0.0833,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-21-research-compiler-scientific-discovery",
+      "weight": 0.05,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "a real **version diff**. It begins to direct its own next compile. This is the",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The architecture is five steps, all running on hardware we own:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "exist. The brief specifies the study that *should* exist. That is synthesis, not",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "It targeted the open question *\"What is the temporal hierarchy between metabolic/",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The diff is not cosmetic",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "appears. The artifact is no longer a frozen file — it is a *versioned research",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "substrate*, and the version history is the proof the loop is advancing rather than",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "self-directing*: the output of one compile (open questions) is the input selector",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This is exactly the SovereignSpec thesis made mechanical: **intelligence is not the",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "model; intelligence is the accumulated decisions that shaped the model",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "accumulated decisions are the versioned sequence of compiles, each one recorded,",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The   source and the versioned artifact are in the repo:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Scientific State, Discovery, Unknown Detector — are passes in one architecture",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "closing them, the remaining move is to let the loop run unattended across a corpus",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "state advances without a human prompting it, and every advance is diffable and",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "revertible. That is observability as the operating system, applied to science",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://scientific-question-compiler.vercel.app/state",
+    "https://github.com/kliewerdaniel/scientific-question-compiler"
+  ],
+  "related_artifacts": [
+    "2026-07-23-the-scientific-state-compiler-pass-4",
+    "2026-07-23-the-next-experiment-grounded-and-quantitative",
+    "2026-07-24-popper-the-falsifiable-hypothesis-compiler",
+    "2026-07-22-if-the-loop-is-the-product",
+    "2026-07-23-the-scientific-state-compiler-roadmap",
+    "2026-07-23-building-the-scientific-question-compiler",
+    "2026-07-23-validating-at-scale-orkg",
+    "2026-07-21-research-compiler-scientific-discovery"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-07-23-the-loop-closes-itself.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "e3b5fdc24608ecd5af46308ac6533a10398b5a4694ea1041f5a4d533e6bb431c",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

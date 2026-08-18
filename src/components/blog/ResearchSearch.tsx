@@ -13,6 +13,8 @@ interface Post {
   readingTime: string;
   category: string;
   featured?: boolean;
+  status?: string;
+  topics?: string[];
 }
 
 interface ResearchArchiveProps {
@@ -128,7 +130,7 @@ export function ResearchArchive({ posts }: ResearchArchiveProps) {
     <div id="all-research">
       <div className="mb-8">
         <div className="relative">
-          <svg className="absolute left-5 top-1/2 -translate-y-1/2 w-6 h-6 text-ink-3 pointer-events-none" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
+          <svg className="absolute left-5 top-1/2 -translate-y-1/2 w-6 h-6 text-[var(--color-ink-3)] pointer-events-none" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
           </svg>
           <input
@@ -136,12 +138,12 @@ export function ResearchArchive({ posts }: ResearchArchiveProps) {
             value={query}
             onChange={(e) => handleQueryChange(e.target.value)}
             placeholder="Search all research..."
-            className="w-full pl-14 pr-12 py-5 bg-cream border-4 border-ink text-ink placeholder-ink-3 focus:outline-none focus:bg-surface transition-colors font-bold text-xl"
+            className="w-full pl-14 pr-12 py-5 bg-[var(--color-paper-2)] border border-[var(--color-rule)] text-[var(--color-ink)] placeholder-[var(--color-ink-3)] focus:outline-none focus:border-[var(--color-ink)] transition-colors font-serif text-xl"
           />
           {query && (
             <button
               onClick={clearSearch}
-              className="absolute right-4 top-1/2 -translate-y-1/2 text-ink-3 hover:text-ink transition-colors"
+              className="absolute right-4 top-1/2 -translate-y-1/2 text-[var(--color-ink-3)] hover:text-[var(--color-ink)] transition-colors"
             >
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
@@ -154,8 +156,8 @@ export function ResearchArchive({ posts }: ResearchArchiveProps) {
       <div className="mb-10 flex flex-wrap gap-2">
         <button
           onClick={() => handleTagSelect(null)}
-          className={`mono px-3 py-1.5 text-xs font-bold border-2 border-ink transition-colors ${
-            selectedTag === null ? 'bg-ink text-cream' : 'bg-cream text-ink hover:bg-surface'
+          className={`font-mono text-[0.6rem] tracking-[0.14em] uppercase px-3 py-1.5 border transition-colors ${
+            selectedTag === null ? 'bg-[var(--color-ink)] text-[var(--color-paper)] border-[var(--color-ink)]' : 'bg-[var(--color-paper-2)] text-[var(--color-ink-3)] border-[var(--color-rule)] hover:border-[var(--color-ink)]'
           }`}
         >
           All
@@ -164,8 +166,8 @@ export function ResearchArchive({ posts }: ResearchArchiveProps) {
           <button
             key={tag}
             onClick={() => handleTagSelect(tag)}
-            className={`mono px-3 py-1.5 text-xs font-bold border-2 border-ink transition-colors ${
-              selectedTag === tag ? 'bg-ink text-cream' : 'bg-cream text-ink hover:bg-surface'
+            className={`font-mono text-[0.6rem] tracking-[0.14em] uppercase px-3 py-1.5 border transition-colors ${
+              selectedTag === tag ? 'bg-[var(--color-ink)] text-[var(--color-paper)] border-[var(--color-ink)]' : 'bg-[var(--color-paper-2)] text-[var(--color-ink-3)] border-[var(--color-rule)] hover:border-[var(--color-ink)]'
             }`}
           >
             {tag} <span className="opacity-50">{count}</span>
@@ -173,14 +175,14 @@ export function ResearchArchive({ posts }: ResearchArchiveProps) {
         ))}
       </div>
 
-      <p className="mono text-xs text-ink-3 mb-4">
+      <p className="font-mono text-[0.6rem] tracking-[0.14em] uppercase text-[var(--color-ink-3)] mb-4">
         {startIdx + 1}–{Math.min(startIdx + POSTS_PER_PAGE, filtered.length)} of {filtered.length} article{filtered.length !== 1 ? 's' : ''}
       </p>
 
       {currentPosts.length === 0 ? (
         <div className="text-center py-20">
-          <p className="text-ink-3 mb-2 font-bold text-lg">No articles found</p>
-          <p className="text-sm text-ink-3 font-bold">
+          <p className="text-[var(--color-ink)] mb-2 font-serif text-lg">No articles found</p>
+          <p className="text-sm text-[var(--color-ink-3)]">
             {query ? `No results for "${query}"` : 'Try a different tag filter'}
           </p>
         </div>
@@ -197,6 +199,8 @@ export function ResearchArchive({ posts }: ResearchArchiveProps) {
               readingTime={post.readingTime}
               category={post.category}
               featured={post.featured}
+              status={post.status}
+              topics={post.topics}
             />
           ))}
         </div>
@@ -207,7 +211,7 @@ export function ResearchArchive({ posts }: ResearchArchiveProps) {
           {safePage > 1 && (
             <button
               onClick={() => navigate(safePage - 1)}
-              className="mono px-4 py-2 text-sm font-bold border-2 border-ink bg-cream text-ink hover:bg-surface transition-colors"
+              className="font-mono text-[0.6rem] tracking-[0.14em] uppercase px-4 py-2 border border-[var(--color-rule)] bg-[var(--color-paper-2)] text-[var(--color-ink)] hover:border-[var(--color-ink)] transition-colors"
             >
               ← Prev
             </button>
@@ -215,17 +219,17 @@ export function ResearchArchive({ posts }: ResearchArchiveProps) {
 
           {getPageNumbers(safePage, totalPages).map((p, i) =>
             p === '...' ? (
-              <span key={`ellipsis-${i}`} className="mono px-2 py-2 text-sm text-ink-3">
+              <span key={`ellipsis-${i}`} className="font-mono px-2 py-2 text-sm text-[var(--color-ink-3)]">
                 …
               </span>
             ) : (
               <button
                 key={p}
                 onClick={() => navigate(p)}
-                className={`mono px-3 py-2 text-sm font-bold border-2 border-ink transition-colors ${
+                className={`font-mono text-[0.6rem] tracking-[0.14em] uppercase px-3 py-2 border transition-colors ${
                   p === safePage
-                    ? 'bg-ink text-cream'
-                    : 'bg-cream text-ink hover:bg-surface'
+                    ? 'bg-[var(--color-ink)] text-[var(--color-paper)] border-[var(--color-ink)]'
+                    : 'bg-[var(--color-paper-2)] text-[var(--color-ink)] border-[var(--color-rule)] hover:border-[var(--color-ink)]'
                 }`}
                 aria-current={p === safePage ? 'page' : undefined}
               >
@@ -237,7 +241,7 @@ export function ResearchArchive({ posts }: ResearchArchiveProps) {
           {safePage < totalPages && (
             <button
               onClick={() => navigate(safePage + 1)}
-              className="mono px-4 py-2 text-sm font-bold border-2 border-ink bg-cream text-ink hover:bg-surface transition-colors"
+              className="font-mono text-[0.6rem] tracking-[0.14em] uppercase px-4 py-2 border border-[var(--color-rule)] bg-[var(--color-paper-2)] text-[var(--color-ink)] hover:border-[var(--color-ink)] transition-colors"
             >
               Next →
             </button>

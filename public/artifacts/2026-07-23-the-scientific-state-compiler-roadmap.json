@@ -1,0 +1,265 @@
+{
+  "schema_version": 1,
+  "id": "2026-07-23-the-scientific-state-compiler-roadmap",
+  "title": "Compiling the State of Human Understanding: A Roadmap for the Scientific State Compiler",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-07-23",
+  "updated_at": "2026-07-23",
+  "canonical_url": "/blog/2026-07-23-the-scientific-state-compiler-roadmap",
+  "content_hash": "sha256:5aafdf307acc8714232035519b30fa9ce564067aa48fdfb0470361399d3889d5",
+  "topics": [
+    "ai-agents",
+    "compile-time-ai",
+    "knowledge-compiler",
+    "knowledge-representation",
+    "local-first-ai",
+    "provenance",
+    "reproducible-ai",
+    "research-compiler",
+    "scientific-discovery",
+    "causal-inference",
+    "uncertainty",
+    "scientific-state",
+    "research-roadmap"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "human understanding",
+    "scientific state compiler",
+    "daniel kliewer",
+    "scientific discovery compiler",
+    "mechanistic reasoning compiler",
+    "scientific question compiler",
+    "discovery compiler",
+    "raw scientific literature",
+    "evidence compilation",
+    "question compilation",
+    "mechanism compilation",
+    "scientific state compilation",
+    "discovery compilation",
+    "executable scientific understanding",
+    "very high",
+    "unknown detector",
+    "scientific git",
+    "scientific state",
+    "unanswered questions",
+    "research opportunities",
+    "knowledge gap",
+    "scientific leverage",
+    "evidence density",
+    "state compiler",
+    "uncertainty detection",
+    "hypothesis generation",
+    "hypothesis ranking",
+    "experiment simulation",
+    "expected outcome prediction",
+    "experiment recommendation",
+    "research program",
+    "new questions",
+    "scientific state explorer",
+    "uncertainty map",
+    "conflict map",
+    "mechanism view"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-07-23-building-the-scientific-question-compiler",
+      "weight": 0.7105,
+      "basis": "shared-entity+crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-the-loop-closes-itself",
+      "weight": 0.125,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-the-scientific-state-compiler-pass-4",
+      "weight": 0.1053,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-22-if-the-loop-is-the-product",
+      "weight": 0.1026,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-21-research-compiler-scientific-discovery",
+      "weight": 0.0781,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-the-next-experiment-grounded-and-quantitative",
+      "weight": 0.05,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+      "weight": 0.0263,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-validating-at-scale-orkg",
+      "weight": 0.0256,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "This post is the map for where we go next",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "important thing I learned is that **they are not four projects",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "State Compiler, a Discovery Compiler — are stages of a single pipeline that",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Every one of the \"four directions is a transformation over the same corpus",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The insight worth pausing on: **this is the same move a software toolchain makes",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "and is emitted as an executable that is then version-controlled and released",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The target we are compiling toward has a name I have started using without irony:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "the real strategic question is not \"which one do we choose",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Which compiler pass is the missing bottleneck that keeps the whole system from",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "That reframing is the most valuable thing to come out of this planning round, and",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "the rest of the roadmap is organized around answering it",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Before describing three stages that do not exist yet, it is worth being precise",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "about which pieces are already running",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "yesterday is not a prototype of *one* direction — it already contains a working",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "emits ranked gaps and follow-up queries; the silence map in consensus is the seed",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "and boundary conditions. This is the Mechanistic Reasoning Compiler as a pass",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "State (PASS 4)** — *partially* built, and this is the gap to close",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "artifact is versioned (Scientific Git, local-first, commit/diff/recency-weight),",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "and   produces a consensus/silence map. What is missing is the",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "So the answer to \"which pass is the missing bottleneck",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "the Scientific State object and its historical-evolution dimension, is the weakest",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "and once State is real, Discovery becomes a closed loop rather than a one-shot plan",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "unknown?* The premise: progress is not limited by information accumulation (we",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "have too much); it is limited by **identifying the right unanswered questions",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "cause Y?\"), Boundary (\"when does X become harmful?\"), Optimization (\"what is the",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://scientific-discovery-explorer.vercel.app",
+    "https://scientific-discovery-explorer.vercel.app"
+  ],
+  "related_artifacts": [
+    "2026-07-23-building-the-scientific-question-compiler",
+    "2026-07-23-the-loop-closes-itself",
+    "2026-07-23-the-scientific-state-compiler-pass-4",
+    "2026-07-22-if-the-loop-is-the-product",
+    "2026-07-21-research-compiler-scientific-discovery",
+    "2026-07-23-the-next-experiment-grounded-and-quantitative",
+    "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+    "2026-07-23-validating-at-scale-orkg"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-07-23-the-scientific-state-compiler-roadmap.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "5aafdf307acc8714232035519b30fa9ce564067aa48fdfb0470361399d3889d5",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

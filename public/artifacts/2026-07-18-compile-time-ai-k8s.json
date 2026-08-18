@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "id": "2026-07-18-compile-time-ai-k8s",
+  "title": "Compile-Time AI in Practice: How We Built a Kubernetes Knowledge Compiler",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-07-18",
+  "updated_at": "2026-07-18",
+  "canonical_url": "/blog/2026-07-18-compile-time-ai-k8s",
+  "content_hash": "sha256:939d0dfff37fe774c37e73778d93dbac3d41684dd3be7ae364ccda5c4898009c",
+  "topics": [
+    "compile-time-ai",
+    "knowledge-compiler",
+    "kubernetes",
+    "local-first-ai",
+    "knowledge-representation",
+    "nextjs"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "we built",
+    "kubernetes knowledge compiler"
+  ],
+  "relationships": [],
+  "claims": [
+    {
+      "text": "The smartest thing you can do with a model is to stop asking it questions at runtime",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "That sentence is the whole thesis behind [ ](https://github",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Most \"AI for docs\" products are chatbots",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Every answer is non-deterministic — the same question can yield a different",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Every answer is hard to audit — you're trusting a black box that may or may not",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "intelligence gets *baked into* the knowledge base. What we ship is a static",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "read with a SQL query or a JSON fetch. No model is awake when a user visits",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "If the loop is the product, observability becomes the OS",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Every phase is pure Python",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The output is a typed **Intermediate Representation**",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The deterministic graph is a *scaffold*",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The card is stored as the node   (rendered in the frontend **Docs** view)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "the corpus. It does not invent Kubernetes behavior. Output is tagged",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "2. **Batched + cached by content hash.** Nodes are synthesized N-at-a-time per",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "model call. Results are cached by a hash of their source quotes, so a crash or",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "3. **Pluggable.**  ,  , are separate passes in",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Why this is the point",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "graph), and   (search). The frontend is a **Next",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Because the site is a knowledge resource, we also made it **readable by other",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "agent can read  , then fetch only the slice it needs. This is the same",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "philosophy turned outward: the compiled artifact is useful *as a resource*, not",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The build is reproducible: same inputs → identical",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "deterministic core is the source of truth",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Intelligence moves to build time.** The model is a dependency of the artifact,",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Runtime is cheap, deterministic, inspectable",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://github.com/kliewerdaniel/k8s-docs-compiler",
+    "https://k8s-docs-compiler.vercel.app/",
+    "https://llmstxt.org",
+    "https://github.com/kliewerdaniel/k8s-docs-compiler",
+    "https://k8s-docs-compiler.vercel.app/"
+  ],
+  "related_artifacts": [],
+  "provenance": {
+    "source": "content/blog/2026-07-18-compile-time-ai-k8s.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "939d0dfff37fe774c37e73778d93dbac3d41684dd3be7ae364ccda5c4898009c",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

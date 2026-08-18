@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "id": "2026-07-25-does-the-hypothesis-compiler-generalize-orkg",
+  "title": "Does the Hypothesis Compiler Generalize? Running Popper on a Corpus I Did Not Build",
+  "author": "Daniel Kliewer",
+  "created_at": "2026-07-25",
+  "updated_at": "2026-07-25",
+  "canonical_url": "/blog/2026-07-25-does-the-hypothesis-compiler-generalize-orkg",
+  "content_hash": "sha256:5267b9d1f50fd3a1f43ca31edca0544b8e978b26ada9683b7db4a307460ae8a1",
+  "topics": [
+    "ai-agents",
+    "compile-time-ai",
+    "knowledge-compiler",
+    "local-first-ai",
+    "scientific-discovery",
+    "falsifiability",
+    "knowledge-graphs"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "research knowledge"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-07-24-popper-the-falsifiable-hypothesis-compiler",
+      "weight": 0.5,
+      "basis": "crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-26-does-the-compiler-know-when-it-is-wrong",
+      "weight": 0.5,
+      "basis": "crosslink"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-validating-at-scale-orkg",
+      "weight": 0.25,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-the-next-experiment-grounded-and-quantitative",
+      "weight": 0.1667,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "hypotheses that are not merely plausible but *falsifiable* — carrying variables, a",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The only way to kill that objection is to change nothing about the method and everything",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "about the data. So that is exactly what this experiment does",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "unstructured generation.** This experiment is built so that claim can *fail*, on data with",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The corpus: ORKG, and why it is the honest stress test",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The [Open Research Knowledge Graph](https://orkg.org) is a community effort to represent",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The dump I used is **6,344,307 triples** — 65,689 papers, 98,774 contributions, 8,420",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "It is the honest stress test for three reasons. It is **large** (four orders of magnitude",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "more than a curated benchmark). It is **heterogeneous** (real disciplines with wildly",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "compiler. If the compiler's advantage survives contact with ORKG, the advantage is about the",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "scoring, grounding audit — is **byte-for-byte identical** to the last experiment, verified by",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The easy, dishonest version of this experiment is to hand the compiler the entire graph and",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "admire whatever it produces. That measures nothing, because the answer is already in the",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The critical design decision: **failures are kept and reported",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "reconstruct a held-out finding, that is not embarrassing — it is *evidence the wall holds*",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "and no future information is leaking backward",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "a benchmark that is cheating",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "matters. Here is a compiler hypothesis from the chemistry   domain, built",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "limit of detection for nitrogen dioxide (NO₂) that is at least one order of magnitude lower",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "That is not a plausible-sounding sentence. It is a claim a graduate student could go",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "condition. This is what \"compile a hypothesis\" is supposed to mean",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "perfectly (1.0) and means nothing (testability 0, composite 0)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "composite 0.00). Each control fails in a way that shows the composite is measuring the right",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The claim generalizes. But an aggregate win is not the interesting part",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "is *why* it wins — and whether the architecture, or just the ensemble, is responsible",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://orkg.org",
+    "https://github.com/kliewerdaniel/popper-orkg",
+    "https://popper-orkg.vercel.app"
+  ],
+  "related_artifacts": [
+    "2026-07-24-popper-the-falsifiable-hypothesis-compiler",
+    "2026-07-26-does-the-compiler-know-when-it-is-wrong",
+    "2026-07-23-validating-at-scale-orkg",
+    "2026-07-23-the-next-experiment-grounded-and-quantitative"
+  ],
+  "provenance": {
+    "source": "content/blog/2026-07-25-does-the-hypothesis-compiler-generalize-orkg.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "5267b9d1f50fd3a1f43ca31edca0544b8e978b26ada9683b7db4a307460ae8a1",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

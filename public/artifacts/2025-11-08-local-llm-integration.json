@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "id": "2025-11-08-local-llm-integration",
+  "title": "Local LLM Integration: A Pragmatic Guide to Parsing & Summarizing Tabular Data",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-11-08",
+  "updated_at": "2025-11-08",
+  "canonical_url": "/blog/2025-11-08-local-llm-integration",
+  "content_hash": "sha256:5d19be37ae626b231a462c8033a31421e4242d73ac7ebebb67967010e7eb903f",
+  "topics": [
+    "local-llm",
+    "data-processing",
+    "ollama",
+    "machine-learning",
+    "privacy-focused-ai",
+    "tabular-data-analysis"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "tabular data",
+    "pragmatic guide",
+    "summarizing tabular data in",
+    "architecture the",
+    "core workflow",
+    "right runtime",
+    "recommendations choosing",
+    "local deployment",
+    "production inference",
+    "hugging face text generation",
+    "hugging face",
+    "hardware planning",
+    "cost optimization",
+    "deployments smaller",
+    "performance for",
+    "storage considerations",
+    "essential safeguards security",
+    "network security fundamentals",
+    "data handling best practices",
+    "model security considerations",
+    "designing input payloads",
+    "tabular data effective",
+    "approach for",
+    "crafting effective prompts",
+    "data analysis the",
+    "practical implementation",
+    "python integration",
+    "python flask",
+    "implementation example for",
+    "scaling large datasets",
+    "pattern for",
+    "operational excellence",
+    "containerized deployments use docker",
+    "process management",
+    "performance monitoring track",
+    "checklist before"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-08-08-building-rehab-analyzer-with-hermes",
+      "weight": 0.0244,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-02-05-open-deep-research",
+      "weight": 0.0179,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-14-synthesizing-memory-with-agent",
+      "weight": 0.0175,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-12-mastering-llama-cpp-local-llm-integration-guide",
+      "weight": 0.0172,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-01-16-solo-business-ventures",
+      "weight": 0.0152,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-25-building-your-own-uncensored-ai-overlord",
+      "weight": 0.0141,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-09-reason-ai",
+      "weight": 0.013,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-30-building-a-personalized-ai-learning-system-with-local-llm",
+      "weight": 0.013,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Effective LLM integration requires careful consideration of how you structure tabular data for processing",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2026-08-08-building-rehab-analyzer-with-hermes",
+    "2025-02-05-open-deep-research",
+    "2026-07-14-synthesizing-memory-with-agent",
+    "2025-11-12-mastering-llama-cpp-local-llm-integration-guide",
+    "2025-01-16-solo-business-ventures",
+    "2025-10-25-building-your-own-uncensored-ai-overlord",
+    "2025-03-09-reason-ai",
+    "2025-03-30-building-a-personalized-ai-learning-system-with-local-llm"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-11-08-local-llm-integration.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "5d19be37ae626b231a462c8033a31421e4242d73ac7ebebb67967010e7eb903f",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

@@ -1,6 +1,5 @@
 ---
-author: Daniel Kliewer
-canonical_url: /blog/sovereign-ai-architecture-synthesis
+canonical_url: /blog/2026-07-05-getting-started-sovereign-ai
 date: 07-05-2026
 description: "Beginner on-ramp to sovereign AI. Defines key terms — recipe compilation, signal routing, autonomous evaluation — and walks you through your first recipe capture in five steps."
 image: /images/ComfyUI_00201_.png

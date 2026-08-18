@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: https://www.danielkliewer.com/blog/ai-flatten-workforce-inequality-honest-conversation
+canonical_url: /blog/2025-11-04-ai-flatten-workforce-inequality-honest-conversation
 date: 2025-11-04
 description: The AI revolution promises to democratize opportunity, but only if we're
   willing to confront uncomfortable truths about merit, privilege, and what we're

@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "id": "2024-11-28-basic-swarm-chatbot",
+  "title": "AI Customer Support Chatbot Using OpenAI Swarm: Multi-Agent Routing",
+  "author": "Daniel Kliewer",
+  "created_at": "2024-11-28",
+  "updated_at": "2024-11-28",
+  "canonical_url": "/blog/2024-11-28-basic-swarm-chatbot",
+  "content_hash": "sha256:a6246dcb6863dbd08b397995f077f41b1931dc6ce06fc7fa7778cce07c79617f",
+  "topics": [
+    "openai-swarm",
+    "chatbots",
+    "ai-customer-support",
+    "multi-agent-systems",
+    "python"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "customer support chatbot using",
+    "swarm this",
+    "project environment",
+    "project directory",
+    "navigate into it",
+    "git repository",
+    "virtual environment",
+    "install required dependencies",
+    "install swarm",
+    "other required packages",
+    "securely store your",
+    "store environment variables",
+    "add your",
+    "main script",
+    "following code",
+    "initialize swarm",
+    "billing support agent",
+    "technical support agent",
+    "general inquiry agent",
+    "initial agent",
+    "chatbot after",
+    "additional notes",
+    "account management",
+    "extended conversation loop to",
+    "extended chatbot",
+    "sample interaction"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2024-11-28-basic-autogen",
+      "weight": 0.0789,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-27-ai-agent-based-cross-platform-content-generator-and-distributor",
+      "weight": 0.0755,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-10-09-how-to-build-a-persona-based-blog-post-generator-with-large-language-models",
+      "weight": 0.0328,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-09-nextjs-ollama-custom-agent-framework",
+      "weight": 0.0182,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-10-24-ghost-writer",
+      "weight": 0.0175,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-09-mastra-ollama-nextjs",
+      "weight": 0.0172,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-12-19-langchain-ollama",
+      "weight": 0.0135,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-21-ultimate-guide-export-your-reddit-data-to-markdown-using-python-and-PRAW-API",
+      "weight": 0.0116,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [],
+  "references": [
+    "https://platform.openai.com/account/api-keys"
+  ],
+  "related_artifacts": [
+    "2024-11-28-basic-autogen",
+    "2024-11-27-ai-agent-based-cross-platform-content-generator-and-distributor",
+    "2024-10-09-how-to-build-a-persona-based-blog-post-generator-with-large-language-models",
+    "2025-03-09-nextjs-ollama-custom-agent-framework",
+    "2024-10-24-ghost-writer",
+    "2025-03-09-mastra-ollama-nextjs",
+    "2024-12-19-langchain-ollama",
+    "2025-10-21-ultimate-guide-export-your-reddit-data-to-markdown-using-python-and-PRAW-API"
+  ],
+  "provenance": {
+    "source": "content/blog/2024-11-28-basic-swarm-chatbot.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "a6246dcb6863dbd08b397995f077f41b1931dc6ce06fc7fa7778cce07c79617f",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

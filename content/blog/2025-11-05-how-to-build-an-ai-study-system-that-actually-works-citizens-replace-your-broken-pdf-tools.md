@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: /blog/how-to-build-an-ai-study-system-that-actually-works-citizens-replace-your-broken-pdf-tools
+canonical_url: /blog/2025-11-05-how-to-build-an-ai-study-system-that-actually-works-citizens-replace-your-broken-pdf-tools
 date: 2025-11-05
 description: Build a citation-grounded AI study system that ingests massive PDFs whole.
   A complete technical guide to vector databases, reranking strategies, and LLM orchestration

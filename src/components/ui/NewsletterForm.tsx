@@ -6,11 +6,11 @@ export function NewsletterForm() {
       <input
         type="email"
         placeholder="your@email.com"
-        className="flex-1 px-4 py-3 bg-cream border-4 border-ink text-ink placeholder-ink-3 focus:outline-none focus:bg-surface transition-colors font-bold"
+        className="flex-1 px-4 py-3 bg-[var(--color-paper-2)] border border-[var(--color-rule)] text-[var(--color-ink)] placeholder-[var(--color-ink-3)] focus:outline-none focus:border-[var(--color-ink)] transition-colors"
       />
       <button
         type="submit"
-        className="px-6 py-3 bg-green text-cream font-bold border-4 border-ink hover:bg-green-dark transition-colors cursor-pointer shadow-brutalist-sm"
+        className="px-6 py-3 bg-[var(--color-green)] text-[var(--color-paper)] font-medium border border-[var(--color-green)] hover:opacity-80 transition-colors cursor-pointer"
       >
         Subscribe
       </button>

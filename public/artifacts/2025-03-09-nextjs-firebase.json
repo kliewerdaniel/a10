@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "2025-03-09-nextjs-firebase",
+  "title": "Complete Guide: Building a High-Performance Quiz Platform with Next.js and Firebase Integration",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-03-09",
+  "updated_at": "2025-03-09",
+  "canonical_url": "/blog/2025-03-09-nextjs-firebase",
+  "content_hash": "sha256:d7ffb2299e916825edd8440570075991053687964add39f6632d294149637bf3",
+  "topics": [
+    "next-js",
+    "firebase",
+    "quiz-platform",
+    "authentication",
+    "firestore",
+    "real-time",
+    "iframe-security",
+    "admin-dashboard",
+    "educational-technology",
+    "web-development"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "quiz platform",
+    "firebase creating",
+    "quiz applications many",
+    "centralizing firebase initialization one",
+    "single firebase instance create",
+    "initialize firebase",
+    "quiz page component your",
+    "implementation approach",
+    "enhancing security",
+    "iframe isolation",
+    "red planet",
+    "security considerations even",
+    "content security policy",
+    "sanitization if",
+    "enhancing your quiz platform",
+    "integrate firebase authentication",
+    "score dashboard create",
+    "admin quiz management for",
+    "firebase storage",
+    "performance optimization to"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-11-03-the-revolution-will-be-documented",
+      "weight": 0.0115,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "One common mistake is initializing Firebase multiple times across different components",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "A more secure approach is to isolate quiz content within an iframe, preventing potential XSS attacks and providing better content separation",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Even with the iframe approach, there are additional security measures to consider:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Building a high-performance quiz platform with Next.js and Firebase requires careful planning and implementation",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2025-11-03-the-revolution-will-be-documented"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-03-09-nextjs-firebase.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "d7ffb2299e916825edd8440570075991053687964add39f6632d294149637bf3",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

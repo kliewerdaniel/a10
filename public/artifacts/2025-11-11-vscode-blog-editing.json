@@ -1,0 +1,313 @@
+{
+  "schema_version": 1,
+  "id": "2025-11-11-vscode-blog-editing",
+  "title": "The Complete Guide to VSCode for Free Technical Blogging: From Setup to Publication",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-11-11",
+  "updated_at": "2025-11-11",
+  "canonical_url": "/blog/2025-11-11-vscode-blog-editing",
+  "content_hash": "sha256:bff8e2f772089f535ce5ec71a455668661562a7a5fb04239b736ca7d730cad85",
+  "topics": [
+    "architecture",
+    "knowledge-representation",
+    "local-ai",
+    "ollama",
+    "python",
+    "rag",
+    "local-first-ai",
+    "tutorial"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "complete guide",
+    "free technical blogging",
+    "breaking free",
+    "outperforms traditional blogging platforms",
+    "complete setup guide",
+    "building your content architecture",
+    "content strategy",
+    "free grok",
+    "optimization framework",
+    "sovereign content future",
+    "build this",
+    "hidden costs",
+    "feature comparison",
+    "beyond cost",
+    "technical advantages",
+    "need grammarly",
+    "true version",
+    "who benefits most",
+    "learning curve investment",
+    "development bonus",
+    "foundation setup",
+    "via homebrew",
+    "via winget",
+    "essential extensions installation open",
+    "writing extensions",
+    "configuration open",
+    "open settings",
+    "ensure markdown all",
+    "create your blogging workspace",
+    "initialize git",
+    "project architecture",
+    "create directory structure",
+    "create your first template",
+    "main section",
+    "git workflow setup",
+    "configure git",
+    "initial commit",
+    "git issues",
+    "naming convention standards",
+    "content status workflow use",
+    "metadata management",
+    "essential frontmatter fields",
+    "social optimization",
+    "automated frontmatter generation create",
+    "building effective audience personas",
+    "creating your personas file",
+    "practical persona usage",
+    "content planning phase",
+    "during drafting",
+    "real example",
+    "same topic",
+    "architect sam",
+    "writing assistant",
+    "complete architecture guide",
+    "freelance maker maya",
+    "writing assistant setup",
+    "installing ollama",
+    "editorial calendar create",
+    "content calendar",
+    "freelance maker",
+    "understanding model context protocol",
+    "setting up your first",
+    "repository integration this",
+    "install node",
+    "documentation integration",
+    "research notes",
+    "web search",
+    "server for",
+    "blog analytics",
+    "troubleshooting common",
+    "setting up cline",
+    "free grok cline",
+    "install cline extension",
+    "configure free grok access",
+    "using grok",
+    "local free",
+    "install ollama",
+    "configure cline",
+    "essential cline workflows",
+    "intelligent drafting",
+    "architect sam task",
+    "content enhancement",
+    "technical accuracy review",
+    "prompts library organize",
+    "cline power tips",
+    "custom slash",
+    "free grok limitations",
+    "tier limits",
+    "stable diffusion",
+    "troubleshooting cline",
+    "grok common",
+    "assisted technical writing",
+    "technical blogs",
+    "keyword research",
+    "google ads",
+    "keyword research template",
+    "seed keywords",
+    "research results",
+    "monthly volume",
+    "search intent analysis",
+    "content angle decision",
+    "every post",
+    "title optimization",
+    "meta description",
+    "heading structure",
+    "single h1",
+    "content optimization",
+    "internal linking",
+    "external linking",
+    "content structure",
+    "structure template",
+    "primary keyword",
+    "checks script",
+    "word count",
+    "h1 count",
+    "content performance tracking template",
+    "content performance tracker",
+    "post title",
+    "avg position",
+    "blogging guide",
+    "writing tools",
+    "action items",
+    "optimization blog post",
+    "real cost savings",
+    "google search console",
+    "broader impact this",
+    "platform dependency",
+    "creator sovereignty",
+    "sustainable creation",
+    "final thoughts the",
+    "further reading",
+    "official documentation",
+    "cline extension",
+    "markdown guide",
+    "comprehensive markdown"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-01-16-from-fragmented-experiments-to-cognitive-synthesis",
+      "weight": 0.0129,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-12-14-learning-from-the-past",
+      "weight": 0.0071,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-03-text-adventure",
+      "weight": 0.0071,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-02-14-reddiss",
+      "weight": 0.0063,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-09-nextjs-ollama-custom-agent-framework",
+      "weight": 0.0061,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-26-deerflow-2-building-sovereign-ai-agent-systems",
+      "weight": 0.0061,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-09-mastra-ollama-nextjs",
+      "weight": 0.006,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-12-openai-agents-sdk-ollama-integration",
+      "weight": 0.006,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "polished, yet they've never felt more constraining. Medium charges $5/month and owns your audience. Substack takes 10% of your revenue. WordPress.com locks essential features behind paywalls. Ghost requires hosting expertise and monthly fees",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Version control** that tracks every edit and enables collaboration",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Self-hosting requires technical expertise",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "work never leave your machine unless you explicitly push to a remote repository. For researchers with sensitive data, consultants with NDA-protected content, or privacy-conscious creators, this is non-negotiable",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Git integration means every edit is tracked, branching enables experimental rewrites, and collaboration happens through proven developer workflows",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Markdown files are plain text",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Building in public requires speed, flexibility, and cost control",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "After setup, VSCode workflows are faster",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Preview not working? Ensure Markdown All in One is enabled",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "In VSCode, open Cline settings (if Cline is installed):",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Cline (formerly Claude Dev) is a VSCode extension that provides an AI coding assistant directly in your editor",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "3. **Google Search Console** ( requires site verification)",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This VSCode blogging approach represents more than a technical choice—it's a philosophical stance:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The modern content landscape is dominated by platforms that extract value from creators while constraining their potential",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Have questions or need help?** The VSCode blogging community is growing—reach out, share your experiences, and help others discover this powerful approach to content creation",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This guide was created entirely in VSCode using the workflows and tools described within. The irony is delicious—the most powerful blogging platform is also the one that makes creating such guides effortless",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://x.ai"
+  ],
+  "related_artifacts": [
+    "2026-01-16-from-fragmented-experiments-to-cognitive-synthesis",
+    "2024-12-14-learning-from-the-past",
+    "2025-03-03-text-adventure",
+    "2025-02-14-reddiss",
+    "2025-03-09-nextjs-ollama-custom-agent-framework",
+    "2026-03-26-deerflow-2-building-sovereign-ai-agent-systems",
+    "2025-03-09-mastra-ollama-nextjs",
+    "2025-03-12-openai-agents-sdk-ollama-integration"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-11-11-vscode-blog-editing.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "bff8e2f772089f535ce5ec71a455668661562a7a5fb04239b736ca7d730cad85",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "id": "2024-12-09-pydantic-rag",
+  "title": "Complete Guide: Building Persona-Aware RAG Systems with Pydantic AI Agents & Tools - Custom Retrieval & Generation",
+  "author": "Daniel Kliewer",
+  "created_at": "2024-12-09",
+  "updated_at": "2024-12-09",
+  "canonical_url": "/blog/2024-12-09-pydantic-rag",
+  "content_hash": "sha256:70a98aca420411d89c006c9f0ce076f309d1fcb6de8865e7da4d21578dc89c90",
+  "topics": [
+    "pydantic",
+    "rag",
+    "llm-agents",
+    "persona-generation",
+    "ai-tooling",
+    "python",
+    "openai-api",
+    "vector-databases",
+    "retrieval-augmented-generation",
+    "tutorial",
+    "pydantic-ai",
+    "agent-development",
+    "custom-ai"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "required python packages",
+    "terminal setup commands",
+    "installing dependencies",
+    "keys make",
+    "code implementation",
+    "load personas first",
+    "loading code",
+    "retriever function",
+    "using agents",
+    "generation the",
+    "initialize persona",
+    "behavior based",
+    "persona attributes you",
+    "different personas",
+    "verifying personalization try",
+    "advanced features",
+    "semantic search",
+    "vector databases for",
+    "extending persona attributes personas",
+    "prompt engineering",
+    "relevant data"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2024-11-28-basic-autogen",
+      "weight": 0.0286,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-02-15-building-this-blog",
+      "weight": 0.0196,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-07-specgen-deterministic-ai-powered-code-generation-from-naturals-language",
+      "weight": 0.0172,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-21-browser-use-ollama-mcp",
+      "weight": 0.0152,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-21-ultimate-guide-export-your-reddit-data-to-markdown-using-python-and-PRAW-API",
+      "weight": 0.0123,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-03-the-revolution-will-be-documented",
+      "weight": 0.0114,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-28-scalable-ai-backends",
+      "weight": 0.0093,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-28-dynamic-persona-moe-rag-implementation-plan",
+      "weight": 0.0077,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Make sure your environment is ready:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This file defines a “Student” persona who prefers casual, friendly explanations",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "You might want to influence not just the style but also the retrieval strategy. For instance, if a persona is interested in “technology,” you could filter documents with a tech focus",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "Retrieves Relevant Data:** Ensures that responses are enriched with external, current information",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2024-11-28-basic-autogen",
+    "2026-02-15-building-this-blog",
+    "2026-01-07-specgen-deterministic-ai-powered-code-generation-from-naturals-language",
+    "2025-03-21-browser-use-ollama-mcp",
+    "2025-10-21-ultimate-guide-export-your-reddit-data-to-markdown-using-python-and-PRAW-API",
+    "2025-11-03-the-revolution-will-be-documented",
+    "2025-03-28-scalable-ai-backends",
+    "2026-01-28-dynamic-persona-moe-rag-implementation-plan"
+  ],
+  "provenance": {
+    "source": "content/blog/2024-12-09-pydantic-rag.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "70a98aca420411d89c006c9f0ce076f309d1fcb6de8865e7da4d21578dc89c90",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

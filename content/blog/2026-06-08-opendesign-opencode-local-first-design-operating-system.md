@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: /blog/opendesign-opencode-local-first-design-operating-system
+canonical_url: /blog/2026-06-08-opendesign-opencode-local-first-design-operating-system
 date: 06-08-2026
 description: A deep technical guide to building a local-first design and development
   operating system with OpenDesign and OpenCode — covering architecture, installation,

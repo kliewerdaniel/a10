@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: /blog/the-model-is-not-the-product
+canonical_url: /blog/2026-07-03-the-model-is-not-the-product
 date: 07-03-2026
 description: "Three converging research threads — Apple's Residual Context Diffusion, LMSYS/SGLang agentic execution graphs, and constrained optimization for agent loops — collapse into a single architectural claim: the model is no longer the product. The loop is. With code examples, arxiv citations, and cross-references to Objective05, Sovereign Memory Bank, and Dynamic Persona MoE RAG."
 image: /images/ComfyUI_00186_.png

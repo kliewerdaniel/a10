@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "id": "2025-03-12-mcp-openai-agents-sdk-ollama",
+  "title": "The Convergence of MCP, OpenAI Agents SDK, and Ollama: An Architectural Paradigm for Advanced AI Systems",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-03-12",
+  "updated_at": "2025-03-12",
+  "canonical_url": "/blog/2025-03-12-mcp-openai-agents-sdk-ollama",
+  "content_hash": "sha256:5d71f077c985349e4e177e5315b8879e294426b9a8c215eaa2ab5bfaacaabf7f",
+  "topics": [
+    "mcp",
+    "openai-agents-sdk",
+    "ollama",
+    "distributed-ai",
+    "cognitive-architecture",
+    "ai-philosophy",
+    "local-llms",
+    "agent-frameworks",
+    "distributed-systems",
+    "ai-theory"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "model context protocol",
+    "architectural paradigm",
+    "theoretical foundations",
+    "architectural considerations the",
+    "epistemological framework",
+    "metacognitive interface the model",
+    "context protocol",
+    "architectural implementation",
+    "recursive approach",
+    "environmental configuration",
+    "dependency stratification begin",
+    "agent implementation",
+    "polymorphic client architecture the",
+    "execution model",
+    "distributed cognitive processing when",
+    "philosophical implications",
+    "future directions this",
+    "new cognitive architecture the"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-03-12-mcp-openai-responses-api-agents-sdk-ollama",
+      "weight": 0.0571,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-06-08-opendesign-opencode-local-first-design-operating-system",
+      "weight": 0.0364,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-21-browser-use-ollama-mcp",
+      "weight": 0.0323,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-24-model-context-protocol",
+      "weight": 0.0303,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-05-the-ghost-in-the-machine-is-finally-allowed-to-see-a-beginners-guide-to-mcp",
+      "weight": 0.0286,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-12-autonomous-ai-agents-developer-portfolio",
+      "weight": 0.0278,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-04-29-recursive-language-models",
+      "weight": 0.027,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-25-synthetic-intelligence",
+      "weight": 0.025,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "The integration of Model Context Protocol (MCP) with OpenAI's Agents SDK and Ollama represents a significant advancement in the development of autonomous AI systems",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The MCP server configuration requires an ontological mapping between semantic tool spaces and their computational implementations:",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "a client architecture that exhibits polymorphic behavior—presenting an OpenAI-compatible interface while redirecting cognitive operations to Ollama's local inference engines. This abstraction layer requires careful consideration of semantic fidelity and computational equivalence between remote and local inference processes",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "This architectural approach represents more than a technical solution—it embodies a philosophical position on artificial intelligence that values:",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2025-03-12-mcp-openai-responses-api-agents-sdk-ollama",
+    "2026-06-08-opendesign-opencode-local-first-design-operating-system",
+    "2025-03-21-browser-use-ollama-mcp",
+    "2025-03-24-model-context-protocol",
+    "2025-11-05-the-ghost-in-the-machine-is-finally-allowed-to-see-a-beginners-guide-to-mcp",
+    "2026-01-12-autonomous-ai-agents-developer-portfolio",
+    "2026-04-29-recursive-language-models",
+    "2026-01-25-synthetic-intelligence"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-03-12-mcp-openai-agents-sdk-ollama.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "5d71f077c985349e4e177e5315b8879e294426b9a8c215eaa2ab5bfaacaabf7f",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: https://danielkliewer.com/blog/inference-new-geography-intelligence
+canonical_url: /blog/2025-11-14-2025-inference-new-geography-intelligence
 date: 11-13-2025
 description: Explore how AI inference is becoming the defining resource of the knowledge
   economy, reshaping geopolitics, energy infrastructure, and the future of computational

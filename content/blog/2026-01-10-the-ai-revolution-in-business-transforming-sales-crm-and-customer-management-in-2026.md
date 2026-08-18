@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: /blog/
+canonical_url: /blog/2026-01-10-the-ai-revolution-in-business-transforming-sales-crm-and-customer-management-in-2026
 date: 01-10-2026
 description: A detailed synthesis of insights from multiple articles exploring how
   AI is revolutionizing business operations, from vibe selling to intelligent customer

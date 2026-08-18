@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "id": "2025-02-05-open-deep-research",
+  "title": "Mastering Open Deep Research: Complete Smolagents Setup Guide with GAIA Benchmark Performance and Production-Ready Agent Workflows",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-02-05",
+  "updated_at": "2025-02-05",
+  "canonical_url": "/blog/2025-02-05-open-deep-research",
+  "content_hash": "sha256:ccf8b8a570019cf96853e1af5e562283074ef934fde5dd3370325f73ca589cbe",
+  "topics": [
+    "smolagents",
+    "open-deep-research",
+    "hugging-face",
+    "gaia-benchmark",
+    "ai-agents",
+    "codeagent",
+    "web-search",
+    "tool-integration",
+    "llm",
+    "autonomous-ai"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "running open deep research",
+    "open deep research",
+    "deep research",
+    "virtual environment create",
+    "install dependencies",
+    "key components",
+    "add python",
+    "model options customize",
+    "model type",
+    "example command",
+    "hugging face",
+    "local transformers",
+    "advanced usage",
+    "web browser for",
+    "sandboxed execution run",
+    "custom tools add",
+    "face spaces",
+    "key errors",
+    "tool execution failures",
+    "performance notes",
+    "community contributions to"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2025-02-05-loco-local-localllama",
+      "weight": 0.0417,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-03-26-deerflow-2-building-sovereign-ai-agent-systems",
+      "weight": 0.0417,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-02-25-building-an-ai-powered-filename-generator-chrome-extension",
+      "weight": 0.0333,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-01-23-building-a-multimodal-story-generation-system",
+      "weight": 0.0303,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-02-05-ollama-smolagents-open-deep-research",
+      "weight": 0.027,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-12-mastering-llama-cpp-local-llm-integration-guide",
+      "weight": 0.0233,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-25-building-your-own-uncensored-ai-overlord",
+      "weight": 0.0179,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-08-local-llm-integration",
+      "weight": 0.0179,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "Ensure virtual env is activated           |",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [
+    "https://e2b.dev/",
+    "https://huggingface.co/blog/open-deep-research",
+    "https://huggingface.co/spaces/gaia-benchmark/leaderboard",
+    "https://github.com/huggingface/smolagents"
+  ],
+  "related_artifacts": [
+    "2025-02-05-loco-local-localllama",
+    "2026-03-26-deerflow-2-building-sovereign-ai-agent-systems",
+    "2025-02-25-building-an-ai-powered-filename-generator-chrome-extension",
+    "2025-01-23-building-a-multimodal-story-generation-system",
+    "2025-02-05-ollama-smolagents-open-deep-research",
+    "2025-11-12-mastering-llama-cpp-local-llm-integration-guide",
+    "2025-10-25-building-your-own-uncensored-ai-overlord",
+    "2025-11-08-local-llm-integration"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-02-05-open-deep-research.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "ccf8b8a570019cf96853e1af5e562283074ef934fde5dd3370325f73ca589cbe",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}

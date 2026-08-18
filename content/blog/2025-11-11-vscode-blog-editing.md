@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: https://yourdomain.com/blog/vscode-complete-blogging-guide
+canonical_url: /blog/2025-11-11-vscode-blog-editing
 date: 2025-11-11
 description: Master Visual Studio Code as your complete blogging platform. This comprehensive
   guide covers installation, AI integration with Cline and free Grok, MCP servers,

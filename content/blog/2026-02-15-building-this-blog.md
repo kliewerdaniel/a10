@@ -1,7 +1,6 @@
 ---
-author: Daniel Kliewer
 book_reference: true
-canonical_url: https://danielkliewer.com/blog/building-this-blog
+canonical_url: /blog/2026-02-15-building-this-blog
 date: 02-15-2026
 description: An in-depth look at the technical architecture behind this blog - how
   I built a performant, AI-powered publishing system with Next.js, Vercel AI SDK,

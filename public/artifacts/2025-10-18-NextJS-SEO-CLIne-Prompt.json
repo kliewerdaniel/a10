@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "id": "2025-10-18-NextJS-SEO-CLIne-Prompt",
+  "title": "NextJS SEO CLIne Prompt",
+  "author": "Daniel Kliewer",
+  "created_at": "2025-10-18",
+  "updated_at": "2025-10-18",
+  "canonical_url": "/blog/2025-10-18-NextJS-SEO-CLIne-Prompt",
+  "content_hash": "sha256:40a88a2d4a9007c4ba099c8825194f9aa495afdbdfab2f9b35f66e0dae7d04dd",
+  "topics": [
+    "nextjs",
+    "seo",
+    "vibe-coding",
+    "cline"
+  ],
+  "status": "observed",
+  "series": null,
+  "entities": [
+    "core objectives add",
+    "core web vitals",
+    "pages router",
+    "app router",
+    "metadata system implementation for",
+    "open graph",
+    "twitter card",
+    "structured data",
+    "media optimization replace",
+    "core web vitals enhancements",
+    "enable static site generation",
+    "crawl control install",
+    "avoid duplicate content ensure",
+    "validation add",
+    "final requirement when",
+    "optimization complete",
+    "implemented article",
+    "twitter cards",
+    "monitor google search console"
+  ],
+  "relationships": [
+    {
+      "type": "related",
+      "target": "2026-02-15-building-this-blog",
+      "weight": 0.0638,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-07-08-ai-ssr-guide",
+      "weight": 0.0588,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-10-20-how-to-vibe-code-a-nextjs-boilerplate-repo",
+      "weight": 0.0425,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-20-compile-time-intelligence-research-compiler-agent",
+      "weight": 0.0294,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-09-nextjs-ollama-custom-agent-framework",
+      "weight": 0.0208,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-12-04-critical-nextjs-rce-cve-2025-66478-security-guide",
+      "weight": 0.0208,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-03-09-mastra-ollama-nextjs",
+      "weight": 0.0196,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-03-document-driven-development-nextjs-blog",
+      "weight": 0.0185,
+      "basis": "shared-entity"
+    }
+  ],
+  "claims": [
+    {
+      "text": "I ran this in CLIne for this site and I honestly think it may have helped. I don't know. I don't really care anymore. All I know is that it did not break it",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The site is now fully optimized for search engines and ready for better visibility in search results",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The automated sitemap generation will ensure all new blog posts are automatically included in the sitemap",
+      "confidence": null,
+      "evidence_refs": []
+    }
+  ],
+  "references": [],
+  "related_artifacts": [
+    "2026-02-15-building-this-blog",
+    "2025-07-08-ai-ssr-guide",
+    "2025-10-20-how-to-vibe-code-a-nextjs-boilerplate-repo",
+    "2026-07-20-compile-time-intelligence-research-compiler-agent",
+    "2025-03-09-nextjs-ollama-custom-agent-framework",
+    "2025-12-04-critical-nextjs-rce-cve-2025-66478-security-guide",
+    "2025-03-09-mastra-ollama-nextjs",
+    "2025-11-03-document-driven-development-nextjs-blog"
+  ],
+  "provenance": {
+    "source": "content/blog/2025-10-18-NextJS-SEO-CLIne-Prompt.md",
+    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler_version": 1,
+    "model_version": null,
+    "content_sha256": "40a88a2d4a9007c4ba099c8825194f9aa495afdbdfab2f9b35f66e0dae7d04dd",
+    "generated_at": "2026-08-18T03:20:29Z"
+  },
+  "publication_status": "published"
+}
