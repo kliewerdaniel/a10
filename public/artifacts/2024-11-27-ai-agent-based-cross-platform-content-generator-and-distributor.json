@@ -127,11 +127,11 @@
   ],
   "provenance": {
     "source": "content/blog/2024-11-27-ai-agent-based-cross-platform-content-generator-and-distributor.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "74fe8559844675f3929f0c31e115bf81fc81e8f0f17096f326dbfc7cbdfda01f",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

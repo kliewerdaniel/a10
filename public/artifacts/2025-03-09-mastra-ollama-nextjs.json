@@ -159,11 +159,11 @@
   ],
   "provenance": {
     "source": "content/blog/2025-03-09-mastra-ollama-nextjs.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "5a120f1ef52fea32ae3bcd6bf6facb7f1991dea22f6f21944b6962ff8391376f",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

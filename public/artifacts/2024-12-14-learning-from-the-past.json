@@ -87,11 +87,11 @@
   ],
   "provenance": {
     "source": "content/blog/2024-12-14-learning-from-the-past.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "b73d3ca686085d04e5c9d1d89e2b2c537024a6ca241fe50a952846d6e8443808",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

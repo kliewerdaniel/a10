@@ -77,11 +77,11 @@
   ],
   "provenance": {
     "source": "content/blog/2025-01-22-image-to-book.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "a9e30d98b97a378c654d8736b776750778983a21ca95199d6242891489ed4181",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

@@ -141,11 +141,11 @@
   ],
   "provenance": {
     "source": "content/blog/2026-07-06-sovereign-ai-benchmarks-performance-results.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "0c3d1bc16ff09bc27bfc25b9f2ac807480f11c7ddd6f8bf9547b15abdd835f80",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

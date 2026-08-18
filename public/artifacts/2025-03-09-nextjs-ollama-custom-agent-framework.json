@@ -139,11 +139,11 @@
   ],
   "provenance": {
     "source": "content/blog/2025-03-09-nextjs-ollama-custom-agent-framework.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "2f435b1abee359423241eb8ddab4f4839820cfb20e2a4ae74f16e13e84167a09",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

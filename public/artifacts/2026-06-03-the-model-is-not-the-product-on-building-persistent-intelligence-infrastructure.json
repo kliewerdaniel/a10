@@ -235,11 +235,11 @@
   ],
   "provenance": {
     "source": "content/blog/2026-06-03-the-model-is-not-the-product-on-building-persistent-intelligence-infrastructure.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "c352963e3fad31b0540384394d227d22b90ccd868b049585ba2507b78283caf2",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

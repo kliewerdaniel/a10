@@ -78,26 +78,8 @@
     },
     {
       "type": "related",
-      "target": "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-      "weight": 0.0196,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-      "weight": 0.0192,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
       "target": "2026-07-22-if-the-loop-is-the-product",
       "weight": 0.0182,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-      "weight": 0.0179,
       "basis": "shared-entity"
     },
     {
@@ -116,6 +98,24 @@
       "type": "related",
       "target": "2026-07-20-compile-time-intelligence-research-compiler-agent",
       "weight": 0.0156,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-21-compiling-medical-evidence-clinical-research-compiler",
+      "weight": 0.0152,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-14-2025-inference-new-geography-intelligence",
+      "weight": 0.0149,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-12-autonomous-ai-agents-developer-portfolio",
+      "weight": 0.0149,
       "basis": "shared-entity"
     }
   ],
@@ -249,21 +249,21 @@
   "references": [],
   "related_artifacts": [
     "2026-06-14-sovereign-memory-bank",
-    "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-    "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
     "2026-07-22-if-the-loop-is-the-product",
-    "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
     "2024-11-23-rlhf-lab-business-plan",
     "2026-07-23-building-the-scientific-question-compiler",
-    "2026-07-20-compile-time-intelligence-research-compiler-agent"
+    "2026-07-20-compile-time-intelligence-research-compiler-agent",
+    "2026-07-21-compiling-medical-evidence-clinical-research-compiler",
+    "2025-11-14-2025-inference-new-geography-intelligence",
+    "2026-01-12-autonomous-ai-agents-developer-portfolio"
   ],
   "provenance": {
     "source": "content/blog/2026-03-28-sovereignty-manifesto.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "548813a886bf904e6242d96cdcefb22729224cfd86854207bca9a5676e489c9c",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

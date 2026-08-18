@@ -570,11 +570,11 @@
   ],
   "provenance": {
     "source": "content/blog/2025-10-20-how-to-vibe-code-a-nextjs-boilerplate-repo.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "fe0c8db98f71cd43c1916d4ad6107c45a04b280ce051a61a19ac9b7cc54c5496",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

@@ -174,11 +174,11 @@
   ],
   "provenance": {
     "source": "content/blog/2026-07-23-the-loop-closes-itself.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "e3b5fdc24608ecd5af46308ac6533a10398b5a4694ea1041f5a4d533e6bb431c",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

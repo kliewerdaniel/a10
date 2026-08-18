@@ -147,11 +147,11 @@
   ],
   "provenance": {
     "source": "content/blog/2025-03-30-building-a-personalized-ai-learning-system-with-local-llm.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "fab83ca979d09f34d4bbb910c294d09e5b179ec1b8eadf77b7ea6e346606acc4",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

@@ -159,11 +159,11 @@
   "related_artifacts": [],
   "provenance": {
     "source": "content/blog/2026-07-18-compile-time-ai-k8s.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "939d0dfff37fe774c37e73778d93dbac3d41684dd3be7ae364ccda5c4898009c",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

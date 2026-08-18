@@ -199,11 +199,11 @@
   ],
   "provenance": {
     "source": "content/blog/2024-12-10-rl.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "91dc45b779f76bfa9cc894842a4ab26c59e3dde2a9502be728ecb617a21e21d6",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

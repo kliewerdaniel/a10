@@ -229,11 +229,11 @@
   ],
   "provenance": {
     "source": "content/blog/2024-11-27-enhanced-persona-generator.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "b02765d0e15b9fdfc3b996bb5c515b49603ea9bf5dd8eb9fc58f5f900206412e",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

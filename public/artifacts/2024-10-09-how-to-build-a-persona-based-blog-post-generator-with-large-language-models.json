@@ -261,11 +261,11 @@
   ],
   "provenance": {
     "source": "content/blog/2024-10-09-how-to-build-a-persona-based-blog-post-generator-with-large-language-models.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "0dec0996fa23f3bc3462e08604a53e8aaed9e28c4d0e9a86810be8863689bd94",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

@@ -6,7 +6,7 @@
   "created_at": "2026-08-09",
   "updated_at": "2026-08-09",
   "canonical_url": "/blog/2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-  "content_hash": "sha256:49591e8a16055e931203cc731c141959755bc09fc266a19ffd6facc9eb797797",
+  "content_hash": "sha256:6278e3c2df0ac23c6e717a34780ae350b24b92efd730eab21d2da917f3565804",
   "topics": [
     "local-first-ai",
     "local-ai",
@@ -19,62 +19,28 @@
   "status": "observed",
   "series": null,
   "entities": [
+    "hermes atlas",
     "evidence ledger",
     "claim lifecycle",
-    "benchmark august",
-    "daniel kliewer",
-    "hermes atlas",
-    "describing atlas",
-    "check definition result p2",
-    "true all"
+    "describing atlas"
   ],
   "relationships": [
     {
       "type": "related",
       "target": "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-      "weight": 0.2,
+      "weight": 0.3333,
       "basis": "shared-entity"
     },
     {
       "type": "related",
       "target": "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-      "weight": 0.1,
+      "weight": 0.2,
       "basis": "shared-entity"
     },
     {
       "type": "related",
       "target": "2026-08-09-hermes-atlas-v01-local-first-incrementally-compiled-falsifiable-knowledge-system",
-      "weight": 0.0909,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2026-07-22-if-the-loop-is-the-product",
-      "weight": 0.0714,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2024-11-23-rlhf-lab-business-plan",
-      "weight": 0.0588,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2026-07-23-building-the-scientific-question-compiler",
-      "weight": 0.0588,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2026-07-20-compile-time-intelligence-research-compiler-agent",
-      "weight": 0.0435,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2026-07-21-compiling-medical-evidence-clinical-research-compiler",
-      "weight": 0.04,
+      "weight": 0.1667,
       "basis": "shared-entity"
     }
   ],
@@ -85,42 +51,37 @@
       "evidence_refs": []
     },
     {
-      "text": "Atlas has no truth oracle. There is no fact-checking service that says whether a claim is true in the world",
+      "text": "Atlas has **no truth oracle**. There is no fact-checking service that says whether a claim is *true in the world*",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "So status: supported means exactly one thing:",
+      "text": "The gold labels in this benchmark are **by construction** — they describe *how the corpus was built* (e",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "The gold labels in this benchmark are by construction — they describe how the corpus was built (e",
+      "text": "g. \"source is reliability 0",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "g. \"source d-strong is reliability 0",
+      "text": "95, so its single claim should be  \"), never a verdict on whether the sentence is true",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "95, so its single claim should be supported\"), never a verdict on whether the sentence is true",
+      "text": "v0.4 ships a fixed, deterministic corpus   (12 sources) and a gold file  . No model is involved at any point — the graph is computed entirely at compile time, so the numbers are reproducible on anyone's machine, server down included",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "v0.4 ships a fixed, deterministic corpus bench_corpus_d.json (12 sources) and a gold file p4_ledger_gold.json. No model is involved at any point — the graph is computed entirely at compile time, so the numbers are reproducible on anyone's machine, server down included",
+      "text": "4. **Delete-driven invalidation** — a claim's only source is removed → retained as  , history preserved",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "Delete-driven invalidation — a claim's only source is removed → retained as invalidated, history preserved",
-      "confidence": null,
-      "evidence_refs": []
-    },
-    {
-      "text": "Derived-from — a summary claim whose entities are a strict subset of a base claim's entities → derived_from points at the base claim",
+      "text": "8. **Derived-from** — a summary claim whose entities are a strict subset of a base claim's entities →   points at the base claim",
       "confidence": null,
       "evidence_refs": []
     },
@@ -130,22 +91,22 @@
       "evidence_refs": []
     },
     {
-      "text": "The v0.3 DELETE-driven invalidation works on a single recompile: remove a claim's only source and it is retained as invalidated with history preserved",
+      "text": "The v0.3 DELETE-driven invalidation works on a single recompile: remove a claim's only source and it is retained as   with history preserved",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "Fix (compiler.py, 5b): compute the orphan source set as source_ids or orphaned_from_source, and orphan whenever that set is non-empty and disjoint from the live source set",
+      "text": "Fix ( , 5b): compute the orphan source set as  , and orphan whenever that set is non-empty and disjoint from the live source set",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "The orphaned_from_source audit field (added in v0.3, deliberately outside the determinism change-hash) is what makes the already-orphaned claim recoverable and re-invalidatable",
+      "text": "The   audit field (added in v0.3, deliberately outside the determinism change-hash) is what makes the already-orphaned claim recoverable and re-invalidatable",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "Both fixes are covered by new regression tests (tests/test_p3_staleness",
+      "text": "Both fixes are covered by new regression tests ( , and the orphan path by  )",
       "confidence": null,
       "evidence_refs": []
     },
@@ -155,7 +116,7 @@
       "evidence_refs": []
     },
     {
-      "text": "regenerate and the delta-isolation invariant breaks. The v0.4 gate_delta test initially failed for exactly this reason — my first version of the test's churn closure omitted summarize=False. The fix is to always pin summarize=False when checking determinism, and the harness documents it inline",
+      "text": "community summaries regenerate and the delta-isolation invariant breaks. The v0.4   test initially failed for exactly this reason — my first version of the test's churn closure omitted  . The fix is to always pin   when checking determinism, and the harness documents it inline",
       "confidence": null,
       "evidence_refs": []
     },
@@ -170,7 +131,7 @@
       "evidence_refs": []
     },
     {
-      "text": "No fact-checking oracle exists. status: supported means the given evidence supports the claim — internal coherence, not external truth",
+      "text": "No fact-checking oracle exists. means the given evidence supports the claim — internal coherence, not external truth",
       "confidence": null,
       "evidence_refs": []
     },
@@ -180,7 +141,7 @@
       "evidence_refs": []
     },
     {
-      "text": "It is not production-grade incremental Leiden. It is label propagation with a seeded, frozen-core append step; stability() reports the drift",
+      "text": "It is not production-grade incremental Leiden.** It is label propagation with a seeded, frozen-core append step;   reports the drift",
       "confidence": null,
       "evidence_refs": []
     },
@@ -190,39 +151,46 @@
       "evidence_refs": []
     },
     {
-      "text": "It proves the ledger/lifecycle machinery behaves correctly by construction. It is not a generalization test against arbitrary live data (that's v0",
+      "text": "It proves the ledger/lifecycle machinery behaves correctly *by construction*. It is not a generalization test against arbitrary live data (that's v0",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "validated is unreachable today",
+      "text": "is unreachable today.** Claims are per-source, so two independent sources asserting the same fact materialize as two parallel   records, not one   claim",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "Claims are per-source, so two independent sources asserting the same fact materialize as two parallel supported records, not one validated claim. Cross-source fusion is on the v0",
+      "text": "Cross-source fusion is on the v0",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "is DELETE-driven only.** A claim whose every source is removed is retained and marked  ; a claim that merely loses corroboration (but keeps a source) drops to",
       "confidence": null,
       "evidence_refs": []
     }
   ],
-  "references": [],
+  "references": [
+    "https://danielkliewer.com/blog/2026-08-09-hermes-atlas-v01-local-first-incrementally-compiled-falsifiable-knowledge-system",
+    "https://danielkliewer.com/blog/2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+    "https://danielkliewer.com/blog/2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+    "https://github.com/kliewerdaniel/hermes-atlas",
+    "https://danielkliewer.com/blog/2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+    "https://github.com/kliewerdaniel/hermes-atlas"
+  ],
   "related_artifacts": [
     "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
     "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-    "2026-08-09-hermes-atlas-v01-local-first-incrementally-compiled-falsifiable-knowledge-system",
-    "2026-07-22-if-the-loop-is-the-product",
-    "2024-11-23-rlhf-lab-business-plan",
-    "2026-07-23-building-the-scientific-question-compiler",
-    "2026-07-20-compile-time-intelligence-research-compiler-agent",
-    "2026-07-21-compiling-medical-evidence-clinical-research-compiler"
+    "2026-08-09-hermes-atlas-v01-local-first-incrementally-compiled-falsifiable-knowledge-system"
   ],
   "provenance": {
     "source": "content/blog/2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
-    "content_sha256": "49591e8a16055e931203cc731c141959755bc09fc266a19ffd6facc9eb797797",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "content_sha256": "6278e3c2df0ac23c6e717a34780ae350b24b92efd730eab21d2da917f3565804",
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

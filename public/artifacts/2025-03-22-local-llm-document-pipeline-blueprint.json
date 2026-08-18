@@ -154,11 +154,11 @@
   ],
   "provenance": {
     "source": "content/blog/2025-03-22-local-llm-document-pipeline-blueprint.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "e17b8134a496ef4c1c89f009c3e69748ea714ba3a7a1a133ee7adfb0c1f0af58",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

@@ -65,26 +65,26 @@
     },
     {
       "type": "related",
-      "target": "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-      "weight": 0.0556,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-      "weight": 0.0526,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
       "target": "2026-07-22-if-the-loop-is-the-product",
       "weight": 0.0455,
       "basis": "shared-entity"
     },
     {
       "type": "related",
-      "target": "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-      "weight": 0.0435,
+      "target": "2026-07-21-research-compiler-scientific-discovery",
+      "weight": 0.0426,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-23-rlhf-lab-business-plan",
+      "weight": 0.04,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-23-building-the-scientific-question-compiler",
+      "weight": 0.04,
       "basis": "shared-entity"
     }
   ],
@@ -227,18 +227,18 @@
     "2026-07-16-the-sovereign-knowledge-compiler-explorer",
     "2026-07-14-recursive-research-compiler-knowledge-compiler-sdk",
     "2026-07-11-knowledge-compiler-compiling-human-knowledge-into-static-semantic-artifacts",
-    "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-    "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
     "2026-07-22-if-the-loop-is-the-product",
-    "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark"
+    "2026-07-21-research-compiler-scientific-discovery",
+    "2024-11-23-rlhf-lab-business-plan",
+    "2026-07-23-building-the-scientific-question-compiler"
   ],
   "provenance": {
     "source": "content/blog/2026-07-20-compile-time-intelligence-research-compiler-agent.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "2a0ef9cf171650ed62a3bca2efe9b7dc6df083384db0395ad1ea7c0125f4517b",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

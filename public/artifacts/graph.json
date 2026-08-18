@@ -8536,27 +8536,6 @@
       "basis": "shared-entity"
     },
     {
-      "from": "post:2024-11-23-rlhf-lab-business-plan",
-      "to": "post:2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-      "label": "related",
-      "weight": 0.0833,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2024-11-23-rlhf-lab-business-plan",
-      "to": "post:2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-      "label": "related",
-      "weight": 0.0769,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2024-11-23-rlhf-lab-business-plan",
-      "to": "post:2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-      "label": "related",
-      "weight": 0.0588,
-      "basis": "shared-entity"
-    },
-    {
       "from": "post:2024-11-27-ai-agent-based-cross-platform-content-generator-and-distributor",
       "to": "entity:content generator",
       "label": "mentions",
@@ -11088,27 +11067,6 @@
       "to": "post:2026-07-23-the-scientific-state-compiler-roadmap",
       "label": "related",
       "weight": 0.0169,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2025-02-14-reddiss",
-      "to": "post:2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-      "label": "related",
-      "weight": 0.0385,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2025-02-14-reddiss",
-      "to": "post:2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-      "label": "related",
-      "weight": 0.037,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2025-02-14-reddiss",
-      "to": "post:2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-      "label": "related",
-      "weight": 0.0323,
       "basis": "shared-entity"
     },
     {
@@ -18287,27 +18245,6 @@
       "basis": "shared-entity"
     },
     {
-      "from": "post:2025-11-14-2025-inference-new-geography-intelligence",
-      "to": "post:2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-      "label": "related",
-      "weight": 0.0476,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2025-11-14-2025-inference-new-geography-intelligence",
-      "to": "post:2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-      "label": "related",
-      "weight": 0.0455,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2025-11-14-2025-inference-new-geography-intelligence",
-      "to": "post:2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-      "label": "related",
-      "weight": 0.0385,
-      "basis": "shared-entity"
-    },
-    {
       "from": "post:2025-11-15-building-evaluating-local-research-assistant-graphrag-vero-eval",
       "to": "entity:research assistant",
       "label": "mentions",
@@ -18578,27 +18515,6 @@
       "to": "post:2026-07-23-the-scientific-state-compiler-roadmap",
       "label": "related",
       "weight": 0.0072,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2025-11-15-building-evaluating-local-research-assistant-graphrag-vero-eval",
-      "to": "post:2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-      "label": "related",
-      "weight": 0.0095,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2025-11-15-building-evaluating-local-research-assistant-graphrag-vero-eval",
-      "to": "post:2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-      "label": "related",
-      "weight": 0.0094,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2025-11-15-building-evaluating-local-research-assistant-graphrag-vero-eval",
-      "to": "post:2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-      "label": "related",
-      "weight": 0.0091,
       "basis": "shared-entity"
     },
     {
@@ -19383,27 +19299,6 @@
       "to": "post:2026-07-23-the-scientific-state-compiler-roadmap",
       "label": "related",
       "weight": 0.0185,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2026-01-12-autonomous-ai-agents-developer-portfolio",
-      "to": "post:2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-      "label": "related",
-      "weight": 0.0476,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2026-01-12-autonomous-ai-agents-developer-portfolio",
-      "to": "post:2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-      "label": "related",
-      "weight": 0.0455,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2026-01-12-autonomous-ai-agents-developer-portfolio",
-      "to": "post:2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-      "label": "related",
-      "weight": 0.0385,
       "basis": "shared-entity"
     },
     {
@@ -20352,27 +20247,6 @@
       "basis": "shared-entity"
     },
     {
-      "from": "post:2026-01-25-dynamic-persona-moe-rag-building-a-sovereign-synthetic-intelligence-system",
-      "to": "post:2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-      "label": "related",
-      "weight": 0.0244,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2026-01-25-dynamic-persona-moe-rag-building-a-sovereign-synthetic-intelligence-system",
-      "to": "post:2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-      "label": "related",
-      "weight": 0.0238,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2026-01-25-dynamic-persona-moe-rag-building-a-sovereign-synthetic-intelligence-system",
-      "to": "post:2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-      "label": "related",
-      "weight": 0.0217,
-      "basis": "shared-entity"
-    },
-    {
       "from": "post:2026-01-25-synthetic-intelligence",
       "to": "entity:synthetic intelligence",
       "label": "mentions",
@@ -20874,27 +20748,6 @@
       "to": "post:2026-07-23-the-scientific-state-compiler-roadmap",
       "label": "related",
       "weight": 0.0069,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2026-01-28-dynamic-persona-moe-rag-implementation-plan",
-      "to": "post:2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-      "label": "related",
-      "weight": 0.0089,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2026-01-28-dynamic-persona-moe-rag-implementation-plan",
-      "to": "post:2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-      "label": "related",
-      "weight": 0.0088,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2026-01-28-dynamic-persona-moe-rag-implementation-plan",
-      "to": "post:2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-      "label": "related",
-      "weight": 0.0085,
       "basis": "shared-entity"
     },
     {
@@ -22011,27 +21864,6 @@
       "basis": "shared-entity"
     },
     {
-      "from": "post:2026-03-28-sovereignty-manifesto",
-      "to": "post:2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-      "label": "related",
-      "weight": 0.0196,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2026-03-28-sovereignty-manifesto",
-      "to": "post:2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-      "label": "related",
-      "weight": 0.0192,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2026-03-28-sovereignty-manifesto",
-      "to": "post:2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-      "label": "related",
-      "weight": 0.0179,
-      "basis": "shared-entity"
-    },
-    {
       "from": "post:2026-03-29-architecture-of-autonomy",
       "to": "entity:knowledge graph",
       "label": "mentions",
@@ -22659,27 +22491,6 @@
       "to": "post:2026-07-23-the-scientific-state-compiler-roadmap",
       "label": "related",
       "weight": 0.0161,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2026-06-01-objective03-local-news-agency",
-      "to": "post:2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-      "label": "related",
-      "weight": 0.0345,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2026-06-01-objective03-local-news-agency",
-      "to": "post:2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-      "label": "related",
-      "weight": 0.0333,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2026-06-01-objective03-local-news-agency",
-      "to": "post:2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-      "label": "related",
-      "weight": 0.0294,
       "basis": "shared-entity"
     },
     {
@@ -26137,7 +25948,7 @@
       "from": "post:2026-07-15-sovereign-memory-bank-deepening-local-first-cognitive-memory",
       "to": "post:2026-08-09-hermes-atlas-v01-local-first-incrementally-compiled-falsifiable-knowledge-system",
       "label": "related",
-      "weight": 0.0333,
+      "weight": 0.0345,
       "basis": "shared-entity"
     },
     {
@@ -26179,7 +25990,7 @@
       "from": "post:2026-07-16-the-sovereign-knowledge-compiler-explorer",
       "to": "post:2026-08-09-hermes-atlas-v01-local-first-incrementally-compiled-falsifiable-knowledge-system",
       "label": "related",
-      "weight": 0.1,
+      "weight": 0.1111,
       "basis": "shared-entity"
     },
     {
@@ -26267,27 +26078,6 @@
       "basis": "shared-entity"
     },
     {
-      "from": "post:2026-07-20-compile-time-intelligence-research-compiler-agent",
-      "to": "post:2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-      "label": "related",
-      "weight": 0.0556,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2026-07-20-compile-time-intelligence-research-compiler-agent",
-      "to": "post:2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-      "label": "related",
-      "weight": 0.0526,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2026-07-20-compile-time-intelligence-research-compiler-agent",
-      "to": "post:2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-      "label": "related",
-      "weight": 0.0435,
-      "basis": "shared-entity"
-    },
-    {
       "from": "post:2026-07-21-compiling-medical-evidence-clinical-research-compiler",
       "to": "entity:daniel kliewer",
       "label": "mentions",
@@ -26355,27 +26145,6 @@
       "to": "post:2026-07-23-the-scientific-state-compiler-roadmap",
       "label": "related",
       "weight": 0.0189,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2026-07-21-compiling-medical-evidence-clinical-research-compiler",
-      "to": "post:2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-      "label": "related",
-      "weight": 0.05,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2026-07-21-compiling-medical-evidence-clinical-research-compiler",
-      "to": "post:2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-      "label": "related",
-      "weight": 0.0476,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2026-07-21-compiling-medical-evidence-clinical-research-compiler",
-      "to": "post:2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-      "label": "related",
-      "weight": 0.04,
       "basis": "shared-entity"
     },
     {
@@ -26498,27 +26267,6 @@
       "basis": "shared-entity"
     },
     {
-      "from": "post:2026-07-21-research-compiler-scientific-discovery",
-      "to": "post:2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-      "label": "related",
-      "weight": 0.0286,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2026-07-21-research-compiler-scientific-discovery",
-      "to": "post:2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-      "label": "related",
-      "weight": 0.0278,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2026-07-21-research-compiler-scientific-discovery",
-      "to": "post:2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-      "label": "related",
-      "weight": 0.025,
-      "basis": "shared-entity"
-    },
-    {
       "from": "post:2026-07-22-if-the-loop-is-the-product",
       "to": "entity:loop is",
       "label": "mentions",
@@ -26600,27 +26348,6 @@
       "to": "post:2026-07-23-validating-at-scale-orkg",
       "label": "related",
       "weight": 0.1,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2026-07-22-if-the-loop-is-the-product",
-      "to": "post:2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-      "label": "related",
-      "weight": 0.1111,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2026-07-22-if-the-loop-is-the-product",
-      "to": "post:2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-      "label": "related",
-      "weight": 0.1,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2026-07-22-if-the-loop-is-the-product",
-      "to": "post:2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-      "label": "related",
-      "weight": 0.0714,
       "basis": "shared-entity"
     },
     {
@@ -26712,27 +26439,6 @@
       "to": "post:2026-07-23-validating-at-scale-orkg",
       "label": "related",
       "weight": 0.0769,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2026-07-23-building-the-scientific-question-compiler",
-      "to": "post:2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-      "label": "related",
-      "weight": 0.0833,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2026-07-23-building-the-scientific-question-compiler",
-      "to": "post:2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-      "label": "related",
-      "weight": 0.0769,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2026-07-23-building-the-scientific-question-compiler",
-      "to": "post:2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-      "label": "related",
-      "weight": 0.0588,
       "basis": "shared-entity"
     },
     {
@@ -27051,27 +26757,6 @@
       "basis": "shared-entity"
     },
     {
-      "from": "post:2026-07-23-the-scientific-state-compiler-roadmap",
-      "to": "post:2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-      "label": "related",
-      "weight": 0.0263,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2026-07-23-the-scientific-state-compiler-roadmap",
-      "to": "post:2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-      "label": "related",
-      "weight": 0.0256,
-      "basis": "shared-entity"
-    },
-    {
-      "from": "post:2026-07-23-the-scientific-state-compiler-roadmap",
-      "to": "post:2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-      "label": "related",
-      "weight": 0.0233,
-      "basis": "shared-entity"
-    },
-    {
       "from": "post:2026-07-23-validating-at-scale-orkg",
       "to": "entity:research knowledge",
       "label": "mentions",
@@ -27185,14 +26870,28 @@
     },
     {
       "from": "post:2026-08-09-hermes-atlas-v01-local-first-incrementally-compiled-falsifiable-knowledge-system",
+      "to": "post:2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+      "label": "related",
+      "weight": 0.25,
+      "basis": "shared-entity"
+    },
+    {
+      "from": "post:2026-08-09-hermes-atlas-v01-local-first-incrementally-compiled-falsifiable-knowledge-system",
+      "to": "post:2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+      "label": "related",
+      "weight": 0.1667,
+      "basis": "shared-entity"
+    },
+    {
+      "from": "post:2026-08-09-hermes-atlas-v01-local-first-incrementally-compiled-falsifiable-knowledge-system",
       "to": "post:2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
       "label": "related",
-      "weight": 0.0909,
+      "weight": 0.1667,
       "basis": "shared-entity"
     },
     {
       "from": "post:2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-      "to": "entity:daniel kliewer",
+      "to": "entity:hermes atlas",
       "label": "mentions",
       "weight": 1.0,
       "basis": ""
@@ -27201,26 +26900,26 @@
       "from": "post:2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
       "to": "post:2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
       "label": "related",
-      "weight": 0.1667,
+      "weight": 0.2,
       "basis": "shared-entity"
     },
     {
       "from": "post:2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
       "to": "post:2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
       "label": "related",
-      "weight": 0.1,
+      "weight": 0.2,
       "basis": "shared-entity"
     },
     {
       "from": "post:2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-      "to": "entity:evidence ledger",
+      "to": "entity:hermes atlas",
       "label": "mentions",
       "weight": 1.0,
       "basis": ""
     },
     {
       "from": "post:2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-      "to": "entity:daniel kliewer",
+      "to": "entity:evidence ledger",
       "label": "mentions",
       "weight": 1.0,
       "basis": ""
@@ -27229,26 +26928,19 @@
       "from": "post:2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
       "to": "post:2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
       "label": "related",
-      "weight": 0.2,
+      "weight": 0.3333,
       "basis": "shared-entity"
     },
     {
       "from": "post:2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-      "to": "entity:evidence ledger",
-      "label": "mentions",
-      "weight": 1.0,
-      "basis": ""
-    },
-    {
-      "from": "post:2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-      "to": "entity:daniel kliewer",
-      "label": "mentions",
-      "weight": 1.0,
-      "basis": ""
-    },
-    {
-      "from": "post:2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
       "to": "entity:hermes atlas",
+      "label": "mentions",
+      "weight": 1.0,
+      "basis": ""
+    },
+    {
+      "from": "post:2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
+      "to": "entity:evidence ledger",
       "label": "mentions",
       "weight": 1.0,
       "basis": ""

@@ -248,11 +248,11 @@
   ],
   "provenance": {
     "source": "content/blog/2026-07-05-retrieval-architecture-synthesis.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "28a06859afd50858648931091a2b1fa1482583c1ee6a64b3e575816262f51532",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

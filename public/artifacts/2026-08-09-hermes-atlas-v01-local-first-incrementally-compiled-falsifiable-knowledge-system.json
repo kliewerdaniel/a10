@@ -6,7 +6,7 @@
   "created_at": "2026-08-09",
   "updated_at": "2026-08-09",
   "canonical_url": "/blog/2026-08-09-hermes-atlas-v01-local-first-incrementally-compiled-falsifiable-knowledge-system",
-  "content_hash": "sha256:2f37232fa124b137c8fe9e57bcd2a868c6c40999dc1f677b69e267b3f683a771",
+  "content_hash": "sha256:9aa3c77e3a711c376b62a53754f50a14baa9d9ca5a42b4642d1e0e3d46309970",
   "topics": [
     "local-first-ai",
     "local-ai",
@@ -19,54 +19,65 @@
   "status": "observed",
   "series": null,
   "entities": [
-    "falsifiable knowledge system august",
-    "daniel kliewer most",
     "hermes atlas",
+    "falsifiable knowledge system",
     "sovereign knowledge compiler"
   ],
   "relationships": [
     {
       "type": "related",
-      "target": "2026-07-16-the-sovereign-knowledge-compiler-explorer",
-      "weight": 0.1,
+      "target": "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+      "weight": 0.25,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+      "weight": 0.1667,
       "basis": "shared-entity"
     },
     {
       "type": "related",
       "target": "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-      "weight": 0.0909,
+      "weight": 0.1667,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-16-the-sovereign-knowledge-compiler-explorer",
+      "weight": 0.1111,
       "basis": "shared-entity"
     },
     {
       "type": "related",
       "target": "2026-07-15-sovereign-memory-bank-deepening-local-first-cognitive-memory",
-      "weight": 0.0333,
+      "weight": 0.0345,
       "basis": "shared-entity"
     }
   ],
   "claims": [
     {
-      "text": "Most \"agentic knowledge\" tooling is query-time retrieval with a graph bolted on",
+      "text": "Most \"agentic knowledge\" tooling is **query-time** retrieval with a graph bolted on",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "Microsoft's GraphRAG is the reference case, and it has two documented weaknesses that a compile-time design fixes:",
+      "text": "Microsoft's GraphRAG is the reference case, and it has two documented weaknesses that a *compile-time* design fixes:",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "Conflicts are handled by majority vote + minority caveat — a good instinct left unformalized",
+      "text": "3. **Conflicts are handled by majority vote + minority caveat** — a good instinct left unformalized",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "Hermes Atlas v0.1 takes the opposite stance: extract once, at compile time, into a versioned static artifact; keep contradictions as first-class nodes; and prove the graph is doing work a keyword search cannot with a Popper-style canary",
+      "text": "://github.com/kliewerdaniel/hermes-atlas) takes the opposite stance: extract once, at compile time, into a versioned static artifact; keep contradictions as first-class nodes; and prove the graph is doing work a keyword search cannot with a Popper-style canary",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "This post is a replication guide",
+      "text": "This post is a **replication guide**",
       "confidence": null,
       "evidence_refs": []
     },
@@ -76,12 +87,12 @@
       "evidence_refs": []
     },
     {
-      "text": "stdlib-only at runtime; only dev dep is pytest",
+      "text": "project interpreter is the fix",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "project interpreter is the fix",
+      "text": "The package is with modules",
       "confidence": null,
       "evidence_refs": []
     },
@@ -91,22 +102,17 @@
       "evidence_refs": []
     },
     {
-      "text": "inverts that: the append-only changelog is the source of truth, and the store",
+      "text": "inverts that: the **append-only changelog is the source of truth**, and the store",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "if existing is not None and prev_hash == chash:",
+      "text": "A changelog that stays silent when inputs are identical is what lets you *prove*",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "A changelog that stays silent when inputs are identical is what lets you prove",
-      "confidence": null,
-      "evidence_refs": []
-    },
-    {
-      "text": "The extraction module is ported, not rewritten, from the Sovereign Knowledge",
+      "text": "The extraction module is **ported, not rewritten**, from the Sovereign Knowledge",
       "confidence": null,
       "evidence_refs": []
     },
@@ -116,12 +122,7 @@
       "evidence_refs": []
     },
     {
-      "text": "if prev is None:",
-      "confidence": null,
-      "evidence_refs": []
-    },
-    {
-      "text": "is a true no-op. There is a regression test: test_ingest_does_not_pre_extract",
+      "text": "is a true no-op. There is a regression test:",
       "confidence": null,
       "evidence_refs": []
     },
@@ -131,12 +132,7 @@
       "evidence_refs": []
     },
     {
-      "text": "note=\"no supporting evidence: claim is asserted, not evidenced\")",
-      "confidence": null,
-      "evidence_refs": []
-    },
-    {
-      "text": "Independence is counted by domain/author, not source count — ten posts from",
+      "text": "Independence is counted by **domain/author**, not source count — ten posts from",
       "confidence": null,
       "evidence_refs": []
     },
@@ -151,39 +147,60 @@
       "evidence_refs": []
     },
     {
-      "text": "anchored on >=1 non-generic word (trims \"AI is X / AI is not X\" noise)",
-      "confidence": null,
-      "evidence_refs": []
-    },
-    {
       "text": "contradictions (\"the model is local-first\" vs \"…is not local-first\") were",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "shifts when new sources are added — so the contradiction record's content",
+      "text": "shifts* when new sources are added — so the contradiction record's content",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "Community detection is a label-propagation append: existing labels are the",
+      "text": "Community detection is a **label-propagation append**: existing labels are the",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "recompute). Summaries are compiled **once** and cached against a membership hash",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "claims. That is the whole point of building the changelog first",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "next research question; they are **ranked by expected information gain**, not",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "generic term. That is the canary working: it *flagged* the weak spot instead of",
       "confidence": null,
       "evidence_refs": []
     }
   ],
-  "references": [],
+  "references": [
+    "https://github.com/kliewerdaniel/hermes-atlas",
+    "https://github.com/kliewerdaniel/hermes-atlas",
+    "https://github.com/kliewerdaniel/hermes-atlas"
+  ],
   "related_artifacts": [
-    "2026-07-16-the-sovereign-knowledge-compiler-explorer",
+    "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+    "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
     "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
+    "2026-07-16-the-sovereign-knowledge-compiler-explorer",
     "2026-07-15-sovereign-memory-bank-deepening-local-first-cognitive-memory"
   ],
   "provenance": {
     "source": "content/blog/2026-08-09-hermes-atlas-v01-local-first-incrementally-compiled-falsifiable-knowledge-system.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
-    "content_sha256": "2f37232fa124b137c8fe9e57bcd2a868c6c40999dc1f677b69e267b3f683a771",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "content_sha256": "9aa3c77e3a711c376b62a53754f50a14baa9d9ca5a42b4642d1e0e3d46309970",
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

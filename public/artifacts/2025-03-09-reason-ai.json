@@ -160,11 +160,11 @@
   ],
   "provenance": {
     "source": "content/blog/2025-03-09-reason-ai.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "eb12452ec92f19eb7ec5594eff40331111bd22eb5157e189640ad20e5696cae1",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

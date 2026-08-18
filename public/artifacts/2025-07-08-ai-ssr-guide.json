@@ -230,11 +230,11 @@
   ],
   "provenance": {
     "source": "content/blog/2025-07-08-ai-ssr-guide.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "bbc31e1ef543cc377d319be30c1fde1e6991bc8f669072139000ec93ef4a1253",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

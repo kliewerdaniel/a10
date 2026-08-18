@@ -125,11 +125,11 @@
   ],
   "provenance": {
     "source": "content/blog/2025-11-08-local-llm-integration.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "5d19be37ae626b231a462c8033a31421e4242d73ac7ebebb67967010e7eb903f",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

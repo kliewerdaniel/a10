@@ -71,11 +71,11 @@
   "related_artifacts": [],
   "provenance": {
     "source": "content/blog/2025-04-06-judgmental-art-cat.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "9010438c0daac79bc0a3e9bd78a86d057a7f4d4d7561e5e96851c8f359c93f03",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

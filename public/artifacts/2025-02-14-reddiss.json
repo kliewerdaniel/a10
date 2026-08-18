@@ -53,18 +53,6 @@
   "relationships": [
     {
       "type": "related",
-      "target": "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-      "weight": 0.0385,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-      "weight": 0.037,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
       "target": "2026-07-22-if-the-loop-is-the-product",
       "weight": 0.0333,
       "basis": "shared-entity"
@@ -73,12 +61,6 @@
       "type": "related",
       "target": "2026-01-25-dynamic-persona-moe-rag-building-a-sovereign-synthetic-intelligence-system",
       "weight": 0.0328,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-      "weight": 0.0323,
       "basis": "shared-entity"
     },
     {
@@ -97,6 +79,24 @@
       "type": "related",
       "target": "2025-03-21-browser-use-ollama-mcp",
       "weight": 0.0294,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-20-compile-time-intelligence-research-compiler-agent",
+      "weight": 0.0256,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-21-compiling-medical-evidence-clinical-research-compiler",
+      "weight": 0.0244,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-14-2025-inference-new-geography-intelligence",
+      "weight": 0.0238,
       "basis": "shared-entity"
     }
   ],
@@ -166,22 +166,22 @@
     "https://github.com/kliewerdaniel/RedDiss.git"
   ],
   "related_artifacts": [
-    "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-    "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
     "2026-07-22-if-the-loop-is-the-product",
     "2026-01-25-dynamic-persona-moe-rag-building-a-sovereign-synthetic-intelligence-system",
-    "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
     "2024-11-23-rlhf-lab-business-plan",
     "2026-07-23-building-the-scientific-question-compiler",
-    "2025-03-21-browser-use-ollama-mcp"
+    "2025-03-21-browser-use-ollama-mcp",
+    "2026-07-20-compile-time-intelligence-research-compiler-agent",
+    "2026-07-21-compiling-medical-evidence-clinical-research-compiler",
+    "2025-11-14-2025-inference-new-geography-intelligence"
   ],
   "provenance": {
     "source": "content/blog/2025-02-14-reddiss.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "e2c60aec18da8d07ab0fa79aa5246a9fefd44d3a2575f1a097e818e04a26cfb6",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

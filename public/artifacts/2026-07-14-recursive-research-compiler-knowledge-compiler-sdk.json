@@ -193,11 +193,11 @@
   ],
   "provenance": {
     "source": "content/blog/2026-07-14-recursive-research-compiler-knowledge-compiler-sdk.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "f29424e8d1a17e8f30437779664469816ef7fac7cc21aec0291348be38edffde",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

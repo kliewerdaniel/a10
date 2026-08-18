@@ -143,11 +143,11 @@
   ],
   "provenance": {
     "source": "content/blog/2026-03-10-breaking-free-from-chatgpt.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "7bec1ebcba9547012480ea17ad3207175b6722c25af34c7533f141ebba6cd5e8",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

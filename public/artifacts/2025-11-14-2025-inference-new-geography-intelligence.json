@@ -49,26 +49,8 @@
     },
     {
       "type": "related",
-      "target": "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-      "weight": 0.0476,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-      "weight": 0.0455,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
       "target": "2026-07-22-if-the-loop-is-the-product",
       "weight": 0.04,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-      "weight": 0.0385,
       "basis": "shared-entity"
     },
     {
@@ -87,6 +69,24 @@
       "type": "related",
       "target": "2026-07-20-compile-time-intelligence-research-compiler-agent",
       "weight": 0.0294,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-21-compiling-medical-evidence-clinical-research-compiler",
+      "weight": 0.0278,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-12-autonomous-ai-agents-developer-portfolio",
+      "weight": 0.027,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-11-knowledge-compiler-compiling-human-knowledge-into-static-semantic-artifacts",
+      "weight": 0.027,
       "basis": "shared-entity"
     }
   ],
@@ -222,21 +222,21 @@
   ],
   "related_artifacts": [
     "2024-11-23-rlhf-lab-business-plan",
-    "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-    "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
     "2026-07-22-if-the-loop-is-the-product",
-    "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
     "2026-07-23-building-the-scientific-question-compiler",
     "2024-11-22-planning",
-    "2026-07-20-compile-time-intelligence-research-compiler-agent"
+    "2026-07-20-compile-time-intelligence-research-compiler-agent",
+    "2026-07-21-compiling-medical-evidence-clinical-research-compiler",
+    "2026-01-12-autonomous-ai-agents-developer-portfolio",
+    "2026-07-11-knowledge-compiler-compiling-human-knowledge-into-static-semantic-artifacts"
   ],
   "provenance": {
     "source": "content/blog/2025-11-14-2025-inference-new-geography-intelligence.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "e9df7abe2f095b75c8d7092e1b3a6d4ca630f1d37db37a8960a247b1cc8edbf8",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

@@ -52,12 +52,6 @@
     },
     {
       "type": "related",
-      "target": "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-      "weight": 0.1111,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
       "target": "2026-07-23-the-scientific-state-compiler-roadmap",
       "weight": 0.1026,
       "basis": "shared-entity"
@@ -70,14 +64,20 @@
     },
     {
       "type": "related",
-      "target": "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-      "weight": 0.1,
+      "target": "2026-07-23-the-next-experiment-grounded-and-quantitative",
+      "weight": 0.0833,
       "basis": "shared-entity"
     },
     {
       "type": "related",
-      "target": "2026-07-23-the-next-experiment-grounded-and-quantitative",
+      "target": "2026-07-23-the-scientific-state-compiler-pass-4",
       "weight": 0.0833,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-23-rlhf-lab-business-plan",
+      "weight": 0.0625,
       "basis": "shared-entity"
     }
   ],
@@ -215,19 +215,19 @@
     "2026-07-23-the-loop-closes-itself",
     "2026-07-23-building-the-scientific-question-compiler",
     "2026-07-21-research-compiler-scientific-discovery",
-    "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
     "2026-07-23-the-scientific-state-compiler-roadmap",
     "2026-07-23-validating-at-scale-orkg",
-    "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-    "2026-07-23-the-next-experiment-grounded-and-quantitative"
+    "2026-07-23-the-next-experiment-grounded-and-quantitative",
+    "2026-07-23-the-scientific-state-compiler-pass-4",
+    "2024-11-23-rlhf-lab-business-plan"
   ],
   "provenance": {
     "source": "content/blog/2026-07-22-if-the-loop-is-the-product.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "fed935261f5d836e39d1ebe835a1cd0c536bb4949725a4f208d82648148fa06b",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

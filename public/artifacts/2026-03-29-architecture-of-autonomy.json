@@ -261,11 +261,11 @@
   ],
   "provenance": {
     "source": "content/blog/2026-03-29-architecture-of-autonomy.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "e8590d633324a341ba673d763b32328cf1358bd5623a790e3e5cad95fa162e0c",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

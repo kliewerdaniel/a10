@@ -210,11 +210,11 @@
   ],
   "provenance": {
     "source": "content/blog/2026-07-14-synthesizing-memory-with-agent.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "dd57f661069b88dde481f379d5000ad50c8ed1d684227099845f4ba19f8ef1fa",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

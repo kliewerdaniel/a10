@@ -115,11 +115,11 @@
   "related_artifacts": [],
   "provenance": {
     "source": "content/blog/2026-01-22-renders-latest-betrayal-or-how-my-logs-quietly-became-someone-elses-asset.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "f2462c913d36d6eb914d6f4d5f9ffdcf4addb3c282b010c77339ce021b68836d",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

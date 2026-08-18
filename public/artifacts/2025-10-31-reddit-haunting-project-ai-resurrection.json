@@ -205,11 +205,11 @@
   ],
   "provenance": {
     "source": "content/blog/2025-10-31-reddit-haunting-project-ai-resurrection.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "6a94e5682b958206f75fe1b294b8f7f81fe16b6d6fcf810069d7644246d21348",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

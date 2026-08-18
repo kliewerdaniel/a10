@@ -355,11 +355,11 @@
   ],
   "provenance": {
     "source": "content/blog/2024-12-30-cultural-fingerprints.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "344364ee7a1abb7d3e3825eb4d877f070a50c5d1213828e933ed2a2ba26e9208",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

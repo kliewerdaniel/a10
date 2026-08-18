@@ -265,11 +265,11 @@
   ],
   "provenance": {
     "source": "content/blog/2026-03-28-architecture-as-autonomy.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "13096c88381dca0adba847427ff0133e8af692e73b561a4053cb1ab31b6bfb37",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

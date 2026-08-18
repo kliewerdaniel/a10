@@ -125,11 +125,11 @@
   ],
   "provenance": {
     "source": "content/blog/2024-12-05-personagen.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "2932bcb2e51682de664b637a32472454c44fb22d7d5d84af3a9c66395ca2ef0c",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

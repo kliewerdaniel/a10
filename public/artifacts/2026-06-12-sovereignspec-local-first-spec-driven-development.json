@@ -267,11 +267,11 @@
   ],
   "provenance": {
     "source": "content/blog/2026-06-12-sovereignspec-local-first-spec-driven-development.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "2b84c273829acfe8abb84f3ca73be9c2cd3769c8abfb7a717bbfe8f5174cd478",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

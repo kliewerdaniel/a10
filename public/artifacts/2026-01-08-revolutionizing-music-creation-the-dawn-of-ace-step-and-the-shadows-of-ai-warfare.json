@@ -103,11 +103,11 @@
   ],
   "provenance": {
     "source": "content/blog/2026-01-08-revolutionizing-music-creation-the-dawn-of-ace-step-and-the-shadows-of-ai-warfare.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "96e0937e00c58b58cb88b0c09285b029aa351a75123c6391a86d7b7c48c93bc1",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

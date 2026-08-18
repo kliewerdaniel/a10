@@ -245,11 +245,11 @@
   ],
   "provenance": {
     "source": "content/blog/2026-04-15-synthetic-intelligence-why-emergence-is-math-and-data-should-stay-local.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "313c2f2ea94f41e84169df2944878dee647daac4bf1833d588d9cd6622695793",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

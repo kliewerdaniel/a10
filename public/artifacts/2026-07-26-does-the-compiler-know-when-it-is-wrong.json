@@ -163,11 +163,11 @@
   ],
   "provenance": {
     "source": "content/blog/2026-07-26-does-the-compiler-know-when-it-is-wrong.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "f7c62d6fd76a2f09a1ea116e6830dabd527c2ab64c4c828f2cb40d897fc1312a",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

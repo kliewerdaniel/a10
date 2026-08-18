@@ -193,11 +193,11 @@
   ],
   "provenance": {
     "source": "content/blog/2025-03-24-model-context-protocol.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "033d24a3b17551e10a72e64c6a402b48b1689f66b9ecbccc9a7e1079f784c1a8",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

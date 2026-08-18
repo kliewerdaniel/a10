@@ -53,26 +53,8 @@
   "relationships": [
     {
       "type": "related",
-      "target": "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-      "weight": 0.0345,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-      "weight": 0.0333,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
       "target": "2026-07-22-if-the-loop-is-the-product",
       "weight": 0.0303,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-      "weight": 0.0294,
       "basis": "shared-entity"
     },
     {
@@ -97,6 +79,24 @@
       "type": "related",
       "target": "2026-07-21-compiling-medical-evidence-clinical-research-compiler",
       "weight": 0.0227,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-14-2025-inference-new-geography-intelligence",
+      "weight": 0.0222,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-12-autonomous-ai-agents-developer-portfolio",
+      "weight": 0.0222,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-06-08-objective05-exec-giving-local-intelligence-system-hands",
+      "weight": 0.0215,
       "basis": "shared-entity"
     }
   ],
@@ -213,22 +213,22 @@
     "https://6340588028610.gumroad.com/l/qkxkt"
   ],
   "related_artifacts": [
-    "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-    "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
     "2026-07-22-if-the-loop-is-the-product",
-    "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
     "2024-11-23-rlhf-lab-business-plan",
     "2026-07-23-building-the-scientific-question-compiler",
     "2026-07-20-compile-time-intelligence-research-compiler-agent",
-    "2026-07-21-compiling-medical-evidence-clinical-research-compiler"
+    "2026-07-21-compiling-medical-evidence-clinical-research-compiler",
+    "2025-11-14-2025-inference-new-geography-intelligence",
+    "2026-01-12-autonomous-ai-agents-developer-portfolio",
+    "2026-06-08-objective05-exec-giving-local-intelligence-system-hands"
   ],
   "provenance": {
     "source": "content/blog/2026-06-01-objective03-local-news-agency.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "f5755e6c4a944656bff00134f86e00c32e6e4e9b4fd64fc83f76c45251573e1d",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

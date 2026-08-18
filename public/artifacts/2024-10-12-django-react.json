@@ -136,11 +136,11 @@
   ],
   "provenance": {
     "source": "content/blog/2024-10-12-django-react.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "d660a92d76faee500c7d195a27cafb6c15b06d8407eb9432e2cd336ecb1c0a00",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

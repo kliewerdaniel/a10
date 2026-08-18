@@ -269,11 +269,11 @@
   ],
   "provenance": {
     "source": "content/blog/2024-12-19-langchain-ollama.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "90bb80265ea1055fce1eb27e01bf7988b1c0efe18e7f948ea4a8565fff3177c0",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

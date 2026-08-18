@@ -117,11 +117,11 @@
   ],
   "provenance": {
     "source": "content/blog/2025-03-12-mcp-openai-responses-api-agents-sdk-ollama.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "e4958997c1dd9dbd51ab4dcba111cd7c80ddf76cc839d76e85d8e008b1516ee7",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

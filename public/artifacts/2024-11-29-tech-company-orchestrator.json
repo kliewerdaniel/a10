@@ -73,11 +73,11 @@
   "related_artifacts": [],
   "provenance": {
     "source": "content/blog/2024-11-29-tech-company-orchestrator.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "45070626c8cb00f196c79586e61b1976aa998058561d703b5437293956aefeb1",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

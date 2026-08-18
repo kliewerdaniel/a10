@@ -53,11 +53,11 @@
   ],
   "provenance": {
     "source": "content/blog/2025-03-11-integrating-the-openai-agents-sdk-with-rusts-burn-framework.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "526d3371f5312f900a3c2aaa1206f5d9070c668a7fdd049ac72cb886713f4441",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

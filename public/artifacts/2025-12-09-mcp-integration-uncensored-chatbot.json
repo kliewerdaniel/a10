@@ -269,11 +269,11 @@
   ],
   "provenance": {
     "source": "content/blog/2025-12-09-mcp-integration-uncensored-chatbot.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "adeafd0ad77c3693e42e4c28f1f140596533cf68358f1b8a126d502a8927ca54",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

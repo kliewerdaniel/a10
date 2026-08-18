@@ -352,11 +352,11 @@
   ],
   "provenance": {
     "source": "content/blog/2025-10-19-building-a-local-llm-powered-knowledge-graph.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "540f89ebb56bb32eb9756894b3f5036ec426d6f6c9a845331f7d2e964e8d2afc",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

@@ -131,11 +131,11 @@
   ],
   "provenance": {
     "source": "content/blog/2026-01-05-quantizing-consciousness-digital-resurrection.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "c558fdb83b99c05fb8e03a4d40e38bd40b6bab3eea055d32619d0e146cd19aad",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

@@ -132,11 +132,11 @@
   ],
   "provenance": {
     "source": "content/blog/2024-12-09-pydantic-rag.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "70a98aca420411d89c006c9f0ce076f309d1fcb6de8865e7da4d21578dc89c90",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

@@ -240,11 +240,11 @@
   ],
   "provenance": {
     "source": "content/blog/2026-01-07-specgen-deterministic-ai-powered-code-generation-from-naturals-language.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "9bcb11e4de7091b25234ecf245aaeb83d4bb2247f026838cbf0ada8a4e633908",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

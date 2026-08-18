@@ -243,11 +243,11 @@
   ],
   "provenance": {
     "source": "content/blog/2026-07-12-compile-time-ai-knowledge-compiler-architecture.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "727668f68b7b312081e61d54af5ff3da270777f7114cd8e4930669950c6e9ee6",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

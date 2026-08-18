@@ -224,11 +224,11 @@
   ],
   "provenance": {
     "source": "content/blog/2026-02-19-building-knowledge-chatbot.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "2f3828cd7b9be951d86834c8d5d8fa0f2b259e8f6fe8da13c48d9ec083099992",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

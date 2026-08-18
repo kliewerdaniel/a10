@@ -6,7 +6,7 @@
   "created_at": "2026-08-09",
   "updated_at": "2026-08-09",
   "canonical_url": "/blog/2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-  "content_hash": "sha256:906ce6ea1aa96fd015bd114a615de0d699334f72b56e8a50c95eddaaa64ebe65",
+  "content_hash": "sha256:91a9916e1200cf3278bad5fc65fb3942d9e3e2dbdf3100e9fa34c7cf8c116dcd",
   "topics": [
     "local-first-ai",
     "local-ai",
@@ -19,69 +19,39 @@
   "status": "observed",
   "series": null,
   "entities": [
+    "hermes atlas",
     "evidence ledger",
     "provable claim lifecycle",
-    "explain command august",
-    "daniel kliewer"
+    "explain command"
   ],
   "relationships": [
     {
       "type": "related",
       "target": "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-      "weight": 0.2,
+      "weight": 0.3333,
       "basis": "shared-entity"
     },
     {
       "type": "related",
       "target": "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+      "weight": 0.2,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-08-09-hermes-atlas-v01-local-first-incrementally-compiled-falsifiable-knowledge-system",
       "weight": 0.1667,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2026-07-22-if-the-loop-is-the-product",
-      "weight": 0.1,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2024-11-23-rlhf-lab-business-plan",
-      "weight": 0.0769,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2026-07-23-building-the-scientific-question-compiler",
-      "weight": 0.0769,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2026-07-20-compile-time-intelligence-research-compiler-agent",
-      "weight": 0.0526,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2026-07-21-compiling-medical-evidence-clinical-research-compiler",
-      "weight": 0.0476,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2025-11-14-2025-inference-new-geography-intelligence",
-      "weight": 0.0455,
       "basis": "shared-entity"
     }
   ],
   "claims": [
     {
-      "text": "A provable claim lifecycle — including the DELETE-driven transition the spec explicitly named: when a claim's only source is deleted, the record must be retained and marked invalidated, never silently dropped",
+      "text": "2. A **provable claim lifecycle** — including the DELETE-driven transition the spec explicitly named: when a claim's only source is deleted, the record must be **retained and marked  **, never silently dropped",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "The code is public: github",
+      "text": "The code is public: [github",
       "confidence": null,
       "evidence_refs": []
     },
@@ -91,57 +61,52 @@
       "evidence_refs": []
     },
     {
-      "text": "It is one whose beliefs are auditable and whose corrections are observable",
+      "text": "It is one whose beliefs are *auditable* and whose corrections are *observable*",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "you the chain of evidence behind any single belief, and it had no notion of a claim's state over time. If a claim vanished because its source was deleted, you'd never know it had ever existed. That is a falsifiability hole: an opinion that silently disappeared is indistinguishable from an opinion that was never held",
+      "text": "you* the chain of evidence behind any single belief, and it had no notion of a claim's state over time. If a claim vanished because its source was deleted, you'd never know it had ever existed. That is a falsifiability hole: an opinion that silently disappeared is indistinguishable from an opinion that was never held",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "The hard part — migration without rewriting history. The append-only store's write is content-hash-gated: unchanged content is a silent no-op (that silence is what makes the determinism gate work)",
+      "text": "The hard part — migration without rewriting history.** The append-only store's is content-hash-gated: unchanged content is a silent no-op (that silence is what makes the determinism gate work)",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "For the claims collection, the change hash covers only the core fields (text, source_ids, confidence, contradiction_ids, …). The additive v0.3 ledger fields are not part of that hash",
+      "text": "For the   collection, the change hash covers only the **core** fields ( ,  ,  ,  , …). The additive v0.3 ledger fields are *not* part of that hash",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "So a v0.2 store, delta-recompiled under v0.3, keeps its old records at schema 1 byte-for-byte; only claims that actually change — or are newly created — get stamped schema 2",
+      "text": "So a v0.2 store, delta-recompiled under v0.3, keeps its old records at schema 1 **byte-for-byte**; only claims that actually change — or are newly created — get stamped schema 2",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": ", not assumed: tests/test_ledger.py::test_mixed_version_store_passes_determinism_gate seeds a v0.2-shaped store, recompiles it under the v0.3 compiler, and asserts (a) the old records' content hashes are unchanged and (b) the determinism gate still passes",
+      "text": "That is proven, not assumed:   seeds a v0.2-shaped store, recompiles it under the v0.3 compiler, and asserts (a) the old records' content hashes are unchanged and (b) the determinism gate still passes",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "The load-bearing design choice: status is a pure function of the evidence, recomputed from evidence on every compile (ledger",
+      "text": "The load-bearing design choice: ** is a pure function of the evidence**, recomputed from evidence on every compile ( )",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "_initial_status). It is never a free variable",
+      "text": "It is never a free variable. That is precisely why the lifecycle gate *can* be proven — there is no hidden state to drift",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "That is precisely why the lifecycle gate can be proven — there is no hidden state to drift",
+      "text": "3. **Invalidations are justified** — a claim becomes   *only* if its supporting evidence was deleted (the DELETE-driven transition) or it is contradicted",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "Invalidations are justified — a claim becomes invalidated only if its supporting evidence was deleted (the DELETE-driven transition) or it is contradicted",
-      "confidence": null,
-      "evidence_refs": []
-    },
-    {
-      "text": "And critically: the record is retained, with its history, never silently dropped",
+      "text": "And critically: **the record is retained, with its history, never silently dropped",
       "confidence": null,
       "evidence_refs": []
     },
@@ -151,7 +116,7 @@
       "evidence_refs": []
     },
     {
-      "text": "Run with python bench.py on two fixed deterministic corpora (bench_corpus_b.json, bench_corpus_c.json). The harness is model-free by design (llm_baseline_available: false) — the graph is computed entirely at compile time, so these numbers are reproducible on any machine with no GPU and no API key",
+      "text": "Run with   on two fixed deterministic corpora ( ,  ). The harness is **model-free by design** ( ) — the graph is computed entirely at compile time, so these numbers are reproducible on any machine with no GPU and no API key",
       "confidence": null,
       "evidence_refs": []
     },
@@ -161,7 +126,7 @@
       "evidence_refs": []
     },
     {
-      "text": "The held-out rediscovery rate (0.5–0.7) is honest and reported as such",
+      "text": "The **held-out rediscovery rate (0.5–0.7) is honest and reported as such",
       "confidence": null,
       "evidence_refs": []
     },
@@ -171,7 +136,7 @@
       "evidence_refs": []
     },
     {
-      "text": "unique link-carrier between two entities; in densely-interconnected regions a gap does not survive as a single localisable hole. That is real system behavior, not a bug to paper over — and the canary is built to fail when it should, which is the whole point",
+      "text": "link-carrier* between two entities; in densely-interconnected regions a gap does not survive as a single localisable hole. That is real system behavior, not a bug to paper over — and the canary is built to *fail* when it should, which is the whole point",
       "confidence": null,
       "evidence_refs": []
     },
@@ -181,44 +146,48 @@
       "evidence_refs": []
     },
     {
-      "text": "questions and metaphors slip through the is /are/has assertion cue",
+      "text": "determinism gate print identical full-compile fingerprints, the lifecycle gate report  , and   emit the full evidence chain + retained history for the contradictions claim. I ran it; the output above is what it produced",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "clone + venv (stdlib-only at runtime; pytest is the only dev dep)",
+      "text": "It is **not** production-grade incremental Leiden. is label propagation with a seeded, frozen-core append step;   reports the drift against a full recompute",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "A   system IS a machine that owns its own",
+      "text": "Coverage localisation is strongest on unique link-carriers",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "ARE first-class   so neither opposed is ever silently overwritten",
+      "text": "is DELETE-driven only.** A claim that merely loses corroboration (but still has a source) drops to  , not  . Intentionally: means the evidence I believed is gone,\" not \"I am less sure",
+      "confidence": null,
+      "evidence_refs": []
+    },
+    {
+      "text": "The through-line of v0.1 → v0.3: every release makes the system's beliefs *more auditable and its corrections more observable*. v0.3 is the one where you can finally ask any single claim \"why do you believe this",
       "confidence": null,
       "evidence_refs": []
     }
   ],
-  "references": [],
+  "references": [
+    "https://danielkliewer.com/blog/2026-08-09-hermes-atlas-v01-local-first-incrementally-compiled-falsifiable-knowledge-system",
+    "https://danielkliewer.com/blog/2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
+    "https://github.com/kliewerdaniel/hermes-atlas"
+  ],
   "related_artifacts": [
     "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
     "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-    "2026-07-22-if-the-loop-is-the-product",
-    "2024-11-23-rlhf-lab-business-plan",
-    "2026-07-23-building-the-scientific-question-compiler",
-    "2026-07-20-compile-time-intelligence-research-compiler-agent",
-    "2026-07-21-compiling-medical-evidence-clinical-research-compiler",
-    "2025-11-14-2025-inference-new-geography-intelligence"
+    "2026-08-09-hermes-atlas-v01-local-first-incrementally-compiled-falsifiable-knowledge-system"
   ],
   "provenance": {
     "source": "content/blog/2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
-    "content_sha256": "906ce6ea1aa96fd015bd114a615de0d699334f72b56e8a50c95eddaaa64ebe65",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "content_sha256": "91a9916e1200cf3278bad5fc65fb3942d9e3e2dbdf3100e9fa34c7cf8c116dcd",
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

@@ -144,11 +144,11 @@
   ],
   "provenance": {
     "source": "content/blog/2026-03-17-building-a-private-knowledge-graph-with-local-ai-agents.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "3d09d15890bcd156a7468528fa90bb37c16c17c8379b13b3e339279827cdb8b4",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

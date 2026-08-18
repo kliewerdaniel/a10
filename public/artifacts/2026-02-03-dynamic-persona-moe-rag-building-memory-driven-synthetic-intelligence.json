@@ -253,11 +253,11 @@
   ],
   "provenance": {
     "source": "content/blog/2026-02-03-dynamic-persona-moe-rag-building-memory-driven-synthetic-intelligence.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "c2e65800705e75c5436ea75ab72d84e2445ad609cc2abd31b73466d956842716",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

@@ -72,11 +72,11 @@
   ],
   "provenance": {
     "source": "content/blog/2025-02-05-loco-local-localllama.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "6538348d45e98d48f4b92feb1c78dc326e6b19983345c17c937d2be98af8ed91",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

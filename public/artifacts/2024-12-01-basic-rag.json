@@ -90,11 +90,11 @@
   ],
   "provenance": {
     "source": "content/blog/2024-12-01-basic-rag.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "e1d7edfde80a25d4a1cd3e94b2814a5874ccd20795d4168985aecd394c4547b0",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

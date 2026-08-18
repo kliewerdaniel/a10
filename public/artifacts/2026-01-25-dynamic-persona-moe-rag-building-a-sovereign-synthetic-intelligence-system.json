@@ -79,32 +79,32 @@
     },
     {
       "type": "related",
-      "target": "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-      "weight": 0.0244,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-      "weight": 0.0238,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
       "target": "2026-07-22-if-the-loop-is-the-product",
       "weight": 0.0222,
       "basis": "shared-entity"
     },
     {
       "type": "related",
-      "target": "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-      "weight": 0.0217,
+      "target": "2024-11-23-rlhf-lab-business-plan",
+      "weight": 0.0208,
       "basis": "shared-entity"
     },
     {
       "type": "related",
-      "target": "2024-11-23-rlhf-lab-business-plan",
+      "target": "2026-07-23-building-the-scientific-question-compiler",
       "weight": 0.0208,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-25-building-the-synthetic-analyst",
+      "weight": 0.0204,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-20-compile-time-intelligence-research-compiler-agent",
+      "weight": 0.0185,
       "basis": "shared-entity"
     }
   ],
@@ -212,19 +212,19 @@
     "2026-01-28-dynamic-persona-moe-rag-implementation-plan",
     "2025-02-14-reddiss",
     "2026-01-22-dynamic-persona-moe-rag",
-    "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-    "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
     "2026-07-22-if-the-loop-is-the-product",
-    "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-    "2024-11-23-rlhf-lab-business-plan"
+    "2024-11-23-rlhf-lab-business-plan",
+    "2026-07-23-building-the-scientific-question-compiler",
+    "2026-01-25-building-the-synthetic-analyst",
+    "2026-07-20-compile-time-intelligence-research-compiler-agent"
   ],
   "provenance": {
     "source": "content/blog/2026-01-25-dynamic-persona-moe-rag-building-a-sovereign-synthetic-intelligence-system.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "dfa07997ee3f0c066305f8df2ec89e3b3119ac548e4c1591737e4788fae77f0a",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

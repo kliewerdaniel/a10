@@ -193,11 +193,11 @@
   ],
   "provenance": {
     "source": "content/blog/2025-03-21-browser-use-ollama-mcp.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "aa0801b84ca51d00bbec730a0f841445cbffa491abde1df58482ddd8e90b2fa6",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

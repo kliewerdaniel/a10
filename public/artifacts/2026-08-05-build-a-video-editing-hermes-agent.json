@@ -184,11 +184,11 @@
   ],
   "provenance": {
     "source": "content/blog/2026-08-05-build-a-video-editing-hermes-agent.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "9148eec8913e569d296914503619a00268df99f303f6be582759cb11bba32a51",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

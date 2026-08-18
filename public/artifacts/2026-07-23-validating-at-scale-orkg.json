@@ -150,11 +150,11 @@
   ],
   "provenance": {
     "source": "content/blog/2026-07-23-validating-at-scale-orkg.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "148f52ffd6c323ae32c1e5da9c155965ae29e1ea3c29c982eba121da78138963",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

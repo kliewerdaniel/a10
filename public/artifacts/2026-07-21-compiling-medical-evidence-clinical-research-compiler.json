@@ -50,26 +50,8 @@
     },
     {
       "type": "related",
-      "target": "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-      "weight": 0.05,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-      "weight": 0.0476,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
       "target": "2026-07-22-if-the-loop-is-the-product",
       "weight": 0.0417,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-      "weight": 0.04,
       "basis": "shared-entity"
     },
     {
@@ -88,6 +70,24 @@
       "type": "related",
       "target": "2026-07-20-compile-time-intelligence-research-compiler-agent",
       "weight": 0.0303,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-02-05-ollama-smolagents-open-deep-research",
+      "weight": 0.0294,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2025-11-14-2025-inference-new-geography-intelligence",
+      "weight": 0.0278,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-01-12-autonomous-ai-agents-developer-portfolio",
+      "weight": 0.0278,
       "basis": "shared-entity"
     }
   ],
@@ -231,21 +231,21 @@
   ],
   "related_artifacts": [
     "2026-07-21-research-compiler-scientific-discovery",
-    "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-    "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
     "2026-07-22-if-the-loop-is-the-product",
-    "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
     "2024-11-23-rlhf-lab-business-plan",
     "2026-07-23-building-the-scientific-question-compiler",
-    "2026-07-20-compile-time-intelligence-research-compiler-agent"
+    "2026-07-20-compile-time-intelligence-research-compiler-agent",
+    "2025-02-05-ollama-smolagents-open-deep-research",
+    "2025-11-14-2025-inference-new-geography-intelligence",
+    "2026-01-12-autonomous-ai-agents-developer-portfolio"
   ],
   "provenance": {
     "source": "content/blog/2026-07-21-compiling-medical-evidence-clinical-research-compiler.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "5dc196bbe5231075b6833c10b2548e24f05176b6d3b6132f086f8cbe286e4bf5",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

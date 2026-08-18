@@ -215,11 +215,11 @@
   ],
   "provenance": {
     "source": "content/blog/2026-05-01-qwen-scope-interpretability-interface.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "92346edde98bd35aeb14a6f53f436c8a28eb18249a3b637c9419d1e825914324",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

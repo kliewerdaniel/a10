@@ -168,11 +168,11 @@
   ],
   "provenance": {
     "source": "content/blog/2026-03-10-how-to-run-your-own-ai-agent-openclaw-qwen-telegram.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "3f4d95a07e05459096508d4e4593d62ed40f3a0211ed1bf124b3167d5f3f393a",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

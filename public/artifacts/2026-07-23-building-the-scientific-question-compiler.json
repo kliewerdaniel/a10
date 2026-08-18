@@ -60,19 +60,7 @@
     },
     {
       "type": "related",
-      "target": "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-      "weight": 0.0833,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
       "target": "2026-07-23-validating-at-scale-orkg",
-      "weight": 0.0769,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
       "weight": 0.0769,
       "basis": "shared-entity"
     },
@@ -80,6 +68,18 @@
       "type": "related",
       "target": "2026-07-23-the-next-experiment-grounded-and-quantitative",
       "weight": 0.0667,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2024-11-23-rlhf-lab-business-plan",
+      "weight": 0.0526,
+      "basis": "shared-entity"
+    },
+    {
+      "type": "related",
+      "target": "2026-07-21-research-compiler-scientific-discovery",
+      "weight": 0.0488,
       "basis": "shared-entity"
     }
   ],
@@ -174,18 +174,18 @@
     "2026-07-23-the-scientific-state-compiler-pass-4",
     "2026-07-22-if-the-loop-is-the-product",
     "2026-07-23-the-loop-closes-itself",
-    "2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
     "2026-07-23-validating-at-scale-orkg",
-    "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-    "2026-07-23-the-next-experiment-grounded-and-quantitative"
+    "2026-07-23-the-next-experiment-grounded-and-quantitative",
+    "2024-11-23-rlhf-lab-business-plan",
+    "2026-07-21-research-compiler-scientific-discovery"
   ],
   "provenance": {
     "source": "content/blog/2026-07-23-building-the-scientific-question-compiler.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "f1b91b647d9fdf9ebf24493dcab7c619eaca34ffa01733c02e51a24f06a0297f",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

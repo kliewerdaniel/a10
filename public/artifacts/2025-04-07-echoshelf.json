@@ -119,11 +119,11 @@
   ],
   "provenance": {
     "source": "content/blog/2025-04-07-echoshelf.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "de56ade70e52c36bc6d7f710f2be8bc290368c406ece94c5511f8c242a5a5843",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

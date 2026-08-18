@@ -119,11 +119,11 @@
   ],
   "provenance": {
     "source": "content/blog/2025-02-05-open-deep-research.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "ccf8b8a570019cf96853e1af5e562283074ef934fde5dd3370325f73ca589cbe",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

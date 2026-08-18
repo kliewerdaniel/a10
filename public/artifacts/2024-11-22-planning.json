@@ -211,11 +211,11 @@
   ],
   "provenance": {
     "source": "content/blog/2024-11-22-planning.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "c92a508723b9b91345ddeeeb63b5930eb17a58797fbdc9f297aa25c3c4497947",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

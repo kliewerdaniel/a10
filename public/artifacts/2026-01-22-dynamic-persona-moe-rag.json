@@ -137,11 +137,11 @@
   ],
   "provenance": {
     "source": "content/blog/2026-01-22-dynamic-persona-moe-rag.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "55db8b0be3d9dbbcd016289ea6c96080b1a1c6e672b7fbc324cd051d51a0da44",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

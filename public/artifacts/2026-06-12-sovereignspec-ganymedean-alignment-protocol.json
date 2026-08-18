@@ -244,11 +244,11 @@
   ],
   "provenance": {
     "source": "content/blog/2026-06-12-sovereignspec-ganymedean-alignment-protocol.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "5d7fd6617dc2e3d7d194b1451b08f99eb396a071ddbaa6d4bf8e2657b03ef77e",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

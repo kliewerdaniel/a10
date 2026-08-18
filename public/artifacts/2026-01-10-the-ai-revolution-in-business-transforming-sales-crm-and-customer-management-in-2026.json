@@ -145,11 +145,11 @@
   ],
   "provenance": {
     "source": "content/blog/2026-01-10-the-ai-revolution-in-business-transforming-sales-crm-and-customer-management-in-2026.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "20975a7874677d110a6fe874a1bcd8f8700431cf30719ca8a187f5a706875219",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

@@ -39,11 +39,11 @@
   "related_artifacts": [],
   "provenance": {
     "source": "content/blog/2025-10-19-vibe-coding-janitor-session.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "468931c35bbe9aff2dbcb0b83f017c9e509f9496d1290705bcf697b282d2775b",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

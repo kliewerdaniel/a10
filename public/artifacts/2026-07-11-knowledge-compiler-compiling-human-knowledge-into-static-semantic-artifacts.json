@@ -241,11 +241,11 @@
   ],
   "provenance": {
     "source": "content/blog/2026-07-11-knowledge-compiler-compiling-human-knowledge-into-static-semantic-artifacts.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "6f376269d40311c1694ab34f6a1761023ec6045d94c78d451822123f671b4b00",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

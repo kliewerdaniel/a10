@@ -6,7 +6,7 @@
   "created_at": "2026-08-09",
   "updated_at": "2026-08-09",
   "canonical_url": "/blog/2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary",
-  "content_hash": "sha256:5078a78650b986115c8d9ba64a034d1ec73af9721b493ce42f119275e55ea3ae",
+  "content_hash": "sha256:a5b2bd7dbccdfe034f484ab37cfbf03cba358f0835416e8cbe0e47470e4c8508",
   "topics": [
     "local-first-ai",
     "local-ai",
@@ -19,73 +19,42 @@
   "status": "observed",
   "series": null,
   "entities": [
-    "determinism gate",
-    "canary august",
-    "daniel kliewer"
+    "hermes atlas",
+    "determinism gate"
   ],
   "relationships": [
     {
       "type": "related",
-      "target": "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-      "weight": 0.1667,
+      "target": "2026-08-09-hermes-atlas-v01-local-first-incrementally-compiled-falsifiable-knowledge-system",
+      "weight": 0.25,
       "basis": "shared-entity"
     },
     {
       "type": "related",
-      "target": "2026-07-22-if-the-loop-is-the-product",
-      "weight": 0.1111,
+      "target": "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
+      "weight": 0.2,
       "basis": "shared-entity"
     },
     {
       "type": "related",
       "target": "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-      "weight": 0.1,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2024-11-23-rlhf-lab-business-plan",
-      "weight": 0.0833,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2026-07-23-building-the-scientific-question-compiler",
-      "weight": 0.0833,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2026-07-20-compile-time-intelligence-research-compiler-agent",
-      "weight": 0.0556,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2026-07-21-compiling-medical-evidence-clinical-research-compiler",
-      "weight": 0.05,
-      "basis": "shared-entity"
-    },
-    {
-      "type": "related",
-      "target": "2025-11-14-2025-inference-new-geography-intelligence",
-      "weight": 0.0476,
+      "weight": 0.2,
       "basis": "shared-entity"
     }
   ],
   "claims": [
     {
-      "text": "v0.2 is a benchmark-and-fix release. The spec was explicit: no new personas, no new model integrations, no prettier CLI. Just close the honesty gaps with measurements. Here is what changed and — more importantly — the numbers, including the ones that did not reach 1",
+      "text": "v0.2 is a **benchmark-and-fix release**. The spec was explicit: *no new personas, no new model integrations, no prettier CLI.* Just close the honesty gaps with measurements. Here is what changed and — more importantly — the numbers, including the ones that did **not** reach 1",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "The code is public: github",
+      "text": "The code is public: [github",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "rediscovery canary ran, it reported flagged (pass_rate 0.0): the loop never leaked the withheld fact, but it also never generated a question targeting it. The canary couldn't say \"this specific fact is missing\" because nothing in the pipeline could",
+      "text": ". When the held-out rediscovery canary ran, it reported  : the loop never leaked the withheld fact, but it also never generated a question *targeting* it. The canary couldn't say \"this specific fact is missing\" because nothing in the pipeline could",
       "confidence": null,
       "evidence_refs": []
     },
@@ -95,12 +64,12 @@
       "evidence_refs": []
     },
     {
-      "text": "gaps.analyse(question, corpus) now calls coverage_gaps_for_question only when both are supplied, wrapped in try/except so a coverage failure never breaks the aggregate report",
+      "text": "now calls   only when both are supplied, wrapped in   so a coverage failure never breaks the aggregate report",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "Entities come only from backtick tokens ( ), acronyms, mid-sentence proper nouns, and a vocabulary list. Lowercase terms are never entities",
+      "text": "Entities come **only** from backtick tokens (     ), acronyms, mid-sentence proper nouns, and a vocabulary list. Lowercase terms are *never* entities",
       "confidence": null,
       "evidence_refs": []
     },
@@ -110,7 +79,7 @@
       "evidence_refs": []
     },
     {
-      "text": "A sentence is a claim only with an assertion cue (is/are/requires/lacks/has/",
+      "text": "A sentence is a *claim* only with an assertion cue ( )",
       "confidence": null,
       "evidence_refs": []
     },
@@ -120,27 +89,27 @@
       "evidence_refs": []
     },
     {
-      "text": "Exposed as atlas gate. The gate is why the v0",
+      "text": "Exposed as  . The gate is why the v0",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "1 \"we're deterministic\" claim is now a proof rather than a hope",
+      "text": "1 \"we're deterministic\" claim is now a *proof* rather than a hope",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "? (Either the confidence number moves, or its contradiction_ids back-link appears — a claim sitting at floor confidence of 0.0 cannot move numerically downward, but recording the contradiction is itself the propagation",
+      "text": "mutation compiles? (Either the confidence number moves, *or* its   back-link appears — a claim sitting at floor confidence of 0.0 cannot move numerically downward, but recording the contradiction is itself the propagation",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "deterministic corpora (bench_corpus_b.json, bench_corpus_c.json): 10 negative-control + 10 held-out + 5 knowledge-mutation each. Fixed corpora replace the unreproducible blog scrape so the numbers are real and repeatable",
+      "text": "grew to **50 probes across two fixed deterministic corpora** ( ,  ): 10 negative-control + 10 held-out + 5 knowledge-mutation each. Fixed corpora replace the unreproducible blog scrape so the numbers are real and repeatable",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "The harness is model-free (llm_baseline_available: false) — everything is computed at compile time",
+      "text": "The harness is model-free ( ) — everything is computed at compile time",
       "confidence": null,
       "evidence_refs": []
     },
@@ -155,22 +124,22 @@
       "evidence_refs": []
     },
     {
-      "text": "The metric is loop-targeted-the-hole: the loop passes when it identifies the withheld fact and generates a question targeting it",
+      "text": "The metric is *loop-targeted-the-hole*: the loop passes when it identifies the withheld fact and generates a question targeting it",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "It is lower than 1.0 because the coverage layer localises a hole best when the withheld fact is the sole co-mention of its entity pair (a unique link-carrier)",
+      "text": "It is lower than 1.0 because the coverage layer localises a hole best when the withheld fact is the **sole co-mention** of its entity pair (a unique link-carrier)",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "The only error class is false positives: rhetorical \"What is…",
+      "text": "The only error class is **false positives**: rhetorical \"What is…",
       "confidence": null,
       "evidence_refs": []
     },
     {
-      "text": "Are you…?\" questions and metaphors (\"It is a rope stretched between…\") slip through the is/are/has cue",
+      "text": "Are you…?\" questions and metaphors (\"It is a rope stretched between…\") slip through the   cue",
       "confidence": null,
       "evidence_refs": []
     },
@@ -180,7 +149,7 @@
       "evidence_refs": []
     },
     {
-      "text": "The env -u PYTHONPATH -u PYTHONHOME prefix strips a leaked venv from the shell when running under Hermes. On a clean shell it is unnecessary",
+      "text": "The   prefix strips a leaked venv from the shell when running under Hermes. On a clean shell it is unnecessary",
       "confidence": null,
       "evidence_refs": []
     },
@@ -200,24 +169,24 @@
       "evidence_refs": []
     }
   ],
-  "references": [],
+  "references": [
+    "https://danielkliewer.com/blog/2026-08-09-hermes-atlas-v01-local-first-incrementally-compiled-falsifiable-knowledge-system",
+    "https://github.com/kliewerdaniel/hermes-atlas",
+    "https://github.com/kliewerdaniel/hermes-atlas",
+    "https://danielkliewer.com/blog/2026-08-09-hermes-atlas-v01-local-first-incrementally-compiled-falsifiable-knowledge-system"
+  ],
   "related_artifacts": [
+    "2026-08-09-hermes-atlas-v01-local-first-incrementally-compiled-falsifiable-knowledge-system",
     "2026-08-09-hermes-atlas-v03-evidence-ledger-claim-lifecycle-explain",
-    "2026-07-22-if-the-loop-is-the-product",
-    "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark",
-    "2024-11-23-rlhf-lab-business-plan",
-    "2026-07-23-building-the-scientific-question-compiler",
-    "2026-07-20-compile-time-intelligence-research-compiler-agent",
-    "2026-07-21-compiling-medical-evidence-clinical-research-compiler",
-    "2025-11-14-2025-inference-new-geography-intelligence"
+    "2026-08-09-hermes-atlas-v04-evidence-lifecycle-gold-benchmark"
   ],
   "provenance": {
     "source": "content/blog/2026-08-09-hermes-atlas-v02-claim-level-coverage-determinism-gate-knowledge-mutation-canary.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
-    "content_sha256": "5078a78650b986115c8d9ba64a034d1ec73af9721b493ce42f119275e55ea3ae",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "content_sha256": "a5b2bd7dbccdfe034f484ab37cfbf03cba358f0835416e8cbe0e47470e4c8508",
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

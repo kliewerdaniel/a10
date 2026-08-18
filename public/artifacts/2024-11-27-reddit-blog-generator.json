@@ -188,11 +188,11 @@
   ],
   "provenance": {
     "source": "content/blog/2024-11-27-reddit-blog-generator.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "2ee54443de6f2e11c88607433f4df81665f2d20a3a4f863e3b3c144e76185120",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

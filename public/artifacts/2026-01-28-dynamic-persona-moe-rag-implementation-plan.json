@@ -213,11 +213,11 @@
   ],
   "provenance": {
     "source": "content/blog/2026-01-28-dynamic-persona-moe-rag-implementation-plan.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "135b7072c676e49b263d56dfbe62a32e1e2ee78f4ba20940beebf8503fbc61ae",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

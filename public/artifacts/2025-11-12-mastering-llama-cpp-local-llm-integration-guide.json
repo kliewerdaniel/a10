@@ -206,11 +206,11 @@
   ],
   "provenance": {
     "source": "content/blog/2025-11-12-mastering-llama-cpp-local-llm-integration-guide.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "1723df92d6e93284c25ce790e904922e9ca68a76d0b3d370a5bfef61c19fed80",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }

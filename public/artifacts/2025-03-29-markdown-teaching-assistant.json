@@ -259,11 +259,11 @@
   ],
   "provenance": {
     "source": "content/blog/2025-03-29-markdown-teaching-assistant.md",
-    "compiler": "knowledge-compiler@3c107b334e55",
+    "compiler": "knowledge-compiler@03e8a2d7df52",
     "compiler_version": 1,
     "model_version": null,
     "content_sha256": "ebdcaee5b0617fbd6b8e0e8696465c3ad8840eb0e690b18d660d3567d19ffbd9",
-    "generated_at": "2026-08-18T03:20:29Z"
+    "generated_at": "2026-08-18T14:34:45Z"
   },
   "publication_status": "published"
 }
