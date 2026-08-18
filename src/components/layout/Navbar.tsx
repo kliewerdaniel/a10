@@ -7,6 +7,7 @@ const navLinks = [
   { href: '/mission', label: 'Mission' },
   { href: '/fleet', label: 'The Fleet' },
   { href: '/research', label: 'Research' },
+  { href: '/paper', label: 'Whitepaper' },
   { href: '/about', label: 'About' },
 ];
 

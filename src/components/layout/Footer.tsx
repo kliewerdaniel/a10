@@ -6,6 +6,7 @@ const fleetLinks: { href: string; label: string; external?: boolean }[] = [
   { href: '/mission', label: 'The Mission' },
   { href: '/fleet', label: 'The Fleet' },
   { href: '/research', label: 'Research Log' },
+  { href: '/paper', label: 'Whitepaper' },
   { href: '/book', label: 'The Book' },
 ];
 
