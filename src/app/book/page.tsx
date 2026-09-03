@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     template: '%s',
   },
   description: 'The Sovereign AI book examines local-first intelligence architecture — design principles, inference runtimes, memory systems, and autonomous agents for owner-built AI.',
+  alternates: { canonical: '/book' },
 };
 
 const chapters = [

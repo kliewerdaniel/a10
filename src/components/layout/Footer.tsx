@@ -8,6 +8,7 @@ const fleetLinks: { href: string; label: string; external?: boolean }[] = [
   { href: '/research', label: 'Research Log' },
   { href: '/paper', label: 'Whitepaper' },
   { href: '/book', label: 'The Book' },
+  { href: '/contact', label: 'Contact' },
 ];
 
 const aboutLinks: { href: string; label: string; external?: boolean }[] = [
@@ -17,9 +18,9 @@ const aboutLinks: { href: string; label: string; external?: boolean }[] = [
 ];
 
 const legalLinks: { href: string; label: string; external?: boolean }[] = [
-  { href: 'https://www.iubenda.com/privacy-policy/43314476', label: 'Privacy Policy', external: true },
-  { href: 'https://www.iubenda.com/privacy-policy/43314476/cookie-policy', label: 'Cookie Policy', external: true },
-  { href: 'https://www.iubenda.com/terms-and-conditions/43314476', label: 'Terms', external: true },
+  { href: '/privacy', label: 'Privacy Policy' },
+  { href: '/terms', label: 'Terms' },
+  { href: '/contact', label: 'Contact' },
 ];
 
 function FooterLink({ href, label, external }: { href: string; label: string; external?: boolean }) {

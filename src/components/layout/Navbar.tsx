@@ -9,6 +9,7 @@ const navLinks = [
   { href: '/research', label: 'Research' },
   { href: '/paper', label: 'Whitepaper' },
   { href: '/about', label: 'About' },
+  { href: '/contact', label: 'Contact' },
 ];
 
 function getInitialDark(): boolean {

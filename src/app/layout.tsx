@@ -41,6 +41,7 @@ export const metadata: Metadata = {
     template: '%s | Daniel Kliewer',
   },
   description: 'A Sovereign Agent Fleet: one frozen governance substrate, exercised across many domains, with zero security invariants depending on model behavior. We compile knowledge into provenanced, inspectable artifacts at build time — not prompts rediscovered on every query.',
+  alternates: { canonical: '/' },
   keywords: ['knowledge compilation', 'compile-time AI', 'knowledge engineering', 'scientific knowledge systems', 'semantic infrastructure', 'knowledge representation', 'learning systems', 'local-first AI', 'research automation', 'human-centered AI', 'Daniel Kliewer', 'cognitive tools', 'scientific acceleration', 'knowledge preservation'],
   authors: [{ name: 'Daniel Kliewer' }],
   creator: 'Daniel Kliewer',
@@ -97,7 +98,9 @@ export default function RootLayout({
           <ConsentBanner />
           <ScriptGater />
           <PosthogAnalytics />
-          <Navbar />
+          <header>
+            <Navbar />
+          </header>
           <main className="flex-1 pt-20">
             {children}
           </main>

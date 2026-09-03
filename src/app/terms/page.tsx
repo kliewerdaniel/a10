@@ -4,6 +4,7 @@ import { Breadcrumbs } from '@/components/seo/Breadcrumbs';
 export const metadata: Metadata = {
   title: 'Terms of Use',
   description: 'Terms of use for danielkliewer.com and the Sovereign AI project.',
+  alternates: { canonical: '/terms' },
 };
 
 export default function TermsPage() {

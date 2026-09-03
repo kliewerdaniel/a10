@@ -4,6 +4,7 @@ import { GraphWidget } from '@/components/blog/GraphWidget';
 import { getAllBlogPosts } from '@/lib/blog';
 import { getLayers } from '@/lib/projects';
 import Link from 'next/link';
+import { JsonLd } from '@/components/seo/JsonLd';
 
 const directions = [
   {
@@ -42,8 +43,27 @@ export default function Home() {
   const recentPosts = getAllBlogPosts().slice(0, 4);
   const layers = getLayers();
 
+  const orgSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Daniel Kliewer',
+    url: 'https://www.danielkliewer.com',
+    logo: 'https://www.danielkliewer.com/logo.png',
+    description: 'A Sovereign Agent Fleet: one frozen governance substrate, exercised across many domains.',
+    founder: {
+      '@type': 'Person',
+      name: 'Daniel Kliewer',
+    },
+    sameAs: [
+      'https://github.com/kliewerdaniel',
+      'https://x.com/kliewer_daniel',
+      'https://www.linkedin.com/in/daniel-kliewer-42691944/',
+    ],
+  };
+
   return (
     <>
+      <JsonLd data={orgSchema} />
       {/* ── HERO: editorial thesis, atlas plate on the right ── */}
       <section className="px-5 sm:px-8 pt-32 pb-20 max-w-6xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-14 items-center">
@@ -64,6 +84,7 @@ export default function Home() {
             <div className="flex flex-wrap gap-4 mt-9">
               <Button href="/research" variant="primary" size="lg">Read the Research Log</Button>
               <Button href="/fleet" variant="secondary" size="lg">Meet the Fleet</Button>
+              <Button href="/contact" variant="secondary" size="lg">Contact</Button>
             </div>
           </div>
 
@@ -165,6 +186,26 @@ export default function Home() {
                 topics={post.topics}
               />
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── PRIVACY & TERMS ── */}
+      <section className="section-rule section-pad">
+        <div className="max-w-6xl mx-auto px-5 sm:px-8">
+          <div className="max-w-2xl">
+            <span className="kicker mb-3 block">Legal</span>
+            <h2 className="font-serif font-medium text-2xl sm:text-3xl tracking-[-0.015em] text-[var(--color-ink)]">
+              Privacy & Terms
+            </h2>
+            <p className="text-[var(--color-ink-3)] mt-4 text-base sm:text-lg leading-relaxed">
+              This site uses privacy-first analytics. No cookies, no tracking, no user accounts.
+            </p>
+            <div className="flex flex-wrap gap-4 mt-6">
+              <Link href="/privacy" className="font-mono text-[0.66rem] tracking-[0.18em] uppercase text-[var(--color-green)] hover:underline">Privacy Policy →</Link>
+              <Link href="/terms" className="font-mono text-[0.66rem] tracking-[0.18em] uppercase text-[var(--color-green)] hover:underline">Terms of Use →</Link>
+              <Link href="/contact" className="font-mono text-[0.66rem] tracking-[0.18em] uppercase text-[var(--color-green)] hover:underline">Contact →</Link>
+            </div>
           </div>
         </div>
       </section>

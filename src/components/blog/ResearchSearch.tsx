@@ -1,7 +1,8 @@
 'use client';
 
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useMemo, useCallback, useEffect } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
+import Link from 'next/link';
 import { ResearchCard } from './ResearchCard';
 
 interface Post {
@@ -56,6 +57,15 @@ export function ResearchArchive({ posts }: ResearchArchiveProps) {
   const [page, setPage] = useState(initialPage);
   const [query, setQuery] = useState('');
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
+
+  // Update document title for pagination pages to avoid duplicate titles
+  useEffect(() => {
+    if (page > 1) {
+      document.title = `Research (Page ${page}) | Daniel Kliewer`;
+    } else {
+      document.title = 'Research | Daniel Kliewer';
+    }
+  }, [page]);
 
   const allTags = useMemo(() => {
     const tagMap = new Map<string, number>();
@@ -246,6 +256,21 @@ export function ResearchArchive({ posts }: ResearchArchiveProps) {
               Next →
             </button>
           )}
+        </nav>
+      )}
+
+      {/* Static page links for crawlers — client nav is invisible to search engines */}
+      {totalPages > 1 && (
+        <nav className="sr-only" aria-label="Page links">
+          <ul className="list-none">
+            {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
+              <li key={p}>
+                <Link href={p === 1 ? '/research' : `/research?page=${p}`}>
+                  Page {p}
+                </Link>
+              </li>
+            ))}
+          </ul>
         </nav>
       )}
     </div>

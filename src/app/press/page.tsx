@@ -7,6 +7,7 @@ import { Breadcrumbs } from '@/components/seo/Breadcrumbs';
 export const metadata: Metadata = {
   title: 'Press & Media',
   description: 'Press kit, interview topics, bios, and speaking information for Daniel Kliewer — researching how to reduce the cost of understanding human knowledge through knowledge compilation, compile-time AI, and local-first systems.',
+  alternates: { canonical: '/press' },
 };
 
 const interviewTopics = [

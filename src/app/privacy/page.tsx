@@ -4,6 +4,7 @@ import { Breadcrumbs } from '@/components/seo/Breadcrumbs';
 export const metadata: Metadata = {
   title: 'Privacy Policy',
   description: 'Privacy policy for danielkliewer.com and the Sovereign AI project.',
+  alternates: { canonical: '/privacy' },
 };
 
 export default function PrivacyPage() {
