@@ -68,7 +68,7 @@ Every agentic AI system decomposes into 8 independently swappable layers:
 
 The sovereignty thesis is simple: **push layers from runtime (re-derived, hosted) to compile-time (settled, inspectable, owned).** Every layer gets scored. The default config — local Docker, local RAG, compile-time knowledge graph, local MCP gateway — scores 6/6 scorable = **Fully Sovereign**.
 
-Two layers are unavoidably rented (identity and payments) and excluded from the denominator, just as I argued in [The Rented Sovereign](/blog/the-rented-sovereign-agent-agency-stack): you cannot self-host MX records or the financial system itself.
+Two layers are unavoidably rented (identity and payments) and excluded from the denominator, just as I argued in [The Rented Sovereign](/blog/2026-09-04-the-rented-sovereign-agent-agency-stack): you cannot self-host MX records or the financial system itself.
 
 ---
 
