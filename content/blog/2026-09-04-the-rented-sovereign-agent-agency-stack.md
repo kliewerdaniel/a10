@@ -3,10 +3,10 @@ author: Daniel Kliewer
 book_reference: true
 canonical_url: /blog/the-rented-sovereign-agent-agency-stack
 date: 09-04-2026
-description: 'A technical teardown of the $5K/month AI agent agency playbook — Hermes Agent, Orgo, AgentMail, AgentPhone, Honcho, Composio, and Stripe's Machine Payments Protocol — read through a computational sovereignty lens.'
+description: 'A technical teardown of the $5K/month AI agent agency playbook — Hermes Agent, Orgo, AgentMail, AgentPhone, Honcho, Composio, and Stripes Machine Payments Protocol — read through a computational sovereignty lens.'
 image: /images/ComfyUI_00210_.png
 layout: post
-og:description: 'A technical teardown of the $5K/month AI agent agency playbook — Hermes Agent, Orgo, AgentMail, AgentPhone, Honcho, Composio, and Stripe's Machine Payments Protocol — read through a computational sovereignty lens.'
+og:description: 'A technical teardown of the $5K/month AI agent agency playbook — Hermes Agent, Orgo, AgentMail, AgentPhone, Honcho, Composio, and Stripes Machine Payments Protocol — read through a computational sovereignty lens.'
 og:image: /images/ComfyUI_00210_.png
 og:title: 'The Rented Sovereign — What the $5K/Month Agent Agency Stack Actually Reveals'
 og:type: article
@@ -15,7 +15,7 @@ tags:
 - 'agents, hermes-agent, computer-use, sovereign-ai, agentic-commerce, compile-time-ai, orgo, composio]'
 title: 'The Rented Sovereign — What the $5K/Month Agent Agency Stack Actually Reveals'
 twitter:card: summary_large_image
-twitter:description: 'A technical teardown of the $5K/month AI agent agency playbook — Hermes Agent, Orgo, AgentMail, AgentPhone, Honcho, Composio, and Stripe's Machine Payments Protocol — read through a computational sovereignty lens.'
+twitter:description: 'A technical teardown of the $5K/month AI agent agency playbook — Hermes Agent, Orgo, AgentMail, AgentPhone, Honcho, Composio, and Stripes Machine Payments Protocol — read through a computational sovereignty lens.'
 twitter:image: /images/ComfyUI_00210_.png
 twitter:title: 'The Rented Sovereign — What the $5K/Month Agent Agency Stack Actually Reveals'
 wiki_references: []
@@ -24,6 +24,8 @@ wiki_references: []
 # The Rented Sovereign
 
 ## What the $5K/Month Agent Agency Stack Actually Reveals About the Post-Model Economy
+
+[Selling AI Agents 5K a Month Agency Playbook](/Selling_AI_Agents_5K_a_Month_Agency_Playbook.pdf)
 
 There's a moment in a recent interview between Andrew Warner and Nick Vasillescu — a founder building on top of [Orgo](https://www.orgo.ai/), the cloud-computer-for-agents company he co-founded — where the economics of the current AI moment snap into focus. Vasillescu made $7,000 in his first month building agents for small businesses, with no audience, no cold outbound, and no proprietary model. He now has users running four-client agencies at $5,000/month each — $20K/month, on the path to $1M/year, "in a small town in Idaho," on twenty customers.
 
