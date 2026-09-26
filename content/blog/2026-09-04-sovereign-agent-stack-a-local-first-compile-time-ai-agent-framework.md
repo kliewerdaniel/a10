@@ -1,5 +1,6 @@
 ---
 author: Daniel Kliewer
+title: "The Sovereign Agent Stack — A Local-First, Compile-Time AI Agent Framework"
 book_reference: true
 canonical_url: /blog/sovereign-agent-stack-a-local-first-compile-time-ai-agent-framework
 date: 09-04-2026
