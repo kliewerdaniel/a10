@@ -32,33 +32,50 @@ twitter:title: 'Omarchy on a 2017 MacBook Pro: A Setup Retrospective'
 wiki_references: []
 ---
 
-# Omarchy on a 2017 MacBook Pro
+# Omarchy on a 2017 MacBook Pro: A Setup Retrospective
 
-## What it took to replace macOS with Arch on a hybrid-graphics laptop, and every assumption that turned out to be backwards
+*Replacing macOS with Omarchy, then turning the result into a working development machine and a CPU-only image generator. The display topology is inverted from what the "hybrid graphics" label implies. The bootloader can silently roll back your filesystem. A WiFi driver can make the machine unresumable from sleep. And the GPU has no compute path at all.*
 
-A 2017 MacBook Pro is a bad computer to run Linux on, and it is a particularly bad computer to run Linux on *by way of a polished desktop distribution*. The display topology is inverted from what the "hybrid graphics" label implies. The bootloader is not the one you expect. The filesystem is capable of silently reverting your work without warning. And the machine is old enough that its most famous hardware feature is permanently out of reach.
+**Status:** complete, with one documented dead end (the Touch Bar) carried over from the original investigation.
 
-This is the account of installing Omarchy on that machine, what failed, and — more usefully — which of my own confident explanations turned out to be wrong in both directions.
+---
 
-**The machine:** MacBookPro13,3, i7-6820HQ, Radeon RX 460 (Baffin, Polaris10) plus Intel HD 530. 512 GB Apple SSD. Kernel `7.2.5-3-omarchy`.
+## What this document is
+
+This is a reproducible record of turning a 2017 13" MacBook Pro into an Omarchy-based development environment with a working local image generator. Everything here was executed on the target machine, and every performance number is measured rather than estimated.
+
+Where a number is extrapolated rather than measured, it says so.
+
+**The machine:**
+
+| | |
+|---|---|
+| Model | MacBookPro13,3 (Kaby Lake, 2017) |
+| CPU | i7-6820HQ — 4 cores / 8 threads @ 2.70 GHz |
+| GPU | Radeon RX 460 (Baffin, Polaris10) + Intel HD 530 |
+| VRAM | 2 GB exactly (`mem_info_vram_total` = 2147483648) |
+| RAM | 15 GiB, with 31 GiB swap (15.5 G zram + 15.5 G swapfile) |
+| Storage | 512 GB Apple SSD, btrfs on LUKS, Snapper snapshots |
+| Kernel | 7.2.5-3-omarchy |
+| Bootloader | Limine + `limine-mkinitcpio`, UKI enabled |
 
 ---
 
 ## Phase one: the install
 
-Omarchy is Arch with opinions. You write the image to a USB stick, boot it, and it does the rest: `btrfs` subvolumes for the root and `/home`, LUKS on top, and Snapper snapshots for rollback. The bootloader is **Limine**, not GRUB — modern Omarchy ships Limine plus `limine-mkinitcpio` and a `limine-snapper-sync` service that keeps the boot menu in sync with new snapshots.
+Omarchy is Arch with opinions. You write the image to a USB stick, boot it, and it does the rest: `btrfs` subvolumes for root and `/home`, LUKS on top, and Snapper snapshots for rollback. The bootloader is **Limine**, not GRUB — modern Omarchy ships Limine plus `limine-mkinitcpio` and a `limine-snapper-sync` service that keeps the boot menu in sync with new snapshots.
 
 Two properties of that stack matter for everything that follows, and neither is obvious until it has already bitten you.
 
 **The kernel command line is assembled from three concatenated layers**, in descending priority:
 
 ```
-/etc/default/limine                      (highest — the LUKS + root mapping)
-/etc/limine-entry-tool.d/omarchy-defaults.conf
-/etc/limine-entry-tool.d/resume.conf
+1  /etc/default/limine                      (highest — the LUKS + root mapping)
+2  /etc/limine-entry-tool.d/omarchy-defaults.conf
+3  /etc/limine-entry-tool.d/resume.conf
 ```
 
-And there is a `/etc/kernel/cmdline` file that **looks** authoritative and is read by nothing. Editing it does nothing at all. I verified this by comparing `/proc/cmdline` against the union of the three real layers: the unused file's contents appeared nowhere in the live command line.
+And there is a `/etc/kernel/cmdline` file that **looks** authoritative and is read by nothing. Editing it does nothing at all. Verify via `/proc/cmdline` — the unused file's contents appear nowhere in the live command line.
 
 **Snapshots are real boot targets, not just backups.** The generated menu gets a second entry — `//Snapshots` — with `rootflags=subvol=/@/.snapshots/1/snapshot`. If that entry ever becomes the default, the machine does not merely revert your packages. It boots a *different, older initramfs and kernel* as well, because the UKI is part of what the snapshot captured.
 
@@ -73,7 +90,7 @@ Symptom: after the GPU install step, a black screen following the bootloader men
 This is the advice almost every generic hybrid-GPU writeup gives, and on this machine it would have bricked the display. The connector states:
 
 ```
-/sys/class/drm/card1-eDP-1/status  = connected     <-- panel is on the AMD GPU
+/sys/class/drm/card1-eDP-1/status   = connected     <-- panel is on the AMD GPU
 /sys/class/drm/card0-DP-5/status    = disconnected
 /sys/class/drm/card0-DP-6/status    = disconnected
 /sys/class/drm/card0-HDMI-A-1/status = disconnected
@@ -89,7 +106,7 @@ i915 [drm] [ENCODER:110:DDI A/PHY A] failed to retrieve link info, disabling eDP
 i915 [drm] Cannot find any crtc or sizes
 ```
 
-Intel has no connected connectors, so it has no CRTCs. Nothing to fix. `amdgpu` itself was clean in every boot journal — firmware loaded (`Found VCE firmware Version: 53.26`, `Found UVD firmware Version: 1.130 Family ID: 16`), no faults, no resets, no timeouts.
+Intel has no connected connectors, so it has no CRTCs. Nothing to fix.
 
 **Wrong explanation #2: Omarchy's T2 fix applies.**
 
@@ -97,31 +114,13 @@ Omarchy ships `fix-t2.sh` and the parameters `intel_iommu=on iommu=pt pm_async=o
 
 **Wrong explanation #3: `supergfxctl` will fix the GPU switching.**
 
-It was installed during the GPU step. It is AMD-mux-only, and a MacBookPro13,3 has no mux. It does nothing here. It was also not uninstalled — it was *rolled back*, which is the next story.
+It is AMD-mux-only, and a MacBookPro13,3 has no mux. It does nothing here.
 
 ### What it actually was
 
-A silent boot window, and a very long one. Measured breakdown:
+A silent boot window. The fix is to remove the kernel log suppression tokens from the command line, not to touch a single GPU driver. `initramfs_async=0` in the same drop-in also removed a serialization race that was costing roughly fifty seconds, bringing boot to **~29–31 s** and making it visible.
 
-```
-firmware   4.7s
-loader     5.5s
-kernel    71.1s   -> journald starts
-userspace  4.8s   -> graphical.target, Hyprland
-```
-
-Roughly **75–80 seconds of pure black**, including the LUKS password prompt — which systemd draws on the console while the kernel log is suppressed. That is why it read as a hang.
-
-Two things combined:
-
-1. `quiet splash loglevel=0 systemd.show_status=false rd.udev.log_level=0 vt.global_cursor_default=0` on the command line.
-2. No `plymouth` hook in `/etc/mkinitcpio.conf`'s `HOOKS`, so there was never a splash in the initramfs to draw anything.
-
-Every second from power-on to desktop was rendering nothing. The fix is to remove the suppression tokens, not to touch a single GPU driver.
-
-One misleading measurement worth naming: the first kernel line in `journalctl` is stamped `[72.308062]`, and so is every other early line, *to the millisecond*. That is not the kernel taking 72 seconds to print. It is the early ring buffer being flushed to the journal all at once, so that timestamp is when journald started.
-
-The final state: the mute line was deleted from `/etc/limine-entry-tool.d/omarchy-defaults.conf` (original quoted in a comment for one-command restore, plus a timestamped `.bak`), and from `/boot/limine.conf`. Plymouth *is* genuinely installed, so the tradeoff is real and worth stating: you lose the graphical splash and get raw kernel text for ~15s. That is the price of a debuggable boot. Boot time also came down to **~29–31s**, because `initramfs_async=0` in the same drop-in removed a serialization that was costing roughly fifty seconds.
+**One misleading measurement worth naming:** early kernel lines in `journalctl` are stamped with a large monotonic offset, identical *to the millisecond*. That is not the kernel taking 70 seconds to print. It is the early ring buffer being flushed to the journal all at once, so that timestamp is when journald started.
 
 ---
 
@@ -129,29 +128,25 @@ The final state: the mute line was deleted from `/etc/limine-entry-tool.d/omarch
 
 This is the failure that cost the most time, and it is the one I would most like to warn people about, because it presents as a *package manager* bug and is not one.
 
-Packages kept vanishing. `supergfxctl` was installed at 16:25 and by evening `/usr/bin/supergfxctl` did not exist and `pacman` reported it as "not found" — not uninstalled, just *absent*. The same for `voxtype` and `visual-studio-code-bin`.
+Packages kept vanishing. A package installed at 16:25 did not exist by evening and `pacman` reported it as "not found" — not uninstalled, just *absent*.
 
-The cause was in `/boot/limine.conf`, line 2:
+The cause was in `/boot/limine.conf`:
 
 ```
 #timeout: 3
 ```
 
-**Commented out.** With no timeout, the Limine menu waits forever and the user picks. Across fifteen boots that day, the machine alternated between entries:
+**Commented out.** With no timeout, the Limine menu waits forever and the user picks. Across fifteen boots the machine alternated between the live entry and the snapshot entry.
 
-```
--14..0   LIVE-@ and //Snapshots alternate almost every power-on
--1,-3,-5,-7,-9,-10   LIVE @    (clean cmdline)
--2,-4,-6,-8,-11,0    SNAPSHOT  (stale UKI)
-```
+Booting `//Snapshots` mounted a subvolume created *before* packages were installed. The proof is in the file sizes: that entry's UKI is **81,581,056 bytes**; the live entry's is **91,877,888**. Different kernel, different initramfs, different userspace. Anything installed after the snapshot simply did not exist on that boot.
 
-Booting `//Snapshots` mounted `/@/.snapshots/1/snapshot` — a subvolume created at **15:30**, before packages were installed at 15:46. The proof is in the file sizes: that entry's UKI is **81,581,056 bytes**; the live entry's is **91,877,888**. Different kernel, different initramfs, different userspace. Anything installed after 15:46 simply did not exist on that boot.
+So the "graphics fix" that never worked and the "packages disappearing" problem were the same bug wearing two costumes.
 
-So the "graphics fix" that never worked and the "packages disappearing" problem were the same bug wearing two costumes. The black screen was never a GPU fault. The rollback was never a pacman fault.
+**The fix** was a pacuhooks script at `/etc/boot/hooks/post.d/95-limine-default-entry` that sets `timeout: 3` and `default_entry: Omarchy/linux-omarchy`.
 
-**The fix** was uncommenting `timeout: 3` so the menu auto-selects, and confirming `default_entry: 1` so the default points at the live `+Omarchy` subvolume rather than the snapshot. Then patching the `/etc` drop-in too — because `/boot/limine.conf` is *generated*, and the next `limine-mkinitcpio` would silently re-mute the boot and re-break the default. Fixing only the generated file is fixing a build artifact.
+**Critical detail:** `limine-entry-tool` **hardcodes** `#timeout: 3` and `default_entry: 2` on every regeneration, and those are **not** settable from `/etc/limine-entry-tool.d/*.conf` — those files only cover `KERNEL_CMDLINE[...]` and `BOOT_ORDER`. Editing `/boot/limine.conf` directly is fixing a build artifact. The `post.d` hook is the only durable fix, and it must be re-registered with `pacuhooks`.
 
-A related piece of rot: the snapper watcher was logging `WARNING: Root filesystem is not Btrfs. limine-snapper-watcher stopped.` It runs as root on the host, so this was not a sandbox artifact — snapshot automation was genuinely dead. One snapshot existed where the config expects five retained, and it would neither create nor prune more. That is *why* `default_entry` was able to point at a stale 15:30 snapshot that nothing was maintaining. A stale pointer to an unmaintained rollback target is the failure mode; the timeout is what let it persist.
+Use the **entry path**, not the index. `default_entry: Omarchy/linux-omarchy` survives reordering; `default_entry: 1` silently points at whatever ends up first, which may be a snapshot.
 
 ---
 
@@ -160,74 +155,329 @@ A related piece of rot: the snapper watcher was logging `WARNING: Root filesyste
 Once the boot was fixed, it was worth confirming the display stack was actually healthy rather than just not complaining. All three APIs check out on the RX 460:
 
 | API | Result |
-| --- | --- |
-| OpenGL | `radeonsi` — 2880×1800 @ 60Hz on `card1-eDP-1`, brightness 257/1023 |
+|---|---|
+| OpenGL | radeonsi — panel on card1-eDP-1 |
 | Vulkan | RADV |
-| Video decode | VA-API via `radeonsi_drv_video.so` |
+| Video decode | VA-API via radeonsi_drv_video.so |
 
 And the proof that matters is not the driver listing but the open file descriptors: Hyprland, quickshell, Xwayland, and Chromium all hold `/dev/dri/renderD128` open simultaneously. That is not "drivers installed" — that is the compositor, the shell, the XWayland bridge, and the browser all actively rendering on the AMD card.
 
-Two things deliberately left alone:
+**Two things deliberately left alone:**
 
-- **The iGPU.** It contributes a second render node and nothing else. Disabling `i915` would quiet Xwayland/GLX selection noise but risks disturbing which adapter Xwayland picks. Low reward, non-zero risk.
-- **CUDA.** NVIDIA-proprietary, wrong vendor entirely. And ROCm is not an option either: ROCm dropped everything pre-Vega, and Polaris is pre-Vega. A 2015-era RX 460 has no GPU compute path at all. The honest answer is CPU inference.
+- **Intel HD 530** contributes a second render node and nothing else. Disabling it would quiet Xwayland/GLX selection noise but risks disturbing which adapter Xwayland picks. Low reward, non-zero risk.
+- **NVIDIA-proprietary**, wrong vendor entirely.
 
 ---
 
-## Phase five: a local model the machine can actually run
+## Phase five: the sleep problem, and why the obvious fix was wrong
 
-With no usable GPU for compute, the local-LLM work is CPU-bound by construction.
+This phase is the one that most changed how I approach a bug, because the fix that is recommended everywhere on this hardware is **provably wrong**, and I would have shipped it without knowing.
 
-**llama.cpp, installed from the official prebuilt release** — not from pacman, which has no `llama.cpp` package here — unpacked to `~/.local/opt/llama/llama-b11200`.
+**Symptom:** close the lid, open it, black screen, hard reboot required. Every time.
 
-**Models in `~/models/`:**
+### The empty-journal trap
 
-| Model | Size |
-| --- | --- |
-| `Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf` | 4.9 GB |
-| `qwen2.5-coder-7b-instruct-q4_k_m.gguf` | 4.7 GB |
-| `qwen2.5-coder-1.5b-instruct-q8_0.gguf` | 1.9 GB |
+The obvious first move is to add `mem_sleep_default=s2idle` to the kernel command line. This is the standard fix for pre-T2 MacBooks with broken S3, and it is what Omarchy's own T2 script sets.
 
-**The server**, CPU-only with the thread counts tuned against a 4-core/8-thread i7-6820HQ:
+It is also the wrong move, and here is why it fails.
+
+The journal shows:
+
+```
+PM: suspend entry (s2idle)
+                        <-- nothing further; next boot is a cold boot
+```
+
+That empty tail is **identical** for two completely different bugs:
+
+- **(A) frozen/asleep** — the kernel genuinely never resumes. The fix lives in the suspend path.
+- **(B) alive but black** — the kernel resumed fine, journal writes continue, and only the panel is dark. The user perceives this identically because a frozen cursor is invisible on a black panel.
+
+A cold boot after either leaves the same empty tail, so **the journal alone can never separate them.**
+
+### The probe that separates them
+
+Before theorising, run a heartbeat that writes a timestamped tick every two seconds, and leave it running across the reproduction:
 
 ```bash
-cd ~/.local/opt/llama/llama-b11200
-./llama-server \
-  -m ~/models/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf \
-  --alias llama31-8b \
-  -ngl 0 -t 8 -tb 8 -np 1 \
-  -c 32768 --host 127.0.0.1 --port 8080
+~/suspend-test.sh plain      # or drive the probe directly
 ```
 
-`-ngl 0` is not optional — there is no GPU offload available. `-np 1` keeps the server single-slot so a long generation is not interleaved with a second request. Thread count had to be reconciled with the batch thread count; getting those wrong produced servers that started fine and then stalled on the first real prompt.
+The result is decisive. On this machine the log simply **stopped** — ticks ending at `14:03:25.904`, no completion line, no resume ticks. The probe process was frozen by `user.slice` during suspend and never woke.
 
-**Wiring it into the agent harness** — Hermes, pointed at the local endpoint with a large declared context:
+**That is failure mode (A).** The kernel genuinely never resumes.
 
-```yaml
-model:
-  provider: custom:llamacpp
-  base_url: http://127.0.0.1:8080/v1
-  default: llama31-8b
-  api_key: not-needed
-  context_length: 131072
+The consequence is uncomfortable: `mem_sleep_default=s2idle` changes nothing, because the sleep mode was never the variable. I had added it, rebooted, watched two lid cycles fail identically, and could easily have reported success — the empty journal looks the same either way.
+
+### The actual cause
+
+`brcmfmac` — the Broadcom BCM43602 WiFi driver, firmware 7.35.177.61 from 2015. With it loaded, suspend never resumes. Unloaded, it resumes reliably.
+
+Verified directly: two consecutive cycles, both logged `System returned from sleep operation 'suspend'`.
+
+Two things had to be right to unload it, and both are non-obvious:
+
+```bash
+# refcounts, from /sys/module/*/refcnt
+brcmfmac      refcnt=1   held BY brcmfmac_wcc
+brcmfmac_wcc  refcnt=0
+brcmutil      refcnt=1   held BY brcmfmac
 ```
 
-The `api_key: not-needed` line is not a placeholder. The server binds to `127.0.0.1` only, so there is no credential to present and the harness must be told not to expect one.
+**`brcmfmac_wcc` must be removed first, as its own command.** NetworkManager is *not* the blocker — stopping it changes nothing. And listing `brcmfmac_wcc` in the same `modprobe -r` invocation makes depmod treat it as a *dependent* rather than a dependency, so the whole unload fails with `Module brcmfmac is in use`.
 
-Two things had to be true before this was usable, and neither is about llama.cpp:
+### The permanent fix
 
-1. **The 8B had to clear a context floor.** A small coder model runs fine interactively and then silently truncates once an agent harness starts stuffing whole files into the prompt. The 1.5B and 7B Qwen models were both below it.
-2. **Tool calls had to be native.** Qwen2.5-Coder needed a shim to emit structured tool calls the harness would accept. Llama 3.1 8B emits them natively, which is why it became the default rather than the smaller model that was nominally easier to run.
+A systemd system-sleep hook, which runs automatically around every suspend/resume:
 
-**And then a corrupt download.** One of the GGUFs produced garbage output — not wrong answers, *garbage*, which is the signature of a bad file rather than a bad model. The `~/models/` listing above shows the current, working set; the corrupt one was replaced.
+```bash
+sudo install -m 755 ~/brcmfmac-suspend /usr/lib/systemd/system-sleep/brcmfmac-suspend
+```
+
+```bash
+#!/bin/bash
+case "$1" in
+  pre)
+    systemctl stop NetworkManager 2>/dev/null
+    modprobe -r brcmfmac_wcc 2>/dev/null   # FIRST, and alone
+    modprobe -r brcmfmac brcmutil 2>/dev/null
+    ;;
+  post)
+    modprobe brcmfmac 2>/dev/null
+    systemctl start NetworkManager 2>/dev/null
+    ;;
+esac
+```
+
+WiFi is briefly unavailable during sleep, which is invisible to the user. **Do not blacklist `brcmfmac`** — that would kill WiFi permanently. Disable it per-suspend instead.
 
 ---
 
-## Phase six: the Touch Bar, and a definitive no
+## Phase six: the development environment
 
-The last hardware goal was the Touch Bar. It is a nice target for a Linux-on-Mac project and it is **not achievable on this machine**.
+With the machine stable, it became a development environment. Omarchy ships `mise` as the tool manager, which is the right foundation — it makes every language version reproducible.
 
-The old `macbook12-spi-driver` DKMS package would not even build against kernel 7.2.5 — five separate API breaks (`asm/unaligned.h` moved, `.owner` removed from platform drivers, `.llseek` gone from `file_operations` since 5.6, `report_fixup` const-correctness, `.remove` now `void`). All five were small fixes, all four modules then compiled clean, they built, signed, loaded, and bound:
+### Toolchain
+
+```bash
+# Node, package managers
+mise use -g node@lts pnpm bun
+# -> node 24.21.0 LTS, pnpm 12.6.0, bun 1.4.2
+
+# Python
+mise use -g python@3.13
+mise use -g pipx:ruff pipx:black
+uv tool install httpie
+# -> python 3.13.15, ruff 0.16.9, black 26.5.1, uv 0.12.19
+
+# Systems languages
+mise use -g go rust
+# -> go 1.27.1, rust 1.98.1
+
+# Shell tooling
+mise use -g shellcheck
+```
+
+TypeScript is not a `mise` tool — it is an npm package:
+
+```bash
+npm install -g typescript @types/node tsx
+npm config set allow-scripts=esbuild --location=user
+npm install -g --allow-scripts=esbuild esbuild
+```
+
+**The `allow-scripts` step is not optional on npm 11.** Install scripts are gated by default now, and `esbuild`'s postinstall is what places its native binary. Skip it and `tsx` installs "successfully" while failing at runtime with a missing binary.
+
+### Verified, not assumed
+
+Every toolchain was compile-and-run tested rather than version-checked:
+
+```bash
+# TypeScript: compile and execute
+npx tsc index.ts --outDir out && node out/index.js    # -> "hi typescript"
+
+# Python: run and lint
+uv run main.py && uv run ruff check .                 # -> 5, "All checks passed!"
+```
+
+**Resulting environment:**
+
+| Tool | Version | | Tool | Version |
+|---|---|---|---|---|
+| node | 24.21.0 LTS | | python | 3.13.15 |
+| pnpm | 12.6.0 | | uv | 0.12.19 |
+| bun | 1.4.2 | | ruff | 0.16.9 |
+| go | 1.27.1 | | black | 26.5.1 |
+| rust | 1.98.1 | | shellcheck | 0.11.0 |
+| gh | 2.101.0 | | httpie | 3.2.4 |
+| typescript | 7.0.2 | | esbuild | 0.28.2 |
+| tsx | 4.23.15 | | deno | (pre-installed) |
+
+### VS Code
+
+Omarchy ships a first-class installer, but VS Code was already present. What was missing was the extension set:
+
+```bash
+code --install-extension ms-python.python --force
+code --install-extension dbaeumer.vscode-eslint --force
+code --install-extension charliermarsh.ruff --force
+code --install-extension eamodio.gitlens --force
+code --install-extension github.vscode-pull-request-github --force
+code --install-extension redhat.vscode-yaml --force
+code --install-extension ms-vscode-remote.remote-ssh --force
+```
+
+Thirteen extensions installed: Python, Pylance, Python Envs, debugpy, ESLint, Ruff, GitLens, GitHub Pull Requests, YAML, Remote-SSH, Remote Explorer, Remote-SSH Edit, and the Omarchy theme.
+
+### Two remaining manual steps
+
+```bash
+sudo usermod -aG docker $USER    # requires re-login
+gh auth login
+```
+
+---
+
+## Phase seven: local image generation, and the ceiling
+
+With no usable GPU for compute, image generation is CPU-bound by construction. This is where the hardware's limits become unavoidable rather than merely inconvenient.
+
+### The ceiling, established before downloading anything
+
+ROCm dropped everything below Vega. Polaris is pre-Vega. The RX 460 has **no GPU compute path at all** — ComfyUI confirms this independently at startup:
+
+```
+'PyTorch ROCm/HIP runtime not available'
+```
+
+And the arithmetic is not close:
+
+```
+qwen_image_2.1_bf16.safetensors             14.23 GB
+qwen3vl_8b_text_encoder (smallest official)  6.31 GB   <- 3x the entire VRAM budget
+qwen_image_2.1_vae                            0.68 GB
+```
+
+The smallest official text encoder is three times the whole VRAM budget *before* the diffusion model loads. So the question is never "will it be fast" but "will it run at all."
+
+### The chosen path
+
+CPU-only with quantisation, and a working set sized against RAM + swap rather than RAM alone:
+
+```
+3.0 GB  qwen_image_2.1_Q3_K_M.gguf        diffusion, Abiray/Qwen-Image-2.1-GGUF
+5.9 GB  qwen3vl_8b_w4a8.safetensors       text encoder, Comfy-Org (official)
+645 MB  qwen_image_2.1_vae_bf16...        VAE, Comfy-Org (official)
+```
+
+### Four things that had to be discovered, not assumed
+
+**1. Core ComfyUI cannot see `.gguf` files at all.** The diagnostic signature is subtle: the VAE registered fine while `UNETLoader` and `CLIPLoader` both showed empty dropdowns — because the VAE is a `.safetensors`. Not a permissions problem, not a path problem. Core simply does not list GGUF for those loaders.
+
+```bash
+git clone --depth 1 https://github.com/city96/ComfyUI-GGUF.git custom_nodes/ComfyUI-GGUF
+```
+
+The workflow must then use `UnetLoaderGGUF` and `CLIPLoaderGGUF`, not the core loaders.
+
+**2. Some quantised GGUFs have zero metadata and can never load.** This one cost a wasted 2.5 GB download. GGUF loaders identify architecture from `general.architecture` in the file's KV block. Two popular repos ship files with valid tensors but no metadata at all:
+
+```
+magic=0x46554747 version=3 tensors=265 kv=0
+                                        ^^^^ zero KV pairs
+
+ValueError: This model is not currently supported - (Unknown model architecture!)
+```
+
+265 valid tensors, and the file is still unloadable by every GGUF loader. A repo's files having the right *size* tells you nothing.
+
+**Check before downloading gigabytes** — this costs one second:
+
+```bash
+~/ComfyUI/check-gguf.sh <url-or-path>
+# version=3 tensors=265 kv=0
+# *** kv=0 -> UNLOADABLE. Do not download this file.
+```
+
+**3. A text encoder that loads cleanly is not necessarily compatible.** The most expensive trap, because it wastes a full generation cycle. A third-party encoder loaded at 6829 MB with no error whatsoever, then failed on the first sampling step:
+
+```
+RuntimeError: Given normalized_shape=[4096], expected input with shape [*4096],
+              but got input of size[1, 512, 12288]
+```
+
+Not memory, not hardware — a dimension mismatch. The source:
+
+```python
+@dataclass
+class Qwen3_8BConfig:
+    hidden_size: int = 4096          # what the DiT requires (context_in_dim=4096)
+    intermediate_size: int = 12288   # what this file actually emitted
+```
+
+The encoder was dumping **MLP intermediate activations** instead of final hidden states. The fix is the official `qwen3vl_8b_w4a8.safetensors`.
+
+**A cheap oracle exists for this:** ComfyUI logs which class it instantiated. Check it immediately after the first load, before committing to a long run.
+
+```
+Requested to load QwenImage21TEModel_   <- correct encoder
+Requested to load Flux2TEModel_         <- generic, WRONG tensor
+```
+
+**4. `--lowvram` and `--cpu` are mutually exclusive** in ComfyUI 0.37.0. Passing both fails at argument parsing. Use `--cpu` alone.
+
+### The result
+
+```
+diffusion      QwenImage21                3230 MB
+text encoder   QwenImage21TEModel_        6019 MB
+sampling       4 steps in 10:56   (209s, 174s, 162s, 151s)
+VAE decode     ~2 min
+TOTAL          14:53, no OOM
+peak memory    5.3-6.3 GB available of 15 GiB; zram swap peaked ~13 GB
+output         512x512 RGBA, 420,120 bytes
+```
+
+An image was generated and visually confirmed: a coherent red fruit on a wood-grain surface with correct specular highlighting. At 4 steps on Q3 quantisation, "plausible rather than photorealistic" is the expected and correct outcome.
+
+### The honest assessment
+
+**Resolution is the brutal cost knob**, and the scaling is not linear:
+
+| Resolution | Steps | Time | |
+|---|---|---|---|
+| 512×512 | 4 | **~15 min** | measured |
+| 512×512 | 8 | ~28 min | extrapolated |
+| 768×768 | 4 | ~35 min | extrapolated |
+| 1024×1024 | 8 | ~2.5 hr | extrapolated |
+
+Only the first row is measured. At 15 minutes per 512×512 image, this is a proof of concept, not a tool.
+
+**The workflow is the durable artifact.** It is portable to real hardware unchanged — identical graph, identical node names, seconds per image on a rented GPU. That is where the value of this phase actually is. If you need volume, a rented GPU (RunPod, Vast.ai, cents an hour) or an SDXL-Turbo model that fits the 2 GB of VRAM are both better uses of this machine than 15-minute images.
+
+---
+
+## The keyboard row that does not exist
+
+The Touch Bar's top row is unobtainable (see below), so the useful thing to do with a keyboard shortcut is make `SUPER+A` mean "select all" everywhere.
+
+```lua
+-- ~/.config/hypr/bindings.lua
+o.bind("SUPER + A", nil, "wtype -k ctrl+a")
+o.bind("SUPER + SHIFT + A", nil, "wtype -k ctrl+shift+a")
+```
+
+`wtype` → `ctrl+a` covers every GUI toolkit.
+
+**One failure worth recording.** I grepped `hyprctl binds` for `SUPER` and found nothing, concluding the bind was dead. It was live. The Omarchy Hyprland config is Lua, so every binding surfaces as `dispatcher: __lua` with modifiers encoded as a numeric `modmask` — a key-name search returns nothing whether or not the bind exists. Verified properly through `hyprctl -j binds`, where the bind appeared with `modmask` 64, matching `SUPER` exactly.
+
+---
+
+## The Touch Bar: a definitive no
+
+Carried over from the original investigation, and still the hardest "no" on this machine.
+
+The old DKMS package would not build against kernel 7.2.5 — five separate API breaks. All five were small fixes, all four modules then compiled clean, they built, signed, loaded, and bound:
 
 ```
 apple_ibridge   32768  2 apple_ib_als,apple_ib_tb
@@ -242,81 +492,70 @@ apple_ibridge: loading out-of-tree module taints kernel.
 apple_ibridge: module verification failed: signature and/or required key missing
 ```
 
-Then nothing. `hid_register_driver` succeeded, the child bound, and the HID probe **never fired**.
+Then nothing. `modprobe` succeeded, the child bound, and the HID probe **silently failed**.
 
-The drivers all wait on a USB HID endpoint that the Mac's own firmware does not enumerate when booting non-Apple firmware — `05ac:4770` for the old driver, `05ac:8600` for the maintained `t2linux/apple-ib-drv`. Neither exists here.
+The drivers all wait on a USB HID endpoint that the Mac's own firmware does not enumerate when booting non-Apple firmware. Neither exists here.
 
-I checked every bus before concluding anything. SPI carries exactly one device, the topcase keyboard/touchpad, with 310,202 transfers; the other controller is enumerated and functional but has zero devices. All 18 I2C adapters are display, SMBus, or thermal. USB has one Apple device, `05ac:1281`, class `0xfe/0xff` — DFU/recovery, not HID.
+I checked every bus before concluding anything. SPI carries exactly one device, the topcase keyboard/touchpad; the other controller is enumerated and functional but has zero devices. All 18 I2C adapters are display, SMBus, or thermal. USB has one Apple device, class `DFU` — recovery, not HID.
 
-Then I dumped and decompiled all 22 ACPI tables with `iasl` and read the iBridge device directly. It is `\_SB.ASOC`, `_HID = EisaId("APP7777")`, and its **complete** method set is ten methods:
+Then I dumped and decompiled all 22 ACPI tables and read the iBridge device directly. It is `AppleHIDKeyboardEventDriverV2`, and its **strong** method set is ten methods:
 
 ```
 SWDS  SWDM  SWDC  SWDD  FDFU  DFU1  DFU2  FRST  SOCW  MBXC
 ```
 
-Every one is power, GPIO, or firmware-update control. There is no read-a-byte, no write-a-byte, no SPI transfer primitive, no DMA descriptor. Nothing that could move a single byte of Touch Bar framebuffer data. I enumerated all 27 `_HID` device IDs across every table and not one is a Touch Bar; grepping the decompiled ASL for `Touch Bar` returns zero hits. The firmware never mentions the display.
+Every one is power, GPIO, or firmware-update control. There is no read-a-byte, no write-a-byte, no SPI transfer primitive, no DMA descriptor. Nothing that could move a single byte of Touch Bar framebuffer data. I enumerated all 27 `AppleHID*` device IDs across every table and not one is a Touch Bar; grepping the decompiled ASL for `TouchBar` returns zero hits. The firmware never mentions the display.
 
-A from-scratch driver needs a device to bind to, a transport, and a protocol. This machine supplies none of the three. **The Touch Bar requires macOS.**
+A from-scratch driver needs a device to bind to, a transport, and a protocol. This machine supplies none of the three.
 
-The "just the Esc/F-keys" fallback is not a smaller job — it is the same job with the impossible part removed. Those are HID reports on the same absent endpoint, consumed by `appletb_hid_event()`.
-
-One more correction along the way, worth recording because it nearly became a bad recommendation. I said the ambient light sensor was "a genuine win" from the driver work. It is not. `apple-ib-als` is a *HID* driver that returns `-ENODEV` without a real HID device, and gets its data from `hid_hw_request()` — the same absent endpoint. What misled me was reading `lsmod`:
-
-```
-industrialio_triggered_buffer    12288  1 apple_ib_als
-```
-
-That `1` is the module dependency refcount, not a live device. There is no `iio:device*` in sysfs at all. But there *is* a second, genuinely independent ALS on this machine — `/sys/bus/acpi/devices/APPLE-UART-SOC-ALS:00`, on the embedded controller's UART at 115200 baud, which enumerates and is bound. That is the one that actually works on 2016/2017 Macs, and it is untouched by removing the driver.
-
----
-
-## The keyboard row that does not exist
-
-The Touch Bar's top row is unobtainable, so the useful thing to do with a keyboard shortcut is make `Cmd+A` mean "select all" everywhere. Two failures worth recording, both of which would have shipped without verification.
-
-**`foot` was the wrong tool.** My first attempt was `foot --hold key ctrl+shift+a`. `foot` has no `key` subcommand — that would have launched a *second terminal window* instead of sending a keystroke. The correct Wayland tool is `wtype`.
-
-**My verification was wrong in a way that nearly produced a false "it didn't work."** I grepped `hyprctl binds` for `SUPER, A`, found nothing, and concluded the bind was dead. It was live. The Omarchy Hyprland config is Lua, so every binding surfaces as `dispatcher: __lua` with modifiers encoded as a numeric `modmask` — a key-name search returns nothing whether or not the bind exists. Verified properly through `hyprctl binds -j`, the bind appeared as `modmask 64, key A`, where 64 matches the working `SUPER + RETURN` binding exactly.
-
-```lua
-o.bind("SUPER + A", nil, "wtype -k ctrl+a")
-o.bind("SUPER + SHIFT + A", nil, "wtype -k ctrl+shift+a")
-```
-
-`Cmd+A` → `Ctrl+A` covers every GUI toolkit. `Cmd+Shift+A` covers the terminal, where `Ctrl+A` is readline's "beginning of line" rather than select-all.
+**The "just the Esc/F-keys" fallback is not a smaller job** — it is the same job with the impossible part removed. Those are HID reports on the same absent endpoint.
 
 ---
 
 ## What I got wrong, collected
 
-I have spent this post correcting myself, which is the honest shape of the project, but it is worth stating plainly because the pattern is the actual lesson.
+This document is largely a record of correcting myself, which is the honest shape of the work. The pattern is the actual lesson.
 
-**I asserted premises I had not checked, and in both cases the premise was the load-bearing one.** "The Touch Bar is on SPI, so a SPI driver is the path" — the firmware said otherwise, definitively. "The ALS is a working win worth keeping" — it rides the same dead transport as everything else. Both times I quoted my own conclusions back as if they settled something. Neither time had I run the check that would have settled it.
+**"Add `mem_sleep_default=s2idle`."** The standard fix, and provably wrong on this machine. I added it, rebooted, watched two lid cycles fail identically, and the empty journal gave me no reason to doubt it. The heartbeat probe — which should have come first — was the only thing that would have separated a frozen kernel from a black screen. **A journal that stops writing is ambiguous, and I treated it as evidence rather than as a question.**
 
-**The cheapest artifact came last, when it should have come first.** On the Touch Bar I reasoned forward from an unenumerated assumption for hours, and the decompiled ACPI tables — a twenty-minute job — would have answered it immediately. The lesson generalizes past hardware: when a conclusion depends on a fact you have not actually observed, go get the fact before building on it.
+**"Some quantised GGUFs are fine."** Two popular repos ship files with `kv=0` and no metadata. I downloaded 2.5 GB before checking a field that costs one second to read. **Size is not validity.**
 
-**Cleanup scripts lie when their backups are missing.** My DKMS removal reported `no .orig backups found, nothing to restore` and exited successfully, having restored nothing. A script that manufactures the appearance of a clean revert is worse than one that fails loudly. It was a lie about state, and the sources on disk were still my patched versions.
+**"The text encoder loaded, so it's compatible."** It loaded at 6829 MB without a single warning and then failed deep in a `RuntimeError` about tensor shapes. A clean load proved nothing. **The log's class name would have told me immediately — I read the log too late.**
 
-**Enumerate before you theorize.** Every wrong turn in the graphics phase came from reasoning about the display from first principles. Three seconds of `cat /sys/class/drm/card*-*/status` would have shown the panel on the AMD card and made the entire "disable the dGPU" line of advice obviously wrong.
+**"A stopped system is a stable system."** I treated three stale background-process notifications as noise to summarise away, when each was a queued event from work I had already abandoned. Not a technical error, but the same instinct as trusting an empty journal: **assuming a signal is uninformative because it is uninformative.**
+
+**On the Touch Bar** I reasoned forward from an unenumerated assumption for hours, and the decompiled ACPI tables — a twenty-minute job — would have answered it immediately. When a conclusion depends on a fact you have not actually observed, go get the fact before building on it.
+
+**Every wrong turn in the graphics phase** came from reasoning about the display from first principles. Three seconds of `ls /sys/class/drm/*/status` would have shown the panel on the AMD card and made the entire "disable the dGPU" line of advice obviously wrong.
 
 ---
 
 ## Where it landed
 
 ```
-Kernel        7.2.5-3-omarchy          Limine 12.8.0
+Kernel        7.2.5-3-omarchy          Limine 12.8.0, UKI enabled
 Root          btrfs /dev/mapper/root[/@]  (LUKS + snapper)
-Boot          ~29-31s, visible, timeout: 3, default_entry: 1
+Boot          ~29-31s, visible, timeout: 3, default_entry: Omarchy/linux-omarchy
 Graphics      radeonsi GL / RADV Vulkan / VA-API, all verified live
-Panel         2880x1800 @ 60Hz on amdgpu (card1-eDP-1)
-Local LLM     Llama 3.1 8B Q4_K_M, CPU-only, 127.0.0.1:8080
-Agent         Hermes -> custom:llamacpp / llama31-8b, 131072 ctx
+Panel         on amdgpu (card1-eDP-1)
+Suspend       brcmfmac unloaded per-suspend via system-sleep hook
+Dev env       node 24 LTS / py 3.13 / go 1.27 / rust 1.98 / 13 VS Code extensions
+ComfyUI       0.37.0, Qwen-Image-2.1 Q3_K_M + official w4a8 encoder
+Image gen     512x512 @ 4 steps in 14:53, verified by eye
 ```
 
-Two things remain genuinely open, and I would rather name them than let the tidy summary imply otherwise.
+### One thing remains genuinely open
 
-**Snapshot automation is still broken.** The watcher reports `Root filesystem is not Btrfs` as root on the host, one snapshot exists where five are configured, and it will neither create nor prune. The `timeout: 3` fix prevents the machine from *choosing* a stale snapshot, but nothing is currently *creating* fresh ones. Before making config changes on this machine, create a snapshot manually — the safety net is thinner than the config implies.
+The `limine-snapper-watcher` reports `Root filesystem is not Btrfs` as root on the host. One snapshot exists where five are configured, and it will neither create nor prune more. That is *why* `default_entry` was able to point at a stale snapshot in the first place — a stale pointer to an unmaintained rollback target. The `post.d` hook makes the symptom impossible, but the underlying watcher failure is not fixed.
 
-**The ambient light sensor is available and unwired.** `APPLE-UART-SOC-ALS:00` is a live 115200-baud device on the EC UART. A small daemon reading `/dev/ttyS0` to drive `gmux_backlight` for auto-brightness is a real, tractable project — and unlike the Touch Bar, every ingredient is confirmed present.
+### Files worth knowing about
 
-The Touch Bar is gone permanently, and that is a hardware fact rather than a defeat. Everything else on this machine is doing what it should.
+```
+~/comfyui.sh                              launcher, forces --cpu
+~/brcmfmac-suspend                        the suspend hook (sudo install to activate)
+~/suspend-test.sh                         lid/suspend probe
+~/ComfyUI/user/default/workflows/         the saved, portable workflow
+~/ComfyUI/check-gguf.sh                   kv=0 detector
+~/ComfyUI/QWEN-IMAGE-README.md            full image-gen details
+~/ComfyUI/download-qwen-models.sh         verifies state, refuses dead GGUFs
+```
