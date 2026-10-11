@@ -3,17 +3,12 @@ author: Daniel Kliewer
 book_reference: true
 canonical_url: /blog/2026-10-10-toward-a-general-theory-of-governed-intelligence
 date: 10-10-2026
-description: A research dissertation synthesizing the documented trajectory of Knowledge
-  Compilation, Ganymede, Sovereign Worker, MindBroadcast, Recursive Trajectory Cryptography,
-  and search-quality evaluation into a single design principle: epistemically governed
-  computation.
+description: "A research dissertation synthesizing the documented trajectory of Knowledge Compilation, Ganymede, Sovereign Worker, MindBroadcast, Recursive Trajectory Cryptography, and search-quality evaluation into a single design principle: epistemically governed computation."
 image: /images/1020001.png
 layout: post
-og:description: A research dissertation synthesizing Knowledge Compilation, Ganymede,
-  Sovereign Worker, MindBroadcast, Recursive Trajectory Cryptography, and search-quality
-  evaluation into a single design principle: epistemically governed computation.
+og:description: "A research dissertation synthesizing Knowledge Compilation, Ganymede, Sovereign Worker, MindBroadcast, Recursive Trajectory Cryptography, and search-quality evaluation into a single design principle: epistemically governed computation."
 og:image: /images/1020001.png
-og:title: Toward a General Theory of Governed Intelligence
+og:title: "Toward a General Theory of Governed Intelligence"
 og:type: article
 og:url: /blog/2026-10-10-toward-a-general-theory-of-governed-intelligence
 tags:
@@ -25,14 +20,11 @@ tags:
 - MindBroadcast
 - local-first
 - sovereign AI
-title: Toward a General Theory of Governed Intelligence
+title: "Toward a General Theory of Governed Intelligence"
 twitter:card: summary_large_image
-twitter:description: A research dissertation synthesizing the documented trajectory
-  of Knowledge Compilation, Ganymede, Sovereign Worker, MindBroadcast, Recursive Trajectory
-  Cryptography, and search-quality evaluation into a single design principle: epistemically
-  governed computation.
+twitter:description: "A research dissertation synthesizing the documented trajectory of Knowledge Compilation, Ganymede, Sovereign Worker, MindBroadcast, Recursive Trajectory Cryptography, and search-quality evaluation into a single design principle: epistemically governed computation."
 twitter:image: /images/1020001.png
-twitter:title: Toward a General Theory of Governed Intelligence
+twitter:title: "Toward a General Theory of Governed Intelligence"
 wiki_references: []
 ---
 # Toward a General Theory of Governed Intelligence
